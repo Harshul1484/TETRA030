@@ -60,7 +60,7 @@ export default async function GraphPage() {
           ))}
       </div>
 
-      <Card className="bg-slate-900/20">
+      <Card block="var(--color-block-sky)">
         <SectionTitle>Why this is a graph, not a table</SectionTitle>
         <p className="text-[15px] leading-relaxed text-[var(--color-ink-secondary)]">
           The edges are what make the analysis actionable. Knowing a curriculum

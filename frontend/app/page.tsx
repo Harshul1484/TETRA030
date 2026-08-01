@@ -41,7 +41,7 @@ export default async function DashboardPage() {
       <section className="max-w-4xl">
         <span
           className="micro-cap inline-block rounded-[var(--radius-full)] px-3 py-1.5"
-          style={{ backgroundColor: "var(--color-block-cream)" }}
+          style={{ backgroundColor: "var(--color-block-butter)" }}
         >
           Curriculum audit
         </span>
@@ -58,7 +58,7 @@ export default async function DashboardPage() {
       </section>
 
       <section className="grid gap-6 lg:grid-cols-4">
-        <Card block="var(--color-block-lilac)" className="lg:col-span-1">
+        <Card block="var(--color-block-periwinkle)" className="lg:col-span-1">
           <p className="micro-cap text-[var(--color-ink)]">Program alignment</p>
           <div className="mt-4">
             <HealthScore score={programAlignment} />
@@ -162,21 +162,21 @@ export default async function DashboardPage() {
       <section>
         <SectionTitle>Reading the alignment score</SectionTitle>
         <div className="grid gap-5 sm:grid-cols-3">
-          <Card block="var(--color-block-mint)">
+          <Card block="var(--color-block-sage)">
             <p className="tabular display-md">60 to 100</p>
             <p className="mt-3 text-[16px] text-[var(--color-ink-soft)]">
               Strong coverage of its own subject area. Remaining gaps are
               specialised.
             </p>
           </Card>
-          <Card block="var(--color-block-cream)">
+          <Card block="var(--color-block-butter)">
             <p className="tabular display-md">30 to 60</p>
             <p className="mt-3 text-[16px] text-[var(--color-ink-soft)]">
               Meaningful drift. Several in-demand skills in this field are
               uncovered but reachable.
             </p>
           </Card>
-          <Card block="var(--color-block-pink)">
+          <Card block="var(--color-block-orchid)">
             <p className="tabular display-md">Below 30</p>
             <p className="mt-3 text-[16px] text-[var(--color-ink-soft)]">
               Substantial misalignment. Skills core to this subject area are

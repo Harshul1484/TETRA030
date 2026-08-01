@@ -104,7 +104,7 @@ export function AugmentPanel({ courseCode }: { courseCode: string }) {
               return (
                 <div
                   key={section.key}
-                  className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-white p-6"
+                  className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] p-6"
                 >
                   <h3 className="heading-sm text-[var(--color-ink)]">
                     {section.title}

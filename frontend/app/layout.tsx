@@ -29,13 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} min-h-screen antialiased`}>
-        <header className="sticky top-0 z-20 border-b border-[var(--color-hairline)] bg-white/90 backdrop-blur">
+        <header className="sticky top-0 z-20 border-b border-[var(--color-hairline)] bg-[var(--color-surface)]/90 backdrop-blur">
           <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-x-10 gap-y-3 px-6 py-5">
             <Link href="/" className="flex items-center gap-2.5">
               <span
                 aria-hidden
                 className="inline-block h-4 w-4 rounded-[5px]"
-                style={{ backgroundColor: "var(--color-block-lilac)" }}
+                style={{ backgroundColor: "var(--color-block-periwinkle)" }}
               />
               <span className="text-[17px] font-semibold tracking-tight">
                 CurricuAlign
@@ -56,7 +56,7 @@ export default function RootLayout({
 
             <span
               className="micro-cap ml-auto hidden rounded-[var(--radius-full)] px-2.5 py-1 sm:inline-block"
-              style={{ backgroundColor: "var(--color-block-lime)" }}
+              style={{ backgroundColor: "var(--color-block-moss)" }}
             >
               TETRA030
             </span>

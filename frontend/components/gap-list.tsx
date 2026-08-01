@@ -43,7 +43,7 @@ export function GapList({ gaps }: { gaps: SkillGap[] }) {
     return (
       <div
         className="rounded-[var(--radius-lg)] p-8 text-[16px]"
-        style={{ backgroundColor: "var(--color-block-mint)" }}
+        style={{ backgroundColor: "var(--color-block-sage)" }}
       >
         No gaps found. This curriculum covers the analysed market demand.
       </div>
@@ -63,7 +63,7 @@ export function GapList({ gaps }: { gaps: SkillGap[] }) {
           return (
             <article
               key={gap.canonical_skill}
-              className="flex flex-col overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-white transition-colors hover:border-[var(--color-ink)]"
+              className="flex flex-col overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] transition-colors hover:border-[var(--color-ink)]"
             >
               {/* The demand figure is the reason a gap matters, so it is the
                   largest thing on the card and sits in its category colour. */}

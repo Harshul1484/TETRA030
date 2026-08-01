@@ -13,40 +13,41 @@
    and negative display tracking. */
 
 @theme inline {
-  /* Monochrome frame */
-  --color-ink: #000000;
-  --color-ink-soft: #4a4a4a;
-  --color-ink-mute: #767676;
-  --color-canvas: #ffffff;
-  --color-inverse-canvas: #1f1d3d;
-  --color-hairline: #e6e6e6;
-  --color-hairline-soft: #f1f1f1;
-  --color-surface-soft: #f7f7f5;
+  /* Monochrome frame on a warm bone canvas rather than stark white. The
+     warmth is what stops a data-dense page reading as a spreadsheet. */
+  --color-ink: #16171a;
+  --color-ink-soft: #4a4d52;
+  --color-ink-mute: #7b7f86;
+  --color-canvas: #f2f1ea;
+  --color-surface: #ffffff;
+  --color-surface-soft: #e8e7de;
+  --color-hairline: #cfcec4;
+  --color-hairline-strong: #16171a;
 
-  /* Pastel blocks, mapped to skill categories */
-  --color-block-lime: #dceeb1;
-  --color-block-lilac: #c5b0f4;
-  --color-block-cream: #f4ecd6;
-  --color-block-pink: #efd4d4;
-  --color-block-mint: #c8e6cd;
-  --color-block-coral: #f3c9b6;
-  --color-block-navy: #1f1d3d;
-  --color-block-sky: #cfe3f7;
+  /* Saturated blocks, mapped to skill categories. Deeper than pastels so a
+     panel holds its own against the bone canvas. */
+  --color-block-orchid: #e4a8e0;
+  --color-block-sage: #9dbdb0;
+  --color-block-periwinkle: #b3a7e8;
+  --color-block-butter: #e8d9a0;
+  --color-block-clay: #dba98c;
+  --color-block-sky: #a8c4dd;
+  --color-block-moss: #b9c98a;
+  --color-block-stone: #d6d5cb;
 
-  --color-accent: #ff3d8b;
-  --color-success: #1ea64a;
+  --color-accent: #16171a;
+  --color-success: #2f7d5b;
 
-  /* Severity. Deeper than the pastels so a critical gap still reads as
-     urgent against a page full of soft colour. */
-  --color-severity-critical: #c2185b;
-  --color-severity-high: #b45309;
-  --color-severity-moderate: #8a6d1f;
-  --color-severity-low: #767676;
+  /* Severity, deep enough to read as urgent against saturated blocks. */
+  --color-severity-critical: #a8243f;
+  --color-severity-high: #a15616;
+  --color-severity-moderate: #7d6414;
+  --color-severity-low: #7b7f86;
 
-  --radius-xs: 4px;
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
   --radius-full: 9999px;
 
   --font-sans: var(--font-inter), system-ui, sans-serif;

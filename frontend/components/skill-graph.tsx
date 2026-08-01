@@ -263,7 +263,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
 
   return (
     <div className="grid gap-4 lg:grid-cols-[1fr_300px]">
-      <div className="overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-white">
+      <div className="overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)]">
         <canvas
           ref={canvasRef}
           width={900}
@@ -273,11 +273,11 @@ export function SkillGraph({ data }: { data: GraphData }) {
         />
         <div className="flex flex-wrap items-center gap-4 border-t border-[var(--color-hairline)] px-5 py-3.5 caption text-[var(--color-ink-mute)]">
           <span className="flex items-center gap-1.5">
-            <span className="inline-block h-3 w-3 rounded-full border-2 border-black bg-white" />
+            <span className="inline-block h-3 w-3 rounded-full border-2 border-black bg-[var(--color-surface)]" />
             taught
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="inline-block h-3 w-3 rounded-full" style={{ backgroundColor: "var(--color-block-lilac)" }} />
+            <span className="inline-block h-3 w-3 rounded-full" style={{ backgroundColor: "var(--color-block-periwinkle)" }} />
             gap
           </span>
           <span>node size is market demand</span>
@@ -285,7 +285,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
         </div>
       </div>
 
-      <aside className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-white p-6">
+      <aside className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] p-6">
         {!selected ? (
           <p className="text-[16px] text-[var(--color-ink-mute)]">
             Select a skill to see what a course would need to teach first.
@@ -343,7 +343,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
                 </div>
               </div>
             ) : chain ? (
-              <p className="mt-5 border-t border-[var(--color-hairline)] pt-4 text-xs text-slate-500">
+              <p className="mt-5 border-t border-[var(--color-hairline)] pt-4 caption text-[var(--color-ink-mute)]">
                 No prerequisites recorded. This is a foundational skill.
               </p>
             ) : null}

@@ -19,7 +19,7 @@ export function Card({
   if (block) {
     return (
       <div
-        className={`rounded-[var(--radius-lg)] p-8 ${className}`}
+        className={`rounded-[var(--radius-lg)] border border-[var(--color-hairline)] p-8 ${className}`}
         style={{ backgroundColor: block }}
       >
         {children}
@@ -29,7 +29,7 @@ export function Card({
 
   return (
     <div
-      className={`rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-white p-8 ${className}`}
+      className={`rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] p-8 ${className}`}
     >
       {children}
     </div>
@@ -163,7 +163,7 @@ export function Button({
   const variants = {
     primary: "bg-[var(--color-ink)] text-white hover:bg-[var(--color-ink-soft)]",
     secondary:
-      "bg-white text-[var(--color-ink)] border border-[var(--color-ink)] hover:bg-[var(--color-surface-soft)]",
+      "bg-[var(--color-surface)] text-[var(--color-ink)] border border-[var(--color-ink)] hover:bg-[var(--color-surface-soft)]",
     quiet:
       "bg-transparent text-[var(--color-ink-mute)] hover:text-[var(--color-ink)]",
   };
@@ -182,16 +182,16 @@ export function Button({
 
 export function ErrorPanel({ message }: { message: string }) {
   return (
-    <Card block="var(--color-block-pink)">
+    <Card block="var(--color-block-orchid)">
       <p className="card-title text-[var(--color-ink)]">Could not load data</p>
       <p className="mt-3 text-[16px] text-[var(--color-ink-soft)]">{message}</p>
       <p className="caption mt-5 text-[var(--color-ink-soft)]">
         The API may not be running. Start it with{" "}
-        <code className="rounded-[var(--radius-xs)] bg-white/70 px-1.5 py-0.5 font-mono">
+        <code className="rounded-[var(--radius-xs)] bg-[var(--color-surface)]/70 px-1.5 py-0.5 font-mono">
           docker compose up -d
         </code>{" "}
         then seed it with{" "}
-        <code className="rounded-[var(--radius-xs)] bg-white/70 px-1.5 py-0.5 font-mono">
+        <code className="rounded-[var(--radius-xs)] bg-[var(--color-surface)]/70 px-1.5 py-0.5 font-mono">
           docker compose exec backend python -m app.seed
         </code>
       </p>

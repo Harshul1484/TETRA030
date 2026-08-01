@@ -71,7 +71,7 @@ export default function AboutPage() {
         </ol>
       </Card>
 
-      <Card block="var(--color-block-lilac)">
+      <Card block="var(--color-block-periwinkle)">
         <SectionTitle>What makes this different</SectionTitle>
         <p className="text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
           Most curriculum tools compare word lists and report what is missing.
@@ -87,7 +87,7 @@ export default function AboutPage() {
         </p>
       </Card>
 
-      <Card block="var(--color-block-pink)">
+      <Card block="var(--color-block-orchid)">
         <SectionTitle>Honest limitations</SectionTitle>
         <ul className="space-y-2.5 text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
           <li>
@@ -114,7 +114,7 @@ export default function AboutPage() {
         </ul>
       </Card>
 
-      <Card block="var(--color-block-cream)">
+      <Card block="var(--color-block-butter)">
         <SectionTitle>Stack</SectionTitle>
         <dl className="grid gap-3 text-sm sm:grid-cols-2">
           {[
