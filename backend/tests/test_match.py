@@ -51,15 +51,18 @@ def test_exact_alias_resolves_without_touching_the_index():
 
 
 def test_paraphrase_falls_through_to_vector_search():
+    """A phrase sharing no keywords with any skill name must still resolve.
+    0.776 is the real measured similarity for this phrase against the
+    438-skill taxonomy."""
     index = StubIndex(
-        {"orchestrating containers at scale": [("Kubernetes", 0.72)]}
+        {"orchestrating containers at scale": [("Kubernetes", 0.776)]}
     )
     matcher = VectorMatcher(index, _taxonomy())
 
     pair = matcher.match_one(_mention("orchestrating containers at scale"))
 
     assert pair.canonical_skill == "Kubernetes"
-    assert pair.similarity == 0.72
+    assert pair.similarity == 0.776
 
 
 def test_weak_vector_hits_are_discarded():
@@ -85,7 +88,7 @@ def test_empty_index_results_yield_no_pair():
 
 def test_match_returns_only_scored_pairs():
     """The seam contract: downstream code sees ScoredPair and nothing else."""
-    index = StubIndex({"container orchestration platform": [("Kubernetes", 0.6)]})
+    index = StubIndex({"container orchestration platform": [("Kubernetes", 0.71)]})
     matcher = VectorMatcher(index, _taxonomy())
 
     pairs = matcher.match(
@@ -116,6 +119,48 @@ def test_exact_matcher_satisfies_the_same_interface():
     assert len(pairs) == 1
     assert pairs[0].canonical_skill == "Kubernetes"
     assert isinstance(pairs[0], ScoredPair)
+
+
+def test_threshold_rejects_measured_false_positives():
+    """Regression guard on the calibrated floor.
+
+    These similarity values are real measurements against the 438-skill
+    taxonomy: ordinary syllabus prose scored this highly against unrelated
+    skills. Before calibration the floor was 0.35 and every one of these
+    would have entered the gap report as a phantom skill with fabricated
+    evidence.
+    """
+    measured_false_positives = [
+        ("the cafeteria serves lunch at noon", "Service Mesh", 0.565),
+        ("office hours are held on tuesday afternoons", "Cron Scheduling", 0.619),
+        ("the quarterly marketing budget was approved", "SLOs and Error Budgets", 0.600),
+        ("this module carries four credit hours", "Payment Integration", 0.594),
+    ]
+
+    for phrase, wrong_skill, similarity in measured_false_positives:
+        index = StubIndex({phrase: [(wrong_skill, similarity)]})
+        matcher = VectorMatcher(index, _taxonomy())
+        assert matcher.match_one(_mention(phrase)) is None, (
+            f"{phrase!r} matched {wrong_skill} at {similarity}"
+        )
+
+
+def test_threshold_accepts_measured_true_positives():
+    """The counterpart guard: a floor set too high would silently discard
+    every paraphrase and reduce the system to keyword matching."""
+    measured_true_positives = [
+        ("orchestrating containers", "Kubernetes", 0.776),
+        ("training neural networks", "Deep Learning", 0.745),
+        ("deploying models to production", "Model Deployment", 0.744),
+        ("analysing large datasets", "Big Data", 0.643),
+    ]
+
+    for phrase, right_skill, similarity in measured_true_positives:
+        index = StubIndex({phrase: [(right_skill, similarity)]})
+        matcher = VectorMatcher(index, _taxonomy())
+        pair = matcher.match_one(_mention(phrase))
+        assert pair is not None, f"{phrase!r} was rejected at {similarity}"
+        assert pair.canonical_skill == right_skill
 
 
 def test_vector_matcher_degrades_to_exact_when_index_unavailable():
