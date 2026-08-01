@@ -60,7 +60,7 @@ export default async function LandingPage() {
             Your curriculum is three years behind. Here is the receipt.
           </h1>
           <p className="body-lg mt-7 max-w-xl text-[var(--color-ink-soft)]">
-            CurricuAlign reads a syllabus, compares it against live job postings
+            Vedha reads a syllabus, compares it against live job postings
             through a shared skill ontology, and reports not just what is
             missing but what it would cost to teach.
           </p>

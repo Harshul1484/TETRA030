@@ -43,7 +43,7 @@ export default function AboutPage() {
         <p className="body-lg mt-5 max-w-3xl text-[var(--color-ink-soft)]">
           Higher education curricula lag three to five years behind market
           demand, and institutions have no automated way to measure the drift.
-          CurricuAlign maps course outcomes and live job postings onto one skill
+          Vedha maps course outcomes and live job postings onto one skill
           ontology, then quantifies the distance between them.
         </p>
       </section>

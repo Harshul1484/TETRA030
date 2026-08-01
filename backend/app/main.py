@@ -9,7 +9,7 @@ from app.config import settings
 logging.basicConfig(level=logging.INFO)
 
 app = FastAPI(
-    title="CurricuAlign AI",
+    title="Vedha",
     version="0.1.0",
     description=(
         "Audits university syllabi against live job market data. Maps course "

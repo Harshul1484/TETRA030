@@ -1,10 +1,12 @@
-# CurricuAlign AI
+# Vedha
 
 **TETRA030** | TetraTHON 2026, Track D (EdTech) | Problem Statement 1: Dynamic Syllabus and Industry Skill-Gap Synchronizer
 
+*Vedha* means to pierce through. That is what the prerequisite chain does to a curriculum: it cuts past the surface question of what a syllabus is missing to the one that matters, which is what it would cost to teach.
+
 Higher education curricula lag three to five years behind market demand. Institutions have no automated way to audit a syllabus against live job market data, so graduates earn top grades while carrying severe skill gaps.
 
-CurricuAlign AI ingests real syllabi and real job postings, maps both onto a shared skill ontology in Neo4j, quantifies the gap with evidence, and generates syllabus modifications a professor can adopt without redesigning the course.
+Vedha ingests real syllabi and real job postings, maps both onto a shared skill ontology in Neo4j, quantifies the gap with evidence, and generates syllabus modifications a professor can adopt without redesigning the course.
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
@@ -26,6 +28,19 @@ A keyword diff reports that a syllabus lacks Retrieval Augmented Generation. Tha
 A recommendation becomes *"you cannot teach RAG until this chain is covered, in this order"* rather than *"you are missing RAG"*. Adding Kubernetes to a course already teaching Docker is one hop and cheap; adding RAG to a course covering none of its prerequisites is a different conversation entirely.
 
 That is also the answer to **why a graph database**: it is a variable-length path search, which a relational schema answers only with a recursive query that degrades with every hop.
+
+### Every number in this repository is real
+
+No mock data, no seeded fixtures, no hardcoded fallback skill lists.
+
+| | Source |
+|---|---|
+| 305 job postings | Fetched from Arbeitnow and Remotive, committed as a snapshot |
+| 8 course syllabi | Actual MSU Baroda BCA documents, split from the semester PDF |
+| 438 skills, 1474 aliases | Hand-curated taxonomy, every alias collision rejected at load time |
+| Every gap figure | Computed from the graph at request time |
+
+The screenshots below are of the running application against that data. The hero panel on the landing page is a live API call, not an image.
 
 ---
 

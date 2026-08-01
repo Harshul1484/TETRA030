@@ -1,5 +1,5 @@
 /**
- * Typed client for the CurricuAlign API.
+ * Typed client for the Vedha API.
  *
  * Response shapes are derived from lib/api-types.ts, which is generated from
  * the backend's OpenAPI schema. Regenerate after changing an endpoint:

@@ -147,7 +147,7 @@ def build_record(
 def fetch_json(url: str) -> dict:
     """Decode explicitly as UTF-8 rather than letting json infer it."""
     request = urllib.request.Request(
-        url, headers={"User-Agent": "CurricuAlign-AI/0.1 (hackathon project)"}
+        url, headers={"User-Agent": "Vedha-AI/0.1 (hackathon project)"}
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.loads(response.read().decode("utf-8"))
