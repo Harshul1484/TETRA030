@@ -1,0 +1,9 @@
+# Force LF for everything the Linux containers execute or parse.
+# Without this, Windows checkouts produce CRLF, which breaks shebangs
+# and shell scripts inside the container.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.ico binary
