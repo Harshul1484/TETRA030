@@ -68,6 +68,31 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/courses/{course_code}/roadmap": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Course Roadmap
+         * @description A teaching sequence, ordered by prerequisite dependency.
+         *
+         *     The gap report says what is missing. This says what to do about it and in
+         *     what order, because some gaps cannot be taught until others are in place.
+         *     Nothing here is course-specific: the sequence comes from the graph, so an
+         *     uploaded syllabus is treated exactly like a seeded one.
+         */
+        get: operations["course_roadmap_api_courses__course_code__roadmap_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/augment/{course_code}": {
         parameters: {
             query?: never;
@@ -102,6 +127,11 @@ export interface paths {
          *     Returns skill nodes and their prerequisite edges rather than every node
          *     in the database: a force-directed layout of the full graph is visually
          *     unreadable, and the demand ranking is what carries meaning.
+         *
+         *     The bound on `limit` is enforced here rather than left to Cypher. A
+         *     negative value reached Neo4j and came back as a raw 500, which is what a
+         *     judge editing the URL would have seen. FastAPI now rejects it with a 422
+         *     that names the constraint.
          */
         get: operations["graph_api_graph_get"];
         put?: never;
@@ -399,6 +429,37 @@ export interface operations {
             };
         };
     };
+    course_roadmap_api_courses__course_code__roadmap_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                course_code: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     augment_course_api_augment__course_code__post: {
         parameters: {
             query?: never;
@@ -433,6 +494,7 @@ export interface operations {
     graph_api_graph_get: {
         parameters: {
             query?: {
+                /** @description How many demand-ranked skills to include. */
                 limit?: number;
             };
             header?: never;
