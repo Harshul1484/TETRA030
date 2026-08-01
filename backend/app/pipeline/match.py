@@ -16,8 +16,21 @@ from app.taxonomy.loader import TaxonomyIndex
 logger = logging.getLogger(__name__)
 
 # Below this similarity a vector hit is more likely noise than a real match.
-# Tuned against the taxonomy: unrelated phrases typically score under 0.30.
-MIN_SIMILARITY = 0.35
+#
+# Calibrated empirically against the loaded taxonomy rather than guessed.
+# Measured with all-MiniLM-L6-v2 over 438 skills:
+#
+#   genuine skill phrases      0.643 - 0.776
+#   unrelated syllabus prose   0.554 - 0.619
+#
+# The bands are separated by only 0.024, so the floor sits inside that gap.
+# An earlier value of 0.35 accepted every false positive: "the cafeteria
+# serves lunch at noon" matched Service Mesh at 0.565, which would have put
+# a phantom skill in the gap report with fabricated evidence.
+#
+# Re-run scripts/calibrate_threshold.py after changing the embedding model,
+# since the absolute scale shifts between models.
+MIN_SIMILARITY = 0.63
 
 
 class VectorMatcher:
