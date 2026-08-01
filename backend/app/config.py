@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     chroma_path: str = "/app/data/chroma"
     llm_cache_path: str = "/app/data/llm_cache"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
-    cors_origins: str = "http://localhost:3000"
+    cors_origins: str = "http://localhost:3000,http://127.0.0.1:3000"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 

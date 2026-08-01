@@ -39,13 +39,7 @@ export default async function DashboardPage() {
   return (
     <div className="space-y-20">
       <section className="max-w-4xl">
-        <span
-          className="micro-cap inline-block rounded-[var(--radius-full)] px-3 py-1.5"
-          style={{ backgroundColor: "var(--color-block-butter)" }}
-        >
-          Curriculum audit
-        </span>
-        <h1 className="display-xl mt-6 text-[var(--color-ink)]">
+        <h1 className="display-xl text-[var(--color-ink)]">
           Where the syllabus and the job market diverge
         </h1>
         <p className="body-lg mt-6 max-w-2xl text-[var(--color-ink-soft)]">

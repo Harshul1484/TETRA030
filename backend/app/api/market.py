@@ -8,7 +8,7 @@ when the model lands.
 
 from collections import defaultdict
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Query
 
 from app.contracts import SkillTrend, TrendPoint
 from app.db.queries import fetch_trend_rows
@@ -17,7 +17,9 @@ router = APIRouter(prefix="/api", tags=["market"])
 
 
 @router.get("/market/trends", response_model=list[SkillTrend])
-def trends(limit: int = 20) -> list[SkillTrend]:
+def trends(
+    limit: int = Query(default=20, ge=1, le=100),
+) -> list[SkillTrend]:
     rows = fetch_trend_rows()
 
     buckets: dict[str, list[TrendPoint]] = defaultdict(list)

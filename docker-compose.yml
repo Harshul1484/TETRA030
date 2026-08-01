@@ -22,6 +22,10 @@ services:
     env_file: .env
     environment:
       NEO4J_URI: bolt://neo4j:7687
+      # Both loopback spellings. A browser on 127.0.0.1:3000 is a different
+      # origin from localhost:3000, and the mismatch silently blocked every
+      # client-side request with no visible error.
+      CORS_ORIGINS: http://localhost:3000,http://127.0.0.1:3000
     volumes:
       - ./backend:/app
       - ./data:/app/data

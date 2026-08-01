@@ -47,7 +47,7 @@ export default async function GraphPage() {
           .map(([key, block]) => (
             <span
               key={key}
-              className="micro-cap inline-flex items-center gap-1.5 rounded-[var(--radius-full)] px-3 py-1.5"
+              className="micro-cap inline-flex items-center gap-1.5 rounded-[var(--radius-xs)] px-2.5 py-1.5"
               style={{ backgroundColor: block.bg }}
             >
               <span

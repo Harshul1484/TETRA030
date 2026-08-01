@@ -57,10 +57,7 @@ export default function RootLayout({
               ))}
             </nav>
 
-            <span
-              className="micro-cap ml-auto hidden rounded-[var(--radius-full)] px-3 py-1.5 sm:inline-block"
-              style={{ backgroundColor: "var(--color-block-moss)" }}
-            >
+            <span className="tabular ml-auto hidden text-[13px] text-[var(--color-ink-mute)] sm:inline-block">
               TETRA030
             </span>
           </div>
