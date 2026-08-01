@@ -1856,7 +1856,7 @@
   },
   {
     "canonical_name": "Code Review",
-    "category": "engineering",
+    "category": "professional",
     "aliases": [
       "peer review",
       "pull requests"
@@ -1867,7 +1867,7 @@
   },
   {
     "canonical_name": "Agile Methodology",
-    "category": "engineering",
+    "category": "professional",
     "aliases": [
       "agile",
       "scrum",
@@ -4860,7 +4860,7 @@
   },
   {
     "canonical_name": "Pair Programming",
-    "category": "engineering",
+    "category": "professional",
     "aliases": [
       "pair programming",
       "pairing",
@@ -5133,7 +5133,7 @@
   },
   {
     "canonical_name": "Technical Interviewing",
-    "category": "engineering",
+    "category": "professional",
     "aliases": [
       "technical interviewing",
       "coding interviews",
@@ -5147,7 +5147,7 @@
   },
   {
     "canonical_name": "Mentoring",
-    "category": "engineering",
+    "category": "professional",
     "aliases": [
       "mentoring",
       "technical mentorship",
@@ -5161,7 +5161,7 @@
   },
   {
     "canonical_name": "Code Ownership",
-    "category": "engineering",
+    "category": "professional",
     "aliases": [
       "code ownership",
       "codeowners",
@@ -5175,7 +5175,7 @@
   },
   {
     "canonical_name": "Open Source Contribution",
-    "category": "engineering",
+    "category": "professional",
     "aliases": [
       "open source contribution",
       "oss contribution",

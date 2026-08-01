@@ -1,0 +1,70 @@
+CS301: DATABASE SYSTEMS
+Department of Computer Science and Engineering
+Credits: 4 | Semester: 5
+
+COURSE DESCRIPTION
+
+This course introduces the design and implementation of relational database
+systems. Students learn conceptual data modelling, the relational model,
+query languages, and the internal mechanisms that allow a database engine to
+execute queries efficiently and safely under concurrent access.
+
+COURSE OUTCOMES
+
+On completion of this course, students will be able to:
+
+CO1. Construct entity relationship diagrams for a given problem domain and
+     translate them into relational schemas.
+
+CO2. Apply normalization up to Boyce-Codd normal form to eliminate redundancy
+     and update anomalies from a relational design.
+
+CO3. Write SQL queries involving joins, aggregation, nested subqueries, and
+     set operations against a relational database.
+
+CO4. Explain the ACID properties and analyse how transaction isolation levels
+     affect concurrent execution.
+
+CO5. Describe indexing structures including B-plus trees and hash indexes, and
+     evaluate their effect on query performance.
+
+CO6. Trace the execution of a query through parsing, optimization, and physical
+     plan selection.
+
+UNIT 1: INTRODUCTION AND DATA MODELLING (10 hours)
+Database system architecture. Three schema architecture. Data independence.
+Entity relationship modelling, weak entities, generalization and aggregation.
+Converting an ER diagram to a relational schema.
+
+UNIT 2: THE RELATIONAL MODEL (10 hours)
+Relational algebra and relational calculus. Integrity constraints. Primary and
+foreign keys. Introduction to Structured Query Language.
+
+UNIT 3: SQL IN DEPTH (12 hours)
+Data definition and data manipulation. Joins, nested queries, aggregation and
+grouping. Views. Stored procedures and triggers. Embedded SQL.
+
+UNIT 4: DATABASE DESIGN THEORY (10 hours)
+Functional dependencies. Armstrong axioms. Closure computation. Lossless join
+and dependency preserving decomposition. First, second, third and Boyce-Codd
+normal forms.
+
+UNIT 5: TRANSACTIONS AND STORAGE (12 hours)
+Transaction concepts and ACID properties. Serializability. Two phase locking.
+Deadlock handling. Recovery using write ahead logging. File organization,
+indexing with B-plus trees, and hashing.
+
+LABORATORY WORK
+
+Students implement a small library management system using MySQL, writing the
+schema, populating sample data, and producing reports using SQL queries.
+
+TEXTBOOKS
+
+1. Silberschatz, Korth and Sudarshan, Database System Concepts, 6th edition.
+2. Elmasri and Navathe, Fundamentals of Database Systems, 7th edition.
+
+ASSESSMENT
+
+Internal assessment 40 marks, end semester examination 60 marks. Laboratory
+evaluation is conducted separately and carries 50 marks.
