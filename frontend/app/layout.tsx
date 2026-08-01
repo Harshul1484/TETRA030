@@ -29,8 +29,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} min-h-screen antialiased`}>
-        <header className="sticky top-0 z-20 border-b border-[var(--color-hairline)] bg-[var(--color-surface)]/90 backdrop-blur">
-          <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-x-10 gap-y-3 px-6 py-5">
+        {/* A floating pill rather than a full-width bar. Detaching the nav
+            from the page edge lets the warm canvas run behind it, which is
+            what keeps the page feeling like paper rather than an app chrome. */}
+        <header className="sticky top-0 z-20 px-4 pt-4 sm:px-6 sm:pt-6">
+          <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-x-8 gap-y-3 rounded-[var(--radius-full)] border border-[var(--color-hairline)] bg-[var(--color-surface)]/95 px-6 py-3.5 backdrop-blur sm:px-8">
             <Link href="/" className="flex items-center gap-2.5">
               <span
                 aria-hidden
@@ -42,7 +45,7 @@ export default function RootLayout({
               </span>
             </Link>
 
-            <nav className="flex gap-7 text-[15px]">
+            <nav className="flex gap-6 text-[15px] sm:gap-7">
               {NAV.map((item) => (
                 <Link
                   key={item.href}
@@ -55,7 +58,7 @@ export default function RootLayout({
             </nav>
 
             <span
-              className="micro-cap ml-auto hidden rounded-[var(--radius-full)] px-2.5 py-1 sm:inline-block"
+              className="micro-cap ml-auto hidden rounded-[var(--radius-full)] px-3 py-1.5 sm:inline-block"
               style={{ backgroundColor: "var(--color-block-moss)" }}
             >
               TETRA030
@@ -63,7 +66,7 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="mx-auto max-w-[1180px] px-6 py-14">{children}</main>
+        <main className="mx-auto max-w-[1180px] px-6 py-12">{children}</main>
 
         <footer className="mt-24 border-t border-[var(--color-hairline)]">
           <div className="mx-auto max-w-[1180px] px-6 py-10">
