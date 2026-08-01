@@ -1,0 +1,965 @@
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Application
+BCA (Web Application Development): Regular Programme
+Elective
+Year 3 Credits / Hours per week 04 Cr
+BCA1513: Web Application Development
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Mode of Transaction Lectures
+Course Outcome (CO) BCA1501
+CO1 To gather knowledge about backend and frontend technologies
+CO2 To develop web applications using latest tools.
+CO3 Creating fullstack applications with all JavaScript technologies.
+CO4 Using MongoDB for database connectivity
+CO5 Creating API with NodeJS
+CO6 Develop fully working applications that can be used on cross-platforms.
+CO7 Implement a RESTful backend API.
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Introduction to Back-end technologies: ASP.NET,JSP,
+PHP,NodeJS,Express
+NodeJS
+CO1
+Introduction to Node.js, Installing node js, basics of Node
+CO2 PSO1
+terminal, node in built modules, npm
+12 20 1,2,4 CO3 PSO2
+CO5 PSO4
+Express
+Introduction to express, starting our own localhost server
+using express, request and response using express,
+Installing and using the nodemon
+routing, responding the request, body parser module
+2 Creating APIs with Node & Express
+Introduction to API's, Introduction to JSON and using
+openweather api, Weather forecasting-web application,
+https get request for JSON, parsing the JSON, Getting live
+api data using express
+REST API
+REST API introduction, GET method, POST Method,
+CO1
+DELETE Method
+CO2
+CO3 PSO1
+12 20 1,2,3 CO4 PSO2
+MongoDB
+CO5 PSO4
+An Introduction to MongoDB and NoSQL
+CO7
+Databases,Using MongoShell (Command Line Interface),
+Using Mongo Compass (Graphic Interface),Working with
+robo 3T(mongo db gui), Connecting MongoDB to Our
+Node/Express Backend, JSON for MongoDB data storage,
+Creating, Updating, and Deleting Data, Filtering Data with
+MongoDB, Refactoring and Improving Our Code
+3 Introduction to Front-end Technologies: React, Angular,
+CO1
+Vue PSO1
+CO2
+18 30 1,2,3 PSO2
+CO3
+React PSO4
+CO6
+Introduction to React, Hello World in React, Folder
+Structure, JSX,UI Components with JSX, React
+Components, React Props, React State
+Lists Using Map function, Using CSS in ReactJs, Form
+Handling in React, Routing with React Route
+4 React Hooks
+Introduction to React Hooks, useState React Hook, Form
+Handling in React with Hooks, useEffect React Hook
+Deploying project on Heroku
+Working with JavaScript frameworks
+CO1
+Strapi, Next.js, GraphQL etc. PSO1
+CO2
+18 30 1,2,3 PSO2
+CO3
+Redux PSO4
+CO6
+Introduction to Reduxm, How Redux works, Why use
+Redux, Pure functions, Redux middleware, Asynchronous
+actions, Redux-logger, Redux-thunk, API requests in
+React, Context API, Connecting React & Redux
+Reference Books
+Node.js in Action By Alex R. Young, Bradley Meck, Mike Cantelon, Tim Oxley, Marc Harter, TJ Holowaychuk, Nathan Rajlich · 2017
+1.
+Manning
+2. Learning React Functional Web Development with React and Redux By Alex Banks, Eve Porcello · 2017 Oreilly
+3.
+Building React. Js Applications with Redux By David Geary Addison Wesley
+4.
+Pro MERN Stack Full Stack Web App Development with Mongo, Express, React, and Node By Vasan Subramanian · 2019 Apress
+5. Full-Stack React Projects Modern Web Development Using React 16, Node, Express, and MongoDB By Sai Kishore Komanduri, Shama
+Hoque · 2018 Packt
+6.
+MERN Quick Start Guide Build Web Applications with MongoDB, Express.js, React, and Node By Eddy Wilson · 2018 Packt
+7. Full-Stack React Projects Learn MERN Stack Development by Building Modern Web Apps Using MongoDB, Express, React, and Node.js,
+2nd Edition By Shama Hoque · 2020 Packt
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4.Analysis 5.Evaluation 6. Creation
+Programme Name: B.C.A
+Programme Specific Outcome (PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics, statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture.
+PSO6 Learning Database management system along with designing, query processing and managing databases using application programs.
+PSO7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO8 Generating solutions in societal and environmental contexts.
+PSO9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming, designing, analyzing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Application
+BCA: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04
+BCAXXXX: Algorithms Design and Analysis
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCAXXXX
+CO1. Analyze the asymptotic performance of algorithms.
+CO2. Write rigorous correctness proofs for algorithms.
+CO3. Demonstrate a familiarity with major algorithms and data structures.
+CO4. Apply important algorithmic design paradigms and methods of analysis.
+CO5. Synthesize efficient algorithms in common engineering design situations.
+Unit Topic/Unit Conta Weightage BT CO PSO Element Relevan Relation
+No. ct (%) Level s of ce to to
+Hour Employa Local Gender
+s bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Basics of Algorithms and Mathematics:
+What is an algorithm?, Mathematics for Algorithmic Sets,
+Functions and
+Relations, Vectors and Matrices, Linear Inequalities and
+Linear Equations.
+Analysis of Algorithm:
+The efficient algorithm, Average, Best and worst case CO1, PS02,P
+analysis, Amortized
+22 36% 1,2, 3, 6 CO2, S03,PS
+analysis , Asymptotic Notations, Analyzing control
+CO3 04
+statement, Loop
+invariant and the correctness of the algorithm, Sorting
+Algorithms and
+analysis: Bubble sort, Selection sort, Insertion sort, Shell sort
+Heap sort,
+Sorting in linear time : Bucket sort, Radix sort and Counting
+sort
+2 Divide and Conquer Algorithm:
+Introduction, Recurrence and different methods to
+solve recurrence,
+Multiplying large Integers Problem, Problem Solving
+using divide and
+conquer algorithm - Binary Search, Max-Min
+problem, Sorting (Merge Sort, Quick Sort), Matrix
+Multiplication, Exponential.
+PS02,P
+18 30% 1,2,4,5,6 CO4, S03,PS
+Dynamic Programming:
+04
+Introduction, The Principle of Optimality, Problem
+Solving using
+Dynamic Programming – Calculating the Binomial
+Coefficient, Making Change Problem, Assembly
+Line-Scheduling, Knapsack problem, All Points
+Shortest path, Matrix chain multiplication, Longest
+Common
+Subsequence.
+3 Greedy Algorithm
+PS02,P
+General Characteristics of greedy algorithms,
+12 20% 1,2,3,6 CO5 S03,PS
+Problem solving using Activity selection problem,
+04
+Elements of Greedy Strategy, Minimum
+Spanning trees (Kruskal’s algorithm, Prim’s algorithm),
+Graphs: Shortest
+paths, The Knapsack Problem, Job Scheduling Problem,
+Huffman code.
+Stochastic Algorithm
+4 Introduction to NP-Completeness:
+The class P and NP, Polynomial reduction, NP- PS01,P
+Completeness Problem, CO6, S02,PS
+08 14% 1,4,5,6
+NP-Hard Problems. Travelling Salesman problem, CO7 03,PS0
+Hamiltonian problem,
+4,PS05
+Approximation algorithms
+Reference Books
+1.
+Introduction to Algorithms, Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, PHI.
+2. Fundamental of Algorithms by Gills Brassard, Paul Bratley, PHI.
+3. Introduction to Design and Analysis of Algorithms, Anany Levitin, Pearson.
+4. Foundations of Algorithms, Shailesh R Sathe, Penram
+5. Design and Analysis of Algorithms, Dave and Dave, Pearson.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4.Analysis 5.Evaluation 6. Creation
+Programme Name: B.C.A
+Programme Specific Outcome (PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics, statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture.
+PSO6 Learning Database management system along with designing, query processing and managing databases using application programs.
+PSO7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO8 Generating solutions in societal and environmental contexts.
+PSO9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming, designing, analyzing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Application
+BCA: Regular Programme
+Core / Elective / Foundation
+Year III BCAXXXX: ApplicationFrameworks in Credits / Hours per week 04
+Java
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCAXXXX
+CO1. Understand the core principles of Spring, and of Dependency Injection (DI)/Inversion of Control
+CO2. Use the Spring Core module and DI to configure and wire application objects (beans) together
+CO3. Understand and use the complete capabilities of the Core module, such as lifecycle events, bean scopes, and the Spring API
+CO4. Work with the DAO and/or ORM modules to create a well structured persistence layer with JDBC
+CO5. Use Springs Data Integration with JDBC and technologies such as Hibernate or JPA.
+CO6. Understand and use Spring's powerful new AOP capabilities for programming cross-cutting concerns across multiple points in an application
+CO7. Understand and use Spring's transaction support, including its easy to use tx/aop XML configuration elements and Java 5 annotations
+CO8. Integrate Spring with Java EE Web applications
+CO9. Understand how Spring MVC works using the new @Controller model, and use it to build basic Web applications
+C10. Understand the basics of Spring Security, and how to secure Web apps and Spring managed beans with it
+CO11. Understand and use Spring Web Flow 2 to define complex user interface flow in Web applications.
+CO12. Be able to develop a web application with Spring MVC and to develop a RESTFul Web Services.
+Unit Topic/Unit Conta Weightage BT CO PSO Element Relevan Relation
+No. ct (%) Level s of ce to to
+Hour Employa Local Gender
+s bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Java Frameworks and Spring
+What is a Framework? MVC Framework Architecture.
+Introduction to Spring, Spring Documentation, Spring Tool Suite
+(STS), Dependency Injection, Dependency Injection in Spring
+Spring Core-IoC CO1, PS02,P
+BeanFactory,ApplicationContext, Spring Container, Singleton Vs. 15 25% 1,2, 3, 6 CO2, S03,PS
+Prototype, Setter Injection, Ref Attribute, Constructor CO3 04
+Injection,Autowire, Primary Bean
+Spring AOP
+Why AOP, AOP Terms, Aspect and Before Annotation, Logger
+2 Spring MVC
+Spring MVC Getting Started,Creating Controller,Model and
+ModelMap, ModelAttribute, Need of ModelAttribute, Creating
+View,Post Mapping,Get Mapping
+PS02,P
+Spring ORM 15 25% 1,2,4,5,6 CO4, S03,PS
+Spring ORM Theory, MySQL and DAO, DAO Creation 04
+Spring Data JPA
+Spring Data JPA Configuration, JPARepository, JPARepository
+Add and Fetch, Query DSL
+3 Hibernate
+PS02,P
+Introduction to Hibernate, Hibernate and JDBC, JPA vs. Hibernate
+15 25% 1,2,3,6 CO5 S03,PS
+Setting Up the Hibernate Development Environment,
+04
+Hibernate Configuration, Hibernate CRUD operations, HQL,
+HQCL, Hibernate Mapping,
+Named Query, Hibernate Caching, Hibernate Integration with
+Spring,
+Spring REST
+What is REST, Postman Setup, REST Getmapping, Jackson,
+PathVariable, RestController, PostMapping, Jackson XML,
+Produces Attribute, RequestBody and Consumes Attribute’
+Spring Boot
+Spring Boot CLI, SB Example-STS, Spring Boot AOP,Spring
+Boot Autowire, Components, Spring Boot JPA, Spring Boot
+JDBC, SB JDBC Example, SB H2 Database, SB CRUD
+Operations
+4 Spring Cloud
+What is Spring Cloud, Spring Cloud Features, Spring Cloud
+Components, Spring Cloud vs Spring Boot
+Microservice Architecture
+Introduction to Microservices, Docker and Microservices,Docker
+Images,Docker Containers, Docker, Kubernetes and
+Microservices, Google Kubernetes Engine, Eureka Discovery PS01,P
+Service, Zuul API Gateway, RabbitMQ, Distributed Tracing with CO6, S02,PS
+15 25% 1,4,5,6
+Zipkin, Connecting Microservices to Zipkin, Understanding the CO7 03,PS0
+need for Spring, Cloud Bus, Implementing Spring Cloud Bus,
+4,PS05
+Fault Tolerance with Hystrix
+Spring Security
+What is Spring Security, Spring Security MySQL, Spring Security
+BCrypt Password Encoder, Spring Boot Security OAuth2
+Reference Books
+1.
+Beginning Spring 5 From Novice to Professional By Joseph B. Ottinger, Andrew Lombardi · 2019 Apress
+2. Spring MVC: A Tutorial (Second Edition) By Paul Deck ·2016 Brainy Software
+3. Pro Spring 5 An In-Depth Guide to the Spring Framework and Its Tools By Iuliana Cosmina, Rob Harrop, Chris Schaefer, Clarence Ho ·
+2017 Apress
+4.
+Mastering Spring Boot 2.0 Build Modern, Cloud-native, and Distributed Systems Using Spring Boot By Dinesh Rajput · 2018 Packt
+Spring MVC: Designing Real-World Web ApplicationsBy Shameer Kunjumohamed, Hamidreza Sattari, Alex Bretet, Geoffroy Warin ·
+5.
+2016 Packt
+6. Spring 5 Recipes A Problem-Solution Approach By Marten Deinum, Daniel Rubio, Josh Long · 2017 Apress
+Hands-On Microservices with Spring Boot and Spring Cloud Build and Deploy Java Microservices Using Spring Cloud, Istio, and
+7.
+Kubernetes By Magnus Larsson · 2019 Packt
+Mastering Spring Cloud Build Self-healing, Microservices-based, Distributed Systems Using Spring Cloud By Piotr Mińkowski · 2018
+8.
+Packt
+Learning Spring Boot 2.0Simplify the Development of Lightning Fast Applications Based on Microservices and Reactive ProgrammingBy
+9.
+Greg L. Turnquist · 2017 Packt
+10. Spring 5 Recipes A Problem-Solution Approach By Marten Deinum, Daniel Rubio, Josh Long · 2017 Apress
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4.Analysis 5.Evaluation 6. Creation
+Programme Name: B.C.A
+Programme Specific Outcome (PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics, statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture.
+PSO6 Learning Database management system along with designing, query processing and managing databases using application programs.
+PSO7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO8 Generating solutions in societal and environmental contexts.
+PSO9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming, designing, analyzing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Application
+BCA (Web Application Development): Regular Programme
+Elective
+Year III Credits / Hours per week 04 Cr
+BCA1513: Web Application Development
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Mode of Transaction Lectures
+Course Outcome (CO) BCA1501
+CO1 To gather knowledge about backend and frontend technologies
+CO2 To develop web applications using latest tools.
+CO3 Creating fullstack applications with all JavaScript technologies.
+CO4 Using MongoDB for database connectivity
+CO5 Creating API with NodeJS
+CO6 Develop fully working applications that can be used on cross-platforms.
+CO7 Implement a RESTful backend API.
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Introduction to Back-end technologies: ASP.NET,JSP,
+PHP,NodeJS,Express
+NodeJS
+CO1
+Introduction to Node.js, Installing node js, basics of Node
+CO2 PSO1
+terminal, node in built modules, npm
+12 20 1,2,4 CO3 PSO2
+CO5 PSO4
+Express
+Introduction to express, starting our own localhost server
+using express, request and response using express,
+Installing and using the nodemon
+routing, responding the request, body parser module
+2 Creating APIs with Node & Express
+Introduction to API's, Introduction to JSON and using
+openweather api, Weather forecasting-web application,
+https get request for JSON, parsing the JSON, Getting live
+api data using express
+REST API
+REST API introduction, GET method, POST Method,
+CO1
+DELETE Method
+CO2
+CO3 PSO1
+12 20 1,2,3 CO4 PSO2
+MongoDB
+CO5 PSO4
+An Introduction to MongoDB and NoSQL
+CO7
+Databases,Using MongoShell (Command Line Interface),
+Using Mongo Compass (Graphic Interface),Working with
+robo 3T(mongo db gui), Connecting MongoDB to Our
+Node/Express Backend, JSON for MongoDB data storage,
+Creating, Updating, and Deleting Data, Filtering Data with
+MongoDB, Refactoring and Improving Our Code
+3 Introduction to Front-end Technologies: React, Angular,
+Vue
+React CO1
+PSO1
+Introduction to React, Hello World in React, Folder CO2
+18 30 1,2,3 PSO2
+Structure, JSX,UI Components with JSX, React CO3
+Components, React Props, React State PSO4
+CO6
+Lists Using Map function, Using CSS in ReactJs, Form
+Handling in React, Routing with React Route
+4 React Hooks
+Introduction to React Hooks, useState React Hook, Form
+Handling in React with Hooks, useEffect React Hook
+Deploying project on Heroku CO1
+PSO1
+CO2
+18 30 1,2,3 PSO2
+Working with JavaScript frameworks CO3
+PSO4
+Strapi, Next.js, GraphQL etc. CO6
+Redux
+Introduction to Reduxm, How Redux works, Why use
+Redux, Pure functions, Redux middleware, Asynchronous
+actions, Redux-logger, Redux-thunk, API requests in
+React, Context API, Connecting React & Redux
+Reference Books
+Node.js in Action By Alex R. Young, Bradley Meck, Mike Cantelon, Tim Oxley, Marc Harter, TJ Holowaychuk, Nathan Rajlich · 2017
+1.
+Manning
+2. Learning React Functional Web Development with React and Redux By Alex Banks, Eve Porcello · 2017 Oreilly
+3.
+Building React. Js Applications with Redux By David Geary Addison Wesley
+4.
+Pro MERN Stack Full Stack Web App Development with Mongo, Express, React, and Node By Vasan Subramanian · 2019 Apress
+5. Full-Stack React Projects Modern Web Development Using React 16, Node, Express, and MongoDB By Sai Kishore Komanduri, Shama
+Hoque · 2018 Packt
+6.
+MERN Quick Start Guide Build Web Applications with MongoDB, Express.js, React, and Node By Eddy Wilson · 2018 Packt
+7. Full-Stack React Projects Learn MERN Stack Development by Building Modern Web Apps Using MongoDB, Express, React, and Node.js,
+2nd Edition By Shama Hoque · 2020 Packt
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: BCA
+Programme Specific Outcome(PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture .
+PSO6 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO7 Generating solutions in societal and environmental contexts.
+PSO8 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO9 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Applications
+BCA: Regular Programme
+Elective
+Year III BCA1502: XML and Related Credits / Hours per week 04
+Technologies
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2019
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO)
+CO1 You will learn the basics of creating XML documents, transforming XML documents, and validating XML documents.
+CO2 More specifically, you will learn the basics and history of XML and how to write your own XML documents, specify Xpath Expressions.
+CO3 You will learn how to transform XML documents into documents of other types using XSLT and XSD.
+CO4 You will learn how to write valid XML documents based on a DTD. Use XML with JAVA and ASP.NET
+CO5 You will also learn, about JavaScript Object Notation (JSON), which is an emerging alternative to XML.
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1
+XML Basics, Processing XML, Document Type
+Definition (DTD) - Structuring Content with XML, XML
+CO1, PSO1
+Schema - XSD, Processing XML, XML Namespaces 15hrs 25
+CO2 PSO2
+XML Path Language - XPath, XPath 2.0
+2 XML Query (XQuery), PS01
+15hrs 25 CO3
+PSO2
+XML Transformations - XSLT, XLST 2.0. PSO4
+PSO9
+XProc
+XQuery 1.0 and XPath 2.0 Data Model (XDM)
+Modelling
+3 XML and JAVA- Basics of Parsing, JAXP
+XML and ASP.NET- Introduction, XMLReader, XML
+PS01
+Writer,
+PSO2
+Extracting Data from a Database as an XML Database, 15hrs 25 CO4 PSO4
+XML Security- Threats and Risks PSO9
+4 Web Services and AJAX,
+PS01
+JSON-datatypes, accessing objects in JSON, Modifying PSO2
+15hrs 25 CO5
+JSON, AJAX calls with JSON,Parsing JSON Data PSO4
+PSO9
+Reference Books
+1. XML and Related Technologies- Atul Kahate, Pearson
+2. Erik T. Ray (2003): Learning XML, O'Reilly & Associates, Inc.
+3. David Hunter et al. (2007): Beginning XML, 4th Edition, Wrox
+4. JavaScript and JSON Essentials, Sai Srinivas Sriparasa, Packt Publishing, Limited
+5. Introduction to JavaScript Object Notation
+A To-the-Point Guide to JSON, Lindsay Bassett, O'Reilly
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science YEAR
+Department of Computer Applications 2018-2019
+B.C.A: Regular Programme
+Year Elective Credit / 2/
+: Customer Relationship Management Hrs per week 2
+Semester Year of Introduction: -2010
+Theory / Lab Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives The objective of this course is that the students can understand the principles
+and concepts of CRM and appreciate the role and changing face of CRM as an
+IT enabled function
+Employability/ The students gain conceptual foundations of relationship of customers with
+Entrepreneurship / Skill suppliers, relationship marketing and its implications for further knowledge
+Development Aspects development in the field of business
+Course Outcome The students gain insight in the area of customer relationship management and
+CRM as IT enabled function
+Mode of Transaction Lecture and Tutorial
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Unit-1 Environmental Hazards & Disasters 30
+Meaning and Concept of Environmental Hazard, Environmental Disaster and
+Environmental Stress
+Unit-2 Types of Environmental hazards & Disasters 15
+Natural hazards and Disasters – Exogenous and Endogenous Hazards/Disasters
+Man induced hazards & Disasters – Physical, Chemical and Biological Hazards
+Unit-3 Emerging approaches in Disaster Management 20
+Pre-disaster Stage – Disaster preparedness plan, awareness.
+Emergency Stage – Immediate relief, Rescue training for search & operations at local and
+regional level.
+Post Disaster Stage – Rehabilitation – Political, Administrative Aspect, Environmental
+Aspects.
+Unit-4 Disaster Reduction & Management 20
+Prediction of Hazards and Disasters. Risk assessment, Emergency Preparedness and
+Planning and Emergency.
+Unit-5 Disaster Mitigation 15
+Environmental Politics & Programmes in India – Role of Institutions & NGOs in Natural
+Disaster Reduction, Environmental Legislation in India.
+REFERENCES
+1 Kumar A.(2006), Disaster Management- Recent Approaches-Anmol Publications
+2 Murthy K. R. (2004), Disaster Management, Dominant Publishers and Distributors.
+3 Gupta H.K.(2004), Disaster Management, University Press(India)Pvt. Ltd
+4 Ghosh G. K.(2006) Disaster Management, A.P.H. Publishing Corporation
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science YEAR
+Department of Computer Applications 2020-21
+B.C.A: Regular Programme
+Year I Elective: Credit /
+2
+Course Name: Cyber Law Hrs per week
+Semester II Year of Introduction: 2010
+Theory/Lab Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives Objectives of the Cyber law is to provide guidance and assistance to all
+netizens and digital users on legal challenges and issues concerning use of
+their computers and communication devices .
+Employability/
+Cyber Consultant, Research Assistants, Security Auditors, Network
+Entrepreneurship / Skill
+Administrators
+Development Aspects
+Course Outcome Ability to understand cyber crimes and prevent the attacks. Work includes
+managing and maintaining the online security of businesses and government
+organization from getting hacked of important information.
+Mode of Transaction Lecture, Power-point presentation
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Unit-I Introduction to CyberLaw
+ Introduction to CyberLaw for Business: Text and Cases.
+ Innovations and Inventions 21
+ Financing and Exit Strategies
+Unit-II INTELLECTUAL PROPERTY ISSUES IN CYBERSPACE
+ Trademarks.
+ Copyright. 24
+ Patents
+ Trade Secrets
+Unit-III BUSINESS AND FINANCIAL ISSUES IN CYBERSPACE
+ Jurisdiction.
+ Contracts.
+24
+ Employment.
+ Regulation
+UNIT-IV SPECIAL ISSUES IN CYBERSPACE.
+ Privacy.
+ Security and Crime.
+21
+ International CyberLaw.
+REFERENCES
+Cyber Law: Text and Cases, 3/e By Ferrera Gerald R, Cengage Learning
+1.
+5.
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science YEAR
+Department of Computer Applications 2020-2021
+Bachelor of Computer Applications : Under Graduation
+Year Elective Credit /
+2
+Human Resource Management Hrs per week
+Semester Year of Introduction: 2010
+Theory/Lab Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives Human resource management is the process of managing people across an
+organization in order to achieve the organization's goals. The responsibilities
+of human resource management within an organization include
+staffing, human resource development, compensation, safety and health and
+employee and labor relations.
+Employability/
+Entrepreneurship / Skill Skill development in development, operation, maintenance of Software.
+Development Aspects
+Course Outcome Ability to grasp and understand the basics to develop further
+Mode of Transaction Lecture, Power-point presentation
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Unit-I INTRODUCTION TO HUMAN RESOURCE MANAGEMENT:
+c) Introduction to human resource management, Models of Human Resource Management.
+Function and Professional of Human Resource Management.
+d) HRM Planning and Sourcing Management; Career and Competence Management. 60.0
+Management Development and Training Management. Performance Management.
+e) Leadership Development, Team Management.
+f) Employee Communication, Involvement and Empowerment Management.
+Unit-II f) Intelligence and Motivational Management, Creativity and Decision Making
+Management. Self Management.
+g) Organizational Learning and Knowledge Management, Organizational Management, 40.0
+Culture Management, Change Management.
+h) Audits, Assessments, Measurements and Evaluations.
+REFERENCES
+Kandula, Srinivas R: Human Resource Management in Practice: With 300 Models, Techniques and Tools,
+1.
+PHI
+2. Pattanayak, Biswajeet: Human Resource Management, 3e, PHI
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science, YEAR
+Department of Computer Applications 2020-21
+B.C.A: Regular Programme
+Year III Elective Credit /
+2
+Course Name: Introduction to Multimedia Hrs per week
+Semester V Year of Introduction: 2012
+Theory Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives
+To Provide artistic skills needed in web designing
+Employability/
+Entrepreneurship / Skill It Provide Professional skills in web page designing.
+Development Aspects
+Course Outcome The student has all art and designing skills needed in web Designing
+Mode of Transaction Lecture
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Unit-1 50.0
+Multimedia:
+Concepts of hypertext/ hypermedia, Applications of multimedia; Enabling technology – digital
+representations, hardware, software, networks.
+Bitmapped Images: resolution, compression – lossy and lossless, JPEG compression. Image
+manipulation, Color models – RGB and CMYK.
+Video: digitizing video, video standards, video compression – Motion JPEG and DV,
+MPEG video; Streamed video.
+Sound: The nature of sound, digitizing sound, compression, file formats, MIDI
+3D graphics fundamentals: 3D effects – perspective, color and shading, light and shading,
+texture mapping, etc; common uses of 3D graphics.
+3D programming principles:
+Immediate mode and retained mode , coordinate systems – coordinate clipping, view ports;
+Projections – orthographic projections, perspective projections.
+Introduction to OpenGL, OPENGL implementations, OpenGL rendering pipeline, OpenGL Utility
+toolkit: GLUT.
+Data types, naming conventions, graphics calls; Drawing geometric objects – points, lines, and
+polygons; State management.
+Viewing: camera analogy, viewing and modeling transformations, projection transformations,
+viewport transformation; Using display lists – creating and executing a display list, executing
+multiple display lists; Using colors in OpenGL, Adding light, lighting effects.
+Real time programming: Windows animation techniques, using frames.
+Unit-2 50.0
+Introduction to 3ds max, understanding view ports:
+View port navigation controls, configuring view ports, working with view port backgrounds.
+Working with scene files, importing and exporting from other formats, referencing external objects –
+Using Xref Scenes, Using Xref objects.
+Creating primitive objects – standard primitives like Box, Sphere, Cylinder etc., extended primitives;
+setting object properties.
+Cloning objects, creating object arrays, grouping objects, linking objects, and using schematic views.
+Transforming objects- translating, rotating, and scaling, transformation tools, using pivot points,
+using align commands, using grids.
+Understanding modifiers, using the modifier stack, modifier types, parametric deformer modifiers,
+free form deformer modifiers.
+Modeling basics:
+Modeling types- parametric objects, editable objects, subobjects, using modeling helpers. Drawing
+and editing 2D splines and shapes, creating and editing polynomial objects, creating NURBS curves
+and surfaces.
+Understanding material properties, creating simple materials using material editor, shading types,
+using material maps.
+Working with cameras, camera properties; basic lighting techniques, animation- time controls,
+animating cameras, animation modifiers.
+Introducing MaxScript, MaxScript tools, variables and data types, program flow, collections and
+arrays, writing functions in MaxScript.
+References
+1. Murdock Kelly L. (2004): 3ds Max 6 Bible, Wiley dreamtech India Pvt Ltd
+2. Woo et al. (2000): OpenGL Programming guide, 3e, Addison Wesley
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science, YEAR
+Department of Computer Applications 2020-21
+B.C.A: Regular Programme
+Year III Elective Credit /
+2
+Inventory Management Hrs per week
+Semester I Year of Introduction: 2010
+Theory Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives
+The objective of inventory management is to maintain inventory at an
+approved level to avoid excess or shortage of inventory. Inventory
+management systems reduce the cost of carrying inventory and ensure the
+supply of raw material and finished goods remains continuous.
+Employability/
+Entrepreneurship / Career prospects for students span a range of contemporary sectors, where
+Skill Development logistics and warehousing play key roles in business operations.
+Aspects
+Course Outcome Understand terms that are frequently used in inventory management
+Identify the goals and objectives of inventory management and measure your process
+against these goals
+Mode of Transaction Lecture and Lab
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Introduction to inventory management
+The need of inventory, purpose of inventory, Objectives of inventory control, types of
+inventory, inventory costs, and benefits of inventory management.
+UNIT-I 23.0
+Inventory and customer service, measuring availability, Demand management, estimating
+delivery times.
+Managing inventory
+Managing the inventory, Pareto analysis, ABC analysis, Stock cover, practical methods of
+reducing stock holding. Just in time (JIT) management, advantages of JIT, stock control
+UNIT-II 27.0
+using JIT.
+Safety stocks, demand patterns and demand distributions, Evaluation of safety stocks.
+Managing Stock
+Setting the right stock levels, assessment of review levels, managing lead times, dealing
+with inconsistent lead times, Target stock levels. Role of purchasing on inventory
+UNIT-III 27.0
+management, the ordering process, order quantities, economic order quantity, limitations
+of EOQ, Variants of inventory models.
+Demand and supply
+Forecasting demand, Basic forecasting techniques – moving averages, exponential
+UNIT-IV 23.0
+smoothing; monitoring forecasts.
+REFERENCES
+Tony Wild (2002): Best practice in inventory management, 2nd Edition, Elsevier Science Ltd.
+1.
+Max Mullar (2003): Essentials of Inventory Management, American Management Association.
+2.
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science, YEAR
+Department of Computer Applications 2020-21
+B.C.A: Regular Programme
+Year III Elective Credit /
+2
+Numerical Methods Hrs per week
+Semester V Year of Introduction: 2010
+Theory Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives The purpose of this course is to provide participants with the skills, knowledge
+and attitudes required to determine approximate numerical solutions to
+mathematical problems which cannot always be solved by conventional
+analytical techniques, and to demonstrate the importance of selecting the right
+numerical technique for a particular application, and carefully analysing and
+interpreting the results obtained.
+Employability/
+This course provides skills of numerical ability to integrate the scientific and
+Entrepreneurship / Skill
+numerical solutions in the software products
+Development Aspects
+Course Outcome After this completion student will be familiar with
+ Demonstrate understanding of common numerical methods and how
+they are used to obtain approximate solutions to otherwise intractable
+mathematical problems.
+ Apply numerical methods to obtain approximate solutions to
+mathematical problems.
+ Derive numerical methods for various mathematical operations and
+tasks, such as interpolation, differentiation, integration, the solution of
+linear and nonlinear equations, and the solution of differential
+equations.
+ Analyse and evaluate the accuracy of common numerical methods.
+Mode of Transaction Lecture
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Unit-1 Error Analysis: Approximation and errors in computing –inherent error, truncation 50.0
+error, and round off error, error analysis using process graphs, iterative procedures
+and their benefits.
+Roots of Non-linear equations:Bisection Method, Newton-Raphson method, secant
+method.
+Solving a system of Linear equations: Direct Solution - Gauss elimination
+method, pivoting strategies for Gauss elimination method, Gauss Jordan method.
+Iterative Solutions: Jacobi Method, Gauss - Seidel method.
+Unit-2 50.0
+Curve Fitting: Lagrange’s Interpolation, Newton’s Interpolation.
+Numerical Integration: Trapezoidal Rule, Simpson’s ⅓ rule, Simpson’s ⅜ Rule; sequence
+of trapezoidal rules, Romberg integration.
+REFERENCES
+1. S.S. Sastry: Introductory methods of Numerical Analysis, PHI
+2. E. Balagurusamy: Numerical Methods, TMH
+M.K. Jain, S.R.K. Iyenrar, R.K. Jain: Numerical Methods for Scientific & Engineering computation, Willey
+3.
+Eastern Ltd.
+4. John H Mathews: Numerical methods for mathematics, science and engineering, 2/e, PHI
+5. V. Rajaraman: Computer oriented numerical methods by, PHI
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science YEAR
+Department of Computer Applications 2021
+B.C.A: Regular Programme
+Year Elective1: Credit /
+2
+Optimization Techniques Hrs per week
+Semester Year of Introduction: 2010
+Theory/Lab Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives
+Understand the need and origin of the optimization methods.
+Employability/
+Entrepreneurship / Skill
+Development Aspects
+Course Outcome Ability to understand optimization methods.
+Mode of Transaction Lecture
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Unit-I
+Optimization: An optimization problem, formulation; Objective function, decision
+variables, design constraints, classification of optimisation problems.
+Linear Programming: Applications (formulation), Graphical method, 50.0
+slack/surplus variables, standard form, simplex method, artificial variables, big M
+method, transportation problem, assignment problem.
+Unit-II
+Network Analysis: Terminology of networks, shortest route problem, minimal spanning
+50.0
+tree, and maximal flow problem.
+Project networks, Critical Path method (CPM), float, cost analysis, crashing the
+network, PERT, probability of meeting the scheduled dates, updating of schedules.
+REFERENCES
+1. Operations Research – An introduction by Hamdy A. Taha (Macmillan publishing company, New York).
+2. Gärtner, Bernd (2007): Understanding and Using Linear Programming, Springer
+The Maharaja Sayajirao University of Baroda ACADEMIC
+Faculty of Science YEAR
+Department of Computer Applications 2021
+Bachelor of Computer Applications : Under Graduation
+Year Elective: Credit /
+2
+Course Name: Project Management Hrs per week
+Semester Year of Introduction: 2010
+Theory/Lab Year of Syllabus Revision: Max marks /
+50
+Grade
+Objectives The Purpose of Project Management and Setting Objectives. The purpose of project
+management is to foresee or predict as many dangers and problems as possible; and
+to plan, organize and control activities so that the project is completed as successfully
+as possible in spite of all the risks.
+Employability/
+Entrepreneurship / Skill Skill development in development, operation, maintenance of Software.
+Development Aspects
+Course Outcome Ability to grasp and understand the basics IT Project Management.
+Mode of Transaction Lecture, Power-point presentation
+COURSE CONTENT / SYLLABUS
+Weightage (%)
+Unit-I
+Project & Project Management
+The project, Project Management, Types of project, Contractual arrangements.
+15
+The Nature of Project Management, Management principle, Some factors in
+Project Management, The Project Manager, Factors for Project Success and
+Failure.
+Unit-II
+Project planning
+Project planning, scheduling, Organizational Structures, The Project Organization, 15
+The Functional Organization, The Matrix organization, Designing an
+Organization, Building the Team, Leadership.
+Unit-III
+Project Administration
+Project Authority and Project Control, Principles of Project Administration, TQM. 10
+Defining and Financing the Project. How Project Evolve - the Client Brief,
+Financing the Project. Sources of finance and cash flow.
+Unit-IV
+Feasibility of Project
+10
+Feasibility Studies and Approvals, Conducting feasibility Study, the regulations,
+controlling projects, decision making, economic analysis.
+REFERENCES
+1. Jack Meredith and Samuel: Project Management: A Managerial Approach, Wiley India.
+2. Bonnie Biafore: Managing Your Projects Successfully With MS Project, PHI
+3. Joel Henry : Software Project Management : Areal Guide to Success , Pearson Education

@@ -133,5 +133,40 @@ def test_course_code_derived_from_messy_filenames():
 
 
 def test_zero_postings_does_not_divide_by_zero():
+    """A skill no posting demands is filtered out by the demand floor rather
+    than reported as a gap, and the empty corpus must not raise."""
     report = _build([_row("Skill", requiring=0, total=0)])
-    assert 0.0 <= report.gaps[0].market_demand <= 1.0
+    assert report.gaps == []
+    assert 0.0 <= report.health_score <= 100.0
+
+
+def test_long_tail_skills_are_filtered_out():
+    """43 of 170 demanded skills in the real corpus were named by exactly one
+    posting. One employer wanting a niche tool is not evidence a degree
+    programme is failing."""
+    report = _build(
+        [
+            _row("Widely Demanded", requiring=40, total=100),
+            _row("One Posting Only", requiring=1, total=100),
+        ]
+    )
+    assert [gap.canonical_skill for gap in report.gaps] == ["Widely Demanded"]
+
+
+def test_taught_skills_survive_the_demand_floor():
+    """A skill the course teaches still counts toward coverage even if the
+    corpus barely mentions it."""
+    report = _build(
+        [
+            _row("Widely Demanded", requiring=40, total=100),
+            _row("Niche But Taught", requiring=1, total=100, coverage=[0.8]),
+        ]
+    )
+    assert "Niche But Taught" in {gap.canonical_skill for gap in report.gaps}
+
+
+def test_report_names_what_it_scored_against():
+    """The denominator must be inspectable. A score against the whole market
+    and a score against one subject area are very different claims."""
+    report = _build([_row("Vector Databases", requiring=40, category="data")])
+    assert report.scored_against

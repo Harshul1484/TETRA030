@@ -18,7 +18,11 @@ from app.pipeline.embed import SkillIndex
 from app.pipeline.extract import SkillExtractor
 from app.pipeline.ingest import load_job_metadata, load_job_snapshot, load_syllabi
 from app.pipeline.match import VectorMatcher
-from app.pipeline.score import classify_severity, compute_gap_score, compute_health_score
+from app.pipeline.score import (
+    classify_severity,
+    compute_alignment_score,
+    compute_gap_score,
+)
 from app.taxonomy.loader import TaxonomyIndex
 
 logger = logging.getLogger(__name__)
@@ -28,6 +32,18 @@ logger = logging.getLogger(__name__)
 # distance would zero out the reachability term entirely.
 UNREACHABLE_DISTANCE = 99
 UNREACHABLE_PENALTY = 6
+
+# Gaps returned per course. The previous value of 40 was hit by every course,
+# so the count shown on screen was an artifact of the cap rather than a
+# finding.
+GAP_LIMIT = 200
+
+# A skill must appear in at least this share of postings to count as a
+# curriculum gap. Measured on the real corpus, 43 of 170 demanded skills were
+# named by exactly one posting and the median was three. One employer wanting
+# Elasticsearch is not evidence that a degree programme is failing, and
+# including that tail made every course report 170 identical gaps.
+MIN_DEMAND_SHARE = 0.03
 
 # Soft skills appear in nearly every job posting, so raw frequency ranks them
 # above every technical gap. They are genuine market signal and stay in the
@@ -93,7 +109,7 @@ class Pipeline:
 
     def build_report(self, course_code: str, course_title: str = "") -> GapReport:
         """Turn graph state into a ranked, evidence-backed gap report."""
-        rows = fetch_course_gaps(course_code)
+        rows = fetch_course_gaps(course_code, limit=GAP_LIMIT)
 
         if not course_title:
             course_title = next(
@@ -104,6 +120,7 @@ class Pipeline:
         gaps: list[SkillGap] = []
         scores: list[float] = []
         rank_weights: dict[str, float] = {}
+        categories: dict[str, str] = {}
 
         for row in rows:
             postings_total = max(row["postings_total"], 1)
@@ -112,6 +129,11 @@ class Pipeline:
 
             confidences = row.get("coverage_confidence") or []
             coverage = max(confidences) if confidences else 0.0
+
+            # Long-tail skills are dropped unless the course already teaches
+            # them, in which case they still count toward coverage.
+            if market_demand < MIN_DEMAND_SHARE and coverage <= 0.0:
+                continue
 
             raw_distance = row["prerequisite_distance"]
             distance = (
@@ -132,10 +154,12 @@ class Pipeline:
             if row.get("category") == PROFESSIONAL_CATEGORY:
                 rank_weight *= PROFESSIONAL_RANK_WEIGHT
             rank_weights[row["skill"]] = rank_weight
+            categories[row["skill"]] = row.get("category") or "general"
 
             gaps.append(
                 SkillGap(
                     canonical_skill=row["skill"],
+                    category=row.get("category") or "general",
                     severity=classify_severity(score),
                     market_demand=round(market_demand, 4),
                     curriculum_coverage=round(coverage, 4),
@@ -151,10 +175,30 @@ class Pipeline:
 
         gaps.sort(key=lambda g: rank_weights[g.canonical_skill], reverse=True)
 
+        # Score against the demand in this course's own subject area rather
+        # than against the whole market. Measuring an artificial intelligence
+        # course on Kubernetes demand produced arithmetically correct but
+        # misleading numbers: every course covered three to twelve percent of
+        # total tech demand, which is normal, yet reads as a failing grade.
+        domain = _course_domain(rows)
+        scoring_set = [
+            gap
+            for gap in gaps
+            if not domain or categories.get(gap.canonical_skill) in domain
+        ] or gaps
+
+        demand_total = sum(gap.market_demand for gap in scoring_set)
+        demand_covered = sum(
+            gap.market_demand * gap.curriculum_coverage for gap in scoring_set
+        )
+
         return GapReport(
             course_code=course_code,
             course_title=course_title,
-            health_score=compute_health_score(scores),
+            health_score=compute_alignment_score(
+                demand_covered, demand_total, scores
+            ),
+            scored_against=sorted(domain) if domain else ["all categories"],
             gaps=gaps,
         )
 
@@ -183,3 +227,30 @@ def _derive_course_code(title: str) -> str:
     if not words:
         return "COURSE"
     return " ".join(words)[:48].strip().upper()
+
+
+def _course_domain(rows: list[dict]) -> set[str]:
+    """Which subject areas this course actually belongs to.
+
+    Derived from the categories of the skills it already teaches, so a course
+    is judged against demand in its own field. A course teaching nothing
+    recognisable gets an empty domain and falls back to the whole market.
+    """
+    taught = [
+        row.get("category")
+        for row in rows
+        if (row.get("coverage_confidence") or []) and row.get("category")
+    ]
+    if not taught:
+        return set()
+
+    counts: dict[str, int] = {}
+    for category in taught:
+        counts[category] = counts.get(category, 0) + 1
+
+    # Keep any category the course touches more than once, plus its strongest
+    # one. A single incidental match should not widen the domain.
+    strongest = max(counts, key=lambda c: counts[c])
+    domain = {c for c, n in counts.items() if n >= 2}
+    domain.add(strongest)
+    return domain

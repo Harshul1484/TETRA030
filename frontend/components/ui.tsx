@@ -1,15 +1,35 @@
-import { healthTone } from "@/lib/api";
+/**
+ * Components follow frontend/DESIGN.md: a monochrome editorial frame with
+ * oversized pastel colour blocks carrying the content. Shadows and gradients
+ * are deliberately absent; colour and type do the work.
+ */
+
+import { categoryBlock } from "@/lib/theme";
 
 export function Card({
   children,
   className = "",
+  block,
 }: {
   children: React.ReactNode;
   className?: string;
+  /** A pastel block colour, or omitted for the plain white surface. */
+  block?: string;
 }) {
+  if (block) {
+    return (
+      <div
+        className={`rounded-[var(--radius-lg)] p-8 ${className}`}
+        style={{ backgroundColor: block }}
+      >
+        {children}
+      </div>
+    );
+  }
+
   return (
     <div
-      className={`rounded-xl border border-slate-800 bg-slate-900/40 p-5 ${className}`}
+      className={`rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-white p-8 ${className}`}
     >
       {children}
     </div>
@@ -24,16 +44,24 @@ export function SectionTitle({
   hint?: string;
 }) {
   return (
-    <div className="mb-4">
-      <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400">
-        {children}
-      </h2>
-      {hint ? <p className="mt-1 text-xs text-slate-500">{hint}</p> : null}
+    <div className="mb-6">
+      <h2 className="display-md text-[var(--color-ink)]">{children}</h2>
+      {hint ? (
+        <p className="mt-2 max-w-2xl text-[16px] text-[var(--color-ink-soft)]">
+          {hint}
+        </p>
+      ) : null}
     </div>
   );
 }
 
-/** The headline number. Scale it up; it is the thing a dean reacts to. */
+function scoreTone(score: number | null): string {
+  if (score === null) return "text-[var(--color-ink-mute)]";
+  if (score >= 60) return "text-[var(--color-success)]";
+  if (score >= 30) return "text-[var(--color-severity-high)]";
+  return "text-[var(--color-severity-critical)]";
+}
+
 export function HealthScore({
   score,
   size = "large",
@@ -41,37 +69,58 @@ export function HealthScore({
   score: number | null;
   size?: "large" | "small";
 }) {
-  const tone = healthTone(score);
   const display = score === null ? "n/a" : score.toFixed(1);
+  const tone = scoreTone(score);
 
   if (size === "small") {
-    return <span className={`font-mono text-lg font-semibold ${tone}`}>{display}</span>;
+    return (
+      <span className={`tabular text-[24px] font-medium ${tone}`}>
+        {display}
+      </span>
+    );
   }
 
   return (
     <div className="flex items-baseline gap-2">
-      <span className={`font-mono text-5xl font-bold tabular-nums ${tone}`}>
-        {display}
-      </span>
-      <span className="text-sm text-slate-500">/ 100</span>
+      <span className={`tabular display-xl ${tone}`}>{display}</span>
+      <span className="text-[16px] text-[var(--color-ink-mute)]">/ 100</span>
     </div>
   );
 }
 
 export function SeverityBadge({ severity }: { severity: string }) {
   const tones: Record<string, string> = {
-    critical: "border-rose-500/40 bg-rose-500/10 text-rose-300",
-    high: "border-orange-500/40 bg-orange-500/10 text-orange-300",
-    moderate: "border-amber-500/40 bg-amber-500/10 text-amber-300",
-    low: "border-slate-600/40 bg-slate-600/10 text-slate-400",
+    critical: "bg-[var(--color-severity-critical)] text-white",
+    high: "bg-[var(--color-severity-high)] text-white",
+    moderate: "bg-[var(--color-severity-moderate)] text-white",
+    low: "bg-[var(--color-hairline)] text-[var(--color-ink-soft)]",
   };
+
   return (
     <span
-      className={`inline-flex shrink-0 rounded border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${
+      className={`micro-cap inline-flex shrink-0 rounded-[var(--radius-full)] px-2.5 py-1 ${
         tones[severity] ?? tones.low
       }`}
     >
       {severity}
+    </span>
+  );
+}
+
+/** Category tags use the same pastel a node uses in the graph. */
+export function CategoryTag({ category }: { category: string }) {
+  const block = categoryBlock(category);
+  return (
+    <span
+      className="micro-cap inline-flex shrink-0 items-center gap-1.5 rounded-[var(--radius-full)] px-2.5 py-1 text-[var(--color-ink)]"
+      style={{ backgroundColor: block.bg }}
+    >
+      <span
+        aria-hidden
+        className="inline-block h-1.5 w-1.5 rounded-full"
+        style={{ backgroundColor: block.dot }}
+      />
+      {block.label}
     </span>
   );
 }
@@ -87,27 +136,62 @@ export function Stat({
 }) {
   return (
     <div>
-      <p className="text-xs uppercase tracking-wider text-slate-500">{label}</p>
-      <p className="mt-1 font-mono text-2xl font-semibold tabular-nums text-slate-100">
+      <p className="micro-cap text-[var(--color-ink-mute)]">{label}</p>
+      <p className="tabular mt-2 text-[40px] font-light leading-none text-[var(--color-ink)]">
         {value}
       </p>
-      {hint ? <p className="mt-0.5 text-xs text-slate-500">{hint}</p> : null}
+      {hint ? (
+        <p className="caption mt-2 text-[var(--color-ink-mute)]">{hint}</p>
+      ) : null}
     </div>
+  );
+}
+
+export function Button({
+  children,
+  onClick,
+  disabled,
+  variant = "primary",
+  type = "button",
+}: {
+  children: React.ReactNode;
+  onClick?: () => void;
+  disabled?: boolean;
+  variant?: "primary" | "secondary" | "quiet";
+  type?: "button" | "submit";
+}) {
+  const variants = {
+    primary: "bg-[var(--color-ink)] text-white hover:bg-[var(--color-ink-soft)]",
+    secondary:
+      "bg-white text-[var(--color-ink)] border border-[var(--color-ink)] hover:bg-[var(--color-surface-soft)]",
+    quiet:
+      "bg-transparent text-[var(--color-ink-mute)] hover:text-[var(--color-ink)]",
+  };
+
+  return (
+    <button
+      type={type}
+      onClick={onClick}
+      disabled={disabled}
+      className={`inline-flex min-h-[44px] items-center justify-center rounded-[var(--radius-full)] px-6 py-2.5 text-[16px] font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-40 ${variants[variant]}`}
+    >
+      {children}
+    </button>
   );
 }
 
 export function ErrorPanel({ message }: { message: string }) {
   return (
-    <Card className="border-rose-500/30 bg-rose-500/5">
-      <p className="text-sm font-medium text-rose-300">Could not load data</p>
-      <p className="mt-1 text-sm text-slate-400">{message}</p>
-      <p className="mt-3 text-xs text-slate-500">
+    <Card block="var(--color-block-pink)">
+      <p className="card-title text-[var(--color-ink)]">Could not load data</p>
+      <p className="mt-3 text-[16px] text-[var(--color-ink-soft)]">{message}</p>
+      <p className="caption mt-5 text-[var(--color-ink-soft)]">
         The API may not be running. Start it with{" "}
-        <code className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-slate-300">
+        <code className="rounded-[var(--radius-xs)] bg-white/70 px-1.5 py-0.5 font-mono">
           docker compose up -d
         </code>{" "}
-        and seed it with{" "}
-        <code className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-slate-300">
+        then seed it with{" "}
+        <code className="rounded-[var(--radius-xs)] bg-white/70 px-1.5 py-0.5 font-mono">
           docker compose exec backend python -m app.seed
         </code>
       </p>
@@ -115,28 +199,26 @@ export function ErrorPanel({ message }: { message: string }) {
   );
 }
 
-export function EmptyState({
-  title,
-  body,
-}: {
-  title: string;
-  body: string;
-}) {
+export function EmptyState({ title, body }: { title: string; body: string }) {
   return (
-    <Card className="text-center">
-      <p className="text-sm font-medium text-slate-300">{title}</p>
-      <p className="mx-auto mt-2 max-w-md text-sm text-slate-500">{body}</p>
+    <Card block="var(--color-surface-soft)" className="text-center">
+      <p className="card-title text-[var(--color-ink)]">{title}</p>
+      <p className="mx-auto mt-3 max-w-md text-[16px] text-[var(--color-ink-soft)]">
+        {body}
+      </p>
     </Card>
   );
 }
 
-/** A horizontal proportion bar. Used for market demand, which is a share. */
-export function DemandBar({ value }: { value: number }) {
+export function DemandBar({ value, tone }: { value: number; tone?: string }) {
   return (
-    <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-800">
+    <div className="h-1.5 w-full overflow-hidden rounded-[var(--radius-full)] bg-[var(--color-hairline)]">
       <div
-        className="h-full rounded-full bg-sky-500/70"
-        style={{ width: `${Math.min(100, Math.max(2, value * 100))}%` }}
+        className="h-full rounded-[var(--radius-full)]"
+        style={{
+          width: `${Math.min(100, Math.max(4, value * 100))}%`,
+          backgroundColor: tone ?? "var(--color-ink)",
+        }}
       />
     </div>
   );

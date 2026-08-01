@@ -1,0 +1,172 @@
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-2022
+Department of Computer Application
+BCA (Software Engineering-II): Regular Programme
+Core / Elective / Foundation
+Year 3 Credits / Hours per week 04 Cr
+BCA1501: Software Engineering-2
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Mode of Transaction Lectures
+Course Outcome (CO) BCA1501
+CO1 Describe software engineering layered technology and Process frame work.
+CO 2. A general understanding of software process models such as the waterfall and evolutionary models.
+CO 3. Understanding of software requirements and the SRS documents.
+CO 4. Understanding of the role of project management including planning, scheduling, risk management, etc.
+CO 5. Describe data models, object models, context models and behavioral models.
+CO 6. Understanding of different software architectural styles.
+CO 7. Understanding of implementation issues such as modularity and coding standards.
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Software Project Management
+Metrics of process and project, Project Scheduling
+14 23 1 CO1 PSO3
+and tracking, Cost Estimation,Configuration Management
+, Change management, Release Management Risk Manage
+ment,Risk Estimation, RMMM plan
+2 Agile Methods
+CO2, PSO5
+Agile principals, Methodology 14 23 1
+CO3
+Agile Models: Extreme programming, Scrum.
+3 Managing Software requirements
+Need for requirements managements, requirements
+management techniques, Problem analysis,
+Requirement Analysis, Stages of requirement
+engineering, understanding user and stakeholder
+needs, Defining the system, managing the scope.
+Design Patterns for solving designing problems, CO4, PSO3
+16 27 2, 3, 4
+Describing design patterns, selecting and using CO5 PSO5
+design patterns; Creational Patterns – Abstract
+factory, Factory method, singleton; Structural
+patterns – Adapter, decorator, Façade, Proxy;
+behavioural patterns – command, mediator,
+observer, state, template method
+Introduction to Software Architecture
+4 Quality Management
+Quality concepts, Software quality assurance, Software
+CO6, PSO3,
+reviews, Statistical software quality assurance, Six 16 27 1, 2, 3,4
+CO7 PSO2
+sigma model, Software reliability, availability, and safety,
+SQA plan
+Reference Books
+1. Software Engineering: A Practitioner's Approach by Roger S. Pressman
+2. Lee Copeland: A Practitioner’s Guide to Software Test Design, Artech House
+3. Erich Gamma et al.: Design Patterns: Elements of Reusable Object Oriented Software, Addison Wesley
+4. Richard E Fairley: Managing and leading Software Projects, CS Press
+5. Leffingwell and Widrig: Managing Software Requirements (2003): A Usecase approach, 2nd edition, Addison Wesley Professional.
+6. Penny Grubb and Armstrong A. Takang: Software Maintenance: Concepts and Practices, World Scientific Publishing
+7. Anne Matte Jonassen Hass: Configuration Management Principles and Practices, Addison Wesley.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: BCA
+Programme Specific Outcome(PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture .
+PSO6 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO7 Generating solutions in societal and environmental contexts.
+PSO8 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO9 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Applications
+BCA: Software Testing
+Core / Elective / Foundation
+Year III Credits / Hours per week 02
+BCA XXXX: Software Testing
+Year of Introduction: 2019
+Semester V Maximum Marks / Grade 50
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO)
+CO1 You will learn the basics of creating Testing Process and Important terminologies
+CO2 More specifically, you will learn the Structural Testing, Software Verification
+CO3 You will learn how to create test cases from requirements
+CO4 You will learn different Levels of Testing
+CO5 You will also learn, how to test Web Applications, Usability Testing and Security and Performance Testing
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 What is testing? What should we test? Who should do
+testing? Role of a tester, Reporting and analyzing bugs,
+bug lifecycle.
+Program and software, Verification and Validation, test
+case, test suite, Alpha, Beta and Acceptance testing, Static
+CO1, PSO1
+and Dynamic testing, testing and Debugging 15hrs 50 1,2
+CO2 PSO3
+Structural Testing – Control Flow testing(Statement
+coverage, Branch Coverage, Condition Coverage,
+Path Coverage), Data Flow testing, Slice Based
+Testing, Mutation Testing
+2 Software Verification- Verification methods: Peer
+PS01
+CO3
+Reviews, Walkthroughs, Inspection and PSO3
+15hrs 50 4.5,6 CO4
+Applications PSO6
+CO5
+Creating Test cases from requirements and Use cases
+Regression Testing and prioritization of Test Cases for
+Regression Testing.
+Software Testing Activities
+Levels of Testing- Unit Testing, Integration Testing,
+System Testing and Acceptance Testing, Software
+Testing Tools.
+Testing Web Applications- Web Testing, Usability
+Testing, Configuration and Compatibility Testing,
+Security testing and Performance Testing
+Reference Books
+1. Software Testing- Yogesh Singh, Cambridge
+2. Software Testing, A Craft’s Man Approach 4th Edition - Paul C. Jogensen. CRC Press
+3. The Art of Software Testing- Glenford J .Myers, Corey Sandler, Tom Badgett. John Wiley & Sons. Inc.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name
+Programme Specific Outcome(PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture .
+PSO6 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO7 Generating solutions in societal and environmental contexts.
+PSO8 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO9 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.

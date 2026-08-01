@@ -1,0 +1,88 @@
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science
+Academic Year 2021-22
+Department of Computer Applications
+B.C.A: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04
+BCA 1520: Unix Systems Programming
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCA 1520
+CO1 Effectively use the UNIX/Linux system to develop system programs using c or any other related language to perform tasks of file handling, process
+management , inter-process communication and network programming.
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1
+Limitations of shell programming, Unix and C programming
+15 25 1,2,3 CO1 1,2,3
+language, Programming with standard I/O, program arguments
+using function main, file I/O operations, writing small utility
+programs; Debugging tools – adb, lint.
+Accessing the environment from within a C program
+Unix system calls
+Low level I/O: File descriptors, File I/O – read and write, file
+creation – open, create, close, unlink; error processing –
+errorno, random access – lseek
+2
+Working with file system – directories, inodes.
+Files, System Files, File Formats, Buffered I/O
+15 25 1,2,3 CO1 1,2,3
+File Systems
+Files, Devices, Drivers
+3
+Signals and interrupts: the system call signal, Alarms – the
+system call alarm.
+The UNIX Kernel Support for Signals, signal, Signal Mask,
+sigaction, The SIGCHLD Signal and the waitpid Function, The 15 25 1,2,3 CO1 1,2,3
+sigsetjmp and siglongjmp Functions, Kill, Alarm, Interval Timers,
+POSIX.lb Timers. Daemon Processes: Introduction, Daemon
+Characteristics, Coding Rules, Error Logging, Client-Server
+Model.
+4
+Processes in Unix: Low level process creation – execlp and
+execvp; control of processes – fork and wait.
+15 25 1,2,3 CO1 1,2,3
+Inter-Process Communication, I/O Redirection and Pipes
+make: a program for specifying and controlling the process by
+which a complex program is compiled.
+Network Programming: Sockets, Servers, Clients
+Network Programming: A Web Server, :
+Concurrent Programming
+Reference Books
+1.
+Kay A. Robbins, Steven Robbins (2003): UNIX systems programming: communication, concurrency, and thread, Prentice Hall PTR.
+2. Robert Love (2007): Linux system programming, O'Reilly Media, Inc
+3. Kernighan and Pike: Unix Programming, PHI.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: BCA (Web Application Development)
+Programme Specific Outcome(PSO)
+PSO 1 . To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO 2. To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn Computer hardware with microprocessor architecture .
+PSO 6 Learning Database management system along with designing ,query processing and managing databases using application programs.
+PSO 7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 8 Generating solutions in societal and environmental contexts.
+PSO 9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.

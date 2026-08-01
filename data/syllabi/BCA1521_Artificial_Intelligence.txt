@@ -1,0 +1,333 @@
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty o Science Academic Year 2021-22
+Department of Computer Applications
+BCA: Regular Program
+Core Elective
+Year III Credits / Hours per week 04/60
+BCA 1521: Artificial Intelligence
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO)
+CO1 Basics of artificial intelligence and logical reasoning
+CO2 Applications of artificial intelligence
+CO3 Understanding fuzzy logic
+CO4 Understanding machine learning
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+T1h e Introduction:
+The The meaning of Artificial Intelligence (AI) and its
+importance.Relation between Artificial Intelligence,
+Machine Learning, Deep Learning and other Related PSO1,
+CO1, PSO2,
+Fields. 20 30 2,3,4
+CO2 PSO3
+AI: LISP – brief introduction, Other languages –
+PROLOG, Small Talk etc
+Python for AI : Python Basics, Jupyter notebook –
+installation and function, Python functions, packages and
+routines, Pandas, NumPy, Matplotlib, Seaborn, working
+with data structures , arrays, vectors and data frames.
+2 Symbolic logic – Propositional logic: syntax and
+semantics, First Order Predicate Logic (FOPL): syntax and
+semantics, well formed formulas and their properties,
+Clausal form, Inference rules, the resolution principle,
+non-deductive inference methods; representations using
+rules.
+Search and control strategies: Graph and Tree
+PSO1,
+representations of a search space, uninformed search, CO1,
+10 20 2,3,4,5,6 PSO2,
+informed search – Hill climbing methods, best–first CO2
+PSO3
+search, branch and bound search, Searching AND-OR
+graphs. Algorithms A A* AO*.
+Matching techniques: Structures used in matching,
+measures for matching – distance matrices, probabilistic
+measures, qualitative measures, similarity measures.
+Probabilistic reasoning – Bayesian inference, Possible
+world representations, Heuristic reasoning methods.
+Blocks world Problem
+Game Playing and its Techniques
+Introduction to Machine Learning: Basic Concepts of
+3 Machine Learning, Types of Learning: Supervised,
+Unsupervised and Reinforcement Learning, Categorical
+and Continuous Data, Skewness and Correlation,
+Regression Analysis Vs Classification
+Neural Networks – Gradient Descent, Introduction to
+perceptron and Neural Networks, Batch Normalization,
+Activation and loss function, tensorflow and keras for Neural
+CO1,
+PSO1,
+Networks. CO2,
+20 30 2,3,4,5,6 PSO2,
+CO3,
+Genetic Algorithms: A simple genetic algorithm, computer PSO3
+CO4
+implementation of genetic algorithm, data structures,
+reproduction, cross over and mutation. Time to reproduce
+and time to cross mapping objective function to fitness
+form, fitness scaling, application of genetic based machine
+learning.
+4 AI in Real World: Natural Language Processing (NLP) –
+Introduction to NLP, accessing text and lexical resources,
+CO1,
+processing raw text, categorizing and tagging words, CO2,
+10 20 2,3,4,5,6 PSO3
+CO3,
+analyze sentence structure, interactive chat-bot. CO4
+Fuzzy Systems - Fuzzy Logic, classical set theory,
+membership function, inference system, quantification
+Image Processing – Visualization, Image sharpening and
+restoration, Image enhancement, morphological
+processing and image recognition.
+Case study – Credit card fraud analysis, customer
+segmentation and value
+AI in Healthcare, Defense and Agriculture, Cyber
+Security, Agriculture, E-Commerce, Gaming, Finance,
+Smart Devices.
+Reference Books
+1. Patterson D. W. (1990) Introduction to Artificial Intelligence and Expert systems, Prentice Hall of India, New Delhi.
+2. Bratko, Ivan (1986): PROLOG: Programming for Artificial Intelligence, Addison-Wesley.
+3. Winston, P. T. (1977): Artificial Intelligence, Addison Wesley.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: BCA
+Programme Specific Outcome(PSO)
+PSO 1 . To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO 2. To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn Computer hardware with microprocessor architecture .
+PSO 6 Learning Database management system along with designing ,query processing and managing databases using application programs.
+PSO 7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 8 Generating solutions in societal and environmental contexts.
+PSO 9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty Of Science Academic Year 2021-22
+Department of Computer Application
+BCA: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04Cr
+CA527 Computer Graphics
+Year of Introduction: 2007
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCA527
+CO1 Understand the basics of computer graphics, different graphics systems and applications of computer graphics.
+CO2 Discuss various algorithms for scan conversion and filling of basic objects and their comparative analysis.
+CO3 Use of geometric transformations on graphics objects and their application in composite form.
+CO4 Extract scene with different clipping methods and its transformation to graphics display device.
+CO5 Explore projections and visible surface detection techniques for display of 3D scene on 2D screen.
+CO6 Render projected objects to naturalize the scene in 2D view and use of illumination models for this.
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1
+Introduction: Application of Computer Graphics,
+interactive input/output devices, display, colour display
+techniques, LCD & LED display, Raster Scanning, Raster
+Refresh
+Drawing geometry:
+DDA algorithm, Bresenham’s line drawing algorithm,
+translation, rotation, scaling, mirror reflection; Zooming and PSO1,P
+CO1,
+panning; Rubber band methods, dragging. 15 25% 1,2 SO2,PS
+CO2
+O3
+Bresenham’s circle drawing algorithm, generation of ellipse,
+parametric representation of curves, drawing the Bezier and B-
+Spline curves, smoothly joining curve segments; Character
+generation.
+.
+2 Graphic Operations: Clipping – Window port and view port,
+Sutherland-Cohen line clipping algorithm, Midpoint subdivision
+algorithm; Filling – Stack based fill algorithm, scan line seed
+PSO2,P
+15 25% 2,3 CO3 SO3,PS
+fill algorithm.
+O8
+3D Graphics: Transformations – transformation matrices,
+scaling and rotation, parallel projection, perspective projection,
+Hidden surface elimination algorithms.
+3 Illumination and Shading - Modeling a shiny surface, Goraud
+Shading (linear intensity interpolation), Phong Shading (Normal
+CO4
+vector Interpolation); Tweening – the interpolation; Morphing – 15 PSO1,P
+25% 3,4,
+Warping, colour dissolve. SO3
+Graphic Standards: GKS standards – brief discussion
+4
+Introduction to OpenGL, Functions, pipeline, sample programs
+for drawing 2D, 3D objects, handling and view manipulation.
+Drawing geometric objects – points, lines, and polygons; State
+PSO1,P
+management. CO5,
+15 25% 5,6 SO3,PS
+CO6
+O8
+Viewing: camera analogy, viewing and modeling
+transformations, projection transformations, viewport
+transformation; Using display lists – creating and executing a
+display list, executing multiple display lists.
+Reference Books
+1. Mukherjee D. P. (1999): Fundamentals of Computer Graphics and Multimedia, PHI.
+2. Stevens R. T. (1994): Object Oriented graphics programming in C++, A.P Professional.
+3. Plastock R. A. and Kalley: Computer Graphics, Schaum’s Outline Series.
+4. Woo, Mason et al. (2000): OpenGL Programming guide, 3e, Addison Wesley.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4.Analysis 5.Evaluation 6. Creation
+Programme Name: B.C.A
+Programme Specific Outcome (PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics, statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture.
+PSO6 Learning Database management system along with designing, query processing and managing databases using application programs.
+PSO7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO8 Generating solutions in societal and environmental contexts.
+PSO9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming, designing, analyzing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Application
+BCA: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04
+BCAXXXX: Data Warehousing and Mining
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCAXXXX
+CO1. Be familiar with mathematical foundations of data mining tools..
+CO2. Understand and implement classical models and algorithms in data warehouses and data mining
+CO3. Characterize the kinds of patterns that can be discovered by association rule mining, classification and clustering.
+CO4. Master data mining techniques in various applications like social, scientific and environmental context.
+CO5. Develop skill in selecting the appropriate data mining algorithm for solving practical problems.
+Unit Topic/Unit Conta Weightage BT CO PSO Element Relevan Relation
+No. ct (%) Level s of ce to to
+Hour Employa Local Gender
+s bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Decision support systems, the evolution.
+Data warehouse environment – the structure of data ware
+house, subject orientation, granularity, partitioning of data,
+structuring data, data homogeneity and heterogeneity.
+CO1, PS02,P
+Data warehousing architectures – single layer and multilayer
+15 25% 1,2, 3, 6 CO2, S03,PS
+architectures.
+CO3 04
+Data warehouse
+Data warehouse data model, the mid level data model, the
+physical data model, mata data, profile records, managing
+volume, Granularity in the data warehouse
+Accessing warehouse data – Reports, OLAP, dashboards.
+2 Data warehouse technologies
+Managing large amounts of data, managing multiple media,
+indexing and monitoring data, language interface, loading of
+PS02,P
+data, compactation of data, multidimensional DBMS
+15 25% 1,2,4,5,6 CO4, S03,PS
+The distributed data warehouse – the local and global data
+04
+warehouse, developing for distributed data warehouse,
+building the ware house on multiple levels
+3 Data Mining – Introduction
+Introduction to Data Mining Systems – Knowledge
+Discovery Process – Data Mining Techniques – Issues –
+PS02,P
+applications- Data Objects and attribute types, Statistical 15 25% 1,2,3,6 CO5 S03,PS
+description of data, Data Preprocessing – Cleaning, 04
+Integration, Reduction, Transformation and discretization,
+Data Visualization, Data similarity and
+dissimilaritymeasures.
+4 Data Mining – Frequent Pattern Analysis
+Mining Frequent Patterns, Associations and Correlations –
+Mining Methods- Pattern Evaluation Method – Pattern
+Mining in Multilevel, Multi Dimensional Space – Constraint
+Based Frequent Pattern Mining, Classification using
+Frequent Patterns
+Classification And Clustering
+PS01,P
+CO6, S02,PS
+15 25% 1,4,5,6
+Decision Tree Induction – Bayesian Classification – Rule CO7 03,PS0
+Based Classification – Classification by Back Propagation – 4,PS05
+Support Vector Machines –– Lazy Learners – Model
+Evaluation and Selection-Techniques to improve
+Classification Accuracy. Clustering Techniques – Cluster
+analysis-Partitioning Methods – Hierarchical Methods –
+Density Based Methods – Grid Based Methods – Evaluation
+of clustering – Clustering high dimensional data- Clustering
+with constraints, Outlier analysis-outlier detection methods.
+Reference Books
+1. Matteo Golfarelli and Stefano Rizzi (2009):Data Warehouse Design: Modern Principles and Methodologies, McGraw-Hill Osborne Media
+2. W. H. Inmon (2005): Building the Data Warehouse, 4e, Wiley
+3.
+Jiawei Han and Micheline Kamber, Data Mining Concepts and Techniques, Third Edition, Elsevier, 2012.
+4.
+Ian H.Witten and Eibe Frank, Data Mining: Practical Machine Learning Tools and Techniques, Elsevier, Second Edition.
+5. K.P. Soman, Shyam Diwakar and V. Ajay, ―Insight into Data Mining Theory and Practice, Eastern Economy Edition, Prentice Hall of India, 2006.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name
+Programme Specific Outcome(PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture .
+PSO6 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO7 Generating solutions in societal and environmental contexts.
+PSO8 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO9 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
