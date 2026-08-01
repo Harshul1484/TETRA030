@@ -27,8 +27,9 @@ The two-hop constraint is what makes the output actionable. Adding a skill whose
 | 1 | Large Language Models, Vector Databases |
 | 2 | Databases, Embeddings, Transformers |
 | 3 | Data Structures, Deep Learning |
+| 4 | Machine Learning, Optimization, Programming Fundamentals |
 
-The system derives that chain automatically. A recommendation becomes "you cannot teach RAG until these five things are covered, in this order" rather than "you are missing RAG".
+The system derives that chain automatically. A recommendation becomes "you cannot teach RAG until this dependency chain is covered, in this order" rather than "you are missing RAG".
 
 ---
 
@@ -79,12 +80,12 @@ flowchart LR
 
 Verified against a live Neo4j instance, not asserted:
 
-- **Skill taxonomy**: 187 canonical skills, 413 aliases, 187 prerequisite edges across AI, data, web, systems, cloud, security, and engineering
+- **Skill taxonomy**: 438 canonical skills, 1474 aliases, 587 prerequisite edges across AI, data, web, systems, cloud, security, and engineering
 - **Alias collapsing**: `ML`, `machine-learning`, and `Machine Learning` resolve to one node. `prompt injection` resolves to `LLM Security`, `xgboost` to `Ensemble Methods`, `k8s` to `Kubernetes`
-- **Graph loaded**: 187 skills and 187 prerequisite edges live in Neo4j, with multi-hop traversal working
+- **Graph loaded**: 438 skills and 587 prerequisite edges live in Neo4j, with multi-hop traversal working
 - **Gap scoring**: four-signal score with a tested health metric
 - **Claude client**: content-addressed disk cache with a full fallback chain
-- **54 tests passing**, including 5 integration tests against live Neo4j
+- **55 tests passing**, including 6 integration tests against live Neo4j
 
 ### Design decisions worth defending
 
@@ -153,4 +154,4 @@ Both have deterministic fallbacks, so neither can break the demo:
 - `backend/app/taxonomy/` - canonical skill taxonomy and resolver
 - `backend/app/pipeline/` - the six pipeline stages
 - `backend/app/db/` - Neo4j schema and queries
-- `backend/tests/` - 54 tests
+- `backend/tests/` - 55 tests
