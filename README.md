@@ -83,9 +83,11 @@ Verified against a live Neo4j instance, not asserted:
 - **Skill taxonomy**: 438 canonical skills, 1474 aliases, 587 prerequisite edges across AI, data, web, systems, cloud, security, and engineering
 - **Alias collapsing**: `ML`, `machine-learning`, and `Machine Learning` resolve to one node. `prompt injection` resolves to `LLM Security`, `xgboost` to `Ensemble Methods`, `k8s` to `Kubernetes`
 - **Graph loaded**: 438 skills and 587 prerequisite edges live in Neo4j, with multi-hop traversal working
+- **Semantic search**: all 438 skills embedded locally via sentence-transformers into ChromaDB. Phrases with zero keyword overlap resolve correctly: "orchestrating containers" returns Kubernetes (0.776), "training neural networks" returns Deep Learning (0.745), "storing numbers that represent meaning for similarity lookup" returns Vector Databases
+- **Calibrated matching threshold**: measured, not guessed. See below
 - **Gap scoring**: four-signal score with a tested health metric
 - **Claude client**: content-addressed disk cache with a full fallback chain
-- **55 tests passing**, including 6 integration tests against live Neo4j
+- **66 tests passing**, including 6 integration tests against live Neo4j
 
 ### Design decisions worth defending
 
@@ -94,6 +96,19 @@ Verified against a live Neo4j instance, not asserted:
 **Every Claude call is cached by content hash.** The chain is cache, then live call, then a caller-supplied fallback. An expired key or a rate limit degrades output rather than breaking the page.
 
 **The health score was wrong once, and a test caught it.** The first implementation used a normalized weighted mean. Adding twenty trivial gaps to one critical gap raised health from 5 to 73 — making a curriculum worse made it look better. Replaced with an unnormalized rank-decay penalty so additional gaps can only lower the score. This is exactly the class of bug that survives a demo unnoticed, because a wrong number looks entirely plausible on screen.
+
+**The matching threshold is measured, not guessed.** The similarity floor started at 0.35, chosen during planning. Measured against the real 438-skill index:
+
+| Band | Range |
+|---|---|
+| Genuine skill phrases | 0.643 - 0.776 |
+| Unrelated syllabus prose | 0.554 - 0.619 |
+
+At 0.35, ordinary administrative text passed as real skill mentions — "the cafeteria serves lunch at noon" matched Service Mesh at 0.565, and "office hours are held on tuesday afternoons" matched Cron Scheduling at 0.619. Each would have entered a gap report as a phantom skill with fabricated evidence.
+
+The floor is now 0.63, inside the 0.024 separation gap, and `scripts/calibrate_threshold.py` reproduces the measurement. The script warns if the bands overlap, since that would mean no threshold separates signal from noise and the embedding model needs replacing.
+
+**Where semantic matching genuinely fails.** Embeddings do not encode negation: "finding patterns in data without labelled examples" retrieves Supervised Learning rather than Unsupervised Learning. This is why exact taxonomy resolution runs first and vector hits are treated as probabilistic, never overriding a known-correct alias match.
 
 ---
 
@@ -134,7 +149,6 @@ RETURN path
 ## In progress
 
 - Skill extraction from real syllabi and job postings via Claude
-- ChromaDB semantic matching layer
 - Gap reports served over the API
 - Frontend: dashboard, course detail, graph explorer, augmenter diff
 
