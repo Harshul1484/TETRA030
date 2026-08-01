@@ -1,198 +1,5535 @@
 [
-  {"canonical_name": "Programming Fundamentals", "category": "foundations", "aliases": ["programming basics", "intro to programming", "coding fundamentals"], "prerequisites": []},
-  {"canonical_name": "Data Structures", "category": "foundations", "aliases": ["ds", "data structure"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Algorithms", "category": "foundations", "aliases": ["algorithm design", "algorithmic thinking", "daa"], "prerequisites": ["Data Structures"]},
-  {"canonical_name": "Object Oriented Programming", "category": "foundations", "aliases": ["oop", "object-oriented programming", "object oriented design"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Functional Programming", "category": "foundations", "aliases": ["fp"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Computational Complexity", "category": "foundations", "aliases": ["big o", "time complexity", "asymptotic analysis"], "prerequisites": ["Algorithms"]},
-  {"canonical_name": "Discrete Mathematics", "category": "foundations", "aliases": ["discrete math", "discrete structures"], "prerequisites": []},
-  {"canonical_name": "Linear Algebra", "category": "mathematics", "aliases": ["matrix algebra", "vectors and matrices"], "prerequisites": []},
-  {"canonical_name": "Probability and Statistics", "category": "mathematics", "aliases": ["statistics", "probability", "stats", "statistical methods"], "prerequisites": []},
-  {"canonical_name": "Calculus", "category": "mathematics", "aliases": ["differential calculus", "integral calculus"], "prerequisites": []},
-  {"canonical_name": "Optimization", "category": "mathematics", "aliases": ["mathematical optimization", "convex optimization"], "prerequisites": ["Calculus", "Linear Algebra"]},
-  {"canonical_name": "Numerical Methods", "category": "mathematics", "aliases": ["numerical analysis", "numerical computing"], "prerequisites": ["Calculus"]},
-
-  {"canonical_name": "Python", "category": "language", "aliases": ["python3", "python programming"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "JavaScript", "category": "language", "aliases": ["js", "ecmascript", "es6"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "TypeScript", "category": "language", "aliases": ["ts"], "prerequisites": ["JavaScript"]},
-  {"canonical_name": "Java", "category": "language", "aliases": ["core java", "java se"], "prerequisites": ["Object Oriented Programming"]},
-  {"canonical_name": "C Programming", "category": "language", "aliases": ["c language", "ansi c"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "C Plus Plus", "category": "language", "aliases": ["c++", "cpp"], "prerequisites": ["C Programming"]},
-  {"canonical_name": "Go", "category": "language", "aliases": ["golang"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Rust", "category": "language", "aliases": ["rust lang"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Kotlin", "category": "language", "aliases": [], "prerequisites": ["Java"]},
-  {"canonical_name": "Swift", "category": "language", "aliases": [], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Scala", "category": "language", "aliases": [], "prerequisites": ["Functional Programming"]},
-  {"canonical_name": "R Programming", "category": "language", "aliases": ["r language", "r statistical"], "prerequisites": ["Probability and Statistics"]},
-  {"canonical_name": "SQL", "category": "language", "aliases": ["structured query language"], "prerequisites": []},
-  {"canonical_name": "Bash Scripting", "category": "language", "aliases": ["shell scripting", "bash", "shell"], "prerequisites": ["Operating Systems"]},
-  {"canonical_name": "PHP", "category": "language", "aliases": [], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Ruby", "category": "language", "aliases": [], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "MATLAB", "category": "language", "aliases": ["matlab programming"], "prerequisites": ["Linear Algebra"]},
-
-  {"canonical_name": "Machine Learning", "category": "ai", "aliases": ["ml", "statistical learning"], "prerequisites": ["Probability and Statistics", "Linear Algebra"]},
-  {"canonical_name": "Supervised Learning", "category": "ai", "aliases": ["supervised ml"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "Unsupervised Learning", "category": "ai", "aliases": ["unsupervised ml", "clustering"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "Deep Learning", "category": "ai", "aliases": ["dl", "neural networks", "deep neural networks"], "prerequisites": ["Machine Learning", "Optimization"]},
-  {"canonical_name": "Convolutional Neural Networks", "category": "ai", "aliases": ["cnn", "convnet"], "prerequisites": ["Deep Learning"]},
-  {"canonical_name": "Recurrent Neural Networks", "category": "ai", "aliases": ["rnn", "lstm", "gru"], "prerequisites": ["Deep Learning"]},
-  {"canonical_name": "Transformers", "category": "ai", "aliases": ["transformer architecture", "attention mechanism", "self-attention"], "prerequisites": ["Deep Learning"]},
-  {"canonical_name": "Large Language Models", "category": "ai", "aliases": ["llm", "llms", "foundation models"], "prerequisites": ["Transformers"]},
-  {"canonical_name": "Prompt Engineering", "category": "ai", "aliases": ["prompting", "prompt design"], "prerequisites": ["Large Language Models"]},
-  {"canonical_name": "Retrieval Augmented Generation", "category": "ai", "aliases": ["rag", "retrieval-augmented generation", "retrieval augmented llm"], "prerequisites": ["Large Language Models", "Vector Databases"]},
-  {"canonical_name": "Fine Tuning", "category": "ai", "aliases": ["model fine-tuning", "transfer learning", "lora"], "prerequisites": ["Deep Learning"]},
-  {"canonical_name": "Natural Language Processing", "category": "ai", "aliases": ["nlp", "text mining", "computational linguistics"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "Computer Vision", "category": "ai", "aliases": ["cv", "image processing", "vision systems"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "Reinforcement Learning", "category": "ai", "aliases": ["rl", "deep reinforcement learning"], "prerequisites": ["Machine Learning", "Optimization"]},
-  {"canonical_name": "Generative AI", "category": "ai", "aliases": ["genai", "generative models", "gen ai"], "prerequisites": ["Deep Learning"]},
-  {"canonical_name": "Diffusion Models", "category": "ai", "aliases": ["stable diffusion", "image generation models"], "prerequisites": ["Generative AI"]},
-  {"canonical_name": "Generative Adversarial Networks", "category": "ai", "aliases": ["gan", "gans"], "prerequisites": ["Generative AI"]},
-  {"canonical_name": "AI Agents", "category": "ai", "aliases": ["agentic ai", "autonomous agents", "llm agents"], "prerequisites": ["Large Language Models", "Prompt Engineering"]},
-  {"canonical_name": "Model Context Protocol", "category": "ai", "aliases": ["mcp"], "prerequisites": ["AI Agents"]},
-  {"canonical_name": "Embeddings", "category": "ai", "aliases": ["word embeddings", "vector embeddings", "sentence embeddings"], "prerequisites": ["Deep Learning"]},
-  {"canonical_name": "Model Evaluation", "category": "ai", "aliases": ["model validation", "cross validation", "evaluation metrics"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "Feature Engineering", "category": "ai", "aliases": ["feature extraction", "feature selection"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "Ensemble Methods", "category": "ai", "aliases": ["random forest", "gradient boosting", "xgboost", "boosting"], "prerequisites": ["Supervised Learning"]},
-  {"canonical_name": "Time Series Analysis", "category": "ai", "aliases": ["forecasting", "time series forecasting"], "prerequisites": ["Probability and Statistics"]},
-  {"canonical_name": "Recommender Systems", "category": "ai", "aliases": ["recommendation engines", "collaborative filtering"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "Speech Recognition", "category": "ai", "aliases": ["asr", "speech to text", "voice recognition"], "prerequisites": ["Deep Learning"]},
-  {"canonical_name": "MLOps", "category": "ai", "aliases": ["ml ops", "machine learning operations", "ml engineering"], "prerequisites": ["Machine Learning", "CI/CD"]},
-  {"canonical_name": "Model Deployment", "category": "ai", "aliases": ["model serving", "inference serving"], "prerequisites": ["MLOps"]},
-  {"canonical_name": "Model Monitoring", "category": "ai", "aliases": ["drift detection", "model observability"], "prerequisites": ["MLOps"]},
-  {"canonical_name": "Explainable AI", "category": "ai", "aliases": ["xai", "interpretability", "shap", "lime"], "prerequisites": ["Machine Learning"]},
-  {"canonical_name": "AI Ethics", "category": "ai", "aliases": ["responsible ai", "ai fairness", "algorithmic bias"], "prerequisites": []},
-  {"canonical_name": "AI Safety", "category": "ai", "aliases": ["ai alignment", "model safety"], "prerequisites": ["AI Ethics"]},
-  {"canonical_name": "PyTorch", "category": "ai", "aliases": ["torch"], "prerequisites": ["Deep Learning", "Python"]},
-  {"canonical_name": "TensorFlow", "category": "ai", "aliases": ["tf", "keras"], "prerequisites": ["Deep Learning", "Python"]},
-  {"canonical_name": "Scikit Learn", "category": "ai", "aliases": ["sklearn", "scikit-learn"], "prerequisites": ["Machine Learning", "Python"]},
-  {"canonical_name": "Hugging Face", "category": "ai", "aliases": ["huggingface", "transformers library"], "prerequisites": ["Transformers"]},
-  {"canonical_name": "LangChain", "category": "ai", "aliases": ["langgraph"], "prerequisites": ["Large Language Models"]},
-  {"canonical_name": "OpenCV", "category": "ai", "aliases": ["cv2"], "prerequisites": ["Computer Vision"]},
-
-  {"canonical_name": "Databases", "category": "data", "aliases": ["database systems", "dbms", "database management"], "prerequisites": ["Data Structures"]},
-  {"canonical_name": "Relational Database Design", "category": "data", "aliases": ["rdbms", "normalization", "er modeling", "entity relationship modeling"], "prerequisites": ["Databases"]},
-  {"canonical_name": "NoSQL Databases", "category": "data", "aliases": ["nosql", "document databases", "non-relational databases"], "prerequisites": ["Databases"]},
-  {"canonical_name": "Vector Databases", "category": "data", "aliases": ["vector db", "vector search", "embedding database", "similarity search"], "prerequisites": ["Databases", "Embeddings"]},
-  {"canonical_name": "Graph Databases", "category": "data", "aliases": ["graph db", "neo4j", "cypher"], "prerequisites": ["Databases"]},
-  {"canonical_name": "PostgreSQL", "category": "data", "aliases": ["postgres"], "prerequisites": ["Relational Database Design"]},
-  {"canonical_name": "MySQL", "category": "data", "aliases": ["mariadb"], "prerequisites": ["Relational Database Design"]},
-  {"canonical_name": "MongoDB", "category": "data", "aliases": ["mongo"], "prerequisites": ["NoSQL Databases"]},
-  {"canonical_name": "Redis", "category": "data", "aliases": ["in-memory cache"], "prerequisites": ["NoSQL Databases"]},
-  {"canonical_name": "Elasticsearch", "category": "data", "aliases": ["elastic", "opensearch"], "prerequisites": ["NoSQL Databases"]},
-  {"canonical_name": "Data Warehousing", "category": "data", "aliases": ["data warehouse", "olap", "star schema"], "prerequisites": ["Relational Database Design"]},
-  {"canonical_name": "Data Modeling", "category": "data", "aliases": ["schema design", "dimensional modeling"], "prerequisites": ["Databases"]},
-  {"canonical_name": "ETL Pipelines", "category": "data", "aliases": ["etl", "elt", "data pipelines", "data ingestion"], "prerequisites": ["Databases"]},
-  {"canonical_name": "Apache Spark", "category": "data", "aliases": ["spark", "pyspark"], "prerequisites": ["Distributed Systems"]},
-  {"canonical_name": "Apache Kafka", "category": "data", "aliases": ["kafka", "event streaming"], "prerequisites": ["Distributed Systems"]},
-  {"canonical_name": "Apache Airflow", "category": "data", "aliases": ["airflow", "workflow orchestration"], "prerequisites": ["ETL Pipelines"]},
-  {"canonical_name": "dbt", "category": "data", "aliases": ["data build tool"], "prerequisites": ["ETL Pipelines", "SQL"]},
-  {"canonical_name": "Data Engineering", "category": "data", "aliases": ["data infrastructure"], "prerequisites": ["ETL Pipelines"]},
-  {"canonical_name": "Big Data", "category": "data", "aliases": ["hadoop", "mapreduce", "big data analytics"], "prerequisites": ["Distributed Systems"]},
-  {"canonical_name": "Data Analysis", "category": "data", "aliases": ["exploratory data analysis", "eda", "data analytics"], "prerequisites": ["Probability and Statistics"]},
-  {"canonical_name": "Data Visualization", "category": "data", "aliases": ["dataviz", "charting", "visual analytics"], "prerequisites": ["Data Analysis"]},
-  {"canonical_name": "Pandas", "category": "data", "aliases": ["pandas dataframe"], "prerequisites": ["Python", "Data Analysis"]},
-  {"canonical_name": "NumPy", "category": "data", "aliases": ["numpy arrays"], "prerequisites": ["Python", "Linear Algebra"]},
-  {"canonical_name": "Business Intelligence", "category": "data", "aliases": ["bi", "tableau", "power bi", "looker"], "prerequisites": ["Data Analysis"]},
-  {"canonical_name": "Data Governance", "category": "data", "aliases": ["data quality", "data stewardship", "data lineage"], "prerequisites": ["Databases"]},
-  {"canonical_name": "Data Privacy", "category": "data", "aliases": ["gdpr", "pii handling", "data protection"], "prerequisites": ["Data Governance"]},
-
-  {"canonical_name": "Web Development", "category": "web", "aliases": ["web dev", "web programming"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "HTML", "category": "web", "aliases": ["html5", "markup"], "prerequisites": []},
-  {"canonical_name": "CSS", "category": "web", "aliases": ["css3", "stylesheets"], "prerequisites": ["HTML"]},
-  {"canonical_name": "React", "category": "web", "aliases": ["reactjs", "react.js"], "prerequisites": ["JavaScript"]},
-  {"canonical_name": "Next.js", "category": "web", "aliases": ["nextjs"], "prerequisites": ["React"]},
-  {"canonical_name": "Vue.js", "category": "web", "aliases": ["vue", "vuejs"], "prerequisites": ["JavaScript"]},
-  {"canonical_name": "Angular", "category": "web", "aliases": ["angularjs"], "prerequisites": ["TypeScript"]},
-  {"canonical_name": "Node.js", "category": "web", "aliases": ["nodejs", "node"], "prerequisites": ["JavaScript"]},
-  {"canonical_name": "Express.js", "category": "web", "aliases": ["express"], "prerequisites": ["Node.js"]},
-  {"canonical_name": "Django", "category": "web", "aliases": [], "prerequisites": ["Python", "Web Development"]},
-  {"canonical_name": "Flask", "category": "web", "aliases": [], "prerequisites": ["Python", "Web Development"]},
-  {"canonical_name": "FastAPI", "category": "web", "aliases": [], "prerequisites": ["Python", "REST APIs"]},
-  {"canonical_name": "Spring Boot", "category": "web", "aliases": ["spring framework"], "prerequisites": ["Java"]},
-  {"canonical_name": "REST APIs", "category": "web", "aliases": ["rest", "restful api", "api design"], "prerequisites": ["Web Development"]},
-  {"canonical_name": "GraphQL", "category": "web", "aliases": ["graph ql"], "prerequisites": ["REST APIs"]},
-  {"canonical_name": "WebSockets", "category": "web", "aliases": ["websocket", "realtime communication"], "prerequisites": ["Web Development"]},
-  {"canonical_name": "Tailwind CSS", "category": "web", "aliases": ["tailwind"], "prerequisites": ["CSS"]},
-  {"canonical_name": "Responsive Design", "category": "web", "aliases": ["mobile-first design", "adaptive layout"], "prerequisites": ["CSS"]},
-  {"canonical_name": "Web Accessibility", "category": "web", "aliases": ["a11y", "wcag", "accessible design"], "prerequisites": ["HTML"]},
-  {"canonical_name": "Progressive Web Apps", "category": "web", "aliases": ["pwa"], "prerequisites": ["Web Development"]},
-  {"canonical_name": "Server Side Rendering", "category": "web", "aliases": ["ssr", "static site generation", "ssg"], "prerequisites": ["React"]},
-  {"canonical_name": "State Management", "category": "web", "aliases": ["redux", "zustand", "frontend state"], "prerequisites": ["React"]},
-  {"canonical_name": "Web Performance Optimization", "category": "web", "aliases": ["core web vitals", "page speed", "frontend performance"], "prerequisites": ["Web Development"]},
-
-  {"canonical_name": "Operating Systems", "category": "systems", "aliases": ["os", "operating system concepts"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Computer Networks", "category": "systems", "aliases": ["networking", "network protocols", "tcp/ip"], "prerequisites": []},
-  {"canonical_name": "Computer Architecture", "category": "systems", "aliases": ["computer organization", "cpu architecture"], "prerequisites": []},
-  {"canonical_name": "Distributed Systems", "category": "systems", "aliases": ["distributed computing"], "prerequisites": ["Computer Networks", "Operating Systems"]},
-  {"canonical_name": "Concurrency", "category": "systems", "aliases": ["multithreading", "parallel programming", "concurrent programming"], "prerequisites": ["Operating Systems"]},
-  {"canonical_name": "System Design", "category": "systems", "aliases": ["software architecture", "architectural design", "scalable systems"], "prerequisites": ["Distributed Systems"]},
-  {"canonical_name": "Microservices", "category": "systems", "aliases": ["microservice architecture", "service oriented architecture"], "prerequisites": ["System Design"]},
-  {"canonical_name": "Event Driven Architecture", "category": "systems", "aliases": ["event driven design", "pub sub", "message queues"], "prerequisites": ["System Design"]},
-  {"canonical_name": "Caching Strategies", "category": "systems", "aliases": ["caching", "cache invalidation"], "prerequisites": ["System Design"]},
-  {"canonical_name": "Load Balancing", "category": "systems", "aliases": ["horizontal scaling", "traffic distribution"], "prerequisites": ["System Design"]},
-  {"canonical_name": "Compilers", "category": "systems", "aliases": ["compiler design", "language processing"], "prerequisites": ["Algorithms"]},
-  {"canonical_name": "Embedded Systems", "category": "systems", "aliases": ["firmware", "microcontrollers"], "prerequisites": ["C Programming"]},
-  {"canonical_name": "Internet of Things", "category": "systems", "aliases": ["iot", "connected devices"], "prerequisites": ["Embedded Systems", "Computer Networks"]},
-  {"canonical_name": "Edge Computing", "category": "systems", "aliases": ["edge ai", "on-device computing"], "prerequisites": ["Distributed Systems"]},
-  {"canonical_name": "High Performance Computing", "category": "systems", "aliases": ["hpc", "parallel computing", "gpu computing", "cuda"], "prerequisites": ["Concurrency"]},
-
-  {"canonical_name": "Cloud Computing", "category": "cloud", "aliases": ["cloud platforms", "cloud services"], "prerequisites": ["Computer Networks"]},
-  {"canonical_name": "Amazon Web Services", "category": "cloud", "aliases": ["aws", "ec2", "s3"], "prerequisites": ["Cloud Computing"]},
-  {"canonical_name": "Microsoft Azure", "category": "cloud", "aliases": ["azure"], "prerequisites": ["Cloud Computing"]},
-  {"canonical_name": "Google Cloud Platform", "category": "cloud", "aliases": ["gcp", "google cloud"], "prerequisites": ["Cloud Computing"]},
-  {"canonical_name": "Serverless Computing", "category": "cloud", "aliases": ["serverless", "lambda functions", "faas"], "prerequisites": ["Cloud Computing"]},
-  {"canonical_name": "Docker", "category": "cloud", "aliases": ["containerization", "containers"], "prerequisites": ["Operating Systems"]},
-  {"canonical_name": "Kubernetes", "category": "cloud", "aliases": ["k8s", "container orchestration"], "prerequisites": ["Docker", "Distributed Systems"]},
-  {"canonical_name": "Infrastructure as Code", "category": "cloud", "aliases": ["iac", "terraform", "cloudformation", "pulumi"], "prerequisites": ["Cloud Computing"]},
-  {"canonical_name": "CI/CD", "category": "cloud", "aliases": ["continuous integration", "continuous deployment", "continuous delivery", "github actions", "jenkins"], "prerequisites": ["Version Control"]},
-  {"canonical_name": "DevOps", "category": "cloud", "aliases": ["dev ops"], "prerequisites": ["CI/CD", "Cloud Computing"]},
-  {"canonical_name": "Site Reliability Engineering", "category": "cloud", "aliases": ["sre", "reliability engineering"], "prerequisites": ["DevOps"]},
-  {"canonical_name": "Observability", "category": "cloud", "aliases": ["monitoring", "logging", "tracing", "prometheus", "grafana"], "prerequisites": ["DevOps"]},
-  {"canonical_name": "Cloud Cost Optimization", "category": "cloud", "aliases": ["finops", "cloud economics"], "prerequisites": ["Cloud Computing"]},
-  {"canonical_name": "Service Mesh", "category": "cloud", "aliases": ["istio", "linkerd"], "prerequisites": ["Kubernetes"]},
-
-  {"canonical_name": "Cybersecurity", "category": "security", "aliases": ["information security", "infosec", "security"], "prerequisites": ["Computer Networks"]},
-  {"canonical_name": "Cryptography", "category": "security", "aliases": ["encryption", "cryptographic protocols"], "prerequisites": ["Discrete Mathematics"]},
-  {"canonical_name": "Network Security", "category": "security", "aliases": ["firewalls", "intrusion detection"], "prerequisites": ["Cybersecurity"]},
-  {"canonical_name": "Application Security", "category": "security", "aliases": ["appsec", "secure coding", "owasp"], "prerequisites": ["Cybersecurity"]},
-  {"canonical_name": "Penetration Testing", "category": "security", "aliases": ["pentesting", "ethical hacking", "red teaming"], "prerequisites": ["Cybersecurity"]},
-  {"canonical_name": "Authentication and Authorization", "category": "security", "aliases": ["oauth", "jwt", "identity management", "sso"], "prerequisites": ["Application Security"]},
-  {"canonical_name": "Threat Modeling", "category": "security", "aliases": ["risk assessment", "stride"], "prerequisites": ["Cybersecurity"]},
-  {"canonical_name": "Incident Response", "category": "security", "aliases": ["security operations", "soc", "forensics"], "prerequisites": ["Cybersecurity"]},
-  {"canonical_name": "Zero Trust Architecture", "category": "security", "aliases": ["zero trust"], "prerequisites": ["Network Security"]},
-  {"canonical_name": "LLM Security", "category": "security", "aliases": ["prompt injection", "ai security", "jailbreak defense"], "prerequisites": ["Large Language Models", "Application Security"]},
-  {"canonical_name": "Blockchain", "category": "security", "aliases": ["distributed ledger", "web3"], "prerequisites": ["Cryptography"]},
-  {"canonical_name": "Smart Contracts", "category": "security", "aliases": ["solidity", "ethereum"], "prerequisites": ["Blockchain"]},
-
-  {"canonical_name": "Version Control", "category": "engineering", "aliases": ["git", "github", "source control"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Software Testing", "category": "engineering", "aliases": ["testing", "qa", "quality assurance"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Unit Testing", "category": "engineering", "aliases": ["unit tests", "pytest", "jest"], "prerequisites": ["Software Testing"]},
-  {"canonical_name": "Integration Testing", "category": "engineering", "aliases": ["end to end testing", "e2e testing"], "prerequisites": ["Software Testing"]},
-  {"canonical_name": "Test Driven Development", "category": "engineering", "aliases": ["tdd"], "prerequisites": ["Unit Testing"]},
-  {"canonical_name": "Code Review", "category": "engineering", "aliases": ["peer review", "pull requests"], "prerequisites": ["Version Control"]},
-  {"canonical_name": "Agile Methodology", "category": "engineering", "aliases": ["agile", "scrum", "kanban", "sprint planning"], "prerequisites": []},
-  {"canonical_name": "Software Design Patterns", "category": "engineering", "aliases": ["design patterns", "gof patterns"], "prerequisites": ["Object Oriented Programming"]},
-  {"canonical_name": "Refactoring", "category": "engineering", "aliases": ["code refactoring", "technical debt management"], "prerequisites": ["Software Design Patterns"]},
-  {"canonical_name": "Debugging", "category": "engineering", "aliases": ["troubleshooting", "root cause analysis"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Technical Documentation", "category": "engineering", "aliases": ["documentation", "api documentation", "technical writing"], "prerequisites": []},
-  {"canonical_name": "Software Requirements Engineering", "category": "engineering", "aliases": ["requirements analysis", "requirements gathering"], "prerequisites": []},
-  {"canonical_name": "Mobile Development", "category": "engineering", "aliases": ["android development", "ios development", "app development"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "React Native", "category": "engineering", "aliases": ["cross platform mobile", "flutter"], "prerequisites": ["React", "Mobile Development"]},
-  {"canonical_name": "Game Development", "category": "engineering", "aliases": ["unity", "unreal engine", "game programming"], "prerequisites": ["Programming Fundamentals"]},
-  {"canonical_name": "Augmented Reality", "category": "engineering", "aliases": ["ar", "virtual reality", "vr", "xr"], "prerequisites": ["Computer Vision"]},
-  {"canonical_name": "Robotics", "category": "engineering", "aliases": ["ros", "robot operating system", "autonomous systems"], "prerequisites": ["Embedded Systems", "Computer Vision"]},
-  {"canonical_name": "Quantum Computing", "category": "engineering", "aliases": ["qubits", "quantum algorithms", "qiskit"], "prerequisites": ["Linear Algebra"]},
-
-  {"canonical_name": "Product Management", "category": "professional", "aliases": ["product thinking", "roadmapping"], "prerequisites": []},
-  {"canonical_name": "User Experience Design", "category": "professional", "aliases": ["ux", "ux design", "user research"], "prerequisites": []},
-  {"canonical_name": "User Interface Design", "category": "professional", "aliases": ["ui design", "figma", "wireframing"], "prerequisites": ["User Experience Design"]},
-  {"canonical_name": "Technical Communication", "category": "professional", "aliases": ["presentation skills", "stakeholder communication"], "prerequisites": []},
-  {"canonical_name": "Team Collaboration", "category": "professional", "aliases": ["teamwork", "cross functional collaboration"], "prerequisites": []},
-  {"canonical_name": "Problem Solving", "category": "professional", "aliases": ["analytical thinking", "critical thinking"], "prerequisites": []},
-  {"canonical_name": "Project Management", "category": "professional", "aliases": ["delivery management", "planning and estimation"], "prerequisites": []},
-  {"canonical_name": "Entrepreneurship", "category": "professional", "aliases": ["startup skills", "innovation management"], "prerequisites": []},
-  {"canonical_name": "Business Analysis", "category": "professional", "aliases": ["domain analysis", "process modeling"], "prerequisites": []},
-  {"canonical_name": "Ethics in Computing", "category": "professional", "aliases": ["professional ethics", "computing ethics"], "prerequisites": []},
-  {"canonical_name": "Sustainability in Technology", "category": "professional", "aliases": ["green computing", "sustainable software"], "prerequisites": []},
-  {"canonical_name": "Continuous Learning", "category": "professional", "aliases": ["self directed learning", "upskilling"], "prerequisites": []}
+  {
+    "canonical_name": "Programming Fundamentals",
+    "category": "foundations",
+    "aliases": [
+      "programming basics",
+      "intro to programming",
+      "coding fundamentals"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Data Structures",
+    "category": "foundations",
+    "aliases": [
+      "ds",
+      "data structure"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Algorithms",
+    "category": "foundations",
+    "aliases": [
+      "algorithm design",
+      "algorithmic thinking",
+      "daa"
+    ],
+    "prerequisites": [
+      "Data Structures"
+    ]
+  },
+  {
+    "canonical_name": "Object Oriented Programming",
+    "category": "foundations",
+    "aliases": [
+      "oop",
+      "object-oriented programming",
+      "object oriented design"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Functional Programming",
+    "category": "foundations",
+    "aliases": [
+      "fp"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Computational Complexity",
+    "category": "foundations",
+    "aliases": [
+      "big o",
+      "time complexity",
+      "asymptotic analysis"
+    ],
+    "prerequisites": [
+      "Algorithms"
+    ]
+  },
+  {
+    "canonical_name": "Discrete Mathematics",
+    "category": "foundations",
+    "aliases": [
+      "discrete math",
+      "discrete structures"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Linear Algebra",
+    "category": "mathematics",
+    "aliases": [
+      "matrix algebra",
+      "vectors and matrices"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Probability and Statistics",
+    "category": "mathematics",
+    "aliases": [
+      "statistics",
+      "probability",
+      "stats",
+      "statistical methods"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Calculus",
+    "category": "mathematics",
+    "aliases": [
+      "differential calculus",
+      "integral calculus"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Optimization",
+    "category": "mathematics",
+    "aliases": [
+      "mathematical optimization",
+      "convex optimization",
+      "optimisation",
+      "mathematical optimisation"
+    ],
+    "prerequisites": [
+      "Calculus",
+      "Linear Algebra"
+    ]
+  },
+  {
+    "canonical_name": "Numerical Methods",
+    "category": "mathematics",
+    "aliases": [
+      "numerical analysis",
+      "numerical computing"
+    ],
+    "prerequisites": [
+      "Calculus"
+    ]
+  },
+  {
+    "canonical_name": "Python",
+    "category": "language",
+    "aliases": [
+      "python3",
+      "python programming"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "JavaScript",
+    "category": "language",
+    "aliases": [
+      "js",
+      "ecmascript",
+      "es6"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "TypeScript",
+    "category": "language",
+    "aliases": [
+      "ts"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Java",
+    "category": "language",
+    "aliases": [
+      "core java",
+      "java se"
+    ],
+    "prerequisites": [
+      "Object Oriented Programming"
+    ]
+  },
+  {
+    "canonical_name": "C Programming",
+    "category": "language",
+    "aliases": [
+      "c language",
+      "ansi c"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "C Plus Plus",
+    "category": "language",
+    "aliases": [
+      "c++",
+      "cpp"
+    ],
+    "prerequisites": [
+      "C Programming"
+    ]
+  },
+  {
+    "canonical_name": "Go",
+    "category": "language",
+    "aliases": [
+      "golang"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Rust",
+    "category": "language",
+    "aliases": [
+      "rust lang"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Kotlin",
+    "category": "language",
+    "aliases": [],
+    "prerequisites": [
+      "Java"
+    ]
+  },
+  {
+    "canonical_name": "Swift",
+    "category": "language",
+    "aliases": [],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Scala",
+    "category": "language",
+    "aliases": [],
+    "prerequisites": [
+      "Functional Programming"
+    ]
+  },
+  {
+    "canonical_name": "R Programming",
+    "category": "language",
+    "aliases": [
+      "r language",
+      "r statistical"
+    ],
+    "prerequisites": [
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "canonical_name": "SQL",
+    "category": "language",
+    "aliases": [
+      "structured query language"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Bash Scripting",
+    "category": "language",
+    "aliases": [
+      "shell scripting",
+      "bash",
+      "shell"
+    ],
+    "prerequisites": [
+      "Operating Systems"
+    ]
+  },
+  {
+    "canonical_name": "PHP",
+    "category": "language",
+    "aliases": [],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Ruby",
+    "category": "language",
+    "aliases": [],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "MATLAB",
+    "category": "language",
+    "aliases": [
+      "matlab programming"
+    ],
+    "prerequisites": [
+      "Linear Algebra"
+    ]
+  },
+  {
+    "canonical_name": "Machine Learning",
+    "category": "ai",
+    "aliases": [
+      "ml",
+      "statistical learning",
+      "applied machine learning",
+      "predictive modelling"
+    ],
+    "prerequisites": [
+      "Probability and Statistics",
+      "Linear Algebra"
+    ]
+  },
+  {
+    "canonical_name": "Supervised Learning",
+    "category": "ai",
+    "aliases": [
+      "supervised ml"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Unsupervised Learning",
+    "category": "ai",
+    "aliases": [
+      "unsupervised ml",
+      "clustering"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Deep Learning",
+    "category": "ai",
+    "aliases": [
+      "dl",
+      "neural networks",
+      "deep neural networks",
+      "neural network training"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Optimization"
+    ]
+  },
+  {
+    "canonical_name": "Convolutional Neural Networks",
+    "category": "ai",
+    "aliases": [
+      "cnn",
+      "convnet"
+    ],
+    "prerequisites": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Recurrent Neural Networks",
+    "category": "ai",
+    "aliases": [
+      "rnn",
+      "lstm",
+      "gru"
+    ],
+    "prerequisites": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Transformers",
+    "category": "ai",
+    "aliases": [
+      "transformer architecture",
+      "attention mechanism",
+      "self-attention"
+    ],
+    "prerequisites": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Large Language Models",
+    "category": "ai",
+    "aliases": [
+      "llm",
+      "llms",
+      "foundation models",
+      "language models",
+      "frontier models"
+    ],
+    "prerequisites": [
+      "Transformers"
+    ]
+  },
+  {
+    "canonical_name": "Prompt Engineering",
+    "category": "ai",
+    "aliases": [
+      "prompting",
+      "prompt design",
+      "prompt optimisation",
+      "system prompts"
+    ],
+    "prerequisites": [
+      "Large Language Models"
+    ]
+  },
+  {
+    "canonical_name": "Retrieval Augmented Generation",
+    "category": "ai",
+    "aliases": [
+      "rag",
+      "retrieval-augmented generation",
+      "retrieval augmented llm",
+      "rag pipeline",
+      "rag system"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Vector Databases"
+    ]
+  },
+  {
+    "canonical_name": "Fine Tuning",
+    "category": "ai",
+    "aliases": [
+      "model fine-tuning",
+      "transfer learning",
+      "lora"
+    ],
+    "prerequisites": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Natural Language Processing",
+    "category": "ai",
+    "aliases": [
+      "nlp",
+      "text mining",
+      "computational linguistics",
+      "text analytics",
+      "language understanding"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Computer Vision",
+    "category": "ai",
+    "aliases": [
+      "cv",
+      "image processing",
+      "vision systems",
+      "visual recognition",
+      "image recognition"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Reinforcement Learning",
+    "category": "ai",
+    "aliases": [
+      "rl",
+      "deep reinforcement learning"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Optimization"
+    ]
+  },
+  {
+    "canonical_name": "Generative AI",
+    "category": "ai",
+    "aliases": [
+      "genai",
+      "generative models",
+      "gen ai"
+    ],
+    "prerequisites": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Diffusion Models",
+    "category": "ai",
+    "aliases": [
+      "stable diffusion",
+      "image generation models"
+    ],
+    "prerequisites": [
+      "Generative AI"
+    ]
+  },
+  {
+    "canonical_name": "Generative Adversarial Networks",
+    "category": "ai",
+    "aliases": [
+      "gan",
+      "gans"
+    ],
+    "prerequisites": [
+      "Generative AI"
+    ]
+  },
+  {
+    "canonical_name": "AI Agents",
+    "category": "ai",
+    "aliases": [
+      "agentic ai",
+      "autonomous agents",
+      "llm agents"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Model Context Protocol",
+    "category": "ai",
+    "aliases": [
+      "mcp"
+    ],
+    "prerequisites": [
+      "AI Agents"
+    ]
+  },
+  {
+    "canonical_name": "Embeddings",
+    "category": "ai",
+    "aliases": [
+      "word embeddings",
+      "vector embeddings",
+      "sentence embeddings",
+      "embedding model",
+      "embedding models",
+      "text embeddings"
+    ],
+    "prerequisites": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Model Evaluation",
+    "category": "ai",
+    "aliases": [
+      "model validation",
+      "cross validation",
+      "evaluation metrics",
+      "model benchmarking",
+      "offline evaluation"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Feature Engineering",
+    "category": "ai",
+    "aliases": [
+      "feature extraction",
+      "feature selection"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Ensemble Methods",
+    "category": "ai",
+    "aliases": [
+      "random forest",
+      "gradient boosting",
+      "xgboost",
+      "boosting"
+    ],
+    "prerequisites": [
+      "Supervised Learning"
+    ]
+  },
+  {
+    "canonical_name": "Time Series Analysis",
+    "category": "ai",
+    "aliases": [
+      "forecasting",
+      "time series forecasting"
+    ],
+    "prerequisites": [
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "canonical_name": "Recommender Systems",
+    "category": "ai",
+    "aliases": [
+      "recommendation engines",
+      "collaborative filtering"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Speech Recognition",
+    "category": "ai",
+    "aliases": [
+      "asr",
+      "speech to text",
+      "voice recognition"
+    ],
+    "prerequisites": [
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "MLOps",
+    "category": "ai",
+    "aliases": [
+      "ml ops",
+      "machine learning operations",
+      "ml engineering",
+      "llmops",
+      "llm ops"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "CI/CD"
+    ]
+  },
+  {
+    "canonical_name": "Model Deployment",
+    "category": "ai",
+    "aliases": [
+      "model serving",
+      "inference serving"
+    ],
+    "prerequisites": [
+      "MLOps"
+    ]
+  },
+  {
+    "canonical_name": "Model Monitoring",
+    "category": "ai",
+    "aliases": [
+      "drift detection",
+      "model observability"
+    ],
+    "prerequisites": [
+      "MLOps"
+    ]
+  },
+  {
+    "canonical_name": "Explainable AI",
+    "category": "ai",
+    "aliases": [
+      "xai",
+      "interpretability",
+      "shap",
+      "lime"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "AI Ethics",
+    "category": "ai",
+    "aliases": [
+      "responsible ai",
+      "ai fairness",
+      "algorithmic bias"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "AI Safety",
+    "category": "ai",
+    "aliases": [
+      "ai alignment",
+      "model safety"
+    ],
+    "prerequisites": [
+      "AI Ethics"
+    ]
+  },
+  {
+    "canonical_name": "PyTorch",
+    "category": "ai",
+    "aliases": [
+      "torch"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Python"
+    ]
+  },
+  {
+    "canonical_name": "TensorFlow",
+    "category": "ai",
+    "aliases": [
+      "tf",
+      "keras"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Python"
+    ]
+  },
+  {
+    "canonical_name": "Scikit Learn",
+    "category": "ai",
+    "aliases": [
+      "sklearn",
+      "scikit-learn"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Python"
+    ]
+  },
+  {
+    "canonical_name": "Hugging Face",
+    "category": "ai",
+    "aliases": [
+      "huggingface",
+      "transformers library"
+    ],
+    "prerequisites": [
+      "Transformers"
+    ]
+  },
+  {
+    "canonical_name": "LangChain",
+    "category": "ai",
+    "aliases": [
+      "langgraph"
+    ],
+    "prerequisites": [
+      "Large Language Models"
+    ]
+  },
+  {
+    "canonical_name": "OpenCV",
+    "category": "ai",
+    "aliases": [
+      "cv2"
+    ],
+    "prerequisites": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "canonical_name": "Databases",
+    "category": "data",
+    "aliases": [
+      "database systems",
+      "dbms",
+      "database management"
+    ],
+    "prerequisites": [
+      "Data Structures"
+    ]
+  },
+  {
+    "canonical_name": "Relational Database Design",
+    "category": "data",
+    "aliases": [
+      "rdbms",
+      "normalization",
+      "er modeling",
+      "entity relationship modeling",
+      "normalisation",
+      "database normalisation"
+    ],
+    "prerequisites": [
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "NoSQL Databases",
+    "category": "data",
+    "aliases": [
+      "nosql",
+      "document databases",
+      "non-relational databases"
+    ],
+    "prerequisites": [
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "Vector Databases",
+    "category": "data",
+    "aliases": [
+      "vector db",
+      "vector search",
+      "embedding database",
+      "similarity search",
+      "vector store",
+      "vector stores"
+    ],
+    "prerequisites": [
+      "Databases",
+      "Embeddings"
+    ]
+  },
+  {
+    "canonical_name": "Graph Databases",
+    "category": "data",
+    "aliases": [
+      "graph db",
+      "neo4j",
+      "cypher"
+    ],
+    "prerequisites": [
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "PostgreSQL",
+    "category": "data",
+    "aliases": [
+      "postgres"
+    ],
+    "prerequisites": [
+      "Relational Database Design"
+    ]
+  },
+  {
+    "canonical_name": "MySQL",
+    "category": "data",
+    "aliases": [
+      "mariadb"
+    ],
+    "prerequisites": [
+      "Relational Database Design"
+    ]
+  },
+  {
+    "canonical_name": "MongoDB",
+    "category": "data",
+    "aliases": [
+      "mongo"
+    ],
+    "prerequisites": [
+      "NoSQL Databases"
+    ]
+  },
+  {
+    "canonical_name": "Redis",
+    "category": "data",
+    "aliases": [
+      "in-memory cache"
+    ],
+    "prerequisites": [
+      "NoSQL Databases"
+    ]
+  },
+  {
+    "canonical_name": "Elasticsearch",
+    "category": "data",
+    "aliases": [
+      "elastic",
+      "opensearch"
+    ],
+    "prerequisites": [
+      "NoSQL Databases"
+    ]
+  },
+  {
+    "canonical_name": "Data Warehousing",
+    "category": "data",
+    "aliases": [
+      "data warehouse",
+      "olap",
+      "star schema"
+    ],
+    "prerequisites": [
+      "Relational Database Design"
+    ]
+  },
+  {
+    "canonical_name": "Data Modeling",
+    "category": "data",
+    "aliases": [
+      "schema design",
+      "dimensional modeling"
+    ],
+    "prerequisites": [
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "ETL Pipelines",
+    "category": "data",
+    "aliases": [
+      "etl",
+      "elt",
+      "data pipelines",
+      "data ingestion"
+    ],
+    "prerequisites": [
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "Apache Spark",
+    "category": "data",
+    "aliases": [
+      "spark",
+      "pyspark"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Apache Kafka",
+    "category": "data",
+    "aliases": [
+      "kafka",
+      "event streaming"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Apache Airflow",
+    "category": "data",
+    "aliases": [
+      "airflow",
+      "workflow orchestration"
+    ],
+    "prerequisites": [
+      "ETL Pipelines"
+    ]
+  },
+  {
+    "canonical_name": "dbt",
+    "category": "data",
+    "aliases": [
+      "data build tool"
+    ],
+    "prerequisites": [
+      "ETL Pipelines",
+      "SQL"
+    ]
+  },
+  {
+    "canonical_name": "Data Engineering",
+    "category": "data",
+    "aliases": [
+      "data infrastructure",
+      "data platform engineering"
+    ],
+    "prerequisites": [
+      "ETL Pipelines"
+    ]
+  },
+  {
+    "canonical_name": "Big Data",
+    "category": "data",
+    "aliases": [
+      "hadoop",
+      "mapreduce",
+      "big data analytics"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Data Analysis",
+    "category": "data",
+    "aliases": [
+      "exploratory data analysis",
+      "eda",
+      "data analytics",
+      "analytics",
+      "data analytics work"
+    ],
+    "prerequisites": [
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "canonical_name": "Data Visualization",
+    "category": "data",
+    "aliases": [
+      "dataviz",
+      "charting",
+      "visual analytics",
+      "visualisation",
+      "data visualisation"
+    ],
+    "prerequisites": [
+      "Data Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Pandas",
+    "category": "data",
+    "aliases": [
+      "pandas dataframe"
+    ],
+    "prerequisites": [
+      "Python",
+      "Data Analysis"
+    ]
+  },
+  {
+    "canonical_name": "NumPy",
+    "category": "data",
+    "aliases": [
+      "numpy arrays"
+    ],
+    "prerequisites": [
+      "Python",
+      "Linear Algebra"
+    ]
+  },
+  {
+    "canonical_name": "Business Intelligence",
+    "category": "data",
+    "aliases": [
+      "bi",
+      "tableau",
+      "power bi",
+      "looker"
+    ],
+    "prerequisites": [
+      "Data Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Data Governance",
+    "category": "data",
+    "aliases": [
+      "data quality",
+      "data stewardship",
+      "data lineage"
+    ],
+    "prerequisites": [
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "Data Privacy",
+    "category": "data",
+    "aliases": [
+      "gdpr",
+      "pii handling",
+      "data protection"
+    ],
+    "prerequisites": [
+      "Data Governance"
+    ]
+  },
+  {
+    "canonical_name": "Web Development",
+    "category": "web",
+    "aliases": [
+      "web dev",
+      "web programming"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "HTML",
+    "category": "web",
+    "aliases": [
+      "html5",
+      "markup"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "CSS",
+    "category": "web",
+    "aliases": [
+      "css3",
+      "stylesheets"
+    ],
+    "prerequisites": [
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "React",
+    "category": "web",
+    "aliases": [
+      "reactjs",
+      "react.js"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Next.js",
+    "category": "web",
+    "aliases": [
+      "nextjs"
+    ],
+    "prerequisites": [
+      "React"
+    ]
+  },
+  {
+    "canonical_name": "Vue.js",
+    "category": "web",
+    "aliases": [
+      "vue",
+      "vuejs"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Angular",
+    "category": "web",
+    "aliases": [
+      "angularjs"
+    ],
+    "prerequisites": [
+      "TypeScript"
+    ]
+  },
+  {
+    "canonical_name": "Node.js",
+    "category": "web",
+    "aliases": [
+      "nodejs",
+      "node"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Express.js",
+    "category": "web",
+    "aliases": [
+      "express"
+    ],
+    "prerequisites": [
+      "Node.js"
+    ]
+  },
+  {
+    "canonical_name": "Django",
+    "category": "web",
+    "aliases": [],
+    "prerequisites": [
+      "Python",
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "Flask",
+    "category": "web",
+    "aliases": [],
+    "prerequisites": [
+      "Python",
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "FastAPI",
+    "category": "web",
+    "aliases": [],
+    "prerequisites": [
+      "Python",
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "Spring Boot",
+    "category": "web",
+    "aliases": [
+      "spring framework"
+    ],
+    "prerequisites": [
+      "Java"
+    ]
+  },
+  {
+    "canonical_name": "REST APIs",
+    "category": "web",
+    "aliases": [
+      "rest",
+      "restful api",
+      "api design",
+      "restful services",
+      "http apis"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "GraphQL",
+    "category": "web",
+    "aliases": [
+      "graph ql"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "WebSockets",
+    "category": "web",
+    "aliases": [
+      "websocket",
+      "realtime communication"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "Tailwind CSS",
+    "category": "web",
+    "aliases": [
+      "tailwind"
+    ],
+    "prerequisites": [
+      "CSS"
+    ]
+  },
+  {
+    "canonical_name": "Responsive Design",
+    "category": "web",
+    "aliases": [
+      "mobile-first design",
+      "adaptive layout"
+    ],
+    "prerequisites": [
+      "CSS"
+    ]
+  },
+  {
+    "canonical_name": "Web Accessibility",
+    "category": "web",
+    "aliases": [
+      "a11y",
+      "wcag",
+      "accessible design"
+    ],
+    "prerequisites": [
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "Progressive Web Apps",
+    "category": "web",
+    "aliases": [
+      "pwa"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "Server Side Rendering",
+    "category": "web",
+    "aliases": [
+      "ssr",
+      "static site generation",
+      "ssg"
+    ],
+    "prerequisites": [
+      "React"
+    ]
+  },
+  {
+    "canonical_name": "State Management",
+    "category": "web",
+    "aliases": [
+      "redux",
+      "zustand",
+      "frontend state"
+    ],
+    "prerequisites": [
+      "React"
+    ]
+  },
+  {
+    "canonical_name": "Web Performance Optimization",
+    "category": "web",
+    "aliases": [
+      "core web vitals",
+      "page speed",
+      "frontend performance"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "Operating Systems",
+    "category": "systems",
+    "aliases": [
+      "os",
+      "operating system concepts"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Computer Networks",
+    "category": "systems",
+    "aliases": [
+      "networking",
+      "network protocols",
+      "tcp/ip"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Computer Architecture",
+    "category": "systems",
+    "aliases": [
+      "computer organization",
+      "cpu architecture"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Distributed Systems",
+    "category": "systems",
+    "aliases": [
+      "distributed computing",
+      "distributed architecture"
+    ],
+    "prerequisites": [
+      "Computer Networks",
+      "Operating Systems"
+    ]
+  },
+  {
+    "canonical_name": "Concurrency",
+    "category": "systems",
+    "aliases": [
+      "multithreading",
+      "parallel programming",
+      "concurrent programming"
+    ],
+    "prerequisites": [
+      "Operating Systems"
+    ]
+  },
+  {
+    "canonical_name": "System Design",
+    "category": "systems",
+    "aliases": [
+      "software architecture",
+      "architectural design",
+      "scalable systems",
+      "systems design",
+      "high level design"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Microservices",
+    "category": "systems",
+    "aliases": [
+      "microservice architecture",
+      "service oriented architecture"
+    ],
+    "prerequisites": [
+      "System Design"
+    ]
+  },
+  {
+    "canonical_name": "Event Driven Architecture",
+    "category": "systems",
+    "aliases": [
+      "event driven design",
+      "pub sub",
+      "message queues"
+    ],
+    "prerequisites": [
+      "System Design"
+    ]
+  },
+  {
+    "canonical_name": "Caching Strategies",
+    "category": "systems",
+    "aliases": [
+      "caching",
+      "cache invalidation"
+    ],
+    "prerequisites": [
+      "System Design"
+    ]
+  },
+  {
+    "canonical_name": "Load Balancing",
+    "category": "systems",
+    "aliases": [
+      "horizontal scaling",
+      "traffic distribution"
+    ],
+    "prerequisites": [
+      "System Design"
+    ]
+  },
+  {
+    "canonical_name": "Compilers",
+    "category": "systems",
+    "aliases": [
+      "compiler design",
+      "language processing"
+    ],
+    "prerequisites": [
+      "Algorithms"
+    ]
+  },
+  {
+    "canonical_name": "Embedded Systems",
+    "category": "systems",
+    "aliases": [
+      "firmware",
+      "microcontrollers"
+    ],
+    "prerequisites": [
+      "C Programming"
+    ]
+  },
+  {
+    "canonical_name": "Internet of Things",
+    "category": "systems",
+    "aliases": [
+      "iot",
+      "connected devices"
+    ],
+    "prerequisites": [
+      "Embedded Systems",
+      "Computer Networks"
+    ]
+  },
+  {
+    "canonical_name": "Edge Computing",
+    "category": "systems",
+    "aliases": [
+      "edge ai",
+      "on-device computing"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "High Performance Computing",
+    "category": "systems",
+    "aliases": [
+      "hpc",
+      "parallel computing",
+      "gpu computing",
+      "cuda"
+    ],
+    "prerequisites": [
+      "Concurrency"
+    ]
+  },
+  {
+    "canonical_name": "Cloud Computing",
+    "category": "cloud",
+    "aliases": [
+      "cloud platforms",
+      "cloud services"
+    ],
+    "prerequisites": [
+      "Computer Networks"
+    ]
+  },
+  {
+    "canonical_name": "Amazon Web Services",
+    "category": "cloud",
+    "aliases": [
+      "aws",
+      "ec2",
+      "s3"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Microsoft Azure",
+    "category": "cloud",
+    "aliases": [
+      "azure"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Google Cloud Platform",
+    "category": "cloud",
+    "aliases": [
+      "gcp",
+      "google cloud"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Serverless Computing",
+    "category": "cloud",
+    "aliases": [
+      "serverless",
+      "lambda functions",
+      "faas"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Docker",
+    "category": "cloud",
+    "aliases": [
+      "containerization",
+      "containers"
+    ],
+    "prerequisites": [
+      "Operating Systems"
+    ]
+  },
+  {
+    "canonical_name": "Kubernetes",
+    "category": "cloud",
+    "aliases": [
+      "k8s",
+      "container orchestration",
+      "kubernetes orchestration"
+    ],
+    "prerequisites": [
+      "Docker",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Infrastructure as Code",
+    "category": "cloud",
+    "aliases": [
+      "iac",
+      "terraform",
+      "cloudformation",
+      "pulumi",
+      "infra as code",
+      "declarative infrastructure"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "CI/CD",
+    "category": "cloud",
+    "aliases": [
+      "continuous integration",
+      "continuous deployment",
+      "continuous delivery",
+      "github actions",
+      "jenkins",
+      "ci cd",
+      "ci-cd",
+      "build pipeline"
+    ],
+    "prerequisites": [
+      "Version Control"
+    ]
+  },
+  {
+    "canonical_name": "DevOps",
+    "category": "cloud",
+    "aliases": [
+      "dev ops"
+    ],
+    "prerequisites": [
+      "CI/CD",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Site Reliability Engineering",
+    "category": "cloud",
+    "aliases": [
+      "sre",
+      "reliability engineering"
+    ],
+    "prerequisites": [
+      "DevOps"
+    ]
+  },
+  {
+    "canonical_name": "Observability",
+    "category": "cloud",
+    "aliases": [
+      "monitoring",
+      "logging",
+      "tracing",
+      "prometheus",
+      "grafana",
+      "telemetry",
+      "application monitoring"
+    ],
+    "prerequisites": [
+      "DevOps"
+    ]
+  },
+  {
+    "canonical_name": "Cloud Cost Optimization",
+    "category": "cloud",
+    "aliases": [
+      "finops",
+      "cloud economics"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Service Mesh",
+    "category": "cloud",
+    "aliases": [
+      "istio",
+      "linkerd"
+    ],
+    "prerequisites": [
+      "Kubernetes"
+    ]
+  },
+  {
+    "canonical_name": "Cybersecurity",
+    "category": "security",
+    "aliases": [
+      "information security",
+      "infosec",
+      "security"
+    ],
+    "prerequisites": [
+      "Computer Networks"
+    ]
+  },
+  {
+    "canonical_name": "Cryptography",
+    "category": "security",
+    "aliases": [
+      "encryption",
+      "cryptographic protocols"
+    ],
+    "prerequisites": [
+      "Discrete Mathematics"
+    ]
+  },
+  {
+    "canonical_name": "Network Security",
+    "category": "security",
+    "aliases": [
+      "firewalls",
+      "intrusion detection"
+    ],
+    "prerequisites": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "canonical_name": "Application Security",
+    "category": "security",
+    "aliases": [
+      "appsec",
+      "secure coding",
+      "owasp"
+    ],
+    "prerequisites": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "canonical_name": "Penetration Testing",
+    "category": "security",
+    "aliases": [
+      "pentesting",
+      "ethical hacking",
+      "red teaming"
+    ],
+    "prerequisites": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "canonical_name": "Authentication and Authorization",
+    "category": "security",
+    "aliases": [
+      "oauth",
+      "jwt",
+      "identity management",
+      "sso",
+      "access control",
+      "authz",
+      "authn"
+    ],
+    "prerequisites": [
+      "Application Security"
+    ]
+  },
+  {
+    "canonical_name": "Threat Modeling",
+    "category": "security",
+    "aliases": [
+      "risk assessment",
+      "stride"
+    ],
+    "prerequisites": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "canonical_name": "Incident Response",
+    "category": "security",
+    "aliases": [
+      "security operations",
+      "soc",
+      "forensics"
+    ],
+    "prerequisites": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "canonical_name": "Zero Trust Architecture",
+    "category": "security",
+    "aliases": [
+      "zero trust"
+    ],
+    "prerequisites": [
+      "Network Security"
+    ]
+  },
+  {
+    "canonical_name": "LLM Security",
+    "category": "security",
+    "aliases": [
+      "prompt injection",
+      "ai security",
+      "jailbreak defense"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Application Security"
+    ]
+  },
+  {
+    "canonical_name": "Blockchain",
+    "category": "security",
+    "aliases": [
+      "distributed ledger",
+      "web3"
+    ],
+    "prerequisites": [
+      "Cryptography"
+    ]
+  },
+  {
+    "canonical_name": "Smart Contracts",
+    "category": "security",
+    "aliases": [
+      "solidity",
+      "ethereum"
+    ],
+    "prerequisites": [
+      "Blockchain"
+    ]
+  },
+  {
+    "canonical_name": "Version Control",
+    "category": "engineering",
+    "aliases": [
+      "git",
+      "github",
+      "source control",
+      "git workflows",
+      "branching strategy"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Software Testing",
+    "category": "engineering",
+    "aliases": [
+      "testing",
+      "qa",
+      "quality assurance",
+      "test automation",
+      "automated testing"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Unit Testing",
+    "category": "engineering",
+    "aliases": [
+      "unit tests",
+      "pytest",
+      "jest"
+    ],
+    "prerequisites": [
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Integration Testing",
+    "category": "engineering",
+    "aliases": [
+      "end to end testing",
+      "e2e testing"
+    ],
+    "prerequisites": [
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Test Driven Development",
+    "category": "engineering",
+    "aliases": [
+      "tdd"
+    ],
+    "prerequisites": [
+      "Unit Testing"
+    ]
+  },
+  {
+    "canonical_name": "Code Review",
+    "category": "engineering",
+    "aliases": [
+      "peer review",
+      "pull requests"
+    ],
+    "prerequisites": [
+      "Version Control"
+    ]
+  },
+  {
+    "canonical_name": "Agile Methodology",
+    "category": "engineering",
+    "aliases": [
+      "agile",
+      "scrum",
+      "kanban",
+      "sprint planning",
+      "agile delivery",
+      "iterative development"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Software Design Patterns",
+    "category": "engineering",
+    "aliases": [
+      "design patterns",
+      "gof patterns"
+    ],
+    "prerequisites": [
+      "Object Oriented Programming"
+    ]
+  },
+  {
+    "canonical_name": "Refactoring",
+    "category": "engineering",
+    "aliases": [
+      "code refactoring",
+      "technical debt management"
+    ],
+    "prerequisites": [
+      "Software Design Patterns"
+    ]
+  },
+  {
+    "canonical_name": "Debugging",
+    "category": "engineering",
+    "aliases": [
+      "troubleshooting",
+      "root cause analysis"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Technical Documentation",
+    "category": "engineering",
+    "aliases": [
+      "documentation",
+      "api documentation",
+      "technical writing",
+      "developer documentation",
+      "docs writing"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Software Requirements Engineering",
+    "category": "engineering",
+    "aliases": [
+      "requirements analysis",
+      "requirements gathering"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Mobile Development",
+    "category": "engineering",
+    "aliases": [
+      "android development",
+      "ios development",
+      "app development"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "React Native",
+    "category": "engineering",
+    "aliases": [
+      "cross platform mobile",
+      "flutter"
+    ],
+    "prerequisites": [
+      "React",
+      "Mobile Development"
+    ]
+  },
+  {
+    "canonical_name": "Game Development",
+    "category": "engineering",
+    "aliases": [
+      "unity",
+      "unreal engine",
+      "game programming"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Augmented Reality",
+    "category": "engineering",
+    "aliases": [
+      "ar",
+      "virtual reality",
+      "vr",
+      "xr"
+    ],
+    "prerequisites": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "canonical_name": "Robotics",
+    "category": "engineering",
+    "aliases": [
+      "ros",
+      "robot operating system",
+      "autonomous systems"
+    ],
+    "prerequisites": [
+      "Embedded Systems",
+      "Computer Vision"
+    ]
+  },
+  {
+    "canonical_name": "Quantum Computing",
+    "category": "engineering",
+    "aliases": [
+      "qubits",
+      "quantum algorithms",
+      "qiskit"
+    ],
+    "prerequisites": [
+      "Linear Algebra"
+    ]
+  },
+  {
+    "canonical_name": "Product Management",
+    "category": "professional",
+    "aliases": [
+      "product thinking",
+      "roadmapping"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "User Experience Design",
+    "category": "professional",
+    "aliases": [
+      "ux",
+      "ux design",
+      "user research"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "User Interface Design",
+    "category": "professional",
+    "aliases": [
+      "ui design",
+      "figma",
+      "wireframing"
+    ],
+    "prerequisites": [
+      "User Experience Design"
+    ]
+  },
+  {
+    "canonical_name": "Technical Communication",
+    "category": "professional",
+    "aliases": [
+      "presentation skills",
+      "stakeholder communication"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Team Collaboration",
+    "category": "professional",
+    "aliases": [
+      "teamwork",
+      "cross functional collaboration"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Problem Solving",
+    "category": "professional",
+    "aliases": [
+      "analytical thinking",
+      "critical thinking"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Project Management",
+    "category": "professional",
+    "aliases": [
+      "delivery management",
+      "planning and estimation"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Entrepreneurship",
+    "category": "professional",
+    "aliases": [
+      "startup skills",
+      "innovation management"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Business Analysis",
+    "category": "professional",
+    "aliases": [
+      "domain analysis",
+      "process modeling"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Ethics in Computing",
+    "category": "professional",
+    "aliases": [
+      "professional ethics",
+      "computing ethics"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Sustainability in Technology",
+    "category": "professional",
+    "aliases": [
+      "green computing",
+      "sustainable software"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Continuous Learning",
+    "category": "professional",
+    "aliases": [
+      "self directed learning",
+      "upskilling"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Multimodal Models",
+    "category": "ai",
+    "aliases": [
+      "multimodal models",
+      "multimodal learning",
+      "multimodal ai",
+      "cross-modal learning"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Computer Vision"
+    ]
+  },
+  {
+    "canonical_name": "Vision Language Models",
+    "category": "ai",
+    "aliases": [
+      "vision language models",
+      "vlm",
+      "visual language models",
+      "vision-language models"
+    ],
+    "prerequisites": [
+      "Computer Vision",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "canonical_name": "RLHF",
+    "category": "ai",
+    "aliases": [
+      "rlhf",
+      "reinforcement learning from human feedback",
+      "rlhf training",
+      "human feedback learning"
+    ],
+    "prerequisites": [
+      "Reinforcement Learning",
+      "Large Language Models"
+    ]
+  },
+  {
+    "canonical_name": "Direct Preference Optimization",
+    "category": "ai",
+    "aliases": [
+      "dpo",
+      "direct preference optimization",
+      "preference optimization",
+      "dpo training"
+    ],
+    "prerequisites": [
+      "Reinforcement Learning",
+      "Large Language Models"
+    ]
+  },
+  {
+    "canonical_name": "Model Distillation",
+    "category": "ai",
+    "aliases": [
+      "model distillation",
+      "knowledge distillation",
+      "distillation",
+      "teacher student learning"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "Quantization",
+    "category": "ai",
+    "aliases": [
+      "quantization",
+      "model quantization",
+      "neural network quantization",
+      "weight quantization",
+      "quantisation",
+      "model quantisation"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "ONNX",
+    "category": "ai",
+    "aliases": [
+      "onnx",
+      "open neural network exchange",
+      "onnx runtime",
+      "onnx models"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "Inference Optimization",
+    "category": "ai",
+    "aliases": [
+      "inference optimization",
+      "model inference optimization",
+      "inference performance",
+      "inference acceleration"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "vLLM",
+    "category": "ai",
+    "aliases": [
+      "vllm",
+      "vllm framework",
+      "vllm inference",
+      "vllm serving"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "Semantic Caching",
+    "category": "ai",
+    "aliases": [
+      "semantic caching",
+      "semantic cache",
+      "llm caching",
+      "embedding cache"
+    ],
+    "prerequisites": [
+      "Embeddings",
+      "Caching Strategies"
+    ]
+  },
+  {
+    "canonical_name": "Guardrails",
+    "category": "ai",
+    "aliases": [
+      "guardrails",
+      "llm guardrails",
+      "ai guardrails",
+      "model guardrails"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "AI Safety"
+    ]
+  },
+  {
+    "canonical_name": "Evaluation Harnesses",
+    "category": "ai",
+    "aliases": [
+      "evaluation harnesses",
+      "model evaluation harness",
+      "llm evaluation harness",
+      "benchmark harness"
+    ],
+    "prerequisites": [
+      "Model Evaluation",
+      "Large Language Models"
+    ]
+  },
+  {
+    "canonical_name": "Synthetic Data Generation",
+    "category": "ai",
+    "aliases": [
+      "synthetic data generation",
+      "synthetic data",
+      "data synthesis",
+      "artificial data generation"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Generative AI"
+    ]
+  },
+  {
+    "canonical_name": "Active Learning",
+    "category": "ai",
+    "aliases": [
+      "active learning",
+      "active machine learning",
+      "query strategy",
+      "active sampling"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Supervised Learning"
+    ]
+  },
+  {
+    "canonical_name": "Federated Learning",
+    "category": "ai",
+    "aliases": [
+      "federated learning",
+      "federated machine learning",
+      "distributed learning",
+      "decentralized learning"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Graph Neural Networks",
+    "category": "ai",
+    "aliases": [
+      "graph neural networks",
+      "gnn",
+      "graph convolutional networks",
+      "gcn"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Graph Databases"
+    ]
+  },
+  {
+    "canonical_name": "Anomaly Detection",
+    "category": "ai",
+    "aliases": [
+      "anomaly detection",
+      "outlier detection",
+      "novelty detection",
+      "abnormality detection"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Unsupervised Learning"
+    ]
+  },
+  {
+    "canonical_name": "Causal Inference",
+    "category": "ai",
+    "aliases": [
+      "causal inference",
+      "causal analysis",
+      "causality",
+      "causal modeling"
+    ],
+    "prerequisites": [
+      "Probability and Statistics",
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Bayesian Methods",
+    "category": "ai",
+    "aliases": [
+      "bayesian methods",
+      "bayesian inference",
+      "bayesian machine learning",
+      "bayesian statistics"
+    ],
+    "prerequisites": [
+      "Probability and Statistics",
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "AutoML",
+    "category": "ai",
+    "aliases": [
+      "automl",
+      "automated machine learning",
+      "automated ml",
+      "auto-ml"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Model Evaluation"
+    ]
+  },
+  {
+    "canonical_name": "Hyperparameter Tuning",
+    "category": "ai",
+    "aliases": [
+      "hyperparameter tuning",
+      "hyperparameter optimization",
+      "hpo",
+      "parameter tuning"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "Model Evaluation"
+    ]
+  },
+  {
+    "canonical_name": "Experiment Tracking",
+    "category": "ai",
+    "aliases": [
+      "experiment tracking",
+      "ml experiment tracking",
+      "model experiment tracking",
+      "experiment management"
+    ],
+    "prerequisites": [
+      "Machine Learning",
+      "MLOps"
+    ]
+  },
+  {
+    "canonical_name": "Feature Stores",
+    "category": "ai",
+    "aliases": [
+      "feature stores",
+      "feature store",
+      "feature registry",
+      "feature platform"
+    ],
+    "prerequisites": [
+      "Feature Engineering",
+      "MLOps"
+    ]
+  },
+  {
+    "canonical_name": "HNSW",
+    "category": "ai",
+    "aliases": [
+      "hnsw",
+      "hierarchical navigable small world",
+      "hnsw algorithm",
+      "hnsw indexing"
+    ],
+    "prerequisites": [
+      "Vector Databases",
+      "Algorithms"
+    ]
+  },
+  {
+    "canonical_name": "Reranking",
+    "category": "ai",
+    "aliases": [
+      "reranking",
+      "re-ranking",
+      "result reranking",
+      "search reranking"
+    ],
+    "prerequisites": [
+      "Retrieval Augmented Generation",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "canonical_name": "Hybrid Search",
+    "category": "ai",
+    "aliases": [
+      "hybrid search",
+      "hybrid retrieval",
+      "combined search",
+      "multi-modal search"
+    ],
+    "prerequisites": [
+      "Vector Databases",
+      "Embeddings"
+    ]
+  },
+  {
+    "canonical_name": "Chunking Strategies",
+    "category": "ai",
+    "aliases": [
+      "chunking strategies",
+      "text chunking",
+      "document chunking",
+      "chunking methods"
+    ],
+    "prerequisites": [
+      "Retrieval Augmented Generation",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "canonical_name": "Context Engineering",
+    "category": "ai",
+    "aliases": [
+      "context engineering",
+      "context window management",
+      "context optimization",
+      "context design"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Function Calling",
+    "category": "ai",
+    "aliases": [
+      "function calling",
+      "tool calling",
+      "llm function calling",
+      "api calling"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "AI Agents"
+    ]
+  },
+  {
+    "canonical_name": "Structured Output",
+    "category": "ai",
+    "aliases": [
+      "structured output",
+      "structured generation",
+      "json mode",
+      "constrained decoding"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Agent Memory",
+    "category": "ai",
+    "aliases": [
+      "agent memory",
+      "memory systems",
+      "conversational memory",
+      "agent state"
+    ],
+    "prerequisites": [
+      "AI Agents",
+      "Vector Databases"
+    ]
+  },
+  {
+    "canonical_name": "Multi Agent Orchestration",
+    "category": "ai",
+    "aliases": [
+      "multi agent orchestration",
+      "multi-agent systems",
+      "agent orchestration",
+      "collaborative agents"
+    ],
+    "prerequisites": [
+      "AI Agents",
+      "LangChain"
+    ]
+  },
+  {
+    "canonical_name": "Speech Synthesis",
+    "category": "ai",
+    "aliases": [
+      "speech synthesis",
+      "text to speech",
+      "tts",
+      "voice synthesis"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "canonical_name": "OCR",
+    "category": "ai",
+    "aliases": [
+      "ocr",
+      "optical character recognition",
+      "text recognition",
+      "character recognition"
+    ],
+    "prerequisites": [
+      "Computer Vision",
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Document AI",
+    "category": "ai",
+    "aliases": [
+      "document ai",
+      "document intelligence",
+      "document understanding",
+      "intelligent document processing"
+    ],
+    "prerequisites": [
+      "Computer Vision",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "canonical_name": "Model Compression",
+    "category": "ai",
+    "aliases": [
+      "model compression",
+      "neural network compression",
+      "model size reduction",
+      "compression techniques"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "Continuous Batching",
+    "category": "ai",
+    "aliases": [
+      "continuous batching",
+      "dynamic batching",
+      "batching optimization",
+      "batch scheduling"
+    ],
+    "prerequisites": [
+      "Model Deployment",
+      "Inference Optimization"
+    ]
+  },
+  {
+    "canonical_name": "Token Streaming",
+    "category": "ai",
+    "aliases": [
+      "token streaming",
+      "streaming generation",
+      "stream processing",
+      "real-time generation"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "Low Rank Adaptation",
+    "category": "ai",
+    "aliases": [
+      "low rank adaptation",
+      "parameter efficient fine tuning",
+      "peft",
+      "efficient tuning"
+    ],
+    "prerequisites": [
+      "Fine Tuning",
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Prompt Caching",
+    "category": "ai",
+    "aliases": [
+      "prompt caching",
+      "prefix caching",
+      "kv cache",
+      "attention cache"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Caching Strategies"
+    ]
+  },
+  {
+    "canonical_name": "Flash Attention",
+    "category": "ai",
+    "aliases": [
+      "flash attention",
+      "efficient attention",
+      "attention optimization",
+      "flash attention mechanism"
+    ],
+    "prerequisites": [
+      "Transformers",
+      "Deep Learning"
+    ]
+  },
+  {
+    "canonical_name": "Speculative Decoding",
+    "category": "ai",
+    "aliases": [
+      "speculative decoding",
+      "speculative sampling",
+      "assisted generation",
+      "draft model"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Inference Optimization"
+    ]
+  },
+  {
+    "canonical_name": "Model Routing",
+    "category": "ai",
+    "aliases": [
+      "model routing",
+      "llm routing",
+      "intelligent routing",
+      "request routing"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Load Balancing"
+    ]
+  },
+  {
+    "canonical_name": "Mixture of Experts",
+    "category": "ai",
+    "aliases": [
+      "mixture of experts",
+      "moe",
+      "sparse models",
+      "expert models"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Model Deployment"
+    ]
+  },
+  {
+    "canonical_name": "Token Economy",
+    "category": "ai",
+    "aliases": [
+      "token economy",
+      "token optimization",
+      "token management",
+      "token efficiency"
+    ],
+    "prerequisites": [
+      "Large Language Models",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Model Merging",
+    "category": "ai",
+    "aliases": [
+      "model merging",
+      "weight averaging",
+      "model fusion",
+      "ensemble merging"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "Ensemble Methods"
+    ]
+  },
+  {
+    "canonical_name": "Alignment Tuning",
+    "category": "ai",
+    "aliases": [
+      "alignment tuning",
+      "model alignment",
+      "value alignment",
+      "instruction tuning"
+    ],
+    "prerequisites": [
+      "Fine Tuning",
+      "AI Safety"
+    ]
+  },
+  {
+    "canonical_name": "Neural Architecture Search",
+    "category": "ai",
+    "aliases": [
+      "neural architecture search",
+      "nas",
+      "architecture optimization",
+      "automated architecture design"
+    ],
+    "prerequisites": [
+      "Deep Learning",
+      "AutoML"
+    ]
+  },
+  {
+    "canonical_name": "Data Versioning",
+    "category": "ai",
+    "aliases": [
+      "data versioning",
+      "dataset versioning",
+      "data version control",
+      "dvc"
+    ],
+    "prerequisites": [
+      "MLOps",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Model Cards",
+    "category": "ai",
+    "aliases": [
+      "model cards",
+      "model documentation",
+      "model transparency",
+      "model reporting"
+    ],
+    "prerequisites": [
+      "AI Ethics",
+      "Model Evaluation"
+    ]
+  },
+  {
+    "canonical_name": "Data Lakes",
+    "category": "data",
+    "aliases": [
+      "data lake",
+      "data lake architecture",
+      "data lake storage",
+      "data lake design"
+    ],
+    "prerequisites": [
+      "Data Engineering",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "canonical_name": "Lakehouse Architecture",
+    "category": "data",
+    "aliases": [
+      "lakehouse",
+      "data lakehouse",
+      "lakehouse pattern",
+      "lakehouse design"
+    ],
+    "prerequisites": [
+      "Data Lakes",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "canonical_name": "Delta Lake",
+    "category": "data",
+    "aliases": [
+      "delta lake framework",
+      "databricks delta",
+      "delta format",
+      "delta tables"
+    ],
+    "prerequisites": [
+      "Data Lakes",
+      "Apache Spark"
+    ]
+  },
+  {
+    "canonical_name": "Apache Iceberg",
+    "category": "data",
+    "aliases": [
+      "iceberg",
+      "iceberg tables",
+      "apache iceberg format",
+      "iceberg table format"
+    ],
+    "prerequisites": [
+      "Data Lakes",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Snowflake",
+    "category": "data",
+    "aliases": [
+      "snowflake data warehouse",
+      "snowflake cloud",
+      "snowflake platform",
+      "snowflake db"
+    ],
+    "prerequisites": [
+      "Data Warehousing",
+      "SQL"
+    ]
+  },
+  {
+    "canonical_name": "BigQuery",
+    "category": "data",
+    "aliases": [
+      "google bigquery",
+      "bq",
+      "bigquery platform",
+      "gcp bigquery"
+    ],
+    "prerequisites": [
+      "Data Warehousing",
+      "Google Cloud Platform"
+    ]
+  },
+  {
+    "canonical_name": "Amazon Redshift",
+    "category": "data",
+    "aliases": [
+      "redshift",
+      "aws redshift",
+      "redshift data warehouse",
+      "redshift cluster"
+    ],
+    "prerequisites": [
+      "Data Warehousing",
+      "Amazon Web Services"
+    ]
+  },
+  {
+    "canonical_name": "DuckDB",
+    "category": "data",
+    "aliases": [
+      "duckdb database",
+      "duckdb engine",
+      "duckdb analytical",
+      "duck db"
+    ],
+    "prerequisites": [
+      "SQL",
+      "Data Analysis"
+    ]
+  },
+  {
+    "canonical_name": "ClickHouse",
+    "category": "data",
+    "aliases": [
+      "clickhouse database",
+      "clickhouse olap",
+      "clickhouse db",
+      "click house"
+    ],
+    "prerequisites": [
+      "Data Warehousing",
+      "SQL"
+    ]
+  },
+  {
+    "canonical_name": "Apache Cassandra",
+    "category": "data",
+    "aliases": [
+      "cassandra",
+      "cassandra database",
+      "cassandra nosql",
+      "cassandra db"
+    ],
+    "prerequisites": [
+      "NoSQL Databases",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Amazon DynamoDB",
+    "category": "data",
+    "aliases": [
+      "dynamodb",
+      "aws dynamodb",
+      "dynamo db",
+      "dynamodb nosql"
+    ],
+    "prerequisites": [
+      "NoSQL Databases",
+      "Amazon Web Services"
+    ]
+  },
+  {
+    "canonical_name": "Neo4j Graph Database",
+    "category": "data",
+    "aliases": [
+      "neo4j database",
+      "neo4j platform",
+      "neo4j graph db",
+      "neo4j enterprise"
+    ],
+    "prerequisites": [
+      "Graph Databases",
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "Time Series Databases",
+    "category": "data",
+    "aliases": [
+      "tsdb",
+      "time series db",
+      "timeseries database",
+      "time series storage"
+    ],
+    "prerequisites": [
+      "Databases",
+      "Time Series Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Change Data Capture",
+    "category": "data",
+    "aliases": [
+      "cdc",
+      "change data capture pattern",
+      "database cdc",
+      "cdc pipelines"
+    ],
+    "prerequisites": [
+      "Data Engineering",
+      "ETL Pipelines"
+    ]
+  },
+  {
+    "canonical_name": "Apache Flink",
+    "category": "data",
+    "aliases": [
+      "flink",
+      "flink streaming",
+      "apache flink framework",
+      "flink stream processing"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Batch Processing",
+    "category": "data",
+    "aliases": [
+      "batch data processing",
+      "batch jobs",
+      "batch pipelines",
+      "batch computation"
+    ],
+    "prerequisites": [
+      "Data Engineering",
+      "ETL Pipelines"
+    ]
+  },
+  {
+    "canonical_name": "Data Contracts",
+    "category": "data",
+    "aliases": [
+      "data contract",
+      "data contracts design",
+      "data schema contracts",
+      "contract driven data"
+    ],
+    "prerequisites": [
+      "Data Governance",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Data Mesh",
+    "category": "data",
+    "aliases": [
+      "data mesh architecture",
+      "data mesh pattern",
+      "domain oriented data",
+      "federated data mesh"
+    ],
+    "prerequisites": [
+      "Data Engineering",
+      "Data Governance"
+    ]
+  },
+  {
+    "canonical_name": "Reverse ETL",
+    "category": "data",
+    "aliases": [
+      "reverse etl pipelines",
+      "retl",
+      "operational analytics",
+      "data activation"
+    ],
+    "prerequisites": [
+      "ETL Pipelines",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Data Catalogs",
+    "category": "data",
+    "aliases": [
+      "data catalog",
+      "metadata catalog",
+      "data cataloging",
+      "enterprise data catalog"
+    ],
+    "prerequisites": [
+      "Data Governance",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Master Data Management",
+    "category": "data",
+    "aliases": [
+      "mdm",
+      "master data",
+      "mdm platform",
+      "master data governance"
+    ],
+    "prerequisites": [
+      "Data Governance",
+      "Data Modeling"
+    ]
+  },
+  {
+    "canonical_name": "A/B Testing",
+    "category": "data",
+    "aliases": [
+      "ab testing",
+      "split testing",
+      "a/b experiments",
+      "ab test design"
+    ],
+    "prerequisites": [
+      "Experiment Tracking"
+    ]
+  },
+  {
+    "canonical_name": "Experimentation Platforms",
+    "category": "data",
+    "aliases": [
+      "experimentation",
+      "experiment platform",
+      "online experimentation",
+      "experimentation framework"
+    ],
+    "prerequisites": [
+      "A/B Testing"
+    ]
+  },
+  {
+    "canonical_name": "Cohort Analysis",
+    "category": "data",
+    "aliases": [
+      "cohort analytics",
+      "user cohort analysis",
+      "cohort segmentation",
+      "retention cohorts"
+    ],
+    "prerequisites": [
+      "Data Analysis",
+      "SQL"
+    ]
+  },
+  {
+    "canonical_name": "Funnel Analysis",
+    "category": "data",
+    "aliases": [
+      "conversion funnel",
+      "funnel analytics",
+      "user funnel analysis",
+      "funnel metrics"
+    ],
+    "prerequisites": [
+      "Data Analysis",
+      "Business Intelligence"
+    ]
+  },
+  {
+    "canonical_name": "Statistical Significance",
+    "category": "data",
+    "aliases": [
+      "significance testing",
+      "statistical significance testing",
+      "p value analysis",
+      "significance levels"
+    ],
+    "prerequisites": [
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "canonical_name": "Regression Analysis",
+    "category": "data",
+    "aliases": [
+      "linear regression",
+      "regression modeling",
+      "multivariate regression",
+      "regression techniques"
+    ],
+    "prerequisites": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "canonical_name": "Hypothesis Testing",
+    "category": "data",
+    "aliases": [
+      "statistical hypothesis testing",
+      "hypothesis tests",
+      "null hypothesis testing",
+      "statistical testing"
+    ],
+    "prerequisites": [
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "canonical_name": "Survey Design",
+    "category": "data",
+    "aliases": [
+      "survey methodology",
+      "questionnaire design",
+      "survey research",
+      "survey analysis"
+    ],
+    "prerequisites": [
+      "Data Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Data Storytelling",
+    "category": "data",
+    "aliases": [
+      "storytelling with data",
+      "narrative analytics",
+      "data narratives",
+      "analytical storytelling"
+    ],
+    "prerequisites": [
+      "Data Visualization",
+      "Technical Communication"
+    ]
+  },
+  {
+    "canonical_name": "InfluxDB",
+    "category": "data",
+    "aliases": [
+      "influxdb database",
+      "influx db",
+      "influxdb time series",
+      "influx time series"
+    ],
+    "prerequisites": [
+      "Time Series Databases",
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "TimescaleDB",
+    "category": "data",
+    "aliases": [
+      "timescale",
+      "timescaledb extension",
+      "timescale db",
+      "postgresql timescale"
+    ],
+    "prerequisites": [
+      "Time Series Databases",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "canonical_name": "Debezium",
+    "category": "data",
+    "aliases": [
+      "debezium cdc",
+      "debezium connector",
+      "debezium platform",
+      "debezium streaming"
+    ],
+    "prerequisites": [
+      "Change Data Capture",
+      "Apache Kafka"
+    ]
+  },
+  {
+    "canonical_name": "Databricks",
+    "category": "data",
+    "aliases": [
+      "databricks platform",
+      "databricks lakehouse",
+      "databricks workspace",
+      "databricks unified analytics"
+    ],
+    "prerequisites": [
+      "Apache Spark",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Fivetran",
+    "category": "data",
+    "aliases": [
+      "fivetran connector",
+      "fivetran elt",
+      "fivetran platform",
+      "fivetran pipelines"
+    ],
+    "prerequisites": [
+      "ETL Pipelines",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Airbyte",
+    "category": "data",
+    "aliases": [
+      "airbyte connector",
+      "airbyte elt",
+      "airbyte platform",
+      "airbyte sync"
+    ],
+    "prerequisites": [
+      "ETL Pipelines",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Great Expectations",
+    "category": "data",
+    "aliases": [
+      "great expectations framework",
+      "data validation framework",
+      "great expectations testing",
+      "gx"
+    ],
+    "prerequisites": [
+      "Data Engineering",
+      "Data Governance"
+    ]
+  },
+  {
+    "canonical_name": "Data Quality Metrics",
+    "category": "data",
+    "aliases": [
+      "data quality measurement",
+      "dq metrics",
+      "data quality assessment",
+      "quality metrics"
+    ],
+    "prerequisites": [
+      "Data Governance",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Data Observability",
+    "category": "data",
+    "aliases": [
+      "data obs",
+      "data pipeline observability",
+      "data monitoring",
+      "observability for data"
+    ],
+    "prerequisites": [
+      "Data Engineering",
+      "Observability"
+    ]
+  },
+  {
+    "canonical_name": "Metric Stores",
+    "category": "data",
+    "aliases": [
+      "metric store",
+      "metrics layer",
+      "semantic layer",
+      "headless bi"
+    ],
+    "prerequisites": [
+      "Data Warehousing",
+      "Business Intelligence"
+    ]
+  },
+  {
+    "canonical_name": "Event Schema Registry",
+    "category": "data",
+    "aliases": [
+      "schema registry",
+      "event schema management",
+      "avro schema registry",
+      "schema validation"
+    ],
+    "prerequisites": [
+      "Event Driven Architecture",
+      "Data Governance"
+    ]
+  },
+  {
+    "canonical_name": "Column Oriented Databases",
+    "category": "data",
+    "aliases": [
+      "columnar databases",
+      "column store",
+      "columnar storage",
+      "column oriented storage"
+    ],
+    "prerequisites": [
+      "Databases",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "canonical_name": "Data Lake Governance",
+    "category": "data",
+    "aliases": [
+      "lake governance",
+      "data lake security",
+      "data lake access control",
+      "governed data lake"
+    ],
+    "prerequisites": [
+      "Data Lakes",
+      "Data Governance"
+    ]
+  },
+  {
+    "canonical_name": "Slowly Changing Dimensions",
+    "category": "data",
+    "aliases": [
+      "scd",
+      "slowly changing dimension",
+      "scd type 2",
+      "dimensional change tracking"
+    ],
+    "prerequisites": [
+      "Data Warehousing",
+      "Data Modeling"
+    ]
+  },
+  {
+    "canonical_name": "Data Vault Modeling",
+    "category": "data",
+    "aliases": [
+      "data vault",
+      "data vault 2.0",
+      "vault modeling",
+      "data vault architecture"
+    ],
+    "prerequisites": [
+      "Data Modeling",
+      "Data Warehousing"
+    ]
+  },
+  {
+    "canonical_name": "Hightouch",
+    "category": "data",
+    "aliases": [
+      "hightouch platform",
+      "hightouch reverse etl",
+      "hightouch sync",
+      "data activation platform"
+    ],
+    "prerequisites": [
+      "Reverse ETL",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Amundsen",
+    "category": "data",
+    "aliases": [
+      "amundsen catalog",
+      "amundsen metadata",
+      "lyft amundsen",
+      "amundsen data discovery"
+    ],
+    "prerequisites": [
+      "Data Catalogs",
+      "Data Governance"
+    ]
+  },
+  {
+    "canonical_name": "Monte Carlo Data",
+    "category": "data",
+    "aliases": [
+      "monte carlo observability",
+      "monte carlo platform",
+      "data reliability platform",
+      "monte carlo monitoring"
+    ],
+    "prerequisites": [
+      "Data Observability",
+      "Data Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Apache Druid",
+    "category": "data",
+    "aliases": [
+      "druid",
+      "druid database",
+      "druid olap",
+      "real time analytics database"
+    ],
+    "prerequisites": [
+      "Data Warehousing"
+    ]
+  },
+  {
+    "canonical_name": "Presto",
+    "category": "data",
+    "aliases": [
+      "presto sql",
+      "prestodb",
+      "presto query engine",
+      "distributed sql query"
+    ],
+    "prerequisites": [
+      "SQL",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Trino",
+    "category": "data",
+    "aliases": [
+      "trino sql",
+      "trino query engine",
+      "trino distributed",
+      "prestosql"
+    ],
+    "prerequisites": [
+      "SQL",
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Svelte",
+    "category": "web",
+    "aliases": [
+      "svelte",
+      "svelte.js",
+      "sveltejs",
+      "svelte framework"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "Remix",
+    "category": "web",
+    "aliases": [
+      "remix",
+      "remix.run",
+      "remix framework",
+      "remix web framework"
+    ],
+    "prerequisites": [
+      "React",
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Astro",
+    "category": "web",
+    "aliases": [
+      "astro",
+      "astro.build",
+      "astro framework",
+      "astro static site"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "Vite",
+    "category": "web",
+    "aliases": [
+      "vite",
+      "vite.js",
+      "vitejs",
+      "vite build tool"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Webpack",
+    "category": "web",
+    "aliases": [
+      "webpack",
+      "webpack bundler",
+      "webpack.js",
+      "webpack module bundler"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "npm Ecosystem",
+    "category": "web",
+    "aliases": [
+      "npm",
+      "node package manager",
+      "npm packages",
+      "npm registry"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Monorepos",
+    "category": "web",
+    "aliases": [
+      "monorepo",
+      "monorepos",
+      "monorepo architecture",
+      "mono repository"
+    ],
+    "prerequisites": [
+      "Version Control"
+    ]
+  },
+  {
+    "canonical_name": "Turborepo",
+    "category": "web",
+    "aliases": [
+      "turborepo",
+      "turbo",
+      "turborepo build system",
+      "turbo monorepo"
+    ],
+    "prerequisites": [
+      "Monorepos"
+    ]
+  },
+  {
+    "canonical_name": "Component Libraries",
+    "category": "web",
+    "aliases": [
+      "component library",
+      "component libraries",
+      "ui component library",
+      "component system"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "User Interface Design"
+    ]
+  },
+  {
+    "canonical_name": "Design Systems",
+    "category": "web",
+    "aliases": [
+      "design system",
+      "design systems",
+      "design language system",
+      "ui design system"
+    ],
+    "prerequisites": [
+      "User Interface Design"
+    ]
+  },
+  {
+    "canonical_name": "Storybook",
+    "category": "web",
+    "aliases": [
+      "storybook",
+      "storybook.js",
+      "storybook ui",
+      "storybook component explorer"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "Component Libraries"
+    ]
+  },
+  {
+    "canonical_name": "CSS-in-JS",
+    "category": "web",
+    "aliases": [
+      "css-in-js",
+      "css in js",
+      "styled components",
+      "emotion css"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "CSS"
+    ]
+  },
+  {
+    "canonical_name": "Web Animation",
+    "category": "web",
+    "aliases": [
+      "web animation",
+      "css animations",
+      "animation library",
+      "web animations api"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "CSS"
+    ]
+  },
+  {
+    "canonical_name": "WebGL",
+    "category": "web",
+    "aliases": [
+      "webgl",
+      "web gl",
+      "webgl api",
+      "opengl for web"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Three.js",
+    "category": "web",
+    "aliases": [
+      "three.js",
+      "threejs",
+      "three",
+      "three js"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "WebGL"
+    ]
+  },
+  {
+    "canonical_name": "Canvas Rendering",
+    "category": "web",
+    "aliases": [
+      "canvas",
+      "html canvas",
+      "canvas api",
+      "canvas rendering"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "Web Workers",
+    "category": "web",
+    "aliases": [
+      "web workers",
+      "web worker",
+      "worker threads",
+      "background workers"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Service Workers",
+    "category": "web",
+    "aliases": [
+      "service workers",
+      "service worker",
+      "sw",
+      "pwa service worker"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "Progressive Web Apps"
+    ]
+  },
+  {
+    "canonical_name": "Browser Storage",
+    "category": "web",
+    "aliases": [
+      "browser storage",
+      "localstorage",
+      "indexeddb",
+      "web storage"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "CORS",
+    "category": "web",
+    "aliases": [
+      "cors",
+      "cross origin resource sharing",
+      "cross-origin",
+      "cors policy"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "HTTP Caching",
+    "category": "web",
+    "aliases": [
+      "http caching",
+      "cache headers",
+      "browser caching",
+      "http cache control"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "CDN",
+    "category": "web",
+    "aliases": [
+      "cdn",
+      "content delivery network",
+      "edge cdn",
+      "cdn distribution"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "Image Optimization",
+    "category": "web",
+    "aliases": [
+      "image optimization",
+      "image compression",
+      "responsive images",
+      "image performance"
+    ],
+    "prerequisites": [
+      "Web Performance Optimization"
+    ]
+  },
+  {
+    "canonical_name": "SEO",
+    "category": "web",
+    "aliases": [
+      "seo",
+      "search engine optimization",
+      "web seo",
+      "organic search"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "Internationalization",
+    "category": "web",
+    "aliases": [
+      "internationalization",
+      "i18n",
+      "localization",
+      "multi language"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "Form Validation",
+    "category": "web",
+    "aliases": [
+      "form validation",
+      "input validation",
+      "client side validation",
+      "form handling"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "Authentication Flows",
+    "category": "web",
+    "aliases": [
+      "authentication flows",
+      "auth flows",
+      "login flows",
+      "user authentication"
+    ],
+    "prerequisites": [
+      "Authentication and Authorization"
+    ]
+  },
+  {
+    "canonical_name": "Session Management",
+    "category": "web",
+    "aliases": [
+      "session management",
+      "session handling",
+      "user sessions",
+      "session tokens"
+    ],
+    "prerequisites": [
+      "Authentication and Authorization"
+    ]
+  },
+  {
+    "canonical_name": "Rate Limiting",
+    "category": "web",
+    "aliases": [
+      "rate limiting",
+      "api rate limiting",
+      "throttling",
+      "request throttling"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "API Versioning",
+    "category": "web",
+    "aliases": [
+      "api versioning",
+      "version control apis",
+      "api versions",
+      "rest versioning"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "OpenAPI",
+    "category": "web",
+    "aliases": [
+      "openapi",
+      "openapi specification",
+      "swagger",
+      "openapi spec"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "gRPC",
+    "category": "web",
+    "aliases": [
+      "grpc",
+      "grpc protocol",
+      "google rpc",
+      "grpc framework"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "Webhooks",
+    "category": "web",
+    "aliases": [
+      "webhooks",
+      "webhook",
+      "web hooks",
+      "http callbacks"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "Payment Integration",
+    "category": "web",
+    "aliases": [
+      "payment integration",
+      "payment gateway",
+      "stripe integration",
+      "payment processing"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "Email Delivery",
+    "category": "web",
+    "aliases": [
+      "email delivery",
+      "transactional email",
+      "email sending",
+      "smtp integration"
+    ],
+    "prerequisites": [
+      "Web Development"
+    ]
+  },
+  {
+    "canonical_name": "SvelteKit",
+    "category": "web",
+    "aliases": [
+      "sveltekit",
+      "svelte kit",
+      "sveltekit framework",
+      "svelte full stack"
+    ],
+    "prerequisites": [
+      "Svelte"
+    ]
+  },
+  {
+    "canonical_name": "Solid.js",
+    "category": "web",
+    "aliases": [
+      "solid.js",
+      "solidjs",
+      "solid",
+      "solid framework"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Qwik",
+    "category": "web",
+    "aliases": [
+      "qwik",
+      "qwik framework",
+      "qwik.builder.io",
+      "qwik resumability"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "esbuild",
+    "category": "web",
+    "aliases": [
+      "esbuild",
+      "es build",
+      "esbuild bundler",
+      "esbuild compiler"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Rollup",
+    "category": "web",
+    "aliases": [
+      "rollup",
+      "rollup.js",
+      "rollupjs",
+      "rollup bundler"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Parcel",
+    "category": "web",
+    "aliases": [
+      "parcel",
+      "parcel bundler",
+      "parcel.js",
+      "parceljs"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Yarn Workspaces",
+    "category": "web",
+    "aliases": [
+      "yarn workspaces",
+      "yarn workspace",
+      "yarn monorepo",
+      "yarn berry"
+    ],
+    "prerequisites": [
+      "Monorepos"
+    ]
+  },
+  {
+    "canonical_name": "pnpm",
+    "category": "web",
+    "aliases": [
+      "pnpm",
+      "performant npm",
+      "pnpm package manager",
+      "pnpm workspaces"
+    ],
+    "prerequisites": [
+      "npm Ecosystem"
+    ]
+  },
+  {
+    "canonical_name": "Lerna",
+    "category": "web",
+    "aliases": [
+      "lerna",
+      "lerna monorepo",
+      "lernajs",
+      "lerna tool"
+    ],
+    "prerequisites": [
+      "Monorepos"
+    ]
+  },
+  {
+    "canonical_name": "Nx",
+    "category": "web",
+    "aliases": [
+      "nx",
+      "nx monorepo",
+      "nrwl nx",
+      "nx build system"
+    ],
+    "prerequisites": [
+      "Monorepos"
+    ]
+  },
+  {
+    "canonical_name": "Module Federation",
+    "category": "web",
+    "aliases": [
+      "module federation",
+      "webpack module federation",
+      "micro frontends",
+      "federated modules"
+    ],
+    "prerequisites": [
+      "Webpack",
+      "Microservices"
+    ]
+  },
+  {
+    "canonical_name": "Preact",
+    "category": "web",
+    "aliases": [
+      "preact",
+      "preact.js",
+      "preactjs",
+      "preact framework"
+    ],
+    "prerequisites": [
+      "React"
+    ]
+  },
+  {
+    "canonical_name": "Lit",
+    "category": "web",
+    "aliases": [
+      "lit",
+      "lit element",
+      "lit-html",
+      "lit web components"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "Web Components",
+    "category": "web",
+    "aliases": [
+      "web components",
+      "custom elements",
+      "shadow dom",
+      "html templates"
+    ],
+    "prerequisites": [
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "htmx",
+    "category": "web",
+    "aliases": [
+      "htmx",
+      "htmx library",
+      "hypermedia exchange",
+      "htmx framework"
+    ],
+    "prerequisites": [
+      "HTML"
+    ]
+  },
+  {
+    "canonical_name": "Alpine.js",
+    "category": "web",
+    "aliases": [
+      "alpine.js",
+      "alpinejs",
+      "alpine",
+      "alpine javascript"
+    ],
+    "prerequisites": [
+      "JavaScript"
+    ]
+  },
+  {
+    "canonical_name": "Helm",
+    "category": "cloud",
+    "aliases": [
+      "helm",
+      "helm charts",
+      "helm package manager",
+      "kubernetes helm"
+    ],
+    "prerequisites": [
+      "Kubernetes"
+    ]
+  },
+  {
+    "canonical_name": "ArgoCD",
+    "category": "cloud",
+    "aliases": [
+      "argocd",
+      "argo cd",
+      "argo continuous delivery",
+      "argocd gitops"
+    ],
+    "prerequisites": [
+      "Kubernetes",
+      "CI/CD"
+    ]
+  },
+  {
+    "canonical_name": "GitOps",
+    "category": "cloud",
+    "aliases": [
+      "gitops",
+      "git ops",
+      "gitops workflow",
+      "gitops deployment"
+    ],
+    "prerequisites": [
+      "Version Control",
+      "CI/CD"
+    ]
+  },
+  {
+    "canonical_name": "Blue Green Deployment",
+    "category": "cloud",
+    "aliases": [
+      "blue green deployment",
+      "blue-green deployment",
+      "blue green",
+      "bluegreen deployment"
+    ],
+    "prerequisites": [
+      "DevOps"
+    ]
+  },
+  {
+    "canonical_name": "Canary Releases",
+    "category": "cloud",
+    "aliases": [
+      "canary releases",
+      "canary deployment",
+      "canary deployments",
+      "canary rollout"
+    ],
+    "prerequisites": [
+      "DevOps"
+    ]
+  },
+  {
+    "canonical_name": "Feature Flags",
+    "category": "cloud",
+    "aliases": [
+      "feature flags",
+      "feature toggles",
+      "feature switches",
+      "flag management"
+    ],
+    "prerequisites": [
+      "CI/CD"
+    ]
+  },
+  {
+    "canonical_name": "Chaos Engineering",
+    "category": "cloud",
+    "aliases": [
+      "chaos engineering",
+      "chaos testing",
+      "chaos experiments",
+      "fault injection"
+    ],
+    "prerequisites": [
+      "Site Reliability Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Disaster Recovery",
+    "category": "cloud",
+    "aliases": [
+      "disaster recovery",
+      "dr",
+      "disaster recovery planning",
+      "failover strategy"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Backup Strategies",
+    "category": "cloud",
+    "aliases": [
+      "backup strategies",
+      "backup and recovery",
+      "data backup",
+      "backup planning"
+    ],
+    "prerequisites": [
+      "Disaster Recovery"
+    ]
+  },
+  {
+    "canonical_name": "Autoscaling",
+    "category": "cloud",
+    "aliases": [
+      "autoscaling",
+      "auto scaling",
+      "horizontal pod autoscaling",
+      "automatic scaling"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Spot Instances",
+    "category": "cloud",
+    "aliases": [
+      "spot instances",
+      "ec2 spot",
+      "spot vms",
+      "preemptible instances"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Container Registries",
+    "category": "cloud",
+    "aliases": [
+      "container registries",
+      "docker registry",
+      "container image registry",
+      "image registry"
+    ],
+    "prerequisites": [
+      "Docker"
+    ]
+  },
+  {
+    "canonical_name": "Secrets Management",
+    "category": "cloud",
+    "aliases": [
+      "secrets management",
+      "secret management",
+      "secrets handling",
+      "credential management"
+    ],
+    "prerequisites": [
+      "Cybersecurity"
+    ]
+  },
+  {
+    "canonical_name": "Vault",
+    "category": "cloud",
+    "aliases": [
+      "vault",
+      "hashicorp vault",
+      "vault secrets",
+      "hc vault"
+    ],
+    "prerequisites": [
+      "Secrets Management"
+    ]
+  },
+  {
+    "canonical_name": "IAM Policies",
+    "category": "cloud",
+    "aliases": [
+      "iam policies",
+      "iam",
+      "identity and access management",
+      "access policies"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "VPC Networking",
+    "category": "cloud",
+    "aliases": [
+      "vpc networking",
+      "vpc",
+      "virtual private cloud",
+      "cloud networking"
+    ],
+    "prerequisites": [
+      "Computer Networks"
+    ]
+  },
+  {
+    "canonical_name": "DNS",
+    "category": "cloud",
+    "aliases": [
+      "dns",
+      "domain name system",
+      "dns management",
+      "dns configuration"
+    ],
+    "prerequisites": [
+      "Computer Networks"
+    ]
+  },
+  {
+    "canonical_name": "TLS Certificates",
+    "category": "cloud",
+    "aliases": [
+      "tls certificates",
+      "ssl certificates",
+      "tls/ssl",
+      "certificate management"
+    ],
+    "prerequisites": [
+      "Cryptography"
+    ]
+  },
+  {
+    "canonical_name": "Reverse Proxies",
+    "category": "cloud",
+    "aliases": [
+      "reverse proxies",
+      "reverse proxy",
+      "proxy server",
+      "application proxy"
+    ],
+    "prerequisites": [
+      "Computer Networks"
+    ]
+  },
+  {
+    "canonical_name": "Nginx",
+    "category": "cloud",
+    "aliases": [
+      "nginx",
+      "nginx server",
+      "nginx web server",
+      "nginx proxy"
+    ],
+    "prerequisites": [
+      "Reverse Proxies"
+    ]
+  },
+  {
+    "canonical_name": "API Gateways",
+    "category": "cloud",
+    "aliases": [
+      "api gateways",
+      "api gateway",
+      "gateway pattern",
+      "api management"
+    ],
+    "prerequisites": [
+      "REST APIs"
+    ]
+  },
+  {
+    "canonical_name": "Message Brokers",
+    "category": "cloud",
+    "aliases": [
+      "message brokers",
+      "message broker",
+      "messaging middleware",
+      "async messaging"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "RabbitMQ",
+    "category": "cloud",
+    "aliases": [
+      "rabbitmq",
+      "rabbit mq",
+      "rabbitmq broker",
+      "amqp broker"
+    ],
+    "prerequisites": [
+      "Message Brokers"
+    ]
+  },
+  {
+    "canonical_name": "Job Queues",
+    "category": "cloud",
+    "aliases": [
+      "job queues",
+      "task queues",
+      "work queues",
+      "background job queues"
+    ],
+    "prerequisites": [
+      "Distributed Systems"
+    ]
+  },
+  {
+    "canonical_name": "Cron Scheduling",
+    "category": "cloud",
+    "aliases": [
+      "cron scheduling",
+      "cron jobs",
+      "cron",
+      "scheduled tasks"
+    ],
+    "prerequisites": [
+      "Operating Systems"
+    ]
+  },
+  {
+    "canonical_name": "Log Aggregation",
+    "category": "cloud",
+    "aliases": [
+      "log aggregation",
+      "centralized logging",
+      "log collection",
+      "logging aggregation"
+    ],
+    "prerequisites": [
+      "Observability"
+    ]
+  },
+  {
+    "canonical_name": "Distributed Tracing",
+    "category": "cloud",
+    "aliases": [
+      "distributed tracing",
+      "request tracing",
+      "trace analysis",
+      "application tracing"
+    ],
+    "prerequisites": [
+      "Observability"
+    ]
+  },
+  {
+    "canonical_name": "OpenTelemetry",
+    "category": "cloud",
+    "aliases": [
+      "opentelemetry",
+      "otel",
+      "open telemetry",
+      "opentelemetry framework"
+    ],
+    "prerequisites": [
+      "Observability"
+    ]
+  },
+  {
+    "canonical_name": "SLOs and Error Budgets",
+    "category": "cloud",
+    "aliases": [
+      "slos and error budgets",
+      "slo",
+      "service level objectives",
+      "error budgets"
+    ],
+    "prerequisites": [
+      "Site Reliability Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Incident Management",
+    "category": "cloud",
+    "aliases": [
+      "incident management",
+      "incident response management",
+      "incident handling",
+      "incident coordination"
+    ],
+    "prerequisites": [
+      "Incident Response"
+    ]
+  },
+  {
+    "canonical_name": "Postmortems",
+    "category": "cloud",
+    "aliases": [
+      "postmortems",
+      "post mortems",
+      "incident postmortem",
+      "retrospective analysis"
+    ],
+    "prerequisites": [
+      "Incident Management"
+    ]
+  },
+  {
+    "canonical_name": "On Call Practices",
+    "category": "cloud",
+    "aliases": [
+      "on call practices",
+      "on-call",
+      "oncall",
+      "on call rotation"
+    ],
+    "prerequisites": [
+      "Site Reliability Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Infrastructure Automation",
+    "category": "cloud",
+    "aliases": [
+      "infrastructure automation",
+      "automated infrastructure",
+      "infra automation",
+      "cloud automation"
+    ],
+    "prerequisites": [
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "canonical_name": "Cloud Migration",
+    "category": "cloud",
+    "aliases": [
+      "cloud migration",
+      "cloud migration strategy",
+      "migrate to cloud",
+      "lift and shift"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Multi Cloud",
+    "category": "cloud",
+    "aliases": [
+      "multi cloud",
+      "multicloud",
+      "multi-cloud",
+      "hybrid cloud"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Service Discovery",
+    "category": "cloud",
+    "aliases": [
+      "service discovery",
+      "service registry",
+      "dynamic service discovery",
+      "dns service discovery"
+    ],
+    "prerequisites": [
+      "Microservices"
+    ]
+  },
+  {
+    "canonical_name": "Config Management",
+    "category": "cloud",
+    "aliases": [
+      "config management",
+      "configuration management",
+      "config as code",
+      "centralized configuration"
+    ],
+    "prerequisites": [
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "canonical_name": "Cloud Security",
+    "category": "cloud",
+    "aliases": [
+      "cloud security",
+      "cloud security posture",
+      "cloud sec",
+      "cloud security best practices"
+    ],
+    "prerequisites": [
+      "Cybersecurity",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Compliance as Code",
+    "category": "cloud",
+    "aliases": [
+      "compliance as code",
+      "policy as code",
+      "automated compliance",
+      "compliance automation"
+    ],
+    "prerequisites": [
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "canonical_name": "Immutable Infrastructure",
+    "category": "cloud",
+    "aliases": [
+      "immutable infrastructure",
+      "immutable deployments",
+      "immutable servers",
+      "cattle not pets"
+    ],
+    "prerequisites": [
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "canonical_name": "Cloud Native Architecture",
+    "category": "cloud",
+    "aliases": [
+      "cloud native architecture",
+      "cloud native",
+      "cloud-native",
+      "cncf patterns"
+    ],
+    "prerequisites": [
+      "Microservices",
+      "Kubernetes"
+    ]
+  },
+  {
+    "canonical_name": "Platform Engineering",
+    "category": "cloud",
+    "aliases": [
+      "platform engineering",
+      "platform team",
+      "developer platform",
+      "internal platform"
+    ],
+    "prerequisites": [
+      "DevOps",
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "canonical_name": "Service Level Indicators",
+    "category": "cloud",
+    "aliases": [
+      "service level indicators",
+      "sli",
+      "slis",
+      "service metrics"
+    ],
+    "prerequisites": [
+      "Site Reliability Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Health Checks",
+    "category": "cloud",
+    "aliases": [
+      "health checks",
+      "healthcheck",
+      "readiness probes",
+      "liveness probes"
+    ],
+    "prerequisites": [
+      "Microservices"
+    ]
+  },
+  {
+    "canonical_name": "Circuit Breakers",
+    "category": "cloud",
+    "aliases": [
+      "circuit breakers",
+      "circuit breaker pattern",
+      "fault tolerance pattern",
+      "resilience pattern"
+    ],
+    "prerequisites": [
+      "Microservices"
+    ]
+  },
+  {
+    "canonical_name": "Traffic Management",
+    "category": "cloud",
+    "aliases": [
+      "traffic management",
+      "traffic routing",
+      "traffic control",
+      "traffic splitting"
+    ],
+    "prerequisites": [
+      "Load Balancing"
+    ]
+  },
+  {
+    "canonical_name": "Observability Platforms",
+    "category": "cloud",
+    "aliases": [
+      "observability platforms",
+      "observability tools",
+      "o11y platform",
+      "monitoring platform"
+    ],
+    "prerequisites": [
+      "Observability"
+    ]
+  },
+  {
+    "canonical_name": "Cost Allocation",
+    "category": "cloud",
+    "aliases": [
+      "cost allocation",
+      "cloud cost allocation",
+      "chargeback",
+      "showback"
+    ],
+    "prerequisites": [
+      "Cloud Cost Optimization"
+    ]
+  },
+  {
+    "canonical_name": "Resource Tagging",
+    "category": "cloud",
+    "aliases": [
+      "resource tagging",
+      "cloud tagging",
+      "tag management",
+      "tagging strategy"
+    ],
+    "prerequisites": [
+      "Cloud Computing"
+    ]
+  },
+  {
+    "canonical_name": "Egress Optimization",
+    "category": "cloud",
+    "aliases": [
+      "egress optimization",
+      "egress cost",
+      "data egress",
+      "egress management"
+    ],
+    "prerequisites": [
+      "Cloud Cost Optimization"
+    ]
+  },
+  {
+    "canonical_name": "Pair Programming",
+    "category": "engineering",
+    "aliases": [
+      "pair programming",
+      "pairing",
+      "collaborative coding",
+      "paired development"
+    ],
+    "prerequisites": [
+      "Code Review",
+      "Team Collaboration"
+    ]
+  },
+  {
+    "canonical_name": "Trunk Based Development",
+    "category": "engineering",
+    "aliases": [
+      "trunk based development",
+      "trunk development",
+      "tbd",
+      "mainline development"
+    ],
+    "prerequisites": [
+      "Version Control",
+      "CI/CD"
+    ]
+  },
+  {
+    "canonical_name": "Semantic Versioning",
+    "category": "engineering",
+    "aliases": [
+      "semantic versioning",
+      "semver",
+      "version numbering",
+      "software versioning"
+    ],
+    "prerequisites": [
+      "Version Control"
+    ]
+  },
+  {
+    "canonical_name": "Release Management",
+    "category": "engineering",
+    "aliases": [
+      "release management",
+      "release engineering",
+      "deployment management",
+      "release coordination"
+    ],
+    "prerequisites": [
+      "CI/CD",
+      "Project Management"
+    ]
+  },
+  {
+    "canonical_name": "Dependency Management",
+    "category": "engineering",
+    "aliases": [
+      "dependency management",
+      "package management",
+      "dependency resolution",
+      "library management"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Supply Chain Security",
+    "category": "engineering",
+    "aliases": [
+      "supply chain security",
+      "software supply chain",
+      "dependency security",
+      "sbom"
+    ],
+    "prerequisites": [
+      "Cybersecurity",
+      "Dependency Management"
+    ]
+  },
+  {
+    "canonical_name": "Static Analysis",
+    "category": "engineering",
+    "aliases": [
+      "static analysis",
+      "static code analysis",
+      "code analysis",
+      "static program analysis"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Linting",
+    "category": "engineering",
+    "aliases": [
+      "linting",
+      "code linting",
+      "linter",
+      "lint"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Type Checking",
+    "category": "engineering",
+    "aliases": [
+      "type checking",
+      "static typing",
+      "type safety",
+      "type validation"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Property Based Testing",
+    "category": "engineering",
+    "aliases": [
+      "property based testing",
+      "property testing",
+      "generative testing",
+      "quickcheck"
+    ],
+    "prerequisites": [
+      "Software Testing",
+      "Unit Testing"
+    ]
+  },
+  {
+    "canonical_name": "Mutation Testing",
+    "category": "engineering",
+    "aliases": [
+      "mutation testing",
+      "mutation analysis",
+      "fault injection testing",
+      "mutant testing"
+    ],
+    "prerequisites": [
+      "Unit Testing",
+      "Test Driven Development"
+    ]
+  },
+  {
+    "canonical_name": "Load Testing",
+    "category": "engineering",
+    "aliases": [
+      "load testing",
+      "performance testing",
+      "stress testing",
+      "capacity testing"
+    ],
+    "prerequisites": [
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Performance Profiling",
+    "category": "engineering",
+    "aliases": [
+      "performance profiling",
+      "profiling",
+      "code profiling",
+      "execution profiling"
+    ],
+    "prerequisites": [
+      "Debugging",
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Memory Management",
+    "category": "engineering",
+    "aliases": [
+      "memory management",
+      "heap management",
+      "memory allocation",
+      "manual memory management"
+    ],
+    "prerequisites": [
+      "Operating Systems",
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Garbage Collection",
+    "category": "engineering",
+    "aliases": [
+      "garbage collection",
+      "gc",
+      "automatic memory management",
+      "garbage collector"
+    ],
+    "prerequisites": [
+      "Memory Management"
+    ]
+  },
+  {
+    "canonical_name": "API Contract Testing",
+    "category": "engineering",
+    "aliases": [
+      "api contract testing",
+      "contract testing",
+      "consumer driven contracts",
+      "pact testing"
+    ],
+    "prerequisites": [
+      "REST APIs",
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Mocking Strategies",
+    "category": "engineering",
+    "aliases": [
+      "mocking",
+      "test mocking",
+      "mock objects",
+      "stubbing"
+    ],
+    "prerequisites": [
+      "Unit Testing",
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Test Fixtures",
+    "category": "engineering",
+    "aliases": [
+      "test fixtures",
+      "fixtures",
+      "test data setup",
+      "test setup"
+    ],
+    "prerequisites": [
+      "Software Testing",
+      "Unit Testing"
+    ]
+  },
+  {
+    "canonical_name": "Accessibility Testing",
+    "category": "engineering",
+    "aliases": [
+      "accessibility testing",
+      "a11y testing",
+      "wcag testing",
+      "inclusive testing"
+    ],
+    "prerequisites": [
+      "Web Accessibility",
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Localization Testing",
+    "category": "engineering",
+    "aliases": [
+      "localization testing",
+      "l10n testing",
+      "internationalization testing",
+      "locale testing"
+    ],
+    "prerequisites": [
+      "Internationalization",
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Technical Interviewing",
+    "category": "engineering",
+    "aliases": [
+      "technical interviewing",
+      "coding interviews",
+      "technical screening",
+      "interview preparation"
+    ],
+    "prerequisites": [
+      "Algorithms",
+      "Problem Solving"
+    ]
+  },
+  {
+    "canonical_name": "Mentoring",
+    "category": "engineering",
+    "aliases": [
+      "mentoring",
+      "technical mentorship",
+      "coaching",
+      "knowledge transfer"
+    ],
+    "prerequisites": [
+      "Team Collaboration",
+      "Technical Communication"
+    ]
+  },
+  {
+    "canonical_name": "Code Ownership",
+    "category": "engineering",
+    "aliases": [
+      "code ownership",
+      "codeowners",
+      "code stewardship",
+      "ownership model"
+    ],
+    "prerequisites": [
+      "Version Control",
+      "Team Collaboration"
+    ]
+  },
+  {
+    "canonical_name": "Open Source Contribution",
+    "category": "engineering",
+    "aliases": [
+      "open source contribution",
+      "oss contribution",
+      "open source development",
+      "contributing to oss"
+    ],
+    "prerequisites": [
+      "Version Control",
+      "Code Review"
+    ]
+  },
+  {
+    "canonical_name": "Software Licensing",
+    "category": "engineering",
+    "aliases": [
+      "software licensing",
+      "licensing",
+      "open source licenses",
+      "license compliance"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Digital Signal Processing",
+    "category": "engineering",
+    "aliases": [
+      "digital signal processing",
+      "dsp",
+      "signal processing",
+      "audio processing"
+    ],
+    "prerequisites": [
+      "Linear Algebra",
+      "Calculus"
+    ]
+  },
+  {
+    "canonical_name": "Control Systems",
+    "category": "engineering",
+    "aliases": [
+      "control systems",
+      "control theory",
+      "feedback control",
+      "pid control"
+    ],
+    "prerequisites": [
+      "Calculus",
+      "Linear Algebra"
+    ]
+  },
+  {
+    "canonical_name": "Computer Graphics",
+    "category": "engineering",
+    "aliases": [
+      "computer graphics",
+      "graphics programming",
+      "rendering",
+      "cg"
+    ],
+    "prerequisites": [
+      "Linear Algebra",
+      "Algorithms"
+    ]
+  },
+  {
+    "canonical_name": "Simulation Modeling",
+    "category": "engineering",
+    "aliases": [
+      "simulation modeling",
+      "discrete event simulation",
+      "system simulation",
+      "modeling and simulation"
+    ],
+    "prerequisites": [
+      "Probability and Statistics",
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Bioinformatics",
+    "category": "engineering",
+    "aliases": [
+      "bioinformatics",
+      "computational biology",
+      "genome analysis",
+      "sequence analysis"
+    ],
+    "prerequisites": [
+      "Algorithms",
+      "Data Structures"
+    ]
+  },
+  {
+    "canonical_name": "Geospatial Analysis",
+    "category": "engineering",
+    "aliases": [
+      "geospatial analysis",
+      "gis",
+      "spatial analysis",
+      "geographic information systems"
+    ],
+    "prerequisites": [
+      "Data Analysis",
+      "Databases"
+    ]
+  },
+  {
+    "canonical_name": "Computational Finance",
+    "category": "engineering",
+    "aliases": [
+      "computational finance",
+      "quantitative finance",
+      "financial modeling",
+      "quant"
+    ],
+    "prerequisites": [
+      "Probability and Statistics",
+      "Numerical Methods"
+    ]
+  },
+  {
+    "canonical_name": "Supply Chain Analytics",
+    "category": "engineering",
+    "aliases": [
+      "supply chain analytics",
+      "logistics analytics",
+      "inventory optimization",
+      "demand forecasting"
+    ],
+    "prerequisites": [
+      "Data Analysis",
+      "Optimization"
+    ]
+  },
+  {
+    "canonical_name": "API Mocking",
+    "category": "engineering",
+    "aliases": [
+      "api mocking",
+      "mock apis",
+      "api stubbing",
+      "mock server"
+    ],
+    "prerequisites": [
+      "REST APIs",
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Benchmark Design",
+    "category": "engineering",
+    "aliases": [
+      "benchmark design",
+      "benchmarking",
+      "performance benchmarking",
+      "microbenchmarking"
+    ],
+    "prerequisites": [
+      "Performance Profiling",
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Code Coverage",
+    "category": "engineering",
+    "aliases": [
+      "code coverage",
+      "test coverage",
+      "coverage analysis",
+      "statement coverage"
+    ],
+    "prerequisites": [
+      "Unit Testing",
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Smoke Testing",
+    "category": "engineering",
+    "aliases": [
+      "smoke testing",
+      "smoke test",
+      "sanity testing",
+      "build verification"
+    ],
+    "prerequisites": [
+      "Software Testing"
+    ]
+  },
+  {
+    "canonical_name": "Security Scanning",
+    "category": "engineering",
+    "aliases": [
+      "security scanning",
+      "vulnerability scanning",
+      "sast",
+      "dast"
+    ],
+    "prerequisites": [
+      "Application Security",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "canonical_name": "Documentation Generation",
+    "category": "engineering",
+    "aliases": [
+      "documentation generation",
+      "auto documentation",
+      "docs generation",
+      "api documentation generation"
+    ],
+    "prerequisites": [
+      "Technical Documentation"
+    ]
+  },
+  {
+    "canonical_name": "Code Formatting",
+    "category": "engineering",
+    "aliases": [
+      "code formatting",
+      "code style",
+      "auto formatting",
+      "prettier"
+    ],
+    "prerequisites": [
+      "Programming Fundamentals"
+    ]
+  },
+  {
+    "canonical_name": "Branch Protection",
+    "category": "engineering",
+    "aliases": [
+      "branch protection",
+      "protected branches",
+      "branch rules",
+      "merge protection"
+    ],
+    "prerequisites": [
+      "Version Control",
+      "Code Review"
+    ]
+  },
+  {
+    "canonical_name": "Build Optimization",
+    "category": "engineering",
+    "aliases": [
+      "build optimization",
+      "build performance",
+      "compilation optimization",
+      "build caching"
+    ],
+    "prerequisites": [
+      "CI/CD"
+    ]
+  },
+  {
+    "canonical_name": "Artifact Management",
+    "category": "engineering",
+    "aliases": [
+      "artifact management",
+      "binary repository",
+      "artifact registry",
+      "package registry"
+    ],
+    "prerequisites": [
+      "CI/CD",
+      "Dependency Management"
+    ]
+  },
+  {
+    "canonical_name": "Continuous Profiling",
+    "category": "engineering",
+    "aliases": [
+      "continuous profiling",
+      "production profiling",
+      "always on profiling",
+      "runtime profiling"
+    ],
+    "prerequisites": [
+      "Performance Profiling",
+      "Observability"
+    ]
+  },
+  {
+    "canonical_name": "Time Complexity Analysis",
+    "category": "engineering",
+    "aliases": [
+      "time complexity analysis",
+      "algorithmic complexity",
+      "big o analysis",
+      "runtime analysis"
+    ],
+    "prerequisites": [
+      "Algorithms",
+      "Data Structures"
+    ]
+  },
+  {
+    "canonical_name": "Space Complexity Analysis",
+    "category": "engineering",
+    "aliases": [
+      "space complexity analysis",
+      "memory complexity",
+      "space analysis",
+      "memory efficiency"
+    ],
+    "prerequisites": [
+      "Algorithms",
+      "Data Structures"
+    ]
+  },
+  {
+    "canonical_name": "Firmware Development",
+    "category": "engineering",
+    "aliases": [
+      "firmware development",
+      "firmware engineering",
+      "embedded firmware",
+      "firmware programming"
+    ],
+    "prerequisites": [
+      "Embedded Systems",
+      "C Programming"
+    ]
+  },
+  {
+    "canonical_name": "Real Time Systems",
+    "category": "engineering",
+    "aliases": [
+      "real time systems",
+      "rtos",
+      "hard real time",
+      "real time programming"
+    ],
+    "prerequisites": [
+      "Operating Systems",
+      "Embedded Systems"
+    ]
+  },
+  {
+    "canonical_name": "Parallel Algorithms",
+    "category": "engineering",
+    "aliases": [
+      "parallel algorithms",
+      "concurrent algorithms",
+      "parallel processing algorithms",
+      "distributed algorithms"
+    ],
+    "prerequisites": [
+      "Algorithms",
+      "Concurrency"
+    ]
+  }
 ]

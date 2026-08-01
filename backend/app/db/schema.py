@@ -59,7 +59,20 @@ def load_taxonomy(index: TaxonomyIndex) -> dict[str, int]:
             rows=prerequisites,
         )
 
-    return {"skills": len(skills), "prerequisite_edges": len(prerequisites)}
+        # MERGE never deletes, so a skill removed from the taxonomy file would
+        # otherwise linger in the graph forever and keep appearing in gap
+        # reports. Prune anything no longer in the source of truth.
+        pruned = s.run(
+            "MATCH (sk:Skill) WHERE NOT sk.canonical_name IN $names "
+            "DETACH DELETE sk RETURN count(sk) AS pruned",
+            names=[row["name"] for row in skills],
+        ).single()["pruned"]
+
+    return {
+        "skills": len(skills),
+        "prerequisite_edges": len(prerequisites),
+        "pruned": pruned,
+    }
 
 
 def graph_counts() -> dict[str, int]:

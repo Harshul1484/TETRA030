@@ -46,6 +46,27 @@ def test_loading_twice_does_not_duplicate_nodes(loaded_graph):
     assert graph_counts() == before
 
 
+def test_skills_removed_from_taxonomy_are_pruned(loaded_graph):
+    """MERGE never deletes. Without an explicit prune, a skill removed from
+    the taxonomy file lingers in the graph and keeps producing phantom gaps.
+    """
+    with session() as s:
+        s.run("MERGE (:Skill {canonical_name: 'Obsolete Test Skill'})")
+        assert s.run(
+            "MATCH (sk:Skill {canonical_name: 'Obsolete Test Skill'}) "
+            "RETURN count(sk) AS n"
+        ).single()["n"] == 1
+
+    result = load_taxonomy(loaded_graph)
+    assert result["pruned"] >= 1
+
+    with session() as s:
+        assert s.run(
+            "MATCH (sk:Skill {canonical_name: 'Obsolete Test Skill'}) "
+            "RETURN count(sk) AS n"
+        ).single()["n"] == 0
+
+
 def test_prerequisite_edges_are_traversable(loaded_graph):
     """Multi-hop traversal is the reason this is a graph database rather
     than a relational one, so it needs a test."""
