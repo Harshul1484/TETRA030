@@ -23,9 +23,34 @@ A keyword diff reports that a syllabus lacks Retrieval Augmented Generation. Tha
 | 3 | Data Structures, Deep Learning |
 | 4 | Machine Learning, Optimization, Programming Fundamentals |
 
-So a recommendation becomes *"you cannot teach RAG until this chain is covered, in this order"* rather than *"you are missing RAG"*. Adding Kubernetes to a course already teaching Docker is one hop and cheap; adding RAG to a course covering none of its prerequisites is a different conversation entirely.
+A recommendation becomes *"you cannot teach RAG until this chain is covered, in this order"* rather than *"you are missing RAG"*. Adding Kubernetes to a course already teaching Docker is one hop and cheap; adding RAG to a course covering none of its prerequisites is a different conversation entirely.
 
-That distinction is also the answer to **why a graph database**: it is a variable-length path search, which a relational schema answers only with a recursive query that degrades with every hop.
+That is also the answer to **why a graph database**: it is a variable-length path search, which a relational schema answers only with a recursive query that degrades with every hop.
+
+---
+
+## Audited against a real curriculum
+
+Eight actual BCA course syllabi from The Maharaja Sayajirao University of Baroda, compared against 150 real job postings.
+
+| Alignment | Course | Teaches | Gaps |
+|---|---|---|---|
+| 50.0 | Web Application Development | 10 | 73 |
+| 22.8 | Oracle DBA | 8 | 70 |
+| 22.7 | Artificial Intelligence | 13 | 71 |
+| 19.7 | Software Engineering 2 | 10 | 71 |
+| 17.4 | Application Frameworks in .NET | 8 | 72 |
+| 13.6 | Mobile Application Development | 8 | 71 |
+| 11.4 | Unix Systems Programming | 9 | 72 |
+| 7.8 | Course Outcome (programme-level) | 5 | 71 |
+
+Extraction is verifiable rather than asserted. The Artificial Intelligence syllabus yields Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and Reinforcement Learning. Web Application Development yields JavaScript, Node.js, MongoDB, REST APIs, and Express.
+
+### Reading the alignment score
+
+Each course is scored against demand **in its own subject area**, not against the whole tech market. This matters: a single course covers three to twelve percent of total market demand, which is entirely normal, but presenting that as a score out of 100 would imply a failing grade for every course ever written.
+
+Every report carries a `scored_against` field naming the subject areas used as the denominator, so the number can be interpreted rather than taken on faith.
 
 ---
 
@@ -39,7 +64,7 @@ Every gap cites real posting counts and its distance from what the course alread
 
 ## Skill ontology graph
 
-Green nodes are taught by the curriculum, amber nodes are demanded by employers but uncovered. Node size is market demand. Clicking a node returns its prerequisite chain.
+Node colour is the skill category, matching the tags used throughout the gap reports. A dark ring marks a skill the curriculum already teaches. Node size is market demand. Clicking a node returns its prerequisite chain.
 
 ![Skill graph](docs/screenshots/skill-graph.png)
 
@@ -86,7 +111,7 @@ flowchart LR
 
 ### Stack
 
-FastAPI and Python 3.11, Next.js and TypeScript, Neo4j 5.26, ChromaDB in embedded mode, Claude API, Docker Compose. Frontend types are generated from the OpenAPI schema.
+FastAPI and Python 3.11, Next.js and TypeScript, Neo4j 5.26, ChromaDB in embedded mode, Claude API, Docker Compose. Frontend types are generated from the OpenAPI schema, so the two halves cannot drift.
 
 ---
 
@@ -135,11 +160,13 @@ docker compose exec backend pytest tests/ -v
 
 **Soft skills are down-weighted, not censored.** Ranking by raw posting frequency put Team Collaboration and Mentoring above every technical gap. Both are genuine market signal, but "add teamwork to your database course" is not advice a curriculum committee can act on.
 
+**Colour carries information.** Each skill category owns a block colour, so a gap card, a category tag, and a graph node all agree on what "cloud" or "data" looks like. Colour that shifts between views is decoration; colour that holds is information. The design system is documented in `frontend/DESIGN.md`.
+
 ---
 
 ## Bugs the tests caught
 
-These are worth stating because each produced a plausible-looking wrong number that would have survived a demo unnoticed.
+Each of these produced a plausible-looking wrong number that would have survived a demo unnoticed.
 
 **The health score ran backwards.** Adding twenty trivial gaps to one critical gap raised the score from 5 to 73 — making a curriculum worse made it look better. A normalized weighted mean was letting a long tail dilute the average. Replaced with an unnormalized rank-decay penalty, so additional gaps can only lower the score.
 
@@ -151,6 +178,8 @@ These are worth stating because each produced a plausible-looking wrong number t
 | Unrelated syllabus prose | 0.554 - 0.619 |
 
 At 0.35, *"the cafeteria serves lunch at noon"* matched Service Mesh at 0.565 and would have entered a gap report as a phantom skill with fabricated evidence. Recalibrated to 0.63, inside the separation gap, with `scripts/calibrate_threshold.py` reproducing the measurement.
+
+**Every course scored the same.** All eight landed between 16 and 18 out of 100 with exactly 40 gaps — and that 40 was an artifact of a query limit every course hit, not a finding. Fixed by raising the limit, adding a demand floor that drops the long tail (43 of 170 demanded skills were named by a single posting), and scoring against each course's own subject area. The spread went from six points to forty-two.
 
 **Neo4j raised on `shortestPath`** when a demanded skill was also a taught skill, because start and end resolved to the same node. Not an edge case: it happens for every skill the curriculum already covers, which is exactly what coverage measurement needs.
 
@@ -172,10 +201,13 @@ backend/app/taxonomy/    canonical skill taxonomy and alias resolver
 backend/app/pipeline/    the six pipeline stages
 backend/app/db/          Neo4j schema, writer, and gap queries
 backend/app/api/         FastAPI endpoints
-backend/tests/           129 tests
+backend/tests/           132 tests
 frontend/app/            four screens
+frontend/DESIGN.md       design system reference
 scripts/                 job fetching and threshold calibration
 docs/superpowers/        design specification and implementation plan
+data/syllabi/            eight real BCA course syllabi
+data/jobs_snapshot.json  305 real technical job postings
 ```
 
 Job market data from [Arbeitnow](https://www.arbeitnow.com) and [Remotive](https://remotive.com).
