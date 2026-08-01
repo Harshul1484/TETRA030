@@ -76,11 +76,37 @@ export class ApiError extends Error {
   }
 }
 
+/** Augmentation calls Claude, so the ceiling is generous but not infinite. */
+const REQUEST_TIMEOUT_MS = 90_000;
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(`${BASE_URL}${path}`, {
-    ...init,
-    cache: "no-store",
-  });
+  // Without an explicit timeout a blocked request hangs forever with no
+  // error. A CORS mismatch did exactly that: the augmenter button sat on
+  // "Generating..." indefinitely and the browser reported nothing.
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+  let response: Response;
+  try {
+    response = await fetch(`${BASE_URL}${path}`, {
+      ...init,
+      cache: "no-store",
+      signal: controller.signal,
+    });
+  } catch (cause) {
+    if (cause instanceof DOMException && cause.name === "AbortError") {
+      throw new ApiError(
+        `Request timed out after ${REQUEST_TIMEOUT_MS / 1000} seconds.`,
+        408,
+      );
+    }
+    throw new ApiError(
+      `Could not reach the API at ${BASE_URL}. It may be down, or blocking this origin.`,
+      0,
+    );
+  } finally {
+    clearTimeout(timer);
+  }
 
   if (!response.ok) {
     let detail = response.statusText;

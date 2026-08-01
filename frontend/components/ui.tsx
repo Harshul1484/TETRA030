@@ -98,7 +98,7 @@ export function SeverityBadge({ severity }: { severity: string }) {
 
   return (
     <span
-      className={`micro-cap inline-flex shrink-0 rounded-[var(--radius-full)] px-2.5 py-1 ${
+      className={`micro-cap inline-flex shrink-0 rounded-[var(--radius-xs)] px-2 py-1 ${
         tones[severity] ?? tones.low
       }`}
     >
@@ -111,13 +111,10 @@ export function SeverityBadge({ severity }: { severity: string }) {
 export function CategoryTag({ category }: { category: string }) {
   const block = categoryBlock(category);
   return (
-    <span
-      className="micro-cap inline-flex shrink-0 items-center gap-1.5 rounded-[var(--radius-full)] px-2.5 py-1 text-[var(--color-ink)]"
-      style={{ backgroundColor: block.bg }}
-    >
+    <span className="micro-cap inline-flex shrink-0 items-center gap-1.5 text-[var(--color-ink-mute)]">
       <span
         aria-hidden
-        className="inline-block h-1.5 w-1.5 rounded-full"
+        className="inline-block h-2 w-2 rounded-full"
         style={{ backgroundColor: block.dot }}
       />
       {block.label}
