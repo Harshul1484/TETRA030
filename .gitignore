@@ -17,3 +17,6 @@ data/llm_cache/
 # Generated at runtime
 /data/chroma/
 /data/llm_cache/
+
+# Personal course material, not part of the deliverable
+/BCA 22-25/

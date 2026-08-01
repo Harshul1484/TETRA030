@@ -3,28 +3,36 @@
 import { useState } from "react";
 
 import type { SkillGap } from "@/lib/api";
-import { DemandBar, SeverityBadge } from "@/components/ui";
+import { categoryBlock } from "@/lib/theme";
+import { Button, SeverityBadge } from "@/components/ui";
 
 const UNREACHABLE = 99;
-const INITIAL_VISIBLE = 12;
+const INITIAL_VISIBLE = 8;
 
-/** The cost framing is the product's differentiator, so it gets its own line. */
-function reachabilityLabel(distance: number): { text: string; tone: string } {
+/** The cost framing is the product's differentiator, so it gets its own row. */
+function reachability(distance: number): {
+  label: string;
+  detail: string;
+  tone: string;
+} {
   if (distance <= 1) {
     return {
-      text: "Adjacent to existing content, low-cost addition",
-      tone: "text-emerald-400",
+      label: "Low cost",
+      detail: "adjacent to what this course already teaches",
+      tone: "text-[var(--color-success)]",
     };
   }
   if (distance >= UNREACHABLE) {
     return {
-      text: "No prerequisite path from current content",
-      tone: "text-rose-400",
+      label: "No path",
+      detail: "nothing in this course leads toward it",
+      tone: "text-[var(--color-severity-critical)]",
     };
   }
   return {
-    text: `${distance} prerequisite hops from existing content`,
-    tone: "text-amber-400",
+    label: `${distance} steps`,
+    detail: "of prerequisites before this can be taught",
+    tone: "text-[var(--color-severity-high)]",
   };
 }
 
@@ -33,72 +41,91 @@ export function GapList({ gaps }: { gaps: SkillGap[] }) {
 
   if (gaps.length === 0) {
     return (
-      <p className="rounded-xl border border-slate-800 bg-slate-900/40 p-5 text-sm text-slate-400">
+      <div
+        className="rounded-[var(--radius-lg)] p-8 text-[16px]"
+        style={{ backgroundColor: "var(--color-block-sage)" }}
+      >
         No gaps found. This curriculum covers the analysed market demand.
-      </p>
+      </div>
     );
   }
 
   const visible = expanded ? gaps : gaps.slice(0, INITIAL_VISIBLE);
 
   return (
-    <div className="space-y-3">
-      {visible.map((gap) => {
-        const reach = reachabilityLabel(gap.prerequisite_distance);
-        return (
-          <article
-            key={gap.canonical_skill}
-            className="rounded-xl border border-slate-800 bg-slate-900/40 p-4 transition-colors hover:border-slate-700"
-          >
-            <div className="flex flex-wrap items-start justify-between gap-3">
-              <div className="min-w-0 flex-1">
-                <div className="flex flex-wrap items-center gap-2">
-                  <h3 className="text-sm font-medium text-slate-100">
+    <div>
+      <div className="grid gap-4 md:grid-cols-2">
+        {visible.map((gap) => {
+          const reach = reachability(gap.prerequisite_distance);
+          const block = categoryBlock(gap.category);
+          const share = Math.round(gap.market_demand * 100);
+
+          return (
+            <article
+              key={gap.canonical_skill}
+              className="flex flex-col overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] transition-colors hover:border-[var(--color-ink)]"
+            >
+              {/* The demand figure is the reason a gap matters, so it is the
+                  largest thing on the card and sits in its category colour. */}
+              <div
+                className="flex items-start justify-between gap-4 px-6 py-5"
+                style={{ backgroundColor: block.bg }}
+              >
+                <div className="min-w-0">
+                  <h3 className="card-title text-[var(--color-ink)]">
                     {gap.canonical_skill}
                   </h3>
-                  <SeverityBadge severity={gap.severity} />
-                  {gap.curriculum_coverage > 0 ? (
-                    <span className="rounded border border-sky-500/30 bg-sky-500/10 px-2 py-0.5 text-[10px] uppercase tracking-wider text-sky-300">
-                      partly covered
-                    </span>
-                  ) : null}
+                  <p className="micro-cap mt-1.5 text-[var(--color-ink-soft)]">
+                    {block.label}
+                  </p>
                 </div>
-                <p className="mt-1.5 text-xs leading-relaxed text-slate-400">
-                  {gap.evidence}
-                </p>
-                <p className={`mt-1 text-xs ${reach.tone}`}>{reach.text}</p>
+
+                <div className="shrink-0 text-right">
+                  <p className="tabular text-[34px] font-light leading-none text-[var(--color-ink)]">
+                    {share}
+                    <span className="text-[18px] text-[var(--color-ink-soft)]">
+                      %
+                    </span>
+                  </p>
+                  <p className="micro-cap mt-1 text-[var(--color-ink-soft)]">
+                    of postings
+                  </p>
+                </div>
               </div>
 
-              <div className="w-32 shrink-0">
-                <p className="text-right font-mono text-xs text-slate-400">
-                  {gap.postings_requiring}
-                  <span className="text-slate-600">
-                    {" / "}
-                    {gap.postings_total}
+              <div className="flex flex-1 flex-col gap-4 px-6 py-5">
+                <p className="text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
+                  <span className="tabular font-medium text-[var(--color-ink)]">
+                    {gap.postings_requiring} of {gap.postings_total}
+                  </span>{" "}
+                  postings require this
+                  {gap.curriculum_coverage > 0
+                    ? `, and the syllabus covers it only partially`
+                    : `, and no outcome in this course covers it`}
+                  .
+                </p>
+
+                <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-2 border-t border-[var(--color-hairline)] pt-4">
+                  <SeverityBadge severity={gap.severity} />
+                  <span className={`caption font-semibold ${reach.tone}`}>
+                    {reach.label}
                   </span>
-                </p>
-                <div className="mt-1.5">
-                  <DemandBar value={gap.market_demand} />
+                  <span className="caption text-[var(--color-ink-mute)]">
+                    {reach.detail}
+                  </span>
                 </div>
-                <p className="mt-1 text-right text-[10px] uppercase tracking-wider text-slate-600">
-                  market demand
-                </p>
               </div>
-            </div>
-          </article>
-        );
-      })}
+            </article>
+          );
+        })}
+      </div>
 
       {gaps.length > INITIAL_VISIBLE ? (
-        <button
-          type="button"
-          onClick={() => setExpanded(!expanded)}
-          className="w-full rounded-lg border border-slate-800 bg-slate-900/40 py-2.5 text-sm text-slate-400 transition-colors hover:border-slate-700 hover:text-slate-200"
-        >
-          {expanded
-            ? "Show fewer"
-            : `Show all ${gaps.length} gaps`}
-        </button>
+        <div className="mt-8">
+          <Button variant="secondary" onClick={() => setExpanded(!expanded)}>
+            {expanded ? "Show fewer" : `Show all ${gaps.length} gaps`}
+          </Button>
+        </div>
       ) : null}
     </div>
   );

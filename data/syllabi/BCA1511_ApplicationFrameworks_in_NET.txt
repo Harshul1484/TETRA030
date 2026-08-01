@@ -1,0 +1,93 @@
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Application
+BCA: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04
+BCA1511: ApplicationFrameworks in .NET
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCA1511
+CO1.Learn about.NET framework developed by Microsoft.
+CO 2. You will be able to useWPF in C#.NET
+CO 3. Create and Design the architecture and implementation of a web application using MVC.
+CO4.Understand Entity Framework to connect to a database including Microsoft SQL Server using LINQ Operations
+CO 5. To be able to create Web Services in .NET using C#.
+CO 6. To understand .NETCore and features over .NET previous versions
+CO 7. To develop Applications in .NET, Mobile Application Development (Xamarin).
+Unit Topic/Unit Conta Weightage BT CO PSO Element Relevan Relation
+No. ct (%) Level s of ce to to
+Hour Employa Local Gender
+s bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Overview of WPF
+Windows Presentation Foundation – WPF Controls, Layout,
+Overview of XAML, Events and Data binding, Style,
+Navigation, Animation and Media, 3D Graphics,
+CO1, PS02,P
+MVC Framework 22 36% 1,2, 3, 6 CO2, S03,PS
+MVC Architecture, Designing Models, Controllers and CO3 04
+Views, Writing Controllers and Actions, Creating Views
+with razor syntax, Validate MVC Application, MVC
+Authentication, MVC Routing
+2 Entity Framework
+Understanding of Entity Framework, Workflow in EF, Entity
+Data Model, EF Architecture, DbContext, Types of Entities,
+Relationships with Entity Framework, Entity State,
+PS02,P
+Development Approaches for EF, CRUD Operations in
+18 30% 1,2,4,5,6 CO4, S03,PS
+Entity Framework
+04
+LINQ
+Common LINQ Operations – Projection and filtering,
+Sorting data, Set operations, Quantifiers and Partitioning,
+Aggregation operation, LINQ to Entities, LINQ to XML
+3 Overview of WCF
+PS02,P
+Windows Communication Foundation for implementation of
+12 20% 1,2,3,6 CO5 S03,PS
+SOA, addresses, bindings, and contracts. Creating and
+04
+launching a service, consuming a service.
+4 Introducing .NET Core
+PS01,P
+Features of .NET Core, Traditional .NET Framework vs CO6, S02,PS
+08 14% 1,4,5,6
+.NET Core, creating application in .NET Core, Targeting CO7 03,PS0
+multiple frameworks, Introduction to Xamarin 4,PS05
+Reference Books
+1. Programming WPF (2nd Edition) - Chris Sells and Ian Griffiths, O’Reilly
+2. Programming ASP.NET MVC 4 - Jess Chadwick, Todd Snyder, and Hrusikesh Panda, O’Reilly
+3. Professional ADO.NET 3.5 with LINQ and the Entity Framework - Roger Jennings, Wrox
+4. Microsoft ADO.NET Entity Framework Step by Step – John Paul Mueller
+5. Learning WCF - Michele Leroux Bustamante. O’Reilly
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: BCA
+Programme Specific Outcome(PSO)
+PSO 1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector
+PSO 2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn computer hardware with microprocessor architecture.
+PSO 6 Learning Database management system along with designing, query processing and managing databases using application programs.
+PSO 7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 8 Generating solutions in societal and environmental contexts.
+PSO 9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.

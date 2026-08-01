@@ -1,24 +1,158 @@
 @import "tailwindcss";
 
+/* Design tokens follow frontend/DESIGN.md, an interpretation of Figma's
+   design language: a rigorously monochrome editorial frame interrupted by
+   oversized pastel colour blocks, described in that document as giant sticky
+   notes arranged on a clean wall.
+
+   The pastels are load-bearing here rather than decorative. Each skill
+   category in the taxonomy gets its own block colour, so a gap card, a graph
+   node, and a category tag all agree on what "data" or "cloud" looks like.
+
+   figmaSans is proprietary, so Inter is used with the same variable weights
+   and negative display tracking. */
+
 @theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Monochrome frame on a warm bone canvas rather than stark white. The
+     warmth is what stops a data-dense page reading as a spreadsheet. */
+  --color-ink: #16171a;
+  --color-ink-soft: #4a4d52;
+  --color-ink-mute: #7b7f86;
+  --color-canvas: #f2f1ea;
+  --color-surface: #ffffff;
+  --color-surface-soft: #e8e7de;
+  --color-hairline: #cfcec4;
+  --color-hairline-strong: #16171a;
+
+  /* Saturated blocks, mapped to skill categories. Deeper than pastels so a
+     panel holds its own against the bone canvas. */
+  --color-block-orchid: #e4a8e0;
+  --color-block-sage: #9dbdb0;
+  --color-block-periwinkle: #b3a7e8;
+  --color-block-butter: #e8d9a0;
+  --color-block-clay: #dba98c;
+  --color-block-sky: #a8c4dd;
+  --color-block-moss: #b9c98a;
+  --color-block-stone: #d6d5cb;
+
+  --color-accent: #16171a;
+  --color-success: #2f7d5b;
+
+  /* Severity, deep enough to read as urgent against saturated blocks. */
+  --color-severity-critical: #a8243f;
+  --color-severity-high: #a15616;
+  --color-severity-moderate: #7d6414;
+  --color-severity-low: #7b7f86;
+
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-full: 9999px;
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 body {
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-feature-settings: "kern";
 }
 
-/* Long gap lists and graph panels scroll inside their own container so the
-   page body never scrolls horizontally. */
+/* Display tier: tight line height and negative tracking. The source system
+   runs display type at a variable weight of 340, which Inter approximates
+   at 300 for large sizes. */
+.display-xl {
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1.8px;
+}
+
+.display-lg {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -1px;
+}
+
+.display-md {
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.6px;
+}
+
+.headline {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.24px;
+}
+
+.card-title {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.19px;
+}
+
+.body-lg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: -0.1px;
+}
+
+.caption {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.micro-cap {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+/* Tabular figures keep posting counts and scores aligned down a column so
+   they can be compared at a glance. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+@media (max-width: 767px) {
+  .display-xl {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+  .display-lg {
+    font-size: 32px;
+    letter-spacing: -0.6px;
+  }
+  .display-md {
+    font-size: 26px;
+  }
+}
+
+/* Long gap lists scroll inside their own container so the page body never
+   scrolls horizontally. */
 .scroll-panel {
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: rgb(51 65 85) transparent;
+  scrollbar-color: var(--color-hairline) transparent;
 }
 
 .scroll-panel::-webkit-scrollbar {
@@ -26,6 +160,6 @@ body {
 }
 
 .scroll-panel::-webkit-scrollbar-thumb {
-  background-color: rgb(51 65 85);
+  background-color: var(--color-hairline);
   border-radius: 4px;
 }

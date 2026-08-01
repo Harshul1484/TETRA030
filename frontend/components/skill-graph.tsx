@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 import type { GraphData, GraphNode, PrerequisiteChain } from "@/lib/api";
 import { api } from "@/lib/api";
+import { categoryBlock } from "@/lib/theme";
 
 /**
  * Force-directed layout on a canvas.
@@ -147,7 +148,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
       const ctx = context!;
       ctx.clearRect(0, 0, canvas!.width, canvas!.height);
 
-      ctx.strokeStyle = "rgba(100, 116, 139, 0.28)";
+      ctx.strokeStyle = "rgba(0, 0, 0, 0.13)";
       ctx.lineWidth = 1;
       for (const link of links) {
         ctx.beginPath();
@@ -160,14 +161,20 @@ export function SkillGraph({ data }: { data: GraphData }) {
         const isSelected = selected?.skill === body.skill;
         ctx.beginPath();
         ctx.arc(body.x, body.y, body.radius, 0, Math.PI * 2);
-        ctx.fillStyle = body.is_taught
-          ? "rgba(16, 185, 129, 0.9)"
-          : "rgba(245, 158, 11, 0.75)";
+        // Fill is the category colour so a node matches its gap card and
+        // tag; a taught skill gets a solid ink ring to separate it from a gap.
+        ctx.fillStyle = categoryBlock(body.category).dot;
         ctx.fill();
 
-        if (isSelected) {
-          ctx.strokeStyle = "rgba(226, 232, 240, 0.95)";
+        if (body.is_taught) {
+          ctx.strokeStyle = "rgba(0, 0, 0, 0.85)";
           ctx.lineWidth = 2.5;
+          ctx.stroke();
+        }
+
+        if (isSelected) {
+          ctx.strokeStyle = "#ff3d8b";
+          ctx.lineWidth = 3;
           ctx.stroke();
         }
       }
@@ -175,7 +182,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
       // Labels are drawn in a second pass, largest node first, and only where
       // they do not collide with one already placed. Drawing every label
       // produced an unreadable pile in the dense regions.
-      ctx.font = "11px system-ui, sans-serif";
+      ctx.font = "500 11px Inter, system-ui, sans-serif";
       ctx.textAlign = "center";
       ctx.textBaseline = "alphabetic";
 
@@ -210,11 +217,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
         if (collides && !isSelected) continue;
 
         placed.push(box);
-        ctx.fillStyle = isSelected
-          ? "rgba(248, 250, 252, 1)"
-          : body.is_taught
-            ? "rgba(110, 231, 183, 0.95)"
-            : "rgba(203, 213, 225, 0.85)";
+        ctx.fillStyle = isSelected ? "#000000" : "rgba(0, 0, 0, 0.72)";
         ctx.fillText(body.skill, x, y);
       }
     }
@@ -260,7 +263,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
 
   return (
     <div className="grid gap-4 lg:grid-cols-[1fr_300px]">
-      <div className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900/40">
+      <div className="overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)]">
         <canvas
           ref={canvasRef}
           width={900}
@@ -268,13 +271,13 @@ export function SkillGraph({ data }: { data: GraphData }) {
           onClick={handleClick}
           className="h-auto w-full cursor-pointer"
         />
-        <div className="flex flex-wrap items-center gap-4 border-t border-slate-800 px-4 py-2.5 text-xs text-slate-500">
+        <div className="flex flex-wrap items-center gap-4 border-t border-[var(--color-hairline)] px-5 py-3.5 caption text-[var(--color-ink-mute)]">
           <span className="flex items-center gap-1.5">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-emerald-500" />
+            <span className="inline-block h-3 w-3 rounded-full border-2 border-black bg-[var(--color-surface)]" />
             taught
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-amber-500" />
+            <span className="inline-block h-3 w-3 rounded-full" style={{ backgroundColor: "var(--color-block-periwinkle)" }} />
             gap
           </span>
           <span>node size is market demand</span>
@@ -282,30 +285,30 @@ export function SkillGraph({ data }: { data: GraphData }) {
         </div>
       </div>
 
-      <aside className="rounded-xl border border-slate-800 bg-slate-900/40 p-4">
+      <aside className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] p-6">
         {!selected ? (
-          <p className="text-sm text-slate-500">
+          <p className="text-[16px] text-[var(--color-ink-mute)]">
             Select a skill to see what a course would need to teach first.
           </p>
         ) : (
           <div>
-            <h3 className="text-sm font-medium text-slate-100">
+            <h3 className="card-title text-[var(--color-ink)]">
               {selected.skill}
             </h3>
-            <dl className="mt-3 space-y-1.5 text-xs">
+            <dl className="mt-4 space-y-2 caption">
               <div className="flex justify-between">
-                <dt className="text-slate-500">Category</dt>
-                <dd className="text-slate-300">{selected.category}</dd>
+                <dt className="text-[var(--color-ink-mute)]">Category</dt>
+                <dd className="text-[var(--color-ink)]">{selected.category}</dd>
               </div>
               <div className="flex justify-between">
-                <dt className="text-slate-500">Postings</dt>
-                <dd className="font-mono text-slate-300">{selected.demand}</dd>
+                <dt className="text-[var(--color-ink-mute)]">Postings</dt>
+                <dd className="tabular text-[var(--color-ink)]">{selected.demand}</dd>
               </div>
               <div className="flex justify-between">
-                <dt className="text-slate-500">Status</dt>
+                <dt className="text-[var(--color-ink-mute)]">Status</dt>
                 <dd
                   className={
-                    selected.is_taught ? "text-emerald-400" : "text-amber-400"
+                    selected.is_taught ? "text-[var(--color-success)]" : "text-[var(--color-severity-high)]"
                   }
                 >
                   {selected.is_taught ? "taught" : "gap"}
@@ -314,23 +317,23 @@ export function SkillGraph({ data }: { data: GraphData }) {
             </dl>
 
             {chain && chain.by_hop.length > 0 ? (
-              <div className="mt-4 border-t border-slate-800 pt-3">
-                <p className="text-xs font-medium text-slate-400">
+              <div className="mt-5 border-t border-[var(--color-hairline)] pt-4">
+                <p className="micro-cap text-[var(--color-ink-mute)]">
                   Requires first
                 </p>
-                <p className="mt-0.5 text-[11px] text-slate-600">
+                <p className="caption mt-1 text-[var(--color-ink-mute)]">
                   {chain.total_prerequisites} skills across {chain.max_depth}{" "}
                   levels
                 </p>
                 <div className="scroll-panel mt-2 max-h-64 space-y-2 pr-1">
                   {chain.by_hop.map((level) => (
                     <div key={level.hops}>
-                      <p className="font-mono text-[10px] uppercase tracking-wider text-slate-600">
+                      <p className="micro-cap text-[var(--color-ink-mute)]">
                         {level.hops} hop{level.hops > 1 ? "s" : ""}
                       </p>
                       <ul className="mt-0.5 space-y-0.5">
                         {level.prerequisites.map((name) => (
-                          <li key={name} className="text-xs text-slate-400">
+                          <li key={name} className="text-[15px] text-[var(--color-ink-soft)]">
                             {name}
                           </li>
                         ))}
@@ -340,7 +343,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
                 </div>
               </div>
             ) : chain ? (
-              <p className="mt-4 border-t border-slate-800 pt-3 text-xs text-slate-500">
+              <p className="mt-5 border-t border-[var(--color-hairline)] pt-4 caption text-[var(--color-ink-mute)]">
                 No prerequisites recorded. This is a foundational skill.
               </p>
             ) : null}

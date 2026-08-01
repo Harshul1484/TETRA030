@@ -1,0 +1,284 @@
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Applications
+BCA(Bachelor of Computer Applications)
+Elective
+Year III BCA1523 Mobile Application Development Credits / Hours per week 04
+Year of Introduction:2012
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Lecture, Power-point presentation,
+Mode of Transaction
+practical demonstration
+Course Outcome (CO)
+CO1 To understand different mobile operating systems.
+CO2 Develop applications using Android operating system
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Developing for mobile devices 15 25 1,2 CO1 PSO1
+Mobile operating systems, Android – Introduction the Development
+Framework, Android development tools; application manifest, Using
+Intents to launch activities, Intent filters and their use. Android
+application lifecycle. Android Studio Debugging, Activities and
+Intents, Activity Life Cycle,App Testing
+2 Creating User Interfaces
+Views, Layouts, Drawable resources, Resolution and density
+PSO2
+independence, Creating and Using menus. User 15 25 1,2,4 CO2
+PSO4
+Navigation, Displaying and managing
+dialogs. User Navigation, RecyclerView ,CardView, Material Design .
+3 Working in the Background
+Creating map based activity.
+Creating and registering services, interacting with a service, binding
+PSO2
+activities to services; Using background threads, Notifications and 15 25 1,2,4 CO2
+PSO4
+alarms. AsyncTask and Asynctask Loader. Using Job Scheduler.
+Connecting to the Internet, Broadcast Receivers
+4 Saving User Data
+Using Shared Preferences, File Storage, App Settings PSO2
+15 25 1,2,4 CO2
+,Introduction to SQlite Database , Room LiveData and View Model PSO4
+Reference Books
+1. https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/index.html
+2. Codelabs for Android Developer Fundamentals
+3. Developer.android.com
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: BCA (Web Application Development)
+Programme Specific Outcome(PSO)
+PSO 1 . To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO 2. To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn Computer hardware with microprocessor architecture .
+PSO 6 Learning Database management system along with designing ,query processing and managing databases using application programs.
+PSO 7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 8 Generating solutions in societal and environmental contexts.
+PSO 9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+Syllabus of Courses
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Applications
+BCA(Bachelor of Computer Applications)
+Core
+Year III BCA1523 Mobile Application Development Credits / Hours per week 04
+Year of Introduction:2012
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Lecture, Power-point presentation,
+Mode of Transaction
+practical demonstration
+Course Outcome (CO)
+CO1 To understand different mobile operating systems.
+CO2 Develop applications using Android operating system
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Developing for mobile devices 15 25 1,2 CO1 PSO1
+Mobile operating systems, Android – Introduction the Development
+Framework, Android development tools; application manifest, Using
+Intents to launch activities, Intent filters and their use. Android
+application lifecycle. Android Studio Debugging, Activities and
+Intents, Activity Life Cycle,App Testing
+2 Creating User Interfaces
+Views, Layouts, Drawable resources, Resolution and density
+PSO2
+independence, Creating and Using menus. User 15 25 1,2,4 CO2
+PSO4
+Navigation, Displaying and managing
+dialogs. User Navigation, RecyclerView ,CardView, Material Design .
+3 Working in the Background
+Creating map based activity.
+Creating and registering services, interacting with a service, binding
+PSO2
+activities to services; Using background threads, Notifications and 15 25 1,2,4 CO2
+PSO4
+alarms. AsyncTask and Asynctask Loader. Using Job Scheduler.
+Connecting to the Internet, Broadcast Receivers
+4 Saving User Data
+Using Shared Preferences, File Storage, App Settings PSO2
+15 25 1,2,4 CO2
+,Introduction to SQlite Database , Room LiveData and View Model PSO4
+Reference Books
+1. https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/index.html
+2. Codelabs for Android Developer Fundamentals
+3. Developer.android.com
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: B.C.A: Regular Programme
+Programme Specific Outcome(PSO)
+PSO 1 . To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO 2. To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn Computer hardware with microprocessor architecture .
+PSO 6 Learning Database management system along with designing ,query processing and managing databases using application programs.
+PSO 6 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 7 Generating solutions in societal and environmental contexts.
+PSO 8 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 9 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Applications
+B.C.A: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04
+BCA1517 Multimedia Programming
+Year of Introduction: 2007
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCA1517
+CO1 Learn problem-solving skills
+CO2 You will able to analyze, design and implement solutions in multimedia.
+CO3 Learn 2D and 3D Graphics
+CO4 You will get to know various projection techniques
+CO5 Learn Flash and other multimedia animation tools.
+Unit Topic/Unit Contact Weightage BT CO PSO Elements of Relevance Relation
+No. Hours (%) Level Employability to Local to Gender
+(Emp)/ (L)/ (G),
+Entrepreneursh National Environm
+ip (Ent)/ Skill (N)/ ent and
+Development Regional(R Sustainabi
+(SD) )/Global lity (ES),
+(G) Human
+developme Values
+ntal needs (HV)and
+Profession
+al Ethics
+(PE)
+1
+Multimedia:
+Concepts of hypertext/ hypermedia, Applications of multimedia;
+Enabling technology – digital representations, hardware, software,
+networks.Bitmapped Images: resolution, compression – lossy and
+lossless, JPEG compression. Image manipulation, Color models –
+RGB and CMYK. CO1,
+CO2,
+12 20 1,2,3 PSO1
+Video: digitizing video, video standards, video compression – CO3
+Motion JPEG and DV, MPEG video; Streamed video.
+Sound: The nature of sound, digitizing sound, compression, file
+formats, MIDI
+3D graphics fundamentals: 3D effects – perspective, color and
+shading, light and shading, texture mapping, etc; common uses of
+3D graphics.
+2
+3D programming principles:
+Immediate mode and retained mode , coordinate systems – CO1,
+12 20 1,2,3 CO2, PSO1
+coordinate clipping, view ports; Projections – orthographic
+CO3
+projections, perspective projections.
+Introduction to OpenGL, OPENGL implementations, OpenGL
+rendering pipeline, OpenGL Utility toolkit: GLUT.
+Data types, naming conventions, graphics calls; Drawing
+geometric objects – points, lines, and polygons; State management.
+Viewing: camera analogy, viewing and modeling transformations,
+projection transformations, viewport transformation; Using display
+lists – creating and executing a display list, executing multiple
+display lists; Using colors in OpenGL, Adding light, lighting
+effects.
+Real time programming: Windows animation techniques, using
+frames.
+3
+Introduction to 3ds max, understanding view ports:
+View port navigation controls, configuring view ports, working
+with view port backgrounds.
+Working with scene files, importing and exporting from other
+formats, referencing external objects – Using Xref Scenes, Using
+Xref objects.
+PSO1
+Creating primitive objects – standard primitives like Box, Sphere, CO1, PSO2
+12 20 1,2,3,6 CO2, PSO4
+Cylinder etc., extended primitives; setting object properties.
+CO4 PSO7
+Cloning objects, creating object arrays, grouping objects, linking PSO8
+objects, and using schematic views.
+Transforming objects- translating, rotating, and scaling,
+transformation tools, using pivot points, using align commands,
+using grids.
+Understanding modifiers, using the modifier stack, modifier types,
+parametric deformer modifiers, free form deformer modifiers.
+4
+Modeling basics:
+Modeling types- parametric objects, editable objects, subobjects,
+using modeling helpers. Drawing and editing 2D splines and
+shapes, creating and editing polynomial objects, creating NURBS
+curves and surfaces.
+PSO1
+Understanding material properties, creating simple materials using
+PSO3
+material editor, shading types, using material maps. CO1,
+12 20 1,2,3,6 PSO6
+CO2
+Working with cameras, camera properties; basic lighting PSO7
+techniques, animation- time controls, animating cameras, PSO9
+animation modifiers.
+Introducing MaxScript, MaxScript tools, variables and data types,
+program flow, collections and arrays, writing functions in
+MaxScript.
+5 Flash: Introduction, logging onto server, basic Macintosh
+skills, Working in Flash, Drawing with Flash, Basic PSO1
+animation, Working in the timeline, Working with symbols, CO1, PSO3
+Shape tween, staggering animation effect, Animation Review, 12 20 1,3,5,6 CO4, PSO6
+Break apart and distribute, CO5 PSO7
+Intro to Motion Guide, Motion Guide Paths, Mask layers, PSO9
+Button Intro, Intro to scripting
+Reference Books
+1. Murdock Kelly L. (2004): 3ds Max 6 Bible, Wiley dreamtech India Pvt Ltd
+2. Woo et al. (2000): OpenGL Programming guide, 3e, Addison Wesley
+3. Mukherjee D. P. (1999): Fundamentals of Computer Graphics and Multimedia, PHI
+4.
+Jeff Burger (1993): Desktop multimedia bible, Addison Wesley
+5. Macromedia Flash mx express- By Leon cych
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4.Analysis 5.Evaluation 6. Creation
+Programme Name: B.C.A
+Programme Specific Outcome (PSO)
+PSO1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics, statistics, management and allied areas.
+PSO4 Learn web and mobile application development skills.
+PSO5 Learn Computer hardware with microprocessor architecture.
+PSO6 Learning Database management system along with designing, query processing and managing databases using application programs.
+PSO7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO8 Generating solutions in societal and environmental contexts.
+PSO9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming, designing, analyzing network applications.

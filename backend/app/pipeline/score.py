@@ -69,11 +69,47 @@ def classify_severity(score: float) -> GapSeverity:
 # gaps still hurt but with sharply diminishing effect.
 HEALTH_FOCUS_COUNT = 5
 
+# How much of the health score comes from what the curriculum covers versus
+# how severe the remaining misses are. Weighted toward coverage because that
+# is the axis on which courses actually differ.
+COVERAGE_WEIGHT = 0.65
+
 # Each successive gap in the focus window counts less than the one before.
 RANK_DECAY = 0.55
 
 # How much the gaps outside the focus window contribute.
 TAIL_WEIGHT = 0.35
+
+
+def compute_alignment_score(
+    demand_covered: float, demand_total: float, gap_scores: list[float]
+) -> float:
+    """Share of demand in the course's own domain that it covers.
+
+    Two earlier attempts were wrong in instructive ways.
+
+    Counting gaps alone did not discriminate: every course in a programme
+    misses most of the job market, so eight very different courses landed in
+    a four-point band and the score read as a broken instrument.
+
+    Measuring against the whole market was arithmetically correct but
+    misleading. A single course covers three to twelve percent of total tech
+    demand, which is entirely normal, yet presenting that as "8 out of 100"
+    implies a failing grade. The denominator is now the demand within the
+    course's own subject area, so an artificial intelligence course is judged
+    on artificial intelligence demand rather than on Kubernetes.
+    """
+    if demand_total <= 0:
+        return 100.0
+
+    coverage_share = _clamp(demand_covered / demand_total)
+
+    # The unmet side still matters: covering 40 percent while the misses are
+    # all critical is worse than covering 40 percent with mild misses.
+    severity = compute_health_score(gap_scores) / 100.0
+
+    blended = COVERAGE_WEIGHT * coverage_share + (1.0 - COVERAGE_WEIGHT) * severity
+    return round(_clamp(blended) * 100.0, 1)
 
 
 def compute_health_score(gap_scores: list[float]) -> float:

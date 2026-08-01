@@ -57,8 +57,8 @@ export function AugmentPanel({ courseCode }: { courseCode: string }) {
 
   if (!proposal) {
     return (
-      <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-6 text-center">
-        <p className="mx-auto max-w-lg text-sm text-slate-400">
+      <div className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-canvas-soft)] p-8 text-center">
+        <p className="mx-auto max-w-lg text-[15px] leading-relaxed text-[var(--color-ink-secondary)]">
           Generate targeted additions that close the gaps above without
           redesigning the course. Proposals extend existing units and cite the
           market evidence behind each change.
@@ -67,18 +67,18 @@ export function AugmentPanel({ courseCode }: { courseCode: string }) {
           type="button"
           onClick={generate}
           disabled={loading}
-          className="mt-4 rounded-lg border border-sky-500/40 bg-sky-500/10 px-5 py-2.5 text-sm font-medium text-sky-300 transition-colors hover:bg-sky-500/20 disabled:cursor-not-allowed disabled:opacity-60"
+          className="mt-5 inline-flex min-h-[40px] items-center rounded-full bg-[var(--color-primary)] px-4 py-2 text-[16px] font-normal text-white transition-colors hover:bg-[var(--color-primary-deep)] active:bg-[var(--color-primary-press)] disabled:cursor-not-allowed disabled:opacity-50"
         >
           {loading ? "Generating proposals..." : "Generate modifications"}
         </button>
         {loading ? (
-          <p className="mt-3 text-xs text-slate-500">
+          <p className="caption mt-3 text-[var(--color-ink-mute)]">
             Reading the gap report and the course subgraph. This takes a few
             seconds.
           </p>
         ) : null}
         {error ? (
-          <p className="mt-3 text-xs text-rose-400">{error}</p>
+          <p className="caption mt-3 text-[var(--color-severity-critical)]">{error}</p>
         ) : null}
       </div>
     );
@@ -89,11 +89,11 @@ export function AugmentPanel({ courseCode }: { courseCode: string }) {
   return (
     <div className="space-y-4">
       {empty ? (
-        <div className="rounded-xl border border-amber-500/30 bg-amber-500/5 p-5">
-          <p className="text-sm text-amber-300">
+        <div className="rounded-[var(--radius-lg)] border border-[var(--color-severity-high)]/25 bg-[var(--color-canvas-cream)] p-6">
+          <p className="heading-sm text-[var(--color-severity-high)]">
             No proposals were generated.
           </p>
-          <p className="mt-1 text-sm text-slate-400">{proposal.rationale}</p>
+          <p className="mt-2 text-[15px] text-[var(--color-ink-secondary)]">{proposal.rationale}</p>
         </div>
       ) : (
         <>
@@ -104,21 +104,21 @@ export function AugmentPanel({ courseCode }: { courseCode: string }) {
               return (
                 <div
                   key={section.key}
-                  className="rounded-xl border border-emerald-500/20 bg-emerald-500/[0.03] p-5"
+                  className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] p-6"
                 >
-                  <h3 className="text-sm font-semibold text-slate-100">
+                  <h3 className="heading-sm text-[var(--color-ink)]">
                     {section.title}
                   </h3>
-                  <p className="mt-0.5 text-xs text-slate-500">{section.hint}</p>
-                  <ul className="mt-3 space-y-2.5">
+                  <p className="caption mt-1 text-[var(--color-ink-mute)]">{section.hint}</p>
+                  <ul className="mt-4 space-y-3">
                     {items.map((item, index) => (
                       <li
                         key={index}
-                        className="flex gap-2.5 text-sm leading-relaxed text-slate-300"
+                        className="flex gap-3 text-[15px] leading-relaxed text-[var(--color-ink-secondary)]"
                       >
                         <span
                           aria-hidden
-                          className="mt-0.5 shrink-0 font-mono text-xs text-emerald-500"
+                          className="mt-0.5 shrink-0 font-mono text-[13px] text-[var(--color-positive)]"
                         >
                           +
                         </span>
@@ -131,11 +131,11 @@ export function AugmentPanel({ courseCode }: { courseCode: string }) {
             })}
           </div>
 
-          <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-5">
-            <h3 className="text-sm font-semibold text-slate-100">
+          <div className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-canvas-soft)] p-6">
+            <h3 className="heading-sm text-[var(--color-ink)]">
               Rationale for the curriculum committee
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-slate-400">
+            <p className="mt-3 text-[15px] leading-relaxed text-[var(--color-ink-secondary)]">
               {proposal.rationale}
             </p>
           </div>
@@ -146,7 +146,7 @@ export function AugmentPanel({ courseCode }: { courseCode: string }) {
         type="button"
         onClick={generate}
         disabled={loading}
-        className="text-xs text-slate-500 transition-colors hover:text-slate-300 disabled:opacity-60"
+        className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)] disabled:opacity-50"
       >
         {loading ? "Regenerating..." : "Regenerate"}
       </button>

@@ -49,6 +49,7 @@ class SkillGap(BaseModel):
     """One missing or under-covered skill, with the evidence supporting it."""
 
     canonical_skill: str
+    category: str = "general"
     severity: GapSeverity
     market_demand: float = Field(ge=0.0, le=1.0)
     curriculum_coverage: float = Field(ge=0.0, le=1.0)
@@ -60,11 +61,23 @@ class SkillGap(BaseModel):
 
 
 class GapReport(BaseModel):
-    """Stage 5 output."""
+    """Stage 5 output.
+
+    `health_score` is the share of market demand *within this course's own
+    subject area* that the syllabus covers, not a share of the whole tech
+    market. A single course covers only three to twelve percent of total
+    market demand, which is normal, so scoring against the whole market
+    produced numbers that were arithmetically right and completely
+    misleading.
+
+    `scored_against` names the subject areas used as the denominator, so the
+    number can be interpreted rather than taken on faith.
+    """
 
     course_code: str
     course_title: str
     health_score: float = Field(ge=0.0, le=100.0)
+    scored_against: list[str] = Field(default_factory=list)
     gaps: list[SkillGap]
 
 

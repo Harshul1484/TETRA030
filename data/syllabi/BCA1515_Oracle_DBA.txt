@@ -1,0 +1,301 @@
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty of Science Academic Year 2021-22
+Department of Computer Application
+BCA: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04
+BCA1515: Oracle DBA
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:2019
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCA1515
+CO1. Establish and in depth understanding of Database Administration using the DBMS interfaces.
+CO 2. Apply the Relational Database Model to understand the Logical and Physical aspects of the DBMS architecture.
+CO 3. Understand the functions of the Oracle Database Server and Oracle Database Client.
+CO4. Management of database files.
+CO 5. Understand and apply the Data Dictionary.
+CO 6. Understand and apply database statistics in relation to performance and integrity of the database.
+CO 7. Understand the concepts of Backup and Recovery Procedures.
+Unit Topic/Unit Conta Weightage BT CO PSO Element Relevan Relation
+No. ct (%) Level s of ce to to
+Hour Employa Local Gender
+s bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1 Tasks of a database administrator, types of DBA.
+Creating the Database Environment - Defining DBMS Strategy,
+Choosing a DBMS, DBMS Architectures, Hardware
+Requirements, DBMS Upgrade Strategy; Database Standards and
+Procedures, Naming Conventions.
+A quick review of data modeling and normalization, review of CO1, PS02,P
+1,2, 3,4,
+database design performance design, Denormalization- prejoined 18 30% CO2, S03,PS
+6
+tables, report tables, mirror tables, split tables, combined tables CO3 04
+Data Availability - Cost of Downtime, different types of
+availability Problems Recovery Issues, Ensuring availability;
+Database Backup and Recovery, Designing backup strategy;
+Recovery Options, Types of Recovery; database Replication;
+Disaster Planning.
+2 Database Storage Management, Database Performance
+Management.
+System Performance, Database Performance and Application
+Performance.
+Metadata Management - Types of Metadata, Repositories and Data PS02,P
+CO4,
+Dictionaries. 18 30% 1,2,4,5,6 S03,PS
+CO5
+Database Change Management: Types of Changes, Impact of 04
+Change on Database Structures.
+Database Security - Granting and Revoking Authority, Types of
+Privileges, Security Reporting, Stored Procedures for Security,
+Auditing.
+3 Oracle Databse 11g architecture - Database Structures, Processes,
+Memory structures,Oracle data dictionary; Installation of Oracle,
+Creating a database. PS02,P
+CO4,
+Managing Tablespaces, Schema management, Transaction 12 20% 1,2,3,6 S03,PS
+CO5
+Management 04
+Oracle Networking and Database Connectivity.
+User management, Controlling database access, Auditing database
+usage.
+4 Loading and transforming data, importing and exporting data,
+Backing up databases – recovery manager, enhanced data
+protection for disaster recovery. PS01,P
+Managing and monitoring the operational database – types of CO6, S02,PS
+12 20% 1,4,5,6
+performance statistics, The management advisory framework. CO7 03,PS0
+Oracle performance tuning, optimizing query processing, SQL 4,PS05
+performance tuning tools, the SQL tuning advisor; Tuning the
+instance.
+Reference Books
+1.
+Mullins (2002): Database Administration: The Complete Guide to Practices and Procedures, Addison-Wesley Professional.
+2.
+Sam R. Alapati (2009): Expert Oracle Database 11g Administration, Apress
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4.Analysis 5.Evaluation 6. Creation
+Programme Name: BCA
+Programme Specific Outcome(PSO)
+PSO 1 . To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO 2. To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn Computer hardware with microprocessor architecture .
+PSO 6 Learning Database management system along with designing ,query processing and managing databases using application programs.
+PSO 7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 8 Generating solutions in societal and environmental contexts.
+PSO 9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty Of Science Academic Year 2021-22
+Department of Computer Application
+BCA: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04Cr/60Hr
+CA534 : SQL server DBA
+Year of Introduction: 2010
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) CA534
+CO1Overview of SQL Server Management Studio and Transact-SQL language
+CO2 Master writing simple and complex queries that retrieve data from the database
+CO3 Calculate information across result sets using aggregate queries (sum, min, max,avg, etc.)
+CO4 Insert, update, and delete data
+CO5 Retrieve data from tables
+CO6 Joins, Sub-queries
+CO7 Working with Data Types, Procedure and Functions
+CO8 Ensure the integrity of multiple, related database updates by using transactions
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1
+Tasks of a database administrator, types of DBA.
+Creating the Database Environment - Defining DBMS Strategy,
+Choosing a DBMS, DBMS Architectures, Hardware
+Requirements, DBMS Upgrade Strategy; Database Standards
+and Procedures, Naming Conventions.
+A quick review of data modeling and normalization, review of
+PSO1,P
+database design performance design, Denormalization-
+15 22% 1,2 CO1 SO3PS
+prejoined tables, report tables, mirror tables, split tables,
+O6
+combined tables
+Data Availability - Cost of Downtime, different types of
+availability Problems Recovery Issues, Ensuring availability;
+Database Backup and Recovery, Designing backup strategy;
+Recovery Options, Types of Recovery; database Replication;
+Disaster Planning.
+2
+Database Storage Management, Database Performance
+Management.
+System Performance, Database Performance and Application
+Performance.
+Metadata Management - Types of Metadata, Repositories and PSO1,P
+CO2,
+Data Dictionaries. 15 28% 2,3 SO6,PS
+CO3
+O7
+Database Change Management: Types of Changes, Impact of
+Change on Database Structures. Database Security - Granting
+and Revoking Authority, Types of Privileges, Security
+Reporting, Stored Procedures for Security,
+Auditing.
+3
+SQL server system design and Architecture - I/O subsystem
+planning and RAID configuration, Capacity planning, Choosing
+storage system; SQL server Installation, Configuring SQL
+server on the network.
+CO4,
+15 28% 2,3,4
+CO5
+Creating databases and database snapshots, Creating tables,
+views, and indexes
+User and security management.
+4
+Back up fundamentals, backup strategy, restoring data; SQL
+server automatic recovery.
+Transaction and locking, SQL server memory allocation.
+PSO1,P
+SQL server disaster recovery solutions, failover clustering CO6,
+SO3,PS
+15 22% 4,5,6 CO7,
+O6,PS
+Performance tuning, database system tuning, SQL server CO8
+O7
+management studio, Database engine tuning; dynamic
+management views; SQL server hints for tuning queries.
+Scalability options – scaling up, scaling out
+Reference Books
+1. Mullins (2002): Database Administration: The Complete Guide to Practices and Procedures, Addison-Wesley Professional.
+2. Edward Whalen et al. (2007) Microsoft SQL Server 2005 Administrator's Companion, Microsoft Press
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: B.C.A: Regular Programme
+Programme Specific Outcome(PSO)
+PSO 1 . To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO 2. To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn Computer hardware with microprocessor architecture .
+PSO 6 Learning Database management system along with designing ,query processing and managing databases using application programs.
+PSO 6 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 7 Generating solutions in societal and environmental contexts.
+PSO 8 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 9 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty Technology and Engineering Academic Year 2021-22
+Department of Applied Physics
+B.C.A: Regular Programme
+Core / Elective / Foundation
+Year III Credits / Hours per week 04
+BCAXXXX :System Simulation
+Year of Introduction: 2007
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision: 2021
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCAXXXX
+CO1. Understand the concept of simulation, the fundamental logic, structure, Components, types of simulation models and discrete event simulation.
+CO2. Develop solutions for application problems using manual simulation and Time Advance algorithm on discrete event simulation.
+CO3. Understand the concepts of Statistical models and queuing models.
+CO4. Apply acceptance rejection technique and inverse transform technique to generate Random Variates and Random numbers using LCM.
+CO5. Understand the useful model of input data, absolute performance and estimation with respect to output analysis.
+CO6. Understand the model building, verification, calibration, validation of models and optimization.
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1
+Introduction to Modelling and Simulation :
+Nature of Simulation. Systems , Models and Simulation,
+CO1
+Continuous and Discrete Systems, system modelling, Components 15 25 1,2,3 PSO1
+of a simulation study, Introduction to Static and Dynamic System
+simulation , Application areas, Advantages ,Disadvantages and
+pitfalls of Simulation.
+2
+System Dynamics & Probability concepts in Simulation :
+Exponential growth and decay models, Generalization of growth
+models , Discrete and Continuous probability functions, Continuous 15 25 1,2,3 CO1 PSO1
+Uniformly Distributed Random Numbers, Generation of a Random
+numbers, Generating Discrete distributions, Non-Uniform
+Continuously Distributed Random Numbers, Rejection Method.
+3
+Simulation of Queuing Systems and Discrete System Simulation :
+Poisson arrival patterns, Exponential distribution, Service times, PSO1
+PSO2
+Normal Distribution Queuing Disciplines, Simulation of single and
+20 33 1,2,3,6 CO1 PSO4
+two server queue. Application of queuing theory in computer system.
+PSO7
+Discrete Events ,Generation of arrival patterns ,Simulation PSO8
+programming tasks , Gathering statistics, Measuring occupancy and
+Utilization , Recording Distributions and Transit times .
+4 PSO1
+Analysis of Simulation output :
+10 17 1,2,3,6 CO1 PSO3
+Sensitivity Analysis, Validation of Model Results PSO9
+Reference Books
+1. Discrete event system simulation, Jerry Banks and John S Carson.
+2. System Models by Geoffrey Gordon
+3. Mathematical Mmodeling by J. N. Kapoor
+4. System Simulation and Modeling, 1e Paperback – 1 January 2013. bySankar Sengupta
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: BCA
+Programme Specific Outcome(PSO)
+PSO 1 To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector
+PSO 2 To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn computer hardware with microprocessor architecture.
+PSO 6 Learning Database management system along with designing, query processing and managing databases using application programs.
+PSO 7 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 8 Generating solutions in societal and environmental contexts.
+PSO 9 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.

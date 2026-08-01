@@ -35,12 +35,12 @@ const STAGES = [
 
 export default function AboutPage() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-14">
       <section>
-        <h1 className="text-2xl font-semibold tracking-tight text-slate-100">
+        <h1 className="display-lg text-[var(--color-ink)]">
           How It Works
         </h1>
-        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-400">
+        <p className="body-lg mt-5 max-w-3xl text-[var(--color-ink-soft)]">
           Higher education curricula lag three to five years behind market
           demand, and institutions have no automated way to measure the drift.
           CurricuAlign maps course outcomes and live job postings onto one skill
@@ -55,14 +55,14 @@ export default function AboutPage() {
         <ol className="space-y-3">
           {STAGES.map((stage, index) => (
             <li key={stage.name} className="flex gap-4">
-              <span className="mt-0.5 font-mono text-xs text-slate-600">
+              <span className="tabular mt-0.5 text-[13px] text-[var(--color-ink-mute)]">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <div>
-                <p className="text-sm font-medium text-slate-200">
+                <p className="card-title text-[var(--color-ink)]">
                   {stage.name}
                 </p>
-                <p className="mt-0.5 text-sm leading-relaxed text-slate-400">
+                <p className="mt-1.5 text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
                   {stage.detail}
                 </p>
               </div>
@@ -71,14 +71,14 @@ export default function AboutPage() {
         </ol>
       </Card>
 
-      <Card>
+      <Card block="var(--color-block-periwinkle)">
         <SectionTitle>What makes this different</SectionTitle>
-        <p className="text-sm leading-relaxed text-slate-400">
+        <p className="text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
           Most curriculum tools compare word lists and report what is missing.
           This one records which skills are prerequisites for which, so it can
           answer a harder question: what would it cost to close the gap?
         </p>
-        <p className="mt-3 text-sm leading-relaxed text-slate-400">
+        <p className="mt-3 text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
           Adding Kubernetes to a course that already teaches Docker is one hop
           and cheap. Adding Retrieval Augmented Generation to a course covering
           none of Vector Databases, Large Language Models, Embeddings, or Deep
@@ -87,9 +87,9 @@ export default function AboutPage() {
         </p>
       </Card>
 
-      <Card>
+      <Card block="var(--color-block-orchid)">
         <SectionTitle>Honest limitations</SectionTitle>
-        <ul className="space-y-2.5 text-sm leading-relaxed text-slate-400">
+        <ul className="space-y-2.5 text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
           <li>
             Embeddings do not encode negation. The phrase &quot;finding patterns
             without labelled examples&quot; retrieves Supervised Learning rather
@@ -114,7 +114,7 @@ export default function AboutPage() {
         </ul>
       </Card>
 
-      <Card className="bg-slate-900/20">
+      <Card block="var(--color-block-butter)">
         <SectionTitle>Stack</SectionTitle>
         <dl className="grid gap-3 text-sm sm:grid-cols-2">
           {[
@@ -126,10 +126,10 @@ export default function AboutPage() {
             ["Job market data", "Arbeitnow and Remotive"],
           ].map(([term, detail]) => (
             <div key={term}>
-              <dt className="text-xs uppercase tracking-wider text-slate-500">
+              <dt className="micro-cap text-[var(--color-ink-mute)]">
                 {term}
               </dt>
-              <dd className="mt-0.5 text-slate-300">{detail}</dd>
+              <dd className="mt-1 text-[var(--color-ink)]">{detail}</dd>
             </div>
           ))}
         </dl>

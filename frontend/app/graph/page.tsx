@@ -1,5 +1,6 @@
 import { api, type GraphData } from "@/lib/api";
 import { SkillGraph } from "@/components/skill-graph";
+import { CATEGORY_BLOCKS } from "@/lib/theme";
 import { Card, ErrorPanel, SectionTitle, Stat } from "@/components/ui";
 
 export const dynamic = "force-dynamic";
@@ -17,39 +18,51 @@ export default async function GraphPage() {
   if (error || !data) return <ErrorPanel message={error ?? "No graph data"} />;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-12">
       <section>
-        <h1 className="text-2xl font-semibold tracking-tight text-slate-100">
+        <h1 className="display-lg text-[var(--color-ink)]">
           Skill Ontology Graph
         </h1>
-        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-400">
-          Skills ranked by market demand, joined by prerequisite edges. Green
-          nodes are taught by the curriculum; amber nodes are demanded by
-          employers but not covered. Node size reflects how many postings ask
-          for the skill.
+        <p className="mt-4 max-w-3xl text-[16px] leading-relaxed text-[var(--color-ink-secondary)]">
+          Skills ranked by market demand, joined by prerequisite edges. Node
+          colour is the skill category, matching the tags used throughout the
+          gap reports. A dark ring marks a skill the curriculum already
+          teaches; everything unringed is a gap. Node size is how many
+          postings ask for the skill.
         </p>
       </section>
 
-      <div className="grid gap-4 sm:grid-cols-4">
-        <Card>
-          <Stat label="Skills shown" value={data.summary.skills} />
-        </Card>
-        <Card>
-          <Stat label="Taught" value={data.summary.taught} />
-        </Card>
-        <Card>
-          <Stat label="Gaps" value={data.summary.gaps} />
-        </Card>
-        <Card>
-          <Stat label="Prerequisite edges" value={data.summary.edges} />
-        </Card>
+      <div className="grid gap-6 border-y border-[var(--color-hairline)] py-8 sm:grid-cols-4">
+        <Stat label="Skills shown" value={data.summary.skills} />
+        <Stat label="Taught" value={data.summary.taught} />
+        <Stat label="Gaps" value={data.summary.gaps} />
+        <Stat label="Prerequisite edges" value={data.summary.edges} />
       </div>
 
       <SkillGraph data={data} />
 
-      <Card className="bg-slate-900/20">
+      <div className="flex flex-wrap gap-2.5">
+        {Object.entries(CATEGORY_BLOCKS)
+          .filter(([key]) => data.nodes.some((node) => node.category === key))
+          .map(([key, block]) => (
+            <span
+              key={key}
+              className="micro-cap inline-flex items-center gap-1.5 rounded-[var(--radius-full)] px-3 py-1.5"
+              style={{ backgroundColor: block.bg }}
+            >
+              <span
+                aria-hidden
+                className="inline-block h-2 w-2 rounded-full"
+                style={{ backgroundColor: block.dot }}
+              />
+              {block.label}
+            </span>
+          ))}
+      </div>
+
+      <Card block="var(--color-block-sky)">
         <SectionTitle>Why this is a graph, not a table</SectionTitle>
-        <p className="text-sm leading-relaxed text-slate-400">
+        <p className="text-[15px] leading-relaxed text-[var(--color-ink-secondary)]">
           The edges are what make the analysis actionable. Knowing a curriculum
           is missing Retrieval Augmented Generation is only useful alongside
           what it would cost to teach: the graph resolves that to Large Language

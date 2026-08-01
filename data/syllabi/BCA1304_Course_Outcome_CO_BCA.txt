@@ -1,0 +1,94 @@
+Syllabus of Courses
+The Maharaja Sayajirao University of Baroda
+Faculty o Science Academic Year 2021-22
+Department of Computer Applications
+BCA: Regular Program
+Year III Theory of Computation Credits / Hours per week 04/60
+Year of Introduction: 2019
+Semester V Maximum Marks / Grade 100
+Year of Syllabus Revision:
+Mode of Transaction Lectures and Tutorials
+Course Outcome (CO) BCA 1304
+CO1 understand Finite autometa
+CO2 Types of languages and their grammer
+CO3 NP hard and NP complete
+CO4 Understand Turing machine
+Unit Topic/Unit Contact Weightage BT CO PSO Element Relevan Relation
+No. Hours (%) Level s of ce to to
+Employa Local Gender
+bility (L)/ (G),
+(Emp)/ National Environ
+Entrepre (N)/ ment and
+neurship Regional Sustaina
+(Ent)/ (R)/Glob bility
+Skill al (G) (ES),
+Develop develop Human
+ment mental Values
+(SD) needs (HV)and
+Professio
+nal
+Ethics
+(PE)
+1
+1. Motivation – Computability, Formulation of computational
+problems as membership in a suitable language, Introduction of
+Turing machines.
+PSO1,
+Deterministic Finite Automata, Non-deterministic Finite
+CO1, PSO2,
+Automata, Languages defined by DFA and NFA, Advantages of 20 30 2,3,4
+CO2 PSO3
+using NFA,
+Regular Expression – syntax and semantics, Regular Languages
+– representation of regular languages, Properties of Regular
+Languages.
+2
+Context Free Languages - Context Free Grammar, Pushdown
+Automata, Grammars And Equivalences, Properties of Context
+Free Languages, Deterministic Parsing.
+PSO1,
+CO1,
+10 20 2,3,4,5,6 PSO2,
+CO2
+Turing Machines- definition, example, acceptance by final state, PSO3
+instantaneous descriptions (ID), converting a DFA into an
+equivalent TM.
+Deterministic and Non-deterministic TMs and their
+3 CO1,
+equivalence, Equivalence of a Random Acces Memory machine PSO1,
+CO2,
+20 30 2,3,4,5,6 PSO2,
+and von Neumann computer and basic TM model; Decidable CO3,
+PSO3
+Problems and Recursive Languages. CO4
+4 Undecidability - Diagonalization And Halting Problem, More
+Undecidable Problems
+CO1,
+Recursive Functions.
+CO2,
+10 20 2,3,4,5,6 PSO3
+CO3,
+Complexity Theory- Time Complexity, Space Complexity, NP
+CO4
+completeness.
+Reference Books
+1. Patterson D. W. (1990) Introduction to Artificial Intelligence and Expert systems, Prentice Hall of India, New Delhi.
+2. Bratko, Ivan (1986): PROLOG: Programming for Artificial Intelligence, Addison-Wesley.
+3. Winston, P. T. (1977): Artificial Intelligence, Addison Wesley.
+Bloom’s Taxonomy Levels: 1. Remember 2. Understand 3. Application 4. Analysis 5. Evaluation 6. Creation
+Programme Name: B.C.A: Regular Programme
+Programme Specific Outcome(PSO)
+PSO 1 . To train students in focused emerging areas and result in development of skills as per the demands of career opportunities in the IT sector.
+PSO 2. To develop basic and advanced skills in programming of different languages and increasing their level of expertise through the specialization approach.
+PSO 3 Formulate, review and analyze complex technical problems reaching conclusions using principles of mathematics , statistics, management and allied areas.
+PSO 4 Learn web and mobile application development skills.
+PSO 5 Learn Computer hardware with microprocessor architecture .
+PSO 6 Learning Database management system along with designing ,query processing and managing databases using application programs.
+PSO 6 Develop software solutions to address problems across broad range of application domains through software engineering principles.
+PSO 7 Generating solutions in societal and environmental contexts.
+PSO 8 Communicate effectively on topics for being able to comprehend and write effective reports and design documentation, make effective presentations, and give and
+receive clear instructions.
+PSO 9 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming ,designing, analysing network applications.
+PSO10 Understand basic principles of data communication and networking with allied areas like intranet, internet and all communication resources with focus on
+programming, designing, analysing network applications.

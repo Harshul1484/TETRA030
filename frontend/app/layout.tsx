@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+// figmaSans is proprietary. Inter carries the same variable-weight range and
+// takes the negative display tracking well.
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+});
 
 export const metadata: Metadata = {
   title: "CurricuAlign AI",
@@ -14,8 +19,8 @@ export const metadata: Metadata = {
 
 const NAV = [
   { href: "/", label: "Dashboard" },
-  { href: "/graph", label: "Skill Graph" },
-  { href: "/about", label: "How It Works" },
+  { href: "/graph", label: "Skill graph" },
+  { href: "/about", label: "How it works" },
 ];
 
 export default function RootLayout({
@@ -23,40 +28,50 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-slate-950 text-slate-200 antialiased`}
-      >
-        <header className="border-b border-slate-800 bg-slate-900/60 backdrop-blur">
-          <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-8 gap-y-3 px-6 py-4">
-            <Link href="/" className="flex items-baseline gap-3">
-              <span className="text-lg font-semibold tracking-tight text-slate-100">
-                CurricuAlign AI
-              </span>
-              <span className="hidden text-xs text-slate-500 lg:inline">
-                Dynamic Syllabus and Industry Skill-Gap Synchronizer
+      <body className={`${inter.variable} min-h-screen antialiased`}>
+        <header className="sticky top-0 z-20 border-b border-[var(--color-hairline)] bg-[var(--color-surface)]/90 backdrop-blur">
+          <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-x-10 gap-y-3 px-6 py-5">
+            <Link href="/" className="flex items-center gap-2.5">
+              <span
+                aria-hidden
+                className="inline-block h-4 w-4 rounded-[5px]"
+                style={{ backgroundColor: "var(--color-block-periwinkle)" }}
+              />
+              <span className="text-[17px] font-semibold tracking-tight">
+                CurricuAlign
               </span>
             </Link>
-            <nav className="flex gap-6 text-sm">
+
+            <nav className="flex gap-7 text-[15px]">
               {NAV.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-slate-400 transition-colors hover:text-slate-100"
+                  className="text-[var(--color-ink-soft)] transition-colors hover:text-[var(--color-ink)]"
                 >
                   {item.label}
                 </Link>
               ))}
             </nav>
+
+            <span
+              className="micro-cap ml-auto hidden rounded-[var(--radius-full)] px-2.5 py-1 sm:inline-block"
+              style={{ backgroundColor: "var(--color-block-moss)" }}
+            >
+              TETRA030
+            </span>
           </div>
         </header>
 
-        <main className="mx-auto max-w-7xl px-6 py-8">{children}</main>
+        <main className="mx-auto max-w-[1180px] px-6 py-14">{children}</main>
 
-        <footer className="mt-16 border-t border-slate-800 px-6 py-6">
-          <p className="mx-auto max-w-7xl text-xs leading-relaxed text-slate-500">
-            TETRA030 | TetraTHON 2026, Track D | Job market data from Arbeitnow
-            and Remotive
-          </p>
+        <footer className="mt-24 border-t border-[var(--color-hairline)]">
+          <div className="mx-auto max-w-[1180px] px-6 py-10">
+            <p className="caption text-[var(--color-ink-mute)]">
+              TETRA030 | TetraTHON 2026, Track D | Job market data from
+              Arbeitnow and Remotive
+            </p>
+          </div>
         </footer>
       </body>
     </html>

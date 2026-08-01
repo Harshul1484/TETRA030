@@ -219,6 +219,16 @@ export interface components {
         /**
          * GapReport
          * @description Stage 5 output.
+         *
+         *     `health_score` is the share of market demand *within this course's own
+         *     subject area* that the syllabus covers, not a share of the whole tech
+         *     market. A single course covers only three to twelve percent of total
+         *     market demand, which is normal, so scoring against the whole market
+         *     produced numbers that were arithmetically right and completely
+         *     misleading.
+         *
+         *     `scored_against` names the subject areas used as the denominator, so the
+         *     number can be interpreted rather than taken on faith.
          */
         GapReport: {
             /** Course Code */
@@ -227,6 +237,8 @@ export interface components {
             course_title: string;
             /** Health Score */
             health_score: number;
+            /** Scored Against */
+            scored_against?: string[];
             /** Gaps */
             gaps: components["schemas"]["SkillGap"][];
         };
@@ -247,6 +259,11 @@ export interface components {
         SkillGap: {
             /** Canonical Skill */
             canonical_skill: string;
+            /**
+             * Category
+             * @default general
+             */
+            category: string;
             severity: components["schemas"]["GapSeverity"];
             /** Market Demand */
             market_demand: number;

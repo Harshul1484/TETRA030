@@ -27,7 +27,7 @@ export default async function CoursePage({
   if (error || !report) {
     return (
       <div className="space-y-4">
-        <Link href="/" className="text-sm text-slate-400 hover:text-slate-100">
+        <Link href="/" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
           Back to dashboard
         </Link>
         <ErrorPanel message={error ?? "Course not found"} />
@@ -42,45 +42,46 @@ export default async function CoursePage({
   const covered = report.gaps.filter((gap) => gap.curriculum_coverage > 0).length;
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-12">
       <div>
-        <Link href="/" className="text-sm text-slate-400 hover:text-slate-100">
+        <Link href="/" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
           Back to dashboard
         </Link>
-        <h1 className="mt-3 text-2xl font-semibold tracking-tight text-slate-100">
+        <h1 className="display-lg mt-4 text-[var(--color-ink)]">
           {report.course_title}
         </h1>
-        <p className="mt-1 font-mono text-xs text-slate-500">
+        <p className="tabular caption mt-1.5 text-[var(--color-ink-mute)]">
           {report.course_code}
         </p>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <Card>
-          <p className="text-xs uppercase tracking-wider text-slate-500">
-            Curriculum health
+      <div className="grid gap-6 border-y border-[var(--color-hairline)] py-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <p className="micro-cap text-[var(--color-ink-mute)]">
+            Domain alignment
           </p>
           <div className="mt-2">
             <HealthScore score={report.health_score} />
           </div>
-        </Card>
-        <Card>
-          <Stat label="Gaps identified" value={report.gaps.length} />
-        </Card>
-        <Card>
-          <Stat
+          <p className="caption mt-3 leading-relaxed text-[var(--color-ink-mute)]">
+            share of market demand in{" "}
+            {report.scored_against?.length
+              ? report.scored_against.join(" and ")
+              : "this field"}{" "}
+            that this syllabus covers
+          </p>
+        </div>
+        <Stat label="Gaps identified" value={report.gaps.length} />
+        <Stat
             label="Critical"
             value={critical}
             hint="high demand, no coverage"
           />
-        </Card>
-        <Card>
-          <Stat
+        <Stat
             label="Low-cost additions"
             value={reachable}
             hint="within two prerequisite hops"
           />
-        </Card>
       </div>
 
       <section>
@@ -98,7 +99,7 @@ export default async function CoursePage({
       </section>
 
       {covered > 0 ? (
-        <p className="text-xs text-slate-500">
+        <p className="caption text-[var(--color-ink-mute)]">
           {covered} of these skills already have partial coverage in the
           syllabus. They remain listed because market demand exceeds the depth
           currently taught.
