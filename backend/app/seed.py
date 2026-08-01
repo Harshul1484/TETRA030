@@ -74,7 +74,7 @@ def seed(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Seed the CurricuAlign database")
+    parser = argparse.ArgumentParser(description="Seed the Vedha database")
     parser.add_argument(
         "--jobs",
         type=int,

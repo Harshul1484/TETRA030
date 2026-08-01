@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CurricuAlign AI",
+  title: "Vedha",
   description:
     "Audits university syllabi against live job market data and proposes adoptable modifications.",
 };
@@ -41,7 +41,7 @@ export default function RootLayout({
                 style={{ backgroundColor: "var(--color-block-periwinkle)" }}
               />
               <span className="text-[17px] font-semibold tracking-tight">
-                CurricuAlign
+                Vedha
               </span>
             </Link>
 
