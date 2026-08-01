@@ -68,19 +68,33 @@ RETURN c.code AS code,
 ORDER BY c.code
 """
 
+# Taught skills are unioned in rather than filtered by demand rank. Ranking
+# purely by demand produced a view where nothing was taught: a course covers
+# SQL and Databases, but neither cracks the top thirty in a small corpus, so
+# the explorer showed only gaps and told no story.
 SUBGRAPH_QUERY = """
 MATCH (c:Course)-[:HAS_OUTCOME]->(:Outcome)-[:TEACHES]->(taught:Skill)
 WITH collect(DISTINCT taught.canonical_name) AS taught_names
 
-MATCH (j:JobPosting)-[r:REQUIRES]->(s:Skill)
-WITH taught_names, s, count(DISTINCT j) AS demand
-ORDER BY demand DESC
-LIMIT $skill_limit
+CALL (taught_names) {
+    MATCH (j:JobPosting)-[:REQUIRES]->(s:Skill)
+    WITH s, count(DISTINCT j) AS demand
+    ORDER BY demand DESC
+    LIMIT $skill_limit
+    RETURN s, demand
 
-RETURN s.canonical_name AS skill,
+    UNION
+
+    MATCH (s:Skill) WHERE s.canonical_name IN taught_names
+    OPTIONAL MATCH (j:JobPosting)-[:REQUIRES]->(s)
+    RETURN s, count(DISTINCT j) AS demand
+}
+
+RETURN DISTINCT s.canonical_name AS skill,
        s.category AS category,
        demand,
        s.canonical_name IN taught_names AS is_taught
+ORDER BY demand DESC
 """
 
 SUBGRAPH_EDGES_QUERY = """
