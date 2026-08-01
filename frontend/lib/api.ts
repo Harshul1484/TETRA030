@@ -56,6 +56,31 @@ export interface MarketSummary {
   latest: string | null;
 }
 
+
+export interface RoadmapSkill {
+  skill: string;
+  category: string;
+  severity: string;
+  postings_requiring: number;
+  postings_total: number;
+  already_taught: string[];
+  covered_by_plan: string[];
+  outside_plan: string[];
+}
+
+export interface RoadmapStage {
+  stage: number;
+  skills: RoadmapSkill[];
+}
+
+export interface Roadmap {
+  course_code: string;
+  course_title?: string;
+  stages: RoadmapStage[];
+  total_skills: number;
+  stage_count: number;
+}
+
 export interface PrerequisiteChain {
   skill: string;
   total_prerequisites: number;
@@ -127,6 +152,11 @@ export const api = {
 
   gaps: (courseCode: string) =>
     request<GapReport>(`/api/courses/${encodeURIComponent(courseCode)}/gaps`),
+
+  roadmap: (courseCode: string) =>
+    request<Roadmap>(
+      `/api/courses/${encodeURIComponent(courseCode)}/roadmap`,
+    ),
 
   augment: (courseCode: string) =>
     request<AugmentProposal>(

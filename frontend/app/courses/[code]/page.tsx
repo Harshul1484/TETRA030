@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { api, type GapReport } from "@/lib/api";
 import { AugmentPanel } from "@/components/augment-panel";
+import { RoadmapPanel } from "@/components/roadmap";
 import { GapList } from "@/components/gap-list";
 import { Card, ErrorPanel, HealthScore, SectionTitle, Stat } from "@/components/ui";
 
@@ -89,6 +90,13 @@ export default async function CoursePage({
           Skill gaps
         </SectionTitle>
         <GapList gaps={report.gaps} />
+      </section>
+
+      <section>
+        <SectionTitle hint="Ordered by prerequisite dependency, so nothing is scheduled before the groundwork it needs. Derived from the graph, not from the syllabus text.">
+          Teaching sequence
+        </SectionTitle>
+        <RoadmapPanel courseCode={report.course_code} />
       </section>
 
       <section>

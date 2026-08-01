@@ -7,6 +7,7 @@ from fastapi import APIRouter, HTTPException
 from app.api.deps import get_augmenter, get_pipeline
 from app.contracts import AugmentProposal, GapReport
 from app.db.queries import fetch_courses, fetch_prerequisite_chain
+from app.pipeline.roadmap import build_roadmap
 
 logger = logging.getLogger(__name__)
 
@@ -86,6 +87,21 @@ def skill_prerequisites(skill: str) -> dict:
             for hop, names in sorted(by_hop.items())
         ],
     }
+
+
+@router.get("/courses/{course_code}/roadmap")
+def course_roadmap(course_code: str) -> dict:
+    """A teaching sequence, ordered by prerequisite dependency.
+
+    The gap report says what is missing. This says what to do about it and in
+    what order, because some gaps cannot be taught until others are in place.
+    Nothing here is course-specific: the sequence comes from the graph, so an
+    uploaded syllabus is treated exactly like a seeded one.
+    """
+    report = course_gaps(course_code)
+    plan = build_roadmap(course_code, report.gaps)
+    plan["course_title"] = report.course_title
+    return plan
 
 
 @router.post("/augment/{course_code}", response_model=AugmentProposal)
