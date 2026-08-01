@@ -50,17 +50,14 @@ def test_evidence_reports_partial_coverage():
     assert "only 40%" in _build_evidence(10, 100, 0.4, 1)
 
 
-def test_evidence_flags_a_cheap_addition():
-    assert "low-cost addition" in _build_evidence(10, 100, 0.0, 1)
-
-
-def test_evidence_flags_an_unreachable_skill():
-    evidence = _build_evidence(10, 100, 0.0, UNREACHABLE_DISTANCE)
-    assert "no prerequisite path" in evidence
-
-
-def test_evidence_counts_prerequisite_hops():
-    assert "3 prerequisite hops" in _build_evidence(10, 100, 0.0, 3)
+def test_evidence_omits_reachability():
+    """The frontend renders reachability as its own colour-coded line.
+    Repeating it in the evidence string made every gap card read as if it
+    were saying the same thing twice."""
+    for distance in (1, 3, UNREACHABLE_DISTANCE):
+        evidence = _build_evidence(10, 100, 0.0, distance)
+        assert "prerequisite" not in evidence
+        assert "postings require this" in evidence
 
 
 def test_report_ranks_technical_skills_above_soft_skills():

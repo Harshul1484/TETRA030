@@ -7,3 +7,13 @@ node_modules/
 data/chroma/
 data/llm_cache/
 *.log
+
+# Frontend
+/frontend/.next/
+/frontend/node_modules/
+/frontend/.env.local
+/frontend/next-env.d.ts
+
+# Generated at runtime
+/data/chroma/
+/data/llm_cache/
