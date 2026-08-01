@@ -170,13 +170,9 @@ def _build_evidence(
     else:
         parts.append(f"current coverage is only {coverage:.0%}")
 
-    if distance >= UNREACHABLE_DISTANCE:
-        parts.append("no prerequisite path from what this course already teaches")
-    elif distance <= 1:
-        parts.append("adjacent to existing content, so a low-cost addition")
-    else:
-        parts.append(f"{distance} prerequisite hops from existing content")
-
+    # Reachability is deliberately absent here. The frontend renders it as its
+    # own colour-coded line, and stating it twice made every gap card read as
+    # if it were repeating itself.
     return "; ".join(parts)
 
 
