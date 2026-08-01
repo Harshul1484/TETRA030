@@ -8,7 +8,9 @@ Higher education curricula lag three to five years behind market demand. Institu
 
 Vedha ingests real syllabi and real job postings, maps both onto a shared skill ontology in Neo4j, quantifies the gap with evidence, and generates syllabus modifications a professor can adopt without redesigning the course.
 
-![Dashboard](docs/screenshots/dashboard.png)
+![Vedha landing page](docs/screenshots/landing.png)
+
+*The panel on the right is a live API call, not an image. Those are real posting counts against a real syllabus.*
 
 ---
 
@@ -146,7 +148,9 @@ npm install
 npm run dev
 ```
 
-- Application: `http://localhost:3000`
+- Landing page: `http://localhost:3000`
+- Curriculum audit: `http://localhost:3000/dashboard`
+- Skill graph: `http://localhost:3000/graph`
 - API documentation: `http://localhost:8000/docs`
 - Neo4j Browser: `http://localhost:7474` (neo4j / curricualign)
 
