@@ -27,7 +27,7 @@ export default async function CoursePage({
   if (error || !report) {
     return (
       <div className="space-y-4">
-        <Link href="/" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
+        <Link href="/dashboard" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
           Back to dashboard
         </Link>
         <ErrorPanel message={error ?? "Course not found"} />
@@ -44,7 +44,7 @@ export default async function CoursePage({
   return (
     <div className="space-y-12">
       <div>
-        <Link href="/" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
+        <Link href="/dashboard" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
           Back to dashboard
         </Link>
         <h1 className="display-lg mt-4 text-[var(--color-ink)]">
