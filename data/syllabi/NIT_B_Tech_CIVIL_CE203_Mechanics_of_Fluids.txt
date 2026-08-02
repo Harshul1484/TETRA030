@@ -1,0 +1,39 @@
+CE203 Mechanics of Fluids - I 2 1 0 3
+CE203 MECHANICS OF FLUIDS – I
+Course objectives:
+To understand the properties of fluids and fluid statics
+To derive the equation of conservation of mass and its application
+To solve kinematic problems such as finding particle paths and stream lines
+To use important concepts of continuity equation, Bernoulli’s equation and turbulence, and
+apply the same to problems
+To analyze laminar and turbulent flows
+Course Content
+Continuum concept - CGS, MKS and SI systems - Properties of Fluids - Ideal and real fluid - Pressure
+at a point – pressure variation - pressure measurement
+5
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Hydrostatic forces on plane and curved surfaces - Buoyancy and equilibrium - Metacentric height and
+its determination-Types of flow - continuity equation for one, two and three dimensional flows - stream
+function and velocity potential - flow net and its properties
+Convective and local acceleration - Pressure, Kinetic and Datum energy - Bernoulli's theorem and
+proof - Euler's equations of motion for a three dimensional flow and along a streamline - Deduction
+of Bernoulli's theorem - Momentum equation - applications.
+Reynold's experiment - Laminar and turbulent flow - Reynold's number - critical flow - Navier-
+Stoke equations of motion - shear stress and pressure gradient - Laminar flow between parallel
+plates - Couette flow - Hagen Poiseuille equation for flow through circular pipes.
+Turbulence - semi empirical theories –Major losses - Darcy-Weisbach equation for flow through circular
+pipe - Friction factor - Smooth and rough pipes - Moody diagram - flow through noncircular pipe -
+Minor losses - pipes in series and parallel - Equivalent length - Introduction to water hammer
+phenomena.
+References
+1. Nagaratnam, S., Fluid Mechanics, Khanna Publishers, 1995.
+2. Natarajan, M.K. Principles of Fluid Mechanics, Oxford & IBH Publishing Co, 1994.
+3. Jagdish Lal, Hydraulics and Fluid Mechanics, Tata McGraw Hill, 2001.
+4. Streeter V.L., Fluid mechanics, Tata McGraw Hill, 1998.
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the properties of fluid and pressure and their measurement
+compute forces on immersed plane and curved plates
+apply continuity equation and energy equation in solving problems on flow through conduits
+compute the frictional loss in laminar and turbulent flows
+analyse flow between reservoirs

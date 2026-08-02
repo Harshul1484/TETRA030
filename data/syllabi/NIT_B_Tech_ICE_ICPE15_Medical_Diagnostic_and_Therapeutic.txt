@@ -1,0 +1,66 @@
+Course Code : ICPE15
+Course Title : Medical Diagnostic and Therapeutic
+Instrumentation
+Type of Course : PE
+Prerequisites : ICPE11
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To familiarise on patient monitoring systems and telemedicine
+CLO2 To understand medical imaging systems
+CLO3 To explain extracorporeal devices used in critical care
+CLO4 To educate the importance of patient safety against electrical hazard
+Course Content
+Patient monitoring systems, Intensive cardiac care, bedside and central monitoring systems -
+Infusion pumps, Central consoling controls. Patient monitoring through telemedicine.
+X ray machine, Computer tomography, ultrasonic imaging system, magnetic resonance
+imaging system, thermal imaging system, positron emission tomography.
+Cardiac Pacemaker, Defibrillator, Pneumotachometer, Thoracic pressure measurements,
+Heart lung machine - functioning of bubble, disc type and membrane type oxygenators, finger
+pump, roller pump, electronic monitoring of functional parameters. Types of Ventilators,
+Humidifiers, Nebulizers, Inhalators, Hemo Dialyser unit, Incubators.
+IR, UV lamp and LASER application, Short wave diathermy, ultrasonic diathermy, Microwave
+diathermy, Electro surgery machine - Current waveforms, Tissue Responses, Lithotripsy,
+Principles of Cryogenic technique and application, Endoscopy, Laparoscopy, Otoscopes,
+Audiometer, Tonometer
+Sources of electrical hazards and safety techniques, Built-in safety features for medical
+instruments, physiological effects of electricity, Patient ‘s electrical environment, Electrical
+safety codes and standards.
+References
+1. James E. Moore Jr., Biomedical Technology and Devices , 2nd Edition ,2014, CRC
+Press.
+2. John G. Webster, Medical Instrumentation Application and Design‖ , 5thedition, Wiley
+India Pvt Ltd, New Delhi,2020.
+3. John G. Webster, John W Clark, jr, Medical Instrumentation Application and Design,
+5th Edition, Wiley, 2020. (e book).
+4. Robert B. Northrop, Non-Invasive Instrumentation and Measurement in Medical
+Diagnosis , 2nd edition, CRC Press,. 2019.
+5. Joseph J.Carrand ,John M. Brown, ―Introduction to Biomedical Equipment
+Technology, 4th Edition,Pearson education,2000.
+6. Raghbir Singh Khandpur., Compendium of Biomedical Instrumentation, 3 Volume
+Set, 3rd Edition,Wiley India Pvt. Ltd, 2020
+7. Leslie Cromwell, Biomedical Instrumentation and Measurement‖, 2nd Edition,
+Prentice hall of India, New Delhi, 2015.
+8. L.A. Geddes and L.E. Baker, Principles of Applied Biomedical Instrumentation,
+John Wiley, New York, 3rd Edition, 1991.
+9. Khandpur R.S, Handbook of Biomedical Instrumentation‖, 3rd Edition, Tata McGraw-
+Hill, New Delhi, 2014.
+B.Tech. / Instrumentation and Control Engineering 99 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Familiar with patient monitoring equipment used in hospitals and in telemedicine.
+CO2 Familiar with various imaging techniques used for diagnosis.
+CO3 Explain the types of diathermy and its applications.
+CO4 Explain the importance of patient safety against electrical hazard
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 100 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,79 @@
+Course Code : ICPE49
+Course Title : Smart Materials and Systems
+Type of Course : PE
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To familiarize the students with the different smart materials and their
+characteristics.
+CLO2 To expose the students to understand the functionalities through the mathematical
+equations.
+CLO3 To teach the students about the significant features of smart materials in
+sensing, actuation and control.
+CLO4 To teach the students to design and develop smart structures using smart
+material-based actuators and sensors.
+Course Content
+Introduction to Smart Materials and Structures: smart materials for sensing and actuation, the
+role of Smart Materials in developing Intelligent Systems and Adaptive Structures.
+Piezoelectric Materials: constitutive relationship, electromechanical coupling coefficients,
+piezoelectric constants, piezoceramic materials, variation of coupling coefficients in hard and
+soft piezoceramics, polycrystalline vs single crystal piezoelectric materials, polyvinyldene
+fluoride, piezoelectric composites.
+Actuators and Sensor based on Piezoelectric Materials: Induced Strain actuation model,
+Unimorph and Bimorph Actuators, Actuators embedded in composite laminate, Impedance
+matching in actuator design, Feedback Control, Pulse Drive, Resonance Drive, Piezoelectric
+as a Sensor and its applications.
+Magnetostrictive Materials – constitutive relationship, magneto-mechanical coupling
+coefficients, Joule Effect, Villari Effect, Matteuci Effect, Wiedemann effect, Giant
+magnetostriction in Terfenol-D, Terfenol- D particulate composites, Galfenol and Metglas
+materials. Magnetostrictive Mini Actuators, Thermal instabilities, discretely distributed
+actuation, Manetostrictive Composites. Magnetostrictive Sensors
+Shape Memory Alloys (SMA) – Phase Transformations, Basic Material Behavior and
+Modelling Issues, A Comprehensive Model for Uniaxial Stress, Properties of SMAs for
+Biomedical Applications Shape Memory Alloy based actuators for Shape Control. Electro-
+active Polymers (EAP): Electro-active Polymers for Work-Volume Generation, EAP as
+actuator and sensor. Electro-Rheological (ER) fluids, Magneto- Rheological (MR) fluids.
+Integration of Smart Sensors and Actuators to Smart Structures – Optimal Placement of
+Sensors and Actuators, Design of Controller for Smart Structure, Techniques of Self-Sensing
+using piezoelectric and SMA, SMA based encoders, micro robotics, micro devices. Case
+Studies to Advanced Smart Materials: Active Fiber Composites (AFC), Energy Harvesting
+Actuators and Energy Scavenging Sensors, Self- healing Smart Materials
+B.Tech. / Instrumentation and Control Engineering 167 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Mukesh V Gandhi, Brian S Thompson, Smart Materials and Structures, Chapman
+and Hall Publishers, 1st Edition, 1992.
+2. Mel Schwartz, Encyclopaedia of smart materials, John Wiley and Sons, 1st
+Edition,2002.
+3. Srinivasan A.V., Michael McFarland D., Smart Structures Analysis and Design,
+Cambridge University Press, 1st Edition, 2010.
+4. Culshaw B., Smart structures and Materials, Artech house, 1st Edition, 2004.
+5. Leo, D.J. Engineering Analysis of Smart Material Systems, John Wiley and sons, 1st
+Edition 2008.
+6. R.C. Smith, smart material systems: model development, frontiers in applied
+mathematics, SIAM, 2005.
+7. H. Janocha, Adaptronics and smart structures: Basics, Materials, Design, and
+Applications, springer, 2nd Edition, 2007.
+8. www.iop.org/sms
+9. http:jim.sagepub.com.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Acquire knowledge about the smart materials, their characteristics and design
+aspects.
+CO2 Design, model and control smart materials-based structures/systems, through
+simulation and experimentation.
+CO3 Choose appropriate smart materials for sensing and actuation.
+CO4 Analyze and design techniques, to offer solutions to industrial problems using smart
+materials.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 168 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

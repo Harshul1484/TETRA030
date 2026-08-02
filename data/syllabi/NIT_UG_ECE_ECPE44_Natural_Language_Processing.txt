@@ -1,0 +1,37 @@
+Course Code : ECPE44
+Course Title : Natural Language Processing
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : Elective
+COURSE LEARNING OBJECTIVE
+ Understand NLP tasks in syntax, semantics and pragmatics
+ Implement machine learning techniques used in NLP
+Introduction – Why NLP? NLP versus speech recognition- Applications-problem of
+ambiguity- role of machine learning in NLP- Basic neural networks for NLP
+Words – Morphology and Finite State transducers-Tokenization – Computational Phonology
+and Pronunciation Modelling
+Probabilistic models in NLP—Role of language models- Simple N-gram model – Evaluation:
+Perplexity and Word Error Rate. Parts of Speech Tagging- Hidden markov models–Viterbi
+algorithm, Maximum Entropy Markov model
+Semantic analysis - Lexical semantics and word-sense disambiguation. Compositional
+semantics. Semantic Role Labeling and Semantic Parsing
+Machine Translation- Statistical translation, word alignment, phrase-based translation, and
+synchronous grammars, evaluation.
+Reference Books
+1. Natural Language Processing, by Jacob Eisenstein, MIT Press.
+2. Speech and Language Processing by Daniel Jurafsky and James H. Martin
+3. Foundations of Statistical Natural Language processing by Manning C. D. and Schutze H.,
+First Edition, MIT Press, 1999
+4. Neural Network Methods for Natural Language Processing by Yoav Goldberg, Morgan &
+Claypool Publishers.
+COURSE OUTCOMES
+Students are able to
+CO1: Understand NLP and the role of machine learning in NLP
+CO2: Describe finite state transducer operations and pronunciation modelling in NLP
+CO3: Illustrate various probabilistic models in NLP.
+CO4: Study semantic analysis in NLP
+CO5: Learn various machine translation approaches and the different evaluation metrics.
+67 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

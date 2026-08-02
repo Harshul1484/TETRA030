@@ -1,0 +1,34 @@
+Course Code : ECPE53
+Course Title : Deep Learning
+Number of Credits : 3
+Course Type : Elective
+COURSE CONTENTS
+Machine learning, Introduction to Deep learning, McCulloch Pitts Neuron, Thresholding Logic,
+Perceptrons, Perceptron Learning Algorithm and Convergence, Multilayer Perceptrons (MLPs),
+Representation Power of MLPs, Sigmoid Neurons, Gradient Descent, Feedforward Neural Networks,
+Representation Power of Feedforward Neural Networks,
+Gradient Descent (GD), Momentum Based GD, Nesterov Accelerated GD, Stochastic GD, AdaGrad,
+RMSProp, Adam, Regularization, Bias Variance Tradeoff, L2 regularization, Early stopping, Dataset
+augmentation, Parameter sharing and tying, Injecting noise at input, Ensemble methods, Dropout.
+Greedy Layer wise Pre-training, activation functions, weight initialization methods, Batch
+Normalization, Convolutional Neural Networks, LeNet, AlexNet, ZF-Net, VGGNet, GoogLeNet,
+ResNet
+Recurrent Neural Networks, Backpropagation Through Time (BPTT), Vanishing and Exploding
+Gradients, Truncated BPTT, Gated Recurrent Units (GRUs), Long Short-Term Memory (LSTM)
+Cells, Solving the vanishing gradient problem with LSTMs
+Encoder Decoder Models, Attention Mechanism, Attention over images, Hierarchical Attention,
+Multi-headed Self Attention, Cross Attention, Autoencoders
+Books and References
+1. Ian Goodfellow and Yoshua Bengio and Aaron Courville. Deep Learning. An MIT Press book.
+2016.
+2. Charu C. Aggarwal. Neural Networks and Deep Learning: A Textbook. Springer. 2019.
+3. Dive into Deep Learning
+COURSE OUTCOMES
+1. Study the basic feedforward neural network and backpropagation algorithm
+2. Understanding the various regularization approached used in deep learning
+3. Understand the Convolutional neural networks
+4. Understand the recurrent neural networks
+5. Develop an intuition about attention and encoder decoder architecture
+76 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

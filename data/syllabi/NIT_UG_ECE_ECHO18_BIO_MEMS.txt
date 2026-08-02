@@ -1,0 +1,44 @@
+Course Code : ECHO18
+Course Title : BIO MEMS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objective
+ To train the students in the design aspects of Bio MEMS devices and Systems. To make the
+students aware of applications in various medical specialists especially the Comparison of
+conventions methods and Bio MEMS usage.
+Course content
+Introduction-The driving force behind Biomedical Applications-Biocompatibility-Reliability
+Considerations-Regularity Considerations-Organizations-Education of Bio MEMS-Silicon Micro
+fabrication-Soft Fabrication techniques
+Micro fluidic Principles- Introduction-Transport Processes- Electro kinetic Phenomena-Micro valves
+–Micro mixers- Micro-pumps.
+SENSOR PRINCIPLES and MICRO SENSORS: Introduction-Fabrication-Basic Sensors-Optical
+fibers- Piezo electricity and SAW devices-Electrochemical detection-Applications in Medicine
+MICRO ACTUATORS and DRUG DELIVERY: Introduction-Activation Methods-Micro actuators
+for Micro fluidics-equivalent circuit representation-Drug Delivery
+MICRO TOTAL ANALYSIS: Lab on Chip-Capillary Electrophoresis Arrays-cell, molecule and
+Particle Handling-Surface Modification-Microsphere-Cell based Bioassay Systems
+Detection and Measurement Methods-Emerging Bio MEMS Technology-Packaging, Power, Data
+and RF Safety-Biocompatibility, Standards
+Text Book
+1. S.S. Saliterman,” Fundamentals of Bio MEMS and Medical Micro devices”, Wiley
+Interscience, 2006.
+Reference Books
+1. A. Folch ,”Introduction to Bio MEMS”, CRC Press,2012
+2. G.A. Urban, “Bio MEMS”, Springer,2006
+3. W. wang, S.A. Soper,” Bio MEMS”, 2006.
+4. M. J. Madou, “Fundamental of Micro fabrication”,2002.
+5. G.T. A. Kovacs, “Micro machined Transducers Source book”, 1998.
+6. Recent literature in Bio MEMS.
+Course outcomes
+At the end of the course student will be able
+CO1: learn and realize the MEMS applications in Bio Medical Engineering
+CO2: understand the Micro fluidic Principles and study its applications.
+CO3: learn the applications of Sensors in Health Engineering.
+CO4: learn the principles of Micro Actuators and Drug Delivery system
+CO5: learn the principles and applications of Micro Total Analysis
+136 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

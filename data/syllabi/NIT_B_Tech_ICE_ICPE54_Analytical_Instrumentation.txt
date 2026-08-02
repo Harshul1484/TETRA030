@@ -1,0 +1,78 @@
+Course Code : ICPE54
+Course Title : Analytical Instrumentation
+Type of Course : PE
+Prerequisites : ICPC14, ICPC17
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To teach the students about the analysis of materials which is an important
+requirement of process control and quality control in industry
+CLO2 To expose the students to principles of various analytical methods.
+CLO3 To impart knowledge on various spectroscopic instruments used in the analysis of
+materials
+CLO4 To introduce the concept of analytical instruments used in drug and pharmaceutical
+lab
+CLO5 To introduce different analytical instruments used in environmental pollution
+monitoring
+Course Content
+Electromagnetic radiation and its interaction with matter – Beer's law – Spectral methods of
+analysis – Absorption spectroscopy – Radiation sources – Monochromators – Filters – Prisms
+– Diffraction gratings – Detectors – Choice of solvents. UV-Visible spectrometers – single-
+beam and double-beam instruments.
+Infrared spectrophotometer – IR sources – Cells – detectors – sample preparation. Analysis
+using Attenuated Total Reflectance (ATR). Atomic absorption spectrometry (AAS) –
+Wavelength choice – Sources – Cells – Detectors. Flame emission spectrometry. Atomic
+fluorescence spectrometry.
+X-ray spectroscopy – X-ray absorption methods – X-ray fluorescence methods – X-ray
+diffraction. Radioactive measurement – Units of radioactivity – Application of radio-nuclides
+in analysis – Radioactivity detectors. Nuclear magnetic Resonance (NMR) spectroscopy –
+Basic principles – Continuous-wave NMR spectrometer – Pulsed Fourier Transform NMR
+spectrometer – NMR applications.
+Sampling – Sample collection for gas, liquid, and solid analysis. pH measurement – Basic
+principles –Ion selective electrodes – Glass and reference electrodes – pH meter and its
+calibration. Electrical conductivity measurement – Measuring circuit – Water and steam purity
+measurement using electrical conductivity. Oxygen measurement – Paramagnetic oxygen
+analyzers – Ceramic electrode for high temperature oxygen measurement – Dissolved
+oxygen measurement.
+Flue gas analysis for pollution control – Measurement of CO, carbon di-oxide, NOX and SOX,
+dust and smoke measurement. Chromatography – Basic principles of liquid and gas
+chromatography – Column details – Detectors for chromatography – Thermal conductivity
+detector – Flame ionization detector – Flame photometric detector – Electron capture
+detector – Effect of temperature programming – High pressure liquid chromatography (HPLC)
+B.Tech. / Instrumentation and Control Engineering 177 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Braun, Robert D., Introduction to Instrumental Analysis, Pharma Book Syndicate,
+Hyderabad, 2nd Edition, 2012.
+2. Ewing, G.W., Instrumental Methods of Analysis, McGraw Hill, Singapore, 5th Edition,
+1992
+3. Jain, R.K., Mechanical and Industrial Measurements, Khanna Publishers, Delhi, 1999.
+4. Bela G. Liptak, Instrument Engineers' Handbook, Volume One: Process measurement
+and analysis, CRC Press, 4th Edition, 2003.
+5. Considine, D.M. Process/Industrial Instruments and Controls Handbook, McGraw Hill,
+Singapore, 4th Edition, 1993.
+6. Sherman, R.E. and Rhodes L.J., Analytical Instrumentation, ISA Press, New York,
+1996.
+7. Khandpur R.S, Handbook of Analytical Instruments, Tata McGraw Hills, 2nd Edn.2006
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Appreciate the relevance of material sampling and analysis in process control and
+quality control in industry.
+CO2 Understand the physical principles behind the various widely used analytical
+methods in the industry.
+CO3 Understand the important components and concepts of various spectroscopic
+instruments and instruments used in drug and pharmaceutical lab and pollution
+monitoring.
+CO4 Select an appropriate analytical instrument for an industrial requirement.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 - - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 - - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 - - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 - - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 178 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

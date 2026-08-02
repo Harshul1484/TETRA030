@@ -1,8 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-estimate bearing capacity using IS code methods
-design proper foundations for any kind of shallow foundation system
-estimate pile and pile group capacity for any kind of soil including group efficiency and
-negative friction
+CE210 Environmental Engineering - I 3 0 0 3
 CE210 ENVIRONMENTAL ENGINEERING - I
 Course objectives:
 To make the students conversant with sources and its demand of water
@@ -37,3 +33,4 @@ apply water distribution processes and operation and maintenance of water supply
 prepare basic process designs of water and wastewater treatment plants collect, reduce,
 analyze, and evaluate basic water quality data
 16
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.

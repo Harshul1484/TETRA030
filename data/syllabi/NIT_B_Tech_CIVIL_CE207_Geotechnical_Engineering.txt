@@ -1,0 +1,44 @@
+CE207 Geotechnical Engineering - I 3 0 0 3
+CE207 GEOTECHNICAL ENGINEERING - I
+Course objectives:
+To explain what Geotechnical Engineering is and how it is important to civil engineering
+To explain how three phase system is used in soil and how are soil properties estimated using
+three phase system
+To explain role of water in soil behavior and how soil stresses, permeability and quantity of
+seepage including flow net are estimated
+To determine shear parameters and stress changes in soil due to foundation loads
+To estimate the magnitude and time-rate of settlement due to consolidation
+Course Content
+Historical development of Soil Engineering - Origin and general types of soils - soil structure, clay
+minerals-Three phase system- Identification and Classification of soils
+7
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Soil water - capillary phenomena - concept of effective and neutral stresses - Permeability -
+determination of coefficient of permeability in the laboratory - Seepage flow - Head, gradient,
+pressure - steady state flow - two dimensional - flow net.
+Vertical stress distribution in soil - Boussinesq and Westergaard's equation - Newmark's influence
+chart - principle, construction and use - Equivalent point load and other approximate methods -
+pressure bulb. Compaction
+Shear strength - Mohr-Coulomb failure criterion - shear strength tests - Different drainage
+conditions - Shear properties of cohesionless and cohesive soils - Use of Mohr's circle - relationship
+between principal stresses and shear parameters.
+Compressibility and consolidation - Terzaghi's one dimensional consolidation theory - pressure
+void ratio relationship - preconsolidation pressure - Total settlement and time rate of settlement -
+coefficient of consolidation - curve fitting methods - Correction for construction time.
+References
+1. Gopal Ranjan and Rao, P. Basic and Applied Soil Mechanics, New Age International Pvt. Limited,
+New Delhi, 2002.
+2. Murthy, V.N.S., A text book of Soil Mechanics and Foundation Engineering, UBS Publishers
+Distributors Ltd., New Delhi, 1999
+3. Punmia, B.C. Soil Mechanics and Foundation Engineering, Laxmi Publications Pvt. Ltd., New Delhi,
+1995.
+4. Braja M. Das, Fundamentals of Geotechnical Engineering, Thomson Asia Pvt. Ltd., Singapore,
+2005.
+Course outcomes:
+On completion of the course, the students will be able to:
+carry out soil classification
+solve three phase system problems
+solve any practical problems related to soil stresses estimation, permeability and seepage
+including flow net diagram
+estimate the stresses under any system of foundation loads
+solve practical problems related to consolidation settlement and time rate of settlement

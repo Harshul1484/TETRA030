@@ -1,0 +1,69 @@
+Course Code : ICPE13
+Course Title : Digital Image Processing
+Type of Course : PE
+Prerequisites : ICPC13, ICPC24
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the fundamentals of image processing
+CLO2 To introduce to the concept of image restoration and reconstructions
+CLO3 To introduce the concepts of image segmentation and compressions
+CLO4 To impart knowledge on the design and realization of various image processing
+algorithms.
+Course Content
+Introduction and Digital Image Fundamentals:
+Introduction to image processing, origin, examples of fields, steps in image processing,
+components of image processing system, digital image fundamentals – elements of visual
+perception, light and electromagnetic spectrum, image sensing and acquisition, mathematical
+tools used in image processing.
+Intensity Transformations, Spatial Filtering and Filtering in frequency domain:
+Basics intensity transformation functions, histogram processing, fundamentals of spatial
+filtering, smoothing and sharpening spatial filtering, combinations of image enhancement
+method, filtering in the frequency domain – Fourier transform of sample functions, DFT of one
+variable, extension to two variables, properties of 2 D DFTs, selective filtering, realization of
+FDT, FFT, filter design aspects.
+Image Restoration and Reconstruction:
+Model of the image degradation / restoration process, noise models, restoration in the
+presence of noise only – spatial filtering, periodic noise reduction by frequency domain
+filtering, estimating the degradation functions, inverse filtering, image reconstruction from
+projections.
+Image Segmentation:
+Image segmentation - point, line and edge detection, Thresholding, Regions Based
+segmentation, segmentation using morphological watersheds, usage of motion in
+segmentation, edge linking and boundary detection, Hough transform, chain codes, boundary
+segments, skeletons, boundary descriptors, Fourier descriptors.
+Image Compression:
+Image compression - image compression - data redundancies elements of information,
+variable-length coding, predictive coding, transform coding, image compression standards,
+wavelets and multi-resolution processing - image pyramids, sub-band coding.
+Object Recognition and Case studies:
+Object Recognition- patterns and pattern classes, recognition based on decision – theoretic
+methods, structural methods, case studies – image analysis
+B.Tech. / Instrumentation and Control Engineering 95 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Gonzalez and Woods, Digital Image Processing, Pearson education, 4th Edition, 2017.
+2. Jain Anil K., Fundamentals of Digital Image Processing, Prentice Hall India, 4th Edition,
+1989.
+3. Milan Sonka, Vaclav Hlavav, Roger Boyle, Image Processing, Analysis and Machine
+Vision, Cengage Learning, 4td Edition, 2014.
+4. Rangaraj M. Rangayyan, Biomedical Image Analysis, CRC Press, 2005.
+5. Pratt W.K, Digital Image Processing, Wiley-Interscience, 4th Edition, 2007.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the importance of image processing
+CO2 Perform image restoration and reconstruction
+CO3 Perform image segmentation and compressions
+CO4 Design, realize and troubleshoot various algorithms for the case studies based on
+image processing
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 96 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,27 @@
+Introduction to IS875 part (3) – assessment of wind load – analysis and design of steel stacks -
+functional and structural requirements - self supporting and guyed stacks - base plate and anchor bolt
+Light gauge steel sections-types of cross section - Local and post buckling - Effective width concept-
+Compression and Flexural members.
+27
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Introduction to Plastic analysis – ductility – plastic bending of beams – stages of bending – shape factor
+– plastic hinge – load factor – failure mechanism - upper and lower bound theorems of plastic analysis
+– collapse load for beams and frames.
+Note: Assignments include the design and drawings of various steel structures.
+References
+1. Subramanian N, Design of Steel Structures, Oxford University Press, New Delhi 2008.
+2. Bhavikatti, S.S., Design of Steel Structures, I.K. International Publishing House Pvt. Ltd., New
+Delhi, 2010
+3. Krishnaraju.N, Structural Design and Drawing, University Press, Hyderabad, 2009.
+4. IS 800-2007, Code of practice for general construction in steel, Bureau of Indian Standards, New
+Delhi.
+5. IS875 Part (3) - 1987, Code of Practice for Design Loads (other than earthquake) for buildings and
+structures: Wind loads., Bureau of Indian Standards, New Delhi.
+6. SP6 (1)-1964, IS hand book for structural Engineers. Bureau of Indian Standards, New Delhi.
+Course outcomes:
+On completion of the course, the students will be able to:
+calculate shape factor and plastic moment capacity
+design eccentrically loaded compression members (Beam-Columns) and their base plates
+design welded plate girder and other components and Gantry girder
+carry out wind load calculations for tall structures and design of steel chimneys
+design light gauge steel sections

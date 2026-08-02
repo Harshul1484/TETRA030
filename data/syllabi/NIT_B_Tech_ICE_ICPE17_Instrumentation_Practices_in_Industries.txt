@@ -1,0 +1,61 @@
+Course Code : ICPE17
+Course Title : Instrumentation Practices in Industries
+Type of Course : PE
+Prerequisites : ICPC17
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to requirement of standards and calibration techniques,
+safety mechanisms in instruments used in process industries.
+CLO2 To impart knowledge about EMI and EMC problems in industrial measurements.
+CLO3 To make the students to draw the specification of the industrial instruments
+and prepare the instrumentation project documents
+Course Content
+Selection and Application: Selection and application of temperature, pressure, flow and level
+measuring instruments.
+Standards and Calibration: Introduction to standards and calibration, calibration of
+temperature, pressure and flow measuring devices. Introduction to ISO, IEC and API
+standards pertaining to temperature, pressure and flow instrumentation.
+EMI and EMC: Introduction, interference coupling mechanism, basics of circuit layout and
+grounding, concepts of interfaces, filtering and shielding.
+Safety: Introduction, electrical hazards, hazardous areas and classification, non-hazardous
+areas, enclosures-NEMA types, fuses and circuit breakers. Protection methods: Purging,
+explosion proofing and intrinsic safety.
+Specifications: Specification of instruments, preparation of project documentation, process
+flow sheet, instrument index sheet, instrument specifications sheet, panel drawing and
+specifications, instrument specifications. Project procedure, schedules, vendor drawing,
+tender documentation, selection of measurement method and control panels.
+References
+1. Noltingk B.E., Instrumentation Reference Book, Butterworth Heinemann, 2nd Edition,
+1995.
+2. Liptak B.G, Process Measurement and Analysis,CRC Press, 5thEdition, 2016.
+3. Andrew W.G, Applied Instrumentation in Process Industries – A survey, Vol I
+andVol II, Gulf Publishing Company, Houston, 2001
+4. Spitzer D. W., Industrial Flow measurement, ISA press, 3rd Edition, 2005
+5. Patranabis D., Principles of Industrial Instrumentation, Tata McGraw Hill Publishing
+Company Ltd, 3rd Edition, 2010.
+6. Lawrence D. Goettsche, Maintenance of Instruments and Systems, International
+society of automation, 2nd Edition, 2005.
+7. Henry W.Ott, Electromagnetic Compatibility Engineering, A John Wiley and Sons,
+INC., Publication, 2009.
+B.Tech. / Instrumentation and Control Engineering 103 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Select the appropriate instrument for a given process measurement problem.
+CO2 Classify the use of instruments in process industries according to the safety
+practices in industry.
+CO3 Prepare instruments specification and understand the procedure and process
+involved in project documentation.
+CO4 Understand and implement the safety standards and preventive action in industries
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - - 2 2 - 3 3 -
+CO2 3 3 3 3 3 - - - - 2 2 - 3 3 -
+CO3 3 3 3 3 3 - - - - 3 3 3 3 3 -
+CO4 3 3 3 3 3 - - - - 2 2 - 3 3 -
+B.Tech. / Instrumentation and Control Engineering 104 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

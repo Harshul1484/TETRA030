@@ -1,0 +1,52 @@
+Course Code : ECOE79
+Course Title : Hardware for Deep Learning
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : OE
+COURSE LEARNING OBJECTIVE
+To get an idea about deep learning and how to implement deep learning algorithms on FPGA
+COURSE CONTENT
+Introduction to Deep Learning: From AI to DL, Neural Network: Perceptrons, Back Propagation, Over-fitting,
+Regularization. Deep Networks: Definition, Motivation, Applications, Convolution Neural Network (CNN):
+Basic architecture, Activation functions, Pooling, Handling vanishing gradient problem, Dropout, Weight
+initialization methods, Batch Normalization. Training Neural networks, Additional CNN Components, Famous
+CNNs, Applications, Software libraries.
+Computing Convolutions: Mapping Matrix multiplication, Computational Transforms, Accelerator
+Architectures, Dataflow Taxonomy
+Reducing the Complexity: Light weight models, reducing precision, Aggressive Quantization, pruning & Deep
+compression.
+The Deep Learning Acceleration Landscape: parallelism in deep learning, Traditional programmable
+hardware, specialized deep learning hardware platforms, deep learning software stack, Specialized research
+ASICs.
+FPGAs for Deep Learning: Overview of hardware architectures for deep learning, Effective management of
+FPGA memory resources, optimizing algorithms and data representation for FPGA arithmetic resources,
+Integrating hardware and software.
+Text Books
+4. Ian Goodfellow, Yishuv Bengio and Aaron Courville, “Deep Learning.” MIT Press. 2016. ISBN: 978-
+0262035613. Available online for free at: http://www.deeplearningbook.org
+5. Vivienne Sze; Yu-Hsin Chen; Tien-Ju Yang; Joel S. Emer, “Efficient Processing of Deep Neural
+Networks” Morgan & Claypool Publishers, 1st Edition, 2020.
+6. Tushar Krishna, Hyoukjun Kwon, Angshuman Parashar, Michael Pellauer, and Ananda Samajdar,
+“Data Orchestration in Deep Learning Accelerators”, Morgan & Claypool Publishers, 1st Edition,
+2020.
+References
+7. Piotr Antonik, “Application of FPGA to Real‐Time Machine Learning”, Springer, 2018.
+8. Stanford C231n, 2017
+9. Sze, et al. https://eyeriss.mit.edu/ ISCA Tutorial 2019
+10. Sze, et al. “Efficient Processing of Deep Neural Networks: A Tutorial and Survey”, Proceedings of the
+IEEE, 2017
+11. Prof. Adam Teman https://www.eng.biu.ac.il/temanad/hardware-for-deep-learning/
+12. https://jameswhanlon.com/
+Course outcomes
+Students are able to
+CO1: Understand the context of convolutional neural networks and deep learning algorithms.
+CO2: Know how to use convolution in deep learning techniques.
+CO3: Understand the necessity and importance of light weight models with low complexity through specialized
+hardware architecture
+CO4: Know how to optimize hardware performance in deep neural network applications.
+CO5: Discuss, suggest and evaluate specialised hardware architectures to implement deep learning algorithms
+in FPGA and utilise deep learning concepts in resource constrained reliable systems.
+96 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

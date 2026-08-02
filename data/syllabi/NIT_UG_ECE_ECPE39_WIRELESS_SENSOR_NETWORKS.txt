@@ -1,0 +1,61 @@
+Course Code : ECPE39
+Course Title : WIRELESS SENSOR NETWORKS
+Number of Credits 3
+Prerequisites : ECPE10
+(Course code)
+Course Type : PE
+Course learning Objective
+ To overview the various design issues and challenges in the layered architecture of Wireless
+sensor networks
+Course content
+Motivation for a network of wireless sensor nodes-Definitions and background-challenges and
+constraints for wireless sensor networks-Applications. Node architecture-sensing subsystems,
+processing Subsystems, Communication interfaces, Prototypes.
+Physical layer- Introduction, wireless channel and communication fundamentals – frequency
+allocation, modulation and demodulation, wave propagation effects and noise, channels models,
+spread spectrum communication, packet transmission and synchronization, quality of wireless
+channels and measures for improvement, physical layer and transceiver design consideration in
+wireless sensor networks, Energy usage profile, choice of modulation, Power Management
+Data link layer- Fundamentals of wireless MAC protocols, Characteristics of MAC protocol in
+wireless sensor networks contention-based protocols, Contention free MAC protocols, Hybrid MAC
+protocols
+Network layer-routing metrics-Flooding and gossiping, Data centric routing, proactive routing on
+demand routing, hierarchical routing, Location based routing, QOS based routing. Data Aggregation
+– Various aggregation techniques.
+Case study-Target detection tracking, Habitat monitoring, Environmental disaster monitoring,
+Practical implementation issues, IEEE 802.15.4 low rate WPAN, Operating System Design Issues.
+Simulation tools.
+Text Books
+1. W. Dargie, C. Poellabauer, ”Fundamentals of Wireless sensor networks-Theory and
+Practice”, John Wiley & Sons Publication2010
+2. K. Sohraby, D.Minoli and T.Znati, “Wireless Sensor Network Technology- Protocols and
+Applications”, John Wiley & Sons, 2007.
+Reference Books
+1. F.Zhao, L.Guibas, “Wireless Sensor Networks: an information processing approach”,
+Elsevier publication, 2004.
+2. C.S.Raghavendra Krishna, M.Sivalingam and Taribznati, “Wireless Sensor
+Networks”, Springer publication, 2004.
+3. H. Karl, A.willig, “Protocol and Architecture for Wireless Sensor Networks”, John Wiley
+publication, Jan2006.
+4. K.Akkaya and M.Younis, “A Survey of routing protocols in wireless sensor networks”,
+Elsevier Adhoc Network Journal, Vol.3, no.3, pp. 325-349, 2005.
+5. Philip Levis, “TinyOS Programming”, 2006 –www.tinyos.net.
+6. I.F. Akyildiz, W. Su, Sankarasubramaniam, E. Cayirci, “Wireless sensor networks: a
+survey”, computer networks, Elsevier, 2002, 394 -422.
+7. Jamal N. Al-karaki, Ahmed E. Kamal, “Routing Techniques in Wireless sensor networks:
+A survey”, IEEE wireless communication, December 2004, 6 –28.
+8. Recent literature in Wireless Sensor Networks.
+61 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course outcomes
+At the end of the course student will be able
+CO1: analyze the challenges and constraints of wireless sensor network and its subsystems
+CO2: examine the physical layer specification, modulation and transceiver design
+considerations
+CO3: analyze the protocols used at the MAC layer and scheduling mechanisms
+CO4: compare and analyse the types of routing protocols and data aggregation techniques
+CO5: identify the application areas and practical implementation issues.
+62 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

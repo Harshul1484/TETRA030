@@ -1,0 +1,72 @@
+Course Code : ICPC25
+Course Title : Logic and Distributed Control Systems
+Type of Course : PC
+Prerequisites : ICPC16
+Contact Hours : 56 (4 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the importance of process automation techniques.
+CLO2 To impart knowledge in PLC based programming.
+CLO3 To introduce distributed control system and different communication protocols.
+CLO4 To have adequate information with respect to interfaces used in DCS
+Course Content
+Review of PC based control design for process automation: Functional Block diagram of
+Computer control of process - Mathematical representation – Sampling Consideration- Data
+Acquisition system and SCADA, Hybrid, Direct Digital Control System, Distributed Control
+System architecture and Comparison with respect to different performance attributes.
+Programmable logic controller (PLC) basics: Definition, overview of PLC systems, Block
+diagram of PLC. General PLC programming procedures: ON/OFF instruction, Timer
+instruction sets, Counter Instruction sets -Design, development and simulation of PLC
+programming using above instruction sets for simple applications.
+PLC Data manipulation instruction - Arithmetic and comparison instruction- Skip, Master
+Control Reset (MCR) and Zone Control Last state (ZCL) instruction – PID and other important
+instruction set. PLC Installation, troubleshooting and maintenance. Design of alarm and
+interlocks, networking of PLC – Case studies using above instruction sets.
+Distributed Control System: Local Control Unit (LCU) architecture - Comparison of different
+LCU architectures – LCU Process Interfacing Issues: - Block diagram, Overview of different
+LCU security design approaches, secure control output design, Manual and redundant backup
+designs.
+LCU communication Facilities - Communication system requirements – Architectural Issues –
+Operator Interfaces – Engineering Interfaces. Development of Field Control Unit (FCU)
+diagram for simple control applications.
+Introduction to Networking and components of Computer Networks – Industrial Data
+communication protocols - Introduction to HART and Field bus protocol. Interfacing Smart field
+devices (wired and wireless) with DCS controller. Introduction to Object Linking and
+Embedding (OLE) for Process Control -Automation in the cloud with case studies.
+References
+1. John W. Webb and Ronald A. Reis, Programmable Logic Controllers - Principles
+and Applications, Prentice Hall Inc., New Jersey, 5th Edition,2003
+2. Lukcas M.P Distributed Control Systems, Van Nostrand Reinhold Co., New York, 1986
+3. Frank D. Petruzella, Programmable Logic Controllers, McGraw Hill, New York, 6th
+Edition, 2023
+4. Deshpande P. Band Ash R.H., Elements of Process Control Applications, ISA Press,
+New York 1995
+5. Curtis D. Johnson, Process Control Instrumentation Technology, Pearson New
+International, 8th Edition, 2013
+B.Tech. / Instrumentation and Control Engineering 72 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+6. Krishna Kant, Computer-based Industrial Control, Prentice Hall, New Delhi, 2ndEdition,
+2011
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand various process automation technologies.
+CO2 Design and develop a PLC ladder programming for simple process applications.
+CO3 Apply different security design approaches, engineering and operator interface
+issues for designing of Distributed Control System.
+CO4 Describe the operation of latest communication technologies like HART and Field
+bus protocol.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 2 2 3 2 1 3 1 1 3 3 3 1
+CO2 3 3 3 3 3 2 2 1 3 2 2 3 3 3 1
+CO3 3 3 3 3 3 2 2 1 3 2 2 3 3 3 1
+CO4 3 2 2 2 2 1 1 1 2 1 1 3 3 2 1
+B.Tech. / Instrumentation and Control Engineering 73 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+ESSENTIAL PROGRAMME LABORATORY REQUIREMENT (LR)
+COURSES
+B.Tech. / Instrumentation and Control Engineering 74 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

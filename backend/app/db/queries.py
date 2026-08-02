@@ -120,11 +120,70 @@ ORDER BY hops, prerequisite
 """
 
 
+COURSE_CATEGORIES_QUERY = """
+MATCH (c:Course {code: $course_code})-[:HAS_OUTCOME]->(:Outcome)-[t:TEACHES]->(s:Skill)
+RETURN s.category AS category,
+       count(DISTINCT s) AS skills,
+       sum(t.confidence) AS weight
+ORDER BY weight DESC
+"""
+
+
 def fetch_course_gaps(course_code: str, limit: int = 40) -> list[dict]:
     with session() as s:
         return [
             dict(record)
             for record in s.run(GAP_QUERY, course_code=course_code, limit=limit)
+        ]
+
+
+DOMAIN_POSTINGS_QUERY = """
+MATCH (j:JobPosting)-[:REQUIRES]->(s:Skill)
+WHERE s.category IN $categories
+WITH j, collect(DISTINCT s.canonical_name) AS skills
+RETURN j.title AS title,
+       j.source AS source,
+       j.source_url AS url,
+       j.posted_date AS posted_date,
+       skills
+ORDER BY size(skills) DESC, j.posted_date DESC
+LIMIT $limit
+"""
+
+
+def fetch_domain_postings(categories: list[str], limit: int = 25) -> list[dict]:
+    """The postings behind a subject area's demand figures.
+
+    The audit reports how many postings back a course's field, which is a
+    number the reader has to take on trust unless the postings themselves can
+    be listed. This is what makes a thin-evidence verdict checkable rather
+    than merely asserted.
+    """
+    if not categories:
+        return []
+    with session() as s:
+        return [
+            dict(record)
+            for record in s.run(
+                DOMAIN_POSTINGS_QUERY, categories=categories, limit=limit
+            )
+        ]
+
+
+def fetch_course_categories(course_code: str) -> list[dict]:
+    """Subject areas of what a course teaches, straight from the graph.
+
+    Deliberately not derived from the gap query. That query only returns
+    skills the market also demands, so a discipline with little presence in
+    the corpus is invisible there: a steel design course teaching Structural
+    Analysis and Steel Structures showed no civil rows at all, because civil
+    postings are scarce, and was classified as a software course. What a
+    course teaches has to be read from the course, not from the market.
+    """
+    with session() as s:
+        return [
+            dict(record)
+            for record in s.run(COURSE_CATEGORIES_QUERY, course_code=course_code)
         ]
 
 

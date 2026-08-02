@@ -1,0 +1,43 @@
+Course Code : ECPE10
+Course Title : NETWORKS AND PROTOCOLS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course Learning Objectives
+ To get an understanding on the fundamentals of networks and issues involved.
+ To acquire an understanding on the set of rules and procedures that mediates the exchange of
+information between communicating devices.
+Course Content
+Network Components, Topologies, Network hardware and software, Network Models: OSI Model &
+TCP/IP Protocol stack, HTTP FTP, SMTP, POP, SNMP, DNS, Socket programming with TCP and
+UDP.
+Transport Layer services, UDP, TCP, SCTP, Principles of reliable data transfer, Flow control,
+Congestion Control, Quality of Service.
+Network Layer services, Datagram and Virtual circuit service, DHCP, IPV4, IPV6, ICMP, Unicast
+routing protocols: DV, LS and Path vector routing, Multicast routing.
+Data Link Layer services, Overview of Circuit and Packet switches, ARP, Data link control: HDLC
+& PPP, Multiple access protocols, Wireless LAN, Comparison wired and wireless LAN.
+Network security threats, Cryptography, Security in the Internet: IP Security & Firewalls, Multimedia:
+Streaming stored video/ audio, RTP, Network Troubleshooting.
+Text Books
+1. J.F.Kurose & K.W.Ross, “Computer Networking: A Top-Down Approach featuring the
+Internet”, Pearson, 5th edition, 2010.
+2. B.A. Forouzan,” Data Communications & Networking”, Tata McGraw- Hill, 4th edition,
+2006
+Reference Books
+1. W.Stallings, “Data & Computer Communications”, PHI, 9th edition, 2011.
+2. W.Stallings, “Cryptography & Network Security”, Pearson, 5th edition, 2011.
+3. A.S.Tanenbaum & D.J. Wetherall, “Computer Networks”, Pearson, 5th edition, 2014.
+4. Recent literature in Networks and Protocols.
+Course outcomes
+At the end of the course student will be able
+CO1: Compare and examine, OSI and TCP/IP protocol stacks
+CO2: Categorize services offered by all layers in TCP/IP protocol stack
+CO3: Analyze a network under congestion and propose solutions for reliable data transfer
+CO4: Examine the protocols operating at different layers of TCP/IP model
+CO5: Assess the cryptographic techniques.
+CO6: Manage a network and propose solutions under network security threats.
+32 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,42 @@
+Course Code : ECPE33
+Course Title : MICROWAVE INTEGRATED CIRCUIT DESIGN
+Number of Credits 3
+Prerequisites : ECPC16 & ECPC24
+(Course code)
+Course Type : PE
+Course learning Objective
+ To impart knowledge on basics of microwave electron beam devices and their applications
+in X band frequency.
+Course content
+Design and realization of power dividers, hybrids, directional couplers etc using strip lines and micro
+strip lines.
+Filter design; Kuroda identities. K and J inverters. Filter transformations. Realization using strip lines
+and micro strip lines.
+Transistor amplifiers; Power gain equations. Stability considerations. Analysis .Design using MICs.
+Transistor oscillator’s .Active devices for microwave oscillators. Three port S parameter
+characterization of transistors. Oscillation and stability conditions.
+Diode mixers .Mixer design. Single ended mixer. Balanced mixer .Image rejection mixer. Phase
+shifter design. PIN diode. Phase shifter.
+Text Books
+1. I.J.Bahl & Bhartia, Microwave Solid State Circuit Design, Wiley, 1987.
+2. G.D.Vendelin, Design of Amplifiers and Oscillators by the S Parameter Method, Wiley,
+1982.
+Reference Books
+1. Stripline-like Transmission Lines for Microwave Integrated Circuits - Bharathi Bhat, Shiban
+Koul, New Age International(P) Limited, Publishers, 2007
+2. Microwave Engineering ,David M Pozar, John Wiley & Sons,In International Student
+Edition
+3. T.C.Edwards, Foundations for Microstrip Circuit Design (2/e), Wiley, 1992.
+4. Recent literature in Microwave Integrated Circuit Design.
+Course outcomes
+At the end of the course student will be able
+CO1: the topics will make students design of the important and essential M.I.C components
+CO2: Filter is the most needed circuit for many applications and the unit will make the student
+confident in filter design
+CO3: All aspects and different parameters, design factors and properties will me made thorough
+CO4: One will be confident to handle any oscillator design
+CO5: The student will become familiar and confident in the design of Mixers, the other essential
+circuits.
+55 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

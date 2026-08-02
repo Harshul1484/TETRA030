@@ -1,0 +1,41 @@
+Course Code : ECHO16
+Course Title : APPLIED PHOTONICS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To prepare the students understand the fundamental principles of light-matter interaction
+and photonic band gap structures.
+ To enable the students appreciate the diverse applications of fiberopticsensors.
+Course content
+Introduction to photonics; optical waveguide theory; Interference of light waves -numerical
+techniques and simulation
+Photonic waveguide components Optical Modulators and Switches Electro-optics - Acousto-optics -
+Magneto-optics
+Photonic Band gap Structures: Concept of photonic crystal; band gap and band structures in 1D, 2D
+and 3D photonic crystal structures;
+Photo-refractive materials, non-linear optics, recent trends in bio and nano-photonics
+Optical fiber sensors - Sensing using optical fibers - Types:-Amplitude, Inter-ferometric,
+Wavelength, Polarimetric – Distributed Sensors
+Text Books
+1. A. Ghatak and K. Thyagarajan, “Introduction to Fiber Optics”, Cambridge University
+Press,2006.
+2. PochiYeh and AmnonYariv Photonics,” Optical Electronics in Modern
+Communications”,2007
+Reference Books
+1. F. T. S. Yu and S.Yin, “Fiber Optic Sensors”, Marcel Dekker, Inc2002
+st
+2. G. W. Hanson, “Fundamentals of Nanoelectronics “,Pearson Education, 1 edition,2008
+3. B. Saleh and M. Teich, “Fundamentals of Photonics”, Wiley & Sons, 2007
+4. Recent literature in Applied Photonics.
+Course outcomes
+At the end of the course student will be able
+CO1: understand the interference of light and optical waveguide theory.
+CO2: understand the significance of photonic band gap structures and their application
+CO3: analyze the different types of optical modulators.
+CO4: compare the merits and demerits of different types of fiber optic sensors.
+CO5: understand the application of nonlinear optics in bio and nano-photonics.
+134 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

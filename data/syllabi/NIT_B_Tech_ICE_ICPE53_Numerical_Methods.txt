@@ -1,0 +1,65 @@
+Course Code : ICPE53
+Course Title : Numerical Methods
+Type of Course : PE
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 Numerical methods for Solving Linear Systems
+CLO2 Numerical methods to solve equations of one variable as well as system of
+equations with two variables.
+CLO3 Interpolating Polynomials and best curve fitting methods for the given data.
+CLO4 Numerical differentiation and integration
+CLO5 Numerical solutions of Ordinary Differential Equations.
+Course Content
+Digital representation of numbers, Finite precision arithmetic, Machine Precision, Measuring
+errors, convergence of iterative sequences, Taylor series, Order Notation. Numerical Solution
+of (𝑥) = 0: Bisection method, Secant method, Newton’s method, Newton’s method for (𝑥,
+𝑦)=0, 𝑔 (𝑥, 𝑦) =0. Order of convergence.
+Solution of linear system of equations –Direct method: Gaussian elimination, Gauss-Jordan
+methods, LU Decomposition method-Crout’s method. Algorithm for tri-diagonal system,
+Iterative method: Jacobi and Gauss-Seidal’s method -Sufficient conditions for convergence -
+Eigen Value problems- Power method.
+Interpolation: Lagrange’s method, Newton’s divided difference, forward and backward
+difference interpolation method. Least squares fitting of a curve to data-Polynomial curve
+fitting, exponential curve (𝑦 = 𝑎𝑒bx ) fitting to data.
+Numerical Differentiation based on interpolation and finite difference. Numerical
+Integration-Closed and open type integration rules-Trapezoidal rule,
+Simpson’s1/3ruleand3/8 rule, mid-point and two-point rule. Adaptive integration based
+on Simpson’s 0rule. Gauss quadrature methods, Integrals with infinite limits 0∫ ∞ 𝑒 − (𝑥)𝑑𝑥).
+Numerical solution of ordinary differential equations: Taylor’s series method, Single step
+method- Euler’s method, Euler’s modified method, Fourth order Runge-Kutta method. Fourth
+order R-K method for simultaneous equations and 2nd order ODE. Multi step methods: Milne’s
+and Adams method.
+References
+1. Jain, M.K., Iyengar, S.R. and Jain, R.K., Numerical Methods for Scientific and
+Engineering Computation, New Age International, 2019.
+2. S.S. Sastry, Introductory methods of numerical Analysis, 4/e, Prentice Hall of India,
+New Delhi, 5th edition, 2012.
+3. David Kincaid and Ward Cheney, Numerical Analysis, 3rd edition, American
+Mathematics Society, (Indian edition) –2012.
+4. Gerald, C.F., and Wheatley, P.O., Applied Numerical Analysis, Addison-Wesley
+Publishing Company, 7th edition, 2007.
+5. G Dahlquist and A Bjorke, Numerical Methods in Scientific Computing, vol. 1
+SIAM,2008
+B.Tech. / Instrumentation and Control Engineering 175 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Compute numerical solution of given system by direct and iterative methods.
+CO2 Compute largest eigenvalue and its corresponding eigenvector of matrix A.
+CO3 Interpolate function and approximate the function by polynomia and compute
+differentiation and integration
+CO4 Compute numerical solution of ordinary differential equations by finite difference
+method.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 176 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

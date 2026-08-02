@@ -1,0 +1,47 @@
+Course Code : ECHO28
+Course Title : PHYSICAL DESIGN AUTOMATION
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objectives
+ Understand the concepts of Physical Design Process such as partitioning, Floor planning,
+Placement and Routing.
+ Discuss the concepts of design optimization algorithms and their application to physical design
+automation.
+ Understand the concepts of simulation and synthesis in VLSI Design Automation
+ Formulate CAD design problems using algorithmic methods
+Course content
+VLSI design automation tools- algorithms and system design. Structural and logic design. Transistor
+level design. Layout design. Verification methods. Design management tools.
+Layout compaction, placement and routing. Design rules, symbolic layout. Applications of
+compaction. Formulation methods. Algorithms for constrained graph compaction. Circuit
+representation. Wire length estimation. Placement algorithms. Partitioning algorithms.
+Floor planning and routing- floor planning concepts. Shape functions and floor planning sizing. Local
+routing. Area routing. Channel routing, global routing and its algorithms.
+Simulation and logic synthesis- gate level and switch level modeling and simulation. Introduction to
+combinational logic synthesis. ROBDD principles, implementation, construction and manipulation.
+Two level logic synthesis.
+High-level synthesis- hardware model for high level synthesis. Internal representation of input
+algorithms. Allocation, assignment and scheduling. Scheduling algorithms. Aspects of assignment.
+High level transformations.
+Text Books
+1. S.H. Gerez, “Algorithms for VLSI Design Automation”, JohnWiley, 1998.
+2. N.A.Sherwani, “Algorithms for VLSI Physical Design Automation”, (3/e),Kluwer, 1999.
+Reference Books
+1. S.M. Sait, H. Youssef, “VLSI Physical Design Automation”, World scientific,1999.
+2. M.Sarrafzadeh, “Introduction to VLSI Physical Design”, McGraw Hill (IE),1996.
+3. Recent literature in Physical Design Automation.
+Course outcomes
+At the end of the course student will be able
+CO1: know how to place the blocks and how to partition the blocks while for designing the
+layout for IC.
+CO2: solve the performance issues in circuit layout.
+CO3: analyze physical design problems and Employ appropriate automation algorithms for
+partitioning, floor planning, placement and routing
+CO4: decompose large mapping problem into pieces, including logic optimization with
+partitioning, placement and routing
+CO5: analyze circuits using both analytical and CAD tools
+147 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

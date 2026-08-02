@@ -1,0 +1,41 @@
+Course Code : ECPC24
+Course Title : RF AND MICROWAVE ENGINEERING
+Number of Credits 3
+Prerequisites : ECPC16
+(Course code)
+Course Type : PC
+Course Learning Objective
+ To impart knowledge on basics of microwave electron beam devices and their applications in X
+band frequency and introduces the essential Microwave Circuit Theory and the design aspects of
+Microwave Integrated Circuit components.
+Course Content
+Limitations of Conventional tubes, two cavity Klystron Amplifier, Velocity modulation and Bunching
+Process, Reflex klystron oscillator –Multi cavity Klystron-Travelling Wave Tube amplifier- Magnetron
+Working principle and modes of Operation.
+Two port Network theory- Scattering Matrix formulation- Passive microwave devices: E and H
+junction-hybrid junctions, terminations, bends, corners, attenuators, phase changers, directional
+couplers, Circulator, Isolator
+Transferred Electron and Avalanche Devices: Gunn Diode, read diode, IMPATT, TRAPATT
+and BARIT
+Design and Realization of MIC Components: Basics of Micro strip and Strip line – 3 dB Hybrid Design,
+Rat Race Coupler, Power Dividers
+Microwave Measurements: Introduction to microwave Bench Set-up, Frequency, Wavelength, VSWR
+and Impedance Measurement. Network Analyzer, Spectrum analyzer.
+Text Books
+1. I.J.Bahl & P.Bhartia, “Microwave Solid state Circuit Design”, Wiley, 2003.
+2. S.Y.Liao, “Microwave Devices and Circuits (3/e)”, PHI, 2005
+3. D.M.Pozar, “Microwave Engineering (2/e)”, Wiley, 2004.
+Reference Books
+1. A. Das, “Microwave Engineering”, Tata McGraw Hill, 2000
+2. B.Bhat, S. K. Koul,”Stripline like transmission lines for Microwave Integrated Circuits”, New
+age International Pvt.Ltd. Publishers 2007.
+Course outcomes
+At the end of the course student will be able
+CO1: Apply the basic knowledge of waveguide and microwave resonator circuits.
+CO2: Understand the methods used for generation and amplification of the microwave power.
+CO3: Distinguish between the linear and cross field electron beam microwave tubes.
+CO4: Learn the basics of S parameters and use them in describing the components
+CO5: Expose to the Microwave Measurements Principle
+31 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

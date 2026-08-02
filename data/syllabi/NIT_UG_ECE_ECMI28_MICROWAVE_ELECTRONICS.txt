@@ -1,0 +1,42 @@
+Course Code : ECMI28
+Course Title : MICROWAVE ELECTRONICS
+Number of Credits 3
+Prerequisites : ECMI24
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To impart knowledge on basics of microwave electron beam devices and their applications in X
+band frequency.
+Course Content
+Limitations of conventional vacuum tubes, Klystrons: Re-entrant cavities, Two cavity klystron,
+Velocity modulation process, Bunching process ,Power output and efficiency; Multi-cavity klystron ,
+Reflex klystron-Velocity modulation process, Mode Characteristics ,Electronic admittance spiral.
+Travelling-wave tubes: Slow-wave structures, Helix TWT- Amplification process, Convection current,
+Wave modes and gain; coupled cavity TWT, Backward wave oscillator.
+Crossed -field devices: Magnetrons- Principle of operation, characteristics, Hull cut-off condition;
+Carcinotron, Gyrotron.
+Microwave transistors and FETs: Microwave bipolar transistors-Physical structures, characteristics,
+Power-frequency limitations; Microwave tunnel diode, Microwave unipolar transistor – Physical
+structure, principle of operation, characteristics, High electron-mobility transistors.
+Transferred electron and Avalanche transit-time devices: Gunn diode, Gunn diode as an oscillator.
+IMPATT, TRAPATT and BARITT.
+Text Books
+1. S.Y.Liao, “Microwave Devices and Circuits (3/e)”, PHI, 2005.
+2. R. F. Soohoo, “Microwave Electronics”, Wesley publication, 1971.
+Reference Books
+1. R.E.Collin, “Foundations for Microwave Engineering (2/e)”, Wiley India, 2007.
+2. D.M.Pozar,” Microwave Engineering (3/e)”, Wiley India, 2009.
+3. K C Gupta, Indian Institute of Technology, Kanpur,” Microwaves”, Wiley Eastern Limited,
+1995.
+Course outcomes
+At the end of the course student will be able
+CO1: Apply the basic knowledge of waveguide and microwave resonator circuits.
+CO2: Asses the methods used for generation and amplification of the microwave power.
+CO3: Distinguish between the linear and cross field electron beam microwave tubes.
+CO4: Critically analyze the operating principles and performances of the microwave
+semiconductor devices.
+CO5: Identify the suitable microwave power sources of given specification for the selected
+application.
+120 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

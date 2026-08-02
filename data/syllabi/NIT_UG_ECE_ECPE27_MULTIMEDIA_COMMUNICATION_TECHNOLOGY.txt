@@ -1,0 +1,39 @@
+Course Code : ECPE27
+Course Title : MULTIMEDIA COMMUNICATION TECHNOLOGY
+Number of Credits 3
+Prerequisites : ECPC15
+(Course code)
+Course Type : PE
+Course learning Objective
+ To made the students to understand various encoding and decoding techniques of audios
+and videos in multimedia systems.
+Course content
+Components of multimedia system, Desirable features, Applications of multimedia systems,
+Introduction to different types, Multimedia storage device.
+Digital audio representation and processing-time domain and transform domain representations.
+Coding standards, transmission and processing of digital audio. Musical instrument synthesizers.
+Still image coding-JPEG. Discrete cosine Transform. Sequential and Progressive DCT based
+encoding algorithms, lossless coding, and hierarchical coding. Basic concepts of discrete wavelet
+transform coding and embedded image coding algorithms. Introduction to JPEG2000.
+Feature of MPEG 1, structure of encoding and decoding process, MPEG 2 enhancements, and
+different blocks of MPEG video encoder.
+Content based video coding-overview of MPEG 4 video, motion estimation and compensation.
+Different coding techniques and verification models. Block diagram of MPEG 4 video encoder and
+decoder. An overview of H261 and H263 video coding techniques.
+Text Books
+1. Y.Q.Shi & H.Sun, Image and Video Compression for Multimedia Engineering, CRC Press,
+2000.
+2. S.V.Raghavan & S,K,Tripathi, Networked Multimedia Systems, Prentice-Hall,1998.
+Reference Books
+1. J.F.K.Buford, Multimedia Systems, Pearson, 2000.
+2. Recent literature in Multimedia Communication Technology.
+Course outcomes
+At the end of the course student will be able
+CO1: analyze various components of the multimedia systems and its storage devices.
+CO2: appreciate the different coding standards for the digital audio and musical synthesizers.
+CO3: understand the various types of DCT based image encoding algorithms
+CO4: understand the encoding and decoding process of the MPEG standards
+CO5: analyze the different content based video processing techniques.
+48 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

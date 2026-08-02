@@ -72,12 +72,27 @@ class GapReport(BaseModel):
 
     `scored_against` names the subject areas used as the denominator, so the
     number can be interpreted rather than taken on faith.
+
+    `domain_postings` is how many postings in the corpus actually demand a
+    skill in that subject area. It is the denominator behind the denominator,
+    and it has to be reported: a civil engineering course compared against
+    three civil postings and one compared against three hundred produce
+    identically confident-looking output otherwise. When it falls below
+    `EVIDENCE_FLOOR` the report is marked `evidence_thin`, and the ranked
+    gaps below are demand from adjacent fields rather than this course's own.
     """
 
     course_code: str
     course_title: str
-    health_score: float = Field(ge=0.0, le=100.0)
+    # None where the evidence is too thin to score. A course whose subject
+    # area holds two postings, both of which it covers, computes to a perfect
+    # 100, which is arithmetically correct and useless. Withholding the number
+    # is the same decision as withholding the findings.
+    health_score: float | None = Field(default=None, ge=0.0, le=100.0)
     scored_against: list[str] = Field(default_factory=list)
+    domain_postings: int = 0
+    evidence_thin: bool = False
+    evidence_note: str | None = None
     gaps: list[SkillGap]
 
 

@@ -1,0 +1,45 @@
+Course Code : ECHO35
+Course Title : Photonic Integrated Circuits
+Number of Credits : 3
+Course Type : HO
+COURSE LEARNING OBJECTIVES
+ The photonic integrated circuits course will introduce the basics of integrated optical
+waveguides used in optical communication applications.
+ To introduce the concept reconfigurable architecture design in Photonic circuits
+ To understand and realize Application-Specific Photonic Integrated Circuits and devices
+for Classical Applications
+ This course also covers materials and fabrication technology for optical integrated circuits.
+COURSE CONTENT
+Brief history of optical communication, Advantages of integrated optics configuration, Guided TE
+and TM Modes of Symmetric and anti-symmetric planar waveguides: Step-index and graded-
+index waveguides. Strip and channel waveguides, Beam propagation method.
+Directional couplers, Applications as power splitters, Y-junction, optical switch; modulators,
+filters, A/D converters, Mode splitters, Mach-Zehnder interferometer based devices.
+Acousto-optic waveguide devices. Arrayed waveguide devices, Nano-photonic-devices:
+Metal/dielectric plasmonic waveguides, Surface Plasmon modes, applications in waveguide
+polarizers.
+Materials. Glass, lithium niobate, silicon, compound semiconductors. Fabrication of integrated
+optical waveguides and devices. Lithography, deposition.
+Waveguide characterisation, prism coupling, grating and tapered couplers, Nonlinear effects in
+integrated optical waveguides, Types and Applications.
+Text Books
+7. H Nishihara, M Haruna and T Suhara, Optical Integrated Circuits; McGraw-Hill
+Book Company, New York, 1989.
+8. C. R. Pollock and M Lipson, Integrated photonics, Kluwer Pub, 2003.
+9. José Capmany and Daniel Pérez, Photonic Integrated Circuits, Oxford Univversity Press, 2020
+Reference Books
+11. A Ghatak and K Thyagarajan, Optical Electronics, Cambridge University Press, 1989.
+12. T. Tamir, Guided wave opto-electronics, Springer Verilag, 1990
+13. K. Okamota, Fundamentals of Optical waveguides, Academic Press, 2006.
+14. T. Tamir, Integrated Optics, Springer Verlag, New York, 1982.
+15. Recent journals and conference proceedings.
+Course outcomes
+At the end of the course student will be able
+CO1: Summarize the fundamental concept of optical waveguides.
+CO2: Construct the different types of optical waveguides.
+CO3: Construct the couplers, modulators and devices for communication applications
+CO4: Summarize fabrication technologies for design of optical waveguides
+CO5: Describe the various nonlinear effects in integrated optical waveguides.
+155 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

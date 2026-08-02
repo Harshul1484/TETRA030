@@ -1,0 +1,63 @@
+Course Code : ICPE48
+Course Title : Energy Harvesting Techniques
+Type of Course : PE
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce basic energy harvesting techniques using smart materials and
+structures and combining with mechanisms.
+CLO2 To impart knowledge in the design of power converter circuits for ambient energy
+harvesters.
+CLO3 To introduce mathematical modelling of piezoelectric based energy harvesters.
+CLO4 To introduce on certain case studies.
+Course Content
+Energy Harvesting Basics, Analysis of ambient energy- Vibration, shock, wind, Thermal, RF,
+energy transducers- electromagnet, photovoltaic, piezoelectric and other smart materials-
+working principle, equivalent circuit models.
+Vibrational energy harvesting- Electromechanical Modelling of Cantilevered Piezoelectric
+Energy Harvester for Persistent Base Motion-lumped parameter model, correction factors,
+coupled distributed parameter model, modelling assumptions, closed form solution for
+unimorph and bimorph configuration, harvesting techniques for broadband excitation
+Piezoelectric energy harvesting circuits-low power rectifier circuits with resistive, linear and
+nonlinear reactive input impedance, piezoelectric pre-biasing, self-tuning, DC-DC switch mode
+converters, impedance matching circuits for maximum output power.
+Electromagnetic energy harvesting- Wire wound coil properties, micro fabricated coils,
+magnetic materials, scaling of electromagnetic vibration generators and damping, maximizing
+power from an EM generator, micro and macro scale implementation.
+Thermoelectric Energy harvesting- Harvesting Heat, thermoelectric theory, thermoelectric
+generators and its efficiency, matched thermal resistance, heat flux, design consideration,
+optimization for maximum output, matching thermoelectric to heat exchangers- thin film
+devices.
+Case study- harvester driven by muscle power, knee joint movement harvesting, etc.
+strategies to improve energy conversion efficiency for different ambient sources.
+References
+1. Shashank Priya and Daniel J. Inman, Energy Harvesting Technologies, Springer-
+Verlag New York, Inc., 1st Edition, 2010.
+2. Danick Briand, Eric Yeatman, and Shad Roundy, Micro energy Harvesting, Wiley-
+VCH Verlag GmbH and Co, 2015.
+3. Stephen Beeby, Neil white, Energy Harvesting for Autonomous Systems, Artech
+house, Norwwood,1st Edition ,2010.
+4. Alper Erturk and Daniel J Inman, Piezoelectric Energy Harvesting, John Wiley and
+Sons.Ltd.1stEdition ,2011.
+5. Tom J. Kazmiershi, Steve Beeby, Energy Harvesting System, Principles, Modelling
+and Application, springer, New York, 2014.
+B.Tech. / Instrumentation and Control Engineering 165 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Comprehend in the concept of various ambient energy harvesting techniques.
+CO2 Design optimal power converting circuits for different harvesters.
+CO3 Design vibration, electromagnetic and thermoelectric based energy harvesters.
+CO4 Apply the energy harvesting concepts to common engineering problems.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 166 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

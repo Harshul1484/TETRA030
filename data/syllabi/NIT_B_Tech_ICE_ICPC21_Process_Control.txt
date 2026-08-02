@@ -1,0 +1,77 @@
+Course Code : ICPC21
+Course Title : Process Control
+Type of Course : PC
+Prerequisites : ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the terminology and concepts associated with Process control domain.
+CLO2 To impart knowledge in the design of control systems and PID controller tuning for
+processes.
+CLO3 To familiarize the students with characteristics, selection, sizing of control valves.
+CLO4 To elaborate different types of control schemes such as cascade control, feed
+forward control and Model Based control schemes.
+Course Content
+Process Control System: Terms and objectives, piping and Instrumentation diagram,
+instrument terms and symbols. Regulatory and servo control, classification of variables.
+Process characteristics: Process equation, degrees of freedom, modeling of simple system,
+Self-regulating processes, interacting and non- interacting processes, Process lag, load
+disturbance and their effect on processes.
+Controller modes: Basic control action, two position, multi-position, floating control modes.
+Continuous controller modes: proportional, integral, derivative. Composite controller modes:
+P-I, P-D, P-I-D, Integral wind-up and prevention. Auto/Manual transfer, Bumpless transfer.
+Response of controllers for different test inputs. Selection of control modes for processes like
+level, pressure, temperature and flow.
+Final control elements: Pneumatic and electrical actuators, Valve positioners. Pneumatic and
+electrical dampers, Control valves types, construction details, various plug characteristics.
+Energy efficient valves - Valve sizing - selection of control valves. Inherent and installed valve
+characteristics. Fail-safe operation, Cavitation and flashing in control valves, Instrument air
+supply specifications.
+Controller tuning Methods: Evaluation criteria - IAE, ISE, ITAE. Process reaction curve
+method, continuous oscillation method, damped oscillation method. Auto tuning. Closed loop
+response of I and II order systems, with and without valve, measuring element dynamics.
+Advanced control system: Cascade control, ratio control, feed forward control. Over-ride, split
+range and selective control. Multivariable process control, interaction of control loops.
+Introduction to Dynamic Matrix Control. Case Studies: Distillation column, boiler drum level
+control and chemical reactor control.
+References
+1. G. Stephanopoulos, Chemical Process Control-An Introduction to Theory and
+Practice. Prentice Hall of India, New Delhi, 3rd Edition, 2008
+2. D.R. Coughanowr, Steven E LeBlanc, Process Systems Analysis and Control,
+McGraw Hill, Singapore, 3rd Edition,2009
+3. B.W. Bequette, Process Control Modeling, Design and Simulation. Prentice Hall
+of India, New Delhi, 2004
+4. William C. Dunn, Introduction to Instrumentation, Sensors, and Process Control,
+Artech House publishers, 2005
+B.Tech. / Instrumentation and Control Engineering 64 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+5. C.A. Smith and A.B Corripio., Principles and Practice of Automatic Process Control,
+John Wiley and Sons, New York, 3rd Edition2005
+6. Bela G. Liptak, Instrument Engineers' Handbook, Volume II: Process Control and
+Optimization, CRC Press, 4th Edition, 2005
+7. D.E. Seborg, T.E. Edgar, D.A. Mellichamp. Process Dynamics and Control, Wiley
+India Pvt. Ltd., Fourth Edition.2016
+8. Wolfgang Altmann, Practical Process Control for Engineers and Technicians ,
+Elsevier/Newnes publishing, 2009
+9. Donald P. Eckman, Automatic Process Control, Wiley India Pvt Ltd, 2009.
+10. Paul W. Murril, Fundamentals of Process Control Theory, ISA press, New York, 3rd
+Edition, 2000
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Build models of various processes using first principles approach, and perform the
+analysis.
+CO2 Design, tune and implement PID Controllers to achieve desired performance for
+various processes
+CO3 Analyze the systems and implement control schemes for various processes.
+CO4 Comprehend advanced process control strategies.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 2 3 3 1 1 1 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 3 3 2 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 2 2 2 2 2 2 2 3 3 2
+CO4 3 3 3 3 3 3 3 2 2 2 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 65 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

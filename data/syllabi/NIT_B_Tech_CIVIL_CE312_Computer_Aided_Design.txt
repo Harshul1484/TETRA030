@@ -1,0 +1,37 @@
+CE312 Computer Aided Design - I 0 0 3 2
+CE312 COMPUTER AIDED DESIGN – I
+Course objectives:
+To learn the programming of numerical methods
+To use the computer to apply numerical techniques
+To learn the fundamentals of Computer Aided Drafting
+To understand DBMS concepts
+To learn the handling of spreadsheets
+Course Content
+Application Programs
+a. Roots of an equation using Newton - Raphson method.
+b. Solution of linear simultaneous equations using Gauss elimination.
+c. Matrix inversion using Gauss Jordan method
+d. Linear regression line of given points
+e. Curve fitting using Polynomial Regression
+f. Eigen value extraction using Power method
+Standard packages to solve the above problems-Solution of Linear Programming problems using
+standard software-Basic 2D objects - line, polyline, circle, ellipse - editing objects - trim, break, change,
+stretch - dimensioning - preparation of plan, elevation and section drawings of simple structural objects
+- printing and plotting drawings - script files - introduction to 3D
+DBMS concepts - Civil Engineering Databases - Manipulation - Spreadsheet concepts - Worksheet
+calculations in Civil Engineering - Regression, Matrix Inversion, etc.
+29
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+References
+1. Chapra, S.C., and Canale R.P., Numerical Methods for Engineers, McGraw-Hill, 2004
+2. Rajasekaran, S., Numerical Methods in Science and Engineering A Practical Approach,
+A.H.Wheeler and Co, 2005.
+3. Ronald W., Leigh, AutoCAD: A Concise Guide to Commands and Features, Galgotia Publications,
+2004.
+Course outcomes:
+On completion of the course, the students will be able to:
+develop programs for numerical methods
+solve numerical techniques in computer
+implement Computer Aided Drafting
+apply DBMS concepts to Civil Engineering
+apply Spreadsheet calculations to Civil Engineering

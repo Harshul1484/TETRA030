@@ -5531,5 +5531,597 @@
       "Algorithms",
       "Concurrency"
     ]
+  },
+  {
+    "canonical_name": "Structural Analysis",
+    "category": "civil",
+    "aliases": [
+      "structural mechanics",
+      "analysis of structures",
+      "structural design"
+    ],
+    "prerequisites": [
+      "Engineering Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Engineering Mechanics",
+    "category": "civil",
+    "aliases": [
+      "statics and dynamics",
+      "applied mechanics",
+      "mechanics of solids"
+    ],
+    "prerequisites": [
+      "Calculus"
+    ]
+  },
+  {
+    "canonical_name": "Strength of Materials",
+    "category": "civil",
+    "aliases": [
+      "mechanics of materials",
+      "solid mechanics",
+      "som"
+    ],
+    "prerequisites": [
+      "Engineering Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Concrete Technology",
+    "category": "civil",
+    "aliases": [
+      "reinforced concrete",
+      "rcc design",
+      "concrete structures",
+      "prestressed concrete"
+    ],
+    "prerequisites": [
+      "Strength of Materials"
+    ]
+  },
+  {
+    "canonical_name": "Steel Structures",
+    "category": "civil",
+    "aliases": [
+      "steel design",
+      "structural steel",
+      "steel construction"
+    ],
+    "prerequisites": [
+      "Strength of Materials"
+    ]
+  },
+  {
+    "canonical_name": "Geotechnical Engineering",
+    "category": "civil",
+    "aliases": [
+      "soil mechanics",
+      "foundation engineering",
+      "geotechnics"
+    ],
+    "prerequisites": [
+      "Engineering Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Surveying",
+    "category": "civil",
+    "aliases": [
+      "land surveying",
+      "total station",
+      "levelling",
+      "geodesy",
+      "vermessung"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Transportation Engineering",
+    "category": "civil",
+    "aliases": [
+      "highway engineering",
+      "pavement design",
+      "traffic engineering"
+    ],
+    "prerequisites": [
+      "Engineering Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Fluid Mechanics",
+    "category": "civil",
+    "aliases": [
+      "hydraulics",
+      "mechanics of fluids",
+      "fluid dynamics"
+    ],
+    "prerequisites": [
+      "Engineering Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Hydrology",
+    "category": "civil",
+    "aliases": [
+      "water resources",
+      "groundwater hydrology",
+      "irrigation engineering"
+    ],
+    "prerequisites": [
+      "Fluid Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Environmental Engineering",
+    "category": "civil",
+    "aliases": [
+      "water treatment",
+      "wastewater treatment",
+      "sanitary engineering",
+      "pollution control"
+    ],
+    "prerequisites": [
+      "Fluid Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Construction Management",
+    "category": "civil",
+    "aliases": [
+      "construction planning",
+      "site management",
+      "bauleitung",
+      "project scheduling"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Estimation and Costing",
+    "category": "civil",
+    "aliases": [
+      "quantity surveying",
+      "cost estimation",
+      "valuation",
+      "bill of quantities",
+      "boq"
+    ],
+    "prerequisites": [
+      "Construction Management"
+    ]
+  },
+  {
+    "canonical_name": "Earthquake Engineering",
+    "category": "civil",
+    "aliases": [
+      "seismic design",
+      "structural dynamics",
+      "seismic analysis"
+    ],
+    "prerequisites": [
+      "Structural Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Building Information Modelling",
+    "category": "civil",
+    "aliases": [
+      "bim",
+      "revit",
+      "digital twin construction"
+    ],
+    "prerequisites": [
+      "Computer Aided Design"
+    ]
+  },
+  {
+    "canonical_name": "Urban Planning",
+    "category": "civil",
+    "aliases": [
+      "town planning",
+      "regional planning",
+      "urban design"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Thermodynamics",
+    "category": "mechanical",
+    "aliases": [
+      "engineering thermodynamics",
+      "heat and work",
+      "thermal engineering"
+    ],
+    "prerequisites": [
+      "Calculus"
+    ]
+  },
+  {
+    "canonical_name": "Heat Transfer",
+    "category": "mechanical",
+    "aliases": [
+      "thermal analysis",
+      "conduction convection radiation"
+    ],
+    "prerequisites": [
+      "Thermodynamics"
+    ]
+  },
+  {
+    "canonical_name": "Machine Design",
+    "category": "mechanical",
+    "aliases": [
+      "design of machine elements",
+      "mechanical design",
+      "konstruktion"
+    ],
+    "prerequisites": [
+      "Strength of Materials"
+    ]
+  },
+  {
+    "canonical_name": "Computer Aided Design",
+    "category": "mechanical",
+    "aliases": [
+      "cad",
+      "autocad",
+      "solidworks",
+      "catia",
+      "cad modelling"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Finite Element Analysis",
+    "category": "mechanical",
+    "aliases": [
+      "fea",
+      "finite element method",
+      "ansys",
+      "numerical simulation"
+    ],
+    "prerequisites": [
+      "Numerical Methods",
+      "Strength of Materials"
+    ]
+  },
+  {
+    "canonical_name": "Manufacturing Processes",
+    "category": "mechanical",
+    "aliases": [
+      "production technology",
+      "machining",
+      "casting and welding",
+      "fertigung"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "CNC Machining",
+    "category": "mechanical",
+    "aliases": [
+      "cnc programming",
+      "computer numerical control",
+      "g code"
+    ],
+    "prerequisites": [
+      "Manufacturing Processes"
+    ]
+  },
+  {
+    "canonical_name": "Fluid Machinery",
+    "category": "mechanical",
+    "aliases": [
+      "turbomachinery",
+      "pumps and turbines",
+      "hydraulic machines"
+    ],
+    "prerequisites": [
+      "Fluid Mechanics"
+    ]
+  },
+  {
+    "canonical_name": "Robotics and Automation",
+    "category": "mechanical",
+    "aliases": [
+      "industrial robotics",
+      "robotic systems",
+      "automation engineering"
+    ],
+    "prerequisites": [
+      "Control Systems"
+    ]
+  },
+  {
+    "canonical_name": "Quality Engineering",
+    "category": "mechanical",
+    "aliases": [
+      "quality control",
+      "six sigma",
+      "statistical process control",
+      "qualitaetssicherung"
+    ],
+    "prerequisites": [
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "canonical_name": "Circuit Analysis",
+    "category": "electrical",
+    "aliases": [
+      "network analysis",
+      "electric circuits",
+      "circuit theory"
+    ],
+    "prerequisites": [
+      "Calculus"
+    ]
+  },
+  {
+    "canonical_name": "Analog Electronics",
+    "category": "electrical",
+    "aliases": [
+      "analogue electronics",
+      "amplifiers",
+      "operational amplifiers",
+      "op amp"
+    ],
+    "prerequisites": [
+      "Circuit Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Digital Electronics",
+    "category": "electrical",
+    "aliases": [
+      "digital logic",
+      "logic design",
+      "combinational circuits",
+      "sequential circuits"
+    ],
+    "prerequisites": [
+      "Circuit Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Power Systems",
+    "category": "electrical",
+    "aliases": [
+      "power engineering",
+      "transmission and distribution",
+      "energietechnik",
+      "grid systems"
+    ],
+    "prerequisites": [
+      "Circuit Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Electrical Machines",
+    "category": "electrical",
+    "aliases": [
+      "motors and generators",
+      "electric drives",
+      "elektrische maschinen"
+    ],
+    "prerequisites": [
+      "Circuit Analysis"
+    ]
+  },
+  {
+    "canonical_name": "Power Electronics",
+    "category": "electrical",
+    "aliases": [
+      "converters and inverters",
+      "switching circuits",
+      "leistungselektronik"
+    ],
+    "prerequisites": [
+      "Analog Electronics"
+    ]
+  },
+  {
+    "canonical_name": "VLSI Design",
+    "category": "electrical",
+    "aliases": [
+      "vlsi",
+      "chip design",
+      "verilog",
+      "vhdl",
+      "asic design"
+    ],
+    "prerequisites": [
+      "Digital Electronics"
+    ]
+  },
+  {
+    "canonical_name": "Communication Systems",
+    "category": "electrical",
+    "aliases": [
+      "analog communication",
+      "digital communication",
+      "modulation",
+      "wireless communication"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Antenna and Wave Propagation",
+    "category": "electrical",
+    "aliases": [
+      "antennas",
+      "rf engineering",
+      "electromagnetics",
+      "microwave engineering"
+    ],
+    "prerequisites": [
+      "Communication Systems"
+    ]
+  },
+  {
+    "canonical_name": "Industrial Instrumentation",
+    "category": "electrical",
+    "aliases": [
+      "process instrumentation",
+      "sensors and transducers",
+      "measurement systems"
+    ],
+    "prerequisites": [
+      "Analog Electronics"
+    ]
+  },
+  {
+    "canonical_name": "PLC and SCADA",
+    "category": "electrical",
+    "aliases": [
+      "plc programming",
+      "scada",
+      "sps programmierung",
+      "industrial automation",
+      "prozessleittechnik"
+    ],
+    "prerequisites": [
+      "Control Systems"
+    ]
+  },
+  {
+    "canonical_name": "PCB Design",
+    "category": "electrical",
+    "aliases": [
+      "printed circuit board",
+      "altium",
+      "kicad",
+      "leiterplatte",
+      "schematic capture"
+    ],
+    "prerequisites": [
+      "Analog Electronics"
+    ]
+  },
+  {
+    "canonical_name": "Chemical Process Engineering",
+    "category": "process",
+    "aliases": [
+      "process engineering",
+      "unit operations",
+      "verfahrenstechnik"
+    ],
+    "prerequisites": [
+      "Thermodynamics"
+    ]
+  },
+  {
+    "canonical_name": "Reaction Engineering",
+    "category": "process",
+    "aliases": [
+      "chemical reaction engineering",
+      "reactor design",
+      "kinetics"
+    ],
+    "prerequisites": [
+      "Chemical Process Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Process Safety",
+    "category": "process",
+    "aliases": [
+      "hazop",
+      "safety instrumented systems",
+      "industrial safety"
+    ],
+    "prerequisites": [
+      "Chemical Process Engineering"
+    ]
+  },
+  {
+    "canonical_name": "Engineering Drawing",
+    "category": "engineering",
+    "aliases": [
+      "technical drawing",
+      "orthographic projection",
+      "drafting"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Materials Science",
+    "category": "engineering",
+    "aliases": [
+      "material properties",
+      "metallurgy",
+      "werkstoffkunde"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Engineering Economics",
+    "category": "engineering",
+    "aliases": [
+      "cost benefit analysis",
+      "project finance",
+      "economic evaluation"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Occupational Safety",
+    "category": "engineering",
+    "aliases": [
+      "workplace safety",
+      "arbeitssicherheit",
+      "safety compliance"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Maintenance Engineering",
+    "category": "mechanical",
+    "aliases": [
+      "preventive maintenance",
+      "instandhaltung",
+      "condition monitoring",
+      "plant maintenance"
+    ],
+    "prerequisites": []
+  },
+  {
+    "canonical_name": "Signals and Systems",
+    "category": "electrical",
+    "aliases": [
+      "fourier analysis",
+      "laplace transform",
+      "continuous time signals",
+      "signals and systems"
+    ],
+    "prerequisites": [
+      "Calculus"
+    ]
+  },
+  {
+    "canonical_name": "Microcontroller Programming",
+    "category": "electrical",
+    "aliases": [
+      "arduino",
+      "stm32",
+      "8051 microcontroller",
+      "microcontroller interfacing"
+    ],
+    "prerequisites": [
+      "Digital Electronics"
+    ]
+  },
+  {
+    "canonical_name": "Mass Transfer Operations",
+    "category": "process",
+    "aliases": [
+      "separation processes",
+      "absorption and extraction",
+      "distillation column design"
+    ],
+    "prerequisites": [
+      "Chemical Process Engineering"
+    ]
   }
 ]

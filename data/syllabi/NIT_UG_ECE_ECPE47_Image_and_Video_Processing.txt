@@ -1,0 +1,51 @@
+Course Code : ECPE47
+Course Title : Image and Video Processing
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : Elective
+COURSE LEARNING OBJECTIVE
+ The course aims to equip students with basic image and video processing techniques.
+COURSE CONTENTS
+Image Formation and Representation: 3D to 2D projection, photometric image formation, trichromatic
+colour representation, video format (SD, HD, UHD, HDR), contrast enhancement (concept of
+histogram, nonlinear mapping, histogram equalization)
+Review of 1D Fourier transform and convolution: Concept of spatial frequency. Continuous and
+Discrete Space 2D Fourier transform. 2D convolution and its interpretation in frequency domain.
+Implementation of 2D convolution. Separable filters. Frequency response. Linear filtering (2D
+convolution) for noise removal, image sharpening, and edge detection. Gaussian filters, DOG and
+LOG filters as image.
+Geometric mapping and Feature detection: Geometric mapping (affine, homography), Feature based
+camera motion estimation (RANSAC). Image warping. Image registration. Panoramic view stitching,
+Feature detection (Harris corner, scale space, SIFT), feature descriptors (SIFT). Bag of Visual Word
+representation for image classification.
+Motion estimation: optical flow equation, optical flow estimation (Lucas-Kanade method, KLT
+tracker); block matching, multi-resolution estimation. Deformable registration (medical applications),
+Moving object detection (background/foreground separation): Robust PCA (low rank + sparse
+decomposition). Global camera motion estimation from optical flows. Video stabilization. Video
+scene change detection.
+Video Coding: block-based motion compensated prediction and interpolation, adaptive spatial
+prediction, block-based hybrid video coding, rate-distortion optimized mode selection, rate control,
+Group of pictures (GoP) structure, tradeoff between coding efficiency, delay, and complexity, depth
+from disparity, disparity estimation, view synthesis. Multiview video compression. Depth camera
+(Kinect). 360 video camera and view stitching.
+Text Book/References:
+1. Richard Szeliski, Computer Vision: Algorithms and Applications. (Available online:”Link“)
+(Cover most of the material, except sparsity-based image processing and image and video
+coding)
+2. (Optional) Y. Wang, J. Ostermann, and Y.Q.Zhang, Video Processing and Communications.
+Prentice Hall, 2002. “Link” (Reference for image and video coding, motion estimation, and
+stereo)
+3. (Optional) R. C. Gonzalez and R. E. Woods, Digital Image Processing, Prentice Hall, (3rd
+Edition) 2008. ISBN number 9780131687288. “Link” (Good reference for basic image
+processing, wavelet transforms and image coding).
+COURSE OUTCOMES
+Students are able to
+CO1: Understand the concept of image formation and representation
+CO2: Know the need of transformation and convolution
+CO3: Understand the necessity and importance of feature detection and geometric mapping
+CO4: Know how to do motion estimation in video
+CO5: To understand the basic ideas of video coding
+70 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

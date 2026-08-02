@@ -1,0 +1,41 @@
+Course Code : ECMI27
+Course Title : FIBER OPTIC COMMUNICATION
+Number of Credits 3
+Prerequisites : ECMI12 & ECMI20
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To expose the students to the basics of signal propagation through optical fibers, fiber
+impairments, components and devices and system design.
+Course Content
+Optical Fibers: Structure, Wave guiding. Step-index and graded index optical fibers. Modal analysis.
+Classification of modes. Single Mode Fibers.
+Pulse dispersion. Material and waveguide dispersion. Polarization Mode Dispersion. Absorption,
+scattering and bending losses. Dispersion Shifted Fibers, Dispersion Compensating Fibers.
+Optical Power Launching and Coupling. Lensing schemes for coupling improvement. Fiber-to-fiber
+joints. Splicing techniques. Optical fiber connectors.
+Optical sources and detectors. Laser fundamentals. Semiconductor Laser basics. LEDs. PIN and
+Avalanche photodiodes, Optical TX/RX Circuits.
+Design considerations of fiber optic systems: Analog and digital modulation. Noise in detection
+process. Bit error rate. Optical receiver operation. Power Budget and Rise time Budget. WDM.
+Text Books
+1. G.Keiser, “Optical Fiber Communications (5/e)”, McGraw Hill, 2013.
+2. G.P.Agarwal, “Fiber Optic Communication Systems”, (3/e), Wiley, 2002.
+Reference Books
+1. M.M.K.Liu, “Principles and Applications of Optical Communications”, Tata McGraw Hill,
+2010.
+2. A.Ghatak & K.Thygarajan, “Introduction to Fiber Optics”, Cambridge, 1999.
+3. J.Gowar, “Optical Communication Systems”, (2/e), PHI, 2001.
+4. A.Selvarajan, S.Kar and T.Srinivas, “Optical Fiber Communication Principles and Systems”,
+Tata McGraw Hill, 2002.
+.
+Course outcomes
+At the end of the course student will be able
+CO1: Recognize and classify the structures of Optical fiber and types.
+CO2: Discuss the channel impairments like losses and dispersion.
+CO3: Analyze various coupling losses.
+CO4: Classify the Optical sources and detectors and to discuss their principle.
+CO5: Familiar with Design considerations of fiber optic systems.
+119 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

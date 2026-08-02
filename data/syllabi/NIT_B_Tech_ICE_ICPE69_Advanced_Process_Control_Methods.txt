@@ -1,0 +1,62 @@
+Course Code : ICPE69
+Course Title : Advanced Process Control Methods
+Type of Course : PE
+Prerequisites : ICPC18, ICPC21
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose students to the advanced control methods used in industries and
+research.
+CLO2 To teach various system identification and parameter estimation techniques.
+CLO3 To prepare the student to take up such challenges in his profession.
+Course Content
+Review of System Identification, Parametric and non-parametric methods of system
+identification, Different family of BJ model; Choice of Input Signals; Least square (LS),
+Recursive LS, Weighted LS method of system identification.
+Introduction to optimal filtering – need for filtering – Noise characteristics- Development of
+different state estimation techniques such as Kalman filter, Extended Kalman filter,
+Uncentered Kalman filter and particle Kalman filter. Development and validation of the state
+estimation/filtering concept with simulated non-linear systems using simulation software.
+Development of SDCS system – Review of conventional Digital Control system –
+Development of SMPC, IMC and Performance enhancement of digital PID controller
+algorithm - Multivariable control strategies; Model Predictive Control, Model forms for Model
+Predictive Control. Dynamix matrix controller (DMC)
+Development of augmented state space model – GPC – Controller Tuning and Robustness
+Issues; Extensions to Constrained and Multivariable Cases. Introduction to next generation
+controller – RTDA controller – Objective function – Derivation of control law – Implementation
+of above Digital control system using simulation software with case studies. Case studies of
+APC estimation/filtering and controller concept with industrial process control applications.
+References
+1. B.W. Bequette, Process Control Modeling, Design and Simulation, Prentice Hall of
+India, New Delhi,2015.
+2. D.E. Seborg, T.E. Edgar, D.A. Mellichamp. Process Dynamics and Control, Wiley India
+Pvt. Ltd., Fourth Edition.2016.
+3. Ceil L. Smith., Advanced Process Control: Beyond Single Loop Control, 1st
+Edition,Wiley-AIChE .
+4. B.A. Ogunnaikeand, W.H. Ray, Process Dynamics, Modelling and Control,
+OxfordPress, 1997.
+5. W.L. Luyben, Process Modelling Simulation and Control for Chemical Engineers,
+McGraw Hill, 2nd Edition, 1990.
+6. S. Bhanot, Process Control: Principles and Applications, Oxford University Press, 2008.
+7. Les Kane., Advanced Process Control and Information Systems for the Process
+Industries, Gulf Professional Publishing. (1999)
+B.Tech. / Instrumentation and Control Engineering 207 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design an appropriate advanced controller for specific problems in process
+industries.
+CO2 Develop suitable filters for linear/non-linear system
+CO3 Design of SDCS for multivariable systems.
+CO4 Develop the MPC and next generation controller for multivariate system
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 - 3 2 3 3 2 3 - - - 3 3 3 2
+CO2 3 3 3 2 3 3 2 3 - - - 3 3 3 2
+CO3 3 3 3 2 3 3 2 3 - - - 3 3 3 2
+CO4 3 - 3 3 3 3 2 3 - - - 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 208 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

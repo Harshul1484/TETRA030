@@ -1,0 +1,44 @@
+Course Code : ECPC21
+Course Title : ANALOG INTEGRATED CIRCUITS
+Number of Credits 3
+Prerequisites : ECPC17
+(Course code)
+Course Type : PC
+Course Learning Objective
+ To introduce the theoretical & circuit aspects of an Op-amp.
+Course Content
+Operational Amplifiers, DC and AC characteristics, typical op-amp parameters: Finite gain, finite
+bandwidth, Offset voltages and currents, Common-mode rejection ratio, Power supply rejection ratio,
+Slew rate, Applications of Op-amp: Precision rectifiers. Summing amplifier, Integrators and
+differentiators, Log and antilog amplifiers. Instrumentation amplifiers, voltage to current converters.
+Active filters: Second order filter transfer function (low pass, high pass, band pass and band reject),
+Butterworth, Chebyshev and Bessel filters. Switched capacitor filter. Notch filter, all pass filters,
+self-tuned filters
+Opamp as a comparator, Schmitt trigger, Astable and monostable multivibrators, Triangular wave
+generator, Multivibrators using 555 timer, Data converters: A/D and D/A converters
+PLL- basic block diagram and operation, four quadrant multipliers. Phase detector, VCO, Applications
+of PLL: Frequency synthesizers, AM detection, FM detection and FSK demodulation.
+CMOS differential amplifiers: DC analysis and small signal analysis of differential amplifier with
+Restive load, current mirror load and current source load, Input common-mode range and Common-
+mode feedback circuits. OTAs Vs Opamps. Slew rate, CMRR, PSRR. Two stage amplifiers,
+Compensation in amplifiers (Dominant pole compensation).
+Text Books
+1. S.Franco, Design with Operational Amplifiers and Analog Integrated Circuits (3/e) TMH,
+2003.
+2. Sedra and Smith, Microelectronics Circuits, Oxford Univ. Press, 2004
+Reference Books
+1. Coughlin, Driscoll, OP-AMPS and Linear Integrated Circuits, Prentice Hall, 2001.
+Course outcomes
+At the end of the course student will be able
+CO1: infer the DC and AC characteristics of operational amplifiers and its effect on output and
+their compensation techniques.
+CO2: elucidate and design the linear and nonlinear applications of an op-amp and special
+application ICs.
+CO3: explain and compare the working of multi vibrators using special application IC 555 and
+general purpose op-amp.
+CO4: classify and comprehend the working principle of data converters.
+CO5: illustrate the function of application specific ICs such as Voltage regulators, PLL and its
+application in communication.
+28 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

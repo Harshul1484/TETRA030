@@ -1,0 +1,40 @@
+Course Code : ECHO13
+Course Title : WAVELET SIGNAL PROCESSING
+Number of Credits 4
+Prerequisites : ECPC15
+(Course code)
+Course Type : HO
+Course learning Objective
+ To expose the students to the basics of wavelet theory and to illustrate the use of wavelet
+processing for data compression and noise suppression.
+Course content
+Limitations of standard Fourier analysis. Windowed Fourier transform. Continuous wavelet transform.
+Time-frequency resolution.
+Multiresolution analysis and properties. The Haar wavelet, Structure of subspaces in MRA
+Haar decomposition-1, Haar decomposition-2, Wavelet reconstruction, Haar wavelet and link to filter
+bank, demo on wavelet decomposition, Wavelet packets
+Wavelet methods for signal processing. Noise suppression. Representation of noise-corrupted signals
+using frames. Algorithm for reconstruction from corrupted frame representation.
+Wavelet methods for image processing. Burt- Adelson and Mallat’s pyramidal decomposition
+schemes. 2D-dyadic wavelet transform.
+Text Books
+1. E.Hernandez & G.Weiss, A First Course on Wavelets, CRC Press, 1996.
+2. L.Prasad & S.S.Iyengar, Wavelet Analysis with Applications to Image Processing, CRC Press,
+1997.
+Reference Books
+1. A.Teolis, Computational Signal Processing with Wavelets, Birkhauser, 1998
+2. R.M. Rao & A.S. Bopardikar, Wavelet Transforms, Addition Wesley, 1998.
+3. J.C. Goswami & A.K. Chan, Fundamentals of Wavelets, John Wiley, 1999.
+4. Recent literature in Wavelet Signal Processing.
+Course outcomes
+At the end of the course student will be able
+CO1: understand about windowed Fourier transform and difference between windowed Fourier
+transform and wavelet transform.
+CO2: understand wavelet basis and characterize continuous and discrete wavelet transforms
+CO3: understand multi resolution analysis and identify various wavelets and evaluate their time-
+frequency resolution properties
+CO4: implement discrete wavelet transforms in signal processing applications
+CO5: understand about wavelet methods in image processing
+131 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

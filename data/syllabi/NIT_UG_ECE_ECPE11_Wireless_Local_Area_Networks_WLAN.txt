@@ -1,0 +1,43 @@
+Course Code : ECPE11
+Course Title : Wireless Local Area Networks (WLAN)
+Number of Credits 3
+Prerequisites (Course : ECPE10
+code)
+Course Type : PE
+Course Objective: To expose students to wireless local area network standards, technologies, and
+operations with real-life traces to correlate with the concepts
+Course Contents
+WLAN Introduction and Basics - 802.11 protocol stack basics, RF spectrum of operations, unlicensed
+band usage, Types of networks and their usage, Role of Wi-Fi alliance. Exercises: Survey of WLAN
+products in consumer appliances.
+Evolution of WLAN Layer. The ISM PHYs: FH, DS and HR/DS, basics ofOFDM design and
+parameters for WLAN, MIMO usage in WLAN, Throughput enahancements, Matlab Simulation of
+channel models and studying their characteristics,
+CSMA/CA principles used for WLAN MAC, Details of MAC protocol, Medium reservation and
+hidden nodes, MAC Frame Aggregation and QoS in WLAN, Roaming, Throughput calculation.
+Network Entry Process in WLAN, Security Evolution, Power save concepts, Throughput and
+performance of WLAN, Network tracking operations.
+Sniffing WLAN Frames and analysis using open source tools, Inferring capabilities of APs and clients,
+Analysing network entry steps and debugging connection problems, Analysing Data transmission and
+debugging performance issues, Analysis of Roaming performance.
+Text Books
+1. Eldad Perahia and Robert Stacey, Next Generation wireless LANS 802.11n and 802.11ac, 2nd
+edition, Cambridge University Press, 2013
+2. Mathew Gast, 802.11 Wireless Networks: The Definitive Guide, 2nd Edition, OReily, 2009
+Reference Books
+1. Mathew Gast, 802.11n: A Survival Guide: Wi-Fi Above 100 Mbps, OReilly, 2012
+2. Mathew Gast, 802.11ac: A Survival Guide: Wi-Fi at Gigabit and Beyond, OReilly, 2012
+Course Outcomes:
+CO1: To understand basics of WLAN systems including standardizing bodies, unlicensed
+spectrum ranges, network types.
+CO2: Appreciate physical layer challenges and solutions in 802.11 standards and be able to
+simulate channel conditions
+CO3: Be able to explain MAC layer steps in WLAN along with the motivation and impacts on
+throughput and coexistence
+CO4: Trace the steps followed in a typical WLAN network with a clear understanding of security,
+power save, and network entry procedures
+CO5: Analyze real-life protocol traces under various conditions and correlate with the concepts
+learnt in the earlier sections.
+33 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,65 @@
+Course Code : ICOE15
+Course Title : Virtual Instrument Design
+Type of Course : Open Elective (OE)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessments, Assignments, Final
+Methods Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce to the students about the interfacing techniques of various
+transducers.
+CLO2 To expose the students to different signal conditioning circuits.
+CLO3 To impart knowledge on the hardware required to build Virtual Instrument.
+CLO4 To impart knowledge to build GUI for Virtual Instrument.
+Course Content
+Transducer Interfacing: Interfacing techniques for the following transducers: Potentiometers
+- Temperature sensors – Thermocouple, RTD, Thermistors – Load cells – High and low range
+tension, Low and mid-range precision – Torque Sensors –Pressure sensors – Vibration
+Sensors – Acoustic Sensors – Automotive Sensors – Displacement sensors – Biomedical
+transducers.
+Signal Conditioning: Filtering, Cold Junction Compensation, Amplification, Instrumentation
+Amplifier Linearization–Circuit Protection-Ground loops, CMRR, Noise Reduction and
+Isolation, Attenuation Multiplexing–Digital signal conditioning–IEEE1451standards
+Transducer Electronic Data Sheet (TEDS)
+Data Acquisition and Hardware Selection: Overview of DAQ architecture – Analog IO and
+Digital IO - Finite and continuous buffered acquisition – Data acquisition with C language -
+Industrial Communication buses – Wireless network standards - Micro-controller selection
+parameters for a virtual instrument – CPU, code space (ROM), data space (RAM)
+requirements.
+Real-Time OS for Small Devices: Small device real-time concepts – Resources - Sequential
+programming - Multitasking - RTOS – Kernels – Timing loops – Synchronization and
+scheduling – Fixed point analysis – Building embedded real-time application for small devices.
+Graphical User Interface for Virtual Instrument: Building an embedded Virtual Instrument GUI
+– Text and Number display – GUI Windows management. – Simulation – Display drivers –
+Creating and distributing applications – Examples of Virtual Instrument design using GUI in
+any of the applications like consumer goods, robotics, machine vision, and process control
+automation.
+B.Tech. / Instrumentation and Control Engineering 222 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Daniel H. Sheingold, Transducer Interfacing Handbook – A Guide to Analog Signal
+Conditioning, Analog Devices Inc.1980.
+2. Kevin James, PC Interfacing and Data Acquisition- Techniques for Measurement,
+Instrumentation and Control, Newnes, 2011.
+3. Timothy Wilmshurst, Designing Embedded Systems with PIC Microcontrollers-
+Principles and Applications, Elsevier, 2010.
+4. Jean Labrosse, Embedded System Building Blocks, 2nd Edition. RandD Books, 2020
+5. Jean Labrosse, MicroC/OS-II – The Real-Time Kernel, 2nd Edition. CMP Books, 2002
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Interface the target transducer to the signal conditioning board.
+CO2 Condition the acquired signal from the transducer to standard data formats.
+CO3 Select the most appropriate hardware for the virtual instrument to be built.
+CO4 Implement the real-time OS for the selected micro-controller and the GUI interface
+for the virtual instrument.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 3 2 2 - - - 3 3 3 -
+CO2 3 3 3 3 3 3 2 2 - - - 3 3 3 -
+CO3 2 3 3 3 3 3 2 2 - - - 3 3 3 -
+CO4 3 2 2 3 2 3 3 2 - - - 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 223 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

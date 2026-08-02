@@ -1,0 +1,37 @@
+CE311 Advanced Strength of Materials 3 0 0 3
+CE311 ADVANCED STRENGTH OF MATERIALS
+Course objectives:
+To understand the mechanical properties of materials
+To understand the different theories of failure for brittle and ductile materials
+To know the features of unsymmetrical bending and different methods of analysis
+To understand the concept of shear centre and to know different methods for its location
+To know the fundamentals of vibration of structure
+22
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course Content
+Mechanical Properties of Materials - Stress-Strain Diagrams- Elastic and Plastic Deformation - Brittle
+and Ductile Failures of Materials - Mechanical Tests like Surface Hardness, Fatigue, Creep etc.
+Principal stresses in a 3D field.- Computation -Mohr's Circle - Lame's Ellipsoid. Theories of failure -
+Criteria for Failure - Different failure theories for ductile and brittle materials. Equivalent bending and
+twisting moments.
+Unsymmetrical bending- Properties of unsymmetrical sections- Circle of inertia - Dyadic circle -
+Momental ellipse- Stresses and deflection due to unsymmetrical bending - Concept and relevance of Z
+polygon.
+Shear Centre - Concept and significance - Shear flow for thin walled open sections-Location of shear
+centre for singly symmetric sections. Stresses in curved flexural members-Winkler Bach Formula -
+Crane hooks - rings and links.
+Fundamentals of vibration - free vibration of single degree of freedom systems - Undamped and
+damped free vibration with different types of damping.- Resonance-Harmonic response of single
+degree of freedom systems with and without damping.
+References
+1. Srinath, L. S., Advanced Mechanics of Solids , Tata McGraw Hill,1980.
+2. Kazimi, S.M.A., Solid Mechanics, Tata McGraw Hill, 1976.
+3. Punmia, B.C., Strength of Materials Part II, Standard Publishers and Distributors, 1991.
+4. Shames I.H., Engineering Mechanics, Prentice Hall of India,1996
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the important mechanical properties of materials
+demonstrate the different theories of failure for brittle and ductile materials
+apply the different methods of unsymmetrical bending analysis
+demonstrate the significance and concept of shear centre
+apply the principles of structural dynamics

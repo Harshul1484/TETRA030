@@ -1,0 +1,68 @@
+Course Code : ICOE21
+Course Title : Product Design and Development (Theory
+and Practice)
+Type of Course : Open Elective (OE)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessments, Assignments, Final
+Assessment
+Course Learning Objectives (CLO)
+CLO1 The aim of this course is to inculcate into the student the spirit of innovation and
+entrepreneurship. This is achieved in this course by making the students to develop
+a marketable product on their own as a group. At the end of this semester course,
+the students will learn how to know the needs of the society and solve the musing
+the technical knowledge at their disposal.
+CLO2 The students will learn some of the general concepts needed for new product
+development and simultaneously learn how to interact with society outside the
+campus to learn about its needs. They also learn about how to get prototypes
+fabricated outside the campus.
+CLO3 The students will fabricate an alpha prototype and test it for its conformity to the
+design specifications at the beginning of the next academic session
+CLO4 After demonstration of the alpha prototype, they proceed to fabricate a beta
+prototype that is acceptable in the market-place
+Course Content
+Introduction to product design – Product planning – Identifying customer needs – Project
+selection
+– Concept generation–Concept testing–Concept selection . Product specification–Product
+architecture
+– Industrial design – Robust design. Product development economics – Design for
+manufacturing – Supply chain design – Intellectual property – Design for environment.
+PRACTICAL WORK
+Interaction with public outside the campus- identifying customer needs- product selection
+based on customer needs- concept generation- concept testing.
+Identifying fabrication requirements- Identifying fabricators for the project- costing- financial
+model for the product development-finding outside finance for product development if
+possible and required -patent search for the product.
+Alpha prototype fabrication and testing-to be submitted at the end of the semester
+with customer acceptance survey
+Course Evaluation
+Theoretical and Practical part will be evaluated separately and grades will be awarded.
+Theoretical component will be evaluated during the semester (50%) and the practical
+component (50%) will be evaluated at the end of the semester.
+B.Tech. / Instrumentation and Control Engineering 234 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Karl T. Ulrich and Steven D. Eppinger, Product Design and Development, 7th Edition,
+Tata McGraw-Hill. (2020)
+2. Kevin Otto and Kristin Wood, Product Design, Published 2013 by Prentice Hall
+3. Journals related to Engineering design.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Make market surveys for new product development
+CO2 Select an appropriate product design and development process for a given
+application
+CO3 Plan the entire cycle of new product design and development and fabricate
+prototypes of new products and test them.
+CO4 Choose an appropriate agronomy for the product and adopt methods to minimize
+the cost.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 2 3 2 3 3 3 3 3 3 3 3 3 2
+CO2 3 2 2 3 3 3 3 2 3 3 3 3 3 3 2
+CO3 3 2 3 3 2 3 3 2 3 3 3 3 2 3 2
+CO4 3 3 3 3 2 3 3 3 3 3 3 3 2 3 3
+B.Tech. / Instrumentation and Control Engineering 235 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

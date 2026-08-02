@@ -1,0 +1,72 @@
+Course Code : ICHO11
+Course Title : Design of sensors and Transducer
+Type of Course : HO
+Prerequisites : ICPC14
+Contact Hours : 56 (4 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To provide fundamentals of various types of diaphragm design.
+CLO2 To familiarize with design of strain gauge, capacitive and inductive based
+transducers and its applications.
+CLO3 To furnish the knowledge on design of accelerometer and gyroscope.
+CLO4 To provide the basics of various chemical sensors and its design criterion.
+Course Content
+Introduction to diaphragm; Diaphragm performance and materials, Design of flat diaphragms,
+flat diaphragms with rigid centre convex diaphragms, rectangular diaphragms corrugated
+diaphragms and semiconductor diaphragms through analytical and numerical simulation.
+Design of strain gauge-based load cells, torque sensors, force sensors and pressure sensors
+(Theory and experimentation)
+Design of capacitance-based displacement, pressure and level sensors; Design of mutual
+inductance transducers for measurement of displacement and experimentation. Design of
+proximity sensors and practical demonstration.
+Accelerometer and Gyroscopic design and its applications. Design of Hall Effect sensors, and
+practical demonstration of few applications.
+Introduction to chemical Sensors, characteristics. Design of DO2 sensor, ChemFETs,
+PEMFCs.
+References
+1. Karl Hoffmann, An introduction to stress analysis and transducer design using strain
+gauges, HBM, 2012 pdf
+2. James W. Dally, William F. Riley, Kenneth G. McConnell, Instrumentation for
+Engineering Measurements, Wiley, 1993.
+3. Di Giovanni, Flat and Corrugated Diaphragm Design Handbook, CRC Press, 1982.
+4. Fraden, Jacob, Handbook of Modern Sensors: Physics, Designs, and Applications,
+Springer, 4th Editions, 2010.
+5. Richard S. Figliola, Donald E. Beasley, Theory and Design for Mechanical
+Measurements, John Wiley and Sons, Inc, 6th Edition, 2015 .
+6. Fraden, Jacob, Handbook of Modern Sensors: Physics, Designs, and
+Applications, Springe, 4th Editions, 2010.
+7. Alexander D. Khazan, Transducers and Their Elements: Design and
+Application, PTR Prentice Hall,1994
+8. B.E. Noltingk, Instrumentation Reference Book, Butterworth- Heinemann, 2nd
+Edition 1995.
+9. Peter H. Sydenham, Richard Thorn, Handbook of Measuring System Design,
+Wiley,2005
+B.Tech. / Instrumentation and Control Engineering 243 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+John G. Webster, Sensors and Signal Conditioning, Wiley Inter Science, 2nd
+10. Edition,2008
+11. Patranabis, Sensors and Transducers, Prentice Hall, 2nd Edition,2003.
+12. Alok Baura, Fundamentals of Industrial Instrumentation, Wiley India Pvt. Ltd
+kindle 2011.
+13. Kirianaki N.V., Yurish S.Y., ShpakN.O., Deynega V.P., Data Acquisition and
+Signal Processing for Smart Sensors, John Wiley and Sons, Chichester, UK,
+2002
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Select and design diaphragm for different practical applications.
+CO2 Design strain gauge-based torque, force, load and pressure measurement systems.
+CO3 Design capacitance/ inductance transducers for the measurement of displacement,
+pressure and level.
+CO4 Acquire knowledge in design of accelerometer and gyroscope.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 - 2 3 3 2 - 2 - 3 3 3 2
+CO2 3 3 3 3 3 - - - - - 2 2 3 3 -
+CO3 3 3 3 3 3 - - - - - 2 2 3 3 -
+CO4 3 3 3 3 3 - - - - - 2 2 3 3 -
+B.Tech. / Instrumentation and Control Engineering 244 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

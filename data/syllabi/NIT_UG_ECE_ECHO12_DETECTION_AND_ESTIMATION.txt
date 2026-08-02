@@ -1,0 +1,44 @@
+Course Code : ECHO12
+Course Title : DETECTION AND ESTIMATION
+Number of Credits 3
+Prerequisites : MAIR 45
+(Course code)
+Course Type : HO
+Course learning Objective
+ The objective of this course is to make the students conversant with those aspects of
+statistical decision and estimation which are indispensable tools required for the optimal
+design of digital communication systems.
+Course content
+Binary hypothesis testing; Bayes, minimax and Neyman-Pearson tests. Composite hypothesis testing.
+Signal detection in discrete time: Models and detector structures. Coherent detection in independent
+noise. Detection in Gaussian noise. Detection of signals with random parameters. Detection of
+stochastic signals. Performance evaluation of signal detection procedures.
+Bayesian parameter estimation; MMSE, MMAE and MAP estimates. Nonrandom parameter
+estimation. Exponential families. Completeness theorem. ML estimation. Information inequality.
+Asymptotic properties of MLEs.
+Discrete time Kalman- Bucy filter. Linear estimation. Orthogonality principle. Wiener- Kolmogorov
+filtering – causal and non-causal filters.
+Signal detection in continuous time: Detection of deterministic signals in Gaussian noise. Coherent
+detection in white Gaussian noise.
+TextBooks
+1. H.V.Poor, “An Introduction to Signal Detection and Estimation (2/e) Springer”, 1994.
+2. B.C.Levy, “Principles of Signal Detection and Parameter Estimation”, Springer, 2008.
+ReferenceBooks
+1. H.L.Vantrees, “Detection, Estimation and Modulation theory”, Part I, Wiley, 1987.
+2. M.D.Srinath & P.K.Rajasekaran, “Statistical Signal Processing with Applications”, Wiley,
+1979.
+3. J.C.Hancock & P.A. Wintz, “Signal Detection Theory”, Mc-Graw Hill, 1966.
+4. Recent literature in Detection and Estimation.
+Course outcomes
+At the end of the course student will be able
+CO1: summarize the fundamental concept on Statistical Decision Theory and
+Hypothesis Testing
+CO2: summarize the various signal estimation techniques with additive noise
+CO3: summarizer with Bayesian parameter estimation (minimum mean square error (MMSE),
+minimum mean absolute error (MMAE), maximum a-posterior probability (MAP) estimation
+methods).
+CO4: compare optimal filtering, linear estimation, and Wiener/Kalman filtering.
+CO5: construct Wiener and Kalman filters (time discrete) and state space models.
+130 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

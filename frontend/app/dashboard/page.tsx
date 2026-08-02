@@ -32,6 +32,13 @@ export default async function DashboardPage() {
         scored.length
       : null;
 
+  // Median rather than mean: a couple of courses with very few mapped
+  // outcomes would drag an average down and misrepresent the rest.
+  const gapCounts = courses.map((course) => course.gap_count).sort((a, b) => a - b);
+  const medianGaps = gapCounts.length
+    ? gapCounts[Math.floor(gapCounts.length / 2)]
+    : 0;
+
   const ranked = [...courses].sort(
     (a, b) => (b.health_score ?? -1) - (a.health_score ?? -1),
   );
@@ -82,7 +89,12 @@ export default async function DashboardPage() {
             <Stat
               label="Courses audited"
               value={courses.length}
-              hint={`${courses.reduce((n, c) => n + c.gap_count, 0)} gaps identified`}
+              // Deliberately not the sum of per-course gaps. That counts the
+              // same skill once per course, so Cloud Computing missing from
+              // forty courses reads as forty findings. The median is an
+              // honest per-course figure; the programme page carries the
+              // distinct total.
+              hint={`median ${medianGaps} gaps per course`}
             />
           </div>
         </Card>

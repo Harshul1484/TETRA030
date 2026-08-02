@@ -1,0 +1,43 @@
+Course Code : ECPE15
+Course Title : OPERATING SYSTEMS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course learning Objective
+ To expose the principles and practice of operating system design and to illustrate the current
+design practices using DOS and UNIX operating systems.
+Course content
+Types of operating systems, Different views of the operating system, Principles of Design and
+Implementation. The process and threads. System programmer’s view of processes, Operating
+system's views of processes, Operating system services for process management. Process scheduling,
+Schedulers, Scheduling algorithms. Overview of Linux operating system.
+Inter process synchronization, Mutual exclusion algorithms, Hardware support,Semaphores,
+Concurrent programming using semaphores.
+Conditional critical regions, Monitors, Inter process communication: Messages, Pipes. Deadlocks:
+Characterization. Prevention .Avoidance .Detection and recovery. Combined approach to deadlock
+handling.
+Contiguous allocation. Static and dynamic partitioned memory allocation. Segmentation. Non-
+contiguous allocation. Paging, Hardware support, Virtual Memory.
+Need for files. File abstraction. File naming. File system organization. File system optimization.
+Reliability. Security and protection .I/O management and disk scheduling. Recent trends and
+developments.
+Text Books
+1. Gary: Operating Systems- A modern Perspective, (2/e), Addison Wesley, 2000.
+2. M.Milenkovic: Operating systems, Concepts and Design, McGraw Hill, 1992.
+Reference Books
+1. C. Crowley: Operating Systems, Irwin, 1997.
+2. J.l. Peterson & A.S. Chatz: Operating System Concepts, Addison Wesley, 1985.
+3. W. Stallings: Operating Systems, (2/e), Prentice Hall, 1995.
+4. Mattuck,A., Introduction to Analysis,Prentice-Hall,1998.
+5. Recent literature in Operating Systems.
+Course outcomes
+At the end of the course student will be able
+CO1:.Understand the different types of Operating systems and scheduling algorithms.
+CO2: Understand the synchronization algorithms and semaphores.
+CO3: Appreciate the inter process communication and dead lock handling.
+CO4: Critically evaluate the different memory allocation techniques.
+CO5: Appreciate the importance of file system organization, I/O management and disk scheduling.
+37 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

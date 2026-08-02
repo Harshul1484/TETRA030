@@ -1,0 +1,37 @@
+Course Code : ECLR17
+Course Title : MICROWAVE &FIBER OPTIC LABORATORY
+Number of Credits 2
+Co-requisites : ECPC24
+(Course code)
+Course Type : ELR
+List of Experiments:
+Microwave Experiments
+1. Study the characteristics of microwave sources (Gunn Diode, Reflex Klystron)
+2. Impedance Measurement of unknown devices.
+3. Study the characteristics of Reciprocal devices (Directional Coupler, E-Plane Tee ,
+H- Plane Tee etc.,)
+4. Study the characteristics of Non Reciprocal devices (Isolator, Circulator)
+5. Study the Characteristics of horn Antenna.
+6. Microwave CAD -Design and analysis of Planar Antenna
+Fiber Optic Communication Experiments
+1. Characteristics of Optical Sources - Laser Diode and LED
+2. Characteristics of Photodetectors - PIN Photodetector and Avalanche Photodiode
+(APD)
+3. Characteristics of Optical Fiber-Measurement of Numerical Aperture, Attenuation,
+Bending Loss and Fiber Dispersion
+4. Analog and Voice Communication through Optical Link
+5. Performance Measurement in Optical System-BER and Q-factor Estimation, Optical
+Receiver Sensitivity Characteristics
+6. Photonics CAD - WDM Link
+COURSE OUTCOME:
+At the end of course student will be able to
+CO1: Understand the characteristics of optical sources and photodetectors in the fiber optic
+communication systems.
+CO2: Understand the characteristics and various propagation effects of the optical fibers.
+CO3: Construct analog and voice communication through optical fibers.
+CO4: Analyze the performance parameters of the fiber optic communication systems through
+simulation software.
+CO5: Interpret the operating principle of wavelength division multiplexing systems.
+128 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

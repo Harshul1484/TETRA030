@@ -1,0 +1,58 @@
+Course Code : ICPE46
+Course Title : Principles of Communication Systems
+Type of Course : PE
+Prerequisites : ICPC13
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the concept of communication systems.
+CLO2 To understand the need for modulation.
+CLO3 To impart knowledge in the different methods of analog and digital communications
+and their significance.
+CLO4 To make students familiar with various sources of noise and its characteristics.
+Course Content
+Modulation - need for modulation. Principles of amplitude modulation: modulation and
+demodulation of AM, DSBSC, SSB signals, VSB and FDM systems. AM transmitter and
+Receiver.
+Essence of industrial data communication.
+Principles of angle modulation: frequency and phase modulation, narrow and wide band FM,
+generation and demodulation of FM signals. FM transmitter and Receiver.
+Pulse modulation systems- Sampling theorem, Pulse Amplitude Modulation (PAM), Pulse
+width modulation (PWM), Pulse time modulation (PTM): PDM and PPM. TDM systems.
+Pulse code modulation- Pulse Code Modulation - quantization - PCM systems- DPCM and
+Delta modulation. Digital modulation schemes: ASK-PSK-FSK-Generation and detection
+Noise-Source and classification, atmospheric noise, thermal noise and shot noise. Noise
+equivalent bandwidth, noise figure and equivalent noise temperature of a two-terminal
+network.
+References
+1. S. Haykin, Communication Systems, John Wiley and Sons, 4th Edition, 2009.
+2. H. Tauband D. Schilling, Principles of Communication System, Tata McGraw Hill, 4th
+Edition, 2017
+3. J.S. BeasleyandG.M. Miler, Modern Electronic Communication, Prentice-Hall, 9th
+Edition, 2009.
+4. B.P. Lathi, Modern Analog and Digital Communication systems, Oxford University
+Press, 3rd Edition, 2011
+5. B. Carlson, Communication Systems, McGraw Hill Book Co., 5th Edition, 2001.
+6. Sam Shanmugam, Digital and analog Communication Systems, John Wiley, 2019.
+7. John G. Proakis, Masoud Salehi - Fundamentals of Communication Systems, 2nd
+Edition, Pearson, 2015.
+B.Tech. / Instrumentation and Control Engineering 161 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Explain the basic concepts of communication systems.
+CO2 Understand various analog and pulse modulation and demodulation techniques.
+CO3 Understand digital modulation and demodulation techniques
+CO4 Describe different types of noise and calculate the noise equivalent bandwidth and
+noise figure of a two-port network.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 162 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

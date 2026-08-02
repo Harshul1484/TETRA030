@@ -1,0 +1,49 @@
+Course Code : ECPE24
+Course Title : INTERNET OF THINGS
+Number of Credits 3
+Prerequisites (Course : CSIR11, ECPE12, C/C++ and Python Programming skills
+code)
+Course Type : PE
+Course Learning Objective
+ To understand basics of an IOT System, IoT sensors, IoT hardware and communication
+protocols, data storage, data analysis and use them for real time IoT enabled domains.
+Course Content
+Introduction to IoT and IoT levels : Functional blocks of an IoT system (Sensors, Data Ingress,
+Data Aggregation Point Communication point back to the cloud, Analysis, Decision making,
+Actuation) Basic of Physical and logical design of IoT (IoT protocols, communication models) IoT
+enabled domains (Home automation, Smart cities, environment monitoring, renewable energy,
+agriculture, industry, healthcare, marketing and management) M2M, Difference between IoT,
+Embedded Systems and M2M, Industry 4.0 concepts.
+IoT sensors and hardware : Passive and active sensors, differences, Different kinds of sensors
+(Temperature, humidity, pressure, obstacle, water flow, accelerometer, colour, gyro, load cell,
+finger print, motion, ultrasonic distance, magnetic vibration, eye blink, hear beat, PPG, glucose,
+body position, blood pressure), Multi-sensors, Pre-processing (sampling, filtering, ADC, size of
+data, local memory, compression), IoT front end hardware (Raspberry Pi, Arduino, Galileo, beagle
+bone equivalent platforms)
+Introduction to IoT protocols :Infrastructure (6LowPAN, IPv4/IPv6, RPL), Identification (EPC,
+uCode, IPv6, URIs), Communication/ Transport (Wi-Fi, Bluetooth, ZigBee, LPWAN), Data
+Protocols (MQTT, CoAP, AMQP, Websocket, Node)
+IoT Cloud and data analytics :Collecting data from sensors,Data Ingress, Cloud storage, IoT
+cloud platforms (Amazon AWS, Microsoft Azure, Google APIs), Data analytics for IoT, Software
+and management tool for IoT, Dashboard design
+IoT architectures with case studies :Business models for IoT, smart cities, agriculture, healthcare,
+industry. Case studies/Mini projectsfor the real time IoT applications.
+Text Books
+1. Arshdeep Bahga, Vijay Madisetti, “Internet of Things – A hands-on approach”, Universities
+Press, 2015.
+Reference Books
+1. Raj kamal, Internet of Things, Architecture and Design Principles, McGraw-Hill, 2017
+2. Manoel Carlos Ramon, “Intel® Galileo and Intel® Galileo Gen 2: API Features and
+Arduino Projects for Linux Programmers”, Apress, 2014.H.Gerez, “Algorithms for VLSI
+Design Automation”, John Wiley, 1999.
+1. Marco Schwartz, “Internet of Things with the Arduino Yun”, Packt Publishing, 2014..
+COURSEOUTCOMES
+Students are ableto
+CO1: understand basic premise of an IOT System
+CO2 : be familiar with the sensors available for IoT applications
+CO3 : learn the front-end hardware platforms and communication protocols for IoT.
+CO4 : understand cloud storage, data analysis and management
+CO5 : usage for real time IoT enabled domains
+46 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

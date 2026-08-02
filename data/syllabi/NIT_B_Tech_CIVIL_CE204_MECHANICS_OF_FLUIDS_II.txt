@@ -1,11 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-Course outcomes:
-On completion of the course, the students will be able to:
-apply the principle of virtual work
-determine deflection of a beam for various loading conditions
-apply unit load method to find the deflection of truss
-determine different stresses developed in thick cylinders
-visualize the behavior of column for combined bending and axial loading
+CE204 Mechanics of Fluids - II 3 0 0 3
 CE204 MECHANICS OF FLUIDS - II
 Course objectives:
 To classify the types of flows in open channel and also to design open channel sections in a
@@ -41,3 +34,9 @@ On completion of the course, the students will be able to:
 visualize fluid flow phenomena observed in Civil Engineering systems such as flow in a pipe,
 flow measurement through orifices, mouth pieces, notches and weirs
 13
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+analyze fluid flows in open channel hydraulics and devices such as weirs and flumes
+apply dimensional analysis and the concept of CFD
+design open channels for most economical sections like rectangular, trapezoidal and circular
+sections
+measure velocity through instruments in open channel and pipe flow

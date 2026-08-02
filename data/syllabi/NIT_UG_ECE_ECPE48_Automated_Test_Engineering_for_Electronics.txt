@@ -1,0 +1,56 @@
+Course Code : ECPE48
+Course Title : Automated Test Engineering for Electronics
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : Elective
+COURSE CONTENT
+Printed Circuit Boards (PCBs) – types of PCB – multilayer PCBs – Plated though Hole Technology (PTH) -
+Surface Mount Technology (SMT) – Ball Grid Array (BGA) Technology. Bare PCB electrical test concepts,
+Loaded PCB Visual inspection, Automated Optical inspection systems, X-Ray inspection systems- Measuring
+Passive components – 2 wire, 3 wire, 4 wire and 6 wire measurement concepts, Guarding techniques, Shorts
+location, Most common manufacturing defects, Automated Manufacturing defect analyzers, Nodal Impedance /
+analog signature analysis. Flying probe testers.
+Concepts of PCB Trouble-shooting, Symptom recognition, Bracketing technique, Failure types and fault
+causes, Manual Trouble shooting, Use of DMM, Oscilloscope, Signal Generators, Logic Probes, Logic Pulsers,
+Logic Analyzers, Automated Test Techniques – CPU Emulation technique, ROM Emulation, In-Circuit
+Comparators, In- Circuit Emulators, Functional Testing of Digital ICs, Library models, Concepts of In-circuit
+Testing, - Back Driving technique – international defence standards - Auto Compensation, In-Circuit Test of
+Open collector / Emitter Devices, Tri-State, Bi-Directional Devices, Concepts of Digital Guarding, Analog and
+Mixed Signal ICs Test, advantages and limitations of in-circuit testing, AC – DC Parametric testing, –Advanced
+test techniques- Boundary Scan Test , Learn and compare technique – digital signatures, Bus Cycle Signature
+Test , Analog signatures.
+ATE system components, Main Test Vector processor, Digital Subsystem, Pin Electronics, Programmable
+drive and threshold levels, RAM behind each pin, Controlling slew rate, Skew between channels, Data formats,
+Digital and analog simulation, Test Vector Generation, Fault simulation, Fault coverage, Test Languages,
+Verilog, VHDL, Automatic compare, Analog Sub system, Digital and analog matrix switch circuits, digital and
+analog highways, Integration of JTAG, Boundary Scan Test, BSDL, External Instrumentation, Functional and
+Timing tests.
+Concepts of Test Program (T.P) Generation. Commercially available off the shelf Test Equipment’s (COTS)
+Board Functional Test (BFT) techniques – Go-No-go Test – Diagnostic Test, Reliability Test, Thermal Shock
+Test, Full functional Edge to edge test, Cluster Test – Guided Probe Backtracking Technique – Simulators –
+Online and Offline Simulation - Fault Simulation– Comprehensiveness of Board program – Fault Dictionary–
+Analysis – BS and Non-BS device testing–- Sample board programming and testing – BS interconnect and
+simulating faults - External Instrumentation used for board testing – PXI Instrumentation – Integration of PXI
+instruments for testing
+Design for testability (DFT) and Design for manufacturability (DFM) - Basics of ATPG, – Fault Models –
+– Design considerations for edge functional test, Design considerations for Bus Cycle Signature Test, Design
+considerations for Boundary Scan Test, Built-in Self-Test, Modular Design– ATE for test - DFM -
+Manufacturing phases in industry oriented Production process – strategies – new strategy - benefits of new
+strategies
+Reference Books:
+1. Test Engineering for Electronic Hardware – S R Sabapathi, Qmax Test Equipments P Ltd., 2011
+2. Practical Electronic Fault Finding and Troubleshooting - Robin Pain Newnes, Reed Educational and
+professional publishing Ltd., 1996
+3. The Fundamentals of Digital Semiconductor Testing, Floyd, Pearson Education India, Sep-2005
+4. Building a Successful Board Test Strategy-Stephen F Scheiber-Butterworth Heinemann
+COURSE OUTCOMES
+Students are able to
+CO1: Understand PCB and various manufacturing techniques.
+CO2: Understand common PCB failure detection techniques.
+CO3: Understand the various ATE system components.
+CO4: Know different board functional test techniques.
+CO5: Understand the basic considerations for design manufacturability and testability.
+71 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

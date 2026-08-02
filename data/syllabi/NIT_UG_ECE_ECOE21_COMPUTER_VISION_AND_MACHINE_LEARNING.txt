@@ -1,0 +1,42 @@
+Course Code : ECOE21
+Course Title : COMPUTER VISION AND MACHINE LEARNING
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : OE
+Course Learning Objectives
+ Be familiar with the theoretical aspects of computing with images;
+ Describe the foundation of image formation, measurement, and analysis;
+Course Content
+Computer Vision and Computer Graphics, Computer Vision - Low-level, Mid-level, High-level,
+Diverse Computer Vision Applications: Document Image Analysis, Biometrics, Object Recognition,
+Tracking, Medical Image Analysis, Content-Based Image Retrieval, Video Data Processing.
+Segmentation -Object Recognition, Activity Recognition, and Gesture Recognition - Image features:
+Colour, Shape, Texture Shape orientation descriptors – SIFT, SURF, Viola Jones Feature detectors,
+Harris. Integral Histogram.
+Adaboost: concept of ensemble of classifiers; basic algorithm; case study- Face detection Artificial
+Immune Systems Fuzzy belief networks, Evolving belief networks Bayesian belief networks
+Evolutionary and swarm-based neural networks.
+Machine learning: classification, Machine learning: clustering, Machine learning: classification.
+Logistic regression Bayesian logistic regression Non-linear logistic regression Dual logistic regression
+Kernel logistic regression, Incremental fitting and boosting.
+Reinforcement learning - Classification trees- Multi-class logistic regression Random trees, Random
+forests, Applications. Introduction to Deep Learning.
+Text Books
+1. Richard Szeliski, “Computer Vision: Algorithms and Applications”, Springer, 2010.
+2. D. Forsyth and J. Ponce,”Computer Vision - A modern approach”, Prentice Hall, 2002.
+Reference Books
+1. Richard Hartley and Andrew Zisser man, Multiple view geometry in computer vision 2nd
+edition, Cambridge University press, 2004.
+2. E Davies, “Computer and Machine Vision, Algorithms, Practicalities”, 4th Edition, Elsevier,
+2012.
+Course outcomes
+At the end of the course student will be able
+CO1: learn the basics of computer vision.
+CO2: learn the vision features.
+CO3: understand issue of segmentation in computer vision algorithms.
+CO4: study the basics of Machine learning.
+CO5: know the design of Deep learning architectures.
+90 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

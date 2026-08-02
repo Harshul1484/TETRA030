@@ -1,0 +1,40 @@
+Course Code : ECPE31
+Course Title : FIBER OPTIC COMMUNICATION
+Number of Credits 3
+Prerequisites : ECPC12 &ECPC18
+(Course code)
+Course Type : PE
+Course Learning Objective
+ To expose the students to the basics of signal propagation through optical fibers, fiber
+impairments, components, devices and system design.
+Course Content
+Optical Fibers: Structure, Wave guiding. Step-index and Graded index optical fibers. Modal analysis.
+Classification of modes. Single Mode Fibers.
+Pulse dispersion. Material and Waveguide dispersion. Polarization Mode Dispersion. Absorption,
+scattering and bending losses. Dispersion Shifted Fibers, Dispersion Compensating Fibers.
+Optical sources: LEDs and Laser Diodes. Optical Power Launching and Coupling. Source to Fiber
+coupling, Fiber to Fiber joints. Misalignments. Schemes for coupling improvement.
+Optical detectors: PIN and Avalanche photodiodes, Photo detector noise, Optical receivers. Digital
+link design: Power budget and Rise time budget. Attenuation and Dispersion limit.
+WDM Concepts. Optical Amplifiers: EDFA. Nonlinear effects: Self Phase Modulation, Nonlinear
+Schrodinger Equation. Optical Soliton.
+Text Books
+1. G. Keiser, “Optical Fiber Communications (5/e)”, McGraw Hill, 2013.
+2. A. Ghatak & K. Thygarajan, “Introduction to Fiber Optics”, Cambridge, 1999.
+Reference Books
+1. G. P. Agarwal, “Fiber Optic Communication Systems”, (4/e), Wiley, 2010.
+2. M. M. K. Liu, “Principles and Applications of Optical Communications”, Tata McGraw Hill,
+2010.
+3. A. Selvarajan, S. Kar and T. Srinivas, “Optical Fiber Communication Principles and
+Systems”, Tata McGraw Hill, 2006.
+.
+Course outcomes
+At the end of the course student will be able
+CO1: Recognize and classify the structures of Optical fiber and types.
+CO2: Discuss the channel impairments like losses and dispersion.
+CO3: Classify the Optical sources and calculate various coupling losses.
+CO4: Classify detectors and to design a fiber optic link.
+CO5: Familiar with concepts of WDM, optical amplifiers and Soliton Propagation.
+52 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,51 @@
+Course Code : ECPE13
+Course Title : COMPUTER ARCHITECTURE AND ORGANIZATION
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course Learning Objectives
+ To understand how computers are constructed out of a set of functional units and how the
+functional units operate, interact, and communicate.
+ To make the students to understand the concept of interfacing memory and various I/O
+devices to a computer system using a suitable bus system.
+Course Content
+Introduction: Function and structure of a computer, Functional components of a Computer,
+Interconnection of components, Performance of a computer.
+Representation of Instructions: Machine instructions, Memory locations & Addresses, Operands,
+Addressing modes, Instruction formats, Instruction sets, Instruction set architectures - CISC and RISC
+architectures, Super scalar Architectures, Fixed point and floating point operations.
+Basic Processing Unit: Fundamental concepts, ALU, Control unit, Multiple bus organization,
+Hardwired control, Micro programmed control, Pipelining, Data hazards, Instruction hazards,
+Influence on instruction sets, Data path and control considerations, Performance considerations.
+Memory organization: Basic concepts, Semiconductor RAM memories, ROM, Speed - Size and cost,
+Memory Interfacing circuits, Cache memory, Improving cache performance, Memory management
+unit, Shared/Distributed Memory, Cache coherency in multiprocessor, Segmentation, Paging,
+Concept of virtual memory, Address translation, Secondary storage devices.
+I/O Organization: Accessing I/O devices, Input/output programming, Interrupts, Exception Handling,
+DMA, Buses, I/O interfaces- Serial port, Parallel port, PCI bus, SCSI bus, USB bus, Firewall and
+Infinity band, I/O peripherals.
+Text Books
+1. C.Hamacher Z. Vranesic S. Zaky and Manjikian, "Computer Organization and Embedded
+Systems", 6 th Edition, McGraw-Hill, 2012.
+2. W. Stallings, "Computer Organization and Architecture - Designing for Performance", 8Th
+Edition, Prentice Hall of India, 2010.
+Reference Books
+1. B,Parhami, “Computer Architecture, From Microprocessors to Supercomputers,” Oxford
+University Press, Reprint 2014.
+2. J. L. Hennessy and D. A. Patterson, "Computer Architecture, A Quantitative Approach”, 5
+th Edition, Morgan Kaufmann,2012.
+3. J .P. Hayes, "Computer Architecture and Organization", 3 rd Edition, McGraw-Hill, 1998.
+4. Recent literature in Computer Architecture and Organization.
+Course outcomes
+At the end of the course student will be able to
+CO1: apply the basic knowledge of digital concept to the functional components of a Computer
+System.
+CO2: analyze the addressing mode concepts and design the instruction set Architecture.
+CO3: identify the functions of various processing units within the CPU of a Computer System.
+CO4: analyze the function of the memory management unit and create suitable memory interface
+to the CPU.
+CO5: recognize the need for recent Bus standards and I/O devices.
+35 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,35 @@
+CE451 Experimental Stress Analysis 3 0 0 3
+CE451 EXPERIMENTAL STRESS ANALYSIS
+Course objectives:
+To study the working principles of different types of strain gauges
+37
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To understand the model analysis
+To know the fundamentals of photo elastic coatings
+To study the effects of 2-D photo elasticity
+To study the working principle of load, pressure and displacement transducers
+Course Content
+Strain gauges – Mechanical, optical, acoustic, electrical inductance and capacitance pneumatic types –
+description and working principles
+Electrical resistance strain gauges, gauge characteristics and types – Equipment for recording static
+strain – reduction of strain gauge data.
+Load, pressure and displacement transducers.
+Model analysis – direct and indirect models – law of structural similitude – choice of scales – Model
+materials – limitations of model studies –Buckingham PI theorem – design of direct and indirect models
+– Beggs deformeter and its applications.
+Two dimensional photo – elasticity – optical principles stress optic law – Methods of producing isoclines
+and isochromatics using polariscopes – Methods of measuring fractional fringe orders – model
+materials – separation techniques
+Fundamental of Photo elastic coatings, Moire fringe and brittle coating techniques – Introduction to
+stress freezing techniques – Introduction to non-destructive testings
+References
+1. Daley and Riley, Experimental Stress Analysis, McGraw Hill Book Company, 1987
+2. Srinath, L.S. et al., Experimental Stress Analysis, Tata McGraw Hill 1984.
+3. Hetenyi, M., Hand Book of Experimental Stress Analysis, John Wiley & Sons. Inc New York. 1980.
+Course outcomes:
+On completion of the course, the students will be able to:
+identify the different types of strain gauges
+carry out model analysis
+apply the concepts of photo elastic coatings
+analyze the behavior of 2-D photo elasticity
+apply the working principles of transducers

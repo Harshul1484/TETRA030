@@ -1,0 +1,45 @@
+Course Code : ECMI25
+Course Title : VLSI SYSTEMS
+Number of Credits 3
+Prerequisites : ECMI14
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To introduce various aspects of VLSI circuits and their design including testing.
+Course Content
+VLSI design methodology, VLSI technology- NMOS, CMOS and BICMOS circuit fabrication. Layout
+design rules. Stick diagram. Latch up.
+Characteristics of MOS and CMOS switches. Implementation of logic circuits using MOS and CMOS
+technology, multiplexers and memory, MOS transistors, threshold voltage, MOS device design
+equations. MOS models, small-signal AC analysis. CMOS inverters, propagation delay of inverters,
+Pseudo NMOS, Dynamic CMOS logic circuits, power dissipation.
+Programmable logic devices- anti-fuse, EPROM and SRAM techniques. Programmable logic cells.
+Programmable inversion and expander logic. Computation of interconnect delay, Techniques for driving
+large off-chip capacitors, long lines, Computation of interconnect delays in FPGAs Implementation of
+PLD, EPROM, EEPROM, static and dynamic RAM in CMOS.
+An overview of the features of advanced FPGAs, IP cores, Softcore processors, Various factors
+determining the cost of a VLSI, Comparison of ASICs, FPGAs , PDSPs and CBICs . Fault tolerant VLSI
+architectures
+VLSI testing -need for testing, manufacturing test principles, design strategies for test, chip level and
+system level test techniques.
+Text Books
+1. N. H. E. Weste, D.F. Harris, “CMOS VLSI design”, (3/e), Pearson , 2005.
+2. J. Smith, “Application Specific Integrated Circuits, Pearson”, 1997.
+Reference Books
+1. M.M.Vai, “VLSI design”, CRC Press, 2001.
+2. Pucknell & Eshraghian, “Basic VLSI Design”, PHI, (3/e), 2003.
+3. Uyemura, “Introduction to VLSI Circuits and Systems”, Wiley, 2002.
+Course outcomes
+At the end of the course student will be able
+CO1: Describe the techniques used for VLSI fabrication, design of CMOS logic circuits, switches
+and memory
+CO2: Describe the techniques used the design of CMOS logic circuits, switches and memory in VLSI
+CO3: Generalize the design techniques and analyze the characteristics of VLSI circuits such as area,
+speed and power dissipation
+CO4: Explain and compare the architectures for FPGA, PAL and PLDs and evaluate their
+characteristics such as area, power dissipation and reliability
+CO4: Use the advanced FPGAs to realize Digital signal processing systems
+CO5: Describe the techniques for fault tolerant VLSI circuits
+117 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

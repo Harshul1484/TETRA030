@@ -1,0 +1,79 @@
+Course Code : ICPE50
+Course Title : Hydraulics and Pneumatics
+Type of Course : PE
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To provide an understanding of the working of hydraulic and pneumatic systems.
+CLO2 To provide an understanding of energy transfer in hydraulic actuators and motors
+CLO3 To provide knowledge about controlling components of hydraulic and pneumatic
+systems.
+CLO4 To provide knowledge of design of hydraulic and pneumatic systems and analyze
+them.
+Course Content
+Introduction to Hydraulic Power: Pascal’s law and problems on Pascal’s Law, continuity
+equations, Introduction to conversion of units, Structure of Hydraulic Control System. The
+Source of Hydraulic Power: Pumps Pumping theory, pump classification, gear pumps, vane
+pumps, piston pumps, pump performance, pump selection. Variable displacement pumps.
+Hydraulic Actuators: Linear Hydraulic Actuators [cylinders], Mechanics of Hydraulic Cylinder
+loading.
+Hydraulic Motors: Hydraulic Rotary Actuators, Gear motors, vane motors, piston motors,
+Hydraulic motor theoretical torque, power and flow rate, hydraulic motor performance. Control
+Components in Hydraulic Systems: Directional Control Valves – Symbolic representation,
+Constructional features, pressure control valves – direct and pilot operated types, flow control
+valves.
+Hydraulic Circuit Design and Analysis: Control of single and double – acting hydraulic
+cylinder, regenerative circuit, pump unloading circuit, counter balance valve application,
+hydraulic cylinder sequencing circuits. Cylinder synchronizing circuits, speed control of
+hydraulic cylinder, speed control of hydraulic motors, Accumulators. Maintenance of
+Hydraulic Systems: Hydraulic oils; desirable properties, general type of fluids, sealing
+devices, reservoir system, filters and strainers, problem caused by gases in hydraulic fluids,
+wear of moving parts due to solid particle contamination, temperature control, trouble
+shooting.
+Introduction to Pneumatic Control: Choice of working medium, characteristics of compressed
+air. Structure of pneumatic control system. Compressed air: Production of compressed air –
+compressors, preparation of compressed air- Driers, filters, regulators, lubricators,
+distribution of compressed air. Pneumatic Actuators: Linear cylinders – types, conventional
+type of cylinder working, end position cushioning, seals, mounting arrangements
+applications.
+Directional Control Valves: Symbolic representation as per ISO 1219 and ISO 5599. Design
+and constructional aspects, poppet valves, slide valves spool valve, suspended seat type
+slide valve. Simple Pneumatic Control: Direct and indirect actuation pneumatic cylinders, use
+of memory valve. Flow control valves and speed control of cylinders supply air throttling and
+exhaust air throttling, use of quick exhaust valve. Signal Processing Elements: Use of
+Logic gates – OR and AND gates pneumatic applications, practical examples involving
+the use of logic gates, Pressure dependent controls types construction– practical
+applications, time dependent controls – principle, construction, practical applications.
+B.Tech. / Instrumentation and Control Engineering 169 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Anthony Esposito, Fluid Power with applications, Pearson education, Inc., 5th Edition,
+2008.
+2. Andrew Parr, Pneumatics and Hydraulics, Jaico Publishing Co. 2005.
+3. Dr. Niranjan Murthy and Dr.R.K. Hegde, Hydraulics and Pneumatics, Sapna
+Publications, 2013.
+4. Majumdar S.R., Oil Hydraulics Systems - Principles and Maintenance, Tata McGraw-
+Hill, 2017.
+5. Majumdar, S.R., Pneumatic Systems – Principles and Maintenance, Tata McGraw Hill,
+2017.
+6. Srinivasan. R, Hydraulic and Pneumatic Control, Tata McGraw - Hill Education, 2nd
+Edition, 2019.
+7. Shanmugasundaram.K, Hydraulic and Pneumatic controls, ChandandCo,2006.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Acquire knowledge about working of hydraulic and pneumatic systems.
+CO2 Identify the controlling components of hydraulic and pneumatic systems.
+CO3 Analyse and compile the design of hydraulic and pneumatic systems
+CO4 Demonstrate the need of pressure and time dependent controls.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 170 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

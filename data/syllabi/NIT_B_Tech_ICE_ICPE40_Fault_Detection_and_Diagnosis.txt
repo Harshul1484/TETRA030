@@ -1,0 +1,66 @@
+Course Code : ICPE40
+Course Title : Fault Detection and Diagnosis
+Type of Course : PE
+Prerequisites : ICPC21
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge in fault detection and identification.
+CLO2 To introduce different structure residual technique for the fault identification.
+CLO3 To introduce different directional residual technique for the fault identification.
+CLO4 To impart the knowledge in soft computation technique based FDI design
+Course Content
+Introduction to Fault Detection and Diagnosis: Scope of FDD: Types of faults and different
+tasks of Fault Diagnosis and Implementation - Different approaches to FDD: Model free and
+Model based approaches. Classification of Fault and Disturbances- Different issues involved
+in FDD- Typical applications.
+Analytical Redundancy Concepts: Introduction- Mathematical representation of Fault and
+Disturbances: Additive and Multiplicative types – Residual Generation: Detection, Isolation,
+Computational and stability properties – Design of Residual generator – Residual specification
+and Implementation.
+Design of Structured Residuals: Introduction- Residual structure of single fault Isolation:
+Structural and Canonical structures- Residual structure of multiple fault Isolation: Diagonal
+and Full Row canonical concepts – Introduction to parity equation implementation and
+alternative representation.
+Design of Directional Residuals: Introduction – Directional Specifications: Directional
+specification with and without disturbances – Parity Equation Implementation – Linearly
+dependent column.
+Advanced level issues and design involved in FDD: Introduction of Residual generation of
+parametric fault – Robustness Issues –Statistical Testing of Residual generators – Application
+of Neural and Fuzzy logic schemes in FDD – Case study.
+References
+1. Janos J. Gertler, Fault Detection and Diagnosis in Engineering systems, Macel
+Dekker, 2nd Edition, 1998.
+2. Rolf Isermann, Fault-Diagnosis Systems: An Introduction from Fault Detection to Fault
+Tolerance, Springer Verlag, 2011.
+3. Sachin. C. Patwardhan, Fault Detection and Diagnosis in Industrial Process –
+Lecture Notes, IIT Bombay, February 2005.
+4. Rami S. Mangoubi, Robust Estimation and Failure detection. Springer-Verlag-London
+1998.
+5. Steven X. Ding, Model based Fault Diagnosis Techniques: Schemes, Algorithms, and
+Tools, Springer Publication, 2012.
+6. Hassan Noura, Didier Theilliol, Jean-Christophe Ponsart, Abbas Chamseddine, Fault
+Tolerant Control Systems: Design and Practical Applications, Springer Publication,
+2009.
+Mogens Blanke, Michel Kinnaert, Jan Lunze, Marcel Staroswiecki., Diagnosis and
+7.
+Fault-Tolerant Control, Springer, 2016.
+B.Tech. / Instrumentation and Control Engineering 149 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Identify the different type of faults occurred in a system.
+CO2 Apply mathematical techniques to detect faults.
+CO3 Apply structured and directional techniques for FDI design.
+CO4 Apply soft computation technique for FDI development.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 2 - - - - - 3 3
+CO2 3 3 3 3 3 2 2 - - - - - 3 3
+CO3 3 3 3 3 3 2 2 - - - - - 3 3
+CO4 3 3 3 3 3 2 2 - - - - - 3 3
+B.Tech. / Instrumentation and Control Engineering 150 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

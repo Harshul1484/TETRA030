@@ -6,7 +6,11 @@ from fastapi import APIRouter, HTTPException
 
 from app.api.deps import get_augmenter, get_pipeline
 from app.contracts import AugmentProposal, GapReport
-from app.db.queries import fetch_courses, fetch_prerequisite_chain
+from app.db.queries import (
+    fetch_courses,
+    fetch_domain_postings,
+    fetch_prerequisite_chain,
+)
 from app.pipeline.roadmap import build_roadmap
 
 logger = logging.getLogger(__name__)
@@ -102,6 +106,29 @@ def course_roadmap(course_code: str) -> dict:
     plan = build_roadmap(course_code, report.gaps)
     plan["course_title"] = report.course_title
     return plan
+
+
+@router.get("/courses/{course_code}/evidence")
+def course_evidence(course_code: str, limit: int = 25) -> dict:
+    """The job postings a course's audit was measured against.
+
+    Every figure in the gap report reduces to a count of postings. Listing
+    them turns that count from an assertion into something the reader can
+    check, which matters most where the count is low enough to withhold the
+    findings entirely.
+    """
+    report = course_gaps(course_code)
+    categories = [c for c in report.scored_against if c != "all categories"]
+    postings = fetch_domain_postings(categories, limit=limit)
+
+    return {
+        "course_code": report.course_code,
+        "course_title": report.course_title,
+        "scored_against": report.scored_against,
+        "domain_postings": report.domain_postings,
+        "evidence_thin": report.evidence_thin,
+        "postings": postings,
+    }
 
 
 @router.post("/augment/{course_code}", response_model=AugmentProposal)

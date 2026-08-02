@@ -1,17 +1,7 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-References
-1. Chapra, S.C., and Canale R.P., Numerical Methods for Engineers, McGraw-Hill, 2004
-2. Rajasekaran, S., Numerical Methods in Science and Engineering A Practical Approach,
-A.H.Wheeler and Co, 2005.
-3. Ronald W., Leigh, AutoCAD: A Concise Guide to Commands and Features, Galgotia Publications,
-2004.
-Course outcomes:
-On completion of the course, the students will be able to:
-develop programs for numerical methods
-solve numerical techniques in computer
-implement Computer Aided Drafting
-apply DBMS concepts to Civil Engineering
-apply Spreadsheet calculations to Civil Engineering
+CE314 Estimation, Costing and Valuation 0 0 3 2
+Total 15 2 10 23
+SEMESTER VII
+Code Course of Study L T P C
 CE314 ESTIMATION, COSTING AND VALUATION
 Course objectives:
 To know the importance of preparing the types of estimates under different conditions
@@ -34,3 +24,5 @@ carry out analysis of rates and bill preparation at different locations
 demonstrate the concepts of specification writing
 carry out valuation of assets
 30
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+SEMESTER VII

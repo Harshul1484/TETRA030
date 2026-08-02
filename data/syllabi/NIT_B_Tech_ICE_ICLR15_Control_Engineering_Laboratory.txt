@@ -1,0 +1,52 @@
+Course Code : ICLR15
+Course Title : Control Engineering Laboratory
+Type of Course : LR
+Prerequisites : ICPC18
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge on analysis and design of control system in time and
+frequency domain.
+CLO2 To impart knowledge in classical control and state space-based control system
+design.
+CLO3 To study the characteristics of compensating networks
+CLO4 To familiarize the students with MATLAB Real-time programming to collect and
+process data.
+List of Experiments
+1. Time response characteristics of a second order system.
+2. Frequency response characteristics of a second order system.
+3. Constant gain compensation in time and frequency domain.
+4. Compensating Networks - Characteristics
+5. Design of compensation networks - Lead, Lag, Lead-lag
+6. Design of state feedback controller.
+7. Observer design - full order and reduced order.
+8. Real time control of AC/DC servo system
+9. Real Time control of 2 DOF Helicopter control
+10. Real Time vibration control of cantilever beam at resonance with piezoelectric
+sensing and actuation
+11. Real time control of 3DOF GYRO
+12. Real time control of Inverted Pendulum
+References
+1. Dorf, R.C., and Bishop, R.H., Modern Control Systems, 14th Edition, Prentice
+Hall,Pearson,2022.
+2. Daniel H. Sheingold, Transducer Interfacing Handbook – A Guide to Analog Signal
+Conditioning, Analog Devices Inc. 1980.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design control systems in both classical and modern techniques.
+CO2 Design and implement controllers to regulate and control various systems.
+CO3 Design full order and reduced order state observer.
+CO4 Demonstrate real-time control of various electro-mechanical systems
+B.Tech. / Instrumentation and Control Engineering 83 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 3 1 - 2 3 3 2 2 3 3 -
+CO2 3 2 3 3 3 1 - 2 3 3 2 2 3 3 -
+CO3 3 1 3 3 3 1 - 2 3 3 2 2 3 3 -
+CO4 3 2 3 3 3 1 - 2 3 3 2 2 3 3 -
+B.Tech. / Instrumentation and Control Engineering 84 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

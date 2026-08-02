@@ -1,0 +1,51 @@
+Course Code : ECHO34
+Course Title : ADVANCED DIGITAL SIGNAL PROCESSING
+Number of Credits 4
+Prerequisites : ECPC15
+(Course code)
+Course Type : HO
+Course learning Objective
+ To provide rigorous foundations in discrete-time stochastic process, optimum filter,
+adaptive filter, power spectrum estimation and frequency estimation.
+Course content
+Discrete-Time Random Process : Random Process: Ensemble average, Gaussian processes,
+Stationary process, autocovariance and autocorrelation matrices, ergodicity, white noise, power
+spectrum. Filtering random processes. Spectral factorization. ARMA, AR and MA processes.
+Harmonic processes. Linear mean square estimation. Parameter estimation Bias and consistency.
+Optimum Linear filter and linear prediction : FIR Wiener filter. Orthogonality principle in linear
+mean square estimation. IIR Wiener filter: Non-causal Wiener filter and causal Wiener filter. Linear
+prediction. Forward and backward linear prediction. Levinson-Durbin algorithm.
+Adaptive Filters : Adaptive filters. FIR adaptive filter. The steepest decent adaptive filter. LMS
+algorithm. Convergence of adaptive algorithms. Normalized LMS algorithm. Adaptive noise
+cancellation. Exponentially weighted RLS algorithm
+Power Spectrum Estimation: Spectrum estimation. Estimation of autocorrelation. Periodogram
+method. Performance of the periodogram. Nonparametric methods: Bartlett’s method, Welch method
+and Blackman-Tukey method. Performance comparisons. Minimum variance spectrum estimation.
+Parametric methods: AR spectrum estimation. Model parameter-Yule Walker equations.
+Frequency Estimation: Eigen analysis of autocorrelation matrix. Pisarenko Harmonic
+Decomposition. MUSIC method. ESPRIT method. Minimum variance frequency estimation.
+Propagator method.
+Text Books
+1. M.H.Hayes,” Statistical Digital Signal Processing and Modeling”, John-Wiley, 2001.
+2. S.Haykin, “Adaptive Filter Theory (4/e)”, Prentice- Hall, 2002.
+Reference Books
+1. D.G.Manolakis, V. K. Ingle, and S. M. Kogon ,”Statistical and Adaptive Signal Processing”,
+McGraw-Hill,2005
+2. S.L.Marple,”Digital Spectral Analysis”, 1987.
+3. Recent literature in Advanced Digital Signal Processing.
+153 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course outcomes
+At the end of the course student will be able
+CO1: To understand and analyze discrete-time random processes and employ the concept of
+stochastic processes to analyses linear systems
+CO2: To select linear filtering and prediction techniques to engineering problems.
+CO3: To describe the most important adaptive filter generic problems and various adaptive filter
+algorithms.
+CO4: To derive and analyses the statistical properties of the conventional spectral estimators,
+nonparametric and parametric estimation method.
+CO5: To select an appropriate array processing algorithm for frequency estimation
+154 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

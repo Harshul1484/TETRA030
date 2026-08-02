@@ -1,11 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-Course outcomes:
-On completion of the course, the students will be able to:
-determine the sewage characteristics and design various sewage treatment plants
-analyze the status of surface water and ground water quality and the remediation technologies
-carry out municipal water and wastewater treatment system design and operation
-manage hazardous wastes, risk assessment and treatment technologies
-apply environmental treatment technologies and design processes
+CE303 Structural Analysis - I 2 1 0 3
 CE303 STRUCTURAL ANALYSIS – I
 Course objectives:
 To understand the concept of analysis of indeterminate structures by various classical methods
@@ -34,3 +27,4 @@ apply the concepts of ILD and moving loads on determinate structures
 apply the concept of equivalent UDL
 determine the reversal of stresses in trusses using ILD
 19
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.

@@ -1,18 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-5. Hardness test
-6. Tests on brick
-7. Tests on cement
-8. Tests on concrete
-9. Tests on aggregate
-10. Tests on bitumen
-Course outcomes:
-On completion of the course, the students will be able to:
-evaluate Young Modulus, torsional strength, hardness and tensile strength of given specimens
-determine the strength of coarse aggregates
-find the compressive strength of concrete cubes and bricks
-find stiffness of open coiled and closed coiled springs
-determine the physical properties of given coarse aggregates, fine aggregates and cement samples
-SEMESTER V
+CE301 Environmental Engineering - II 2 0 2 3
 CE301 ENVIRONMENTAL ENGINEERING – II
 Course objectives:
 To learn the basics of sewage composition and its characteristics
@@ -39,3 +25,11 @@ New Delhi, 1992.
 Hill, Inc., New York, 2005.
 4. Manual of Sewage and Sewage Treatment - CPHEEO, 1999.
 18
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the sewage characteristics and design various sewage treatment plants
+analyze the status of surface water and ground water quality and the remediation technologies
+carry out municipal water and wastewater treatment system design and operation
+manage hazardous wastes, risk assessment and treatment technologies
+apply environmental treatment technologies and design processes

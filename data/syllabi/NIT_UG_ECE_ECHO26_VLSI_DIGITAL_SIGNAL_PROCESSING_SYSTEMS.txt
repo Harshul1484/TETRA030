@@ -1,0 +1,38 @@
+Course Code : ECHO26
+Course Title : VLSI DIGITAL SIGNAL PROCESSING SYSTEMS
+Number of Credits 3
+Prerequisites : ECPC15 &ECPE31
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To enable students to design VLSI systems with high speed and low power.
+ To encourage students to develop a working knowledge of the central ideas of implementation
+of DSP algorithm with optimized hardware.
+Course content
+An overview of DSP concepts, Representations of DSP algorithms. Systolic Architecture Design: FIR
+Systolic Array, Matrix-Matrix Multiplication, 2D Systolic Array Design. Digital Lattice Filter
+Structures: Schur Algorithm, Derivation of One-Multiplier Lattice Filter, Normalized Lattice Filter,
+Pipelining of Lattice Filter.
+Scaling and Round off Noise - State variable description of digital filters, Scaling and Round off Noise
+computation, Round off Noise in Pipelined IIR Filters, Round off Noise Computation using state
+variable description, Slow-down, Retiming and Pipelining.
+Bit level arithmetic Architectures- parallel multipliers, interleaved floor-plan and bit-plane-based
+digital filters, Bit serial multipliers, Bit serial filter design and implementation, Canonic signed digit
+arithmetic, Distributed arithmetic.
+Redundant arithmetic -Redundant number representations, carry free radix-2 addition and subtraction,
+Hybrid radix-4 addition, Radix-2 hybrid redundant multiplication architectures, data format
+conversion, Redundant to Non redundant converter.
+Numerical Strength Reduction – Sub expression Elimination, Multiple Constant Multiplication, Sub
+expression sharing in Digital Filters, Additive and Multiplicative Number Splitting.
+Text Book
+1. K.K.Parhi, “VLSI Digital Signal Processing Systems”, John-Wiley, 2007
+Reference Book
+1. U. Meyer -Baese, Digital Signal Processing with FPGAs, Springer, 2004
+2. Recent literature in VLSI Digital Signal Processing Systems.
+Course outcomes
+At the end of the course student will be able
+CO1: Acquire the knowledge of round off noise computation and numerical strength reduction.
+CO2: Ability to design Bit level and redundant arithmetic Architectures.
+145 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

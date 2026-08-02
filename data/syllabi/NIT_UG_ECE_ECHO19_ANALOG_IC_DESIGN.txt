@@ -1,0 +1,44 @@
+Course Code : ECHO19
+Course Title : ANALOG IC DESIGN
+Number of Credits 3
+Prerequisites : ECPC20
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To develop the ability design and analyze MOS based Analog VLSI circuits to draw the
+equivalent circuits of MOS based Analog VLSI and analyse their performance.
+ To develop the skills to design analog VLSI circuits for a given specification.
+Course content
+Basic MOS Device Physics – General Considerations, MOS I/V Characteristics, Second Order
+effects, MOS Device models. Short Channel Effects and Device Models. Single Stage Amplifiers –
+Basic Concepts, Common Source Stage, Source Follower, Common Gate Stage, Cascode Stage.
+Differential Amplifiers – Single Ended and Differential Operation, Basic Differential Pair, Common-
+Mode Response, Differential Pair with MOS loads, Gilbert Cell. Passive and Active Current Mirrors
+– Basic Current Mirrors, Cascode Current Mirrors, Active Current Mirrors.
+Frequency Response of Amplifiers – General Considerations, Common Source Stage, Source
+Followers, Common Gate Stage, Cascode Stage, Differential Pair. Noise – Types of Noise,
+Representation of Noise in circuits, Noise in single stage amplifiers, Noise in Differential Pairs.
+Feedback Amplifiers – General Considerations, Feedback Topologies, Effect of Loading.
+Operational Amplifiers – General Considerations, One Stage Op Amps, Two Stage Op Amps, Gain
+Boosting, Common-Mode Feedback, Input Range limitations, Slew Rate, Power Supply Rejection,
+Noise in Op Amps. Stability and Frequency Compensation.
+Band gap References, Introduction to Switched Capacitor Circuits, Nonlinearity and Mismatch.
+Text Books
+1. B.Razavi, “Design of Analog CMOS Integrated Circuits”, McGraw Hill Edition2002.
+2. Paul. R.Gray, Robert G. Meyer, “Analysis and Design of Analog Integrated Circuits”,
+Wiley, (4/e), 2001.
+Reference Books
+1. D. A. Johns and K. Martin, “Analog Integrated Circuit Design”, Wiley,1997.
+2. R. Jacob Baker, “CMOS Circuit Design, Layout, and Simulation”, Wiley, (3/e),2010.
+3. P.E.Allen, D.R. Holberg, “CMOS Analog Circuit Design”, Oxford University Press,2002.
+4. Recent literature in Analog IC Design.
+Course outcomes
+At the end of the course student will be able
+CO1: draw the equivalent circuits of MOS based Analog VLSI and analyze their performance.
+CO2: design analog VLSI circuits for a givenspecification.
+CO3: Analyse the frequency response of the different configurations of a amplifier.
+CO4: Understand the feedback topologies involved in the amplifierdesign.
+CO5: Appreciate the design features of the differentialamplifiers.
+137 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

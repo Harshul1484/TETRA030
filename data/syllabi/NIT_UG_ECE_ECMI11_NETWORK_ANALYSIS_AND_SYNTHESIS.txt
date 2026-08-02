@@ -1,0 +1,42 @@
+Course Code : ECMI11
+Course Title : NETWORK ANALYSIS AND SYNTHESIS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : MI
+Course Learning Objectives
+ To make the students capable of analysing any given electrical network.
+ To make the students to learn synthesis of an electrical network for a given impedance/
+admittance function.
+Course Content
+Network concept. Elements and sources. Kirchhoff’s laws. Tellegen’s theorem. Network equilibrium
+equations. Node and Mesh method. Source superposition. Thevenin’s and Norton’s theorems.
+Network graphs.
+First and second order networks. State equations. Transient response. Network functions.
+Determination of the natural frequencies and mode vectors from network functions.
+Sinusoidal steady-state analysis. Maximum power-transfer theorem. Resonance. Equivalent and dual
+networks. Design of equalizers.
+Two-port network parameters. Interconnection of two port networks. Barlett’s bisection theorem.
+Image and
+Iterative parameters. Design of attenuators.
+Two-terminal network synthesis. Properties of Hurwitz polynomial and Positive real function.
+Synthesis of LC, RC and RL Networks, Foster Forms and Cauer Forms.
+Text Books
+1. Hayt W. H., Kemmerly J. E. and Durbin S. M., “Engineering Circuit Analysis”, 6th Ed., Tata
+McGraw-Hill Publishing Company Ltd., 2008.
+2. F.F. Kuo, “Network analysis and Synthesis”, Wiley International Edition, 2008.
+Reference Books
+1. Valkenberg V., “Network Analysis”, 3rd Ed., Prentice Hall International Edition, 2007.
+2. B.S.Nair and S.R.Deepa, “Network analysis and Synthesis”, Elsevier, 2012.
+Course outcomes
+At the end of the course student will be able
+CO1: analyze the electric circuit using network theorems
+CO2: understand and Obtain Transient & Forced response
+CO3: determine Sinusoidal steady state response; understand the real time applications of
+maximum power transfer theorem and equalizer
+CO4: understand the two–port network parameters, are able to find out two-port network
+parameters & overall response for interconnection of two-port networks.
+CO5: synthesize one port network using Foster form, Cauer form.
+103 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

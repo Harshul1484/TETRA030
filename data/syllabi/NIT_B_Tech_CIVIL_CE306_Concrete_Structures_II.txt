@@ -1,0 +1,33 @@
+CE306 Concrete Structures-II 3 0 2 4
+CE306 CONCRETE STRUCTURES – II
+Course objectives:
+To understand the design concept of various structures and detailing of reinforcements
+To understand the design of underground and elevated liquid retaining structures
+To study the design of material storage structures
+To know the effect of temperature on concrete structures
+To study the design of bridges subjected to IRC loading
+Course Content
+Earth Retaining structures - Retaining walls- types - cantilever and counterfort - design - drainage and
+other construction details. Liquid Retaining structure - Water tanks - types - square, rectangular, circular
+- Design of underground and elevated tanks - design of staging - spherical & conical roof for circular
+26
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+tanks. Material storage structures - Determination of lateral pressure on side walls of bunker -
+Rankine's theory - design of bunker - design of circular silo using Jansen's theory. Environmental
+Structures - Chimneys - Principles and Design - Design of long columns. Transportation structures -
+Bridges - Slab bridge - Design of single span slab bridge - Tee beam bridge - Design of Tee beam
+bridge with stiffness - Tee beam bridge with cross girders
+Note: Assignments include the design and drawings of various RCC structures.
+References
+1. Vazirani, V.N., and Ratwani, Concrete Structures, Vol. IV, Khanna Publishers, New Delhi, 1995.
+2. Dayaratnam, P., Design of Reinforced Concrete Structures, Oxford & IBH Publishers & Co., New
+Delhi, 2005.
+3. Victor, D.J., Essentials of Bridge Engineering, Oxford & IBH Publishers Co., Newdelhi, 1991.
+4. IS456-2006 Code of practice for Plain and reinforced concrete code of practice.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the concepts of liquid retaining structures
+design material storage structures using various theories
+apply the concepts of environmental and transportation structures
+demonstrate the detailing of reinforcement
+draw the various RCC structures

@@ -1,0 +1,48 @@
+Course Code : ECPE18
+Course Title : DIGITAL SIGNAL PROCESSORS AND APPLICATIONS
+Number of Credits 3
+Prerequisites : ECPC15
+(Course code)
+Course Type : PE
+Course Learning Objective
+ To give an exposure to the various fixed point and floating point DSP architectures, to
+understand the techniques to interface sensors and I/O circuits and to implement applications
+using these processors.
+Course Content
+Fixed-point DSP architectures. Basic Signal processing system. Need for DSPs. Difference between
+DSP and other processor architectures. TMS320C54X, ADSP21XX, DSP56XX architecture details.
+Addressing modes. Control and repeat operations. Interrupts. Pipeline operation. Memory Map and
+Buses.
+Floating-point DSP architectures. TMS320C3X, DSP96XX architectures. Cache architecture.
+Floating-point Data formats. On-chip peripherals. Memory Map and Buses.
+On-chip peripherals. Hardware details and its programming. Clock generator with PLL. Serial port.
+McBSP. Parallel port. DMA. EMIF. I2C. Real-time-clock (RTC). Watchdog timer.
+Interfacing. Serial interface- Audio codec. Sensors - Humidity/temperature sensor, flow sensor,
+accelerometer, pulse sensor and finger print scanner. A/D and D/A interfaces. Parallel interface-
+Memory interface. RF transceiver interface – Wi-Fi and Zigbee modules.
+DSP tools and applications. Implementation of Filters, DFT, QPSK Modem, Speech processing. Video
+processing, Videoencoding/Decoding. Biometrics. Machine Vision. High performance computing
+(HPC).
+Text Books
+1. B.Venkataramani & M.Bhaskar, “Digital Signal Processor, Architecture, Programming and
+Applications”,(2/e), McGraw- Hill,2010
+2. S.Srinivasan & Avtar Singh, “Digital Signal Processing, Implementations using DSP
+Microprocessors with Examples from TMS320C54X”, Brooks/Cole, 2004.
+Reference Books
+1. S.M.Kuo & W.S.S.Gan,” Digital Signal Processors: Architectures, Implementations, and
+Applications”, Printice Hall, 2004
+2. C.Marven & G.Ewers, “A Simple approach to digital signal processing”, Wiley Inter science,
+1996.
+3. R.A.Haddad & T.W.Parson, “Digital Signal Processing: Theory, Applications and
+Hardware”, Computer Science Press NY, 1991.
+Course outcomes
+At the end of the course student will be able
+CO1: learn the architecture details of fixed point DSPs.
+CO2: learn the architecture details of floating point DSPs
+CO3: infer about the control instructions, interrupts, pipeline operations, memory and buses.
+CO4: illustrate the features of on-chip peripheral devices and its interfacing with real time
+application devices.
+CO5: learn to implement the signal processing algorithms and applications in DSPs
+40 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,66 @@
+Course Code : ICPC17
+Course Title : Industrial Instrumentation
+Type of Course : PC
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to the importance of process variable measurements.
+CLO2 To expose the students to various measurement techniques used for the
+measurement of temperature, flow, pressure and level in process industries.
+CLO3 Make the students how to select and maintain the performance of new technology
+flow instruments.
+CLO4 To make the students knowledgeable in the design, installation and
+troubleshooting of process instruments.
+Course Content
+Temperature measurement: Introduction to temperature measurements, Thermocouple,
+Resistance Temperature Detector, Thermistor and its measuring circuits, Radiation pyrometers
+and thermal imaging.
+Pressure measurement: Introduction, definition and units, Mechanical, Electro-mechanical and
+electronic pressure measuring instruments. Low pressure measurement, Transmitter definition
+types, I/P and P/I Converters.
+Level measurement: Introduction, Differential pressure level detectors, Capacitance level
+sensor, Ultrasonic level detectors and Radar level transmitters and gauges.
+Flow measurement: Introduction, definition and units, classification of flow meters, differential
+pressure and variable area flow meters, Positive displacement flow meters, Electro Magnetic
+flow meters.
+Flow measurement: Hot wire anemometer, laser Doppler anemometer, ultrasonic, vortex and
+cross correlation flow meters, and measurement of mass flow rate.
+References
+1. Ernest O. Doebelin and Dhanesh N. Manik, Measurement Systems, McGraw Hill
+Education, 6th Edition, 2011
+2. B.G. Liptak, Process Measurement and Analysis, CRC Press, 4th Edition, 2003
+3. Patranabis D, Principles of Industrial Instrumentation, Tata McGraw Hill, 3rd Edition,
+2010
+4. B.E. Noltingk, Instrumentation Reference Book, Butterworth Heinemann, 2nd Edition,
+1995
+5. Douglas M. Considine, Process / Industrial Instruments and Controls Handbook,
+McGraw Hill, Singapore, 5th Edition, 1999
+6. Andrew W.G, Applied Instrumentation in Process Industries – A survey, Vol I and
+Vol II, Gulf Publishing Company, Houston, 2001
+7. Spitzer D. W., Industrial Flow measurement, ISA press, 3rd Edition, 2005
+8. Tony R. Kuphaldt, Lessons in Industrial Instrumentation, Version 2.02, Samurai Media
+Limited, April 2014
+9. Alok Baura, Fundamentals of Industrial Instrumentation, Wiley India Pvt. Ltd, 2011
+B.Tech. / Instrumentation and Control Engineering 54 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Explain the basic principles of instruments used for measuring temperature,
+pressure, flow and level in process industries.
+CO2 Identify a suitable measuring instrument for an application.
+CO3 Design signal condition and compensation circuits for temperature and pressure
+measuring instruments.
+CO4 Trouble shoot and maintain temperature, flow, pressure and level measuring
+devices for a specific process.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 2 3 2 2 1 2 2 1 2 3 3 1
+CO2 3 2 3 2 2 3 2 2 2 3 2 3 3 3 2
+CO3 3 3 3 3 2 2 2 2 2 2 2 2 3 3 2
+CO4 3 3 3 2 2 3 2 2 2 3 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 55 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

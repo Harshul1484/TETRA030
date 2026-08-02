@@ -1,0 +1,35 @@
+Course Code : ECPE23
+Course Title : DISPLAY SYSTEMS
+Number of Credits 3
+Prerequisites : ECPC13
+(Course code)
+Course Type : PE
+Course learning Objective
+ To expose the students to the basics of the display systems and to illustrate the current
+design practices of the display systems.
+Course content
+Introduction to displays. Requirements of displays. Display technologies, CRT, Flat panel and
+advanced display technologies. Technical issues in displays.
+Head mounted displays. Displays less than and greater than 0.5 m diagonal. Low power and light
+emitting displays.
+Operation of TFTs and MIMS. LCDs, Brightness. Types of LCD displays.
+Emissive displays, ACTFEL, Plasma display and Field emission displays, operating principle and
+performance.
+Types of Displays: 3D, HDTV, LED, Touch screen.
+Text Books
+1. L.W. Mackonald & A.C. Lowe, Display Systems, Design and Applications, Wiley, 2003.
+2. E.H. Stupp &M. S. Brennesholtz, Projection Displays, Wiley,1999
+Reference Book
+1. Peter A. Keller, Electronic Display Measurement: Concepts, Techniques, and
+Instrumentation, Wiley-Inter science, 1997.
+2. Recent literature in Display Systems.
+Course outcomes
+At the end of the course student will be able
+CO1: appreciate the technical requirement of different types of displays systems
+CO2: analyze the various low power lighting systems
+CO3: understand the operation of TFTs and LCD displays.
+CO4: analyze the various kinds of emissive displays
+CO5: critically evaluate the recent advancements in the displays device technology.
+45 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

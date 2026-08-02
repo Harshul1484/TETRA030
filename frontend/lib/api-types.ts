@@ -93,6 +93,31 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/courses/{course_code}/evidence": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Course Evidence
+         * @description The job postings a course's audit was measured against.
+         *
+         *     Every figure in the gap report reduces to a count of postings. Listing
+         *     them turns that count from an assertion into something the reader can
+         *     check, which matters most where the count is low enough to withhold the
+         *     findings entirely.
+         */
+        get: operations["course_evidence_api_courses__course_code__evidence_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/augment/{course_code}": {
         parameters: {
             query?: never;
@@ -310,6 +335,11 @@ export interface paths {
          *     Pass `course` for a single course, or omit it for the whole programme.
          *     Every cell carries the skill and confidence it was derived from, so an
          *     assessor can audit any claim rather than taking the number on trust.
+         *
+         *     An unknown course is rejected rather than answered with an empty matrix.
+         *     This is a compliance document: a report that looks valid but describes a
+         *     course that does not exist is worse than an error, because somebody
+         *     could file it.
          */
         get: operations["co_po_matrix_api_accreditation_matrix_get"];
         put?: never;
@@ -444,6 +474,14 @@ export interface components {
          *
          *     `scored_against` names the subject areas used as the denominator, so the
          *     number can be interpreted rather than taken on faith.
+         *
+         *     `domain_postings` is how many postings in the corpus actually demand a
+         *     skill in that subject area. It is the denominator behind the denominator,
+         *     and it has to be reported: a civil engineering course compared against
+         *     three civil postings and one compared against three hundred produce
+         *     identically confident-looking output otherwise. When it falls below
+         *     `EVIDENCE_FLOOR` the report is marked `evidence_thin`, and the ranked
+         *     gaps below are demand from adjacent fields rather than this course's own.
          */
         GapReport: {
             /** Course Code */
@@ -451,9 +489,21 @@ export interface components {
             /** Course Title */
             course_title: string;
             /** Health Score */
-            health_score: number;
+            health_score?: number | null;
             /** Scored Against */
             scored_against?: string[];
+            /**
+             * Domain Postings
+             * @default 0
+             */
+            domain_postings: number;
+            /**
+             * Evidence Thin
+             * @default false
+             */
+            evidence_thin: boolean;
+            /** Evidence Note */
+            evidence_note?: string | null;
             /** Gaps */
             gaps: components["schemas"]["SkillGap"][];
         };
@@ -617,6 +667,39 @@ export interface operations {
     course_roadmap_api_courses__course_code__roadmap_get: {
         parameters: {
             query?: never;
+            header?: never;
+            path: {
+                course_code: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    course_evidence_api_courses__course_code__evidence_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
             header?: never;
             path: {
                 course_code: string;

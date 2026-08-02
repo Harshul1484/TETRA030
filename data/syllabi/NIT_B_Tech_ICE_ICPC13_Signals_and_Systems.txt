@@ -1,0 +1,79 @@
+Course Code : ICPC13
+Course Title : Signals and Systems
+Type of Course : PC
+Prerequisites : --
+Contact Hours : 56 (4 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the student to identify and represent the type of signals and systems.
+CLO2 To introduce the mathematical tools available to analyze continuous time signals
+and systems.
+CLO3 To introduce the mathematical tools available to analyze discrete time signals and
+systems.
+CLO4 To introduce about the random phenomena in the real world, the mathematical
+models and pseudo- random signals in identifying systems.
+Course Content
+Introduction to signals – Transformation of the independent variable – Basic continuous-time
+signals – Basic discrete-time signals – Step and Impulse functions – Sampling theorem.
+Introduction to systems – Properties of systems – Classification of systems – Mathematical
+model of systems – Concept of state variable – Normal form of system equations – Initial
+conditions.
+Impulse response of physical systems – Stability analysis of dynamic systems – Introduction
+to convolution – Convolution integral – System impulse response and step response using
+Laplace transform – Numerical convolution. Z-transform – Convergence of Z-transform –
+Properties of Z-transform – Inversion of Z- transform –Application of Z-transform in analysis
+of discrete-time systems – Evaluation of discrete-time system frequency response – Inverse
+systems – Deconvolution.
+Representation of signals in terms of elementary signals – Condition of orthogonality –
+Representation of signals by elementary sinusoids – Fourier series representation of periodic
+signals – Power spectrum. Fourier transform – System frequency response – Realizability of
+frequency response – Energy spectrum. Calculation of simple transforms. Discrete-Fourier
+transform (DFT) – Properties of Discrete Fourier Transform – Circular convolution.
+Classification of random signals – Auto-correlation function – Properties of auto-correlation
+function – Measurement of auto-correlation function – Application of auto-correlation
+functions. Cross correlation functions. Sum of random processes- Spectral density – Relation
+of spectral density to auto-correlation function
+Auto-correlation function of system output - Cross-correlation between system input and
+output. White noise - Analysis of linear systems in time-domain using white noise - Mean and
+mean square value of system output. Generation of pseudo random binary noise (PRBN) and
+its use in system identification - Analysis in frequency domain.
+B.Tech. / Instrumentation and Control Engineering 46 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Gabel R.A. and Robert R.A., Signals and Linear Systems, John Wiley and Sons, 3rd
+Edition, 1987
+2. Oppenheim A.V., Wilsky and Nawab, Signals and Systems, Pearson India
+Education Services Private limited India, 2nd Edition, 2016
+3. Chen C.T., Systems and Signal Analysis - A Fresh Look, Oxford University Press India,
+3rd Edition, 2004
+4. B.P. Lathi, Principles of Linear Systems and Signals, Oxford University Press, 2nd
+Edition, 2009
+5. Cooper G.R and Mc Gillem C.D, Probabilistic Methods of Signals and System
+Analysis, Oxford University Press, 3rd Edition, 1999
+6. Chesmond, Wilson and Lepla, Advanced Control System Technology, Viva Books,
+1st Edition, 1998
+7. Ziemer R.E., Tranter W.H., and Fannin D.R., Signals and Systems: Continuous
+and Discrete, Prentice Hall, 4th Edition, 1998
+8. Oppenheim, Alan V and Verghes, G.G., Signals, Systems and Inference – Class Notes
+for 6.011: Introduction to Communication, Control and Signal Processing, MIT Open
+Courseware
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Classify the signals and systems based on their properties and determine the
+response of LTI system using convolution
+CO2 Analyze the spectral characteristics of continuous and discrete time signals and
+systems using Fourier transforms.
+CO3 Apply Laplace and Z transform to analyze continuous and discrete time systems
+CO4 Understand the process of sampling, classify random signals using statistical
+concepts and characterize systems using pseudo-random signals.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 2 3 2 - - - - - 2 3 3 -
+CO2 3 3 2 2 3 2 - - - - - 3 3 3 -
+CO3 3 3 3 3 3 1 1 - - - - 3 3 3 -
+CO4 3 1 2 1 1 2 - - - - - 2 2 2 -
+B.Tech. / Instrumentation and Control Engineering 47 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

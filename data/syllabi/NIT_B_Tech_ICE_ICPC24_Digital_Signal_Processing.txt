@@ -1,0 +1,68 @@
+Course Code : ICPC24
+Course Title : Digital Signal Processing
+Type of Course : PE
+Prerequisites : ICPC13
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To provide higher level of understanding of discrete-time and digital signal in time
+and frequency domains.
+CLO2 To provide knowledge to analyze linear systems with difference equations
+CLO3 design and implement different structures of FIR and IIR filters.
+CLO4 To introduce about DSP processors and FFT processors.
+Course Content
+Signal Processing Fundamentals: Discrete-time and digital signals, A/D, D/A conversion and
+Nyquist rate, Frequency aliasing due to sampling, Need for anti-aliasing filters. Discrete Time
+Fourier transform and frequency spectra, Spectral computation, Computational complexity of
+the DFT and the FFT, Algorithmic development and computational advantages of the FFT,
+Inverse FFT, Implementation of the FFT, Correlation of discrete-time signals.
+Discrete-time systems, Difference equations and the Z-transform, Analysis of discrete-time
+LTIL systems, Stability and Jury’s test.
+FIR Filters: Ideal digital filters, Realizability and filter specifications, Classification of linear
+phase FIR filters, Design using direct truncation, window methods and frequency sampling,
+Least-squares optimal FIR filters, Minimax optimal FIR filters, Design of digital differentiators
+and Hilbert transformers, comparison of design methods.
+IIR Filters: Design of analog prototype filters, Analog frequency transformations, Impulse
+invariance method and digital frequency transformations, Bilinear transformation, Analog
+prototype to digital transformations, Difficulties in direct IIR filter design, Comparisons with FIR
+filters.
+Filter Realization: Structures for FIR filters, Structures for IIR filters, State-space analysis and
+filter structures, fixed point and floating-point representation of numbers, Errors resulting from
+rounding and truncating, Quantization effects of filter coefficients, Round-off effects of digital
+filters.
+DSP Processors: Computer architectures for signal processing – Harvard architecture and
+pipelining, General purpose digital signal processors, Selection of DSPs, Implementation of
+DSP algorithms on a general purpose DSP, Special purpose hardware – hardware digital
+filters and hardware FFT processors, Evaluation boards for real-time DSP.
+References
+1. Chen, C.T., Digital Signal Processing: Spectral Computation and Filter Design, Oxford
+Univ. Press, 2001
+2. Proakis, J.G., Manolakis, D.G., Digital Signal Processing: Principles, Algorithms, and
+Applications, Prentice Hall of India, 4th Edition, 2007
+3. Ifeachor, E.C., and Jervis, B.W., Digital Signal Processing: A Practical Approach,
+Pearson Education Asia, 2nd Edition, 2009
+B.Tech. / Instrumentation and Control Engineering 70 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+4. McClellan, J.H., Schafer, R.W., and Yoder, M.A., DSP First: A Multimedia Approach,
+Prentice Hall Upper Saddle River, NJ, 2nd Edition, 2003
+5. Mitra, S.K., Digital Signal Processing: A Computer-Based Approach, McGraw Hill, NY,
+4th Edition, 2011
+6. Embree, P.M., and Danieli, D., C++ Algorithms for Digital Signal Processing, Prentice
+Hall Upper Saddle River, NJ, 2nd Edition, 1999
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Analyze the signals in both time and frequency domain
+CO2 Design FIR and IIR filters for signal pre-processing
+CO3 Implement and realize the filters using different structures.
+CO4 Explain the selection of DSP processor for signal processing applications.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 3 1 2 - 2 1 2 3 3 3 -
+CO2 3 3 3 3 3 1 3 - 2 2 3 3 3 3 -
+CO3 3 3 3 3 3 2 3 - 2 2 3 3 3 3 -
+CO4 3 3 3 3 3 2 3 1 3 3 3 3 3 3 1
+B.Tech. / Instrumentation and Control Engineering 71 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,57 @@
+Course Code : ICMI14
+Course Title : Essentials Of Control Engineering
+Type of Course : Minor (MI)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To expose the students to the fundamentals of feedback control system.
+CLO2 To impart the knowledge on different types of control systems representation
+in pictorial and mathematical forms.
+CLO3 To teach the performance characteristics and analysis of control systems in
+time and frequency domain.
+Course Content
+Introduction to control system – Open loop and Closed loop system – Feedback system
+characteristics – Block diagram reduction techniques – Signal flow graph.
+Order and type of system – time domain and frequency domain response of different system
+characteristics using simulation software – Introduction of stability – Routh Hurwitz stability
+criteria.
+Introduction to root locus – plotting of root locus and stability analysis using simulation
+software. Introduction to bode and Nyquist plot – Plotting of bode and Nyquist plot using
+simulation software - Gain Margin and Phase margin calculation.
+Introduction to different compensator design – the design of different compensator design
+using simulation software. PID controller design using simulation software.
+Application of control system for different domain with case studies.
+References
+1. Dorf, R.C., and Bishop, R.H., Modern Control Systems, Prentice Hall, 13th Edition,
+2016.
+2. Katsuhiko Ogata Modern Control Engineering, Pearson, 5th Edition, 2009.
+3. Franklin G.F., Powell J.D., Emami-Naeini A., Feedback Control of Dynamic Systems,
+Pearson, 7th Edition, 2015.
+4. B. C. Kuo, F. Golnaraghi, Automatic Control Systems, Wiley Publishers, India, 8th
+Edition, 2003.
+5. Ramakalyan A., Control Engineering- A comprehensive foundation, Vikas Publication,
+New Delhi, 2004.
+6. Norman S. Nise, Control Systems Engineering, Wiley India publications, 4th Edition,
+2003
+B.Tech. / Instrumentation and Control Engineering 266 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+At the end of the course student will be able to
+CO1 Appreciate the importance of feedback control system.
+CO2 Analyze and design the system performance using time domain and frequency
+domain techniques.
+CO3 Perform the stability analysis of control systems
+CO4 Use simulation software for classical control system design and analysis.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 2 2 2 3 1 1 2 2 2 3 3 2 2
+CO2 3 2 3 3 3 3 3 2 3 2 3 3 3 3 2
+CO3 3 2 3 3 3 3 3 2 3 2 3 3 3 3 2
+CO4 3 2 3 3 3 2 2 2 2 2 2 3 3 3 1
+B.Tech. / Instrumentation and Control Engineering 267 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

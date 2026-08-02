@@ -1,0 +1,61 @@
+Course Code : ICIR17
+Course Title : Project Work
+Type of Course : IR
+Prerequisites : --
+Contact Hours : (6 credits)
+Course Assessment : Evaluations during the reviews and, report and viva at the
+Methods end of the semester
+Course Learning Objectives (CLO)
+CLO1 To provide the student an opportunity to formulate and work on a research problem
+in a preferred domain of specialization.
+CLO2 To make the student aware of existing literature relevant to the research problem,
+frame the research hypothesis and perform the research design.
+CLO3 To expose the student to standard techniques in data acquisition, interpretation and
+analysis in the preferred domain of specialization.
+CLO4 To make the student arrive at logical conclusions and propose suitable
+recommendations on the research problem documented through logically coherent
+reports and presentations.
+Course Regulation
+Project work is mandatory in the 8th Semester for B.Tech. (ICE) students. At the completion
+of a project, the student will submit a project report which will be evaluated by duly appointed
+internal examiner(s). The evaluation will be based on the report and a viva-voce examination
+on the project. The project evaluation shall be carried out by a Project evaluation committee
+comprising the Head of the Department or his/her nominee (Chairperson), Project coordinator
+(Professor / Associate Professor) and the project guide(s).
+However, the students who wish to carry out / undergo the semester exchange programme /
+industry attachment (preplacement offer / internship) outside the institute during the 8th
+semester can opt for completing two additional elective courses (PE/OE) to earn the
+equivalent (6) credits, preferably during the previous semesters, in place of the Project Work
+in the 8th Semester (if, they cannot do a project work in this tenure).
+Anyhow, Project work is compulsory for B.Tech. Honours degree.
+Course Outcomes (CO)
+On completion of the Project Work in a chosen specialization domain, the student
+will be able to
+CO1 Formulate and state a research problem clearly.
+CO2 Compile relevant literature, frame research hypotheses and perform the research
+design.
+CO3 Describe standard techniques in the specialization domain to acquire and compile
+relevant data, interpret & analyze it and test the research hypotheses.
+CO4 Arrive at logical conclusions and propose suitable recommendations on the research
+problem.
+CO5 Draft a logically coherent project report and elaborate the research work in front of
+a panel of examiners.
+B.Tech. / Instrumentation and Control Engineering 36 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1
+3 3 3 _ 2 2 _ _ 2 2 2 2 3 _ 1
+CO2
+3 2 3 2 2 2 3 2 2 - 3 2 3 3 2
+CO3
+3 3 3 3 3 _ 2 3 2 2 3 2 3 3 2
+CO4
+2 2 _ 3 3 2 3 3 3 3 3 2 3 3 3
+CO5
+_ _ _ _ 2 2 3 2 3 3 2 2 2 3 3
+B.Tech. / Instrumentation and Control Engineering 37 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

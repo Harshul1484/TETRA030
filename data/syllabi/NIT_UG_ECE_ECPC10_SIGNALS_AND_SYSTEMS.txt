@@ -1,0 +1,48 @@
+Course Code : ECPC10
+Course Title : SIGNALS AND SYSTEMS
+Number of Credits 4
+Prerequisites : NONE
+(Course code)
+Course Type : PC
+Course Learning Objectives
+ To make the students to understand the fundamental characteristics of signals and systems in
+terms of both the time and transform domains
+ Development of the mathematical skills to solve problems involving convolution, filtering,
+modulation and sampling.
+Course Content
+Definition of Signals and Systems, Classification of Signals, Operations on signals, Singularity
+functions and related functions. Analogy between vectors and signals - orthogonal signal space,
+complete set of orthogonal functions, Parseval’s relations. Fourier series representation of continuous
+time periodic signals -Trigonometric and Exponential Fourier series- Properties of Fourier series.
+Fourier transform of aperiodic signals, standard signals and periodic signals - Properties of Fourier
+transforms. Hilbert transform and its properties. Laplace transforms-RoC-properties. Inverse Laplace
+transform.
+Continuous-time Systems and its properties. Linear time invariant (LTI) system-Impulse response.
+Convolution. Analysis of LTI System using Laplace and Fourier transforms.
+Sampling and reconstruction of band limited signals. Low pass and band pass sampling theorems.
+Aliasing. Anti-aliasing filter. Practical Sampling-aperture effect.
+Discrete-time signals and systems. Discrete Fourier series. Z-transform and its properties. Analysis of
+LSI systems using Z – transform.
+Text Books
+1. A.V.Oppenheim, A. Willsky, S. Hamid Nawab, “Signals and Systems (2/e)”, Pearson 200.
+2. S.Haykin and B.VanVeen “Signals and Systems, Wiley, 1998.
+Reference Books
+1. M.Mandal and A.Asif, “Continuous and Discrete Time Signals and Systems, Cambridge,
+2007.
+2. D.C.Lay, “Linear Algebra and its Applications (2/e)”, Pearson, 200.
+3. S.S.Soliman & M.D.Srinath, “Continuous and Discrete Signals and Systems”, Prentice- Hall,
+1990.
+Course outcomes
+At the end of the course student will be able to
+CO1: Understand the mathematical description and representation of continuous-time and
+discrete-time signals.
+CO2: Analyze the spectral characteristics of continuous-time periodic and aperiodic signals using
+Fourier analysis.
+CO3: Analyse system properties based on impulse response and Fourier analysis
+CO4: Convert a continuous time signal into discrete time signal and reconstruct the continuous
+time signals back from its samples
+CO5: Apply the Laplace transform and Z- transform respectively for the analyse of continuous-
+time and discrete-time signals.
+17 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

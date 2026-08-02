@@ -1,0 +1,31 @@
+Course Code : ECLR12
+Course Title : ELECTRONIC CIRCUITS LABORATORY
+Number of Credits 2
+Corequisites : ECPC17
+(Course code)
+Course Type : ELR
+List of Experiments:
+Hardware Experiments
+1. Stability of Q point
+2. Single stage RC coupled CE amplifier
+3. Single stage RC coupled Current series CE feedback amplifier
+4. Darlington emitter follower
+5. Differential Amplifier
+6. RC phase shift oscillator
+7. Colpitt’s Oscillator
+8. Power amplifier – Class A & class AB
+Simulation Experiments
+9. MOS CS amplifier with resistive load, diode connected load, current source load
+10. MOS current mirrors
+Course Outcomes:
+Students are able to
+CO1: Demonstrate theoretical device/circuit operation in properly constructed analog circuits
+CO2: Able to correctly operate standard electronic test equipment digital multi-meters, power
+supplies to analyze, test, and implement digital circuits
+CO3: Able to correctly analyze a circuit and compare its theoretical performance to actual
+performance
+CO4: Learn different techniques employed for the enhancement of Gain and Bandwidth
+CO5: Able to map the Circuits implemented to that of real time application
+123 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

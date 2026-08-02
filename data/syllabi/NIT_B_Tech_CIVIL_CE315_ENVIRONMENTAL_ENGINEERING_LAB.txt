@@ -1,19 +1,9 @@
+CE315 Environmental Engineering Lab 0 0 3 2
+Total 15 1 12 23
+1
 Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-5. Pressure gauge calibration.
-6. Centrifugal pump
-7. Submersible pump
-8. Reciprocating pump
-9. Jet pump
-10. Gear pump
-11. Screw pump
-12. Francis Turbine
-Course outcomes:
-On completion of the course, the students will be able to:
-measure discharge in pipes
-determine the energy loss in conduits
-demonstrate the characteristics curves of pumps
-demonstrate the characteristics curves of turbines
-carry out discharge measurements in open channel
+SEMESTER VI
+Code Course of Study L T P C
 CE315 ENVIRONMENTAL ENGINEERING LAB
 Course objectives:
 To quantify the water and wastewater pollutant
@@ -36,3 +26,5 @@ quantify the pollutant concentration in water, wastewater and ambient air
 recommend the degree of treatment required for the water and wastewater
 analyze the survival conditions for the microorganism and its growth rate
 24
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+SEMESTER VI

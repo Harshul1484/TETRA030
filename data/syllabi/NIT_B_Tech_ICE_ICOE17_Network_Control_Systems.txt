@@ -1,0 +1,53 @@
+Course Code : ICOE17
+Course Title : Network Control Systems
+Type of Course : Open Elective (OE)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessments, Assignments, Final
+Methods Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to the emerging field of multi-agent and network control
+systems
+CLO2 To expand the scope of traditional control systems to include large-scale
+interconnected systems
+CLO3 To demonstrate consensus and leader-follower paradigms in a distributed
+environment
+CLO4 To introduce different applications that fall in the gamut of network control systems.
+Course Content
+Introduction to multi-agent systems, Information exchange via local interactions, Basics of
+graph theory
+Reaching agreement in undirected and directed networks, Agreement via Lyapunov
+functions, Agreement over random networks
+Formation control, Shape based control, Dynamic formation selection, Assigning roles,
+Cooperative robotics, Wireless sensor networks
+Graph theoretic controllability, Network formation, Optimizing the weighted agreement,
+Planning over proximity graphs, Higher order networks
+Introduction to social networks, opinion dynamics, epidemics, games etc.
+References
+1. M ehran Mesbahi and Magnus Egerstedt, Graph Theoretic Methods in Multiagent
+Networks, Princeton University Press, 2010.
+2. F . Bullo, J. Cortes, and S. Martinez, Princeton, Distributed Control of Robotic
+Networks, University Press, 2009.
+3. P . J. Antsaklis and P. Tabuada, Networked Embedded Sensing and Control, Springer,
+2006.
+4. A .L. Barabasi, Network Science, Cambridge University Press, 2016
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design control system in the presence of quantization, network delay or packet loss.
+CO2 Understand distributed estimation and control suited for network control system.
+CO3 Develop simple application suited for network control systems.
+CO4 Technically understand larger-scale techno-socio-economic networks and models
+prevalent in today’s society.
+B.Tech. / Instrumentation and Control Engineering 226 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1
+CO2
+CO3
+CO4
+B.Tech. / Instrumentation and Control Engineering 227 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

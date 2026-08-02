@@ -1,0 +1,54 @@
+Course Code : ICLR12
+Course Title : Electronic Circuits Laboratory
+Type of Course : LR
+Prerequisites : --
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To understand characteristics of diodes and transistors
+CLO2 To design the amplifier circuits and analyze its frequency response
+CLO3 Understand and analyze different applications of combinational circuits.
+CLO4 Understand the basics of digital design sequential circuits
+List of Experiments
+1. Verification of characteristics of P-N junction diode and designing the Half/ Full rectifier
+with and without filter
+2. Studying of clipping/ clamping circuits and design a voltage regulator using Zener
+diode
+3. Verification of Input and output characteristics of transistor (BJT) in CE configuration
+4. Verification of characteristics of FET
+5. Studying the biasing and frequency response of CE amplifier
+6. Characterization of basic and Cascode current mirror circuits (with BJT and MOSFET)
+7. Design of differential amplifier with resistive load (BJT) and active load (MOSFET)
+8. Verification of different types of logic gates
+9. Design and verification of combinational logic circuits
+10. Design and verification of synchronous sequential logic circuits
+11. Design and verification of asynchronous sequential logic circuits
+References
+1. Adel S. Sedra and Kenneth C. Smith, Microelectronic Circuits, Holt, 7 Edition Oxford
+University Press, 2017
+2. Robert L. Boylestad and Louis Nashelsky, Electronic Devices and Circuit Theory, 10th
+Edition, Pearson India 2009
+3. Paul Horowitz and Winfield Hill, The Art of Electronics, 3𝑟𝑑 Edition Cambridge:
+Cambridge university press, 2015
+4. Behzad Razavi, Fundamentals of Microelectronics, John Wiley and Sons, 2021
+5. Sung-Mo Kang and Yusuf Leblebici, CMOS Digital Integrated Circuits: Analysis and
+Design, 3𝑟𝑑 Edition New York, NY, USA, McGraw-Hill, 2003
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design and analyze electronic circuits using diode, BJT and FET
+CO2 Analyze the characteristics and frequency response of electronic circuits
+CO3 Design and verify combinational logic circuits.
+CO4 Design and verify sequential logic circuits
+B.Tech. / Instrumentation and Control Engineering 77 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 2 2 3 1 2 2 2 2 3 2 1
+CO2 3 2 3 3 2 2 2 1 2 2 2 2 3 2 1
+CO3 3 3 3 3 3 2 3 1 2 2 2 2 3 2 1
+CO4 3 3 3 3 3 2 3 1 2 2 2 2 3 2 1
+B.Tech. / Instrumentation and Control Engineering 78 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

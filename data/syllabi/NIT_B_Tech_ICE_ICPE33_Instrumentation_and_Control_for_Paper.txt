@@ -1,0 +1,69 @@
+Course Code : ICPE33
+Course Title : Instrumentation and Control for Paper
+Industries
+Type of Course : PE
+Prerequisites : ICPC17, ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To familiarize the students to the paper making process.
+CLO2 To expose the students to the instrumentation used in Paper industries.
+CLO3 To expose the students to the control operations employed in paper industries.
+Course Content
+Paper making process: Raw materials, pulping and preparation, screening – bleaching,
+cooking, chemical addition, approach system, paper machine, drying section, calenders, drive,
+finishing, other after treatment processes, coating.
+Properties of paper: physical, electrical, optical and chemical properties.
+Wet end Instrumentation: Conventional measurements at wet end, pressure and vacuum,
+temperature, liquid density and specific gravity, level, flow, consistency measurement, pH and
+ORP measurement, freeness measurement.
+Dry end Instrumentation: Conventional measurements, moisture, basis weight, caliper, coat
+thickness, optical variables, measurement of length and speed.
+Digester: Rotary and Batch type.
+Control aspects: Machine and cross direction control techniques, control of pressure, vacuum,
+temperature, liquid density and specific gravity, level, flow, pH, freeness, thickness,
+consistency, basis weight and moisture.
+Pumps and control valves used in paper industry, flow box and wet end variables, evaporator
+feedback and feed forward control, lime mud density control, stock proportioning system,
+refiner control instrumentation, basic pulper instrumentation, headbox – rush/drag control.
+Instrumentation for size preparation, coating preparation, coating weight control. Batch
+digester, K/Kappa number control, Bleach plant chlorine stage control.
+References
+1. E. J. Cole, William Harold Mehaffey. Pulp and Paper Mill Instrumentation, Lockwood
+Trade Journal Company. (1957)
+2. John R. Lavigne, An introduction to paper industry Instrumentation, Miller Freeman
+Publications, California,1977.
+3. Robert J. McGill, Measurement and Control in Papermaking, Adam Hilger Limited,
+Bristol, 1980.
+4. John R. Lavigne, Instrumentation Applications for the Pulp and Paper Industry,
+Backbeat Books, California,1979.
+5. Dr. Nancy J. Sell , Process Control Fundamentals for the Pulp and Paper Industry
+, TAPPI Press, 1995
+6. James P. Casey, Pulp and Paper: Chemistry and Chemical Technology, John Wiley
+Sons, New York, 3rd Edition, 1983.
+B.Tech. / Instrumentation and Control Engineering 135 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+7. Sankaranayanan P.E, Pulp and Paper Industries–Technology and Instrumentation,
+Kothari’s Deskbook series,1995.
+8. Liptak B.G, Instrument Engineers Handbook, volume 2: Process Control, CRC press,
+London, 4th Edition,2005.
+9. H. N. Koivo, Automation and Control of Pulp and Paper Process, Helsinki University
+of Technology Publication, Espoo. (2002)
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Appreciate the need of instrumentation and control in paper making.
+CO2 Understand the instrumentation and control used in paper and pulp industry.
+CO3 Understand the control used in paper and pulp industry.
+CO4 Suggest and analyse new instruments and control options in paper and pulp
+industry.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 - - - 3 3 3 2 2 2 1
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 - - - 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 136 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

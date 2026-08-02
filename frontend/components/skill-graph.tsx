@@ -1,287 +1,258 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { GraphData, GraphNode, PrerequisiteChain } from "@/lib/api";
 import { api } from "@/lib/api";
 import { categoryBlock } from "@/lib/theme";
 
 /**
- * Force-directed layout on a canvas.
+ * The skill ontology, rendered with react-force-graph-2d.
  *
- * The simulation is written directly rather than pulled from a library: it is
- * about sixty lines, and a graph rendering dependency is a large amount of
- * surface area for one screen.
+ * An earlier version ran a hand-written force simulation on a raw canvas. It
+ * never settled: nodes drifted for as long as the page was open, which made
+ * reading a label a moving target. This uses d3's forces through the library,
+ * with a cooldown so the layout comes to rest and stays there.
+ *
+ * Loaded without SSR because the library reaches for window on import.
  */
+const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
+  ssr: false,
+  loading: () => (
+    <div className="flex h-[560px] items-center justify-center text-[15px] text-[var(--color-ink-mute)]">
+      Preparing the graph...
+    </div>
+  ),
+});
 
-interface Body extends GraphNode {
-  x: number;
-  y: number;
-  vx: number;
-  vy: number;
+interface SimNode {
+  id: string;
+  category: string;
+  demand: number;
+  is_taught: boolean;
   radius: number;
+  x?: number;
+  y?: number;
+  fx?: number;
+  fy?: number;
 }
 
-const REPULSION = 9000;
-const SPRING = 0.02;
-const SPRING_LENGTH = 78;
-const CENTERING = 0.006;
-const DAMPING = 0.82;
 const MIN_RADIUS = 4;
-const MAX_RADIUS = 15;
+const MAX_RADIUS = 13;
 
-// Nodes were piling up along the canvas edges because the position clamp
-// pinned them there without removing the velocity that pushed them out.
-// Keeping a margin and reflecting velocity on contact keeps the layout inside
-// the frame without creating a wall of stuck nodes.
-const MARGIN = 60;
-const WALL_BOUNCE = -0.4;
+// Ticks before the simulation is allowed to rest. Enough to untangle, few
+// enough that a judge is not watching it wander.
+const COOLDOWN_TICKS = 220;
 
 export function SkillGraph({ data }: { data: GraphData }) {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [selected, setSelected] = useState<GraphNode | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const graphRef = useRef<{
+    d3Force: (
+      name: string,
+    ) => { strength?: (v: number) => void; distance?: (v: number) => void } | undefined;
+    zoomToFit: (ms?: number, padding?: number) => void;
+  } | null>(null);
+
+  const [size, setSize] = useState({ width: 0, height: 560 });
+  const [selected, setSelected] = useState<SimNode | null>(null);
+  const [hovered, setHovered] = useState<string | null>(null);
   const [chain, setChain] = useState<PrerequisiteChain | null>(null);
-  const bodiesRef = useRef<Body[]>([]);
+  const didFit = useRef(false);
+  const didConfigure = useRef(false);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-
-    const context = canvas.getContext("2d");
-    if (!context) return;
-
-    const maxDemand = Math.max(1, ...data.nodes.map((node) => node.demand));
-
-    const bodies: Body[] = data.nodes.map((node, index) => {
-      const angle = (index / data.nodes.length) * Math.PI * 2;
-      const spread = 150 + (index % 5) * 40;
-      return {
-        ...node,
-        x: canvas.width / 2 + Math.cos(angle) * spread,
-        y: canvas.height / 2 + Math.sin(angle) * spread,
-        vx: 0,
-        vy: 0,
-        radius:
-          MIN_RADIUS +
-          (Math.sqrt(node.demand / maxDemand) || 0) * (MAX_RADIUS - MIN_RADIUS),
-      };
+    const element = containerRef.current;
+    if (!element) return;
+    const observer = new ResizeObserver(([entry]) => {
+      setSize({ width: entry.contentRect.width, height: 560 });
     });
-    bodiesRef.current = bodies;
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
 
-    const byName = new Map(bodies.map((body) => [body.skill, body]));
+  const graphData = useMemo(() => {
+    const maxDemand = Math.max(1, ...data.nodes.map((n) => n.demand));
+    const nodes: SimNode[] = data.nodes.map((node: GraphNode) => ({
+      id: node.skill,
+      category: node.category,
+      demand: node.demand,
+      is_taught: node.is_taught,
+      radius:
+        MIN_RADIUS + Math.sqrt(node.demand / maxDemand) * (MAX_RADIUS - MIN_RADIUS),
+    }));
+    const present = new Set(nodes.map((n) => n.id));
     const links = data.edges
-      .map((edge) => ({
-        a: byName.get(edge.source),
-        b: byName.get(edge.target),
-      }))
-      .filter((link): link is { a: Body; b: Body } => !!link.a && !!link.b);
+      .filter((e) => present.has(e.source) && present.has(e.target))
+      .map((e) => ({ source: e.source, target: e.target }));
+    return { nodes, links };
+  }, [data]);
 
-    let frame = 0;
-    let raf = 0;
-
-    function step() {
-      for (let i = 0; i < bodies.length; i++) {
-        for (let j = i + 1; j < bodies.length; j++) {
-          const a = bodies[i];
-          const b = bodies[j];
-          const dx = b.x - a.x;
-          const dy = b.y - a.y;
-          const distanceSquared = dx * dx + dy * dy || 1;
-          const distance = Math.sqrt(distanceSquared);
-          const force = REPULSION / distanceSquared;
-          const fx = (dx / distance) * force;
-          const fy = (dy / distance) * force;
-          a.vx -= fx;
-          a.vy -= fy;
-          b.vx += fx;
-          b.vy += fy;
-        }
-      }
-
-      for (const link of links) {
-        const dx = link.b.x - link.a.x;
-        const dy = link.b.y - link.a.y;
-        const distance = Math.sqrt(dx * dx + dy * dy) || 1;
-        const force = (distance - SPRING_LENGTH) * SPRING;
-        const fx = (dx / distance) * force;
-        const fy = (dy / distance) * force;
-        link.a.vx += fx;
-        link.a.vy += fy;
-        link.b.vx -= fx;
-        link.b.vy -= fy;
-      }
-
-      const cx = canvas!.width / 2;
-      const cy = canvas!.height / 2;
-
-      const minX = MARGIN;
-      const maxX = canvas!.width - MARGIN;
-      const minY = MARGIN * 0.5;
-      const maxY = canvas!.height - MARGIN * 0.5;
-
-      for (const body of bodies) {
-        body.vx += (cx - body.x) * CENTERING;
-        body.vy += (cy - body.y) * CENTERING;
-        body.vx *= DAMPING;
-        body.vy *= DAMPING;
-        body.x += body.vx;
-        body.y += body.vy;
-
-        if (body.x < minX) {
-          body.x = minX;
-          body.vx *= WALL_BOUNCE;
-        } else if (body.x > maxX) {
-          body.x = maxX;
-          body.vx *= WALL_BOUNCE;
-        }
-        if (body.y < minY) {
-          body.y = minY;
-          body.vy *= WALL_BOUNCE;
-        } else if (body.y > maxY) {
-          body.y = maxY;
-          body.vy *= WALL_BOUNCE;
-        }
-      }
+  /** Which nodes are adjacent to the hovered one, for dimming the rest. */
+  const adjacency = useMemo(() => {
+    const map = new Map<string, Set<string>>();
+    const link = (a: string, b: string) => {
+      if (!map.has(a)) map.set(a, new Set());
+      map.get(a)!.add(b);
+    };
+    for (const edge of data.edges) {
+      link(edge.source, edge.target);
+      link(edge.target, edge.source);
     }
+    return map;
+  }, [data.edges]);
 
-    function draw() {
-      const ctx = context!;
-      ctx.clearRect(0, 0, canvas!.width, canvas!.height);
+  const dimmed = useCallback(
+    (id: string) => {
+      if (!hovered || id === hovered) return false;
+      return !adjacency.get(hovered)?.has(id);
+    },
+    [hovered, adjacency],
+  );
 
-      ctx.strokeStyle = "rgba(0, 0, 0, 0.13)";
-      ctx.lineWidth = 1;
-      for (const link of links) {
-        ctx.beginPath();
-        ctx.moveTo(link.a.x, link.a.y);
-        ctx.lineTo(link.b.x, link.b.y);
+  const configureForces = useCallback(() => {
+    if (didConfigure.current) return;
+    const graph = graphRef.current;
+    if (!graph) return;
+    didConfigure.current = true;
+    // Repulsion wide enough that labels have room; link distance short enough
+    // that prerequisite chains read as chains rather than scattered dots.
+    graph.d3Force("charge")?.strength?.(-160);
+    graph.d3Force("link")?.distance?.(58);
+  }, []);
+
+  const paintNode = useCallback(
+    (node: SimNode, ctx: CanvasRenderingContext2D, scale: number) => {
+      const x = node.x ?? 0;
+      const y = node.y ?? 0;
+      const block = categoryBlock(node.category);
+      const faded = dimmed(node.id);
+
+      ctx.save();
+      ctx.globalAlpha = faded ? 0.12 : 1;
+
+      ctx.beginPath();
+      ctx.arc(x, y, node.radius, 0, Math.PI * 2);
+      ctx.fillStyle = block.dot;
+      ctx.fill();
+
+      // A dark ring marks a skill the curriculum already teaches.
+      if (node.is_taught) {
+        ctx.strokeStyle = "#16171a";
+        ctx.lineWidth = 2.2;
         ctx.stroke();
       }
 
-      for (const body of bodies) {
-        const isSelected = selected?.skill === body.skill;
+      if (node.id === selected?.id) {
         ctx.beginPath();
-        ctx.arc(body.x, body.y, body.radius, 0, Math.PI * 2);
-        // Fill is the category colour so a node matches its gap card and
-        // tag; a taught skill gets a solid ink ring to separate it from a gap.
-        ctx.fillStyle = categoryBlock(body.category).dot;
-        ctx.fill();
-
-        if (body.is_taught) {
-          ctx.strokeStyle = "rgba(0, 0, 0, 0.85)";
-          ctx.lineWidth = 2.5;
-          ctx.stroke();
-        }
-
-        if (isSelected) {
-          ctx.strokeStyle = "#ff3d8b";
-          ctx.lineWidth = 3;
-          ctx.stroke();
-        }
+        ctx.arc(x, y, node.radius + 6, 0, Math.PI * 2);
+        ctx.strokeStyle = "#16171a";
+        ctx.lineWidth = 1.4;
+        ctx.setLineDash([3, 3]);
+        ctx.stroke();
+        ctx.setLineDash([]);
       }
 
-      // Labels are drawn in a second pass, largest node first, and only where
-      // they do not collide with one already placed. Drawing every label
-      // produced an unreadable pile in the dense regions.
-      ctx.font = "500 11px Inter, system-ui, sans-serif";
-      ctx.textAlign = "center";
-      ctx.textBaseline = "alphabetic";
-
-      const placed: { x1: number; y1: number; x2: number; y2: number }[] = [];
-      const ordered = [...bodies].sort((a, b) => {
-        if (selected?.skill === a.skill) return -1;
-        if (selected?.skill === b.skill) return 1;
-        return b.radius - a.radius;
-      });
-
-      for (const body of ordered) {
-        const isSelected = selected?.skill === body.skill;
-        if (!isSelected && !body.is_taught && body.radius < 7) continue;
-
-        const width = ctx.measureText(body.skill).width;
-        const x = body.x;
-        const y = body.y - body.radius - 6;
-        const box = {
-          x1: x - width / 2 - 2,
-          y1: y - 11,
-          x2: x + width / 2 + 2,
-          y2: y + 3,
-        };
-
-        const collides = placed.some(
-          (other) =>
-            box.x1 < other.x2 &&
-            box.x2 > other.x1 &&
-            box.y1 < other.y2 &&
-            box.y2 > other.y1,
-        );
-        if (collides && !isSelected) continue;
-
-        placed.push(box);
-        ctx.fillStyle = isSelected ? "#000000" : "rgba(0, 0, 0, 0.72)";
-        ctx.fillText(body.skill, x, y);
+      // Labels only where they will not pile up: the larger nodes, the taught
+      // ones, and whatever is being pointed at.
+      const worthLabelling =
+        node.radius > 7 ||
+        node.is_taught ||
+        node.id === hovered ||
+        node.id === selected?.id;
+      if (worthLabelling && !faded) {
+        const fontSize = Math.max(11 / scale, 3);
+        ctx.font = `500 ${fontSize}px Inter, system-ui, sans-serif`;
+        ctx.textAlign = "center";
+        ctx.textBaseline = "top";
+        ctx.fillStyle = "rgba(22, 23, 26, 0.82)";
+        ctx.fillText(node.id, x, y + node.radius + 3);
       }
-    }
 
-    function loop() {
-      // The layout settles quickly. Running the simulation forever would burn
-      // CPU on a page a judge may leave open.
-      if (frame < 320) {
-        step();
-        frame += 1;
-      }
-      draw();
-      raf = requestAnimationFrame(loop);
-    }
+      ctx.restore();
+    },
+    [dimmed, hovered, selected],
+  );
 
-    loop();
-    return () => cancelAnimationFrame(raf);
-  }, [data, selected]);
-
-  async function handleClick(event: React.MouseEvent<HTMLCanvasElement>) {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-
-    const rect = canvas.getBoundingClientRect();
-    const x = ((event.clientX - rect.left) / rect.width) * canvas.width;
-    const y = ((event.clientY - rect.top) / rect.height) * canvas.height;
-
-    const hit = bodiesRef.current.find(
-      (body) => Math.hypot(body.x - x, body.y - y) <= body.radius + 6,
-    );
-
-    setSelected(hit ?? null);
+  const handleClick = useCallback(async (node: SimNode) => {
+    setSelected(node);
     setChain(null);
-
-    if (hit) {
-      try {
-        setChain(await api.prerequisites(hit.skill));
-      } catch {
-        setChain(null);
-      }
+    try {
+      setChain(await api.prerequisites(node.id));
+    } catch {
+      setChain(null);
     }
-  }
+  }, []);
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[1fr_300px]">
-      <div className="overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)]">
-        <canvas
-          ref={canvasRef}
-          width={900}
-          height={560}
-          onClick={handleClick}
-          className="h-auto w-full cursor-pointer"
-        />
-        <div className="flex flex-wrap items-center gap-4 border-t border-[var(--color-hairline)] px-5 py-3.5 caption text-[var(--color-ink-mute)]">
-          <span className="flex items-center gap-1.5">
-            <span className="inline-block h-3 w-3 rounded-full border-2 border-black bg-[var(--color-surface)]" />
+    <div className="grid gap-4 lg:grid-cols-[1fr_310px]">
+      <div
+        ref={containerRef}
+        className="overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)]"
+      >
+        {size.width > 0 ? (
+          <ForceGraph2D
+            ref={graphRef as never}
+            width={size.width}
+            height={size.height}
+            graphData={graphData as never}
+            backgroundColor="#ffffff"
+            nodeCanvasObject={paintNode as never}
+            nodePointerAreaPaint={
+              ((node: SimNode, colour: string, ctx: CanvasRenderingContext2D) => {
+                ctx.beginPath();
+                ctx.arc(node.x ?? 0, node.y ?? 0, node.radius + 5, 0, Math.PI * 2);
+                ctx.fillStyle = colour;
+                ctx.fill();
+              }) as never
+            }
+            linkColor={(() => "rgba(22, 23, 26, 0.13)") as never}
+            linkWidth={1}
+            onNodeClick={handleClick as never}
+            onNodeHover={
+              ((node: SimNode | null) => setHovered(node ? node.id : null)) as never
+            }
+            onBackgroundClick={() => {
+              setSelected(null);
+              setChain(null);
+            }}
+            onNodeDragEnd={
+              ((node: SimNode) => {
+                // Pin where it was dropped, so a rearranged layout stays put.
+                node.fx = node.x;
+                node.fy = node.y;
+              }) as never
+            }
+            onEngineTick={configureForces as never}
+            onEngineStop={
+              (() => {
+                if (didFit.current) return;
+                didFit.current = true;
+                graphRef.current?.zoomToFit(500, 50);
+              }) as never
+            }
+            cooldownTicks={COOLDOWN_TICKS}
+          />
+        ) : null}
+
+        <div className="flex flex-wrap items-center gap-4 border-t border-[var(--color-hairline)] px-5 py-3.5">
+          <span className="caption flex items-center gap-1.5 text-[var(--color-ink-mute)]">
+            <span className="inline-block h-3 w-3 rounded-full border-2 border-[var(--color-ink)] bg-white" />
             taught
           </span>
-          <span className="flex items-center gap-1.5">
-            <span className="inline-block h-3 w-3 rounded-full" style={{ backgroundColor: "var(--color-block-periwinkle)" }} />
+          <span className="caption flex items-center gap-1.5 text-[var(--color-ink-mute)]">
+            <span
+              className="inline-block h-3 w-3 rounded-full"
+              style={{ backgroundColor: "var(--color-block-periwinkle)" }}
+            />
             gap
           </span>
-          <span>node size is market demand</span>
-          <span className="ml-auto">click a node for its prerequisites</span>
+          <span className="caption text-[var(--color-ink-mute)]">
+            colour is category, size is demand
+          </span>
+          <span className="caption ml-auto text-[var(--color-ink-mute)]">
+            click a node for its prerequisites, drag to rearrange
+          </span>
         </div>
       </div>
 
@@ -292,13 +263,13 @@ export function SkillGraph({ data }: { data: GraphData }) {
           </p>
         ) : (
           <div>
-            <h3 className="card-title text-[var(--color-ink)]">
-              {selected.skill}
-            </h3>
-            <dl className="mt-4 space-y-2 caption">
+            <h3 className="card-title text-[var(--color-ink)]">{selected.id}</h3>
+            <dl className="caption mt-4 space-y-2">
               <div className="flex justify-between">
                 <dt className="text-[var(--color-ink-mute)]">Category</dt>
-                <dd className="text-[var(--color-ink)]">{selected.category}</dd>
+                <dd className="text-[var(--color-ink)]">
+                  {categoryBlock(selected.category).label}
+                </dd>
               </div>
               <div className="flex justify-between">
                 <dt className="text-[var(--color-ink-mute)]">Postings</dt>
@@ -308,7 +279,9 @@ export function SkillGraph({ data }: { data: GraphData }) {
                 <dt className="text-[var(--color-ink-mute)]">Status</dt>
                 <dd
                   className={
-                    selected.is_taught ? "text-[var(--color-success)]" : "text-[var(--color-severity-high)]"
+                    selected.is_taught
+                      ? "text-[var(--color-success)]"
+                      : "text-[var(--color-severity-high)]"
                   }
                 >
                   {selected.is_taught ? "taught" : "gap"}
@@ -318,22 +291,23 @@ export function SkillGraph({ data }: { data: GraphData }) {
 
             {chain && chain.by_hop.length > 0 ? (
               <div className="mt-5 border-t border-[var(--color-hairline)] pt-4">
-                <p className="micro-cap text-[var(--color-ink-mute)]">
-                  Requires first
-                </p>
+                <p className="micro-cap text-[var(--color-ink-mute)]">Requires first</p>
                 <p className="caption mt-1 text-[var(--color-ink-mute)]">
                   {chain.total_prerequisites} skills across {chain.max_depth}{" "}
-                  levels
+                  {chain.max_depth === 1 ? "level" : "levels"}
                 </p>
-                <div className="scroll-panel mt-2 max-h-64 space-y-2 pr-1">
+                <div className="scroll-panel mt-3 max-h-72 space-y-3 pr-1">
                   {chain.by_hop.map((level) => (
                     <div key={level.hops}>
                       <p className="micro-cap text-[var(--color-ink-mute)]">
                         {level.hops} hop{level.hops > 1 ? "s" : ""}
                       </p>
-                      <ul className="mt-0.5 space-y-0.5">
+                      <ul className="mt-1 space-y-0.5">
                         {level.prerequisites.map((name) => (
-                          <li key={name} className="text-[15px] text-[var(--color-ink-soft)]">
+                          <li
+                            key={name}
+                            className="text-[15px] text-[var(--color-ink-soft)]"
+                          >
                             {name}
                           </li>
                         ))}
@@ -343,7 +317,7 @@ export function SkillGraph({ data }: { data: GraphData }) {
                 </div>
               </div>
             ) : chain ? (
-              <p className="mt-5 border-t border-[var(--color-hairline)] pt-4 caption text-[var(--color-ink-mute)]">
+              <p className="caption mt-5 border-t border-[var(--color-hairline)] pt-4 text-[var(--color-ink-mute)]">
                 No prerequisites recorded. This is a foundational skill.
               </p>
             ) : null}

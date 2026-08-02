@@ -36,16 +36,31 @@ function reachability(distance: number): {
   };
 }
 
-export function GapList({ gaps }: { gaps: SkillGap[] }) {
+export function GapList({
+  gaps,
+  evidenceThin = false,
+}: {
+  gaps: SkillGap[];
+  evidenceThin?: boolean;
+}) {
   const [expanded, setExpanded] = useState(false);
 
   if (gaps.length === 0) {
+    // An empty list means two opposite things: full coverage, or an audit
+    // that declined to answer. Reporting the second as the first would tell a
+    // professor their course is aligned to a market nobody measured.
     return (
       <div
         className="rounded-[var(--radius-lg)] p-8 text-[16px]"
-        style={{ backgroundColor: "var(--color-block-sage)" }}
+        style={{
+          backgroundColor: evidenceThin
+            ? "var(--color-surface-soft)"
+            : "var(--color-block-sage)",
+        }}
       >
-        No gaps found. This curriculum covers the analysed market demand.
+        {evidenceThin
+          ? "No findings reported. The corpus does not hold enough postings in this subject area to identify gaps, as described above."
+          : "No gaps found. This curriculum covers the analysed market demand."}
       </div>
     );
   }

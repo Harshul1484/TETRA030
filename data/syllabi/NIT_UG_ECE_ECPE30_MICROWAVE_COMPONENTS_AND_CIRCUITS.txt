@@ -1,0 +1,43 @@
+Course Code : ECPE30
+Course Title : MICROWAVE COMPONENTS AND CIRCUITS
+Number of Credits 3
+Prerequisites : ECPC16
+(Course code)
+Course Type : PE
+Course Learning Objective
+ The subject introduces the essential Microwave Circuit Theory and the design aspects of
+Microwave Integrated Circuit components.
+Course Content
+Scattering matrix formulation. Passive microwave devices; terminations, bends, corners, attenuators,
+phase changers, directional couplers and hybrid junctions. Basics and design considerations of
+Microstrip line, strip line, coplanar waveguide, Slot line and Fin line.
+Microwave measurements; frequency, wavelength, VSWR. Impedance determination. S-parameter
+measurements. Network analyzer.
+Microwave network parameters. Basic circuit elements for microwaves. Transmission line sections
+and stubs. Richard transformation. Kuroda identities.
+MIC filter design. Low pass to high pass, band pass and band stop transformations. Realization using
+micro strip lines and strip lines.
+Design and realization of MIC components.3 dB hybrid design. Rat race Hybrid Ring, Backward wave
+directional coupler, power divider; realization using micro strip lines and strip lines.
+Text Books
+1. I.J.Bahl & P.Bhartia, “Microwave Solid state Circuit Design”, Wiley, 2003.
+2. D.M.Pozar, “Microwave Engineering (2/e)”, Wiley, 2004.
+Reference Books
+1. A. Das, “Microwave Engineering”, Tata McGraw Hill, 2000
+2. B.Bhat, S. K. Koul,”Stripline like transmission lines for Microwave Integrated Circuits”, New
+age International Pvt.Ltd. Publishers 2007.
+3. G. Matthaei, E.M.T. Jones , L. Young , George Matthaei, Leo Young , George L. Matthaei
+“Microwave filters, Impedance Matching Network, Coupling Structures
+(Updated)”,Hardcover, 1,096 Pages, Published 1980 by Artech House Publishers ISBN-13:
+978-0-89006-099-5, ISBN: 0-89006-099-1
+Course outcomes
+At the end of the course student will be able
+CO1: Learn the basics of S parameters and use them in describing the components
+CO2: Expose to the Microwave Measurements Principle
+CO3: Realize the importance of the theory of Microwave circuit theory.
+CO4: Work out the complete design aspects of various M.I.C. Filters
+CO5: Confidently design all M.I.C. components to meet the industry standard
+51 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+.

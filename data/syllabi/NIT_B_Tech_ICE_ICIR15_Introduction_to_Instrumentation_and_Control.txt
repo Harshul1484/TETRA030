@@ -1,0 +1,67 @@
+Course Code : ICIR15
+Course Title : Introduction to Instrumentation and Control
+Systems Engineering (Branch specific course)
+Type of Course : IR
+Prerequisites : -
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessments, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the students the role and values of Instrumentation Engineering in the
+society.
+CLO2 To emphasize the importance of codes and standards in Instrumentation and
+Control Engineering relevant to industry
+CLO3 To make the student appreciate the relation between the building blocks of
+instrumentation and control engineering in a device or a plant
+CLO4 To make the student sketch the basic building blocks of instrumentation and control
+engineering for various industrial and scientific applications
+CLO5 To make the student relate fundamental physical theories to the working principles
+behind the blocks of instrumentation and control engineering
+Course Content
+Place of engineers in society and in an industrial organization. The technical
+manpower pyramid. Introduction to the program, subjects of study and their
+relevance, Opportunities for training, placement and for higher studies.
+Overview of industry and scope of the discipline - Preliminary project design
+requirements – Various process conditions. Knowing client requirements and
+collection of specific data for projects.
+Objectives, general concepts, terminologies, types and basic block diagram of
+instrumentation system.
+Introduction to instrumentation and control engineering codes and standards and their
+relevance to industry.
+Case studies: Introduction to instrumentation and control in a typical application like
+temperature, flow or pressure control.
+References
+1. Alan S Moris, Measurement and Instrumentation Principles, Butterworth-Heinemann
+Limited, 3rd Edition, 2001
+2. Bolton W, Industrial Control and Instrumentation, University Press, 1st Edition, 2005
+3. Chesmond C J, Basic Control System Technology, Viva Books Private Limited, 1998
+4. ISA standards https://www.isa.org/standards-and-publications/isa-standards/find-isa-
+standards-by-topic
+5. Bureau of Indian Standards
+B.Tech. / Instrumentation and Control Engineering 26 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+At the end of the course student will be able to
+CO1 Know what an engineer does for the benefit of society.
+CO2 Describe the role of instrumentation and control engineering in an industrial
+organization.
+CO3 List the standards used in instrumentation and control engineering.
+CO4 Apply basic building blocks of instrumentation and control engineering for a typical
+application.
+CO5 Identify applications of instrumentation and control engineering in advanced
+scientific and industrial systems
+Mapping of Course Outcomes and Programme Outcomes
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 2 2 2 3 3 3 2 2 2 2
+CO2 3 3 3 3 3 1 1 1 2 2 2 3 3 3 1
+CO3 3 3 3 3 3 1 1 1 2 2 2 3 3 3 1
+CO4 3 3 3 3 3 1 1 1 2 2 2 3 3 3 1
+CO5 3 3 3 3 3 1 1 1 2 2 2 3 3 3 1
+The articulation matrix is constructed to establish the relationship between COs of the
+Course and Programme Outcomes (POs) / Programme Specific Outcomes (PSOs). The
+correlation level from 1 to 3 is defined below:
+1- Slight (Low), 2 - Moderate (Medium), 3 - Substantial (High)
+B.Tech. / Instrumentation and Control Engineering 27 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

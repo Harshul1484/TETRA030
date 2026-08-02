@@ -1,0 +1,62 @@
+Course Code : ICPC22
+Course Title : Control Systems - II
+Type of Course : PC
+Prerequisites : ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce about the system states and state-space modeling of dynamical
+systems.
+CLO2 To teach the advanced methods and techniques of linear system analysis and
+stability using Lyapunov theory.
+CLO3 To demonstrate how algebraic methods can be deployed in developing feedback
+controllers for a larger scale of systems.
+CLO4 To develop practical control systems using digital computers through data
+acquisition and computing.
+Course Content
+State-space Models – Review of vectors and matrices, Canonical Models from Differential
+Equations and Transfer Functions, Interconnection of subsystems.
+Analysis of Linear State Equations – First order scalar differential equations, System modes
+and model decomposition, State Transition Matrix, Time-varying matrix case.
+Lyapunov’s stability theory for Linear Systems – Equilibrium points and stability concepts,
+Stability definitions, Linear system stability, The Direct method of Lyapunov, Use of
+Lyapunov’s method in feedback design.
+Controllability and Observability – Definitions, Controllability/Observability Criteria, Design of
+state feedback control systems, Full-order and Reduced-order Observer Design, Kalman
+canonical forms, Stabilizability and Detectability.
+Digital Control Systems, Closed-loop Feedback Sampled-Data Systems, Stability Analysis,
+Implementation of Digital Controllers. One detailed case study of modern control theory.
+References
+1. Katsuhiko Ogata, Modern Control Engineering, PHI Learning Private Ltd, 5th Edition,
+2010.
+2. Franklin, G.F., David Powell, J., Emami-Naeini, A., Feedback Control of Dynamic
+Systems, Prentice Hall, 7th Edition, 2014.
+3. Dorf, R.C., Bishop, R.H., Modern Control Systems, Prentice Hall, 13th Edition, 2016.
+4. Brogan, W.L., Modern Control Theory, Prentice Hall, 3rd Edition, 1990.
+5. John J.D., Azzo Constantine, H. and Houpis Stuart, N Sheldon, Linear Control System
+Analysis and Design with MATLAB, CRC Taylor and Francis Reprint ,5th Edition 2009.
+6. I.J. Nagrath and M. Gopal, Control Systems Engineering, New Age International
+Publishers, 6th Edition, 2017.
+7. William A. Wolovich, Automatic Control Systems, Oxford University Press, 1st Indian
+Edition 2010.
+B.Tech. / Instrumentation and Control Engineering 66 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Comprehend an appropriate modern paradigm for the study of larger scale multi-
+input- multi- output systems.
+CO2 Apply linear algebra and matrix theory in the analysis and design of practical control
+systems.
+CO3 Determine the stability of systems using Lyapunov’s theory.
+CO4 Implement modern control systems using a digital computer.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 3 1 1 - 1 1 2 3 3 3 -
+CO2 3 2 3 3 3 1 1 - 1 2 3 3 3 3 -
+CO3 3 1 3 3 3 - 1 - 1 1 2 3 3 3 -
+CO4 3 3 3 3 3 2 2 - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 67 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -47,7 +47,13 @@ WHITESPACE_RE = re.compile(r"\s+")
 # Matched against the TITLE only. Matching against tags proved far too loose:
 # Arbeitnow attaches a "data" tag to sales roles, which pulled account
 # executives and landscape architects into the corpus.
+# Titles that denote an engineering or technical role in ANY discipline.
+# The corpus was software-only for the first build, which meant a Civil
+# Engineering syllabus was audited against a market containing no civil jobs
+# and was told to teach Python. A curriculum tool that only works for one
+# faculty is not a curriculum tool.
 TECH_TITLE_SIGNALS = {
+    # computing
     "engineer", "developer", "software", "devops", "backend", "frontend",
     "full stack", "fullstack", "data scientist", "data analyst",
     "data engineer", "machine learning", "artificial intelligence",
@@ -56,16 +62,35 @@ TECH_TITLE_SIGNALS = {
     "technical lead", "cloud", "platform engineer", "security engineer",
     "database", "sysadmin", "system administrator", "it consultant",
     "informatiker", "entwickler", "programmierer",
+    # civil and construction
+    "civil", "structural", "construction", "surveyor", "surveying",
+    "geotechnical", "quantity survey", "site engineer", "bauleiter",
+    "bauingenieur", "tiefbau", "hochbau", "statik", "vermessung",
+    "projektingenieur", "tragwerksplaner",
+    # electrical and electronics
+    "electrical", "electronics", "embedded", "hardware engineer", "vlsi",
+    "pcb", "firmware", "rf engineer", "power systems", "elektro",
+    "elektroniker", "elektrotechnik", "energietechnik", "leiterplatte",
+    # mechanical and manufacturing
+    "mechanical", "mechatronic", "mechatronik", "maschinenbau",
+    "manufacturing engineer", "production engineer", "cad ", "tooling",
+    "konstrukteur", "fertigung", "instandhaltung", "maschinen",
+    # instrumentation and control
+    "instrumentation", "control system", "automation engineer", "plc ",
+    "scada", "automatisierung", "prozessleittechnik",
+    # chemical, environmental, other engineering
+    "chemical engineer", "process engineer", "environmental engineer",
+    "verfahrenstechnik", "umwelttechnik",
 }
 
-# Titles containing these are rejected outright even if a tech word appears,
-# because the role is not a technical one.
+# Titles rejected outright even when a technical word appears, because the
+# role itself is not an engineering one.
 NON_TECH_TITLE_SIGNALS = {
     "sales", "account executive", "recruiter", "hr ", "human resources",
-    "marketing", "vertrieb", "buchhaltung", "landschaftsarchitekt",
-    "pflege", "nurse", "teacher", "lehrer", "driver", "fahrer",
-    "customer service", "kundenservice", "social media", "content writer",
-    "copywriter", "graphic design", "vertragswesen", "einkauf",
+    "marketing", "vertrieb", "buchhaltung", "pflege", "nurse",
+    "teacher", "lehrer", "driver", "fahrer", "customer service",
+    "kundenservice", "social media", "content writer", "copywriter",
+    "graphic design", "vertragswesen", "einkauf",
 }
 
 

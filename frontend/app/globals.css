@@ -35,6 +35,13 @@
   --color-block-moss: #b9c98a;
   --color-block-stone: #d6d5cb;
 
+  /* The non-computing engineering disciplines. Held apart from the software
+     categories in hue so a mixed graph reads as two families at a glance. */
+  --color-block-rust: #d49a86;
+  --color-block-slate: #a6b2c4;
+  --color-block-ochre: #d8bd85;
+  --color-block-fern: #a4c0a0;
+
   --color-accent: #16171a;
   --color-success: #2f7d5b;
 

@@ -1,0 +1,62 @@
+Course Code : ICPE24
+Course Title : Robotics
+Type of Course : PE
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To trace the development of machines that have been aiding humans to simplify
+mundane jobs
+CLO2 To introduce the importance of automation in the modern world.
+CLO3 To introduce robotics in the fields of manufacturing, medicine, search and
+rescue, service, and entertainment.
+CLO4 To teach robotics as the synergistic integration of mechanics, electronics,
+controls, and computer science
+Course Content
+Introduction: Basic concepts, definition and origin of robotics, different types of robots, robot
+classification, applications, robot specifications.
+Introduction to automation: Components and subsystems, basic building block of automation,
+manipulator arms, wrists and end-effectors, user interface, machine vision, implications for
+robot design, controllers. Kinematics, dynamics and control:
+Robot programming: Robot programming languages and systems, levels of programming
+robots, problems peculiar to robot programming, control of industrial robots using PLCs.
+Automation and robots: Case studies, multiple robots, machine interface, robots in
+manufacturing and non- manufacturing applications, robot cell design, selection of a robot.
+Robotic network models, complexity notion, connectivity, maintenance, and rendezvous
+References
+1. Corke, P., Robotics, Vision and Control, 2nd edition, Springer,2017
+2. Spong, M.W., Hutchinson, H., and Vidyasagar, M., Robot Modeling and Control,
+John Wiley (Wiley India Ed.), 2nd Edition, 2020.
+3. Asfahl C.R, Robots and Manufacturing Automation, John Wiley and Sons, New
+York,1992.
+4. F. Bullo, J. Cortes, and S. Martinez, Princeton, Distributed Control of Robotic
+Networks, Princeton University Press,2009.
+5. Mikell P, Weiss G.M, Nagel R.N and Odrey N.G, Industrial Robotics, McGraw Hill,
+New York, 2nd Edition, 2012.
+6. Deb S.R, Robotics Technology and Flexible Automation, Tata McGraw Hill, New
+Delhi, 1994.
+7. N. Bostrom, Superintelligence: Paths, Dangers, Strategies, Oxford University
+Press, 2016.
+8. H. Bray, You Are Here: From Compass to GPS, The History and Future of How We
+Find Ourselves, Basic Books, New York 2014.
+B.Tech. / Instrumentation and Control Engineering 117 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand robot dynamics and multivariable control.
+CO2 Learn how control theoretic ideas can be extended to design automation systems.
+CO3 Be introduced to the most popular methods for motion planning and obstacle
+avoidance.
+CO4 Be familiar with robot programming, computer vision, and robotic networks and
+applications in the industry.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 1 3 3 3 1 2 1 1 1 1 3 3 3 1
+CO2 3 2 3 3 3 2 2 1 2 1 2 3 3 3 1
+CO3 3 2 3 3 3 2 2 1 2 1 2 3 3 3 1
+CO4 3 2 3 3 3 3 3 1 2 2 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 118 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,60 @@
+Course Code : ICPE39
+Course Title : System Identification
+Type of Course : PE
+Prerequisites : ICPC13
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce empirical and data-based modeling of large-scale systems.
+CLO2 To train the students in parametric and nonparametric statistical models and
+estimation techniques.
+CLO3 To expose to the students, the algorithms and computational overheads involved
+in large-scale system modeling and control.
+Course Content
+Introduction, Development of parameter estimators, Least-Squares estimation – linear least-
+squares, generalized least-squares, nonlinear least-squares, Sufficient statistics, Analysis of
+estimation errors, MMSE, MAP and ML estimators, sequential least-squares, asymptotic
+properties, General convergence results.
+Introduction to system identification: identification based on differential equations, Laplace
+transforms, frequency responses, difference equations. Stationarity, auto-correlation, cross-
+correlation, power spectra. Random and deterministic signals for system identification: pulse,
+step, pseudo random binary sequence (PRBS), signal spectral properties, persistent
+excitation.
+Estimates of the plant impulse, step and frequency responses from identification data,
+Correlation and spectral analysis for non-parametric model identification, parametric Models-
+Equation error, output error models, and determination of model order.
+Parametric estimation using one-step ahead prediction error model structures and estimation
+techniques for ARX, ARMAX, Box-Jenkins, FIR, Output Error models. Residual analysis for
+determining adequacy of the estimated models. Recursive system identification.
+Kalman filtering and other nonlinear filters
+References
+1. Arun K. Tangirala, Principles of System Identification: Theory and Practice, First
+Edition, CRC Press, 2014
+2. Karel J. Keesman, System Identification: An Introduction, Springer-Verlag London,
+2011
+3. L.Ljung, System Identification: Theory for the User, 2nd Edition, Prentice-Hall, 1999
+4. Y. Zhu, Multivariable System Identification for Process Control, Pergamon, 2001
+5. T. Söderström and P. Stoica, System Identification, Prentice Hall International,
+Hemel Hempstead, Paperback Edition, 1994
+6. O. Nelles, Nonlinear System Identification, Springer-Verlag, Berlin, 2001
+B.Tech. / Instrumentation and Control Engineering 147 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Conduct experiments, design suitable inputs and generate data for system
+identification.
+CO2 Identify the model structure and order determination for an unknown process from
+empirical data.
+CO3 Apply estimation techniques for parametric and nonparametric models.
+CO4 Identify and validate the model for practical process applications
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 148 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

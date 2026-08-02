@@ -1,0 +1,65 @@
+Course Code : ECHO22
+Course Title : DESIGN OF ASICS
+Number of Credits (3-1-0) 4
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To prepare the student to be an entry-level industrial standard ASIC or FPGA designer.
+ To give the student an understanding of issues and tools related to ASIC/FPGA design and
+implementation.
+ To give the student an understanding of basics of System on Chip and Platform based design.
+ To give the student an understanding of High performance algorithms
+Course content
+Introduction to Technology, Types of ASICs, VLSI Design flow, Economics of ASICs, ASIC Cell
+Libraries, Design and Layout Rules, Programmable ASICs - Antifuse, SRAM, EPROM, EEPROM
+based ASICs. Programmable ASIC logic cells and I/O cells - Actel, Altera, Xilinx. Programmable
+interconnects - Actel, Altera, Xilinx. Advanced FPGAs and CPLDs and Soft-core processors. Self-
+Study: Multi-core processors, High performance computing (HPC), Cache, High speed memories
+(DDR4), High speed serdes (56Gbps, PAM4), GPU
+ASIC physical design issues, System Partitioning, Estimating ASIC Size, FPGA Partitioning,
+Floorplanning and Placement. Algorithms: K-L, FM, Look-ahead, Simulated annealing algorithms.
+Full Custom Design: Basics, Needs & Applications. Schematic and layout basics, Full Custom Design
+Flow.
+Semicustom Approach: Synthesis (RTL to GATE netlist) - Introduction to Constraints (SDC),
+Introduction to Static Timing Analysis (STA). Place and Route (Logical to Physical Implementation):
+Floorplan and Power-Plan, Placement, Clock Tree Synthesis (clock planning), Routing, Timing
+Optimization, GDS generation.
+Overview of Extraction, Logical equivalence and STA: Parasitic Extraction Flow, STA: Timing Flow,
+LEC. Introduction to Physical Verification flow and Tools used: Introduction, DRC, LVS and basics
+of DFM. High performance algorithms for FPGA & ASICs – Multipliers - Serial and Parallel
+approaches, Canonic Signed Digit Arithmetic, KCM, Distributed Arithmetic, High performance
+digital filters for sigma-delta ADC.
+System-On-Chip Design - SoC Design Flow, Platform-based and IP based SoC Designs, Basic
+Concepts of Bus-Based Communication Architectures, Bus Data transfer modes. On-chip bus
+architectures, Socket based on-chip bus interface standards. Case study: FSM design, clock domain
+crossing, FIFOs. Core (ARM) and IOs (I2C, PWM, GPIO, SPI, NAND, Ethernet, USB, High speed
+serdes etc. are interconnected through AXI/APB buses (protocols and interconnects)
+Text Books
+1. M.J.S. Smith : Application Specific Integrated Circuits, Pearson, 2003
+2. Sudeep Pasricha and NikilDutt, On-Chip Communication Architectures System on Chip
+Interconnect, Elsevier, 2008
+139 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Reference Books
+1. H.Gerez, Algorithms for VLSI Design Automation, John Wiley, 1999
+2. Jan.M.Rabaey et al, Digital Integrated Circuit Design Perspective (2/e), PHI 2003
+3. David A.Hodges, Analysis and Design of Digital Integrated Circuits (3/e), MGH 2004
+4. Hoi-Jun Yoo, Kangmin Leeand Jun Kyong Kim, Low-Power NoC for High-Performance SoC
+Design, CRC Press, 2008
+5. An Integrated Formal Verification solution DSM sign-off market trends,
+www.cadence.com.
+Course outcomes
+At the end of the course student will be able
+CO1: demonstrate VLSI tool-flow and appreciate FPGA and CPLD architectures
+CO2: understand the issues involved in ASIC design. Understand Full Custom Design Flow
+and Tool used.
+CO3: understand Semicustom Design Flow and Tool used - from RTL to GDS and Logical
+to Physical Implementation.
+CO4: understand about STA, LEC, DRC, LVS, DFM.
+CO5: understand the System on Chip Design and On-chip communication architectures
+with case studies.
+140 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

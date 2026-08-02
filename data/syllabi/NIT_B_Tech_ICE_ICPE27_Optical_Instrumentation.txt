@@ -1,0 +1,67 @@
+Course Code : ICPE27
+Course Title : Optical Instrumentation
+Type of Course : PE
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students on the basics of optical sources and detectors, optical fiber
+and fiber optic sensors.
+CLO2 impart knowledge on the characteristics of optical sources and detectors.
+CLO3 To provide adequate knowledge about the optical fiber and their characteristics.
+CLO4 To introduce about the Industrial applications of fiber optic sensors and lasers.
+Course Content
+Introduction: Characteristics of optical radiation, luminescence.
+Optoelectronic sources: LED – LED power and efficiency, structures- planar, dome, ELED,
+SLED, super luminescent LEDS, characteristics and applications.
+LASERS – structures- gain guided and index guided lasers, types- semiconductor- homo and
+hetero junction lasers. Non-semiconductor lasers - gas, liquid and solid. Single frequency
+Lasers, characteristics, Q switching and mode locking, cavity dumping.
+Optoelectronic detectors: General characteristics of photodetectors, Photodiode, junction
+photodiodes – heterojunction diode and PIN diode, APD, Special detectors- Schottky barrier
+diode, photo- transistor and photo-thyristor, solar cells.
+Optical fiber- Fundamentals, types, transmission characteristics. Fibers splicing, connector
+and couplers. Optocouplers and optrodes.
+Industrial applications – Fiber optic sensors -temperature, pressure, flow and level
+measurement. LASERS – Distance, length, velocity, acceleration, current and voltage
+measurements. Material processing: Laser heating, melting, scribing, splicing, welding and
+trimming of materials, removal and vaporization, calculation of power requirements. Laser
+gyroscope.
+References
+1. Djafar.K. Mynbaev, Lowell. Scheiner, Fiber-Optic Communications Technology,
+Pearson Education Pvt. Ltd., 1st Edition, 2008.
+2. John M Senior, Optical Fiber Communications: Principles and Practice, 3rd Edition,
+2010.
+3. Eric Udd, William B., and Spillman, Jr., Fiber Optic Sensors: An Introduction for
+Engineers and Scientists , John Wiley and Sons, 2011
+4. R.P. Khare, Fiber optics and optoelectronics, Oxford University Press,2016
+5. Wilson and Hawkes, Opto Electronics An Introduction, Prentice Hall, New Delhi, 3rd
+Edition, 2003.
+6. Fukuda, Optical Semiconductor Devices, John Wiley, 2005.
+7. Safa Kasap, Optoelectronics and Photonics: Principles and Practices: International
+Edition 2nd edition, 2013
+8. Bhattacharya Pallab, Semiconductor Optoelectronic Devices, Pearson Education;
+2nd Edition 2017
+B.Tech. / Instrumentation and Control Engineering 123 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Have familiarity with the fundamental principles of various types of optical sources,
+characteristics and its applications.
+CO2 Understand the operation of different types of optical detectors and its limitations in
+industrial use.
+CO3 Apply the gained knowledge on optical fibers for its use as communication
+medium in industrial use.
+CO4 Have knowledge on fiber-optical components and systems and its industrial
+applications.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 2 - 1 1 1 3 3 3 -
+CO2 3 3 3 3 2 3 2 - 2 2 2 3 3 3 -
+CO3 3 3 3 2 2 3 2 - 2 2 2 3 3 3 -
+CO4 3 3 3 2 2 3 2 - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 124 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

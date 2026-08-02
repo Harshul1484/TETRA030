@@ -1,0 +1,61 @@
+Course Code : ICPE63
+Course Title : Artificial Intelligence in Instrumentation and
+Measurement
+Type of Course : PE/OE
+Prerequisites : --
+Contact Hours : 3 hours (42 hrs max)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the basic concepts of neural networks
+CLO2 To impart knowledge on the development of classical deep neural networks such
+as CNN and RNN
+CLO3 To make the students aware of graph neural networks and generative AI
+CLO4 To demonstrate various applications of AI in instrumentation and measurement
+Course Content
+History of Deep Learning, Deep Learning Success Stories, McCulloch Pitts Neuron,
+Thresholding Logic, Perceptrons, Perceptron Learning Algorithm and Convergence,
+Multilayer Perceptrons (MLPs), Representation Power of MLPs
+Sigmoid Neurons, Gradient Descent, Feedforward Neural Networks, Representation Power
+of Feedforward Neural Networks
+Feedforward Neural Networks, Backpropagation, Gradient Descent (GD), Momentum Based
+GD, Nesterov Accelerated GD, Stochastic GD, AdaGrad, RMSProp, Adam
+Bias Variance Tradeoff, L2 regularization, Early stopping, Dataset augmentation, Parameter
+sharing and tying, Injecting noise at input, Ensemble methods, Better activation functions,
+Better weight initialization methods, Batch Normalization
+Convolutional Neural Networks, Types of CNN, LeNet, AlexNet, ZF-Net, VGGNet,
+GoogLeNet, ResNet
+Auto encoders, Types of auto encoders, Recurrent neural networks, LSTM and Types,
+Multimodal data and models, Graph neural networks and Generative adversarial networks,
+Transformers: Multi-headed Self Attention, Cross Attention
+Applications: Autonomous driving, fault detection, vision-based measurement, and health
+along with case studies
+References
+1. Ian Goodfellow and Yoshua Bengio and Aaron Courville. Deep Learning. An MIT Press
+book. 2016.
+2. Charu C. Aggarwal. Neural Networks and Deep Learning: A Textbook. Springer. 2019.
+3. Josh Patterson, Adam Gibson "Deep Learning: A Practitioner's Approach", O'Reilly
+Media, 2017.
+4. Eren, Halit. Artificial Intelligence in Wireless Sensors and Instruments: Networks and
+Applications. N.p., Taylor & Francis Limited, 2024.
+5. Neural Networks for Instrumentation, Measurement, and Related Industrial
+Applications. Japan, IOS Press, 2003.
+B.Tech. / Instrumentation and Control Engineering 195 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the basic concepts of artificial neural networks
+CO2 Gain the knowledge of classical deep learning algorithms and its variants
+CO3 Understand the concepts of graph neural networks and generative AI along with its
+importance
+CO4 Design and develop deep learning architectures for real-world applications
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 - - - - - 2 3 3
+CO2 3 3 3 3 3 2 - - - - - 2 3 3
+CO3 3 3 3 3 3 2 - - - - - 2 3 3
+CO4 3 3 3 3 3 2 - - - - - 2 3 3
+B.Tech. / Instrumentation and Control Engineering 196 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

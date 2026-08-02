@@ -1,0 +1,47 @@
+Course Code : ECPE42
+Course Title : Electromagnetic Interference and Compatibility
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : Elective
+COURSE OBJECTIVE
+ Electromagnetic interference (EMI) is a potential threat to the present day electronic systems.
+The main objective of the course is to provide insight into various sources of electromagnetic
+interferences and how to design an electronic product which is electromagnetically compatible
+with each other.
+COURSE CONTENT
+Introduction to EMI and EMC- Various EMC requirements and standards-Need for EMC and its
+importance in electronic product design - sources of EMI - few case studies on EMC.
+Conducted and radiated emission -power supply line filters-common mode and differential mode
+current-common mode choke- switched mode power supplies. Shielding techniques- shielding
+effectiveness-shield behavior for electric and magnetic field -aperture-seams-conductive gaskets-
+conductive coatings
+Grounding techniques- signal ground-single point and multi point grounding-system ground-common
+impedance coupling -common mode choke-Digital circuit power distribution and grounding.
+Contact protection - arc and glow discharge-contact protection network for inductive loads-C, RC,
+RCD protection circuit- inductive kick back. RF and transient immunity-transient protection
+network- RFI mitigation filter-power line disturbance- ESD- human body model- ESD protection in
+system design.
+PCB design for EMC compliance-PCB layout and stack up- multi layer PCB objectives- Return path
+discontinuities-mixed signal PCB layout. EMC pre compliance measurement-conducted and radiated
+emission test-LISN-Anechoic chamber.
+Text Books:
+1. H. W. Ott, Electromagnetic Compatibility Engineering, 2nd edition, John Wiley & Sons, 2011,
+ISBN: 9781118210659.
+2. C. R. Paul, Introduction to Electromagnetic Compatibility, 2nd edition, Wiley India, 2010,
+ISBN: 9788126528752
+Reference Book:
+1. K. L. Kaiser, Electromagnetic Compatibility Handbook, 1st edition, CRC Press, 2005. ISBN:
+9780849320873
+COURSE OUTCOMES
+Students are able to
+CO1: Understand the various sources of Electromagnetic interference
+CO2: Familiarize the fundamentals those are essential for product design with EMC compliance
+and various EMC standards
+CO3:. would gain knowledge to understand the concept of Shielding and grounding related to
+product design.
+CO4:. Design PCBs which are electromagnetically compatible
+CO5: understand and differentiate the various EMC pre compliance measurement
+65 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

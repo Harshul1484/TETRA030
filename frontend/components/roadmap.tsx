@@ -55,6 +55,20 @@ export function RoadmapPanel({ courseCode }: { courseCode: string }) {
     );
   }
 
+  // Nothing to sequence is a legitimate outcome, not a failure: it follows
+  // from a gap report that reported nothing. Left to the branch below it
+  // rendered as an empty stage list under a sentence missing its numbers.
+  if (plan.stages.length === 0) {
+    return (
+      <div className="rounded-[var(--radius-lg)] bg-[var(--color-surface-soft)] p-8">
+        <p className="text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
+          Nothing to schedule. A teaching sequence orders the gaps above, and
+          none were reported for this course.
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-4">
       <p className="caption text-[var(--color-ink-mute)]">

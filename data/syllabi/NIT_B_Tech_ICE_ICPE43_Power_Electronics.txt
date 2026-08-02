@@ -1,0 +1,63 @@
+Course Code : ICPE43
+Course Title : Power Electronics
+Type of Course : PE
+Prerequisites : ICPC11, ICPC12
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the students about the theory and applications of power electronic
+systems for high efficiency, renewable and energy saving conversion systems.
+CLO2 To impart knowledge on the characteristics of different power electronics switches,
+drivers and selection of components for different applications.
+CLO3 To teach about the switching behavior and design of the converter, inverter and
+chopper circuits.
+CLO4 To foster the ability to understand the use of power converters in commercial and
+industrial applications
+Course Content
+Power semiconductor switches: SCRs - series and parallel connections, driver circuits, turn-
+on characteristics, turn off characteristics.
+AC to DC converters: Natural commutation, single phase and three phase bridge rectifiers,
+semi controlled and fully controlled rectifiers, dual converters.
+DC to DC converters: Voltage, Current, load commutation, thyristor choppers, design of
+commutation elements, MOSFET/IGBT choppers, AC choppers.
+DC to AC converters: Thyristor inverters, McMurray-Mc Murray Bedford inverter, current
+source inverter, voltage control, inverters using devices other than thyristors, vector control of
+induction motors.
+AC to AC converters: Single phase and three phase AC voltage controllers, integral cycle
+control, single phase cyclo-converters - effect of harmonics and Electro Magnetic Interference
+(EMI).
+Applications in power electronics: UPS, SMPS and Drives.
+References
+1. Rashid M. H, Power Electronics - Circuits, Devices and Applications, Prentice Hall,
+New Delhi, 4thEdition, 2017.
+2. Dubey G. K, Doradla S.R, Joshi and Sinha R.M, Thyristorised Power Controllers,
+New Age International Publishers, New Delhi, 2012.
+3. John G. Kassakian, Principles of Power electronics, Addison Wesley, 2010.
+4. P. S. Bimbhra, Power Electronics, Khanna Publishers, 5th Edition, 2012. Vedam
+Subramanyam K, Power Electronics, New Age International Publishers, New Delhi,
+2nd Edition, 2022.
+5. Mohan, Undeland and Robbins, Power Electronics: Converters, Applications and
+Design, John Wiley and Sons, New York, 3rd Edition, 2022.
+6. Joseph Vithyathil, Power Electronics, McGraw Hill, New York, 1995.
+B.Tech. / Instrumentation and Control Engineering 155 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Work professionally in the area of power and power related fields.
+CO2 Have good understanding of the basic principles of switch mode power conversion.
+CO3 Apply knowledge of mathematics and engineering and identify formulas to solve
+power and power electronics engineering problems.
+CO4 Choose appropriate power converter topologies and design suitable power stage
+and feedback controllers for various applications like microprocessor power
+supplies, renewable energy systems and control of motor drives.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 156 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

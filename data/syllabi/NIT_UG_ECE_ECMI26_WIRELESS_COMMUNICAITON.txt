@@ -1,0 +1,38 @@
+Course Code : ECMI26
+Course Title : WIRELESS COMMUNICAITON
+Number of Credits 3
+Prerequisites : ECMI23
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To get an understanding of mobile radio communication principles, types and to study the recent
+trends adopted in cellular and wireless systems and standards.
+Course Content
+Introduction to Wireless Communication. Cellular concept. System design fundamentals. Coverage
+and Capacity improvement in Cellular system. Technical Challenges.
+Mobile Radio Propagation; Reflection, Diffraction, Fading. Multipath propagation. Statistical
+characterization of multipath fading. Diversity Techniques.
+Path loss prediction over hilly terrain. Practical link budget design using Path loss models. Design
+parameters at base station. Antenna location, spacing, heights and configurations.
+Multiple access techniques; FDMA, TDMA and CDMA. Spread spectrum. Power control. WCDMA.
+CDMA network design. OFDM and MC-CDMA.
+GSM.3G, 4G (LTE), NFC systems, WLAN technology. WLL. Hyper LAN. Ad hoc networks.
+Bluetooth.
+Text Books:
+1. T.S.Rappaport, Wireless Communication Principles (2/e), Pearson, 2002.
+2. A.F.Molisch, Wireless Communications, Wiley, 2005.
+Reference Books:
+1. P.MuthuChidambaraNathan, Wireless Communications, PHI, 2008.
+2. W.C.Y.Lee, Mobile Communication Engineering. (2/e), McGraw- Hill, 1998.
+3. A.Goldsmith, Wireless Communications, Cambridge University Press, 2005.
+4. S.G.Glisic, Adaptive CDMA, Wiley, 2003.
+Course outcomes
+At the end of the course student will be able
+CO1: Apply the knowledge of basic communication systems and its principles.
+CO2: Describe the cellular concept and analyze capacity improvement Techniques.
+CO3: Mathematically analyze mobile radio propagation mechanisms.
+CO4: Summarize diversity reception techniques.
+CO5: Design Base Station (BS) parameters and analyze the antenna configurations.
+118 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

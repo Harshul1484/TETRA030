@@ -1,0 +1,41 @@
+Course Code : ECHO11
+Course Title : SPECTRAL ANALYSIS OF SIGNALS
+Number of Credits 3
+Prerequisites : ECPC15
+(Course code)
+Course Type : HO
+Course learning Objective
+ To give an exhaustive survey of methods available for power spectrum estimation.
+Course content
+Periodogram and correlogram. Blackman – Tukey, Bartlett, Welch and Daniel methods. Window
+design considerations.
+Parametric methods for rational spectra. Covariance structure of ARMA processes. AR, MA and
+ARMA signals. Multivariate ARMA signals.
+Parametric methods for line spectra. Models of sinusoidal signals in noise. Nonlinear least squares,
+high order Yule-Walker, min-norm, Pisarenko, MUSIC and ESPRIT methods.
+Filter bank methods. Filter-bank interpretation of the periodogram. Refined filter-bank and Capon
+methods.
+Spatial methods. Array model. Nonparametric methods; beam forming and Capon method. Parametric
+methods; nonlinear least squares, Yule-Walker, min-norm, Pisarenko, MUSIC and ESPRIT methods.
+Text Books
+1. P.Stoica & R.Moses, “Spectral Analysis of signals”, Pearson, 2005.
+2. Marple, “Introduction to Spectral Analysis”, Prentice Hall.
+Reference Books
+1. S.M.Key, “Fundamentals of Statistical Signal Processing”, Prentice Hall PTR, 1998.
+2. Recent literature in Spectral Analysis of Signals.
+Course outcomes
+At the end of the course student will be able
+CO1: derive and analyse the statistical properties of the conventional spectral estimators, namely
+the periodogram, averaged & modified periodogram and Blackman-Tukey methods.
+CO2: formulate modern, parametric, spectral estimators based upon autoregressive (AR), moving
+average (MA), and autoregresive moving average (ARMA) models, and detail their statistical
+properties. Describe the consequence of the term resolution as applied to a spectral estimator.
+CO3: define techniques for calculating moments in spectral and temporal domains; Analyze filter
+bank method, capon methods for spectrum estimation.
+CO4: demonstrate knowledge and understanding of the principles of parametric and non-
+parametric array processing algorithms.
+CO5: select an appropriate array processing algorithms for frequency estimation and sonar, radar
+applications.
+129 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

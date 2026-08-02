@@ -29,10 +29,12 @@ logger = logging.getLogger(__name__)
 SYLLABUS_DIR = Path("/app/data/syllabi")
 JOB_SNAPSHOT = Path("/app/data/jobs_snapshot.json")
 
-# Extraction costs one Claude call per posting on a cold cache. The default
-# balances a credible evidence denominator against that cost; raise it once
-# the cache is warm, since repeats are free.
-DEFAULT_JOB_LIMIT = 120
+# Extraction costs one Claude call per posting on a cold cache, and repeats
+# are free once cached. The previous cap of 120 was set when the corpus was
+# software-only; against a 470-posting multi-discipline corpus it discarded
+# most of the civil, mechanical and electrical roles, which are exactly the
+# ones the evidence floor needs in order to audit those courses at all.
+DEFAULT_JOB_LIMIT = 500
 
 
 def seed(

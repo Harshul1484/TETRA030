@@ -1,0 +1,49 @@
+Course Code : ICLR17
+Course Title : Instrumentation Laboratory
+Type of Course : LR
+Prerequisites : ICPC17
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To familiarize the students with different signal conditioning circuits for temperature
+and pressure measurement system.
+CLO2 To familiarize the students to the calibration practices used in industries.
+CLO3 To impart knowledge in the transmitter design.
+CLO4 To design the alarms and annunciators for measurements
+List of Experiments
+1. Design of temperature transmitter using RTD.
+2. Design of cold junction compensation circuit for Thermocouple.
+3. Design of IC temperature transmitters.
+4. Design of Linearization circuit for thermistor.
+5. Study of zero elevation and suppression in differential pressure transmitter
+6. Performance evaluation of pressure gauges using Dead weight tester.
+7. Measurement of level using differential pressure transmitter.
+8. Design of alarms and annunciators for process variable measurements.
+9. Design of pressure/force transmitter
+References
+1. Doebelin E.O, Measurement Systems: Application and Design, McGraw Hill, 7th
+Edition, 2019
+2. Patranabis D, Principles of Industrial Instrumentation, Tata McGraw Hill, 3rd Edition,
+2010
+3. Roy D. Choudary and Shail Jain, Linear Integrated Circuits, New Age International,6th
+Edition,2021
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Suggest a suitable temperature sensor for an application.
+CO2 Evaluate various temperature and pressure measuring sensors.
+CO3 Design and implement signal conversion and manipulation circuits for temperature
+and pressure measurement systems.
+CO4 Perform calibration of pressure and level measuring instruments
+B.Tech. / Instrumentation and Control Engineering 86 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 2 2 1 1 1 3 1 2 3 3 3 1
+CO2 3 1 3 3 3 2 2 1 3 3 3 3 3 3 2
+CO3 3 3 3 2 2 1 1 1 3 3 3 3 3 3 1
+CO4 3 1 3 3 3 2 2 1 3 3 3 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 87 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,47 @@
+Course Code : ECPE22
+Course Title : PATTERN RECOGNITION
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course learning Objective
+ The subject aims to make the students to understand the mathematical approach for pattern
+recognition.
+Course content
+Polynomial curve fitting – The curse of dimensionality - Decision theory - Information theory - The
+beta distribution - Dirichlet distribution-Gaussian distribution-The exponent family: Maximum
+likelihood and sufficient statistics -Non-parametric method: kernel-density estimators - Nearest
+neighbourmethods.
+Linear models for regression and classification: Linear basis function models for regression - Bias
+variance decomposition-Bayesian linear regression-Discriminant functions - Fisher’s linear
+discriminant analysis (LDA) - Principal Component Analysis (PCA) - Probabilistic generative model
+- Probabilistic discriminative model.
+Kernel methods: Dual representations-Constructing kernels-Radial basis function networks-Gaussian
+process-Maximum margin classifier (Support Vector Machine) –Relevance Vector Machines-Kernel-
+PCA, Kernel-LDA.
+Mixture models: K-means clustering - Mixtures of Gaussian - Expectation-Maximization algorithm-
+Sequential models: Markov model, Hidden-Markov Model (HMM) - Linear Dynamical
+Systems(LDS).
+Neural networks: Feed- forward Network functions-Network training - Error Back propagation
+- The Hessian Matrix - Regularization in Neural Network - Mixture density networks – Bayesian
+Neural Networks
+TextBooks
+1. C.M.Bishop,''Pattern recognition and machinelearning'',Springer,2006
+2. E.S.Gopi, “Pattern recognition and Computational intelligence using matlab, Transactions
+on computational science and computational intelligence, Springer, 2019
+ReferenceBooks
+1. Sergious Thedorodis ,Konstantinos Koutroumbas, Pattern recognition, Elsevier, Fourth
+edition,2009
+2. Richard O.Duda, Peter.E.Hart, David G.Stork, “Pattern classification”, Wiley, Second
+edition,2016
+3. Recent literature in the related topics
+COURSEOUTCOMES
+Students are able to
+CO1: summarize the various techniques involved in patternrecognition
+CO2: identify the suitable pattern recognition techniques for the particular applications.
+CO3: categorize the various pattern recognition techniques into supervised and unsupervised.
+CO4: summarize the mixture models based pattern recognitiontechniques
+CO5: summarize the artificial neural network based pattern recognitiontechniques
+44 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

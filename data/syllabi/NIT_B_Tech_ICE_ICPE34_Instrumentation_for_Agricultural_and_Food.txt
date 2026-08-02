@@ -1,0 +1,76 @@
+Course Code : ICPE34
+Course Title : Instrumentation for Agricultural and Food
+Processing Industries
+Type of Course : PE
+Prerequisites : ICPC17
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To provide an understanding on the need of instrumentation in agriculture and
+food processing sector.
+CLO2 To provide an understanding of food quality assessment and instruments used for
+the same.
+CLO3 To provide an understanding on agriculture associated activities and instruments
+used for the same.
+CLO4 To provide some knowledge in food processing equipment.
+Course Content
+Introduction: Necessity of instrumentation and control for food processing and agriculture
+sensor requirement, remote sensing, biosensors in Agriculture, standards for food quality.
+Instrumentation for food quality assurance: Instrumental measurements and sensory
+parameters. Inline measurement for the control of food processing operations: color
+measurements of food, food composition analysis using infrared, microwave measurements
+of product variables, pressure and temperature measurement in food process control, level
+and flow measurement in food process control, ultrasonic instrumentation in food industry.
+Instrumental techniques in the quality control, Major Processes: Flow diagram of sugar plant,
+sensors and instrumentation set-up for it, Oil extraction plant and instrumentation set-up, Juice
+extraction control set-up.
+Instrumentation for Agriculture: Irrigation systems: necessity, irrigation methods: overhead,
+centre pivot, lateral move, micro irrigation systems and it’s performance, comparison of
+different irrigation systems, soil moisture measurement methods. Major Processes:
+Application of SCADA for DAM parameters and control, Water distribution and management
+control, Auto-Drip irrigation systems, Irrigation Canal management, upstream and
+downstream control concepts, supervisory control.
+Green houses and Instrumentation: Ventilation, cooling and heating wind speed, temperature
+and humidity, rain gauge, carbon dioxide enrichment measurement and control.
+Design considerations of agricultural and food Processing Equipments: Design of Food
+Processing equipments, dryers, design of dryers PHTC, RPEC, LSU and Drum Dryer,
+determination of heat and air requirement for drying grains.
+References
+1. Erika Kress-Rogers, Christopher J.B. Brimelow., Instrumentation and Sensors for the
+Food Industry, Woodhead Publishing, 2001 .
+2. Manabendra Bhuyan., Measurement and control in food processing, CRC/Taylor
+and Francis Publications, 2007
+3. P.J. Fellows, Food Processing Technology Principles and Practice, Woodhead
+Publishing, 3rdEdition, 2009.
+4. Semioh Otles, Methods of analysis of food components and additives, CRC Press,
+Taylor and Francis group, 2nd Edition, 2012.
+B.Tech. / Instrumentation and Control Engineering 137 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+5. McMillan G. K., Considine D. M., Process/Industrial Instruments and Controls
+Handbook, McGraw Hill International, 5th edition,1999.
+6. Liptak B. G., Instrument Engineers Handbook, Process Measurement Volume I and
+Process Control Volume II, CRC press, 4th Edition,2005.
+7. Hall C. W., Olsen W. C, The literature of Agriculture Engineering, Cornell University
+Press, 1992.
+8. Sahu J. K., Fundamentals of Food Process Engineering, Alpha Science Intl Ltd, 2016.
+9. G.E. Meyer and Yufeng Ge., Instrumentation and Controls for Agricultural and
+Biological Engineering Applications, using LabVIEW® and other Modern tools as
+Support Systems, (2008)
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the necessity of instrumentation in agriculture and food processing.
+CO2 Have familiarity with instrumentation requirement in agriculture and food processing.
+CO3 Analyse and design systems/instruments for agriculture and food processing.
+CO4 Understand problems in agriculture and food processing and provide technological
+solution to the same.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 - - - 3 3 3 2 2 2 1
+CO2 2 2 2 2 2 - - - 3 3 3 2 2 2 1
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 - - - - - 3 3 3 1 1 1 - - - 3
+B.Tech. / Instrumentation and Control Engineering 138 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,66 @@
+Course Code : ICPC23
+Course Title : Electrical and Electronic measurements
+Type of Course : PC
+Prerequisites : ICPC11, ICPC12
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To give an overview of current, voltage and power measuring electrical, electronics
+and digital instruments.
+CLO2 To expose the students to the design of bridges for the measurement of resistance,
+capacitance and inductance.
+CLO3 To give an overview of test and measuring instruments.
+CLO4 To provide the working knowledge of various waveform generators, analyzers and
+display devices.
+Course Content
+Electrical measurements: General features and Classification of electro mechanical
+instruments. Principles of Moving coil, moving iron, dynamometer type, rectifier type, thermal
+instruments. Extension of instrument range: shunt and multipliers, CT and PT.
+Measurement of Power: Electrodynamic wattmeter’s, Low Power Factor (LPF) wattmeter,
+errors, calibration of wattmeter. Single and three phase power measurement, Hall effect
+wattmeter, thermal type wattmeter.
+Measurement of resistance, inductance and capacitance: Low, high and precise resistance
+measurement, Megger, Ohmmeters, Classical AC bridges: Inductance and capacitance
+measurements. Detectors in bridge measurement, bridge screening, Wagner earth,
+transformer ratio bridges.
+Electronic and digital measurements: Electronic voltmeter, current measurement with
+electronic instruments, Digital voltmeter, Analog and digital multi-meters, Digital frequency
+meters. Digital LCR meter, Q-Meter, Digital wattmeter and energy meters.
+DSO, MSO, Function generators, Signal generators, Waveform analyzers, Spectrum
+analyzers, Distortion analyzers, LED, LCD and Organic LED displays.
+References
+1. Golding's, Electrical Measurements and Measuring Instruments, 6th Edition, (Revised
+and Enlarged): With Solved Examples and MCQ's (In M.K.S. Units), MedTech, Jan
+2019.
+2. Shawney A K, A course in Electrical and Electronic Measurements and
+Instrumentation, Dhanpat Rai and Sons, Jan 2015.
+3. David A. Bell, Electronic Instrumentation and Measurements, Oxford University Press
+India; 3rd Edition, 2013.
+4. Prithwiraj Purkait, Budhaditya Biswas, Santanu Das, Chiranjib Koley, Electrical and
+Electronics Measurements and Instrumentation, by McGraw Hill Education (India)
+Private Limited, 2013
+5. H. S. Kalsi, Electronic Instrumentation, McGraw Hill Education; 3rd Edition, 2017.
+6. Albert D. Helfrick, William D. Cooper, Modern Electronic Instrumentation and
+Measurement Techniques, 1st Edition, Pearson, 2016.
+B.Tech. / Instrumentation and Control Engineering 68 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Demonstrate familiarity with various measuring instruments (ammeters, voltmeters,
+wattmeters, energy meters, extension of meters, current and voltage transformers)
+used to measure electrical quantities.
+CO2 Design suitable DC and AC bridges for the measurement of R, L, C and Frequency
+measurement.
+CO3 Suggest the kind of instrument suitable for typical measurements.
+CO4 Use the test and measuring instruments effectively.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 1 1 2 2 1 1 1 1 1 2 2 2 1
+CO2 3 2 2 2 2 2 1 1 1 1 1 2 2 1 1
+CO3 2 3 1 1 3 2 2 1 1 1 1 2 1 2 1
+CO4 2 3 1 2 2 2 1 1 1 1 1 2 1 2 1
+B.Tech. / Instrumentation and Control Engineering 69 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

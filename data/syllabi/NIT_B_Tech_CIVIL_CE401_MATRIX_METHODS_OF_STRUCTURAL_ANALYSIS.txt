@@ -1,5 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-SEMESTER VII
+CE401 Matrix Methods of Structural Analysis 2 1 0 3
 CE401 MATRIX METHODS OF STRUCTURAL ANALYSIS
 Course objectives:
 To understand the importance of degrees of freedom and the concept of principle of
@@ -37,3 +36,4 @@ analyze the structures using flexibility and stiffness method
 transform system coordinates to element coordinates
 determine the forces in various members due to lack of fit and thermal expansion
 31
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.

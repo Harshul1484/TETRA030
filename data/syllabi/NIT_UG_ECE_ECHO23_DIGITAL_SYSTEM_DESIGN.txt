@@ -1,0 +1,47 @@
+Course Code : ECHO23
+Course Title : DIGITAL SYSTEM DESIGN
+Number of Credits 3
+Prerequisites : ECPC14
+(Course code)
+Course Type : HO
+Course learning Objective
+ To get an idea about designing complex, high speed digital systems and how to implement
+such design.
+Course content
+Mapping algorithms into Architectures: Datapath synthesis, control structures, critical path and worst
+case timing analysis. FSM and Hazards.
+Combinational network delay. Power and energy optimization in combinational logic circuit.
+Sequential machine design styles. Rules for clocking. Performance analysis.
+Sequencing static circuits. Circuit design of latches and flip-flops. Static sequencing element
+methodology. Sequencing dynamic circuits. Synchronizers.
+Data path and array subsystems: Addition / Subtraction, Comparators, counters, coding,
+multiplication and division. SRAM, DRAM, ROM, serial access memory, context addressable
+memory.
+Reconfigurable Computing- Fine grain and Coarse grain architectures, Configuration architectures-
+Single context, Multi context, partially reconfigurable, Pipeline reconfigurable, Block Configurable,
+Parallel processing.
+Text Books
+1. N.H.E.Weste, D. Harris, CMOS VLSI Design (3/e), Pearson,2005.
+2. W.Wolf, FPGA- based System Design, Pearson,2004.
+Reference Books
+1. S. Hauck, A.DeHon, ”Reconfigurable computing: the theory and practice of FPGA-based
+computation”, Elsevier, 2008.
+2. Franklin P. Prosser, David E. Winkel, Art of Digital Design, Prentice-Hall,1987.
+3. R.F.Tinde,” Engineering Digital Design”, (2/e), Academic Press,2000.
+4. C. Bobda, “Introduction to reconfigurable computing”, Springer, 2007.
+5. M. Gokhale, ”Paul S. Graham, Reconfigurable computing: accelerating computation with
+field- programmable gate arrays”, Springer,2005.
+6. C.Roth, “Fundamentals of Digital Logic Design”, Jaico Publishers, V ed.,2009.
+7. Recent literature in Digital System Design.
+Course outcomes
+At the end of the course student will be able
+CO1: identify mapping algorithms into architectures.
+CO2: summarize various delays in combinational circuit and its optimization methods.
+CO3: summarize circuit design of latches and flip-flops.
+CO4: construct combinational and sequential circuits of medium complexity that is based on
+VLSIs, and programmable logic devices.
+CO5: summarize the advanced topics such as reconfigurable computing, partially
+reconfigurable, Pipeline reconfigurable architectures and block configurable.
+141 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

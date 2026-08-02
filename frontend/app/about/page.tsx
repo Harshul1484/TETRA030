@@ -1,3 +1,4 @@
+import { SECTION_BLOCKS } from "@/lib/theme";
 import { Card, SectionTitle } from "@/components/ui";
 
 const STAGES = [
@@ -48,28 +49,35 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <Card>
+      <section>
         <SectionTitle hint="Each stage has one responsibility and a stable interface, so any of them can be replaced without touching its neighbours.">
           The pipeline
         </SectionTitle>
-        <ol className="space-y-3">
+
+        {/* One block per stage rather than a list inside a single card. The
+            sequence is the argument, so it should read as steps. */}
+        <ol className="space-y-px overflow-hidden rounded-[var(--radius-lg)]">
           {STAGES.map((stage, index) => (
-            <li key={stage.name} className="flex gap-4">
-              <span className="tabular mt-0.5 text-[13px] text-[var(--color-ink-mute)]">
+            <li
+              key={stage.name}
+              className="grid gap-x-6 gap-y-2 px-6 py-6 sm:grid-cols-[auto_minmax(0,1fr)]"
+              style={{ backgroundColor: SECTION_BLOCKS[index % SECTION_BLOCKS.length] }}
+            >
+              <span className="tabular text-[22px] font-light leading-none text-[var(--color-ink)]/55">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <div>
                 <p className="card-title text-[var(--color-ink)]">
                   {stage.name}
                 </p>
-                <p className="mt-1.5 text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
+                <p className="mt-2 max-w-2xl text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
                   {stage.detail}
                 </p>
               </div>
             </li>
           ))}
         </ol>
-      </Card>
+      </section>
 
       <Card block="var(--color-block-periwinkle)">
         <SectionTitle>What makes this different</SectionTitle>

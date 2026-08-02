@@ -1,0 +1,61 @@
+Course Code : ICPE12
+Course Title : Biomedical Signal Processing
+Type of Course : PE
+Prerequisites : ICPC13, ICPC24
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to the importance of biomedical signals and analysis
+CLO2 To introduce different types of bio signals and their characteristics
+CLO3 To study different noise removal mechanisms for biomedical signals
+CLO4 To analyse the signals using time and frequency domain measures
+Course Content
+Introduction to signals, Continuous time and discrete time signals and LTI systems,
+Introduction and properties of Fourier transform, Laplace transform and Z-transform
+Nature of biomedical signals; origin and dynamics of electroneurogram (ENG),
+electromyogram (EMG), electrocardiogram (ECG), electroencephalogram (EEG), event
+related potentials (ERP), electrogastrogram (EGG), phonocardiogram (PCG), vibromyogram
+(VMG) and vibroarthogram (VAG), Objectives of biomedical signal analysis and difficulties in
+biomedical signal analysis
+Random, structured and physiological noise, noises and artefacts in ECG, EMG and EEG
+signals, Filtering for removal of artefacts; Introduction to filter design; Time domain filters,
+Frequency domain filters, and optimal filters and selection of appropriate filters
+Event detections in ECG, EEG and heart sounds, Analysis of wave shape and waveform
+complexity, QRS complex, analysis of ERPs and analysis of electrical activity using time and
+frequency domain measures
+Analysis of nonstationary and multicomponent signals, heart sound and murmurs, EEG
+rhythms and waves and case studies
+References
+1. Rangayyan, R. M and Sridhar Krishnan. (2024). Biomedical signal analysis (3rd
+Edition). Wiley
+2. Eugene N. Bruce, Biomedical Signal Processing and Signal Modeling, A Wiley-
+Interscience Publication JOHN WILEY and SONS, INC. ISBN 0-471-34540-7.2001
+3. B.P. Lathi, Principles of Linear Systems and Signals, Oxford University Press, 3rd
+Edition, 2017.
+4. Le Cerutti, S., and Marchesi, C. (Eds.). (2011). Advanced methods of biomedical signal
+processing (Vol. 27). John Wiley and Sons.
+5. Webster, J. G. (2009). Medical instrumentation application and design. John Wiley and
+Sons.
+6. John G. Webster, John W Clark, jr, Medical Instrumentation Application and Design,
+5th Edition, Wiley, 2020. (e book).
+7. Mitra, S.K., Digital Signal Processing: A Computer-Based Approach, McGraw Hill, NY,
+4th Edition, 2010.
+B.Tech. / Instrumentation and Control Engineering 93 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the issues associated with the interpretation of biomedical signals
+CO2 Familiar with different signals such as ECG, EMG and EEG
+CO3 Remove the noises in bio signals by selecting appropriate filters
+CO4 Implement appropriate signal processing methods to extract reliable information
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 94 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

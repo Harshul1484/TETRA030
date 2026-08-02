@@ -1,15 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-3. Arora, K. R. Surveying Vol. III, Standard Book House, 1996.
-4. Satheesh Gopi. Advanced Surveying, Pearson Education, 2007.
-5. Satheesh Gopi. The Global Positioning System and Surveying using GPS, Tata McGraw, 2005.
-Course outcomes:
-On completion of the course, the students will be able to:
-apply advanced surveying techniques in different fields of civil engineering
-select the advanced surveying technique which is best suited for a work
-apply total station and EDM in distance measurement and traversing
-demonstrate the principles of the earth surface, its projections and different coordinates
-involved in map making
-apply GPS in transportation engineering, structural engineering and land use planning
+CE463 Steel-Concrete Composite Structures 3 0 0 3
 CE463 STEEL-CONCRETE COMPOSITE STRUCTURES
 Course Objectives:
 To introduce the concept of composite construction and their applications in engineering
@@ -41,3 +30,12 @@ Oxford Blackwell Scientific Publication, 1992.
 5. IS 11384 – 1985 Indian Standard Code of Practice for Composite Construction in Structural Steel
 and Concrete, Bureau of Indian Standards, New Delhi
 48
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the concepts of composite construction in engineering
+analyze the behaviour of shear connectors, degree of shear connection and their interaction
+design composite beams under propped and un-propped condition
+design different types of composite deck slabs
+analyze the effects of temperature, shrinkage and creep and cyclic loading on composite
+sections

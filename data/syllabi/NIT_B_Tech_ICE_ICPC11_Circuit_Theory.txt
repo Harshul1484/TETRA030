@@ -1,0 +1,64 @@
+Course Code : ICPC11
+Course Title : Circuit Theory
+Type of Course : PC
+Prerequisites : --
+Contact Hours : 57 (4 credits)
+Course Assessment Methods : Continuous Assessments, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To teach the electrical circuit laws and theorems to aid in circuit analysis
+CLO2 To impart problem solving technique of linear passive electrical circuits.
+CLO3 To expose the students to the transient behaviour of different R-L-C circuits.
+CLO4 To teach the methods of AC circuit analysis and synthesis of 2-port networks.
+Course Content
+Review of Networks and Circuits, Elemental laws (V-I characteristics) for Resistors, Inductors,
+and Capacitors, Circuital laws (Kirchhoff’s laws), Sign convention, Basic signals (dc and ac),
+Elementary signals (impulse, step, ramp, exponential), Synthesis of arbitrary waveforms
+(rectangular, triangular etc.) from elementary signals, Voltage and Current sources
+(Independent and Dependent), Ladder and Bridge Circuits.
+Analysis of Resistive Circuits energized by dc voltages and currents – Source
+Transformations, Nodal and Mesh Analysis, Principle of Superposition, Network Theorems
+(Thevenin’s and Norton’s, Maximum Power Transfer), Circuits with dependent dc Sources.
+Transients with Energy Storage Elements, First and Second Order Circuits – Time-constant,
+Damping Ratio, Natural Frequency, Emphasis on Linear Ordinary Differential Equations, Step
+response of RC, RL, and RLC (series and parallel) Circuits, Resonance in Second Order
+Circuits.
+Sinusoidal Sources and Response – Behavior of elements with ac signals, Impedance and
+Admittance, Generalization of Network Theorems and Circuit Analysis, Introduction to 3-φ
+power systems. Transient and Steady-state Response of Circuits – Laplace Transformation
+and its application to circuit analysis, State Variables, Network Functions (Driving point
+impedance and admittance), Transfer function, Two- port Networks, Applications of Two-port
+networks, Introduction to General Linear Systems.
+Network Synthesis: Properties of RC, RL, and LC driving point functions, Synthesis of
+networks from given transfer functions.
+References
+1. Hayt, W.H, Kemmerly J.E. and Durbin, Engineering Circuit Analysis, McGraw Hill
+Publications, 8th Edition, 2013
+2. Franklin F. Kuo, Network Analysis and Synthesis, Wiley International, 5th Edition, 2012
+3. Van Valkenburg, Network Analysis, Prentice Hall, Revised 3rd Edition, 2019.
+4. Charles K. Alexander, Mathew N.O Sadiku, Fundamentals of Electric Circuits TMH
+Education Pvt. Ltd, 5t h Edition, 2013
+5. Ramakalyan, A., Linear Circuits: Analysis and Synthesis, Oxford Univ. Press, 2005
+6. DeCarlo, R.A. and Lin, P.M., Linear Circuit Analysis: Time Domain, Phasor and Laplace
+Transform Approaches, Oxford University Press. 3rd Editions, 2009
+7. SC Dutta Roy, Circuit Theory, NPTEL video lectures
+B.Tech. / Instrumentation and Control Engineering 42 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Analyze and solve the DC and AC circuits using mesh and node analysis, network
+theorems and mathematical tools
+CO2 Apply the knowledge of the time domain and frequency domain characteristics of
+electrical circuits for design
+CO3 Apply Laplace Transform for circuit analysis
+CO4 Design and synthesize two port networks
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 1 2 1 2 1 2 2 1 3 1 2 1
+CO2 3 3 3 1 2 1 2 1 2 2 1 3 1 2 1
+CO3 3 3 3 1 2 1 2 1 2 2 1 3 1 2 1
+CO4 3 3 3 1 2 1 2 1 2 2 1 3 1 2 1
+B.Tech. / Instrumentation and Control Engineering 43 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

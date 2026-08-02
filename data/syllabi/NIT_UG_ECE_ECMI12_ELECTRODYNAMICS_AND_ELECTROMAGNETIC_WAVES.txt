@@ -1,0 +1,44 @@
+Course Code : ECMI12
+Course Title : ELECTRODYNAMICS AND ELECTROMAGNETIC WAVES
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To expose the students to the rudiments of Electromagnetic theory and wave propagation
+essential for subsequent courses on microwave engineering, antennas and wireless
+communication
+Course Content
+Electrostatics. Coulomb’s law. Gauss’s law and applications. Electric potential. Poisson’s and Laplace
+equations. Method of images. Multipole Expansion.
+Electrostatic fields in matter. Dielectrics and electric polarization. Capacitors with dielectric
+substrates. Linear dielectrics. Force and energy in dielectric systems.
+Magneto statics. Magnetic fields of steady currents. Biot-Savart’s and Ampere’s laws. Magnetic vector
+potential. Magnetic properties of matter.
+Electrodynamics. Flux rule for motional emf. Faraday’s law. Self and mutual inductances. Maxwell’s
+Equations. Electromagnetic Boundary conditions. Poynting theorem.
+Electromagnetic wave propagation. Uniform plane waves. Wave polarization. Waves in matter.
+Reflection and transmission at boundaries. Propagation in an ionized medium.
+Text Books
+1. D.J.Griffiths, “Introduction to Electrodynamics (3/e)”, PHI, 2001
+2. E.C. Jordan & G. Balmain, “Electromagnetic Waves and Radiating Systems”, PHI, 1995.
+Reference Books
+1. W.H.Hayt, “Engineering Electromagnetics, (7/e)”, McGraw Hill, 2006.
+2. D.K.Cheng, “Field and Wave Electromagnetics, (2/e)”, Addison Wesley, 1999.
+3. M.N.O.Sadiku, ”Principles of Electromagnetics, (4/e)”, Oxford University Press, 2011.
+4. N.Narayana Rao, “Elements of Engineering Electromagnetics, (6/e)”, Pearson, 2006.
+5. R.E.Collin, “Foundations for Microwave Engineering (2/e)”, McGraw –Hill, 2002.
+6. R.E.Collin, “Antennas and Radiowave Propagation”, McGraw-Hill, 1985.
+Course outcomes
+At the end of the course student will be able
+CO1: recognize and classify the basic Electrostatic theorems and laws and to derive them.
+CO2: discuss the behaviour of Electric fields in matter and Polarization concepts.
+CO3: classify the basic Magneto static theorems and laws and infer the magnetic properties of
+matter.
+CO4: summarize the concepts of electrodynamics &to derive and discuss the Maxwell’s
+equations.
+CO5: students are expected to be familiar with Electromagnetic wave propagation and wave
+polarization.
+104 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

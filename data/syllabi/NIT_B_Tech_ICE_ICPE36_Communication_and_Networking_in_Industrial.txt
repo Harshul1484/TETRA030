@@ -1,0 +1,81 @@
+Course Code : ICPE36
+Course Title : Communication and Networking in Industrial
+Automation
+Type of Course : PE
+Prerequisites : ICPC25
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce students to principles behind communication systems and techniques
+in handling analog and digital communication signals
+CLO2 To introduce students to the communication protocols and standards that are
+relevant to industrial automation
+CLO3 To provide an overview of state-of-the-art communication protocols used in the
+industrial environment
+CLO4 To provide the relevant knowledge to establish, operate and maintain an industrial
+data communication network.
+Course Content
+Introduction to networks and data communications, modulation- amplitude, frequency phase
+modulation, description of data and signals, media - wired and wireless, connectivity devices,
+multiplexing, noise in signals and their mitigation, error correction and detection
+Principles of interface, serial interface and its standards. Parallel interfaces and buses.
+Balanced and unbalanced transmission lines, Synchronous and asynchronous
+communication, RS 232,422,485 standards.
+Instrumentation network design and upgrade: Instrumentation design goals, cost optimal and
+accurate sensor networks. Global system architectures, advantages and limitations of open
+networks.
+Network architectures - LAN, WAN, inter-networks, OSI Reference Model, The operations and
+protocols of the Internet - TCP/IP, Network security, Internetworking issues, Peer-to-peer
+communication, Class-based Addressing and Class-less Addressing
+Industrial protocols: XON/OFF Signaling, Binary Synchronous Protocol (BSC), HDLC/SDLC
+protocol, CSMA/CD, CA protocol, OSI implementation for Industrial communications,
+Industrial control applications: ASCII-based protocol – ANSI –X 3.28 -2.5.
+Industrial Ethernet: 10Mbps, 100Mbps Ethernet, Gigabit Ethernet, Industrial Ethernet.
+DNP and ModBus protocols, CAN Bus, MQTT
+PROFIBUS-PA: Basics, architecture, model, network design and system configuration.
+PROFIBUS types – PA, DP & FMS and their comparison, Designing PROFIBUS-PA and
+Foundation Fieldbus segments: general considerations, network design.
+Foundation fieldbus: Fieldbus requirement, features, advantages, fieldbus components,
+types, architecture–physical, data link, application layer, system and network management,
+wiring, segment functionality checking, function block application process.
+B.Tech. / Instrumentation and Control Engineering 141 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. K. Nolting, Instrumentation Reference Book, Butterworth Heinemann, 2nd Edition,
+1995.
+2. B.G. Liptak, Process software and digital networks, CRC press, Florida, 3rd Edition
+2011.
+3. Behrouz Forouzan, Data Communications and Networking, Tata McGraw Hill
+Education, New Delhi, 2010.
+4. Steve Mackay, Edwin Wright, Deon Reynders, John Park, Practical Industrial Data
+Networks: Design, Installation and Troubleshooting, Newnes, An imprint of Elsevier,
+2004.
+5. Andrew S. Tanenbaum, David J. Wetherall, Computer Networks, Prentice Hall of India
+Pvt. Ltd., 5th Edition. 2011
+6. Lawrence M. Thompson and Tim Shaw, “Industrial Data Communications”, Fifth
+Edition, International Society of Automation, 2015.
+7. Dick Caro, “Automation Network Selection: A Reference Manual”, 3rd Edition,
+Paperback, International Society of Automation, 2016.
+8. David J. Teumim, “Industrial Network Security, Second Edition”, International Society
+of Automation, 2010.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the principles behind analog and digital communication employed in
+industrial networks
+CO2 Illustrate the salient features of state-of-the-art communication protocols and
+standards relevant to industrial automation
+CO3 Elaborate the operation and architecture of various subsystems in industrial
+communication networks
+CO4 Establish and configure a secure industrial communication network based on
+Ethernet
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 2 2 1 1 1 - 3 3 1
+CO2 3 3 3 3 3 2 2 2 1 1 1 - 3 3 1
+CO3 3 3 3 3 3 2 2 2 1 1 1 - 3 3 1
+CO4 3 3 3 3 3 2 2 2 1 1 1 - 3 3 1
+B.Tech. / Instrumentation and Control Engineering 142 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

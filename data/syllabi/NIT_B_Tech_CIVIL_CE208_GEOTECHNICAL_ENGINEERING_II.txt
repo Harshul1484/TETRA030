@@ -1,8 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-apply mathematical adjustment of accidental errors involved in surveying measurements
-plan a survey for applications such as road alignment and height of the building
-invoke advanced surveying techniques over conventional methods in the field of civil
-engineering
+CE208 Geotechnical Engineering - II 3 0 0 3
 CE208 GEOTECHNICAL ENGINEERING – II
 Course objectives:
 To emphasize the importance of soil investigations including destructive and
@@ -40,3 +36,8 @@ On completion of the course, the students will be able to:
 carry out soil investigation for any civil engineering construction
 analyse earth retaining structures for any kind of soil medium
 15
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+estimate bearing capacity using IS code methods
+design proper foundations for any kind of shallow foundation system
+estimate pile and pile group capacity for any kind of soil including group efficiency and
+negative friction

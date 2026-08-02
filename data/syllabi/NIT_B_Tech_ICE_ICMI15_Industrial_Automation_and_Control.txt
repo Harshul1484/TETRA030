@@ -1,0 +1,63 @@
+Course Code : ICMI15
+Course Title : Industrial Automation and Control
+Type of Course : Minor (MI)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the importance of process automation techniques.
+CLO2 To impart required knowledge in PLC based programming.
+CLO3 To introduce to the students to the distributed control system and different
+communication protocols.
+Course Content
+Introduction and overview of Industrial automation – Block diagram of PLC – different types of
+PLC – Type of input and output – Introduction to relay logic- Application of PLC.
+Introduction to Ladder logic programming – Basic instructions – Timer and Counter
+instruction- Arithmetic and logical instruction – MCR, PID controller and other essential
+instruction sets - Case studies and examples for each instruction set.
+Introduction to high level PLC language – Programming of PLC using simulation software –
+Real time interface and control of process rig/switches using PLC.
+Introduction to DCS and SCADA - Block diagram – function of each component – Security
+objective – Operation and engineering station interface – Communication requirements.
+Development of different control block using DCS simulation software – Real time control
+of test rigs using DCS. Introduction to HART, Fieldbus and PROFIBUS – Application and case
+studies of large-scale process control using DCS.
+References
+1. John W. Webb and Ronald A. Reis, Programmable Logic Controllers - Principles and
+Applications, Prentice Hall Inc., New Jersey, 5th Edition, 2002.
+2. Lukcas M.P, Distributed Control Systems, Van Nostrand Reinhold Co., New York,
+1986.
+3. Frank D. Petruzella, Programmable Logic Controllers, McGraw Hill, New York, 4th
+Edition, 2010.
+4. Dr. R. Manikandan, Dr. R. Senthil., Logic and Distributed Control System Sai
+Publishers
+5. John. W. Webb, Ronald A Reis, Programmable Logic Controllers - Principles and
+Applications, 5th Edition, Prentice Hall Inc., New Jersey, 2003.
+6. R.G. Jamkar., Industrial Automation Using PLC SCADA and DCS (PLC and SCADA
+Book), Global Education Limited; second edition. 2018.
+7. Deshpande P.B and Ash R.H, Elements of Process Control Applications, ISA Press,
+New York, 1995.
+8. Curtis D. Johnson, Process Control Instrumentation Technology, Prentice Hall,
+New Delhi, 8th Edition, 2005.
+9. Krishna Kant, Computer-based Industrial Control, Prentice Hall, New Delhi, 2nd Edition,
+2011.
+B.Tech. / Instrumentation and Control Engineering 268 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+At the end of the course student will be able to
+CO1 Understand process automation technologies.
+CO2 Design and develop PLC ladder programming for simple process applications.
+CO3 Identify different security design approaches, engineering and operator interface
+issues for designing distributed control systems.
+CO4 Explain latest communication technologies like HART and Field bus protocol.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 2 2 3 2 1 3 1 1 3 3 3 1
+CO2 3 3 3 3 3 2 2 1 3 2 2 3 3 3 1
+CO3 3 3 3 3 3 2 2 1 3 2 2 3 3 3 1
+CO4 3 2 2 2 2 1 1 1 2 1 1 3 3 2 1
+B.Tech. / Instrumentation and Control Engineering 269 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

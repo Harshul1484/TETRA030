@@ -1,0 +1,32 @@
+Course Code : ECHO29
+Course Title : MIXED - SIGNAL CIRCUIT DESIGN
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objective
+ To make the students to understand the design and performance measures concept of mixed
+signal circuit.
+Course content
+Concepts of Mixed-Signal Design and Performance Measures. Fundamentals of Data Converters.
+Nyquist Rate Converters and Over sampling Converters.
+Design methodology for mixed signal IC design using gm/Id concept.
+Design of Current mirrors. References. Comparators and Operational Amplifiers.
+CMOS Digital Circuits Design: Design of MOSFET Switches and Switched-Capacitor Circuits,
+Layout Considerations.
+Design of frequency and Q tunable continuous time filters.
+Text Books
+1. R. Jacob Baker, Harry W. Li, David E. Boyce, CMOS, Circuit Design, Layout, and
+Simulation, Wiley-IEEE Press,1998
+2. David A. Johns and Ken Martin, Analog Integrated Circuit Design, John Wiley and
+Sons,1997.
+Course outcomes
+At the end of the course student will be able
+CO1: Appreciate the fundamentals of data converters and also optimized their performances.
+CO2: Understand the design methodology for mixed signal IC design using gm/Id concept.
+CO3: Analyze the design of current mirrors and operational amplifiers
+CO4: Design the CMOS digital circuits and implement its layout.
+CO5: design the frequency and Q tunable time domain filters.
+148 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

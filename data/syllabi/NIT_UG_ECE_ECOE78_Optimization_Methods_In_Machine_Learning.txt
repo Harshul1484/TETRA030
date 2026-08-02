@@ -1,0 +1,46 @@
+Course Code : ECOE78
+Course Title : Optimization Methods In Machine Learning
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : OE
+COURSE LEARNING OBJECTIVE
+ The course aims to equip students with advanced techniques and methods in optimization that
+are tailored to large-scale statistics and machine learning problems
+COURSE CONTENT
+Basics of convex optimization-convex sets, convexity-preserving operations, examples of convex
+programs (linear programming (LP), second-order cone programming (SOCP), semidefinite
+programming (SDP)), convex relaxation, KKT conditions, duality
+Gradient-based methods-gradient descent, subgradient, mirror descent, Frank–Wolfe method,
+Nesterov’s accelerated gradient method, ODE interpretations, dual methods, Nesterov’s smoothing,
+proximal gradient methods, Moreau–Yosida regularization
+Operator splitting methods-augmented Lagrangian methods, alternating direction method of
+multipliers (ADMM), monotone operators, Douglas–Rachford splitting, primal and dual
+decomposition
+Stochastic and nonconvex optimization-dualaveraging, Polyak–Juditsky averaging, stochastic
+variance reduced gradient (SVRG), Langevin dynamics, escaping saddle points, landscape of
+nonconvex problems, deep learning
+Applications of optimization methods in Image/Video/Multimedia Processing
+Textbooks:
+6. Stephen Boyd and Lieven Vandenberghe’s book: Convex Optimization
+7. Nesterov’s old book: Introductory Lectures on Convex Optimization: A Basic Course
+8. Nesterov’s new book: Lectures on Convex Optimization
+9. Neal Parikh and Stephen Boyd’s monograph: Proximal Algorithms
+10. Sebastien Bubeck’s monograph: Convex Optimization: Algorithms and Complexity
+References
+5. Moritz Hardt’s Berkeley EE 227C course note
+6. Prateek Jain and Purushottam Kar’s survey on nonconvex optimization
+7. Kristin Bennett, Emilio Parrado-Hernandez. Interplay of Optimization and Machine Learning
+Research, Journal of Machine Learning Research, 2006.
+8. Nati Srebro, Ambuj Tewari. Stochastic Optimization for Machine Learning, Tutorial at
+International Conference on Machine Learning, 2010.
+COURSE OUTCOMES
+Students are able
+CO1: To learn the basic concepts of convex optimization
+CO2: To study gradient based optimization techniques
+CO3: To understand the problem solving using operator splitting methods
+CO4: To learn stochastic and non-convex optimization Techniques,
+CO5: To execute applications of optimization techniques in different domains
+95 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

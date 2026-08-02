@@ -1,0 +1,53 @@
+Course Code : ICPE18
+Course Title : Digital Control Systems
+Type of Course : PE
+Prerequisites : ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the digital implementation of control systems
+CLO2 To review the classical techniques and highlight the practical difficulties
+CLO3 To emphasize on the time-domain and state-space implementation using digital
+processors, and expose the students to industrial practice using PLCs.
+CLO4 To design discrete-time controllers for hybrid systems
+Course Content
+Introduction to digital control systems, Review of discrete-time signals and systems, difference
+equations, transfer functions, Z-transforms
+Digital Controller Design using root locus and Bode plot, digital PID controllers design using
+time domain and frequency domain techniques.
+Review of Modern Control systems, Modelling multi-variable difference equations as state-
+space canonical models, Solution of discrete-time state equation. Computational methods.
+Stability analysis of discrete-time systems, Jury ‘s criterion, Lyapunov theory
+Design using state-space methods: controllability and observability, control law design, pole
+placement, Full order and reduced order discrete observer design – Introduction to Kalman
+filter
+Implementation of digital control systems using DSPs and Microcontrollers, Large-scale
+industrial applications using PLCs and SCADA, Introduction to Discrete-event systems and
+Hybrid Systems
+References
+1. M. Gopal, Digital Control and state variable methods, Tata McGraw Hill, 4th edition.,
+2014.
+2. M.S. Santina, A.R. Stubberud, and G.H. Hostetter, Digital Control System Design,
+2ndEdition, Oxford Univ. Press,
+3. B. C. Kuo, Digital Control System, Oxford University Press, 2nd Edition., 2007.
+4. G. F. Franklin, J. D. Powell and M. L. Workman, Digital Control of Dynamic Systems,
+Pearson Education, 3rd Edition, 2000.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Analyze the performance and stability of a discrete-time control system.
+CO2 Design state-space digital controllers and implement using processors and PLCs.
+CO3 Learn about event driven and hybrid systems.
+CO4 Understand implementation issues for computer-based control systems
+B.Tech. / Instrumentation and Control Engineering 105 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 106 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

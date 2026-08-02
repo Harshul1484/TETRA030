@@ -1,0 +1,38 @@
+Course Code : ECLR14
+Course Title : ANALOG VLSI & EMBEDDED SYSTEM
+LABORATORY
+Number of Credits 2
+Corequisites : ECPC21& ECPC23
+(Course code)
+Course Type : ELR
+List of Experiments:
+1. Study the characteristics of negative feedback amplifier
+2. Design of an instrumentation amplifier
+3. Study the characteristics of regenerative feedback system-Schmitt trigger
+4. Design of a second order Butterworth band-pass filter for the given higher and lower cut-
+off frequencies
+5. Design of a function generator-Square, Triangular wave
+List of Experiments: USING XILINX
+1. Comparators, parity generators & ALU
+2. Flip-Flops, Shift-Registers & Counters Using Cadence
+1. Dc transfer characteristics of an Inverter
+2. Design, Simulation and Layout of basic digital blocks
+3. Mini Project on VLSI Design
+Course Outcomes:
+After successful completion of the course, the students are able to
+1. Study the characteristics of negative feedback amplifier.
+2. Design of an instrumentation amplifier.
+3. Study the characteristics of regenerative feedback system- Schmitt trigger.
+4. Design of a second order Butterworth band-pass filter for the given higher and lower cut-off
+frequencies.
+5. Design of a function generator- DSquare, Triangular wave.
+6. To study, design and experimentally verify Comparators, Parity Generators and ALU using
+XILINX.
+7. Design of Flip-Flops, Shift-Registers & Counters Using XILINX.
+8. Design and to study the DC transfer characteristics of an Inverter using Cadence.
+9. Able to apply troubleshooting techniques to design, layout, simulate and test the digital circuits as
+blocks.
+10. Able to map the Circuits implemented to that of real time application.
+125 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,50 @@
+Course Code : ECPE16
+Course Title : ARM SYSTEM ARCHITECTURE
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course learning Objective
+ The objective of this course is to give the students a thorough exposure to ARM architecture
+and make the students to learn the ARM programming & Thumb programming models.
+Course Content
+RISC machine. ARM programmer’s model. ARM Instruction Set. Assembly level language
+programming. Development tools.
+ARM organization. ARM instruction execution. ARM implementation. ARM coprocessor interface.
+Flynn's Taxonomy, SIMD and Vector Processors, Vector Floating Point Processor (VFP), VFP and
+ARM interactions, vector operation.
+Floating point architecture. Expressions. Conditional statements. Loops. Functions and procedures.
+Run time environment. Interrupt response. Interrupt processing. Interrupt Handling schemes,
+Examples of Interrupt Handlers.
+Thumb programmer’s model. Thumb Instruction set. Thumb implementation. AMBA Overview,
+Typical AMAB Based Microcontroller, AHB bus features, AHB Bus transfers, APB bus transfers and
+APB Bridge.
+Memory hierarchy. Architectural support for operating system. Memory size and speed. Cache
+memory management. Operating system. ARM processor chips. Features of Raspberry Pi and its
+applications.
+Text Books
+1. S. Furber, “ARM System Architecture”, Addison-Wesley, 1996.
+2. Sloss, D.Symes & C.Wright, “ARM system Developer’s guide-Designing and Optimizing
+System Software”, Elsevier.2005.
+Reference Books
+1. Technical reference manual for ARM processor cores, including Cortex, ARM 11, ARM 9
+& ARM 7 processor families.
+2. User guides and reference manuals for ARM software development and modelling tools.
+David Seal, ARM Architecture Reference Manual, Addison-Wesley.
+3. The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors, Third Edition by
+Joseph Yiu, Elsevier 2015
+4. Recent literature in ARM System Architecture.
+Course outcomes
+At the end of the course student will be able to
+CO1: understand the programmer’s model of ARM processor and test the assembly
+level programming.
+CO2: analyze various types of coprocessors and design suitable co-processor interface to ARM
+processor.
+CO3: analyze floating point processor architecture and its architectural support for higher level
+language.
+CO4: become aware of the Thumb mode of operation of ARM.
+CO5: identify the architectural support of ARM for operating system and analyze the
+function of memory Management unit of ARM.
+38 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

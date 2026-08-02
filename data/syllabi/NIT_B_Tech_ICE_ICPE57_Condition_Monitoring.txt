@@ -1,0 +1,74 @@
+Course Code : ICPE57
+Course Title : Condition Monitoring
+Type of Course : PE
+Prerequisites : ICPC14, ICPC17
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To introduce the importance of condition monitoring in the automotive, structural
+and process industries
+CLO2 To make understand the role of different sensors and signal conditioning
+techniques in the condition monitoring
+CLO3 To expose to wireless sensor networks and their protocols
+CLO4 To provide knowledge of machine learning and its relation with condition monitoring
+To provide real time exposure in continuous condition monitoring
+Course Content
+Introduction: Motivation for condition monitoring, Historical overview – Reactive Maintenance,
+Scheduled Maintenance, Condition Based Preventive Maintenance, Predictive Maintenance
+and Digital Twin. Structural Health Monitoring (SHM) – Advantages and Challenges.
+Machinery Fault Diagnosis - Principles, Fault diagnostics and Prognostics. Environmental
+Monitoring – Air, Water, Soil contamination. Local and Global health monitoring.
+Sensors and Signal Conditioning Techniques: Vibration Monitoring – Accelerometers, Types.
+Temperature Monitoring – Thermocouple, RTD (Resistance Temperature Detector), Infrared
+Thermography. Fiber Optic Sensors, NDT (Non-Destructive Testing) – Eddy Current Testing,
+Magnetic Particle Inspection (MPI), Dye Penetration, Acoustic Emission and its applications.
+Smart Sensing for condition monitoring. Data Acquisition Systems, Application of various
+signal processing methods – Time domain analysis, Frequency domain analysis, Non-
+stationary signal analysis.
+Role of Wireless Sensor Networks in Condition Monitoring: Introduction to WSN – Network
+Topologies, Advantages and Challenges. IEEE 802.11 Standard. Wireless Network
+Protocols – Bluetooth, WiFi, Zigbee, 5G, NFC, RFID. RFID Technology - General Block
+diagram, Applications in Condition Monitoring. Introduction to Energy Harvesting Techniques.
+Comparison of Wired and Wireless Condition Monitoring.
+Machine Learning (ML) for Condition Monitoring :Introduction, Review of Linear Algebra,
+Logistic Regression, Regularization, Neural Networks – Representation and Learning,
+Machine Learning System Design, Support Vector Machines, Unsupervised Learning,
+Dimensionality Reduction, Anomaly Detection. Application to Condition Monitoring.
+Applications and Case Studies:Future of Condition based Monitoring – SHM and Rotating
+Machinery [2], Railway – Noise and Vibration Monitoring, Crack Detection in Composites
+(Aerospace structures), Condition Monitoring in – Agriculture, Biomedical, Food Processing
+and Packaging, Pipelines and Piping.
+Case study 1 – Machine Fault Diagnosis using Vibration analysis (Wired sensing).
+Case study 2 – Crack characterization of metallic structures using RFID Sensor (Wireless
+sensing).
+B.Tech. / Instrumentation and Control Engineering 183 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Philip Wild, Industrial Sensors and Applications for Condition Monitoring, Professional
+Engineering Publishing, April 20, 1994.
+2. Fu Ko Chang, Structural Health Monitoring: Current Status and Perspectives, Stanford
+University - 1997.
+3. Amiya Ranjan Mohanty, Machinery Condition Monitoring Principles and Practices,
+CRC press, Taylor and Francis ,2017.
+4. Andrew Ng, Machine Learning Yearning, 2018.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Familiar with the need of condition monitoring in the automotive, structural and
+process industries and gain knowledge of sensors and signal conditioning
+techniques
+CO2 Understand the operation of wireless sensor networks and their deployment.
+CO3 Gain the knowledge of machine learning and its application in condition monitoring.
+CO4 Develop/Design an application specific condition monitoring system for fault
+diagnosis and Prognosis.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 184 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

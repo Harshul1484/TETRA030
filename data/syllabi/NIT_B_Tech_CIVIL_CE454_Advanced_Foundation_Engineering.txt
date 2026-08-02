@@ -1,0 +1,36 @@
+CE454 Advanced Foundation Engineering 3 0 0 3
+CE454 ADVANCED FOUNDATION ENGINEERING
+Course objectives:
+To explain the analysis of sheet pile wall under different support conditions
+To explain overall stability analysis of well foundation
+To explain fundamentals of soil dynamics and its application to machine foundation analysis
+including codel provisions
+To explain problems related to expansive soils and solution to overcome
+To explain the concept of slope stability analysis for various slope conditions including
+graphical methods
+Course Content
+Sheet pile structures - cantilever sheet pile walls in granular and cohesive soils - Anchored bulk
+heads - Free earth support and fixed earth support methods - Anchors.
+Cofferdams - types - cellular cofferdam - uses - Design by TVA and Cumming's method.
+Well foundations - Types of caissons - Analysis of well foundations - determination of scourdepth
+- steining thickness - well sinking.
+Foundations subjected to vibrations - elements of vibrations - Free, damped, free and forced vibrations
+- Design criteria - Pauw's analogy - IS Code of practice for impact and reciprocating machines.
+40
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Foundation drainage and water proofing - Dewatering well points system, sand drains.
+Foundations in expansive soils - Mechanism - factors influencing swelling - Use of Geosynthetics.
+Stability analysis of slopes - infinite slopes in sand and clays - finite slope - Swedish circle - stability
+of earth dam slope during steady and sudden draw down - friction circle method - Taylor's stability
+number. Sheet pile structures - Anchored bulk heads
+References
+1. Bowles, J.E., Foundation Analysis and Design, McGraw Hill., 1996.
+2. Braja M. Das, Principles of Foundation Engineering, Thomos Asia Pvt. Ltd., Singapore, 2005.
+3. Shamsher Prakash, Soil Dynamics, McGraw - Hill Book Company, 1985.
+Course outcomes:
+On completion of the course, the students will be able to:
+analyze and design any kind of sheet pile wall system including coffer dam
+analyze and design well foundation including complete stability analysis
+estimate soil parameters under dynamic conditions including machine foundations
+design a suitable foundation system for any kind of problematic soils
+analyze the stability of any kind of slope by using both theoretical and graphical methods

@@ -1,0 +1,39 @@
+Course Code : ECMI16
+Course Title : TRANSMISSION LINES AND WAVEGUIDES
+Number of Credits 3
+Prerequisites : ECMI12
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To expose students to the complete fundamentals and essential feature of waveguides,
+resonators and microwave components and also able to give an introduction to microwave
+integrated circuit design.
+Course Content
+Classification of guided wave solutions-TE, TM and TEM waves. Field analysis transmission lines.
+Rectangular and circular waveguides. Excitation of waveguides. Rectangular and circular cavity
+resonators.
+Transmission line equations. Voltage and current waves. Solutions for different terminations.
+Transmission-line loading.
+Impedance transformation and matching. Smith Chart, Quarter-wave and half-wave transformers.
+Binomial and T-chebeyshev transformers. Single, double and triple stub matching.
+Microstriplines, stripline, slot lines, coplanar waveguide and fin line. Micro strip MIC design aspects.
+Computer- aided analysis and synthesis.
+Text Books
+1. D.M.Pozar, “Microwave Engineering (3/e)” Wiley, 2004.
+2. J.D.Ryder, “Networks, Lines and Fields”, PHI, 2003.
+Reference Books
+1. R.E.Collin, “Foundations for Microwave Engineering (2/e)”, McGraw-Hill, 2002.
+2. S.Y.Liao, “Microwave Devices and Circuits”, (3/e) PHI, 2005.
+3. J. A. Seeger, “Microwave Theory, Components, and Devices” Prentice-Hall-A division of
+Simon & Schuster Inc Englewood Cliffs, New Jersy 07632, 1986.
+Course outcomes
+At the end of the course student will be able
+CO1: classify the Guided Wave solutions -TE, TM, and TEM.
+CO2: analyze and design rectangular waveguides and understand the propagation of
+electromagnetic waves.
+CO3: evaluate the resonance frequency of cavity Resonators and the associated modal field.
+CO4: analyze the transmission lines and their parameters using the Smith Chart.
+CO5: apply the knowledge to understand various planar transmission lines.
+108 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

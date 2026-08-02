@@ -1,25 +1,3 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-To estimate the engineering properties of the soils by density test, CBR test permeability
-test and consolidation test
-Course Content
-1. Grain Size analysis
-2. Consistency limits
-3. Specific gravity
-4. Permeability tests
-5. Unconfined compression test
-6. Direct shear test
-7. Core cutter and sand replacement
-8. Compaction test
-9. California bearing ratio test
-10. Vane shear test
-11. Triaxial test
-12. Consolidation test
-Course outcomes:
-On completion of the course, the students will be able to:
-classify soil by physical observation of the soils
-classify soil based on estimated index and engineering characteristics of soils
-carry out interpolation among the estimated soil design parameters
-SEMESTER IV
 MA202 NUMERICAL TECHNIQUES
 Course objectives:
 To study various numerical techniques
@@ -55,24 +33,3 @@ On completion of the course, the students will be able to:
 solve linear and non-linear equations using numerical techniques
 solve linear and non-linear differential equations using numerical techniques
 solve a system of equations using the techniques studied
-CE202 MECHANICS OF SOLIDS – II
-Course objectives:
-To understand the concept of Principle of virtual work
-To study the different methods of finding deflection of beam
-To analyze the Indeterminate beams subjected to various loading
-To study the different methods to find the deflection of truss
-To analyze the column with different end conditions and stress in thick cylinders
-Course Content
-Principle of virtual displacement and virtual forces - Castigliano's first theorem - Maxwell's reciprocal
-theorem. Determination of deflection curve of beams- double integration - Macaulay's method - Area
-moment method - Conjugate beam method - strain energy and dummy unit load approaches to
-deflection of Simple and Curved members. Statically indeterminate Structures - Propped cantilever,
-fixed and continuous beams - Theorem of three moments - Bending moment and shear force diagrams
-Thick cylinders - Lame's equation - Shrink fit - compound cylinders.
-Deflection of trusses - Dummy unit load method - Strain energy method - Williot Mohr's diagram
-Theory of columns: Axial load- Euler's theory-Rankines formula, combined bending and axial load
-References
-1. Vazirani,V.N. and Ratwani, N.M. Strength of Materials, Vol. II, Kanna Publishers, 1996.
-2. Timoshenko, S.P. and Gere, J.M. Mechanics of Materials, Tata McGraw Hill, 1992
-3. Rajput R.K., Strength of Materials, S. Chand & Co., Ltd., 1996.
-12

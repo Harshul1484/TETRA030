@@ -57,9 +57,13 @@ def test_gap_report_schema_matches_the_contract():
     assert set(gap_report["required"]) >= {
         "course_code",
         "course_title",
-        "health_score",
         "gaps",
     }
+
+    # health_score is optional because a course whose subject area has too
+    # few postings behind it is not scored at all, but it must still be
+    # declared so a client knows to expect it.
+    assert "health_score" in gap_report["properties"]
 
 
 def test_upload_rejects_unsupported_file_types():
@@ -123,7 +127,11 @@ def test_health_score_is_bounded():
         pytest.skip("database not seeded")
 
     report = client.get(f"/api/courses/{courses[0]['code']}/gaps").json()
-    assert 0.0 <= report["health_score"] <= 100.0
+    score = report["health_score"]
+
+    # None is a legitimate result: it means the corpus held too few postings
+    # in this course's subject area to score it honestly.
+    assert score is None or 0.0 <= score <= 100.0
 
 
 @NEEDS_GRAPH

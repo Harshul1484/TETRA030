@@ -1,0 +1,40 @@
+Course Code : ECHO31
+Course Title : Advanced Techniques for Wireless Reception
+Number of Credits : 3
+Course Type : HO
+Course Objective
+ To get an understanding of signal processing techniques for emerging wireless systems.
+Course Content
+Wireless signaling environment. Basic signal processing for wireless reception. Linear receivers for
+synchronous CDMA. Blind and group-blind multiuser detection methods. Performance issues.
+Robust multiuser detection for non-Gaussian channels; asymptotic performance , implementation
+aspects.
+Adaptive array processing in TDMA systems. Optimum space-time multiuser detection. Turbo
+multiuser detection for synchronous and turbo coded CDMA.
+Narrowband interface suppression. Linear and nonlinear predictive techniques. Code- aided
+techniques. Performance comparison.
+Signal Processing for wireless reception: Bayesian and sequential Montecarlo signal processing. Blind
+adaptive equalization of MIMO channels .Signal processing for fading channels. Coherent detection
+based on the EM algorithm. Decision-feedback differential detection. Signal processing for coded
+OFDM systems.
+Text Books
+1. X.Wang & H.V.Poor, “Wireless Communication Systems”, Pearson, 2004.
+2. R.Janaswamy, “Radio Wave Propagation and Smart Antennas for Wireless Communication”,
+Kluwer, 2001.
+Reference Books
+1. M.Ibnkahla, “Signal Processing for Mobile Communications”, CRC Press, 2005.
+2. A.V.H. Sheikh, “Wireless Communications Theory & Techniques”, Kluwer Academic
+Publications, 2004.
+3. A.Paulraj ,Arogyaswami, R. Nabar, and D.Gore, ”Introduction to Space-time Wireless
+Communications”, Cambridge University Press, 2003.
+4. Recent literature in Advanced Techniques for Wireless Reception.
+Course Outcomes
+Students are able to
+CO1: discuss the Wireless signaling environment and Performance issues.
+CO2: analyze the channel modeling and multiuser detection.
+CO3: analyze the Adaptive array processing and turbo coded CDMA.
+CO4: analyze Linear and nonlinear predictive techniques.
+CO5: analyze the Signal Processing Techniques for wireless reception.
+150 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,38 @@
+CE310 Water Resources Engineering 3 0 0 3
+Elective - 1 3 0 0 3
+CE310 WATER RESOURCES ENGINEERING
+Course Objectives:
+To build on the student’s background in hydrology and hydraulics and understanding of water
+resources systems
+To develop the skills in modeling of flood flows and flood routing
+To develop skills in the ground water flow, type of aquifer and yield from the well
+To provide the knowledge of design of reservoir, operation and sedimentation
+To study the effect, causes and remedial measures of water logging
+Course Content
+Hydrologic cycle - rainfall and its measurement - computation of mean rainfall over a catchment area
+using arithmetic mean, Theissen polygon and Isohyetal methods - Runoff -infiltration indices - Storm
+Hydrograph and unit hydrograph
+River regions and their characteristics - classification of rivers on alluvial plains - meandering of rivers -
+river training
+Reservoir planning - Investigations - zones of storage in a reservoir - single purpose and multipurpose
+reservoir - determination of storage capacity and yield - reservoir sedimentation - Reservoir life -
+Sediment prevention - Flood estimation- Flood forecasting - Flood routing
+28
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Ground water - types of aquifers - storage coefficient - coefficient of transmissibility - steady radial flow
+into a well located in an unconfined and confined aquifers - Tube wells and Open wells - yield from an
+open well.
+Water logging - causes and effects of water logging - remedial measures - land reclamation - land
+drainage - benefits - classification of drains - surface drains - subsurface drains - design principles and
+maintenance of drainage systems.
+References
+1. Punmia, B.C., Irrigation and Water Power Engineering, Standard Publishers, 2001.
+2. Ragunath. H.M., Hydrology, Willey Eastern Limited, New Delhi, 2000.
+3. Subramanya, Engineering Hydrology, Tata-McGraw Hill, 2004.
+Course outcomes:
+On completion of the course, the students will be able to:
+design various channel systems
+design head and cross regulator structures
+identify various types of reservoir and their design aspects
+By the Establishes the understanding of cross drainage works and its design
+design different types of dams
