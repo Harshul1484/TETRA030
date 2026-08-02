@@ -1,0 +1,43 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+3. Arora, K. R. Surveying Vol. III, Standard Book House, 1996.
+4. Satheesh Gopi. Advanced Surveying, Pearson Education, 2007.
+5. Satheesh Gopi. The Global Positioning System and Surveying using GPS, Tata McGraw, 2005.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply advanced surveying techniques in different fields of civil engineering
+select the advanced surveying technique which is best suited for a work
+apply total station and EDM in distance measurement and traversing
+demonstrate the principles of the earth surface, its projections and different coordinates
+involved in map making
+apply GPS in transportation engineering, structural engineering and land use planning
+CE463 STEEL-CONCRETE COMPOSITE STRUCTURES
+Course Objectives:
+To introduce the concept of composite construction and their applications in engineering
+To discuss shear connector types, degree of shear connector, interaction and their strength
+To introduce design of composite beams under propped and un-propped condition
+To introduce design of different types of composite deck slabs
+To discuss effects of temperature, shrinkage and creep and cyclic loading on composite
+sections
+Course Content
+Introduction – types – advantages – comparison – applications - limit states of composite sections –
+introduction to plastic analysis – mechanism of composite members
+Shear connectors – types of shear connectors – degree of shear connection – partial and complete
+shear connections – strength of shear connectors – experimental evaluation of shear connectors.
+Analysis and design of composite beams without profile sheet - propped condition – un-propped
+condition – deflection - design of partial shear connection
+Design of composite beam with profile sheet – propped and un-propped condition – deflection of
+composite beams –design of partial shear connection
+Introduction – Composite slabs – profiled sheeting – sheeting parallel to span – sheeting perpendicular
+to span – analysis and design of composite floor system.
+References
+1. Johnson R.P., “Composite Structures of Steel and Concrete”’ Volume-I, Black Well Scientific
+Publication, U.K., 1994
+2. Teaching Resources for “Structural Steel Desgin”. Vol.2 of 3, Institute of Steel Development and
+Growth (INSDAG), 2000
+3. Narayanan R., “Composite Steel Structures – Advances, Design and construction, Elsevier, Applied
+Science, U.K., 1987
+4. Owens, G.W & Knowels, P., Steel Designers Manual,” (fifth edition), Steel Concrete Institute (U.K),
+Oxford Blackwell Scientific Publication, 1992.
+5. IS 11384 – 1985 Indian Standard Code of Practice for Composite Construction in Structural Steel
+and Concrete, Bureau of Indian Standards, New Delhi
+48

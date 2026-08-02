@@ -1,0 +1,223 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+ELECTIVES
+Code Course of Study L T P C
+CE352 Groundwater Hydrology 3 0 0 3
+CE451 Experimental Stress Analysis 3 0 0 3
+CE452 Earthquake Resistant Structures 3 0 0 3
+CE453 Remote Sensing and GIS 3 0 0 3
+CE454 Advanced Foundation Engineering 3 0 0 3
+CE455 Hydrology 3 0 0 3
+CE456 Water Power Engineering 3 0 0 3
+CE457 Structural Dynamics 3 0 0 3
+CE458 Finite Element Method 3 0 0 3
+CE459 Models for Air and Water Quality 3 0 0 3
+CE460 Transportation planning 3 0 0 3
+CE461 Pavement Analysis and Design 3 0 0 3
+CE462 Advanced Surveying Techniques 3 0 0 3
+CE463 Steel-Concrete Composite Structures 3 0 0 3
+CE464 Geotechnical Earthquake Engineering 3 0 0 3
+ME453 Industrial Safety 3 0 0 3
+ME457 Computational Fluid Dynamics 3 0 0 3
+AR451 Urban and Regional Planning 3 0 0 3
+MA302 Operations Research Techniques in Civil Engineering 3 0 0 3
+HM404 Creative writing through literature 3 0 0 3
+3
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+ELECTIVES
+CE352 GROUND WATER HYDROLOGY
+Course objectives:
+To know the types of aquifers
+To understand the surface and subsurface investigation in detail
+To integrate the fundamental and basic knowledge of ground water movement
+To understand the process of sea water intrusion and recharge
+To introduce the different model studies
+Course Content
+Groundwater occurrence – distribution – aquifer – types - Surface investigation - Geophysical -
+electrical resistivity - Seismic refraction - Gravity and magnetic - Geologic - Air photo interpretation -
+Dowsing.
+Subsurface investigation - test drilling - resistivity logging- potential logging - temperature and caliper
+logging.
+Steady unidirectional flow - well in a uniform flow - steady flow with uniform recharge - unsteady radial
+flow to a well - well flow near aquifer boundaries - Multiple well systems - partially penetrating wells -
+characteristic well losses.
+Secular and seasonal variations - Fluctuations due to evapo-transpiration, Meteorological phenomena,
+tides, external loads and earthquakes - control by drains and wells.
+Recharge through sewage pits, shafts and wells.
+Occurrence of sea water intrusion - Ghypon-Heizberg relation between fresh and saline waters - shape
+length and structure of the fresh salt water interface - prevention and control of seawater intrusion -
+role of sea water in ground water - coastal zoning.
+Sand models - Electrical models - Viscous fluid models - membrane models - numerical analysis
+methods
+References
+1. Raghunath H.M., Ground Water Hydrology, New-Age International, 2nd Edition, 1990.
+Course outcomes:
+On completion of the course, the students will be able to:
+identify types of aquifers
+carry out surface and subsurface investigation to locate groundwater
+visualise the occurrence and movement of groundwater
+select suitable type of ground water recharge
+assess sea water intrusion and its control
+CE451 EXPERIMENTAL STRESS ANALYSIS
+Course objectives:
+To study the working principles of different types of strain gauges
+37
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To understand the model analysis
+To know the fundamentals of photo elastic coatings
+To study the effects of 2-D photo elasticity
+To study the working principle of load, pressure and displacement transducers
+Course Content
+Strain gauges – Mechanical, optical, acoustic, electrical inductance and capacitance pneumatic types –
+description and working principles
+Electrical resistance strain gauges, gauge characteristics and types – Equipment for recording static
+strain – reduction of strain gauge data.
+Load, pressure and displacement transducers.
+Model analysis – direct and indirect models – law of structural similitude – choice of scales – Model
+materials – limitations of model studies –Buckingham PI theorem – design of direct and indirect models
+– Beggs deformeter and its applications.
+Two dimensional photo – elasticity – optical principles stress optic law – Methods of producing isoclines
+and isochromatics using polariscopes – Methods of measuring fractional fringe orders – model
+materials – separation techniques
+Fundamental of Photo elastic coatings, Moire fringe and brittle coating techniques – Introduction to
+stress freezing techniques – Introduction to non-destructive testings
+References
+1. Daley and Riley, Experimental Stress Analysis, McGraw Hill Book Company, 1987
+2. Srinath, L.S. et al., Experimental Stress Analysis, Tata McGraw Hill 1984.
+3. Hetenyi, M., Hand Book of Experimental Stress Analysis, John Wiley & Sons. Inc New York. 1980.
+Course outcomes:
+On completion of the course, the students will be able to:
+identify the different types of strain gauges
+carry out model analysis
+apply the concepts of photo elastic coatings
+analyze the behavior of 2-D photo elasticity
+apply the working principles of transducers
+CE452 EARTHQUAKE RESISTANT STRUCTURES
+Course objectives:
+To introduce the basics of Earthquake Engineering
+To introduce the engineering seismology, building geometrics & characteristics, structural
+irregularities,
+To introduce tips on earthquake engineering - do’s and don’ts
+To introduce cyclic loading behaviour of RC, steel and pre-stressed concrete elements
+To discuss code provisions and their application on different types of structures
+38
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course Content
+Elements of Engineering Seismology - Theory of Vibrations -Indian Seismicity -Earthquake History -
+Behavior of structures in the past Earthquakes.
+Seismic Design Concepts - Cyclic loading behavior of RC, Steel and Prestressed Concrete elements -
+Response Spectrum- Design spectrum - capacity based design.
+Provision of Seismic Code frames, shear walls, Braced frames, Combinations - Torsion.
+Performance of Regular Buildings 3D Computer Analysis of Building Systems (Theory only) - Design
+and Detailing of frames - Shear walls and Frame walls.
+Seismic performance - Irregular Buildings -Soil performance, Modern Concepts - Base Isolation -
+Adoptive systems - Case studies.
+References
+1. Pankaj Agarwal and Manish ShriKhande, Earthquake Resistant Design of Structures, Prentice- Hall
+of India, New Delhi, 2003.
+2. Bullen K.E., Introduction to the Theory of Seismology, Great Britain at the University Printing
+houses, Cambridge University Press 1996.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the basics of Earthquake Engineering
+demonstrate the dynamics of structural system under earthquake load
+analyze the influence of the structural / geometrical design in building characteristics
+demonstrate the cyclic loading behaviour of RC steel and pre-stressed concrete elements
+apply codal provisions on different types of structures
+CE453 REMOTE SENSING AND GIS
+Course objectives:
+To know about the principles of remote sensing and spectral signatures
+To know about satellites, types of remote sensing and digital image processing
+To study about the history and components of GIS
+To study about data types and operations
+To know the applications of remote sensing and GIS
+Course Content
+Remote Sensing – Principle - Electro-magnetic energy, spectrum - EMR interaction with atmosphere –
+Atmospheric Windows and its Significance – EMR interaction with Earth Surface Materials – Spectral
+Signature and Spectral Signature curves for water, soil and Earth Surface.
+Satellites - Classification – Satellite Sensors – satellite and sensor parameters - Resolution – Types of
+Remote Sensing - Visual Interpretation of Satellite Images – Digital Image processing – Characteristics
+of different platforms: Landsat, SPOT, IRS series, IKONOS, QUICKBIRD – Radar, LIDAR, SAR,
+MODIS, AMSRE, Sonar remote sensing systems.
+39
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+GIS - History of Development - Components of GIS – Hardware, Software and Organizational Context –
+Data – Spatial and Non-Spatial – Data Input Sources–– DBMS – Data Output - Data models - Raster
+and Vector data structures – Data compression – Raster vs. vector comparison
+Analysis using Raster and Vector data – Operations – Overlaying - Buffering – Modelling in GIS - Digital
+Terrain Modelling, Analysis and application – Products of DEMs and their uses – Sources of errors in
+GIS and their elimination
+Applications of Remote Sensing and GIS – Advanced applications of GIS – Disaster management,
+Water resource, Landuse – Land cover – Urban planning - Intelligent Transport Systems - Development
+of Resources Information Systems.
+References
+1. Burrough P.A. and Rachel A. McDonell, Principles of Geographical Information Systems, Oxford
+Publication, 2004.
+2. C.P. Lo and Albert K. W. Yeung, Concepts and Techniques of Geographical Information Systems,
+Prentice- Hall India, 2006.
+3. Thomas. M. Lillesand and Ralph. W. Kiefer, Remote Sensing and Image Interpretation, John Wiley
+and Sons, 2003.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the concepts of Electro Magnetic energy, spectrum and spectral signature curves
+apply the concepts of satellite and sensor parameters and characteristics of different platforms
+apply the concepts of DBMS in GIS
+analyze raster and vector data and modelling in GIS
+apply GIS in land use, disaster management, ITS and resource information system
+CE454 ADVANCED FOUNDATION ENGINEERING
+Course objectives:
+To explain the analysis of sheet pile wall under different support conditions
+To explain overall stability analysis of well foundation
+To explain fundamentals of soil dynamics and its application to machine foundation analysis
+including codel provisions
+To explain problems related to expansive soils and solution to overcome
+To explain the concept of slope stability analysis for various slope conditions including
+graphical methods
+Course Content
+Sheet pile structures - cantilever sheet pile walls in granular and cohesive soils - Anchored bulk
+heads - Free earth support and fixed earth support methods - Anchors.
+Cofferdams - types - cellular cofferdam - uses - Design by TVA and Cumming's method.
+Well foundations - Types of caissons - Analysis of well foundations - determination of scourdepth
+- steining thickness - well sinking.
+Foundations subjected to vibrations - elements of vibrations - Free, damped, free and forced vibrations
+- Design criteria - Pauw's analogy - IS Code of practice for impact and reciprocating machines.
+40
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Foundation drainage and water proofing - Dewatering well points system, sand drains.
+Foundations in expansive soils - Mechanism - factors influencing swelling - Use of Geosynthetics.
+Stability analysis of slopes - infinite slopes in sand and clays - finite slope - Swedish circle - stability
+of earth dam slope during steady and sudden draw down - friction circle method - Taylor's stability
+number. Sheet pile structures - Anchored bulk heads
+References
+1. Bowles, J.E., Foundation Analysis and Design, McGraw Hill., 1996.
+2. Braja M. Das, Principles of Foundation Engineering, Thomos Asia Pvt. Ltd., Singapore, 2005.
+3. Shamsher Prakash, Soil Dynamics, McGraw - Hill Book Company, 1985.
+Course outcomes:
+On completion of the course, the students will be able to:
+analyze and design any kind of sheet pile wall system including coffer dam
+analyze and design well foundation including complete stability analysis
+estimate soil parameters under dynamic conditions including machine foundations
+design a suitable foundation system for any kind of problematic soils
+analyze the stability of any kind of slope by using both theoretical and graphical methods
+CE455 HYDROLOGY
+Course objectives:
+To provide knowledge in the hydrological cycle, precipitation, evapotranspiration, infiltration and
+its measurements
+To understand the physics of translate of rainfall into runoff modeling of various runoff
+techniques
+To estimate the runoff
+To develop ability to apply the analytical and numerical techniques to ground and surface water
+models
+To understand hydrographs and IUH
+Course Content
+Precipitation circulation - temperature - Humidity – wind formation and forms of precipitation -
+Interpretation of precipitation data - snow cover and snow fall. Factors affecting and methods of
+determining evaporation, infiltration and evapo-transpiration- Run-off cycle - factors affecting run-off -
+estimation of run-off by stream gauging - stage - discharge rating curves - Selection of site for a stream
+gauge station.
+Derivation of unit hydrograph from complex storms - unit hydrographs for various duration - Synthetic
+unit hydrograph - Transposing unit hydrograph - Application of the unit hydrograph. Linear
+Regression - Statistical and probability analysis of hydrological data - Flood frequency probability and
+stochastic methods - Basics of Stochastic and Deterministic models.
+References
+1. Ragunath, H.M., Hydrology, Wiley Eastern, 1990.
+41

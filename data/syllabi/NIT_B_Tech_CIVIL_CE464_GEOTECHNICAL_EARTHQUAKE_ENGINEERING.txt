@@ -1,0 +1,40 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the concepts of composite construction in engineering
+analyze the behaviour of shear connectors, degree of shear connection and their interaction
+design composite beams under propped and un-propped condition
+design different types of composite deck slabs
+analyze the effects of temperature, shrinkage and creep and cyclic loading on composite
+sections
+CE464 GEOTECHNICAL EARTHQUAKE ENGINEERING
+Course objectives:
+To explain the mechanism of earthquake and its related causes to build structures and in-situ
+soils
+To explain how ground motion is recorded and how do quantify the earthquake intensity and
+frequency related parameters
+To explain how seismic site investigation will be done and seismic soil design parameters are
+estimated
+To explain how seismic resistant design of foundation will be done and also explain the concept
+of liquefaction and related causes including codal recommendations
+To explain how to do hazard assessment and mitigation and explain how do prepare a risk and
+microzonation mapping
+Course Content
+Mechanism of Earthquakes - Causes of earthquake - Earthquake Fault sources - Elastic Rebound
+theory - Seismic wave in Earthquake shaking - terminology - Locating an earthquake - Quantification of
+earthquakes. Strong Motion Records -characteristics of ground motion - Factors influencing Ground
+motion - Estimation of frequency content parameters
+Seismic site investigations – Selected Case Studies - Evaluation of Dynamic soil properties – Codal
+Provisions
+Design Ground Motion - Developing Design Ground Motion-Codal recommendations.
+Earthquake Resistant Design of foundation of buildings - Design considerations -. Earthquake
+Response of slopes - Evaluation of slope stability - Liquefaction-Susceptibility - Liquefaction
+Resistance-Codal recommendations.
+Risk mapping - Hazard assessment – Mitigation measures - Seismic microzonation and its importance
+References
+1. Kameswara Rao, N.S.V., Dynamics soil tests and applications, Wheeler Publishing - New Delhi, 2000.
+2. Krammer S.L., Geotechnical Earthquake Engineering, Prentice Hall, International Series, Pearson
+Education (Singapore) Pvt. Ltd., 2004.
+3. Kameswara Rao, Vibration Analysis and Foundation Dynamics, Wheeler
+4. Robert W. Day, Geotechnical Earthquake Engineering Hand book, McGraw Hill, 2002
+49

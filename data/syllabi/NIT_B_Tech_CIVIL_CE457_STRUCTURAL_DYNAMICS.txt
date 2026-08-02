@@ -1,0 +1,164 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+CE457 STRUCTURAL DYNAMICS
+Course Objectives:
+To introduce the concepts of dynamic systems
+To study the dynamic response of SDOF
+To study the dynamic response of MDOF
+To introduce the continuous systems subjected to different types of dynamic loads
+To learn free and forced vibrations response of structural systems
+Course Content
+Dynamic analysis - Elements of vibratory systems and simple Harmonic Motion- Mathematical models
+of SDOF systems - Principle of Virtual displacements - Evaluation of damping resonance.
+Fourier series expression for loading - (blast or earthquake) - Duhamel’s integral - Numerical evaluation
+- Expression for generalized system properties - vibration analysis Rayleigh’s method - Rayleigh - Ritz
+method.
+Differential equation of motion - Beam flexure including shear deformation and rotatory inertia -
+Vibration analysis using finite element method for beams and frames
+Evaluation of structural property matrices - Natural vibration - Solution of the eigen value problem -
+Iteration due to Holzer and Stodola
+Idealization of multi-storeyed frames - analysis to blast loading - Deterministic analysis of earthquake
+response - lumped SDOF system - Design of earthquake resistant structures.
+References
+1. Mario Paz, Structural Dynamics, CBS, Publishers, 1987.
+2. Roy R Craig, Jr., Structural Dynamics, John Wiley & Sons, 1981.
+3. A.K. Chpora “Dynamics of Structures Theory and Application to Earthquake Engineering” Pearson
+Education, 2001.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the concepts of dynamic systems
+identify, formulate and solve dynamic response of SDOF
+identify, formulate and solve dynamic response of MDOF
+analyze continuous systems subjected to different types of dynamic loads
+identify, formulate and solve free and forced vibrations response of structural systems
+CE458 FINITE ELEMENT METHOD
+Course objectives:
+To study the strain –displacement and linear constitutive relation
+To understand the numerical techniques applied in FEM
+Establishment of element stiffness and load vector
+To study about the 2-D isoparametric concepts
+To analyze the 2-D frame elements using FEM techniques
+43
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course Content
+Differential equilibrium equations - strain displacement relation - linear constitutive relation - special
+cases - Principle of stationary potential energy - application to finite element methods - Some numerical
+techniques in finite element Analysis
+Displacement models - convergence requirements. Natural coordinate systems - Shape function.
+Interpolation function. Linear and quadratic elements - Lagrange & Serendipity elements. Strain
+displacement matrix - element stiffness matrix and nodal load vector
+Two dimensional isoparametric elements - Four noded quadrilateral elements - triangular elements.
+Computation of stiffness matrix for isoparametric elements - numerical integration (Gauss quadrature)
+Convergence criteria for isoparametric elements.
+Assemblage of elements – Direct stiffness method. Special characteristics of stiffness matrix -
+Boundary condition & reaction - Gauss elimination and LDLT decomposition. Basic steps in finite
+element analysis.
+Analysis of framed Structures: 2D – truss element - 2D - beam element. Analysis of plate bending-
+displacement functions - plate bending Elements. Plane stress and plane strain analysis: Triangular
+elements - Rectangular elements
+References
+1. Krishnamoorthy, C.S, Finite Element Analysis Theory & Programming, McGraw- Hill, 1995.
+2. Desai C.S and Abel, J.F., Introduction to the finite element Method, Affiliated East west Press Pvt.
+Ltd. New Delhi 2000.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the differential equilibrium equations and their relationship
+apply numerical methods to FEM
+demonstrate the displacement models and load vectors
+compute the stiffness matrix for isoperimetric elements
+analyze plane stress and plane strain problems
+CE459 MODELS FOR AIR AND WATER QUALITY
+Course objectives:
+To introduce the mathematical models and the modeling approach to water quality
+to present the mass balance basis for water quality models, simplified water quality models for
+streams and rivers, lakes and reservoirs for conservative and non-conservative materials
+to describe the various models for microbial growth and limitations
+to address the simple air quality models for point and line sources
+to review the simple models for estuaries
+Course Content
+Introduction to Mathematical Models: Modeling approaches to water quality - classification of models
+Mathematical models for water quality - model development, calibration and verification - cost: benefit
+analysis using models, Model requirements and limitations. D.O. Models for Streams: Dissolved oxygen
+model for streams - sources and sinks of dissolved oxygen
+44
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Estimation of system parameters - Streeter - Phelps model - oxygen 'sag' curve - determination of
+deoxygenation and reaeration coefficients - Benthal oxygen demand - mass transport mechanisms -
+Advective and diffusive mass transport
+Models by O'connor, Dobbins and Thomann. Models for Estuary and Lakes: Physical chemical and
+biological processes in estuaries - water quality distribution in estuaries - modeling estuaries and lakes
+for water quality - temperature models for lakes and rivers
+Models for microorganisms decay, nitrogen and phytoplankton. Air quality models: Micrometeorological
+processes, wind rose, dispersion, coefficients and stability classes, Gaussian and dispersion model,
+Regional air quality models,
+References
+1. Chapra, Steven C., "Surface water quality modeling", McGraw Hill Book Company, New York,
+1997.
+2. Gilbert M. Masters, "Introduction to Environmental Engineering and Science", 2nd Edition, Prentice
+Hall, 1998.
+Course outcomes:
+On completion of the course, the students will be able to:
+evaluate the physical, chemical and biological water quality which is essential for the abatement
+of water pollution
+predict the quality of water and air through modeling
+recognize the risks of disposal of treated wastewater into the river
+design sound and sustainable water and air models under specified conditions
+CE460 TRANSPORTATION PLANNING
+Course objectives:
+To know about the process and concepts of transportation planning
+To study about trip generation
+To study about trip distribution
+To study about modal split analysis
+To study about trip assignment
+Course Content
+Transportation Planning Process and Concepts- Role of transportation - Transportation problems -
+Urban travel characteristics - Concept of travel demand - Demand function - demand estimation -
+Sequential, recursive and simultaneous processes
+Trip Generation Analysis - Zoning - Types and sources of data - Expansion factors - Accuracy checks -
+Trip generation models - Zonal models - Household models - Category analysis - Trip attractions of
+work centers.
+Trip Distribution Analysis - Trip distribution models - Growth factor models - Gravity models -
+Opportunity models.
+Mode Split Analysis - Mode split Models - Mode choice behavior, Competing modes, Mode split curves,
+Probabilistic models.
+45
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Traffic Assignment - Route split analysis: Elements of transportation networks, Nodes and links -
+minimum path trees - all-or-nothing assignment - Multipath assignment - Capacity restraint.
+References
+1. Hutchinson B.G., Principles of Urban Transportation System Planning, McGraw Hill, 2007.
+2. Bruton M.J., Introduction to Transportation Planning, Hutchinson, London, 1992.
+3. C. Jotin Khisty, B. Kent Lall, Transportation Engineering, Prentice Hall of India, 2002.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the principles of the transportation planning process and demand estimation
+analyse the trip production and trip attraction models
+analyse the growth factor, gravity and opportunity models
+apply the mode choice behaviour and mode split models
+apply the shortest path models for route assignment
+CE461 PAVEMENT ANALYSIS AND DESIGN
+Course objectives:
+To study about the types and components of pavements
+To learn about the stresses in flexible pavements and equivalent single wheel load
+To study the design of flexible pavements
+To learn about the stresses in rigid pavements
+To study the design of rigid pavements
+Course Content
+Pavements - Types and Component - Factors affecting Design and Performance of Pavements,
+Comparison between Highway and Airport pavements - Functions and Significance of Sub grade
+properties
+Stresses in Flexible Pavements - Stresses and Deflections in Homogeneous Masses - Burmister's 2-
+layer, 3-layer Theories - Wheel Load Stresses, ESWL of Multiple Wheels Repeated Loads and EWL
+factors
+Flexible Pavement Design - Empirical - Semi-empirical and Theoretical Approaches; Principles and
+procedure, design, Advantages and Applications of different Pavement Design Methods - Stresses in
+Rigid pavements - Types of Stresses and Causes - Factors influencing the Stresses, General
+conditions in Rigid Pavement Analysis, ESWL, Wheel Load Stresses, Warping Stresses, Friction
+Stresses, Combined Stresses
+Rigid Pavement Design - Types of Joints in Cement Concrete Pavements and their Functions, Joint
+Spacings, Design of Slab Thickness, Design of Joint Details for Longitudinal Joints, Contraction Joints
+and Expansion Joints, IRC Method of Design
+References
+1. Yoder and Witezak, Principles of pavement design¸ John Wiley and sons, 1975
+2. Yang, Design of functional pavements, Mc Graw -Hill, 2004.
+3. IRC: 58 - 2002, Guidelines for the Design of Plain Jointed Rigid Pavements for Highways
+46

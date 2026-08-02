@@ -1,0 +1,42 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+4. IRC:37 - 2001, Guidelines for the Design of Flexible Pavements
+Course outcomes:
+On completion of the course, the students will be able to:
+identify the pavement components and compare highway and airport pavements
+calculate stresses and ESWL in flexible pavements
+design the flexible pavement using empirical and semi empirical methods
+analyze the warping, friction, wheel load stress and calculate the combined stress
+design rigid pavements by IRC method and evaluate the pavements
+CE462 ADVANCED SURVEYING TECHNIQUES
+Course Objectives:
+To know about significance of advanced surveying in field measurements in terms of utility and
+precision of data collection
+To learn on the principles of Electronic distance measurements, Total station and their
+accuracy
+To get introduced to the concept of photogrammetry in preliminary identification and map
+making
+To know in detail the concept of remote sensing in identification of land features from space
+and to get introduced to different data acquisition techniques like LIDAR, RADAR
+To get introduced to the field of geodesy, coordinate systems, Map projections, GPS, its
+working principles, data collection, data processing and analysis
+Course Content
+Electromagnetic distance measurement (EDM) – Principle of EDM Carrier waves – Types of EDM
+instruments – Distomat – Total Station – Principle – procedure & surveying using Total Station –
+precise leveling - micro-optic theodolite.
+Photogrammetry – Terrestrial and Aerial Photogrammetry – Horizontal position of a point from
+photographic measurement – elevation of a point – Determination of focal length of camera - Geometry
+and scale of vertical photographs – Ground co-ordinates from vertical photographs - Relief
+displacement – Planimetric mapping from vertical photos – Stereoscopy– Photo interpretation.
+Remote sensing – concepts – Idealized remote sensing system – characteristics – Types of remote
+sensing system – Remote sensing from space – Data interpretation – application of remote sensing –
+LIDAR – RADAR - SONAR.
+Geodesy – Figure of earth – Classification – Earth surface - Geodetic reference surfaces - Coordinate
+systems – Geodetic datums and elements – Map – Scale of map – projection – UTM – Map projection
+of India – Space Geodesy – VLBI – SLR - LLR.
+GPS Basics – system overview – working principle of GPS – Satellite ranging –calculating position –
+Ranging errors and its correction – GPS surveying Methods – static, Rapid static, DGPS and Kinematic
+methods – Real time and post processing DGPS – visibility diagram – GAGAN.
+References
+1. Duggal, S.K. Surveying Vol. II, Tata McGraw Hill, 2004.
+2. Punmia, B.C. Surveying Vol.III, Standard Publishers, 2005.
+47

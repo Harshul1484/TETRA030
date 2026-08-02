@@ -1,0 +1,39 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+SEMESTER VII
+CE401 MATRIX METHODS OF STRUCTURAL ANALYSIS
+Course objectives:
+To understand the importance of degrees of freedom and the concept of principle of
+superposition
+To know about the concept of strain energy and principle of virtual work
+To study the transformation of system matrices and element matrices for the determinate and
+indeterminate structures
+To analyze the forces in structures like continuous beam, truss and frames using stiffness and
+flexibility method
+To understand the behavior of structures due to thermal expansion and lack of fit
+Course Content
+Generalized measurements - Degrees of freedom - Constrained Measurements - Behavior of
+structures - Principle of superposition. Stiffness and flexibility matrices - Constrained measurements -
+Stiffness and flexibility coefficients from virtual work.
+Strain energy - Stiffness and flexibility matrices from strain energy - Symmetry and other properties
+of stiffness and flexibility matrices - Betti's law and its applications - Strain energy in systems and in
+elements.
+Determinate and indeterminate structures - Transformation of element matrices to system matrices -
+Transformation of system vectors to element vectors - Normal coordinates and orthogonal
+transformations.
+Flexibility method applied to statically determinate and indeterminate structures - Choice of
+redundants - Transformation of redundants - Internal forces due to thermal expansion and lack of fit.
+Development of the method - Internal forces due to thermal expansion and lack of fit - Application
+to symmetrical structures - Comparison between stiffness and flexibility methods.
+References
+1. Moshe, F., Rubenstein, Matrix Computer Analysis of Structures, Prentice Hall, New York, 1986.
+2. Rajasekaran S, Computational Structural Mechanics, Prentice Hall of India, New Delhi, 2001
+3. Manickaselvam V.K., Elements of Matrix and Stability Analysis of Structures, Khanna Publishers,
+New Delhi, 1998.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the basic concepts of matrix methods in structural analysis
+develop stiffness and flexibility matrices
+analyze the structures using flexibility and stiffness method
+transform system coordinates to element coordinates
+determine the forces in various members due to lack of fit and thermal expansion
+31

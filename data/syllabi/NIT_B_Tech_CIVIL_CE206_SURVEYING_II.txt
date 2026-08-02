@@ -1,0 +1,45 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+analyze fluid flows in open channel hydraulics and devices such as weirs and flumes
+apply dimensional analysis and the concept of CFD
+design open channels for most economical sections like rectangular, trapezoidal and circular
+sections
+measure velocity through instruments in open channel and pipe flow
+CE206 SURVEYING – II
+Course objectives:
+To understand the basics and elements of different types of curves on roads and their
+preliminary survey
+To learn about surveying applications in setting out of curves, buildings, culverts and tunnels
+To get introduced to different geodetic methods of survey such as triangulation, trigonometric
+leveling
+To learn about errors in measurements and their adjustments in a traverse
+To get introduced to modern advanced surveying techniques involved such as Remote
+sensing, Total station, GPS, Photogrammetry etc.
+Course Content
+Curve setting – Horizontal curves - Elements of simple and compound curves – Methods of setting out
+– Reverse curve – Transition curve – Length of curve – Elements of cubic parabola, true spiral and
+cubic spiral – Vertical curve – parabola – Setting out of buildings – culverts – tunnels.
+Triangulation – different networks – orders and accuracies – intervisibility and height of stations –
+signals and towers – Baseline measurement – instruments and accessories – tape corrections –
+extension of baseline – satellite stations – Reduction to centre.
+Trignometrical levelling – Observations for heights and distances – Geodetic observations –
+Corrections for refraction, curvature, axis signal – Reciprocal observations.
+Errors – Types of errors – Theory of least squares – weighted observations – most probable value –
+computations of indirectly observed quantities – method of normal equations – conditioned quantities,
+method of correlates, method of differences – adjustment of simple triangle and quadrilateral network
+without central station.
+Electromagnetic distance measurement (EDM) – Principle – Types – Total station - Photogrammetry –
+Terrestrial and Aerial photographs – Photo interpretation – Stereoscopy - Remote Sensing – Principle –
+Idealized remote sensing system – Types – applications - Introduction to GPS – Segments – Principle
+of working – application.
+References
+1. Duggal, S.K. Surveying Vol. I and II, Tata McGraw Hill, 2004.
+2. Punmia, B.C. Surveying Vol.I and II, Standard Publishers, 1994.
+3. Arora, K. R. Surveying Vol. I and II, Standard Book House, 1996.
+4. Satheesh Gopi. Advanced Surveying, Pearson Education, 2007.
+5. Satheesh Gopi. The Global Positioning System and Surveying using GPS, Tata McGraw, 2005.
+Course outcomes:
+On completion of the course, the students will be able to:
+set out curves, buildings, culverts and tunnels
+carry out a geodetic survey, taking accurate measurements using instruments and adjusting
+the traverse
+14

@@ -1,0 +1,279 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+CURRICULUM
+B. Tech. (CIVIL ENGINEERING)
+The total minimum credits required for completing the B.Tech. Program in Civil Engineering is 178 (45 +
+133).
+SEMESTER III
+Code Course of Study L T P C
+MA203 Probability, Statistics and Linear programming 3 0 0 3
+CE201 Mechanics of Solids-I 2 1 0 3
+CE203 Mechanics of Fluids - I 2 1 0 3
+CE205 Surveying - I 3 0 0 3
+CE207 Geotechnical Engineering - I 3 0 0 3
+CE209 Concrete Technology 3 0 0 3
+CE211 Building Planning and Drawing 0 0 3 2
+CE213 Survey Lab I 0 0 3 2
+CE215 Geotechnical Lab 0 0 3 2
+Total 16 2 9 24
+SEMESTER IV
+Code Course of Study L T P C
+MA204 Numerical Techniques 2 1 0 3
+CE202 Mechanics of Solids-II 2 1 0 3
+CE204 Mechanics of Fluids - II 3 0 0 3
+CE206 Surveying - II 3 0 0 3
+CE208 Geotechnical Engineering - II 3 0 0 3
+CE210 Environmental Engineering - I 3 0 0 3
+CE214 Survey Lab II 0 0 3 2
+CE216 Strength of Materials Lab 0 0 3 2
+Total 16 2 6 22
+SEMESTER V
+Code Course of Study L T P C
+CE301 Environmental Engineering - II 2 0 2 3
+CE303 Structural Analysis - I 2 1 0 3
+CE305 Concrete Structures -I 3 0 2 4
+CE307 Steel Structures - I 2 0 2 3
+CE309 Hydraulic Machinery 3 0 0 3
+CE311 Advanced Strength of Materials 3 0 0 3
+CE313 Fluid Mechanics Lab 0 0 3 2
+CE315 Environmental Engineering Lab 0 0 3 2
+Total 15 1 12 23
+1
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+SEMESTER III
+MA203 PROBABILITY, STATISTICS AND LINEAR PROGRAMMING
+Course objectives
+To understand the concepts of Probability, Statistics and Linear Programming which arise in
+engineering applications
+To study the defects arising in any of the engineering products
+To study the quality of the components purchased for the projects
+To study the optimization techniques for various problems
+To study the Transportation and Assignment problems
+Course Content
+Total, Compound, Marginal and conditional probability, Bayes' theorem - Binomial, Poisson and Normal
+distributions, Moment generating function, Characteristic function
+Central Limit Theorem, Law of large numbers, Tests of significance, large and small samples, t- test, F-
+test and chi-square test for goodness of fit.
+Estimation theory, ANOVA table and analysis, Multiple and partial correlation - Regression
+Convex spaces, LPP statement, basic feasible solution, Graphical solution - Slack and surplus
+variables - Artificial variable technique - Charne's penalty method - Two phase method - Dual simplex
+method - Primal dual problems, Transportation and Assignment problems.
+Integer programming - Gomory's cutting plane method - Branch and bound method
+References
+1. Gupta. S.C. and Kapoor. V.K., Fundamentals of Mathematical Statistics, 7th Edition, Sultan Chand
+and Sons, 1980.
+2. Kantiswarup, Gupta P.K. and Man Mohan, Operations Research, 11th Edition, Sultan Chand and
+Sons, 2003.
+Course outcomes
+On completion of the course, the students will be able to:
+apply the principles and techniques learnt in this course for solving the practical problems which
+arise in the industry
+use Estimation Theory and Regression Analysis to estimate the present condition from previous
+history in any real life situation
+apply LPP to Transportations problems which is essential for a Civil Engineer
+apply Probability in Reliability and life testing machine tools in Civil Engineering
+solve the Linear Programming problems for minimizing the project cost and maximizing its profit
+CE201 MECHANICS OF SOLIDS – I
+Course objectives:
+To learn about the concept of stress, strain and deformation of solid and state of stress
+4
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To know the concepts of strain energy, principal stress and principal planes
+To learn the bending moment, shear force and the corresponding stress distribution for
+different types of beams
+To learn the analysis of plane truss, thin cylinders and shells
+To understand the theory of torsion and stresses in springs
+Course Content
+Tension, compression and shear stresses - Hooke's law - elastic constants - compound stresses -
+composite bars - thermal stresses.
+Strain Energy due to axial force - Resilience - stresses due to impact and suddenly applied load -
+Principal stress and principal planes - Mohr's circle
+Beams and support conditions -Types of supports and loads - shear force and bending moment - their
+diagrams for simply supported beams, cantilevers and overhanging beams. Theory of simple bending -
+Stress distribution at a cross section due to Bending Moment and Shear - strain energy.
+Analysis of plane truss - Method of joints - Method of sections - Thin cylinders and shells.
+Theory of torsion - Torsion of circular and hollow circular shafts and shear stresses due to torsion -
+closed and open coiled helical springs - leaf spring.
+References
+1. Vazirani, V.N. and Ratwani, N.M., Strength of Materials, Vol I, Khanna Publishers, 1996.
+2. Kazimi, Mechanics of Solids, Tata McGraw - Hill, 2004.
+3. Timoshenko, S.P. and Gere, J.M., Mechanics of Materials, Tata McGraw Hill, 1992.
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the strength parameters of the materials
+solve principal stress and principal plane problems
+apply various methods of analysis of plane truss
+determine shear force, bending moment, bending and shear stress distribution
+analyze members subjected to torsion
+CE203 MECHANICS OF FLUIDS – I
+Course objectives:
+To understand the properties of fluids and fluid statics
+To derive the equation of conservation of mass and its application
+To solve kinematic problems such as finding particle paths and stream lines
+To use important concepts of continuity equation, Bernoulli’s equation and turbulence, and
+apply the same to problems
+To analyze laminar and turbulent flows
+Course Content
+Continuum concept - CGS, MKS and SI systems - Properties of Fluids - Ideal and real fluid - Pressure
+at a point – pressure variation - pressure measurement
+5
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Hydrostatic forces on plane and curved surfaces - Buoyancy and equilibrium - Metacentric height and
+its determination-Types of flow - continuity equation for one, two and three dimensional flows - stream
+function and velocity potential - flow net and its properties
+Convective and local acceleration - Pressure, Kinetic and Datum energy - Bernoulli's theorem and
+proof - Euler's equations of motion for a three dimensional flow and along a streamline - Deduction
+of Bernoulli's theorem - Momentum equation - applications.
+Reynold's experiment - Laminar and turbulent flow - Reynold's number - critical flow - Navier-
+Stoke equations of motion - shear stress and pressure gradient - Laminar flow between parallel
+plates - Couette flow - Hagen Poiseuille equation for flow through circular pipes.
+Turbulence - semi empirical theories –Major losses - Darcy-Weisbach equation for flow through circular
+pipe - Friction factor - Smooth and rough pipes - Moody diagram - flow through noncircular pipe -
+Minor losses - pipes in series and parallel - Equivalent length - Introduction to water hammer
+phenomena.
+References
+1. Nagaratnam, S., Fluid Mechanics, Khanna Publishers, 1995.
+2. Natarajan, M.K. Principles of Fluid Mechanics, Oxford & IBH Publishing Co, 1994.
+3. Jagdish Lal, Hydraulics and Fluid Mechanics, Tata McGraw Hill, 2001.
+4. Streeter V.L., Fluid mechanics, Tata McGraw Hill, 1998.
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the properties of fluid and pressure and their measurement
+compute forces on immersed plane and curved plates
+apply continuity equation and energy equation in solving problems on flow through conduits
+compute the frictional loss in laminar and turbulent flows
+analyse flow between reservoirs
+CE205 SURVEYING - I
+Course objectives:
+To understand the importance of surveying in the field of civil engineering
+To study the basics of linear/angular measurement methods like chain surveying, compass
+surveying
+To study the significance of plane table surveying in plan making
+To know the basics of levelling and theodolite survey in elevation and angular measurements
+To understand tacheometric surveying in distance and height measurements
+Course Content
+Introduction and Principles of surveying – Classification – Brief introduction to chain surveying –
+Chaining and ranging - Compass surveying – Prismatic compass only – Instruments – Bearing of
+survey lines – systems and conversions – Local attraction – Latitude and departure – Traversing –
+Traverse adjustment of closing errors.
+6
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Plane Table surveying – instruments and accessories – advantages and disadvantages of plane table
+surveying – methods – radiation, intersection, traversing, resection – Two and three point problems –
+errors in plane table surveying.
+Levelling – Definitions – Levelling instruments – Temporary and permanent adjustments – Booking –
+Reduction to levels – Correction for Curvature and refraction – Classification of leveling – Profile
+Levelling – Differential levelling – Reciprocal levelling – longitudinal and cross sectioning - Contours –
+Contour interval – Methods of contouring – uses.
+Theodolite surveying – Vernier theodolite – Temporary and permanent adjustments – Measurement of
+horizontal and vertical angles – Methods of repetition and reiteration – errors in theodolite surveying –
+elimination of errors - Area and volume computation – area from latitude and departure – Simpson’s
+rule and Trapezoidal rule.
+Tacheometric surveying – Principles – Methods – Stadia system –Fixed and Movable hair methods –
+Methods with staff held vertical and normal – Analytic lens – Subtense bar – Tangential method.
+References
+1. Duggal, S.K. Surveying Vol. I and II, Tata McGraw Hill, 2004.
+2. Punmia, B.C. Surveying Vol.I and II, Standard Publishers, 1994.
+3. Arora, K. R. Surveying Vol. I and II, Standard Book House, 1996
+.
+Course outcomes:
+On completion of the course, the students will be able to:
+carry out preliminary surveying in the field of civil engineering applications such as structural,
+highway engineering and geotechnical engineering
+plan a survey, taking accurate measurements, field booking, plotting and adjustment of
+traverse
+use various conventional instruments involved in surveying with respect to utility and precision
+plan a survey for applications such as road alignment and height of the building
+undertake measurement and plotting in civil engineering
+CE207 GEOTECHNICAL ENGINEERING - I
+Course objectives:
+To explain what Geotechnical Engineering is and how it is important to civil engineering
+To explain how three phase system is used in soil and how are soil properties estimated using
+three phase system
+To explain role of water in soil behavior and how soil stresses, permeability and quantity of
+seepage including flow net are estimated
+To determine shear parameters and stress changes in soil due to foundation loads
+To estimate the magnitude and time-rate of settlement due to consolidation
+Course Content
+Historical development of Soil Engineering - Origin and general types of soils - soil structure, clay
+minerals-Three phase system- Identification and Classification of soils
+7
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Soil water - capillary phenomena - concept of effective and neutral stresses - Permeability -
+determination of coefficient of permeability in the laboratory - Seepage flow - Head, gradient,
+pressure - steady state flow - two dimensional - flow net.
+Vertical stress distribution in soil - Boussinesq and Westergaard's equation - Newmark's influence
+chart - principle, construction and use - Equivalent point load and other approximate methods -
+pressure bulb. Compaction
+Shear strength - Mohr-Coulomb failure criterion - shear strength tests - Different drainage
+conditions - Shear properties of cohesionless and cohesive soils - Use of Mohr's circle - relationship
+between principal stresses and shear parameters.
+Compressibility and consolidation - Terzaghi's one dimensional consolidation theory - pressure
+void ratio relationship - preconsolidation pressure - Total settlement and time rate of settlement -
+coefficient of consolidation - curve fitting methods - Correction for construction time.
+References
+1. Gopal Ranjan and Rao, P. Basic and Applied Soil Mechanics, New Age International Pvt. Limited,
+New Delhi, 2002.
+2. Murthy, V.N.S., A text book of Soil Mechanics and Foundation Engineering, UBS Publishers
+Distributors Ltd., New Delhi, 1999
+3. Punmia, B.C. Soil Mechanics and Foundation Engineering, Laxmi Publications Pvt. Ltd., New Delhi,
+1995.
+4. Braja M. Das, Fundamentals of Geotechnical Engineering, Thomson Asia Pvt. Ltd., Singapore,
+2005.
+Course outcomes:
+On completion of the course, the students will be able to:
+carry out soil classification
+solve three phase system problems
+solve any practical problems related to soil stresses estimation, permeability and seepage
+including flow net diagram
+estimate the stresses under any system of foundation loads
+solve practical problems related to consolidation settlement and time rate of settlement
+CE209 CONCRETE TECHNOLOGY
+Course objectives:
+To understand the properties of ingredients of concrete
+To study the behavior of concrete at its fresh and hardened state
+To study about the concrete design mix
+To know about the procedures in concreting
+To understand special concrete and their use
+Course Content
+Introduction - Concrete materials - Cement: Physical tests on cement - Concrete materials - Tests on
+aggregates - Quality of Water for mixing and curing - use of sea water for mixing concrete
+8
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Mix Design - factors influencing mix proportion - Mix design by ACI method and I.S. code method -
+Design of high strength concrete.
+Admixtures - accelerating admixtures - Retarding admixtures - water reducing admixtures - Air
+entraining admixtures - coloring agent - Plasticizers. Batching - Mixing -Transportation - Placing of
+concrete - curing of Concrete
+Strength of Concrete - Shrinkage and temperature effects - creep of concrete - permeability of concrete
+- durability of concrete - Corrosion - Causes and effects - remedial measures- Thermal properties of
+concrete - Micro cracking of concrete.
+Special Concrete - light weight concrete - Fibre reinforced concrete - Polymer-polymer modified
+concrete - Ferrocement - Mass concrete - Ready mix concrete- Self compacting concrete- Quality
+control - Sampling and testing-Acceptance criteria
+References
+1. Shetty, M.S., Concrete Technology, Theory & Practice, S.Chand and Co, 2004.
+2. Gambhir, M.L., Concrete Technology, Tata McGraw Hill, 2004.
+3. Nevile, Properties of Concrete, Longman Publishers, 2004.
+4. Santakumar A.R., Concrete Technology, Oxford University Press, New Delhi, 2007.
+Course outcomes:
+On completion of the course, the students will be able to:
+test all the concrete materials as per IS code
+design the concrete mix using ACI and IS code methods
+determine the properties of fresh and hardened of concrete
+design special concretes and their specific applications
+ensure quality control while testing/ sampling and acceptance criteria
+CE211 BUILDING PLANNING AND DRAWING
+Course objectives:
+To understand the principles of planning and bylaws
+To draw plan, elevation and section of load bearing and framed structures
+To draw plan, elevation and section of public and industrial structures
+To prepare detailed working drawing for doors, windows, etc.
+Course Content
+Classification of buildings - Principles of planning - Dimensions of buildings - Building bye-laws for floor
+area ratio, open spaces - Orientation of buildings - Lighting and Ventilation- Planning and preparing
+sketches and working drawings of Residential buildings (Flat and sloping roof), Schools, Hostels,
+Hospitals, Single-storey factory buildings with trusses. Detailed working drawings of the component
+parts - Doors and Windows - Roof Trusses - Staircases-Toilets
+References
+1. Shah M.G. Kalec. M. & Patki SY Building Drawing, Tata Mcgraw Hill, New Delhi, 2000
+9

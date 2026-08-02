@@ -1,0 +1,36 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the sewage characteristics and design various sewage treatment plants
+analyze the status of surface water and ground water quality and the remediation technologies
+carry out municipal water and wastewater treatment system design and operation
+manage hazardous wastes, risk assessment and treatment technologies
+apply environmental treatment technologies and design processes
+CE303 STRUCTURAL ANALYSIS – I
+Course objectives:
+To understand the concept of analysis of indeterminate structures by various classical methods
+To study the use of ILD for determinate structure
+To learn the concepts of moving loads and its effect on structures
+To understand the concept of equivalent UDL
+To study the reversal of stress under live load
+Course Content
+Slope deflection method - analysis of indeterminate structures- Settlement.
+Moment distribution method - analysis of indeterminate structures - settlement of supports - sway.
+Energy methods - Kani's method - analysis of indeterminate structures - settlement of supports - sway.
+Moving loads for statically determinate structures -single load - two point loads - several points loads -
+maximum bending moment and maximum shear force - equivalent u.d.l. - absolute maximum bending
+moment.
+Enveloping curves for maximum bending moment and maximum shear force and determination of
+equivalent UDL, ILD for shear, moment and reactions for statically determinate beams and pinjointed
+trusses - Reversal of stresses under live load.
+References
+1. Jindal. R.L, Indeterminate Structures, Chan Tea, New Delhi, 2000
+2. Punmia B.C., Theory of Structures, Standard Book House, New Delhi, 2000
+Course outcomes:
+On completion of the course, the students will be able to:
+use various classical methods for analysis of indeterminate structures
+determine the effect of support settlements for indeterminate structures
+apply the concepts of ILD and moving loads on determinate structures
+apply the concept of equivalent UDL
+determine the reversal of stresses in trusses using ILD
+19

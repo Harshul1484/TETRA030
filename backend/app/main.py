@@ -3,7 +3,7 @@ import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api import courses, graph, market, syllabi
+from app.api import courses, graph, market, programme, syllabi
 from app.config import settings
 
 logging.basicConfig(level=logging.INFO)
@@ -30,6 +30,7 @@ app.add_middleware(
 app.include_router(courses.router)
 app.include_router(graph.router)
 app.include_router(market.router)
+app.include_router(programme.router)
 app.include_router(syllabi.router)
 
 

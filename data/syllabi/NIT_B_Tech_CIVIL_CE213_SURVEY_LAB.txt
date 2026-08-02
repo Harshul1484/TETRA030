@@ -1,0 +1,38 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the principles of planning and bylaws used for building planning
+draw plan, elevation and section for various structures
+CE213 SURVEY LAB – I
+Course objective:
+The Lab sessions would include experiments on
+Chain Surveying
+Chain Traverse
+Compass Surveying
+Compass surveying Traversion
+Plane Table Surveying – Radiation, intersection, Traverse, Resection Leveling
+Course Content
+1. Chain surveying
+2. Chain traverse
+3. Compass surveying
+4. Compass traverse-open and close traverse
+5. Plane table surveying
+6. Leveling: Fly leveling and contouring
+7. Radiation, intersection-Traverse- Resection
+Course outcomes:
+On completion of the course, the students will be able to:
+use conventional surveying tools such as chain/tape, compass, plane table, level in the field of
+civil engineering applications such as structural plotting and highway profiling
+apply the procedures involved in field work and to work as a surveying team
+plan a survey appropriately with the skill to understand the surroundings
+take accurate measurements, field booking, plotting and adjustment of errors can be
+understood
+plot traverses / sides of building and determine the location of points present on field on a piece
+of paper
+CE215 GEOTECHNICAL LAB
+Course objectives:
+To estimate index properties of soils (coarse and fine)
+To estimate consistency limit of fine grained soils
+To estimate shear strength of soils by direct shear test, triaxial shear test, vane shear test
+& unconfined compressive test
+10

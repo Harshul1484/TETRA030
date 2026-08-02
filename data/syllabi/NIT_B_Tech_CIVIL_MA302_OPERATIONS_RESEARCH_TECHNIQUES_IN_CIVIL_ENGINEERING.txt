@@ -1,0 +1,63 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+demonstrate the functions of planning and financing agencies
+apply the town and country plan act and building by-laws
+MA302 OPERATIONS RESEARCH TECHNIQUES IN CIVIL ENGINEERING
+Course objectives:
+To study various optimization techniques in real world problems related to civil engineering
+To study the inventory models
+To study about assigning jobs to people in an efficient way
+To study about sequencing techniques
+Course Content
+Inventory with uniform demand with finite rate of replenishment without and with shortage - Buffer stock
+- Price break
+Queuing Theory - M/M/1 and M/M/C models with infinite and finite waiting space.
+Dynamic programming - Principle of optimality - recursive equation approach - application to allocation
+shortest path and production schedule - Sequencing - Johnson's algorithm - n jobs through 2 machines,
+n jobs through m machines, 2 jobs through 2 machines.
+Replacement problem - Present worth factor - Group replacement - Nonlinear programming -
+Lagrange's multiplier's method - Kuhn-Tucker's condition - Quadratic programming - Wolfe's method.
+References
+1. Taha, H.A., Operations Research: An Introduction, Prentice Hall of India, New Delhi, 2003.
+Course outcomes:
+On completion of the course, the students will be able to:
+solve the optimization problems
+apply LPP to Transportations problems which is essential for a Civil Engineer
+solve assignment problems in an easy way
+assess the real conditions of a project so that loss can be avoided
+solve the Linear programming problems for minimizing the project cost and maximizing its
+profit
+HM404 CREATIVE WRITING THROUGH LITERATURE
+Course objectives:
+To motivate the students for creative writing
+To familiarize them with literary Forms and Figures of speech
+To expose them to the attractions and the challenges involved in creative writing
+To emphasize the need for sustained effort at developing creativity
+To enable them to write poems. Short stories, blogs, essays which can be published in
+magazines or web journals
+51
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course Content
+Understanding literary forms - Thinking about texts: Role-playing the Reader, the Author, and the
+Individual as both the Reader-Author - Intensive reading of a poem, short story, a novel, a bestseller, a
+film, a drama, an essay, a news story, an Ad-campaign, an Interview - Designing the individual reading
+list. Pursuing one’s own competence.
+Dissertation: Performance in the chosen genre.
+References
+1. Abrams, M.H. A Glossary of Literary Terms. (Seventh Edition). Thomson: New York. 1999.
+2. Packard, William. The Poet’s Craft. Virago: New York. 2003.
+3. Tuchman, Barbara. Practising History. Routledge: London, 2006.
+4. Bowra, C.M. The Romantic Imagination.Faber: London. 1965.
+5. Wallace, Irving. The Making of a Bestseller. Corgi: New York, 1984
+Course outcomes:
+On completion of the course, the students will be able to:
+apply various sources of creative writing like a museum, an Archive, the Library, the
+newspaper, Film, the advertisement
+demonstrate a variety of genres of Creative Literature like the Poem, the Novel, the Film, and
+the image
+demonstrate ideas like Postcolonialism, De-Colonizing the mind, working in white spaces,
+Postmodernism, Existentialism
+develop the language, methodology and vocabulary to read and criticize a poem, a film, a
+novel, an advertisement
+apply the methods of Creative thinkers and writers like S T Coleridge, Ngugi Wa Thiongo, Sri
+Aurobindo, Vikram Chandra, Raja Rao, and Salman Rushdie
+52

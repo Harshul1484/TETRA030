@@ -1,0 +1,38 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+5. Pressure gauge calibration.
+6. Centrifugal pump
+7. Submersible pump
+8. Reciprocating pump
+9. Jet pump
+10. Gear pump
+11. Screw pump
+12. Francis Turbine
+Course outcomes:
+On completion of the course, the students will be able to:
+measure discharge in pipes
+determine the energy loss in conduits
+demonstrate the characteristics curves of pumps
+demonstrate the characteristics curves of turbines
+carry out discharge measurements in open channel
+CE315 ENVIRONMENTAL ENGINEERING LAB
+Course objectives:
+To quantify the water and wastewater pollutant
+To measure the concentration of air pollutants
+To analyze the characteristics of water, wastewater and ambient air
+To study the growth of microorganism and its quantification
+Course Content
+1. Physical characteristics of water
+2. Chemical characteristics of water
+3. Bacteriological tests
+4. Microscopic tests
+5. Jar test
+6. Chlorine demand and residual test
+7. Total solids and settleable solids.
+8. Organic and inorganic solids.
+9. Determination of pH and chemical constituents like Cl-, Fe2+ etc.
+Course outcomes:
+On completion of the course, the students will be able to:
+quantify the pollutant concentration in water, wastewater and ambient air
+recommend the degree of treatment required for the water and wastewater
+analyze the survival conditions for the microorganism and its growth rate
+24

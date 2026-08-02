@@ -1,0 +1,78 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To estimate the engineering properties of the soils by density test, CBR test permeability
+test and consolidation test
+Course Content
+1. Grain Size analysis
+2. Consistency limits
+3. Specific gravity
+4. Permeability tests
+5. Unconfined compression test
+6. Direct shear test
+7. Core cutter and sand replacement
+8. Compaction test
+9. California bearing ratio test
+10. Vane shear test
+11. Triaxial test
+12. Consolidation test
+Course outcomes:
+On completion of the course, the students will be able to:
+classify soil by physical observation of the soils
+classify soil based on estimated index and engineering characteristics of soils
+carry out interpolation among the estimated soil design parameters
+SEMESTER IV
+MA202 NUMERICAL TECHNIQUES
+Course objectives:
+To study various numerical techniques
+To study the behavior of the solution of linear/non-linear differential equations
+To study the solution of heat conduction/ wave equation numerically
+To find approximate solutions with minimum error
+To learn algorithms for computers to solve problems in math, science and engineering
+Course Content
+Solution of linear system - Gaussian elimination and Gauss-Jordan methods - LV decomposition
+methods - Crout's method - Jacobi and Gauss-Seidel iterative methods sufficient conditions for
+convergence - Power method to find the dominant eigenvalue and eigenvector
+Solution of nonlinear equation - Bisection method - Secant method - Regula falsi method - Newton-
+Raphson method for f(x) = 0 and for f(x,y) = 0, g(x,y) = 0 - Order of convergence - Horner's method -
+Graeffe's method - Bairstow's method.
+Newton's forward backward and divided difference interpolation - Lagrange's interpolation - Numerical
+Differentiation and Integration - Trapezoidal rule - Simpson's 1/3 and 3/8 rules - Curve fitting - Method
+of least squares and group averages.
+Numerical Solution of Ordinary Differential Equations- Euler's method - Euler's modified method -
+11
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Taylor's method and Runge-Kutta method for simultaneous equations and 2nd order equations -
+Multistep methods - Milne's and Adams' methods.
+Numerical solution of Laplace equation and Poisson equation by Liebmann's method solution of one
+dimensional heat flow equation - Bender - Schmidt recurrence relation Crank - Nicolson method -
+Solution of one dimensional wave equation.
+References
+1. Gerald, CF., and Wheatley, P.O., Applied Numerical Analysis, Mis. Addison Wesley, 1989.
+2. Jain, MK., Iyengar,S.R.,and Jain,R.K., Numerical Methods for Scientific and Engineering
+Computation, Wiley Eastern, 1991.
+3. Kandasamy, P.Thilagavathy, K., and Gunavathy,S., Numerical Methods, Chand and Co., 1997.
+Course outcomes:
+On completion of the course, the students will be able to:
+solve linear and non-linear equations using numerical techniques
+solve linear and non-linear differential equations using numerical techniques
+solve a system of equations using the techniques studied
+CE202 MECHANICS OF SOLIDS – II
+Course objectives:
+To understand the concept of Principle of virtual work
+To study the different methods of finding deflection of beam
+To analyze the Indeterminate beams subjected to various loading
+To study the different methods to find the deflection of truss
+To analyze the column with different end conditions and stress in thick cylinders
+Course Content
+Principle of virtual displacement and virtual forces - Castigliano's first theorem - Maxwell's reciprocal
+theorem. Determination of deflection curve of beams- double integration - Macaulay's method - Area
+moment method - Conjugate beam method - strain energy and dummy unit load approaches to
+deflection of Simple and Curved members. Statically indeterminate Structures - Propped cantilever,
+fixed and continuous beams - Theorem of three moments - Bending moment and shear force diagrams
+Thick cylinders - Lame's equation - Shrink fit - compound cylinders.
+Deflection of trusses - Dummy unit load method - Strain energy method - Williot Mohr's diagram
+Theory of columns: Axial load- Euler's theory-Rankines formula, combined bending and axial load
+References
+1. Vazirani,V.N. and Ratwani, N.M. Strength of Materials, Vol. II, Kanna Publishers, 1996.
+2. Timoshenko, S.P. and Gere, J.M. Mechanics of Materials, Tata McGraw Hill, 1992
+3. Rajput R.K., Strength of Materials, S. Chand & Co., Ltd., 1996.
+12

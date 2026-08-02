@@ -1,0 +1,39 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+estimate bearing capacity using IS code methods
+design proper foundations for any kind of shallow foundation system
+estimate pile and pile group capacity for any kind of soil including group efficiency and
+negative friction
+CE210 ENVIRONMENTAL ENGINEERING - I
+Course objectives:
+To make the students conversant with sources and its demand of water
+To understand the basic characteristics of water and its determination
+To expose the students to understand the design of water supply lines
+To provide adequate knowledge about the water treatment processes and its design
+To have adequate knowledge on operation and maintenance of water supply
+Course Content
+Physical, chemical and biological characteristics of water - water analysis- IS and WHO standards-
+Requirements of water supply - Types of demand and their contribution - rate of consumption -
+Forecasting the population- variation in demand pattern.
+Sources of water - quantitative and qualitative studies. Intakes - Channels and pipes for conveying
+water -- Pipes- hydraulic design of pressure pipe- Materials - laying- joining- testing - pipe
+appurtenances- Pumps and pumping stations
+Treatment plants - process of treatments - mixing, aeration, sedimentation, coagulation, filtration,
+disinfection, softening - advanced water treatment. Distribution systems - analysis of distribution
+networks
+Operation and maintenance of water supply to buildings - Rural water supply - Protected water supply -
+Saline water intrusion.
+Note: Assignments include the drawings of various water treatment units.
+References
+1. Manual on Water supply and Treatment - CPHEEO, 1999
+2. Birdie, G.S. and Birdie, Water Supply and Sanitary Engineering, Dhanpat Rai & Sons, 1992.
+3. Duggal, K.N. Elements of Environmental Engineering, S.Chand & Co, 2002.
+4. Punmia B.C, Ashok Jain & Arun Jain, Water Supply Engineering, Laxmi Publications, Pvt. Ltd.,
+New Delhi, 2004.
+Course outcomes:
+On completion of the course, the students will be able to:
+identify the source of water and water demand
+apply the water treatment concept and methods
+apply water distribution processes and operation and maintenance of water supply
+prepare basic process designs of water and wastewater treatment plants collect, reduce,
+analyze, and evaluate basic water quality data
+16

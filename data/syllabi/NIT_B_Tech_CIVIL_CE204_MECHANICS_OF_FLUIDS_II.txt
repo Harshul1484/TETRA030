@@ -1,0 +1,43 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the principle of virtual work
+determine deflection of a beam for various loading conditions
+apply unit load method to find the deflection of truss
+determine different stresses developed in thick cylinders
+visualize the behavior of column for combined bending and axial loading
+CE204 MECHANICS OF FLUIDS - II
+Course objectives:
+To classify the types of flows in open channel and also to design open channel sections in a
+most economical fashion with minimum wetted perimeter and learn about critical flows
+To study about non uniform flows in open channel and longitudinal slopes in open channel and
+also to learn about the characteristics of hydraulic jump
+To develop an understanding of fluid flow patterns and learns to use boundary layer theory and
+drag
+To provide insights to the open channel hydraulics and introduce dimensional analysis for fluid
+flow problems
+To study in detail about boundary layers theory
+Course Content
+Ideal fluid flow- Uniform flow- source - sink- doublet - combination of flow patterns - uniform flow and
+source- flow around cylinder - flow with circulation - lift. Boundary layer - displacement and momentum
+thickness - development of flow in circular pipes - Von Karman momentum equation - Laminar and
+turbulent boundary layers on flat plates - Drag in flat plates, cylinders and spheres - Drag coefficients -
+Boundary layer control.
+Open Channel Flow - Classification - Terminology - velocity distribution in open channels - Chezy,
+Manning and other formulae - Best hydraulic section - specific energy - specific force - hydraulic jump
+and its characteristics - Gradually varied flow - computation of surface profiles. Velocity measurement
+with Pitot tube, Prandtl Pitot tube and current meter - discharge measurement in pipe flow -
+venturimeter, mouthpiece, orificemeter, nozzlemeter, bendmeter and rotameter - discharge
+measurement in open channel flow - All types of notches and weirs, venturiflume - critical depth meter -
+basic principles. Introduction to CFD- Dimensional homogeneity - dimensional analysis - Rayleigh`s
+method - Buckingham Pi theorem - applications - significance of dimensionless numbers - Model study
+and similitude - scale effect and distorted models .
+References
+1. Streeter, V.L. Fluid Mechanics, Tata McGraw Hill, 1998.
+2. Chow, V.T. Open Channel Hydraulics, Tata McGraw Hill, 1975.
+3. Nagaratnam, S. Fluid Mechanics, Khanna Publishers, 1989.
+Course outcomes:
+On completion of the course, the students will be able to:
+visualize fluid flow phenomena observed in Civil Engineering systems such as flow in a pipe,
+flow measurement through orifices, mouth pieces, notches and weirs
+13

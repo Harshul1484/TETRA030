@@ -1,0 +1,35 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the concepts of hydrograph, S-hydrograph, Unit hydrograph and IUH
+estimate the hydrological parameters
+carry out statistical and probability analysis of hydrological data
+demonstrate the concepts of hydrological systems
+develop regression models for the analysis of hydrological data
+CE456 WATER POWER ENGINEERING
+Course objectives:
+To estimate the available hydropower
+To understand types of hydro-power stations
+To understand the components and functions of hydro-power system
+To expose to the types of hydro-power system
+To study the different types of loads on power plants
+Course Content
+Source of energy – Statistics of power - hydro power estimation of water power potential - mini and
+pumped storage plant - cost and value of water power.
+Mini and Pumped storage plants- Penstocks - types and design criteria - anchor blocks - conduit valves
+- bends and manifolds - water hammer - Intakes - canals - forebay - trash rack tunnels - surge tank -
+power plant operation- surface and sub surface power stations.
+Description and function of various hydraulic, electrical and mechanical equipment - power plant
+operation pertaining to base load and peak load
+Principles included in the planning of a surface and sub surface power stations.
+Elementary treatment of the principles involved in tidal power.
+References
+1. Barrows, H.K., Water Power Engineering, McGraw Hill, 1990.
+Course outcomes:
+On completion of the course, the students will be able to:
+estimate the available hydropower in a project
+select suitable types of hydro-power system
+design penstock and anchor blocks
+analyze the different types of loads on power plants
+design the components of Tidal power plant
+42
