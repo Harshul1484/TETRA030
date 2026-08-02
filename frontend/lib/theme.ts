@@ -34,11 +34,16 @@ export function categoryBlock(category: string | undefined) {
   return (category && CATEGORY_BLOCKS[category]) || FALLBACK;
 }
 
-/** Rotating block colours for sections that are not category-specific. */
+/** Rotating block colours for sections that are not category-specific.
+ *
+ * Six entries so the six-stage pipeline does not wrap onto its own first
+ * colour, which would put two identical blocks next to each other.
+ */
 export const SECTION_BLOCKS = [
   "var(--color-block-moss)",
   "var(--color-block-periwinkle)",
   "var(--color-block-butter)",
   "var(--color-block-sage)",
   "var(--color-block-orchid)",
+  "var(--color-block-sky)",
 ] as const;
