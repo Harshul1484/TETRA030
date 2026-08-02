@@ -28,7 +28,7 @@ export default async function CoursePage({
   if (error || !report) {
     return (
       <div className="space-y-4">
-        <Link href="/dashboard" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
+        <Link href="/dashboard" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-ink)]">
           Back to dashboard
         </Link>
         <ErrorPanel message={error ?? "Course not found"} />
@@ -45,7 +45,7 @@ export default async function CoursePage({
   return (
     <div className="space-y-12">
       <div>
-        <Link href="/dashboard" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-primary)]">
+        <Link href="/dashboard" className="caption text-[var(--color-ink-mute)] transition-colors hover:text-[var(--color-ink)]">
           Back to dashboard
         </Link>
         <h1 className="display-lg mt-4 text-[var(--color-ink)]">
@@ -55,6 +55,23 @@ export default async function CoursePage({
           {report.course_code}
         </p>
       </div>
+
+      {report.evidence_thin ? (
+        <div
+          className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] p-6"
+          style={{ backgroundColor: "var(--color-block-butter)" }}
+        >
+          <p className="micro-cap text-[var(--color-ink)]">
+            Thin evidence for this subject area
+          </p>
+          <p className="mt-2.5 max-w-3xl text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
+            {report.evidence_note}
+          </p>
+          <p className="caption mt-3 text-[var(--color-ink-mute)]">
+            {report.domain_postings} matching postings in the current corpus
+          </p>
+        </div>
+      ) : null}
 
       <div className="grid gap-6 border-y border-[var(--color-hairline)] py-8 sm:grid-cols-2 lg:grid-cols-4">
         <div>
@@ -86,10 +103,10 @@ export default async function CoursePage({
       </div>
 
       <section>
-        <SectionTitle hint="Ranked by market demand weighted against current coverage. Every gap cites the postings behind it.">
+        <SectionTitle hint={report.evidence_thin ? "Findings outside this course's subject area are withheld when the corpus lacks the evidence to rank them." : "Ranked by market demand weighted against current coverage. Every gap cites the postings behind it."}>
           Skill gaps
         </SectionTitle>
-        <GapList gaps={report.gaps} />
+        <GapList gaps={report.gaps} evidenceThin={report.evidence_thin} />
       </section>
 
       <section>

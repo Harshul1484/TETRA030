@@ -120,11 +120,37 @@ ORDER BY hops, prerequisite
 """
 
 
+COURSE_CATEGORIES_QUERY = """
+MATCH (c:Course {code: $course_code})-[:HAS_OUTCOME]->(:Outcome)-[t:TEACHES]->(s:Skill)
+RETURN s.category AS category,
+       count(DISTINCT s) AS skills,
+       sum(t.confidence) AS weight
+ORDER BY weight DESC
+"""
+
+
 def fetch_course_gaps(course_code: str, limit: int = 40) -> list[dict]:
     with session() as s:
         return [
             dict(record)
             for record in s.run(GAP_QUERY, course_code=course_code, limit=limit)
+        ]
+
+
+def fetch_course_categories(course_code: str) -> list[dict]:
+    """Subject areas of what a course teaches, straight from the graph.
+
+    Deliberately not derived from the gap query. That query only returns
+    skills the market also demands, so a discipline with little presence in
+    the corpus is invisible there: a steel design course teaching Structural
+    Analysis and Steel Structures showed no civil rows at all, because civil
+    postings are scarce, and was classified as a software course. What a
+    course teaches has to be read from the course, not from the market.
+    """
+    with session() as s:
+        return [
+            dict(record)
+            for record in s.run(COURSE_CATEGORIES_QUERY, course_code=course_code)
         ]
 
 

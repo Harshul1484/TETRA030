@@ -21,6 +21,7 @@ const NAV = [
   { href: "/dashboard", label: "Courses" },
   { href: "/programme", label: "Programme" },
   { href: "/graph", label: "Skill graph" },
+  { href: "/upload", label: "Analyse a syllabus" },
   { href: "/about", label: "How it works" },
 ];
 

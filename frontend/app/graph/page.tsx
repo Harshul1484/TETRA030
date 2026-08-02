@@ -23,7 +23,7 @@ export default async function GraphPage() {
         <h1 className="display-lg text-[var(--color-ink)]">
           Skill Ontology Graph
         </h1>
-        <p className="mt-4 max-w-3xl text-[16px] leading-relaxed text-[var(--color-ink-secondary)]">
+        <p className="mt-4 max-w-3xl text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
           Skills ranked by market demand, joined by prerequisite edges. Node
           colour is the skill category, matching the tags used throughout the
           gap reports. A dark ring marks a skill the curriculum already
@@ -62,7 +62,7 @@ export default async function GraphPage() {
 
       <Card block="var(--color-block-sky)">
         <SectionTitle>Why this is a graph, not a table</SectionTitle>
-        <p className="text-[15px] leading-relaxed text-[var(--color-ink-secondary)]">
+        <p className="text-[15px] leading-relaxed text-[var(--color-ink-soft)]">
           The edges are what make the analysis actionable. Knowing a curriculum
           is missing Retrieval Augmented Generation is only useful alongside
           what it would cost to teach: the graph resolves that to Large Language

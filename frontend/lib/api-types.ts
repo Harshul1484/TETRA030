@@ -310,6 +310,11 @@ export interface paths {
          *     Pass `course` for a single course, or omit it for the whole programme.
          *     Every cell carries the skill and confidence it was derived from, so an
          *     assessor can audit any claim rather than taking the number on trust.
+         *
+         *     An unknown course is rejected rather than answered with an empty matrix.
+         *     This is a compliance document: a report that looks valid but describes a
+         *     course that does not exist is worse than an error, because somebody
+         *     could file it.
          */
         get: operations["co_po_matrix_api_accreditation_matrix_get"];
         put?: never;
@@ -444,6 +449,14 @@ export interface components {
          *
          *     `scored_against` names the subject areas used as the denominator, so the
          *     number can be interpreted rather than taken on faith.
+         *
+         *     `domain_postings` is how many postings in the corpus actually demand a
+         *     skill in that subject area. It is the denominator behind the denominator,
+         *     and it has to be reported: a civil engineering course compared against
+         *     three civil postings and one compared against three hundred produce
+         *     identically confident-looking output otherwise. When it falls below
+         *     `EVIDENCE_FLOOR` the report is marked `evidence_thin`, and the ranked
+         *     gaps below are demand from adjacent fields rather than this course's own.
          */
         GapReport: {
             /** Course Code */
@@ -454,6 +467,18 @@ export interface components {
             health_score: number;
             /** Scored Against */
             scored_against?: string[];
+            /**
+             * Domain Postings
+             * @default 0
+             */
+            domain_postings: number;
+            /**
+             * Evidence Thin
+             * @default false
+             */
+            evidence_thin: boolean;
+            /** Evidence Note */
+            evidence_note?: string | null;
             /** Gaps */
             gaps: components["schemas"]["SkillGap"][];
         };
