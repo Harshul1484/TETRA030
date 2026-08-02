@@ -1,0 +1,203 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To understand behaviour of flexural members and the design laterally restrained and
+unrestrained beams
+To study the components of truss, loads on trusses, analysis and design of purlins and truss
+members
+To study the design of bolted and welded connections and arranging field visit to industries
+Course Content
+Introduction to steel structures and IS800-2007- Material specifications - Rolled sections – Section
+classifications - Permissible stresses in tension, compression, bending and shear.
+Compression members - Slenderness ratio – Design - Simple and built- up sections - lacings and
+battens - Tension members.
+Flexural members – Rolled sections - built-up beams - Design for strength and serviceability, web
+crippling, web yielding, bearing stiffeners.
+Roof trusses - components - Loads - Design of purlins using channel and angle sections, and truss
+members - End connections at the supports.
+Bolted connections - types of bolts - Resistance of bolted connections under various failure modes –
+design of beam splice, seated shear connections at the supports.
+Welded connections - types - strength of welds - design of fillet and butt welds - shear and moment
+resistant joints - design and detailing of connections.
+Note: Assignments include the design and drawings of various steel structural elements.
+References
+1. Subramanian N, Design of Steel Structures, Oxford University Press, New Delhi 2008.
+2. Dayaratnam P, Design of Steel Structures, S. Chand & Co., New Delhi, 2003.
+3. Arya, A.S and Ajmani, A.L., Design of Steel Structures, Nemchand and brothers, Roorkee, 1992..
+4. Punmia, B.C., Ashok Kumar Jain and Arun Kumar Jain. Comprehensive Design of Steel Structures,
+Laxmi Publications Pvt. Ltd., New Delhi 2000.
+5. IS 800-2007, Code of practice for general construction in steel, Bureau of Indian Standards, New
+Delhi.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the IS code of practice for the design of steel structural elements
+design compression and tension members using simple and built-up sections
+calculate forces on the various members of the truss and design them
+analyze the behavior of bolted connections and design them
+design welded connections for both axial and eccentric forces
+CE309 HYDRAULIC MACHINERY
+Course objectives:
+To understand the application of momentum principle of impact of jets on plane and curved
+surfaces
+21
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To study types of centrifugal Pumps, work done and efficiency of the different types centrifugal
+pumps and also study about performance of pumps & characteristic curves
+To study about specific speed and performance characteristics of different types of turbines
+To study about hydroelectric power plant and estimation of hydropower potential
+To explain the concept of positive displacement
+Course Content
+Principles of impingement of jets - Impact of jet on a stationary vertical plate, stationary inclined plate,
+stationary curved plate, hinged plate, moving vertical and inclined plates, moving curved plate and on
+series of moving flat and curved vanes fixed on the periphery of circular rim.
+Turbines - classification- impulse turbines - Pelton wheel - Reaction turbines - Francis and Kaplan
+Turbines - draft tubes - Governing of a Francis turbine - Performance of turbines - specific speed and
+their significance.
+Centrifugal pump - description and working - Head, discharge and efficiency of a centrifugal pump -
+pressure rise in the pump - minimum starting speed of a pump - cavitation - priming - multistage
+pumps - characteristic curves.
+Reciprocating pump - Description and working - types - discharge and slip - power required to
+drive the pump - Indicator diagram - Air vessel - work done against friction with and without air
+vessels.
+Working principle and use of the following hydraulic pumps and machines - Deep well pumps -
+submersible and jet pumps, special pumps - Gear pump - screw pump, sewage pump, miscellaneous
+machines - Hydraulic press - hydraulic accumulator - Hydraulic ram.
+References
+1. Bansal, R.K., A text book of Fluid Mechanics and Hydraulic Machines, Laxmi Publications (P) Ltd.,
+New Delhi, 2002.
+2. Nagaratnam, S., Fluid Machines and Systems, Tata McGraw Hill, 1989.
+3. Khurmi, R.S., Text Book of Hydraulics and Hydraulic Machine, S. Chand & Co, 2003.
+Course outcomes:
+On completion of the course, the students will be able to:
+calculate forces and work done by a jet on fixed or moving plate and curved plates
+apply the working principles of Impulse and Reaction turbines
+select the type of turbine required with reference to available head of water and discharge
+determine the characteristics of centrifugal pump
+apply the working principles of the Reciprocating pump
+CE311 ADVANCED STRENGTH OF MATERIALS
+Course objectives:
+To understand the mechanical properties of materials
+To understand the different theories of failure for brittle and ductile materials
+To know the features of unsymmetrical bending and different methods of analysis
+To understand the concept of shear centre and to know different methods for its location
+To know the fundamentals of vibration of structure
+22
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course Content
+Mechanical Properties of Materials - Stress-Strain Diagrams- Elastic and Plastic Deformation - Brittle
+and Ductile Failures of Materials - Mechanical Tests like Surface Hardness, Fatigue, Creep etc.
+Principal stresses in a 3D field.- Computation -Mohr's Circle - Lame's Ellipsoid. Theories of failure -
+Criteria for Failure - Different failure theories for ductile and brittle materials. Equivalent bending and
+twisting moments.
+Unsymmetrical bending- Properties of unsymmetrical sections- Circle of inertia - Dyadic circle -
+Momental ellipse- Stresses and deflection due to unsymmetrical bending - Concept and relevance of Z
+polygon.
+Shear Centre - Concept and significance - Shear flow for thin walled open sections-Location of shear
+centre for singly symmetric sections. Stresses in curved flexural members-Winkler Bach Formula -
+Crane hooks - rings and links.
+Fundamentals of vibration - free vibration of single degree of freedom systems - Undamped and
+damped free vibration with different types of damping.- Resonance-Harmonic response of single
+degree of freedom systems with and without damping.
+References
+1. Srinath, L. S., Advanced Mechanics of Solids , Tata McGraw Hill,1980.
+2. Kazimi, S.M.A., Solid Mechanics, Tata McGraw Hill, 1976.
+3. Punmia, B.C., Strength of Materials Part II, Standard Publishers and Distributors, 1991.
+4. Shames I.H., Engineering Mechanics, Prentice Hall of India,1996
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the important mechanical properties of materials
+demonstrate the different theories of failure for brittle and ductile materials
+apply the different methods of unsymmetrical bending analysis
+demonstrate the significance and concept of shear centre
+apply the principles of structural dynamics
+CE313 FLUID MECHANICS LAB
+Course objectives:
+To understand the flow measurement in a pipe flow
+To determine the energy loss in pipe flow
+To study the characteristics of turbines
+To study the characteristics of pumps
+To measure the discharge in a open channel flow
+Course Content
+1. Determination of pipe friction
+2. Calibration of flow meters - Venturimeter and Orifice meter
+3. Determination of discharge coefficients for notches
+4. Determination of minor losses
+23
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Introduction to Plastic analysis – ductility – plastic bending of beams – stages of bending – shape factor
+– plastic hinge – load factor – failure mechanism - upper and lower bound theorems of plastic analysis
+– collapse load for beams and frames.
+Note: Assignments include the design and drawings of various steel structures.
+References
+1. Subramanian N, Design of Steel Structures, Oxford University Press, New Delhi 2008.
+2. Bhavikatti, S.S., Design of Steel Structures, I.K. International Publishing House Pvt. Ltd., New
+Delhi, 2010
+3. Krishnaraju.N, Structural Design and Drawing, University Press, Hyderabad, 2009.
+4. IS 800-2007, Code of practice for general construction in steel, Bureau of Indian Standards, New
+Delhi.
+5. IS875 Part (3) - 1987, Code of Practice for Design Loads (other than earthquake) for buildings and
+structures: Wind loads., Bureau of Indian Standards, New Delhi.
+6. SP6 (1)-1964, IS hand book for structural Engineers. Bureau of Indian Standards, New Delhi.
+Course outcomes:
+On completion of the course, the students will be able to:
+calculate shape factor and plastic moment capacity
+design eccentrically loaded compression members (Beam-Columns) and their base plates
+design welded plate girder and other components and Gantry girder
+carry out wind load calculations for tall structures and design of steel chimneys
+design light gauge steel sections
+CE310 WATER RESOURCES ENGINEERING
+Course Objectives:
+To build on the student’s background in hydrology and hydraulics and understanding of water
+resources systems
+To develop the skills in modeling of flood flows and flood routing
+To develop skills in the ground water flow, type of aquifer and yield from the well
+To provide the knowledge of design of reservoir, operation and sedimentation
+To study the effect, causes and remedial measures of water logging
+Course Content
+Hydrologic cycle - rainfall and its measurement - computation of mean rainfall over a catchment area
+using arithmetic mean, Theissen polygon and Isohyetal methods - Runoff -infiltration indices - Storm
+Hydrograph and unit hydrograph
+River regions and their characteristics - classification of rivers on alluvial plains - meandering of rivers -
+river training
+Reservoir planning - Investigations - zones of storage in a reservoir - single purpose and multipurpose
+reservoir - determination of storage capacity and yield - reservoir sedimentation - Reservoir life -
+Sediment prevention - Flood estimation- Flood forecasting - Flood routing
+28
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Ground water - types of aquifers - storage coefficient - coefficient of transmissibility - steady radial flow
+into a well located in an unconfined and confined aquifers - Tube wells and Open wells - yield from an
+open well.
+Water logging - causes and effects of water logging - remedial measures - land reclamation - land
+drainage - benefits - classification of drains - surface drains - subsurface drains - design principles and
+maintenance of drainage systems.
+References
+1. Punmia, B.C., Irrigation and Water Power Engineering, Standard Publishers, 2001.
+2. Ragunath. H.M., Hydrology, Willey Eastern Limited, New Delhi, 2000.
+3. Subramanya, Engineering Hydrology, Tata-McGraw Hill, 2004.
+Course outcomes:
+On completion of the course, the students will be able to:
+design various channel systems
+design head and cross regulator structures
+identify various types of reservoir and their design aspects
+By the Establishes the understanding of cross drainage works and its design
+design different types of dams
+CE312 COMPUTER AIDED DESIGN – I
+Course objectives:
+To learn the programming of numerical methods
+To use the computer to apply numerical techniques
+To learn the fundamentals of Computer Aided Drafting
+To understand DBMS concepts
+To learn the handling of spreadsheets
+Course Content
+Application Programs
+a. Roots of an equation using Newton - Raphson method.
+b. Solution of linear simultaneous equations using Gauss elimination.
+c. Matrix inversion using Gauss Jordan method
+d. Linear regression line of given points
+e. Curve fitting using Polynomial Regression
+f. Eigen value extraction using Power method
+Standard packages to solve the above problems-Solution of Linear Programming problems using
+standard software-Basic 2D objects - line, polyline, circle, ellipse - editing objects - trim, break, change,
+stretch - dimensioning - preparation of plan, elevation and section drawings of simple structural objects
+- printing and plotting drawings - script files - introduction to 3D
+DBMS concepts - Civil Engineering Databases - Manipulation - Spreadsheet concepts - Worksheet
+calculations in Civil Engineering - Regression, Matrix Inversion, etc.
+29

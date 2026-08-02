@@ -1,0 +1,38 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the nuances of management functions
+analyze the framework of a business organization
+adopt an empirical approach toward business situations
+apply various Project Management techniques
+implement roles of team players
+CE402 PRESTRESSED CONCRETE STRUCTURES
+Course objectives:
+To learn the principles, materials, methods and systems of prestressing
+To know the different types of losses and deflection of prestressed members
+To learn the design of prestressed concrete beams for flexural, shear and tension and to
+calculate ultimate flexural strength of beam
+To learn the design of anchorage zones, composite beams, analysis and design of continuous
+beam
+To learn the design of water tanks
+Course Content
+Principles of prestressing - Materials of prestressing - Systems of prestressing - Loss of prestress -
+Deflection of Prestressed Concrete members.
+Slabs - Pre-tensioned and Post-tensioned beams - Design for flexure, bond and shear - IS code
+provisions - Ultimate flexural and shear strength of prestressed concrete sections - Design of end
+anchorage zones using IS code method.
+Composite beams - Analysis and design.Partial prestressing - non-prestressed reinforcements.
+Analysis of Continuous beams - Cable layout - Linear transformation - Concordant cables.
+Design of compression members and tension members. Circular prestressing - Water tanks - Pipes -
+Analysis and design - IS Codal provisions.
+References
+1. Lin. T.Y., Burns, N.H., Design of Prestressed Concrete Structures, John Wiley & Sons, 1982.
+2. RajaGopalan N. Prestressed Concrete, Narosa Publishing House, New Delhi, 2002.
+Course outcomes:
+On completion of the course, the students will be able to:
+design a prestressed concrete beam accounting for losses
+design the anchorage zone for post tensioned members
+design composite members
+design continuous beams
+design water tanks
+36

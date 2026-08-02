@@ -1,0 +1,42 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+apply mathematical adjustment of accidental errors involved in surveying measurements
+plan a survey for applications such as road alignment and height of the building
+invoke advanced surveying techniques over conventional methods in the field of civil
+engineering
+CE208 GEOTECHNICAL ENGINEERING – II
+Course objectives:
+To emphasize the importance of soil investigations including destructive and
+nondestructive methods
+To explain how earth pressure theory is important in retaining structure design
+To explain the concept of bearing capacity and how to estimate the safe bearing capacity
+for various foundation system including settlement consideration
+To explain how do select a suitable shallow foundation system for various site conditions
+and also analysis of different foundation system
+To explain in what circumstances pile is needed and how do analysis the pile and pile
+group under various soil conditions
+Course Content
+Soil exploration - Planning - Augur boring - Soundings - Sampling - Plate load test, static and dynamic
+penetrations tests - geophysical explorations - Lateral Earth Pressure - Plastic equilibrium - Rankine's
+theory - Active and passive earth pressure for cohesionless and cohesive soils - Earth pressure at rest
+- Coloumb's wedge theory - Rebhann's and Culmann's graphical solutions, Stability analysis
+Foundation - functions and requisites- Different types - choice of foundation type – general principles of
+design. Bearing capacity - types of failures - Prandtl's and Terzaghi's bearing capacity analysis -
+Bearing capacity based on settlement and building codes
+Shallow foundation - spread footings - combined footings - trapezoidal and strap footings - Raft
+foundation - Contact pressure distribution - settlement analysis - Types of settlement, control
+Deep foundation - piles - types - load carrying capacity of pile - static and dynamic formula - pile load
+test - penetration test - pile groups - Efficiency - Feld's rule - Converse Labarre formula,
+Settlement of piles and pile groups - Negative skin friction - under reamed piles
+References
+1. Murthy, V.N.S, A text book of Soil Mechanics and Foundation Engineering, UBS Publishers &
+Distributors Pvt. Ltd., New Delhi 1999.
+2. Punmia, B.C., Soil Mechanics and Foundation Engineering, Laxmi Publications Pvt. Ltd., New Delhi,
+1995.
+3. Gopal Ranjan and Rao, Basic and Applied Soil Mechanics, New Age International (P) Limited,
+New Delhi, 2002.
+4. Braja M. Das, Principles of Foundation Engineering, Thomson Asia Pvt. Ltd., Singapore, 2005.
+Course outcomes:
+On completion of the course, the students will be able to:
+carry out soil investigation for any civil engineering construction
+analyse earth retaining structures for any kind of soil medium
+15

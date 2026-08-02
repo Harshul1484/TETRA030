@@ -1,0 +1,38 @@
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+CE214 SURVEY LAB – II
+Course objectives:
+The Lab sessions would include extensive experiments on
+Theodolite survey
+Trignometric leveling to determine heights/elevations
+Tacheometry
+Setting of curves
+Course Content
+1. Theodolite surveying
+2. Single plane observation of trignometrical leveling
+3. Two plane method
+4. Determination of Tacheometric Constants
+5. Tangential Tacheometry
+6. Subtense Bar
+7. Setting out of curves, Buildings layout.
+8. Total station
+Course outcomes:
+On completion of the course, the students will be able to:
+use the theodolite along with chain/tape, compass on the field
+apply geometric and trigonometric principles of basic surveying calculations
+plan a survey, taking accurate measurements, field booking, plotting and adjustment of errors
+apply field procedures in basic types of surveys, as part of a surveying team
+employ drawing techniques in the development of a topographic map
+CE216 STRENGTH OF MATERIALS LAB
+Course objectives:
+To find the Young Modulus, torsional strength, hardness and tensile strength of given
+specimens
+To find impact value and crushing value of coarse aggregates
+To find the compressive strength of concrete cubes and bricks
+To find stiffness of open coiled and closed coiled springs
+To find the physical properties of given coarse aggregate, fine aggregate and cement samples
+Course Content
+1. Test on springs
+2. Deflection test
+3. Torsion test
+4. Tension test
+17

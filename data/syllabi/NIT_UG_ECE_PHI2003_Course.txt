@@ -1,0 +1,634 @@
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Reference Books
+1. H.Gerez, Algorithms for VLSI Design Automation, John Wiley, 1999
+2. Jan.M.Rabaey et al, Digital Integrated Circuit Design Perspective (2/e), PHI 2003
+3. David A.Hodges, Analysis and Design of Digital Integrated Circuits (3/e), MGH 2004
+4. Hoi-Jun Yoo, Kangmin Leeand Jun Kyong Kim, Low-Power NoC for High-Performance SoC
+Design, CRC Press, 2008
+5. An Integrated Formal Verification solution DSM sign-off market trends,
+www.cadence.com.
+Course outcomes
+At the end of the course student will be able
+CO1: demonstrate VLSI tool-flow and appreciate FPGA and CPLD architectures
+CO2: understand the issues involved in ASIC design. Understand Full Custom Design Flow
+and Tool used.
+CO3: understand Semicustom Design Flow and Tool used - from RTL to GDS and Logical
+to Physical Implementation.
+CO4: understand about STA, LEC, DRC, LVS, DFM.
+CO5: understand the System on Chip Design and On-chip communication architectures
+with case studies.
+140 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO23
+Course Title : DIGITAL SYSTEM DESIGN
+Number of Credits 3
+Prerequisites : ECPC14
+(Course code)
+Course Type : HO
+Course learning Objective
+ To get an idea about designing complex, high speed digital systems and how to implement
+such design.
+Course content
+Mapping algorithms into Architectures: Datapath synthesis, control structures, critical path and worst
+case timing analysis. FSM and Hazards.
+Combinational network delay. Power and energy optimization in combinational logic circuit.
+Sequential machine design styles. Rules for clocking. Performance analysis.
+Sequencing static circuits. Circuit design of latches and flip-flops. Static sequencing element
+methodology. Sequencing dynamic circuits. Synchronizers.
+Data path and array subsystems: Addition / Subtraction, Comparators, counters, coding,
+multiplication and division. SRAM, DRAM, ROM, serial access memory, context addressable
+memory.
+Reconfigurable Computing- Fine grain and Coarse grain architectures, Configuration architectures-
+Single context, Multi context, partially reconfigurable, Pipeline reconfigurable, Block Configurable,
+Parallel processing.
+Text Books
+1. N.H.E.Weste, D. Harris, CMOS VLSI Design (3/e), Pearson,2005.
+2. W.Wolf, FPGA- based System Design, Pearson,2004.
+Reference Books
+1. S. Hauck, A.DeHon, ”Reconfigurable computing: the theory and practice of FPGA-based
+computation”, Elsevier, 2008.
+2. Franklin P. Prosser, David E. Winkel, Art of Digital Design, Prentice-Hall,1987.
+3. R.F.Tinde,” Engineering Digital Design”, (2/e), Academic Press,2000.
+4. C. Bobda, “Introduction to reconfigurable computing”, Springer, 2007.
+5. M. Gokhale, ”Paul S. Graham, Reconfigurable computing: accelerating computation with
+field- programmable gate arrays”, Springer,2005.
+6. C.Roth, “Fundamentals of Digital Logic Design”, Jaico Publishers, V ed.,2009.
+7. Recent literature in Digital System Design.
+Course outcomes
+At the end of the course student will be able
+CO1: identify mapping algorithms into architectures.
+CO2: summarize various delays in combinational circuit and its optimization methods.
+CO3: summarize circuit design of latches and flip-flops.
+CO4: construct combinational and sequential circuits of medium complexity that is based on
+VLSIs, and programmable logic devices.
+CO5: summarize the advanced topics such as reconfigurable computing, partially
+reconfigurable, Pipeline reconfigurable architectures and block configurable.
+141 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO24
+Course Title : OPTIMIZATIONS OF DIGITAL SIGNAL PROCESSING
+STRUCTURES FOR VLSI
+Number of Credits (3-1-0 ) 4
+Prerequisites : ECPC20
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To understand the various VLSI architectures for digital signal processing.
+ To know the techniques of critical path and algorithmic strength reduction in the filter
+structures.
+ To enable students to design VLSI system with high speed and low power.
+ To encourage students to develop a working knowledge of the central ideas of implementation
+of DSP algorithm with optimized hardware.
+Course content
+An overview of DSP concepts, Typical DSP Algorithms, DSP Applications Demands and Scaled
+CMOS Technologies, Pipelining of FIR filters. Parallel processing of FIR filters. Pipelining and
+parallel processing for low power, Combining Pipelining and Parallel Processing.
+Transformation Techniques: Iteration bound, Retiming, Unfolding, Folding and Folding of Multirate
+Systems.
+Pipeline interleaving in digital filters. Pipelining and parallel processing for IIR filters and Higher
+order IIR filters, Low power IIR filter design using pipelining and parallel processing and Low Power
+Higher order filters, Pipelined adaptive digital filters.
+Algorithms for fast convolution: Cook-Toom Algorithm, Winograd Algorithm, Iterative Convolution,
+Cyclic Convolution. Algorithmic strength reduction in filters and transforms: Parallel FIR Filters,
+DCT and inverse DCT, Parallel Architectures for Rank-Order Filters.
+Synchronous pipelining and clocking styles, clock skew and clock distribution in bit level pipelined
+VLSI designs. Wave pipelining, constraint space diagram and degree of wave pipelining,
+Implementation of wave-pipelined systems, Asynchronous pipelining, Implementation of
+computational units using Asynchronous pipelining.
+.
+Text Book
+1. K.K.Parhi, VLSI Digital Signal Processing Systems, John-Wiley, 2007.
+Reference Books
+1. U. Meyer -Baese, Digital Signal Processing with FPGAs, Springer, 2004
+2. Wayne Burleson, Konstantinos Konstantinides, Teresa H. Meng, VLSI Signal Processing,
+1996.
+3. Richard J. Higgins, Digital signal processing in VLSI, 1990.
+4. Sun Yuan Kung, Harper J. Whitehouse, VLSI and modern signal processing, 1985
+5. Magdy A. Bayoumi, VLSI Design Methodologies for Digital Signal Processing, 2012
+6. Earl E. Swartzlander, VLSI signal processing systems, 1986.
+142 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course outcomes
+At the end of the course student will be able
+CO1: understand the overview of DSP concepts and design architectures for DSP algorithms.
+CO2: improve the overall performance of DSP system through various transformation and
+optimization techniques.
+CO3: perform pipelining and parallel processing on FIR and IIR systems to achieve high speed
+and low power.
+CO4: optimize design in terms of computation complexity and speed.
+CO5: understand clock based issues and design asynchronous and wave pipelined systems.
+143 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO25
+Course Title : LOW POWER VLSI CIRCUITS
+Number of 3
+Credits
+Prerequisites : ECPE31
+(Course code)
+Course Type : HO
+Course learning Objective
+ To expose the students to the low voltage device modelling, low voltage, low power VLSI
+CMOS circuit design.
+Course content
+CMOS fabrication process, Shallow trench isolation. Lightly-doped drain. Buried channel.
+Fabrication process of BiCMOS and SOI CMOS technologies.
+Modeling of CMOS devices parameters. Threshold voltage, Body effect, Short channel and Narrow
+channel effects, Electron temperature, MOS capacitance.
+CMOS inverters, static logic circuits of CMOS, pass transistor, BiCMOS, SOI CMOS and low
+power CMOS techniques.
+Basic concepts of dynamic logic circuits. Various problems associated with dynamic logic circuits.
+Differential, BiCMOS and low voltage dynamic logic circuits.
+CMOS memory circuits, Decoders, sense amplifiers, SRAM architecture. Low voltage SRAM
+techniques.
+Text Books
+1. Jan Rabaey,”Low Power Design Essentials (Integrated Circuits and Systems)”, Springer,2009
+2. J.B.Kuo&J.H.Lou,”Low-voltage CMOS VLSI Circuits”, Wiley, 1999.
+Reference Book
+3. A.Bellaowar&M.I.Elmasry,”Low power Digital VLSI Design, Circuits and Systems”,
+Kluwer, 1996.
+4. Recent literature in Low Power VLSI Circuits.
+Course outcomes
+At the end of the course student will be able
+CO1: acquire the knowledge about various CMOS fabrication process and its modeling.
+CO2: infer about the second order effects of MOS transistor characteristics.
+CO3: analyze and implement various CMOS static logic circuits.
+CO4: learn the design of various CMOS dynamic logic circuits.
+CO5: learn the different types of memory circuits and their design.
+144 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO26
+Course Title : VLSI DIGITAL SIGNAL PROCESSING SYSTEMS
+Number of Credits 3
+Prerequisites : ECPC15 &ECPE31
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To enable students to design VLSI systems with high speed and low power.
+ To encourage students to develop a working knowledge of the central ideas of implementation
+of DSP algorithm with optimized hardware.
+Course content
+An overview of DSP concepts, Representations of DSP algorithms. Systolic Architecture Design: FIR
+Systolic Array, Matrix-Matrix Multiplication, 2D Systolic Array Design. Digital Lattice Filter
+Structures: Schur Algorithm, Derivation of One-Multiplier Lattice Filter, Normalized Lattice Filter,
+Pipelining of Lattice Filter.
+Scaling and Round off Noise - State variable description of digital filters, Scaling and Round off Noise
+computation, Round off Noise in Pipelined IIR Filters, Round off Noise Computation using state
+variable description, Slow-down, Retiming and Pipelining.
+Bit level arithmetic Architectures- parallel multipliers, interleaved floor-plan and bit-plane-based
+digital filters, Bit serial multipliers, Bit serial filter design and implementation, Canonic signed digit
+arithmetic, Distributed arithmetic.
+Redundant arithmetic -Redundant number representations, carry free radix-2 addition and subtraction,
+Hybrid radix-4 addition, Radix-2 hybrid redundant multiplication architectures, data format
+conversion, Redundant to Non redundant converter.
+Numerical Strength Reduction – Sub expression Elimination, Multiple Constant Multiplication, Sub
+expression sharing in Digital Filters, Additive and Multiplicative Number Splitting.
+Text Book
+1. K.K.Parhi, “VLSI Digital Signal Processing Systems”, John-Wiley, 2007
+Reference Book
+1. U. Meyer -Baese, Digital Signal Processing with FPGAs, Springer, 2004
+2. Recent literature in VLSI Digital Signal Processing Systems.
+Course outcomes
+At the end of the course student will be able
+CO1: Acquire the knowledge of round off noise computation and numerical strength reduction.
+CO2: Ability to design Bit level and redundant arithmetic Architectures.
+145 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO27
+Course Title : ASYNCHRONOUS SYSTEM DESIGN
+Number of Credits 3
+Prerequisites : ECPC14
+(Course code)
+Course Type : HO
+Course learning Objectives
+ This subject introduces the fundamentals and performance of Asynchronous system
+ To familiarize the dependency graphical analysis of signal transmission graphs
+ To learn software languages and its syntax and operations for implementing Asynchronous
+Designs
+Course content
+Fundamentals: Handshake protocols, Muller C-element, Muller pipeline, Circuit implementation
+styles, theory. Static data-flow structures: Pipelines and rings, Building blocks, examples
+Performance: A quantitative view of performance, quantifying performance, Dependency graphic
+analysis. Handshake circuit implementation: Fork, join, and merge, Functional blocks, mutual
+exclusion, arbitration and Metastability.
+Speed-independent control circuits: Signal Transition graphs, Basic Synthesis Procedure,
+Implementation using state-holding gates, Summary of the synthesis Process, Design examples using
+Petrify. Advanced 4- phase bundled data protocols and circuits: Channels and protocols, Static type
+checking, more advanced latch control circuits.
+High-level languages and tools: Concurrency and message passing in CSP, Tangram program
+examples, Tangram syntax-directed compilation, Martin’s translation process, Using VHDL for
+Asynchronous Design. An Introduction to Balsa: Basic concepts, Tool set and design flow, Ancillary
+Balsa Tools
+The Balsa language: Data types, Control flow and commands, Binary/Unary operators, Program
+structure. Building library Components: Parameterized descriptions, Recursive definitions. A simple
+DMA controller: Global Registers, Channel Registers, DMA control structure, The Balsa description.
+Text Books
+1. Asynchronous Circuit Design- Chris. J. Myers, John Wiley &Sons, 2001.
+2. Handshake Circuits An Asynchronous architecture for VLSI programming – Kees
+Van Berkel Cambridge University Press,2004
+Reference Book
+1. Principles of Asynchronous Circuit Design-Jens Sparso, Steve Furber, Kluver Academic
+Publishers, 2001.
+2. Asynchronous Sequential Machine Design and Analysis, Richard F. Tinder,2009
+3. A Designer's Guide to Asynchronous VLSI, Peter A. Beerel, Recep O. Ozdag, Marcos
+Ferretti,2010
+4. Recent literature in Asynchronous System Design.
+Course outcomes
+At the end of the course student will be able
+CO1: understand the fundamentals of Asynchronous protocols
+CO2: analyze the performance of Asynchronous System and implement handshake circuits
+CO3: understand the various control circuits and Asynchronous system modules
+CO4: gain the experience in using high level languages and tools for Asynchronous Design
+CO5: learn commands and control flow of Balsa language for implementing Asynchronous
+Designs
+146 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO28
+Course Title : PHYSICAL DESIGN AUTOMATION
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objectives
+ Understand the concepts of Physical Design Process such as partitioning, Floor planning,
+Placement and Routing.
+ Discuss the concepts of design optimization algorithms and their application to physical design
+automation.
+ Understand the concepts of simulation and synthesis in VLSI Design Automation
+ Formulate CAD design problems using algorithmic methods
+Course content
+VLSI design automation tools- algorithms and system design. Structural and logic design. Transistor
+level design. Layout design. Verification methods. Design management tools.
+Layout compaction, placement and routing. Design rules, symbolic layout. Applications of
+compaction. Formulation methods. Algorithms for constrained graph compaction. Circuit
+representation. Wire length estimation. Placement algorithms. Partitioning algorithms.
+Floor planning and routing- floor planning concepts. Shape functions and floor planning sizing. Local
+routing. Area routing. Channel routing, global routing and its algorithms.
+Simulation and logic synthesis- gate level and switch level modeling and simulation. Introduction to
+combinational logic synthesis. ROBDD principles, implementation, construction and manipulation.
+Two level logic synthesis.
+High-level synthesis- hardware model for high level synthesis. Internal representation of input
+algorithms. Allocation, assignment and scheduling. Scheduling algorithms. Aspects of assignment.
+High level transformations.
+Text Books
+1. S.H. Gerez, “Algorithms for VLSI Design Automation”, JohnWiley, 1998.
+2. N.A.Sherwani, “Algorithms for VLSI Physical Design Automation”, (3/e),Kluwer, 1999.
+Reference Books
+1. S.M. Sait, H. Youssef, “VLSI Physical Design Automation”, World scientific,1999.
+2. M.Sarrafzadeh, “Introduction to VLSI Physical Design”, McGraw Hill (IE),1996.
+3. Recent literature in Physical Design Automation.
+Course outcomes
+At the end of the course student will be able
+CO1: know how to place the blocks and how to partition the blocks while for designing the
+layout for IC.
+CO2: solve the performance issues in circuit layout.
+CO3: analyze physical design problems and Employ appropriate automation algorithms for
+partitioning, floor planning, placement and routing
+CO4: decompose large mapping problem into pieces, including logic optimization with
+partitioning, placement and routing
+CO5: analyze circuits using both analytical and CAD tools
+147 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO29
+Course Title : MIXED - SIGNAL CIRCUIT DESIGN
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objective
+ To make the students to understand the design and performance measures concept of mixed
+signal circuit.
+Course content
+Concepts of Mixed-Signal Design and Performance Measures. Fundamentals of Data Converters.
+Nyquist Rate Converters and Over sampling Converters.
+Design methodology for mixed signal IC design using gm/Id concept.
+Design of Current mirrors. References. Comparators and Operational Amplifiers.
+CMOS Digital Circuits Design: Design of MOSFET Switches and Switched-Capacitor Circuits,
+Layout Considerations.
+Design of frequency and Q tunable continuous time filters.
+Text Books
+1. R. Jacob Baker, Harry W. Li, David E. Boyce, CMOS, Circuit Design, Layout, and
+Simulation, Wiley-IEEE Press,1998
+2. David A. Johns and Ken Martin, Analog Integrated Circuit Design, John Wiley and
+Sons,1997.
+Course outcomes
+At the end of the course student will be able
+CO1: Appreciate the fundamentals of data converters and also optimized their performances.
+CO2: Understand the design methodology for mixed signal IC design using gm/Id concept.
+CO3: Analyze the design of current mirrors and operational amplifiers
+CO4: Design the CMOS digital circuits and implement its layout.
+CO5: design the frequency and Q tunable time domain filters.
+148 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO30
+Course Title : DIGITAL SIGNAL PROCESSING FOR MEDICAL IMAGING
+Number of Credits 4
+Prerequisites : ECPC15
+(Course code)
+Course Type : HO
+Course content:
+Sources of Medical Images: Physics of X-ray, CT, PET, MRI, and ultrasound, advantages and
+disadvantages of each imaging modality.
+Image Enhancement: Contrast adjustment, denoising (convolution, FFT), deblurring (solving an ill-
+conditioned sparse linear system), edge detection (numerical approximation to a partial derivative),
+anisotropic diffusion (numerical solution of partial differential equations), super-resolution.
+Registration: Intensity-based methods, including a variety of cost functions (correlation, least
+squares, mutual information, robust estimators), and optimization techniques (fixed-point iteration,
+gradient descent, etc.). Implement registration for rigid and non-rigid transformations. MRI motion
+compensation.
+Segmentation & tissue classification: Thresholding, region growing and watershed. More depth on
+the method of snakes (adaptive mesh), level set method (numerical solution of partial differential
+equations), and clustering (classifiers).
+Reconstruction Methods: Reconstruction techniques for CT (filtered back projection) and MRI
+(using the FFT). Theory of the Radon transform, the Fourier transform, and how they relate to each
+other.
+Text Books
+1. Jerry L. Prince, Jonathan M. Links, Medical imaging signals and systems, Pearson education,
+second edition, 2014
+2. Mark. A. Haidekkar, Medical Imaging technology, Springer briefs in physics,2013.
+Reference Books
+1. Paul suetens, Fundamentals of medical imaging, second edition, Cambridge university press,
+2009.
+2. Recent literature in Digital Signal Processing for Medical Imaging.
+3. Geoff Dougherty, Digital image processing for medical applications, Cambridge
+press
+Course outcomes
+At the end of the course student will be able
+CO1: Describe about different medical imaging modalities and its advantages and disadvantages
+CO2: Describe the signal processing techniques involved in medical image enhancement techniques
+CO3: Describe the signal processing techniques involved in image registration
+CO4: Describe the signal processing techniques involved in segmentation and classification
+CO5: Describe the signal processing techniques involved in image reconstruction.
+149 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO31
+Course Title : Advanced Techniques for Wireless Reception
+Number of Credits : 3
+Course Type : HO
+Course Objective
+ To get an understanding of signal processing techniques for emerging wireless systems.
+Course Content
+Wireless signaling environment. Basic signal processing for wireless reception. Linear receivers for
+synchronous CDMA. Blind and group-blind multiuser detection methods. Performance issues.
+Robust multiuser detection for non-Gaussian channels; asymptotic performance , implementation
+aspects.
+Adaptive array processing in TDMA systems. Optimum space-time multiuser detection. Turbo
+multiuser detection for synchronous and turbo coded CDMA.
+Narrowband interface suppression. Linear and nonlinear predictive techniques. Code- aided
+techniques. Performance comparison.
+Signal Processing for wireless reception: Bayesian and sequential Montecarlo signal processing. Blind
+adaptive equalization of MIMO channels .Signal processing for fading channels. Coherent detection
+based on the EM algorithm. Decision-feedback differential detection. Signal processing for coded
+OFDM systems.
+Text Books
+1. X.Wang & H.V.Poor, “Wireless Communication Systems”, Pearson, 2004.
+2. R.Janaswamy, “Radio Wave Propagation and Smart Antennas for Wireless Communication”,
+Kluwer, 2001.
+Reference Books
+1. M.Ibnkahla, “Signal Processing for Mobile Communications”, CRC Press, 2005.
+2. A.V.H. Sheikh, “Wireless Communications Theory & Techniques”, Kluwer Academic
+Publications, 2004.
+3. A.Paulraj ,Arogyaswami, R. Nabar, and D.Gore, ”Introduction to Space-time Wireless
+Communications”, Cambridge University Press, 2003.
+4. Recent literature in Advanced Techniques for Wireless Reception.
+Course Outcomes
+Students are able to
+CO1: discuss the Wireless signaling environment and Performance issues.
+CO2: analyze the channel modeling and multiuser detection.
+CO3: analyze the Adaptive array processing and turbo coded CDMA.
+CO4: analyze Linear and nonlinear predictive techniques.
+CO5: analyze the Signal Processing Techniques for wireless reception.
+150 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO32
+Course Title : Error Control Coding
+Number of Credits : 3
+Course Type : HO
+Course Objective
+ To explain the importance of modern coding techniques in the design of digital
+communication systems.
+Course Content
+Review of modern algebra. Galois fields. Linear block codes; encoding and decoding. Cyclic codes.
+Non-binary codes.
+Convolutional codes. Generator sequences. Structural properties. ML decoding. Viterbi decoding.
+Sequential decoding.
+Modulation codes. Trellis coded modulation. Lattice type Trellis codes. Geometrically uniform trellis
+codes. Decoding of modulation codes.
+Turbo codes. Turbo decoder. Interleaver. Turbo decoder. MAP and log MAP decoders. Iterative turbo
+decoding. Optimum decoding of turbo codes.
+Space-time codes. MIMO systems. Space-time codes. MIMO systems. Space-time block codes
+(STBC) – decoding of STBC.
+Text Books
+1. S.Lin & D.J.Costello, “Error Control Coding (2/e)”, Pearson, 2005.
+2. B.Vucetic & J.Yuan, “Turbo codes”, Kluwer, 2000
+Reference Books
+1. C.B.Schlegel & L.C.Perez, “Trellis and Turbo Coding”, Wiley,2004.
+2. B.Vucetic & J.yuan, “Space-Time Coding”, Wiley, 2003.
+3. R.Johannaesson & K.S.Zigangirov, “Fundamentals of Convolutional Coding”, Universities
+Press, 2001.
+4. Recent literature in Error Control Coding.
+Course Outcome
+Students are able to
+CO1: understand the need for error correcting codes in data communication and storage systems.
+CO2: identify the major classes of error detecting and error correcting codes and how they are
+used in practice. Construct codes capable of correcting a specified number of errors.
+CO3: use the mathematical tools for designing error correcting codes, including finite fields.
+CO4: explain the operating principles of block codes, cyclic codes, convolution codes, modulation
+codes, Turbo codes etc.
+CO5: design an error correcting code for a given application.
+151 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO33
+Course Title : Digital Communication Receivers
+Number of Credits : 3
+Course Type : HO
+Course Objective
+ To expose the students to the latest trends in the design of digital communication receivers
+with particular emphasis on synchronization, channel estimation and signal processing
+aspects.
+Course Content
+Baseband PAM. Clock recovery circuits. Error tracking and spectral – line generating synchronizers.
+Squaring and Mueller and Muller synchronizers.
+Channel models. Receivers for PAM. Optimum ML receivers. Synchronized detection. Digital
+matched filter.
+ML synchronization algorithms – DD and NDA. Timing parameter and carrier phase estimation – DD
+and NDA.
+Performance analysis of carrier and symbol synchronizers. Feedback and feed forward synchronizers.
+Cycle slipping Acquisition of carrier phase and symbol timing.
+Fading channels. Statistical characterization. Flat and frequency selective fading channels. Optimal
+receivers for data detection and synchronization parameter estimation. Realizable receiver structures
+for synchronized detection.
+Text Books
+1. H.Meyer , M. Moeneclaey, and S. A. Fechtel, “Digital Communication Receivers”, Wiley,
+1998.
+2. U.Mengali & A.N.D.Andrea, “Synchronization Techniques for Digital Receivers”, Kluwer ,
+1997.
+Reference Books
+1. N.Benuveruto & G.Cherubini, “Algorithms for Communication Systems and their
+Applications”, Wiley, 2002.
+2. H.Meyer & G.Ascheid, “Synchronization in Digital Communications”, John Wiley, 1990.
+3. Recent literature in Digital Communication Receivers.
+Course Outcomes
+Students are able to
+CO1: summarize baseband PAM and Synchronizers.
+CO2: model and distinguish the channels.
+CO3: interpret optimum receivers and matched filter receivers.
+CO4: summarize phase and carrier estimation methods.
+CO5: compare carrier and symbol synchronizers.
+152 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO34
+Course Title : ADVANCED DIGITAL SIGNAL PROCESSING
+Number of Credits 4
+Prerequisites : ECPC15
+(Course code)
+Course Type : HO
+Course learning Objective
+ To provide rigorous foundations in discrete-time stochastic process, optimum filter,
+adaptive filter, power spectrum estimation and frequency estimation.
+Course content
+Discrete-Time Random Process : Random Process: Ensemble average, Gaussian processes,
+Stationary process, autocovariance and autocorrelation matrices, ergodicity, white noise, power
+spectrum. Filtering random processes. Spectral factorization. ARMA, AR and MA processes.
+Harmonic processes. Linear mean square estimation. Parameter estimation Bias and consistency.
+Optimum Linear filter and linear prediction : FIR Wiener filter. Orthogonality principle in linear
+mean square estimation. IIR Wiener filter: Non-causal Wiener filter and causal Wiener filter. Linear
+prediction. Forward and backward linear prediction. Levinson-Durbin algorithm.
+Adaptive Filters : Adaptive filters. FIR adaptive filter. The steepest decent adaptive filter. LMS
+algorithm. Convergence of adaptive algorithms. Normalized LMS algorithm. Adaptive noise
+cancellation. Exponentially weighted RLS algorithm
+Power Spectrum Estimation: Spectrum estimation. Estimation of autocorrelation. Periodogram
+method. Performance of the periodogram. Nonparametric methods: Bartlett’s method, Welch method
+and Blackman-Tukey method. Performance comparisons. Minimum variance spectrum estimation.
+Parametric methods: AR spectrum estimation. Model parameter-Yule Walker equations.
+Frequency Estimation: Eigen analysis of autocorrelation matrix. Pisarenko Harmonic
+Decomposition. MUSIC method. ESPRIT method. Minimum variance frequency estimation.
+Propagator method.
+Text Books
+1. M.H.Hayes,” Statistical Digital Signal Processing and Modeling”, John-Wiley, 2001.
+2. S.Haykin, “Adaptive Filter Theory (4/e)”, Prentice- Hall, 2002.
+Reference Books
+1. D.G.Manolakis, V. K. Ingle, and S. M. Kogon ,”Statistical and Adaptive Signal Processing”,
+McGraw-Hill,2005
+2. S.L.Marple,”Digital Spectral Analysis”, 1987.
+3. Recent literature in Advanced Digital Signal Processing.
+153 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course outcomes
+At the end of the course student will be able
+CO1: To understand and analyze discrete-time random processes and employ the concept of
+stochastic processes to analyses linear systems
+CO2: To select linear filtering and prediction techniques to engineering problems.
+CO3: To describe the most important adaptive filter generic problems and various adaptive filter
+algorithms.
+CO4: To derive and analyses the statistical properties of the conventional spectral estimators,
+nonparametric and parametric estimation method.
+CO5: To select an appropriate array processing algorithm for frequency estimation
+154 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO35
+Course Title : Photonic Integrated Circuits
+Number of Credits : 3
+Course Type : HO
+COURSE LEARNING OBJECTIVES
+ The photonic integrated circuits course will introduce the basics of integrated optical
+waveguides used in optical communication applications.
+ To introduce the concept reconfigurable architecture design in Photonic circuits
+ To understand and realize Application-Specific Photonic Integrated Circuits and devices
+for Classical Applications
+ This course also covers materials and fabrication technology for optical integrated circuits.
+COURSE CONTENT
+Brief history of optical communication, Advantages of integrated optics configuration, Guided TE
+and TM Modes of Symmetric and anti-symmetric planar waveguides: Step-index and graded-
+index waveguides. Strip and channel waveguides, Beam propagation method.
+Directional couplers, Applications as power splitters, Y-junction, optical switch; modulators,
+filters, A/D converters, Mode splitters, Mach-Zehnder interferometer based devices.
+Acousto-optic waveguide devices. Arrayed waveguide devices, Nano-photonic-devices:
+Metal/dielectric plasmonic waveguides, Surface Plasmon modes, applications in waveguide
+polarizers.
+Materials. Glass, lithium niobate, silicon, compound semiconductors. Fabrication of integrated
+optical waveguides and devices. Lithography, deposition.
+Waveguide characterisation, prism coupling, grating and tapered couplers, Nonlinear effects in
+integrated optical waveguides, Types and Applications.
+Text Books
+7. H Nishihara, M Haruna and T Suhara, Optical Integrated Circuits; McGraw-Hill
+Book Company, New York, 1989.
+8. C. R. Pollock and M Lipson, Integrated photonics, Kluwer Pub, 2003.
+9. José Capmany and Daniel Pérez, Photonic Integrated Circuits, Oxford Univversity Press, 2020
+Reference Books
+11. A Ghatak and K Thyagarajan, Optical Electronics, Cambridge University Press, 1989.
+12. T. Tamir, Guided wave opto-electronics, Springer Verilag, 1990
+13. K. Okamota, Fundamentals of Optical waveguides, Academic Press, 2006.
+14. T. Tamir, Integrated Optics, Springer Verlag, New York, 1982.
+15. Recent journals and conference proceedings.
+Course outcomes
+At the end of the course student will be able
+CO1: Summarize the fundamental concept of optical waveguides.
+CO2: Construct the different types of optical waveguides.
+CO3: Construct the couplers, modulators and devices for communication applications
+CO4: Summarize fabrication technologies for design of optical waveguides
+CO5: Describe the various nonlinear effects in integrated optical waveguides.
+155 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course Code : ECHO36
+Course Title : Microwave Circuits
+Number of Credits : 3
+Course Type : HO
+COURSE OBJECTIVE
+• To make the students familiarize with ABCD parameters, S parameters, Applications of planar
+transmission lines in the practical microwave circuits, Design and layout of all Microwave Integrated
+Circuit Design components and then systems.
+COURSE CONTENT
+Introduction and application of microwave circuits - Two-port network characterization. ABCD
+parameters, Conversion of S matrix in terms of ABCD matrix. Scattering matrix representation of
+microwave components. Review of Smith chart and its application- Impedance matching using
+Lumped and Distributed approach.
+Microwave Passive circuit design: Characteristics, properties, design parameters and applications-
+Design and realization of MIC Power dividers. 3 dB hybrid design. Directional Coupler design-
+Hybrid ring design.
+Microwave filter design- Filter design by insertion loss method –Richards and Kuroda transformation.
+K inverter, J inverter. Resonator filters. Realization using microstrip lines and strip lines.
+Microwave amplifier design- Power gain equations -Stability considerations. Maximum gain design,
+Design for specific gain -Low Noise Amplifier Design. High power design.
+Microwave oscillator design. One – port and two – port negative resistance oscillators and oscillator
+design
+Text Books:
+1. Reinhold Ludwig, RF circuit design, 2nd edition, Prentice Hall 2014, ISBN: 978-0131471375
+2. David. M. Pozar, Microwave engineering, 4th edition, John Wiley, 2011, ISBN: 978-
+0470631553.
+3. Devendra K. Misra, “Radio-Frequency and microwave communication circuits analysis
+and design”, 2nd edition, University of Wisconsin-Mulwaukee, A John Wiley & Sons Publication
+Reference Books:
+1. B. Bhat, S. K Koul, “Stripline like transmission lines for Microwave Integrated Circuits”,
+New Age International Pvt. Ltd Publishers, 2007.
+2. I.J.Bahl & P.Bhartia, “Microwave Solid state Circuit Design (2/e)”, Wiley, 2003.
+3. Matthew M. Radmanesh, Radio Frequency and Microwave Electronics Illustrated, Prentice
+Hall, 2012
+4. S.Y.Liao, “Microwave Circuit Analysis and Amplifier Design”, Prentice-Hall, 1986.
+5. G. Mathaei, L young, E.M.T. Jones, “Microwave filters, Impedance-Matching networks and
+Coupling structures”, Artech House Books.
+COURSE OUTCOMES
+Students are able to
+CO1: Understand the basics of Scattering matrix and two port characterization and importance of
+matching circuits.
+CO2: Analyze the working principles of couplers, power dividers etc. and their design.
+CO3: Design the different types of MIC filters and their implementation.
+CO4: Understand the complexities of microwave amplifier design and its stability features.
+CO5: Analyze and appreciate the design principles of microwave oscillators.
+156 | P age
