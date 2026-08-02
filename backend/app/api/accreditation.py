@@ -6,8 +6,9 @@ endpoints produce it from the graph, along with the findings an assessor
 would raise.
 """
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, HTTPException, Query
 
+from app.db.queries import fetch_courses
 from app.pipeline.accreditation import (
     PROGRAMME_OUTCOMES,
     build_co_po_matrix,
@@ -24,7 +25,19 @@ def co_po_matrix(course: str | None = Query(default=None)) -> dict:
     Pass `course` for a single course, or omit it for the whole programme.
     Every cell carries the skill and confidence it was derived from, so an
     assessor can audit any claim rather than taking the number on trust.
+
+    An unknown course is rejected rather than answered with an empty matrix.
+    This is a compliance document: a report that looks valid but describes a
+    course that does not exist is worse than an error, because somebody
+    could file it.
     """
+    if course:
+        known = {c["code"] for c in fetch_courses()}
+        if course not in known:
+            raise HTTPException(
+                status_code=404, detail=f"Unknown course: {course}"
+            )
+
     return build_co_po_matrix(course)
 
 

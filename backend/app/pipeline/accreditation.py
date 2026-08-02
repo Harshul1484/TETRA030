@@ -111,11 +111,24 @@ def build_co_po_matrix(course_code: str | None = None) -> dict:
     """
     rows = fetch_outcome_rows(course_code)
     if not rows:
+        # Reporting twelve uncovered outcomes here would be the most alarming
+        # possible finding, and for an unknown course it would be fabricated.
+        # The empty case says it has nothing to report rather than implying
+        # total non-compliance.
         return {
             "course_code": course_code,
+            "programme_outcomes": PROGRAMME_OUTCOMES,
             "outcomes": [],
-            "po_coverage": {},
-            "uncovered": list(PROGRAMME_OUTCOMES),
+            "po_coverage": {
+                po: {"courses": [], "course_count": 0, "outcome_count": 0}
+                for po in PROGRAMME_OUTCOMES
+            },
+            "uncovered": [],
+            "outcome_count": 0,
+            "note": (
+                "No mapped course outcomes were found. This is not a finding of "
+                "non-compliance; there is nothing here to assess."
+            ),
         }
 
     outcomes = []
