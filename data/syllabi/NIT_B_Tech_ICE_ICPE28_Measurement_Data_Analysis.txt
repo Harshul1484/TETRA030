@@ -1,0 +1,64 @@
+Course Code : ICPE28
+Course Title : Measurement Data Analysis
+Type of Course : PE
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To give basic information about measuring instruments
+CLO2 To expose the students about the Statistical methods for estimating errors and
+uncertainties of real measurements:
+CLO3 To introduce the fundamental techniques of measurement for data analysis
+CLO4 To apply different measurement techniques that are performed in industry,
+commerce and experimental research for determination of parameters
+Course Content
+General information about measurements, measuring instruments and their properties.
+Statistical methods for Experimental Data Processing: Estimation of the parameters,
+Construction of confidence intervals, Methods for testing Hypotheses and sample
+homogeneity, Trends in applied statistics and experimental data processing.
+Direct measurements: Method for calculating the errors and uncertainties, Methods for
+combining systematic and random errors.
+Indirect measurements: Correlation coefficient and its calculation, the method of reduction,
+method of transformation, errors and uncertainty of indirect measurement. Examples of
+measurements and measurement data processing.
+Combined Measurements:
+Method of least squares, linearization of nonlinear conditional equations, and determination of
+the parameters in formulas from empirical data and construction of calibration curves.
+Combining the results of measurements. Calculation of the errors of measuring instruments.
+References
+1. Semyon G. Rabinovich, Measurement Errors and Uncertainties – Theory and
+Practice, Springer Publication, 3rd Edition, 2010.
+2. L. Kirkup, R. B. Frenkel, An Introduction to Uncertainty in Measurement: Using the
+GUM (Guide to the Expression of Uncertainty in Measurement), Cambridge University
+Press,2010
+3. S.V. Gupta, Measurement Uncertainties: Physical Parameters and Calibration of
+Instruments, Springer, 2012.
+4. Ernest O Doebelin and Dhanesh N Manik, Measurements systems Application and
+design, McGraw Hill publication, 5th Edition, 2015.
+5. Julius S. Bendat, Allan G. Piersol, Random Data: Analysis and Measurement
+Procedures, 4th Edition, Wiley, 2010.
+6. Ifan Hughes and Thomas Hase, Measurements and Their Uncertainties: A Practical
+Guide to Modern Error Analysis, Oxford University Press, 2010.
+7. Patrick F. Dunn, Measurement, Data Analysis, and Sensor Fundamentals for
+Engineering and Science., CRC Press , 3rd Edition, 2019
+B.Tech. / Instrumentation and Control Engineering 125 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Estimate measurement inaccuracies.
+CO2 Evaluate the measurement system based on its quality and cost.
+CO3 Acquire both theoretical knowledge and practical skills in working with measurement
+data.
+CO4 Design and conduct experiments to analyze and interpret the data and generate
+reports
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 126 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

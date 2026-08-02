@@ -1,0 +1,51 @@
+Course Code : ECOE13
+Course Title : DIGITAL SPEECH PROCESSING
+Number of Credits 3
+Prerequisites : ECPC15
+(Course code)
+Course Type : OE
+Course learning Objective
+ The purpose of this course is to explain how DSP techniques could be used for solving
+problems in speech communication.
+Course content
+Speech production model-1D sound waves-functional block of the Vocal tract model –Linear
+predictive co- efficients (LPC) -Auto-correlation method-Levinson-Durbin algorithm-Auto-co-
+variance method-Lattice structure-Computation of Lattice co-efficient from LPC-Phonetic
+Representation of speech-Perception of Loudness - Critical bands – Pitch perception – Auditory
+masking.
+Feature extraction of the speech signal: Endpoint detection-Dynamic time warping- Pitch frequency
+estimation: Autocorrelation approach- Homomorphic approach-Formant frequency estimation using
+vocal tract model and Homomorphic approach-Linear predictive co-efficient -Poles of the vocal tract-
+Reflection co-efficient-Log Area ratio.
+Cepstrum- Line spectral frequencies- Functional blocks of the ear- Mel frequency cepstral co-
+efficient- Spectrogram-Time resolution versus frequency resolution-Discrete wavelet transformation.
+Pattern recognition for speech detection: Back-propagation Neural Network-Support Vector Machine-
+Hidden Markov Model (HMM)-Gaussian Mixture Model(GMM) -Unsupervised Learning system: K-
+Means and Fuzzy K-means clustering - Kohonen self-organizing map-Dimensionality reduction
+techniques: Principle component analysis (PCA), Linear discriminate analysis (LDA), Kernel-LDA
+(KLDA), Independent component analysis(ICA).
+Non-uniform quantization for Gaussian distributed data- Adaptive quantization-Differential pulse
+code modulation- Code Exited Linear prediction (CELP)-Quality assessment of the compressed
+speech signal Text to Speech (TTS) analysis –Evolution of speech synthesis systems-Unit selection
+methods - TTS Applications.
+Text Books
+1. L.R.Rabiner and R.W.Schafer, ”Introduction to Digital speech processing”, now publishers
+USA,2007
+2. E.S.Gopi, ”Digital speech processing using matlab”, Springer, 2014.
+Reference Books
+1. L.R.Rabiner and R.W.Schafer, ”Digital processing of speech signals”, PrenticeHall,1978
+2. T.F.Quatieri,”Discrete-time Speech Signal Processing”, Prentice-Hall, PTR,2001
+3. L.Hanzaetal, “Voice Compression and Communications”, Wiley/ IEEE, 2001.
+4. Recent literature in Digital speech processing.
+Course outcomes
+At the end of the course student will be able
+CO1: illustrate how the speech production is modeled
+CO2: summarize the various techniques involved in collecting the features from the speech
+signal in both time and frequency domain
+CO3: summarize the functional blocks of the ear
+CO4: compare the various pattern recognition techniques involved in speech and speaker
+detection
+CO5: summarize the various speech compression techniques
+81 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

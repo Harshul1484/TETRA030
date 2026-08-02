@@ -1,0 +1,79 @@
+Course Code : ICPE30
+Course Title : Automotive Instrumentation and Control
+Type of Course : PE
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge on automobile system, its subsystems and components.
+CLO2 To expose the students to the concepts of various sensors used in automobile
+systems.
+CLO3 To teach the basic and advanced controls in automotive systems.
+CLO4 To impart knowledge about the electronics and software involved in automotive
+systems.
+Course Content
+Automobile Fundamentals:
+Introduction, Electronics in automotive and its evolution, Automotive physical configuration,
+Engine block, Cylinder head, Piton, Crankshaft, Camshaft, Connecting rod, Valve, 4-stroke
+cycle, Engine control, Ignition system, Spark plug, High voltage circuit and distribution, Spark
+pulse generation, Ignition timing, Drivetrain, Transmission, Drive shaft, Differential,
+Suspension, Brakes, Steering system.
+Electronic engine control:
+Motivation, Exhaust emission, Fuel economy, Concept of electronic engine control,
+Performance parameters and variables, Torque, Power, BSFC, Fuel consumption, Efficiency,
+Calibration, Engine mapping, Effect of air-fuel ratio, Spark timing, EGR on engine
+performance, Exhaust Catalytic converter, Oxidizing catalytic and Three- way type, Electronic
+fuel control, Open and Close Loop, EGO concentration, Intake manifold pressure, Speed
+density method, EGR, Electronic ignition.
+Sensors and actuators:
+Automotive variable, Air flow rate sensor, Pressure measurement, Strain gauge MAP sensor,
+Engine crankshaft angular position sensor, Magnetic reluctance position sensor, Engine
+angular speed sensor, Timing sensor for ignition and fuel delivery, Hall effect and optical
+position sensor, Optical crankshaft position sensor, Throttle angle sensor, temperature
+sensor, coolant sensor, Exhaust gas oxygen (EGO) sensor, Desirable and switching
+characteristics, Knock sensor, Angular rate sensor, LIDAR, Flex fuel sensor, Acceleration
+sensor, Fuel injection, Exhaust gas recirculation actuator, Variable valve timing, Electric motor
+actuator, Ignition system.
+Vehicle power train and motion control:
+Electronic transmission control, adaptive power Steering, adaptive cruise control, safety and
+comfort systems, anti-lock braking, traction control and electronic stability, active suspension
+control.
+Active and passive safety system:
+Body electronics including lighting control, remote keyless entry, immobilizers etc., electronic
+instrument clusters and dashboard electronics, aspects of hardware design for automotive
+including electro-magnetic interference suppression, electromagnetic compatibility etc., (ABS)
+antilock braking system, (ESP) electronic stability program, air bags.
+B.Tech. / Instrumentation and Control Engineering 129 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Automotive standards and protocols:
+Automotive standards like CAN protocol, LIN protocol, FLEX RAY, Head-Up Display (HUD),
+OBD-II, CAN FD, automotive Ethernet etc. Automotive standards like MISRA, functional safety
+standards (ISO 26262).
+References
+1. William B. Ribbens, Understanding Automotive Electronics, Butterworth-Heinemann
+publications, 8th Edition, 2017.
+2. Young A.P., Griffiths L., Automotive Electrical Equipment, ELBS and New Press, 2010.
+3. Tom Weather Jr., Cland C. Hunter, Automotive computers and control system,
+Prentice Hall Inc., New Jersey,2009.
+4. Crouse W.H., Automobile Electrical Equipment, McGraw Hill Co. Inc., New York, 2005.
+5. Bechtold, Understanding Automotive Electronic, SAE, 2010.
+6. BOSCH, Automotive Hand Book, Bentely Publishers, Germany, 10th Edition, 2018.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Identify the automotive system and its components.
+CO2 Attain knowledge of various sensors and conditioning circuit used in automotive
+systems.
+CO3 Gain knowledge about various control strategies, the electronics and software
+used in automotive application.
+CO4 Gain the basic ideas about the standards and protocols and energy management.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 130 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

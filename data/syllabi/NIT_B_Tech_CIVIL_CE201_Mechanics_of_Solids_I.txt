@@ -1,0 +1,33 @@
+CE201 Mechanics of Solids-I 2 1 0 3
+CE201 MECHANICS OF SOLIDS – I
+Course objectives:
+To learn about the concept of stress, strain and deformation of solid and state of stress
+4
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To know the concepts of strain energy, principal stress and principal planes
+To learn the bending moment, shear force and the corresponding stress distribution for
+different types of beams
+To learn the analysis of plane truss, thin cylinders and shells
+To understand the theory of torsion and stresses in springs
+Course Content
+Tension, compression and shear stresses - Hooke's law - elastic constants - compound stresses -
+composite bars - thermal stresses.
+Strain Energy due to axial force - Resilience - stresses due to impact and suddenly applied load -
+Principal stress and principal planes - Mohr's circle
+Beams and support conditions -Types of supports and loads - shear force and bending moment - their
+diagrams for simply supported beams, cantilevers and overhanging beams. Theory of simple bending -
+Stress distribution at a cross section due to Bending Moment and Shear - strain energy.
+Analysis of plane truss - Method of joints - Method of sections - Thin cylinders and shells.
+Theory of torsion - Torsion of circular and hollow circular shafts and shear stresses due to torsion -
+closed and open coiled helical springs - leaf spring.
+References
+1. Vazirani, V.N. and Ratwani, N.M., Strength of Materials, Vol I, Khanna Publishers, 1996.
+2. Kazimi, Mechanics of Solids, Tata McGraw - Hill, 2004.
+3. Timoshenko, S.P. and Gere, J.M., Mechanics of Materials, Tata McGraw Hill, 1992.
+Course outcomes:
+On completion of the course, the students will be able to:
+determine the strength parameters of the materials
+solve principal stress and principal plane problems
+apply various methods of analysis of plane truss
+determine shear force, bending moment, bending and shear stress distribution
+analyze members subjected to torsion

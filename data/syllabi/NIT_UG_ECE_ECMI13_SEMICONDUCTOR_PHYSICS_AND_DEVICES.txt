@@ -1,0 +1,42 @@
+Course Code : ECMI13
+Course Title : SEMICONDUCTOR PHYSICS AND DEVICES
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To make the students understand the fundamentals of electronic devices.
+ To train them to apply these devices in mostly used and important applications.
+Course Content
+Semiconductor materials: crystal growth, film formation, lithography, etching and doping. Formation
+of energy bands in solids, Concept of hole, Intrinsic and extrinsic semiconductors, conductivity,
+Equilibrium Carrier concentration, Density of states and Fermi level, Carrier transport – Drift and
+Diffusion, continuity equation, Hall effect and its applications.
+P-N junction diodes, Energy band diagram, biasing, V-I characteristics, capacitances. Diode models,
+Break down Mechanisms, Rectifiers, Limiting and Clamping Circuits, types of diodes.
+BJT Physics and Characteristics modes of operation, Ebers-Moll Model, BJT as a switch and
+Amplifier, breakdown mechanisms, Photo devices.
+MOSFET: Ideal I-V characteristics, non-ideal I-V effects, MOS Capacitor, MOSFET as switch,
+CMOS Logic gate Circuits, Bi-CMOS circuits, CCDs.
+State-of-the-art MOS technology: small-geometry effects, FinFETs, Ultrathin body FETs. Display
+devices, Operation of LCDs, Plasma, LED and HDTV
+Text Books
+1. S.M.Sze, Semiconductors Devices, Physics and Technology, (2/e), Wiley, 2002
+2. A.S.Sedra & K.C.Smith, Microelectronic Circuits (5/e), Oxford, 2004
+Reference Books
+1. L.Macdonald & A.C.Lowe, Display Systems, Wiley, 2003Robert Pierret, “Semiconductor
+Device Fundamentals,” Pearson Education, 2006
+2. J.Millman and C.C.Halkias: Electronic devices and Circuits, McGraw Hill, 1976.
+3. B.G.Streetman: Solid state devices, (4/e), PHI, 1995.
+4. N.H.E.Weste, D. Harris, “CMOS VLSI Design (3/e)”, Pearson, 2005.
+Course outcomes
+At the end of the course student will be able
+CO1: Apply the knowledge of basic semiconductor material physics and understand fabrication
+processes.
+CO2: Analyze the characteristics of various electronic devices like diode, transistor etc.,
+CO3: Classify and analyze the various circuit configurations of Transistor and MOSFETs.
+CO4: Illustrate the qualitative knowledge of Power electronic Devices.
+CO5: Become Aware of the latest technological changes in Display Devices.
+105 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

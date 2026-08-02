@@ -1,0 +1,32 @@
+CE455 Hydrology 3 0 0 3
+CE455 HYDROLOGY
+Course objectives:
+To provide knowledge in the hydrological cycle, precipitation, evapotranspiration, infiltration and
+its measurements
+To understand the physics of translate of rainfall into runoff modeling of various runoff
+techniques
+To estimate the runoff
+To develop ability to apply the analytical and numerical techniques to ground and surface water
+models
+To understand hydrographs and IUH
+Course Content
+Precipitation circulation - temperature - Humidity – wind formation and forms of precipitation -
+Interpretation of precipitation data - snow cover and snow fall. Factors affecting and methods of
+determining evaporation, infiltration and evapo-transpiration- Run-off cycle - factors affecting run-off -
+estimation of run-off by stream gauging - stage - discharge rating curves - Selection of site for a stream
+gauge station.
+Derivation of unit hydrograph from complex storms - unit hydrographs for various duration - Synthetic
+unit hydrograph - Transposing unit hydrograph - Application of the unit hydrograph. Linear
+Regression - Statistical and probability analysis of hydrological data - Flood frequency probability and
+stochastic methods - Basics of Stochastic and Deterministic models.
+References
+1. Ragunath, H.M., Hydrology, Wiley Eastern, 1990.
+41
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the concepts of hydrograph, S-hydrograph, Unit hydrograph and IUH
+estimate the hydrological parameters
+carry out statistical and probability analysis of hydrological data
+demonstrate the concepts of hydrological systems
+develop regression models for the analysis of hydrological data

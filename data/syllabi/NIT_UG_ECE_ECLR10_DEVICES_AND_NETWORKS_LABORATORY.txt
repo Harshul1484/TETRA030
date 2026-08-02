@@ -1,0 +1,31 @@
+Course Code : ECLR10
+Course Title : DEVICES AND NETWORKS LABORATORY
+Number of Credits 2
+Corequisites : ECPC13
+(Course code)
+Course Type : ELR
+List of Experiments:
+1. Study Experiment
+2. PN Junction Diode Characteristics
+3 . Zener diode characteristics and its application
+4. Characteristics study of Bipolar Junction Transistor (BJT)
+5 . Characteristics study of JFET
+6. Response study of Series RLC
+7 . Constant K High pass Filter
+8. Attenuators
+9. Equalizers
+1 0. Clippers and Clampers
+11. SCR Characteristics
+12. LAB view implementation
+Course outcomes
+At the end of the course student will be able
+CO1: Demonstrate theoretical device/circuit operation in properly constructed analog circuits.
+CO2: Able to operate standard test equipment like multi-meters, oscilloscopes, power supplies,
+waveform generators, and to analyze, test, and implement circuits in breadboard.
+CO3: Able to analyze the operation of an active device and compare its performance with the expected
+performance given in the data sheets.
+CO4: Able to apply troubleshooting techniques to test the circuits.
+CO5: Able to analyze the circuits using the simulation tools.
+121 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

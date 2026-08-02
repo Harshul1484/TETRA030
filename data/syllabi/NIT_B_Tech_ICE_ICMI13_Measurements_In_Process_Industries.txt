@@ -1,0 +1,61 @@
+Course Code : ICMI13
+Course Title : Measurements In Process Industries
+Type of Course : Minor (MI)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To expose the students to the importance of process variable measurements.
+CLO2 To expose the students to various measurement techniques used for the
+measurement of temperature, flow, pressure and level in process industries.
+CLO3 To make the students knowledgeable in the design, installation and troubleshooting
+of process instruments.
+Course Content
+Temperature measurement: Introduction to temperature measurements,
+Thermocouple, Resistance Temperature Detector, Thermistor and its measuring circuits,
+Radiation pyrometers and thermal imaging.
+Pressure measurement: Introduction, definition and units, Mechanical, Electro-
+mechanical pressure measuring instruments. Low pressure measurement, Transmitter
+definition types, I/P and P/I Converters.
+Level measurement: Introduction, Capacitance pickup, Ultrasonic pickup.
+Flow measurement: Introduction, definition and units, classification of flow meters,
+differential pressure and variable area flow meters, Positive displacement flow meters,
+Electro Magnetic flow meters.
+Hot wire anemometer and ultrasonic flow meters. Calibration and selection of Flow meters
+References
+1. Ernest.O. Doebelin and Dhanesh.N. Manik, Doebelin’s Measurement Systems,
+McGraw Hill Education, 6th Edition, 2011.
+2. B.G. Liptak, Process Measurement and Analysis, CRC Press, 4th Edition, 2003.
+3. Patranabis D, Principles of Industrial Instrumentation, Tata McGraw Hill, 3rd Edition,
+2010.
+4. B.E. Noltingk, Instrumentation Reference Book, Butterworth Heinemann, 2nd Edition,
+1995.
+5. Douglas M. Considine, Process / Industrial Instruments and Controls Handbook,
+McGraw Hill, Singapore, 5th Edition, 1999.
+6. Andrew W.G, Applied Instrumentation in Process Industries – A survey, Vol I
+andVol II, Gulf Publishing Company, Houston, 2001
+7. Spitzer D. W., Industrial Flow measurement, ISA press, 3rd Edition, 2005.
+8. Tony.R. Kuphaldt, Lessons in Industrial Instrumentation, Version 2.02, April 2014.
+B.Tech. / Instrumentation and Control Engineering 264 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+At the end of the course student will be able to
+CO1 Have familiarity with different temperature, pressure, flow and level measurement
+techniques used in process industries.
+CO2 Select and make measurements of temperature, flow, pressure and level in any
+process industry.
+CO3 Understand and calibrate the flow meter
+CO4 Identify or choose temperature, flow, pressure and level measuring device for
+specific process.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 1 1 2 2 2 2 1 2 3 3 3 1
+CO2 3 2 3 2 2 2 3 2 2 2 2 3 3 3 2
+CO3 3 2 3 2 2 2 2 2 1 3 2 3 3 3 2
+CO4 3 2 3 2 2 2 2 2 1 3 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 265 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

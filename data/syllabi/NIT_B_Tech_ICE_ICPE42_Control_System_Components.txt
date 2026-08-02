@@ -1,0 +1,65 @@
+Course Code : ICPE42
+Course Title : Control System Components
+Type of Course : PE
+Prerequisites : ICPC11, ICPC12
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to various electrical components used in industrial control
+systems.
+CLO2 To expose the students to various mechanical components used in industrial control
+systems
+CLO3 To teach various mechanical and pneumatic systems used in industrial control
+systems.
+CLO4 To introduce the concept of hydraulic pumps, actuators and valves.
+Course Content
+Motors: Types, working principle, characteristic, and mathematical model of following: Motors
+AC/DC motors, Brushless DC motor, stepper, servo, linear, Synchronous, Generators, and
+Alternator
+Types, working principle, characteristics, and symbolic representation of following: Switches:
+Toggle, Slide, DIP, Rotary, Thumbwheel, Selector, Limit, Proximity, Combinational switches,
+zero speed, belt sway, pull cord. Relays: Electromechanical, Solid state relays, relay
+packages. Contactors: Comparison between relay and contactor, contactor size and ratings.
+Timers: On Delay, off delay and Retentive.
+Sequencing and Interlocking for motors: Concept of sequencing and Interlocking, Standard
+symbols used for Electrical Wiring Diagram, Electrical Wiring diagrams for Starting, Stopping,
+Emergency shutdown, (Direct on line, star delta, soft starter) Protection devices for motors:
+Short circuit protection, Over load Protection, Over/ under voltage protection, Phase reversal
+Protection, high temperature and high current Protection, over speed, Reversing direction of
+rotation, Braking, Starting with variable speeds, Jogging/Inching Motor Control Center:
+Concept and wiring diagrams
+Pneumatic components: Pneumatic Power Supply and its components: Pneumatic relay
+(Bleed and Non- bleed, Reverse and direct), Single acting and Double acting cylinder, Special
+cylinders: Cushion, Double rod, Tandem, Multiple position, Rotary Filter Regulator Lubricator
+(FRL), Pneumatic valves (direction- controlled valves, flow control etc.), Special types of
+valves like relief valve, pressure reducing etc. Hydraulic components: Hydraulic supply,
+Hydraulic pumps, Actuators (cylinder and motor), Hydraulic valves
+References
+1. M. D. Desai, Control System Components, PHI, 2008.
+2. J. E. Gibson and F. B. Tuteur, Control system components, McGraw Hill, 2013
+3. S. R. Majumdhar, Pneumatic Systems, Tata McGraw-Hill Publisher, 2009.
+4. Meixner H and Sauer E, Intro to Electro-Pneumatics, Festo didactic, 1st Edition, 1989.
+5. Hasebrink J P and Kobler R, Fundamentals of Pneumatic Control Engineering,
+FestoDidactic: Esslinger (W Germany), 1989.
+6. Petruzella, Industrial Electronics, McGraw-Hill International 1st Edition, 1996.
+B.Tech. / Instrumentation and Control Engineering 153 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Select and use of different process control components for electrical systems.
+CO2 Select and use of different process control components for mechanical system.
+CO3 Identify, formulate and solve a problem using pneumatic system in
+instrumentation and control engineering.
+CO4 Identify, formulate and solve a problem using hydraulic system in
+instrumentation and control engineering.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 154 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

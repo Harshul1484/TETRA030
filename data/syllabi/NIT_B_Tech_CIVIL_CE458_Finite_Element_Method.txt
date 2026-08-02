@@ -1,0 +1,37 @@
+CE458 Finite Element Method 3 0 0 3
+CE458 FINITE ELEMENT METHOD
+Course objectives:
+To study the strain –displacement and linear constitutive relation
+To understand the numerical techniques applied in FEM
+Establishment of element stiffness and load vector
+To study about the 2-D isoparametric concepts
+To analyze the 2-D frame elements using FEM techniques
+43
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course Content
+Differential equilibrium equations - strain displacement relation - linear constitutive relation - special
+cases - Principle of stationary potential energy - application to finite element methods - Some numerical
+techniques in finite element Analysis
+Displacement models - convergence requirements. Natural coordinate systems - Shape function.
+Interpolation function. Linear and quadratic elements - Lagrange & Serendipity elements. Strain
+displacement matrix - element stiffness matrix and nodal load vector
+Two dimensional isoparametric elements - Four noded quadrilateral elements - triangular elements.
+Computation of stiffness matrix for isoparametric elements - numerical integration (Gauss quadrature)
+Convergence criteria for isoparametric elements.
+Assemblage of elements – Direct stiffness method. Special characteristics of stiffness matrix -
+Boundary condition & reaction - Gauss elimination and LDLT decomposition. Basic steps in finite
+element analysis.
+Analysis of framed Structures: 2D – truss element - 2D - beam element. Analysis of plate bending-
+displacement functions - plate bending Elements. Plane stress and plane strain analysis: Triangular
+elements - Rectangular elements
+References
+1. Krishnamoorthy, C.S, Finite Element Analysis Theory & Programming, McGraw- Hill, 1995.
+2. Desai C.S and Abel, J.F., Introduction to the finite element Method, Affiliated East west Press Pvt.
+Ltd. New Delhi 2000.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the differential equilibrium equations and their relationship
+apply numerical methods to FEM
+demonstrate the displacement models and load vectors
+compute the stiffness matrix for isoperimetric elements
+analyze plane stress and plane strain problems

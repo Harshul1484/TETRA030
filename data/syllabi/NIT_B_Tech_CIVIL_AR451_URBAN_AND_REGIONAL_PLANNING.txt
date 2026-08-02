@@ -1,11 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-Course outcomes:
-On completion of the course, the students will be able to:
-demonstrate the principles of earthquake loading
-quantify earthquake intensity and ground motion
-estimate seismic soil design parameters
-analyze and design seismic resistant foundation for buildings
-prepare soil risk and microzonation maps
+AR451 Urban and Regional Planning 3 0 0 3
 AR451 URBAN AND REGIONAL PLANNING
 Course objectives:
 To understand the trend of urbanization and planning process
@@ -37,3 +30,6 @@ identify the stages of planning process and surveys in planning
 apply the principles of the regional, master, structural and detailed development plans
 apply the concepts of the garden city movement, linear city and neighbourhood
 50
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+demonstrate the functions of planning and financing agencies
+apply the town and country plan act and building by-laws

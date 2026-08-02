@@ -1,0 +1,79 @@
+Course Code : ICPE31
+Course Title : Instrumentation and Control for Power Plant
+Type of Course : PE
+Prerequisites : ICPC17, ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to various power generation methods.
+CLO2 To impart knowledge on various processes/systems involved in thermal power
+generation.
+CLO3 To provide the knowledge on specific measurement techniques and control
+systems practiced in boiler and turbine units.
+CLO4 To impart basic knowledge in nuclear power plant and associated instrumentation.
+Course Content
+Brief survey of methods of power generation-hydro, thermal, nuclear, solar and wind power –
+Introduction to thermal power plant processes – building blocks - ideal steam cycles – Boilers
+– types – sub-critical and super critical, Boiler - turbine units and its range systems, feed water
+systems, steam circuits, combustion process, products of combustion process, fuel systems,
+treatment of flue gases, steam turbine, condensate systems, alternator, feed water
+conditioning, turbine bypass valves. Importance of instrumentation in power generation –
+details of boiler processes, major P and I diagram for a boiler – combined cycle power plant,
+power generation and distribution.
+Measurement in boiler and turbine: Metal temperature measurement in boilers, impulse-piping
+system for pressure measuring devices, flame monitoring. Introduction to turbine supervising
+system, pedestal vibration, shaft vibration, eccentricity measurement. Installation of non-
+contracting transducers for speed measurement, rotor and casing movement and expansion
+measurement.
+Controls in boiler: Problems associated with control of multiple pulverizes. Draught plant:
+Introduction, natural draught, forced draught, induced draught, balanced draught, power
+requirements for draught systems. Fan drives and control, control of airflow. Combustion
+control: Fuel/Air ratio, oxygen, CO and CO2 trimming, combustion efficiency, excess air,
+parallel and cross limited combustion control, control of large systems.
+Controls in boiler: Boiler drum level measurement methods, feedwater control, soot-blowing
+operation, steam temperature control, coordinated control, boiler following mode operation,
+turbine following mode operation, constant/ sliding pressure operation, selection between
+boiler and turbine following modes. Distributed control system in power plants-interlocks in
+boiler operation. Turbine control: Shell temperature control-steam pressure control – lubricant
+oil temperature control – cooling system.
+Nuclear power plant instrumentation: Piping and instrumentation diagram of different types of
+nuclear power plant, Nuclear reactor control loops, reactor dynamics, excess reactivity, pulse
+channel and logarithmic instrumentation, control and safety instrumentation, reliability
+aspects.
+B.Tech. / Instrumentation and Control Engineering 131 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Sam. G.Dukelow, The Control of Boilers, ISA Press, New York, 2nd Edition, 1991
+2. Gill A.B, Power Plant Performance, Butterworth, London, 1984.
+3. P.C Martin, I.W Hannah, Modern Power Station Practice, British Electricity
+International Vol. 1 and VI, Pergamon Press, London, 1992.
+4. David Lindsley, Power-plant Control and Instrumentation: The Control of Boilers and
+HRSG Systems, IET, London, 2000.
+5. Jervis M.J, Power Station Instrumentation, Butterworth Heinemann, Oxford, 1993.
+6. Swapan Basu Ajay Debnath, Power Plant Instrumentation and Control Handbook,
+1st Edition, Academic Press, 2014.
+7. G. F. Gilman, Jerry Gilman, Boiler Control Systems Engineering, ISA, 2010.
+8. Elonka, S.M.and Kohal A.L, Standard Boiler Operations, McGraw-Hill, New Delhi,
+1994.
+9. Philip Kiameh, Power Plant Instrumentation and Controls, McGraw-Hill Professional,
+2014.
+10. Dipak.K. Sarkar, Thermal Power Plant, Design and Operation, Elsevier, ISBN: 978-
+0-12-801575- 9,2015
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand Various power generation processes.
+CO2 List important parameters to be monitored and controlled in a thermal power plant.
+CO3 Understand major control systems involved in the thermal power plant and nuclear
+power plants.
+CO4 Understand Piping and Instrumentation diagram for power plant instrumentation
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 1 2 1 2 3 3 1 1 2 2 3 3 3 1
+CO2 3 1 3 2 2 3 3 2 1 2 2 3 3 3 1
+CO3 3 2 3 3 3 2 3 2 2 2 2 3 3 3 2
+CO4 3 2 3 3 3 2 3 2 2 2 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 132 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

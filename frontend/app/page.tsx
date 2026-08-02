@@ -37,6 +37,29 @@ const PIPELINE = [
   },
 ];
 
+const RETURNS = [
+  {
+    label: "Ranked gaps",
+    detail: "Every entry citing the postings behind it.",
+    block: "var(--color-block-sky)",
+  },
+  {
+    label: "A teaching sequence",
+    detail: "Prerequisite-ordered, so nothing precedes its groundwork.",
+    block: "var(--color-block-sage)",
+  },
+  {
+    label: "Proposed additions",
+    detail: "Extending existing units rather than replacing the course.",
+    block: "var(--color-block-periwinkle)",
+  },
+  {
+    label: "The cost of each",
+    detail: "How many prerequisite hops away a missing skill sits.",
+    block: "var(--color-block-butter)",
+  },
+];
+
 export default async function LandingPage() {
   let courses: CourseSummary[] = [];
   let market: MarketSummary | null = null;
@@ -58,7 +81,10 @@ export default async function LandingPage() {
           A screenshot would be a drawing of the thing; this is the thing. */}
       <section className="grid items-start gap-14 pt-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)]">
         <div>
-          <p className="micro-cap text-[var(--color-ink-mute)]">
+          <p
+            className="micro-cap inline-block rounded-[var(--radius-full)] px-3.5 py-1.5 text-[var(--color-ink)]"
+            style={{ backgroundColor: "var(--color-block-butter)" }}
+          >
             TetraTHON 2026 &middot; Track D
           </p>
           <h1 className="display-xl mt-5 text-[var(--color-ink)]">
@@ -92,17 +118,32 @@ export default async function LandingPage() {
           </div>
 
           {market ? (
-            <p className="caption mt-9 text-[var(--color-ink-mute)]">
-              Analysing{" "}
-              <span className="tabular font-medium text-[var(--color-ink)]">
-                {market.postings}
-              </span>{" "}
-              real job postings against{" "}
-              <span className="tabular font-medium text-[var(--color-ink)]">
-                {courses.length}
-              </span>{" "}
-              university courses.
-            </p>
+            <div className="mt-10 flex flex-wrap gap-x-10 gap-y-5 border-t border-[var(--color-hairline)] pt-7">
+              <div>
+                <p className="tabular text-[30px] font-light leading-none text-[var(--color-ink)]">
+                  {market.postings}
+                </p>
+                <p className="micro-cap mt-2 text-[var(--color-ink-mute)]">
+                  real job postings
+                </p>
+              </div>
+              <div>
+                <p className="tabular text-[30px] font-light leading-none text-[var(--color-ink)]">
+                  {courses.length}
+                </p>
+                <p className="micro-cap mt-2 text-[var(--color-ink-mute)]">
+                  university courses
+                </p>
+              </div>
+              <div>
+                <p className="tabular text-[30px] font-light leading-none text-[var(--color-ink)]">
+                  {market.skills_demanded}
+                </p>
+                <p className="micro-cap mt-2 text-[var(--color-ink-mute)]">
+                  skills demanded
+                </p>
+              </div>
+            </div>
           ) : null}
         </div>
 
@@ -183,7 +224,7 @@ export default async function LandingPage() {
           works on a document nobody prepared for it, which is the one a judge
           can test in the room. */}
       <section className="border-y border-[var(--color-hairline)] py-16">
-        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
           <div>
             <h2 className="display-lg text-[var(--color-ink)]">
               Bring your own syllabus.
@@ -202,27 +243,40 @@ export default async function LandingPage() {
             </Link>
           </div>
 
-          <div className="rounded-[var(--radius-lg)] border border-[var(--color-hairline)] bg-[var(--color-surface)] p-7">
+          <div>
             <p className="micro-cap text-[var(--color-ink-mute)]">
               What comes back
             </p>
-            <ul className="mt-5 space-y-4 text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
-              <li>
-                A ranked gap list, every entry citing the postings behind it.
-              </li>
-              <li>
-                A teaching sequence ordered by prerequisite, so nothing is
-                scheduled before its groundwork.
-              </li>
-              <li>
-                Proposed additions that extend existing units rather than
-                replacing the course.
-              </li>
-              <li className="border-t border-[var(--color-hairline)] pt-4 text-[var(--color-ink-mute)]">
-                Or a statement that the corpus lacks the evidence to judge the
-                subject, which is the answer when it is the true one.
-              </li>
-            </ul>
+
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {RETURNS.map((item) => (
+                <div
+                  key={item.label}
+                  className="rounded-[var(--radius-md)] px-5 py-5"
+                  style={{ backgroundColor: item.block }}
+                >
+                  <p className="card-title text-[var(--color-ink)]">
+                    {item.label}
+                  </p>
+                  <p className="caption mt-2 leading-relaxed text-[var(--color-ink-soft)]">
+                    {item.detail}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Set apart because it is the opposite of the three above: the
+                case where the honest output is no output. */}
+            <div className="mt-3 rounded-[var(--radius-md)] border border-dashed border-[var(--color-hairline)] px-5 py-5">
+              <p className="card-title text-[var(--color-ink-soft)]">
+                Or nothing at all
+              </p>
+              <p className="caption mt-2 leading-relaxed text-[var(--color-ink-mute)]">
+                Where the corpus holds too few postings in a subject to judge
+                it, the audit says so and withholds the findings rather than
+                handing over another field&apos;s skills.
+              </p>
+            </div>
           </div>
         </div>
       </section>

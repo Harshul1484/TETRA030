@@ -1,0 +1,61 @@
+Course Code : ICLR18
+Course Title : Industrial Automation and Process Control
+Laboratory
+Type of Course : LR
+Prerequisites : ICPC21
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge on the time and frequency analysis of first order and second
+order system
+CLO2 To impart practical knowledge in PC based data acquisition, analysis and control of
+different process trainers.
+CLO3 To teach the industrial automation concept and programming techniques.
+CLO4 To familiarize the process modelling and control using simulation tools.
+List of Experiments
+1. Identification of FOPDT and SOPDT process using time domain and frequency domain
+techniques.
+2. Design of different PID controller for FOPDT and SOPDT process using different
+standard technique and evaluate qualitative and quantitative performance.
+3. Study of Different Process trainers.
+4. Design and Verification of Combinational and Sequential Circuits Using PLC.
+5. Design of PID Controller for a Level Process/Temperature/Flow/Pressure process
+stations and evaluate servo/regulatory responses.
+6. Study the effect of different PID Controller Parameters using real time process trainer.
+7. Pressure to Current and Current to Pressure Convertor using real time process trainer.
+8. Design of Timer and Counter Using PLC.
+9. Design of PLC programming for practical applications.
+10. Design of Cascade and Feed forward-feedback Controller using simulation software.
+11. Verification of Control Valve Characteristics using pneumatic and electronic control
+value trainer.
+12. Development of P and I control design using Distributed control system (DCS).
+References
+1. G. Stephanopoulos, Chemical Process Control-An Introduction to Theory and Practice
+Prentice Hall of India, New Delhi, 2nd Edition, 2005
+2. D. R. Coughanowr, Process Systems Analysis and Control, McGraw Hill, Singapore,
+3rd Edition, 2009
+3. B.W. Bequette, Process Control Modeling, Design and Simulation, Pearson,2nd
+Edition 2023
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Perform identification of processes using time domain and frequency domain
+techniques.
+CO2 Design, implement and tune PID controller for various processes.
+CO3 Implement sequential logic control using PLC for a required application.
+CO4 Use simulation tools for the design of controllers for various processes.
+B.Tech. / Instrumentation and Control Engineering 88 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 3 1 2 2 2 3 3 3 3 3 2
+CO2 3 2 3 3 3 1 2 1 2 3 3 3 3 3 2
+CO3 3 3 3 3 3 2 2 2 2 2 3 3 3 3 2
+CO4 3 2 3 3 3 1 2 2 2 2 3 3 3 3 1
+B.Tech. / Instrumentation and Control Engineering 89 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+PROGRAMME ELECTIVE (PE) COURSES
+B.Tech. / Instrumentation and Control Engineering 90 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

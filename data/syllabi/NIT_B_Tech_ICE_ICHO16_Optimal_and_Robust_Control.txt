@@ -1,0 +1,52 @@
+Course Code : ICHO16
+Course Title : Optimal and Robust Control
+Type of Course : HO
+Prerequisites : ICPC18, ICPC22
+Contact Hours : 56 (4 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 Introduce analysis and design techniques for multivariable control systems
+to undergraduate students
+Course Content
+Introduction, Linear Algebra, Linear Dynamical Systems (Review of state-space theory)
+Performance Specifications, Stability and Performance of Feedback Systems.
+Model Uncertainty and Robustness – Structured Singular Values, Parameterization of
+Stabilizing Controllers, Algebraic Riccati Equations.
+H-infinity optimal control, linear quadratic optimization, H-infinity loop shaping, Controller
+order reduction, Fixed order controllers.
+Discrete-time Control – Discrete Lyapunov equations, Discrete Riccati equations, Bounded
+Real Functions, Discrete-time H2 control, Controller order reduction using co-prime
+factorization.
+References
+1. D.E. Kirk, Optimal Control Theory: An Introduction, Dover Publications, 2004
+2. J. C. Doyle, B. Francis and A. Tannenbaum, Feedback Control Theory, Macmillan,
+1990.
+3. A. E. Bryson Jr. and Y. C. Ho, Applied Optimal Control, Taylor and Francis, 1975.
+4. P J Nahin, When Least is Best, Princeton Univ. Press, 2004, D Bertsimas and J N
+Tsitsiklis, Introduction to Linear Optimization, Athena Scientific, 1997.
+5. H A Taha, Operations Research: An Introduction, 9/e, Pearson Education, 2014.
+6. D Bauso, Game Theory with Engineering Applications, SIAM, 2016.
+7. K Morris, Introduction to Feedback Control, Academic Press, 2001.
+8. H P Geering, Optimal Control with Engineering Applications, Springer Verlag, 2007.
+9. K. Zhou, J. C. Doyle and K. Glover, Robust and Optimal Control, Prentice-Hall,
+NJ07458, 1996.
+10. A. A. Stoorvogel, H-infinity Control Problem: A State-space Approach, Prentice Hall,
+1992
+B.Tech. / Instrumentation and Control Engineering 253 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+At the end of the course student will be able
+CO1 Apply Optimization tools to multivariable feedback systems.
+CO2 Use computer software to design MIMO robust controllers.
+CO3 Perform a full design cycle on MIMO models of systems.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 3 2 2 - 2 3 - 3 3 3 -
+CO2 3 2 3 3 3 2 2 - 2 3 - 3 3 3 -
+CO3 3 2 3 3 3 2 3 - 2 3 - 3 3 3 -
+CO4 3 2 3 3 3 2 2 - 2 3 - 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 254 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

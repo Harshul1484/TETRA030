@@ -1,0 +1,45 @@
+Course Code : ICLR16
+Course Title : Analog Signal Processing Laboratory
+Type of Course : LR
+Prerequisites : -
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge on design and test the Op-amp and other ICs based circuits.
+CLO2 To impart knowledge on the design of filters
+CLO3 To understand the working of data converters
+CLO4 To familiarize the students in simulation tools and evaluation boards available for
+analog signal processing.
+List of experiments
+1. Design of amplifiers using various modes and its implementation issues
+2. Filter design using various methodologies for different set of specifications
+3. Sensor linearization and bridge linearization using op-amps
+4. Design of waveform generators using op-amp
+5. PLL design
+6. Regulator design
+7. Analog to digital conversion and digital to analog conversion
+8. Regenerative feedback circuit design - Schmitt trigger and Multivibrator
+9. Transmitter design
+References
+1. Sergio Franco, Design with operational amplifiers and analog integrated circuits, 4th
+edition Mc-Graw Hill Inc. 2014.
+2. Wai-Kai-Chen. The circuits and filters Handbook, CRC press, 3rd edition, 2009.
+3. Arie F. Arbel, Analog Signal Processing and Instrumentation, Cambridge University
+press, 1980.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design analog and digital system level circuit.
+CO2 Simulate and validate analog circuits using simulation software
+CO3 Implement various signal processing functions using analog electronic components
+CO4 Apply the basic IC circuit design concepts for application
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 3 2 3 3 2 3 2 2 3 2 3 3 3 3
+CO2 3 3 3 3 3 3 3 3 2 3 2 3 3 3 2
+CO3 3 3 3 2 2 3 2 2 2 2 2 3 3 3 3
+CO4 2 3 3 2 2 3 2 2 2 2 2 3 3 3 3
+B.Tech. / Instrumentation and Control Engineering 85 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

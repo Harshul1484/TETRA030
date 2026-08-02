@@ -1,0 +1,42 @@
+Course Code : ECPE28
+Course Title : COMMUNICATION SWITCHING SYSTEMS
+Number of Credits 3
+Prerequisites : ECPC18
+(Course code)
+Course Type : PE
+Course learning Objective
+ To understand the working principles of switching systems from manual and electromechanical
+systems to stored program control systems.
+Course content
+Basic elements of communication network. Switching systems. Signaling and signaling functions.
+Digital telephone network. TDM Principles. PCM primary multiplex group. Plesiochronous digital
+hierarchy. Synchronous digital hierarchy. Echo cancellers.
+Digital transmission and multiplexing. Synchronous versus Asynchronous transmission. Line coding.
+Error performance. TDM. Framing, TDM loops and rings.
+Space division switching. Multiple-stage switching. Design examples. Switching matrix control. Time
+division switching. Multiple-stage time and spaces witching.
+Timing recovery. Jitter. Network synchronization. Digital subscriber access-ISDN. ADSL. HFC.
+Traffic analysis.
+Text Books
+rd
+1. J.C. Bellamy, “Digital Telephony”, Wiley, 3 edition, 2011.
+2. J.E. Flood, “Telecommunications Switching, Traffic and Networks” Pearson,1st
+edition,2012
+Reference Books
+1. T.Viswanathan, “Telecommunication Switching Systems and Networks”, PHI, 2006.
+2. E.Keiser & E.Strange, “Digital Telephony and Network Integration”, Springer, 2nd edition,
+1995.
+3. R. L.Freeman, “Fundamentals of Telecommunications”, John Wiley and Sons, 2ndedition,
+1999.
+4. Recent literature in Communication Switching Systems.
+Course outcomes
+At the end of the course student will be able
+CO1: explain the working principle of switching systems involved in telecommunication
+switching
+CO2: assess the need for voice digitization and T Carrier systems
+CO3: compare and analyze Line coding techniques and examine its error performance
+CO4: design multi stage switching structures involving time and space switching stages
+CO5: analyze basic telecommunication traffic theory
+49 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

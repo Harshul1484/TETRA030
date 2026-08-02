@@ -1,0 +1,59 @@
+Course Code : ICPE35
+Course Title : Piping and Instrumentation Diagrams
+Type of Course : PE
+Prerequisites : ICPC18, ICPC21
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce various flow sheet design using process flow diagram.
+CLO2 To impart knowledge on PandI D symbols for pumps, compressors and process
+vessels.
+CLO3 To teach the line diagram symbols, logic gates of instruments.
+CLO4 To learn the simulation software for PandID implementations
+Course Content
+Flow sheet design: Types of flow sheets, flow sheet presentation, flow sheet symbols, line
+symbols and designation, process flow diagram, synthesis of steady state flowsheet, flow
+sheeting software.
+Piping and instrumentation diagram evaluation and preparation: P and I D Symbols, line
+numbering, line schedule, PandI D development, various stages of PandI D, PandI D for
+pumps, compressors process vessels, absorber, evaporator.
+Control systems and interlocks for process operation: Introduction and description, need of
+interlock, types of interlocks, interlock for pumps, compressor, heater-control system for
+heater, distillation column, expander
+Instrument line diagram: Line diagram symbols, logic gates, representation of line diagram.
+Application of Pand ID’S: Applications of Pand ID in design state, construction stage,
+commissioning state, operating stage, revamping state, applications of PandID in HAZAMPS
+and risk analysis
+References
+1. Ernest E. Ludwig, Applied Process Design for Chemical and Petrochemical Plants
+Vol-1, Gulf Publishing Company, Hoston,1989.
+2. Max. S. Peters and K.D. Timmerhaus, Plant Design and Economics for Chemical
+Engineers, McGraw Hill Inc., New York,1991.
+3. Moe Toghraei., Piping and Instrumentation Diagram Developmen ., Wiley-AIChe
+Publication. 2019.
+4. Anil Kumar, Chemical Process Synthesis and Engineering Design, Tata McGraw Hill,
+New Delhi,1981.
+5. A.N. Westerberg et al., Process Flow sheeting, Cambridge University Press,
+NewDelhi,1979.
+6. Jagadeesh Pandiyan., Introduction to Smart Plant (R) P and ID: The Piping and
+Instrumentation Diagrams (P and ID) Handbook ,. APJ Books Publisher 2020 Edition,
+B.Tech. / Instrumentation and Control Engineering 139 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand of PandI diagrams standards involved and its preparation.
+CO2 Select different fittings for instruments installation used for the preparation of P and
+IDs.
+CO3 Apply software for preparation of P and IDs.
+CO4 Apply the P and ID concepts for industrial applications
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 140 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

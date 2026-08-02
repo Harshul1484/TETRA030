@@ -236,6 +236,22 @@ export const api = {
 
   marketSummary: () => request<MarketSummary>("/api/market/summary"),
 
+  evidence: (courseCode: string) =>
+    request<{
+      course_code: string;
+      course_title: string;
+      scored_against: string[];
+      domain_postings: number;
+      evidence_thin: boolean;
+      postings: {
+        title: string;
+        source: string | null;
+        url: string | null;
+        posted_date: string | null;
+        skills: string[];
+      }[];
+    }>(`/api/courses/${encodeURIComponent(courseCode)}/evidence`),
+
   uploadSyllabus: async (file: File) => {
     const body = new FormData();
     body.append("file", file);

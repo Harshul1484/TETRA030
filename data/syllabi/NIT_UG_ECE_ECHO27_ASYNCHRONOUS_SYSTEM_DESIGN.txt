@@ -1,0 +1,50 @@
+Course Code : ECHO27
+Course Title : ASYNCHRONOUS SYSTEM DESIGN
+Number of Credits 3
+Prerequisites : ECPC14
+(Course code)
+Course Type : HO
+Course learning Objectives
+ This subject introduces the fundamentals and performance of Asynchronous system
+ To familiarize the dependency graphical analysis of signal transmission graphs
+ To learn software languages and its syntax and operations for implementing Asynchronous
+Designs
+Course content
+Fundamentals: Handshake protocols, Muller C-element, Muller pipeline, Circuit implementation
+styles, theory. Static data-flow structures: Pipelines and rings, Building blocks, examples
+Performance: A quantitative view of performance, quantifying performance, Dependency graphic
+analysis. Handshake circuit implementation: Fork, join, and merge, Functional blocks, mutual
+exclusion, arbitration and Metastability.
+Speed-independent control circuits: Signal Transition graphs, Basic Synthesis Procedure,
+Implementation using state-holding gates, Summary of the synthesis Process, Design examples using
+Petrify. Advanced 4- phase bundled data protocols and circuits: Channels and protocols, Static type
+checking, more advanced latch control circuits.
+High-level languages and tools: Concurrency and message passing in CSP, Tangram program
+examples, Tangram syntax-directed compilation, Martin’s translation process, Using VHDL for
+Asynchronous Design. An Introduction to Balsa: Basic concepts, Tool set and design flow, Ancillary
+Balsa Tools
+The Balsa language: Data types, Control flow and commands, Binary/Unary operators, Program
+structure. Building library Components: Parameterized descriptions, Recursive definitions. A simple
+DMA controller: Global Registers, Channel Registers, DMA control structure, The Balsa description.
+Text Books
+1. Asynchronous Circuit Design- Chris. J. Myers, John Wiley &Sons, 2001.
+2. Handshake Circuits An Asynchronous architecture for VLSI programming – Kees
+Van Berkel Cambridge University Press,2004
+Reference Book
+1. Principles of Asynchronous Circuit Design-Jens Sparso, Steve Furber, Kluver Academic
+Publishers, 2001.
+2. Asynchronous Sequential Machine Design and Analysis, Richard F. Tinder,2009
+3. A Designer's Guide to Asynchronous VLSI, Peter A. Beerel, Recep O. Ozdag, Marcos
+Ferretti,2010
+4. Recent literature in Asynchronous System Design.
+Course outcomes
+At the end of the course student will be able
+CO1: understand the fundamentals of Asynchronous protocols
+CO2: analyze the performance of Asynchronous System and implement handshake circuits
+CO3: understand the various control circuits and Asynchronous system modules
+CO4: gain the experience in using high level languages and tools for Asynchronous Design
+CO5: learn commands and control flow of Balsa language for implementing Asynchronous
+Designs
+146 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

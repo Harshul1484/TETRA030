@@ -1,0 +1,61 @@
+Course Code : ICPE20
+Course Title : Computational techniques in control
+engineering
+Type of Course : PE
+Prerequisites : ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge with an emphasis on control system design in the current
+computer era.
+CLO2 To teach the interdisciplinary necessity of linear algebra, control theory, and
+computer science.
+CLO3 To demonstrate that control problems in practice demand efficient algorithms
+CLO4 To discuss about algorithms useful for practicing engineers for easy
+implementation on a range of computers.
+Course Content
+Review of Linear Algebra – Vector spaces, Orthogonality, Matrices, Vector and Matrix Norms,
+Kronecker Product.
+Numerical Linear Algebra – Floating point numbers and errors in computations, Conditioning,
+Efficiency, Stability, and Accuracy, LU Factorization, Numerical solution of the Linear system
+Ax = b, QR factorization, Orthogonal projections, Least Squares problem, Singular Value
+Decomposition, Canonical forms obtained via orthogonal transformations.
+Control Systems Analysis – Linear State-space models and solutions of the state equations,
+Controllability, Observability, Stability, Inertia, and Robust Stability, Numerical solutions and
+conditioning of Lyapunov and Sylvester equations.
+Control Systems Design – Feedback stabilization, Eigen value assignment, Optimal Control,
+Quadratic optimization problems, Algebraic Riccati equations, Numerical methods and
+conditioning, State estimation and Kalman filter.
+Large scale Matrix computations, Some Selected Software – MATLAB, MATHEMATICA,
+SCILAB.
+References
+1. B.N. Datta, Numerical Methods for Linear Control Systems, Academic Press/Elsevier,
+2005
+2. G.H. Golub and C.F. Van Loan, Matrix Computations, 4th Edition, John Hopkins
+University Press, 2007
+3. A. Quarteroni, F. Saleri, Scientific Computing with MATLAB, Springer Verlag, 2003.
+4. www.scilab.org
+5. Strang, Linear Algebra and Learning from Data, Wellesley-Cambridge Press, 2019
+6. N. Higham, Accuracy and Stability of Numerical Algorithms, 2nd Edition, SIAM, 2002
+B.Tech. / Instrumentation and Control Engineering 109 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Acquire skills and numerical solutions of state equations and frequency response
+computations.
+CO2 Be able to develop numerical algorithms for evaluation of controllability,
+observability, and stability.
+CO3 Acquire skills in numerical solutions for conditioning of Lyapunov and algebraic
+Riccati equation
+CO4 Be able to obtain large-scale solutions of control problems
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 110 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

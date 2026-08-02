@@ -1,0 +1,48 @@
+Course Code : MAIR32
+Course Title : REAL ANALYSIS AND PROBABILITY THEORY
+Number of Credits 4
+Prerequisites : NONE
+(Course code)
+Course Type : GIR
+Course Learning Objective
+ To expose the students to the basics of real analysis and probability theory required for their
+subsequent course work.
+Course Content
+Real Analysis: Real number system. Sets, relations and functions. Properties of real numbers.
+sequences. Cauchy sequences. Bolzano-Weierstrass and Heine-Borel properties.
+Reimann integral. Mean value theorems. Sequences and series of functions. Pointwise and
+uniform convergence. Power series and Taylor series.
+Probability Theory: Random Variable and random vectors - Distributions and densities. –
+Functions of one and two random variables. Moments and characteristic functions.
+Random processes - Strict sense and wide sense stationary processes - Covariance functions
+and their properties - Spectral representation - Wiener-Khinchine theorem.
+Gaussian processes – Poisson processes - Lowpass and Bandpass noise representations. .
+Text Books
+1. W.Rudin, “Introduction to Principles of Mathematical Analysis”, McGraw-Hill International
+Editions, Third Edition, 1976.
+2. Davenport,” Probability and Random Processes for Scientist and Engineers”, McGraw-Hill,
+1970.
+3. Papoulis. A.,” Probability, Random variables and Stochastic Processes”, McGraw Hill,
+2002.
+Reference Books
+1. Kreyszig.E. “Advanced Engineering Mathematics”, John Wiley, 1999.
+2. S.C. Malik, Savita Arora, “Mathematical Analysis”, New Age International Ltd, 4th Edition,
+2012.
+3. G.B.Gustafson & C.H. Wilcox, “Advanced Engineering Mathematics”, Springer Verlag,
+1998.
+Course outcomes
+At the end of the course student will be able
+CO1: Develops an understanding for the construction of proofs and an appreciation for deductive
+logic.
+CO2: Explore the already familiar properties of the derivative and the Riemann Integral, set on a
+more rigorous and formal footing which is central to avoiding inconsistencies in engineering
+applications.
+CO3: Explore new theoretical dimensions of uniform convergence, completeness and important
+consequences as interchange of limit operations.
+CO4: understand the concept of random processes and determine covariance and spectral density
+of stationary random processes.
+CO5: demonstrate the specific applications to Poisson and Gaussian processes and representation
+of low pass and band pass noise models.
+16 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

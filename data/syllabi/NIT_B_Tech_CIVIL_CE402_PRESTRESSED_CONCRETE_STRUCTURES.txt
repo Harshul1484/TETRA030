@@ -1,11 +1,6 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-Course outcomes:
-On completion of the course, the students will be able to:
-demonstrate the nuances of management functions
-analyze the framework of a business organization
-adopt an empirical approach toward business situations
-apply various Project Management techniques
-implement roles of team players
+CE402 Prestressed Concrete Structures 3 0 0 3
+Elective – 4 3 0 0 3
+Elective – 5 3 0 0 3
 CE402 PRESTRESSED CONCRETE STRUCTURES
 Course objectives:
 To learn the principles, materials, methods and systems of prestressing
@@ -36,3 +31,5 @@ design composite members
 design continuous beams
 design water tanks
 36
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+ELECTIVES

@@ -1,0 +1,42 @@
+Course Code : ECOE23
+Course Title : INTERNET OF THINGS
+Number of Credits 3
+Prerequisites (Course : CSIR11, C/C++ and Python Programming skills
+code)
+Course Type : OE
+Course Learning Objective
+ To understand basics of an IOT System, IoT sensors, IoT hardware and communication
+protocols, data storage, data analysis and use them for real time IoT enabled domains.
+Introduction to IoT and IoT levels
+Functional blocks of an IoT system - Basics of Physical and logical design of IoT - IoT enabled domains
+- Difference between IoT, Embedded Systems and M2M - Industry 4.0 concepts
+IoT sensors and hardware
+Passive and active sensors - Different applications of sensors - Multi-sensors - Pre-processing - IoT
+front-end hardware
+Introduction to IoT protocols
+Infrastructure - Communication/ Transport - Data Protocols: MQTT, CoAP, AMQP, Websocket, Node
+IoT Cloud and data analytics
+Collecting data from sensors - Data Ingress - Cloud storage - Data analytics for IoT - Software and
+management tool for IoT - Dashboard design
+IoT architectures with case studies
+Business models for IoT - smart cities – agriculture – healthcare - industry.
+Case studies/Mini projects for the real time IoT applications.
+Text Books
+1. Arshdeep Bahga, Vijay Madisetti, “Internet of Things – A hands-on approach”, Universities
+Press, 2015.
+Reference Books
+1. Raj kamal, Internet of Things, Architecture and Design Principles, McGraw-Hill, 2017
+2. Manoel Carlos Ramon, “Intel® Galileo and Intel® Galileo Gen 2: API Features and
+Arduino Projects for Linux Programmers”, Apress, 2014.H.Gerez, “Algorithms for VLSI
+Design Automation”, John Wiley, 1999.
+3. Marco Schwartz, “Internet of Things with the Arduino Yun”, Packt Publishing, 2014.
+COURSEOUTCOMES
+Students are ableto
+CO1: understand basic premise of an IOT System
+CO2 : be familiar with the sensors available for IoT applications
+CO3 : learn the front-end hardware platforms and communication protocols for IoT.
+CO4 : understand cloud storage, data analysis and management
+CO5 : usage for real time IoT enabled domains
+92 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

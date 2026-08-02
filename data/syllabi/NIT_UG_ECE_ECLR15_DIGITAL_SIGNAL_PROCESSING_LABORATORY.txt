@@ -1,0 +1,40 @@
+Course Code : ECLR15
+Course Title : DIGITAL SIGNAL PROCESSING LABORATORY
+Number of Credits 2
+Corequisites : ECPC15
+(Course code)
+Course Type : ELR
+Course Objective:
+1. To program and analyse the signal processing functions such as convolution, correlation etc.
+using Matlab tool.
+2. To learn and implement algorithms for FIR, IIR filters and DFT using FFT using Matlab
+tool.
+3. To learn the addressing modes and implement the DSP algorithms in digital signal
+processors.
+Course Content:
+List of Experiments:
+MATLAB tool based simulation experiments
+1. Realization of correlation of two discrete signals
+2. Realization of convolution
+3. FIR filter design
+4. IIR filter design
+5. DFT implementation
+6. SNR and Power spectral density estimation of signals
+TMS320C5416 Digital Signal Processor kit based Experiments
+1. Study of various addressing modes and arithmetic sequence generation
+2. Convolution using MAC, MACD and MACP instructions. Convolution using overlap add
+and overlap save method
+3. Wave pattern generation
+4. FIR filter implementation
+5. DFT implementation using FFT radix-2 algorithm
+6. Serial interface and data acquisition
+Course Outcomes:
+At the end of the course student will be able
+CO1: To write Matlab program for signal processing functions
+CO2: To implement algorithms to realize digital filters and transforms
+CO3: To write and execute application program in digital signal processors
+CO4: To implement signal processing algorithms in digital signal processors
+CO5: To learn real time interfacing and data acquisition of signals
+126 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

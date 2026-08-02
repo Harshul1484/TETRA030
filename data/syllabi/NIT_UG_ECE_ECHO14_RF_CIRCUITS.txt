@@ -1,0 +1,41 @@
+Course Code : ECHO14
+Course Title : RF CIRCUITS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objective
+ To impart knowledge on basics of IC design at RF frequencies.
+Course content
+Characteristics of passive IC components at RF frequencies – interconnects, resistors, capacitors,
+inductors and transformers – Transmission lines. Noise – classical two-port noise theory, noise
+models for active and passive components High frequency amplifier design – zeros as bandwidth
+enhancers, shunt-series amplifier, fdoublers ,neutralization and uni-lateralization
+Low noise amplifier design – LNA topologies, power constrained noise optimization, linearity and
+large signal performance
+Mixers – multiplier-based mixers, subsampling mixers, diode-ring mixers
+RF power amplifiers – Class A, AB, B, C, D, E and F amplifiers, modulation of power amplifiers,
+linearity considerations
+Oscillators & synthesizers – describing functions, resonators, negative resistance oscillators,
+synthesis with static moduli, synthesis with dithering moduli, combination synthesizers – phase noise
+considerations.
+Text Books
+1. T.homas H. Lee, “The Design of CMOS Radio-Frequency Integrated Circuits”, 2nd ed.,
+Cambridge, UK: Cambridge University Press,2004.
+2. B.Razavi, “RF Microelectronics”, 2nd Ed., Prentice Hall, 1998.
+Reference Books
+1. A.A. Abidi, P.R. Gray, and R.G. Meyer, eds., “Integrated Circuits for Wireless
+Communications”, New York: IEEE Press,1999.
+2. R. Ludwig and P. Bretchko, “RF Circuit Design, Theory and Applications”, Pearson,2000.
+3. Mattuck,A., “Introduction to Analysis”,Prentice-Hall,1998.
+4. Recent literature in RF Circuits.
+Course outcomes
+At the end of the course student will be able
+CO1: Understand the Noise models for passive components and noise theory
+CO2: Analyze the design of a high frequency amplifier
+CO3: Appreciate the different LNA topologies & design techniques
+CO4: Distinguish between different types of mixers
+CO5: Analyse the various types of synthesizers, oscillators and their characteristics.
+132 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

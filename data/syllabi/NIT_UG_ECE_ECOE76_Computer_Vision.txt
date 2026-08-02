@@ -1,0 +1,45 @@
+Course Code : ECOE76
+Course Title : Computer Vision
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : OE
+COURSE OBJECTIVE
+ The focus of this course is the understanding of algorithms and techniques used in computer
+vision.
+ Provide pointers into the literature and exercise a project based on a literature search and one
+or more research papers.
+ Practice software implementation of different concepts and techniques covered in the course.
+ Utilize programming and scientific tools for relevant software implementation.
+COURSE CONTENT
+Introduction: overview of computer vision, related areas, and applications; overview of software tools;
+overview of course objectives.; introduction to OpenCV. Image formation and representation: imaging
+geometry, radiometry, digitization, cameras and projections, rigid and affine transformations,
+Filtering: convolution, smoothing, differencing, and scale space
+Feature detection: edge detection, corner detection, line and curve detection, active contours, SIFT
+and HOG descriptors, shape context descriptors, Model fitting: Hough transform, line fitting, ellipse
+and conic sections fitting, algebraic and Euclidean distance measures.
+Camera calibration: camera models; intrinsic and extrinsic parameters; radial lens distortion; direct
+parameter calibration; camera parameters from projection matrices; orthographic, weak perspective,
+affine, and perspective camera models.
+Motion analysis: the motion field of rigid objects; motion parallax; optical flow, the image brightness
+constancy equation, affine flow; differential techniques; feature-based techniques; regularization and
+robust estimation; motion segmentation through EM, Motion tracking: statistical filtering; iterated
+estimation; observability and linear systems; the Kalman filter; the extended Kalman filter
+Object recognition and shape representation: alignment, appearance-based methods, invariants, image
+Eigen spaces, data-based techniques.
+Text Books
+4. Computer Vision: Algorithms and Applications, R. Szeliski, Springer, 2011.
+5. Computer Vision: A Modern Approach, D. Forsyth and J. Ponce, Prentice Hall, 2nd ed., 2011.
+6. Introductory techniques for 3D computer vision, E. Trucco and A. Verri, Prentice Hall, 1998.
+COURSE OUTCOMES
+Students are able
+CO1: To understand the fundamental problems of computer vision.
+CO2: To learn techniques, mathematical concepts and algorithms used in computer
+vision to facilitate further study in this area.
+CO3: To get an idea regarding the camera calibration and its importance.
+CO4: To study different kinds of motion estimation methodologies and its applications.
+CO5: To understand the basic concepts of object and shape recognition techniques
+93 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

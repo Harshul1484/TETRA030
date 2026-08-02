@@ -1,0 +1,56 @@
+Course Code : ICPE38
+Course Title : Nonlinear Control
+Type of Course : PE
+Prerequisites : MAIR courses, ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce and elaborate the characteristics of nonlinear systems.
+CLO2 To gain understanding in the methods (both classical and modern) of analysis of
+stability and performance of nonlinear systems
+CLO3 To study the design of controllers as applicable to various case studies in
+robotics, aerospace and other domains.
+CLO4 To introduce the notion of complex systems theory and large-scale real-world
+problems
+Course Content
+Introduction – Modeling one-dimensional and two-dimensional dynamics, Existence and
+uniqueness of solutions
+Approximate analysis methods: The phase plane, Index theory, Poincare-Bendixson theorem,
+Describing function analysis
+Lyapunov theory for autonomous and non-autonomous systems, Attractors and Basins,
+Poincare maps
+Nonlinear control system design: Sliding control, Basics of Differential geometry, feedback
+linearization, single- input and multi-input cases
+Introduction to Chaos, Bifurcations, Hamiltonian Systems. Cases of Mechanisms, Robotics
+References
+1. Jitendra R Raol, Ramakalyan Ayyagari, Control Systems: Classical, Modern, and
+AI-Based Approaches, CRC Press (Taylor and Francis), 2019
+2. Jean-Jacques E. Slotine, Applied Nonlinear Control, Prentice Hall Englewood Cliffs,
+New Jersey, 1991.
+3. Khalil, H.K., Nonlinear Systems, Prentice Hall Englewood Cliffs, New Jersey, 3rd
+Edition, 2002.
+4. Meiss, J.D., Differential Dynamical Systems, SIAM, 2007
+5. Strogatz, S. H., Nonlinear Dynamics and Chaos, with Applications to Physics, Biology,
+Chemistry and Engineering, 2nd Edition, Westview Press, 2014.
+6. Vidyasagar.M, Nonlinear System Analysis, 2nd Edition, SIAM, 2002.
+7. Sontag, Mathematical Control Theory, 2nd Edition, Springer Verlag, 1998
+B.Tech. / Instrumentation and Control Engineering 145 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Differentiate between linear and nonlinear systems and their behaviour.
+CO2 Apply various graphical and analytical tools to describe and analyse nonlinear
+systems
+CO3 Understand Lyapunov theory.
+CO4 Learn a range of controller design techniques suitable for nonlinear control systems
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 146 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

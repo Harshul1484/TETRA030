@@ -1,0 +1,60 @@
+Course Code : ICMI12
+Course Title : Test and Measuring Instruments
+Type of Course : Minor(MI)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To give an overview of current, voltage and power measuring electrical,
+electronics and digital instruments.
+CLO2 To expose the students to the design of bridges for the measurement of
+resistance, capacitance and inductance.
+CLO3 To give an overview of test and measuring instruments.
+Course Content
+Electrical measurements: General features and Classification of electromechanical
+instruments. Principles of Moving coil, moving iron instruments. Extension of instrument range:
+shunt and multipliers, CT and PT.
+Measurement of Power: Electrodynamic wattmeter’s, Low Power Factor (LPF) wattmeter,
+errors, calibration of wattmeter. Single and three phase power measurement, Hall effect
+wattmeter, thermal type wattmeter.
+Different methods of measuring low, medium and high resistances, measurement of
+inductance and capacitance with the help of AC Bridges, Q Meter.
+Digital Measurement of Electrical Quantities: Concept of digital measurement, block diagram
+Study of digital voltmeter, Digital multimeter, Digital LCR meter, Digital wattmeter and energy
+meters.
+DSO, Function generator, Audio frequency signal generation, Waveform analyzers, Spectrum
+analyzers
+References
+1. Golding, E.W. and Widdis, F.C., Electrical Measurements and Measuring Instruments,
+A.H. Wheeler and Co, 5th Edition, 2011.
+2. David A. Bell, Electronic Instrumentation and Measurements, Oxford University Press,
+3rd Edition, 2013.
+3. Shawney A K, A course in Electrical and Electronic Measurements and
+Instrumentation, Dhanpat Rai and Sons. 19th revised edition, 2013.
+4. Cooper, W.D. and Helfric, A.D., Electronic Instrumentation and Measurement
+Techniques, Prentice Hall, 1st Edition, 2009.
+5. Kalsi.H. S, Electronic Instrumentation, Tata McGraw Hill Education Private Limited,
+3rd Edition, 2012.
+B.Tech. / Instrumentation and Control Engineering 262 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Have familiarity with various measuring instruments (ammeters, voltmeters, watt
+meters, energy meters, extension of meters, current and voltage transformers) used
+to measure electrical quantities.
+CO2 Design suitable DC and AC bridges for the measurement of R, L, C and
+Frequency measurement.
+CO3 Suggest the kind of instrument suitable for typical measurements.
+CO4 Use the test and measuring instruments effectively.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 1 3 2 1 1 1 1 2 2 3 2 2
+CO2 3 3 3 2 3 1 2 1 1 2 1 2 3 2 1
+CO3 2 3 3 2 2 2 2 2 2 3 3 3 3 3 2
+CO4 2 3 3 2 2 2 2 2 2 3 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 263 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

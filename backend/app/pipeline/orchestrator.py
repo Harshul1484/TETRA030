@@ -83,6 +83,11 @@ COMPUTING_CATEGORIES = {
 # below which a curriculum committee should not be shown a confident number.
 EVIDENCE_FLOOR = 12
 
+# Coverage above which a skill is treated as taught rather than missing.
+# Match confidences cluster high, so this sits below the typical value for a
+# genuine match and above incidental partial overlap.
+COVERED_THRESHOLD = 0.6
+
 
 class Pipeline:
     def __init__(self) -> None:
@@ -152,6 +157,9 @@ class Pipeline:
         scores: list[float] = []
         rank_weights: dict[str, float] = {}
         categories: dict[str, str] = {}
+        # Demand the syllabus already meets. Held aside so it still counts
+        # toward the alignment score without appearing as a finding.
+        covered_demand: list[tuple[float, float]] = []
 
         for row in rows:
             postings_total = max(row["postings_total"], 1)
@@ -164,6 +172,22 @@ class Pipeline:
             # Long-tail skills are dropped unless the course already teaches
             # them, in which case they still count toward coverage.
             if market_demand < MIN_DEMAND_SHARE and coverage <= 0.0:
+                continue
+
+            # A skill the syllabus already teaches well is not a gap. It stays
+            # in the scoring set below, where its coverage raises the score,
+            # but reporting it as a finding told a structural analysis course
+            # its gap was Hydrology, a subject it teaches.
+            if coverage >= COVERED_THRESHOLD:
+                scores.append(
+                    compute_gap_score(
+                        market_demand=market_demand,
+                        curriculum_coverage=coverage,
+                        prerequisite_distance=0,
+                        trend_slope=None,
+                    )
+                )
+                covered_demand.append((market_demand, coverage))
                 continue
 
             raw_distance = row["prerequisite_distance"]
@@ -229,10 +253,15 @@ class Pipeline:
             if not domain or categories.get(gap.canonical_skill) in domain
         ] or gaps
 
-        demand_total = sum(gap.market_demand for gap in scoring_set)
+        # Demand the syllabus already meets belongs in both terms. Withholding
+        # it from the report is a presentation decision; dropping it from the
+        # score would penalise a course for teaching the right things.
+        demand_total = sum(gap.market_demand for gap in scoring_set) + sum(
+            demand for demand, _ in covered_demand
+        )
         demand_covered = sum(
             gap.market_demand * gap.curriculum_coverage for gap in scoring_set
-        )
+        ) + sum(demand * coverage for demand, coverage in covered_demand)
 
         # Ranking cannot manufacture evidence it does not have. A course whose
         # subject area is barely present in the corpus will surface adjacent
@@ -281,8 +310,10 @@ class Pipeline:
         return GapReport(
             course_code=course_code,
             course_title=course_title,
-            health_score=compute_alignment_score(
-                demand_covered, demand_total, scores
+            health_score=(
+                None
+                if evidence_thin
+                else compute_alignment_score(demand_covered, demand_total, scores)
             ),
             scored_against=sorted(domain) if domain else ["all categories"],
             domain_postings=domain_postings,

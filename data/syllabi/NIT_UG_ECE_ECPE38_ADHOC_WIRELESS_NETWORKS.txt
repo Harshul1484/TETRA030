@@ -1,0 +1,46 @@
+Course Code : ECPE38
+Course Title : ADHOC WIRELESS NETWORKS
+Number of Credits 3
+Prerequisites : ECPE10
+(Course code)
+Course Type : PE
+Course learning Objective
+ To analyse the various design issues and challenges in the layered architecture of Ad hoc
+wireless networks
+Course content
+Cellular and ad hoc wireless networks, Applications of ad hoc wireless networks. Issues in ad hoc
+wireless networks-medium access scheme, routing, transport layer protocols, security and energy
+management. Ad hoc wireless internet.
+Design goals of a MAC protocol, Contention based protocols; Contention based protocols with
+reservation mechanisms and scheduling mechanisms, MAC protocols using directional antennas.
+Table driven routing protocols, On demand routing protocols, hybrid routing protocols, Hierarchical
+routing protocols, Power aware routing protocols, Tree based and mesh based multicast routing
+protocols
+Network security requirements-Issues and challenges, network security attacks, key management,
+secure routing protocols
+Energy management schemes-Battery management, transmission power management, system
+power management schemes. Quality of service solutions in ad hoc wireless networks.
+Text books
+1. C.Siva ram murthy, B.S. Manoj, “Ad hoc wireless networks-Architectures and protocols”
+Pearson Education, 2005
+2. S.Basagni, M.Conti, “Mobile ad hoc networking”, Wielyinterscience2004
+References books
+1. C. E.Perkins ,”Ad hoc networking”, AddisonWesley,2001
+2. X.Cheng, X.Huang ,D.Z. DU ,”Ad hoc wireless networking”, Kluwer
+AcademicPublishers,2004
+3. G. Aggelou,”Mobile ad hoc networks-From wireless LANs to 4G networks”, McGraw Hill
+publishers,2005
+4. Recent literature in ADHOC Wireless Networks.
+Course outcomes
+At the end of the course student will be able
+CO1: compare the differences between cellular and ad hoc networks and the analyze the
+challenges at various layers and applications
+CO2: summarize the protocols used at the MAC layer and scheduling mechanisms
+CO3: compare and analyze types of routing protocols used for unicast and multicast
+routing
+CO4: examine the network security solution and routing mechanism
+CO5: evaluate the energy management schemes and Quality of service solution in ad hoc
+networks
+60 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

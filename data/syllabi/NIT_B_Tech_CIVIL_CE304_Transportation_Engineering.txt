@@ -1,0 +1,33 @@
+CE304 Transportation Engineering - I 2 1 0 3
+CE304 TRANSPORTATION ENGINEERING - I
+Course objectives:
+To understand the importance of transportation and characteristics of road transport
+To know about the history of highway development, surveys and classification of roads
+25
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To study about the geometric design of highways
+To study about traffic characteristics and design of intersections
+To know about the pavement materials and design
+Course Content
+Introduction: Importance of transportation, different modes of transportation, characteristics of road
+transport, scope of highway and traffic engineering
+Highway development and planning: Importance, classification of roads, road patterns, planning
+surveys; highway alignment and surveys
+Highway Geometric Design: Cross section elements, sight distance, design of horizontal and vertical
+alignment
+Traffic Engineering: Traffic characteristics - Traffic studies-speed, volume, speed and delay, origin-
+destination, parking and accident studies; capacity of urban roads and highways; traffic operations-
+regulation and control; design of intersections- at grade and grade separated
+Pavement Materials and Design: Specifications and tests on pavement materials, pavement design
+factors, design of flexible and rigid pavements as per IRC.
+References
+1. Khanna, S.K and Justo, C.E.G., Highway Engineering, Nem Chand and Bros.
+2. Kadiyali, L.R, Traffic Engineering and Transport Planning, Khanna Publishers, New Delhi
+3. Kadiyali, Principles of Highway Engineering, Khanna Publishers.
+Course outcomes:
+On completion of the course, the students will be able to:
+carry out surveys involved in planning and highway alignment
+design cross section elements, sight distance, horizontal and vertical alignment
+implement traffic studies, traffic regulations and control, and intersection design
+determine the characteristics of pavement materials
+design flexible and rigid pavements as per IRC

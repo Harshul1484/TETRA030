@@ -1,0 +1,39 @@
+Course Code : ECMI20
+Course Title : ANALOG COMMUNICATION
+Number of Credits 3
+Prerequisites : ECMI10
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To develop a fundamental understanding on Communication Systems with emphasis on
+analog modulation techniques and noise performance.
+Course Content
+Basic blocks of Communication System. Amplitude (Linear) Modulation – AM, DSB-SC, SSB-SC
+and VSB-SC. Methods of generation and detection. FDM. Super Heterodyne Receivers.
+Angle (Non-Linear) Modulation - Frequency and Phase modulation. Transmission Bandwidth of FM
+signals, Methods of generation and detection. FM Stereo Multiplexing.
+Noise - Internal and External Noise, Noise Calculation, Noise Figure. Noise in linear and nonlinear
+AM receivers, Threshold effect.
+Noise in FM receivers, Threshold effect, Capture effect, FM Threshold reduction, Pre-emphasis and
+De-emphasis.
+Pulse Modulation techniques – Sampling Process, PAM, PWM and PPM concepts, Methods of
+generation and detection. TDM. Noise performance.
+Text Books
+1. S.Haykins, Communication Systems, Wiley, (4/e), Reprint 2009.
+2. Kennedy, Davis, Electronic Communication Systems (4/e), McGraw Hill, Reprint 2008.
+Reference Books
+1. B.Carlson, Introduction to Communication Systems, McGraw-Hill, (4/e), 2009.
+2. J.Smith, Modern Communication Circuits (2/e), McGraw Hill, 1997.
+3. J.S.Beasley&G.M.Miler, Modern Electronic Communication (9/e), Prentice-Hall, 2008.
+Course outcomes
+At the end of the course student will be able
+CO1: Understand the basics of communication system and analog modulation techniques
+CO2: Apply the basic knowledge of signals and systems and understand the concept of Frequency
+modulation.
+CO3: Apply the basic knowledge of electronic circuits and understand the effect of Noise in
+communication system and noise performance of AM system
+CO4: Understand the effect of noise performance of FM system.
+CO5: Understand TDM and Pulse Modulation techniques.
+112 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

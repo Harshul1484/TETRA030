@@ -1,0 +1,37 @@
+CE461 Pavement Analysis and Design 3 0 0 3
+CE461 PAVEMENT ANALYSIS AND DESIGN
+Course objectives:
+To study about the types and components of pavements
+To learn about the stresses in flexible pavements and equivalent single wheel load
+To study the design of flexible pavements
+To learn about the stresses in rigid pavements
+To study the design of rigid pavements
+Course Content
+Pavements - Types and Component - Factors affecting Design and Performance of Pavements,
+Comparison between Highway and Airport pavements - Functions and Significance of Sub grade
+properties
+Stresses in Flexible Pavements - Stresses and Deflections in Homogeneous Masses - Burmister's 2-
+layer, 3-layer Theories - Wheel Load Stresses, ESWL of Multiple Wheels Repeated Loads and EWL
+factors
+Flexible Pavement Design - Empirical - Semi-empirical and Theoretical Approaches; Principles and
+procedure, design, Advantages and Applications of different Pavement Design Methods - Stresses in
+Rigid pavements - Types of Stresses and Causes - Factors influencing the Stresses, General
+conditions in Rigid Pavement Analysis, ESWL, Wheel Load Stresses, Warping Stresses, Friction
+Stresses, Combined Stresses
+Rigid Pavement Design - Types of Joints in Cement Concrete Pavements and their Functions, Joint
+Spacings, Design of Slab Thickness, Design of Joint Details for Longitudinal Joints, Contraction Joints
+and Expansion Joints, IRC Method of Design
+References
+1. Yoder and Witezak, Principles of pavement design¸ John Wiley and sons, 1975
+2. Yang, Design of functional pavements, Mc Graw -Hill, 2004.
+3. IRC: 58 - 2002, Guidelines for the Design of Plain Jointed Rigid Pavements for Highways
+46
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+4. IRC:37 - 2001, Guidelines for the Design of Flexible Pavements
+Course outcomes:
+On completion of the course, the students will be able to:
+identify the pavement components and compare highway and airport pavements
+calculate stresses and ESWL in flexible pavements
+design the flexible pavement using empirical and semi empirical methods
+analyze the warping, friction, wheel load stress and calculate the combined stress
+design rigid pavements by IRC method and evaluate the pavements

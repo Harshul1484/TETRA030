@@ -1,0 +1,46 @@
+Course Code : ECMI18
+Course Title : MICROPROCESSORS AND MICRO CONTROLLERS
+Number of Credits 3
+Prerequisites : ECMI14
+(Course code)
+Course Type : MI
+Course Learning Objective
+ This subject deals about the basics of 16-bit Microprocessor, 8-bit and 16-bit Micro
+controllers, their architectures, internal organization and their functions, peripherals, and
+interfacing.
+Course Content
+Microprocessor based personal computer system. Software model of 8086. Segmented memory
+operation. Instruction set. Addressing modes. Assembly language programming. Interrupts.
+Programming with DOS and BIOS function calls.
+Hardware detail of 8086. . Bus timing. Minimum Vs Maximum mode of operation. Memory interface.
+Parallel and serial data transfer methods. 8255 PPI chip. 8259 Interrupt controller. 8237 DMA
+controller.
+Microcontroller. Von-Neumann Vs Harvard architecture. Programming model. Instruction set of 8051
+Microcontroller. Addressing modes. Programming. Timer operation.
+Mixed Signal Microcontroller: MSP430 series. Block diagram. Address space. On-chip peripherals -
+analog and digital. Register sets. Addressing Modes. Instruction set. Programming. FRAM Vs flash
+for low power and reliability.
+Peripheral Interfacing using 8051 and Mixed signal microcontroller. Serial data transfer - UART, SPI
+and I2C. Interrupts. I/O ports and port expansion. DAC, ADC, PWM, DC motor, Stepper motor and
+LCD interfacing.
+Text Books
+1. J.L.Antonakos, “An Introduction to the Intel Family of Microprocessors”, Pearson, 1999.
+2. M.A.Mazidi & J.C.Mazidi “Microcontroller and Embedded systems using Assembly & C.
+(2/e)”, Pearson Education, 2007.
+Reference Books
+1.John H. Davies, “MSP430 Microcontroller Basics”, Elsevier Ltd., 2008
+2.B.B. Brey, “The Intel Microprocessors, (7/e), Eastern Economy Edition”, 2006.
+3. K.J. Ayala, “The 8051 Microcontroller “, (3/e), Thomson Delmar Learning, 2004.
+4. I. S. MacKenzie and R.C.W.Phan., “The 8051 Microcontroller. (4/e)”, Pearson education,
+2008.
+Course outcomes
+At the end of the course student will be able
+CO1: recall and apply the basic concept of digital fundamentals to Microprocessor based
+personal computer system.
+CO2: identify the detailed s/w & h/w structure of the Microprocessor.
+CO3: illustrate how the different peripherals are interfaced with Microprocessor.
+CO4: distinguish and analyze the properties of Microprocessors & Microcontrollers.
+CO5: analyze the data transfer information through serial & parallel ports.
+110 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

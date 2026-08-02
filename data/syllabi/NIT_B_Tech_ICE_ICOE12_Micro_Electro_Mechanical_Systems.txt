@@ -1,0 +1,61 @@
+Course Code : ICOE12
+Course Title : Micro Electro Mechanical Systems
+Type of Course : Open Elective (OE)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessments, Assignments, Final
+Methods Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the fundamental concepts of MEMS and Micro systems and their
+relevance to current scientific needs.
+CLO2 To introduce the state-of-art micromachining techniques including surface
+micromachining, bulk micromachining, and related methods.
+CLO3 To make the students knowledgeable in the design concepts of micro sensors
+and micro actuators.
+CLO4 To introduce the challenges and limitations in the design of MEMS devices
+To make the students knowledgeable in computer aided design tools for
+modeling MEMS device.
+Course Content
+Introduction, emergence, MEMS application, scaling issues, materials for MEMS, Thin
+film deposition, lithography and etching.
+Bulk micro machining, surface micro machining and LIGA process.
+MEMS devices, Engineering Mechanics for Micro System Design – static bending of thin
+plates, Mechanical vibrational analysis, Thermomechanical analysis, fracture mechanics
+analysis, Thin film mechanics.
+Theory and design: Micro Pressure Sensor, micro accelerometer – capacitive and
+piezoresistive, micro actuator.
+Electronic interfaces, design, simulation and layout of MEMS devices using CAD tools.
+References
+1. Tai Ran Hsu, MEMS and Microsystem Design and Manufacture, TataMcGrawHill, New
+Delhi 2017.
+2. Marc Madou, Fundamentals of Micro fabrication, CRC Press, 2nd Edition, 2002.
+3. Julian W. Gardner and Vijay K. Varadan, Microsensors, MEMS, and Smart Devices,
+John Wiley and Sons Ltd, 1st Edition, reprinted,2013.
+4. Elwenspoek, Miko, Wiegerink, R, Mechanical Microsensors, Springer-Verlag Berlin
+Heidelberg GmbH, 1st Edition,2012.
+5. Simon M. Sze, Semiconductor Sensors, John Wiley and Sons. Inc, 1st Edition,2008.
+6. Chang Liu, Foundations of MEMS, Pearson Educational limited, 2nd Edition,2011.
+7. Stephen D. Senturia., Microsystem Design, Kluwer Academic Publishers, 2001.
+8. G. K. Ananthasuresh, K. J. Vinoy, S. Gopalakrishnan, K. N. Bhat, and V. K. Aatre.,
+Micro and Smart Systems, Wiley-India, 2019.
+B.Tech. / Instrumentation and Control Engineering 216 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the fundamental principles behind the working of micro devices/
+systems and their applications.
+CO2 Have knowledge in the standard micro fabrication techniques.
+CO3 Identify micro sensors and actuators for a specific application.
+CO4 Acquire skills in computer aided design tools for modeling and simulating MEMS
+devices.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 2 - - - - 3 3 3 2
+CO2 3 2 3 2 2 3 2 - 2 - - 3 3 3 -
+CO3 3 3 3 3 2 2 3 - 2 2 2 3 3 3 2
+CO4 3 2 3 3 3 2 3 - 2 2 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 217 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,56 @@
+Course Code : ICMI17
+Course Title : Microprocessor and Microcontroller
+Type of Course : Minor (MI)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To introduce the architecture of 8, 16 and 32-bit microprocessor and
+microcontroller.
+CLO2 To impart microcontroller programming skills in students.
+CLO3 To familiarize the students with data transfer and interrupt services.
+CLO4 To Familiarize the students with communication protocols for peripheral interfacing.
+Course Content
+Introduction to computer architecture and organization, Architecture of 8-bit, 16-bit, 32-bit and
+64-bit microprocessors, CISC/RISC design philosophy, bus configurations, CPU module.
+Embedded system overview.
+Introduction to embedded C and assembly language, instruction set of a typical 8-bit and 16-
+bit microprocessor, subroutines and stacks, energy efficient ultra-low power modes,
+programming exercises.
+Timing diagrams, Memory families, Flash Vs FRAM, on-chip peripherals- working with IO
+ports, ADC, comparators, timers, PWM, Watchdog, Low power modes.
+Architectures of 8 and 16-bit Microcontrollers, comparison, programming exercises,
+applications of energy efficient systems.
+Serial and parallel data transfer schemes, interrupts and interrupt service procedure. Internal
+peripherals of microcontrollers – SPI, I2C UART, USB and DNA. Interfacing with RTC,
+EEPROM and DAC.
+References
+1. Ramesh Gaonkar, Microprocessor Architecture, Programming and Applications with
+the 8085 6th Edition, Penram international publishing (India) pvt.Ltd.2013.
+2. Douglas V. Hall, Microprocessors and Interfacing-Programming and Hardware,
+McGraw-Hill, 2nd Edition, 1999.
+3. Kenneth J. Ayala, The8051Microcontroller, Thomson Delmar Learning, 3rdEdition,
+2004.
+4. John H Davies, MSP430 Microcontroller Basics, Newnes, 1st Edition, 2010.
+5. Jonathan W Valvano, Embedded Microcomputer Systems: Real Time Interfacing,
+CENGAGE Learning Custom Publishing, 3rd Edition, 2010.
+B.Tech. / Instrumentation and Control Engineering 272 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+At the end of the course student will be able to
+CO1 Understand the various functional blocks of microprocessors and microcontrollers.
+CO2 Understand and write the assembly and C language programs.
+CO3 Interface the peripherals with microprocessors and microcontrollers.
+CO4 Design and develop microcontroller-based applications.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 2 2 1 1 1 1 - 1 2 3 3 1
+CO2 3 3 3 3 3 1 2 1 2 - 2 2 3 3 1
+CO3 3 3 3 3 2 2 2 2 1 2 1 2 3 3 1
+CO4 3 3 3 3 3 2 2 1 2 2 2 2 3 3 2
+B.Tech. / Instrumentation and Control Engineering 273 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

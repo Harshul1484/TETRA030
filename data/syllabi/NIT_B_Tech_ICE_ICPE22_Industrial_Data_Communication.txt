@@ -1,0 +1,59 @@
+Course Code : ICPE22
+Course Title : Industrial Data Communication
+Type of Course : PE
+Prerequisites : ICPC25
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+This course gives an overview to real-time communication between systems in industries and
+to adopt suitable protocol thereby prepare the students to take up challenges in industrial
+environment.
+CLO1 To expose the students to communication systems emerging in the field of
+instrumentation.
+CLO2 To introduce to the system interconnection and protocol standards.
+CLO3 To give an overview of HART Protocols
+CLO4 To impart knowledge in Field bus and Profibus protocol
+Course Content
+Interface: Introduction, Principles of interface, serial interface and its standards. Parallel
+interfaces and buses.
+Fieldbus: Use of fieldbuses in industrial plants, functions, international standards,
+performance, use of Ethernet networks, fieldbus advantages and disadvantages. Fieldbus
+design, installation, economics and documentation.
+Instrumentation network design and upgrade: Instrumentation design goals, cost optimal and
+accurate sensor networks. Global system architectures, advantages and limitations of open
+networks, HART network and Foundation fieldbus network.
+PROFIBUS-PA: Basics, architecture, model, network design and system configuration.
+Designing PROFIBUS-PA and Foundation Fieldbus segments: general considerations,
+network design.
+References
+1. Noltingk B.E., Instrumentation Reference Book, Butterworth Heinemann, 2nd Edition,
+1995
+2. B.G. Liptak, Process software and digital networks, CRC press, Florida, 3rd Edition
+2011.
+3. Behrouz Forouzan, Data Communications and Networking, Tata McGraw Hill
+Education, New Delhi, 2010.
+4. Steve Mackay, Edwin Wright, Deon Reynders, John Park, Practical Industrial Data
+Networks: Design, Installation and Troubleshooting, Newnes, An imprint of Elsevier,
+2004.
+5. Andrew S. Tanenbaum, David J. Wetherall, Computer Networks, Prentice Hall of India
+Pvt. Ltd., 6th Edition. 2021
+B.Tech. / Instrumentation and Control Engineering 113 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Explain the rationale behind the technological development of industrial networks.
+CO2 Understand various buses and serial//parallel interface.
+CO3 Exposure to the HART, Field Bus and Profibus protocols functions and their
+features.
+CO4 Evaluate and select protocol for particular application
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 2 2 3 1 1 1 1 2 3 3 3 1
+CO2 3 2 3 3 2 2 2 1 1 2 2 3 3 3 1
+CO3 3 2 3 3 2 2 2 1 1 2 2 3 3 3 1
+CO4 2 1 3 3 3 3 2 1 2 2 3 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 114 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

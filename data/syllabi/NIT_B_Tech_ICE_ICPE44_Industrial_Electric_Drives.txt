@@ -1,0 +1,73 @@
+Course Code : ICPE44
+Course Title : Industrial Electric Drives
+Type of Course : PE
+Prerequisites : ICPC11, ICPC12
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce to the students on the concept of employing power convertors for the
+design of electric drives.
+CLO2 To impart knowledge on the analysis of electric drive system dynamics.
+CLO3 To apply the knowledge of drives to choose the right solid-state drive for a given
+application.
+CLO4 To impart knowledge on the design and development of control methods for electric
+drive systems.
+Course Content
+Electric Drive System - Dynamics and steady state stability
+Components of electrical Drives – electric machines, power converter, controllers - dynamics
+of electric drive - torque equation - equivalent values of drive parameters - components of load
+torques types of load - four quadrant operation of a motor –– steady state stability – load
+equalization – classes of motor duty- determination of motor rating.
+DC motor drives – dc motors and their performance (shunt, series, compound, permanent
+magnet motor, universal motor, dc servomotor) – braking – regenerative, dynamic braking,
+plugging –Transient analysis of separately excited motor – converter control of dc motors –
+analysis of separately excited and series motor with 1-phase and 3-phase converters – dual
+converter –analysis of chopper controlled dc drives – converter ratings and closed loop control
+– transfer function of self, separately excited DC motors – linear transfer function model of
+power converters – sensing and feeds back elements – current and speed loops, P, PI and
+PID controllers – response comparison – simulation of converter and chopper fed DC drive.
+Induction motor drives – stator voltage control of induction motor – torque-slip characteristics
+– operation with different types of loads – operation with unbalanced source voltages and
+single phasing – analysis of induction motor fed from non-sinusoidal voltage supply – stator
+frequency control – variable frequency operation – V/F control, controlled current and
+controlled slip operation – effect of harmonics and control of harmonics.
+PWM inverter drives for Induction Motors – multi quadrant drives – rotor resistance control –
+slip torque characteristic – torque equations, constant torque operation – slip power recovery
+scheme – torque equation – torque slip characteristics – power factor – methods of improving
+power factor – limited sub synchronous speed operation – super synchronous speed
+operation.
+Synchronous motor drives – speed control of synchronous motors – adjustable frequency
+operation of synchronous motors – principles of synchronous motor control – voltage source
+inverter drive with open loop control – self-controlled synchronous motor with electronic
+commutation – self -controlled synchronous motor drive using load commutated thyristor
+inverter.
+B.Tech. / Instrumentation and Control Engineering 157 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. R. Krishnan, Electrical Motor Drives, PHI-2003.
+2. G.K. Dubey, Power semiconductor-controlled drives, Prentice Hall- 2007.
+3. G.K. Dubey, Fundamentals of Electrical Drives, Narosa- 2010.
+4. S.A. Nasar, Boldea, Electrical Drives, Second Edition, CRC Press – 2017.
+5. M. A. ElSharkawi, Fundamentals of Electrical Drives, Thomson Learning.2nd edition
+2019.
+6. W. Leohnard, Control of Electric Drives, Springer- 2019.
+7. Murphy and Turnbull, Power Electronic Control of AC motors, Pergamon Press, 2021.
+8. Vedam Subrahmaniam, Electric Drives, TMH-2nd edition 2017.
+9. G. K. Dubey, Power semiconductor-controlled drives, Prentice Hall – 2007.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design suitable power electronic circuit for an electric drive system
+CO2 Analyse the dynamics and steady state stability of motors
+CO3 Select appropriate control method for the electric drives.
+CO4 Select a suitable electric drive for a particular industrial application.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 158 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

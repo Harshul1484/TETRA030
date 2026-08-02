@@ -1,0 +1,58 @@
+Course Code : ICPE51
+Course Title : Engineering Mechanics
+Type of Course : PE
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the fundamentals of mechanics and machines to the instrumentation
+and control engineering students.
+CLO2 To explain the application of basic mechanical science concepts
+CLO3 To apply different physical principles to the analysis of mechanics and machines
+CLO4 To identify the different element of a mechanical system and write the mathematical
+equations for them.
+Course Content
+Forces and equilibrium – Free body diagram – Forces in equilibrium. Stress and strain –
+Poisson's ratio – Bulk modulus. Beams – Types of beams – Bending moment and shearing
+force – Bending stresses. Torsion – Torsion of circular shafts – Transmission of power.
+Strain energy – Dynamic loading – Strain energy due to shear – Impact torsional loading –
+Strain energy due to bending – Impact loading of beams.
+Linear and angular motion – Linear motion – Curvilinear motion – Relative velocity – Angular
+motion – Torque and angular motion – Balancing of rotational masses – Momentum – Work
+and energy.
+Mechanisms – Velocity diagrams – Acceleration diagrams. Coriolis acceleration. Flywheels.
+Machines – Transmission of rotational motion. Geared systems – Gear trains. Friction –
+Friction clutches. Bearings. Belt drives. Gyroscopic motion – Gyroscopic couple.
+Free vibrations – Simple harmonic motion. Linear and torsional vibrations of an elastic
+system. Transverse vibrations of beams – Whirling of shafts.
+Damped and forced oscillations – Free oscillations – Damped oscillations – Undamped forced
+oscillations – Damped forced oscillations.
+Degrees of freedom – Two rotor system – Forced vibrations.
+References
+1. Bolton WC, Mechanical Science, Wiley-Blackwell Publishing, 3rd Edition. 2006.
+2. R. C. Hibbeler, Engineering Mechanics - Statics, Pearson Education Inc. 14th Edition.
+2015.
+3. R. C. Hibbeler, Engineering Mechanics - Dynamics, Pearson Education Inc. 14th
+Edition 2015.
+4. Timoshenko and Young, Engineering Mechanics, McGraw-Hill Book Company, 5th
+Edition, 2016.
+B.Tech. / Instrumentation and Control Engineering 171 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Analyze simple mechanisms and their principles of operation.
+CO2 Write the mathematical equations for static and dynamic loading in simple
+mechanical systems.
+CO3 Write the equations for energy and power in simple mechanical systems.
+CO4 Analyze free and forced oscillations in simple dynamic systems.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 172 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,62 @@
+Course Code : ICPE61
+Course Title : CMOS Analog IC Design
+Type of Course : PE
+Prerequisites : ICPC12, ICPC20
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessments, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To develop skill for analog circuit design specifically relevant to CMOS IC design.
+CLO2 To develop ability for the analysis of CMOS circuit noise and mismatch, and their
+impact on the circuit design.
+CLO3 To develop skills to design and analyze several types of CMOS OpAmp at the
+transistor level.
+Course Content
+Introduction to MOSFETs, Simple MOSFET Circuits, MOSFET Current Mirrors, Cascode
+Amplifiers, MOSFET in Integrated Circuits, MOSFET Capacitances, Noise of Simple Circuits,
+Systematic Mismatch, Random Mismatch, Differential Amplifiers.
+Concept of feedback, stability of negative feedback systems, dominant pole compensation,
+active load, differential amplifiers - noise and offset, slew rate, OTA, working principles and
+different types, datasheet, design example, folded-cascode, working principles and different
+types.
+Multi-stage amplifier, step response, sinusoidal steady state response, loop gain and unity
+loop gain frequency, OpAmp realization using controlled sources; delay in the loop, negative
+feedback amplifier with ideal delay-small delays and large delays, negative feedback
+amplifier with parasitic poles and zeros, Nyquist criterion, Phase margin.
+Single stage OpAmp, folded cascode opamp, telescopic opamp, Two and three stage miller
+compensated OpAmp, feedforward compensated OpAmp, two stage OpAmp, three stage
+and triple cascade OpAmp, common mode rejection ratio, fully differential single stage
+opamp, common mode feedback, fully differential two stage opamp; fully differential versus
+pseudo-differential, Introductory concept of PLL and VCO.
+References
+1. B.Razavi, Design of Analog CMOS Integrated Circuits, McGraw Hill Edition2002.
+2. Paul. R.Gray, Robert G. Meyer, “Analysis and Design of Analog Integrated Circuits,
+Wiley, (4/e), 2001.
+3. Analog Integrated Circuit Design" by David A. Johns and Ken Martin
+4. CMOS Analog Circuit Design" by Phillip E. Allen and Douglas R. Holberg
+5. Analog Circuit Design: Discrete and Integrated" by Sergio Franco
+6. R. Jacob Baker, “CMOS Circuit Design, Layout, and Simulation, Wiley, (3/e),2010.
+7. The Art of Electronics by Paul Horowitz and Winfield Hill
+8. Analog Design for CMOS VLSI Systems by Franco Maloberti
+9. CMOS VLSI Design: A Circuits and Systems Perspective by Neil H.E. Weste and
+David Money Harris
+B.Tech. / Instrumentation and Control Engineering 191 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design CMOS based analog integrated circuits (IC) and analyze their performance.
+CO2 Understand the negative feedback control applied in the design of CMOS circuit.
+CO3 Examine the noise found in CMOS circuits and frequency response of CMOS
+circuits and assess its impact on circuit performance.
+CO4 Develop and evaluate various CMOS operational amplifier (OpAmp) designs at the
+transistor level.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - - 1 1 2 3 3 -
+CO2 3 3 3 3 3 - - - - 1 2 2 3 3 -
+CO3 3 3 3 3 3 - - - - 1 1 2 3 3 -
+CO4 3 3 3 3 3 - - - - 1 2 2 3 3 -
+B.Tech. / Instrumentation and Control Engineering 192 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

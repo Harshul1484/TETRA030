@@ -1,0 +1,48 @@
+Course Code : ECPE51
+Course Title : Microwave Circuits
+Number of Credits : 3
+Course Type : Elective
+COURSE OBJECTIVE
+• To make the students familiarize with ABCD parameters, S parameters, Applications of planar
+transmission lines in the practical microwave circuits, Design and layout of all Microwave Integrated
+Circuit Design components and then systems.
+COURSE CONTENT
+Introduction and application of microwave circuits - Two-port network characterization. ABCD
+parameters, Conversion of S matrix in terms of ABCD matrix. Scattering matrix representation of
+microwave components. Review of Smith chart and its application- Impedance matching using
+Lumped and Distributed approach.
+Microwave Passive circuit design: Characteristics, properties, design parameters and applications-
+Design and realization of MIC Power dividers. 3 dB hybrid design. Directional Coupler design-
+Hybrid ring design.
+Microwave filter design- Filter design by insertion loss method –Richards and Kuroda transformation.
+K inverter, J inverter. Resonator filters. Realization using microstrip lines and strip lines.
+Microwave amplifier design- Power gain equations -Stability considerations. Maximum gain design,
+Design for specific gain -Low Noise Amplifier Design. High power design.
+Microwave oscillator design. One – port and two – port negative resistance oscillators and oscillator
+design
+Text Books:
+1. Reinhold Ludwig, RF circuit design, 2nd edition, Prentice Hall 2014, ISBN: 978-0131471375
+2. David. M. Pozar, Microwave engineering, 4th edition, John Wiley, 2011, ISBN: 978-
+0470631553.
+3. Devendra K. Misra, “Radio-Frequency and microwave communication circuits analysis
+and design”, 2nd edition, University of Wisconsin-Mulwaukee, A John Wiley & Sons Publication
+Reference Books:
+1. B. Bhat, S. K Koul, “Stripline like transmission lines for Microwave Integrated Circuits”,
+New Age International Pvt. Ltd Publishers, 2007.
+2. I.J.Bahl & P.Bhartia, “Microwave Solid state Circuit Design (2/e)”, Wiley, 2003.
+3. Matthew M. Radmanesh, Radio Frequency and Microwave Electronics Illustrated, Prentice
+Hall, 2012
+4. S.Y.Liao, “Microwave Circuit Analysis and Amplifier Design”, Prentice-Hall, 1986.
+5. G. Mathaei, L young, E.M.T. Jones, “Microwave filters, Impedance-Matching networks and
+Coupling structures”, Artech House Books.
+COURSE OUTCOMES
+Students are able to
+CO1: Understand the basics of Scattering matrix and two port characterization and importance of
+matching circuits.
+CO2: Analyze the working principles of couplers, power dividers etc. and their design.
+CO3: Design the different types of MIC filters and their implementation.
+CO4: Understand the complexities of microwave amplifier design and its stability features.
+CO5: Analyze and appreciate the design principles of microwave oscillators.
+74 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,42 @@
+Course Code : ECPE21
+Course Title : DIGITAL IMAGE PROCESSING
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course learning Objective
+ To treat the 2D systems as an extension of 1D system design and discuss techniques specific
+to 2D systems.
+Course content
+Linearity and space-invariance. PSF, Discrete images and image transforms, 2-D sampling and
+reconstruction, Image quantization, 2-D transforms and properties.
+Image enhancement- Histogram modeling, equalization and modification. Image smoothing, Image
+crispening. Spatial filtering, Replication and zooming, Generalized cepstrum and homomorphic
+filtering.
+Image restoration- image observation models. Inverse and Wiener filtering. Filtering using image
+transforms. Constrained least-squares restoration. Generalized inverse, SVD and interactive methods.
+Recursive filtering. Maximum entropy restoration. Bayesian methods.
+Image data compression- sub sampling, coarse quantization and frame repetition. Pixel coding - PCM,
+entropy coding, run length coding Bit-plane coding. Predictive coding. Transform coding of images.
+Hybrid coding and vector DPCM. Inter-frame hybrid coding.
+Image analysis- applications, Spatial and transform features. Edge detection, boundary extraction, AR
+models and region representation. Moments as features. Image structure .Morphological operations
+and transforms. Texture. Scene matching and detection. Segmentation and classification.
+Text Books
+1. A.K. Jain, “Fundamentals of Digital Image Processing”, PHI, 1995.
+2. R.C.Gonzalez & R.E. Woods,” Digital Image Processing”, (2/e), Pearson, 2002.
+Reference Books
+1. J.C. Russ, “The Image Processing Handbook”, (5/e), CRC, 2006.
+2. E.S.Gopi, ''Digital Image processing using Matlab'', Scitech publications, 2006.
+3. Recent literature in Digital Image processing.
+Course outcomes
+At the end of the course student will be able
+CO1: analyze the need for image transforms, types and their properties.
+CO2: become skilled at different techniques employed for the enhancement of images both in spatial
+and frequency domain.
+CO3: explore causes for image degradation and to teach various restoration techniques.
+CO4: evaluate the image compression techniques in spatial and frequency domain.
+CO5: gain knowledge of feature extraction techniques for image analysis and recognition.
+43 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

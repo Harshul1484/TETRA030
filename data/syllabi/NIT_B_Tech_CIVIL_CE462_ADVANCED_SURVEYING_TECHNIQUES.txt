@@ -1,12 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-4. IRC:37 - 2001, Guidelines for the Design of Flexible Pavements
-Course outcomes:
-On completion of the course, the students will be able to:
-identify the pavement components and compare highway and airport pavements
-calculate stresses and ESWL in flexible pavements
-design the flexible pavement using empirical and semi empirical methods
-analyze the warping, friction, wheel load stress and calculate the combined stress
-design rigid pavements by IRC method and evaluate the pavements
+CE462 Advanced Surveying Techniques 3 0 0 3
 CE462 ADVANCED SURVEYING TECHNIQUES
 Course Objectives:
 To know about significance of advanced surveying in field measurements in terms of utility and
@@ -40,3 +32,15 @@ References
 1. Duggal, S.K. Surveying Vol. II, Tata McGraw Hill, 2004.
 2. Punmia, B.C. Surveying Vol.III, Standard Publishers, 2005.
 47
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+3. Arora, K. R. Surveying Vol. III, Standard Book House, 1996.
+4. Satheesh Gopi. Advanced Surveying, Pearson Education, 2007.
+5. Satheesh Gopi. The Global Positioning System and Surveying using GPS, Tata McGraw, 2005.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply advanced surveying techniques in different fields of civil engineering
+select the advanced surveying technique which is best suited for a work
+apply total station and EDM in distance measurement and traversing
+demonstrate the principles of the earth surface, its projections and different coordinates
+involved in map making
+apply GPS in transportation engineering, structural engineering and land use planning

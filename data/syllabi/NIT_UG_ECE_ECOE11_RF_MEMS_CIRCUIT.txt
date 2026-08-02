@@ -1,0 +1,34 @@
+Course Code : ECOE11
+Course Title : RF MEMS CIRCUIT
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : OE
+Course learning Objective
+ To impart knowledge on basics of MEMS and their applications in RF circuit design.
+Course content
+Introduction to Micromachining Processes. RF MEMS relays and switches. Switch parameters.
+Actuation mechanisms. Bi-stable relays and micro actuators. Dynamics of switching operation.
+MEMS inductors and capacitors. Micro machined inductor. Effect of inductor layout. Modeling and
+design issues of planar inductor. Gap-tuning and area-tuning capacitors. Dielectric tunable capacitors.
+MEMS phase shifters. Types. Limitations. Switched delay lines. Fundamentals of RF MEMS Filters.
+Micro machined transmission lines. Coplanar lines. Micro machined directional coupler and mixer.
+Micro machined antennas. Micro strip antennas –design parameters. Micromachining to
+improve performance. Re configurable antennas.
+Text Book
+1. Vijay.K.Varadanetal, “RF MEMS and their Applications”, Wiley-India, 2011.
+Reference Books
+1. H.J.D.Santos, “RF MEMS Circuit Design for Wireless Communications”, Artech House,
+2002.
+2. G.M.Rebeiz, “RF MEMS Theory, Design, and Technology”, Wiley, 2003.
+3. Recent literature in RF MEMS Circuit Design.
+Course outcomes
+At the end of the course student will be able
+CO1: learn the Micro machining Processes
+CO2: learn the design and applications of RF MEMS inductors and capacitors.
+CO3: learn about RF MEMS Filters and RF MEMS Phase Shifters.
+CO4: learn about the suitability of micro machined transmission lines for RF MEMS
+CO5: learn about the Micro machined Antennas and Reconfigurable Antennas
+78 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

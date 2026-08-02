@@ -1,0 +1,57 @@
+Course Code : ECOE12
+Course Title : HIGH SPEED SYSTEM DESIGN
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : OE
+Course Learning Objective
+ To expose the students to all aspects of electronic packaging including electrical, thermal,
+mechanical and reliability issues.
+Course Content
+Functions of an Electronic Package, Packaging Hierarchy, IC packaging: MEMS packaging, consumer
+electronics packaging, medical electronics packaging, Trends, Challenges, Driving Forces on
+Packaging Technology, Materials for Microelectronic packaging, Packaging Material Properties,
+Ceramics, Polymers, and Metals in Packaging, Material for high density interconnect substrates
+Overview of Transmission line theory, Clock Distribution, Noise Sources, power Distribution, signal
+distribution, EMI; crosstalk and nonideal effects; signal integrity: impact of packages, vias, traces,
+connectors; non-ideal return current paths, high frequency power delivery, simultaneous switching
+noise; system-level timing analysis and budgeting; methodologies for design of high speed buses;
+radiated emissions and minimizing system noise.
+Electrical Anatomy of Systems Packaging, Signal Distribution, Power Distribution, Electromagnetic
+Interference, Design Process Electrical Design: Interconnect Capacitance, Resistance and Inductance
+fundamentals; Transmission Lines , Clock Distribution, Noise Sources, power Distribution, signal
+distribution, EMI, Digital and RF Issues. Processing Technologies, Thin Film deposition, Patterning,
+Metal to metal joining.
+IC Assembly – Purpose, Requirements, Technologies, Wire bonding, Tape Automated Bonding, Flip
+Chip, Wafer Level Packaging , reliability, wafer level burn – in and test.Single chip packaging:
+functions, types, materials processes, properties, characteristics, trends. Multi-chippackaging : types,
+design, comparison, trends. Passives: discrete, integrated, and embedded –encapsulation and sealing:
+fundamentals, requirements, materials, processes
+Printed Circuit Board: Anatomy, CAD tools for PCB design, Standard fabrication, Microvia Boards.
+Board Assembly: Surface Mount Technology, Through Hole Technology, Process Control and Design
+challenges. Thermal Management, Heat transfer fundamentals, Thermal conductivity and resistance,
+Conduction, convection and radiation – Cooling requirements.
+Reliability, Basic concepts, Environmental interactions. Thermal mismatch and fatigue – failures –
+thermo-mechanically induced – electrically induced – chemically induced. Electrical Testing: System
+level electrical testing, Interconnection tests, Active Circuit Testing, Design for Testability.
+Text Book
+1.Tummala, Rao R., Fundamentals of Microsystems Packaging, McGraw Hill, 2001
+2.HowardJohnson , Martin Graham, High Speed Digital Design: A Handbook of Black Magic,
+Prentice Hall, 1993
+Reference Books
+1.Blackwell (Ed), The electronic packaging handbook, CRC Press, 2000.
+2.Tummala, Rao R, Microelectronics packaging handbook, McGraw Hill, 2008.
+3. Bosshart, Printed Circuit Boards Design and Technology,TataMcGraw Hill, 1988.
+4. R.G. Kaduskar and V.B.Baru, Electronic Product design, Wiley India, 2011
+5. R.S.Khandpur, Printed Circuit Board, Tata McGraw Hill, 2005
+6. Recent literature in Electronic Packaging.
+79 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course outcomes
+At the end of the course student will be able
+CO1: Design of PCBs which minimize the EMI and operate at higher frequency.
+CO2: Enable design of packages which can withstand higher temperature, vibrations and shock.
+80 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

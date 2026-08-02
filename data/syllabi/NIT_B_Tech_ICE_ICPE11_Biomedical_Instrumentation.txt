@@ -1,0 +1,79 @@
+Course Code : ICPE11
+Course Title : Biomedical Instrumentation
+Type of Course : PE
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To educate the students on the different medical instruments
+CLO2 To familiarize the students with the analysis and design of instruments to measure
+bio-signals like ECG, EEG, EMG, etc.
+CLO3 To have a basic knowledge in therapeutic devices
+CLO4 To introduce about the clinical laboratory instruments and familiar about electrical
+safety.
+Course Content
+Electro physiology: Review of physiology and anatomy, resting potential, action potential,
+bioelectric potentials, electrode theory, bipolar and uni-polar electrodes, surface electrodes,
+needle electrode and microelectrode, physiological transducers-selection criteria and its
+application.
+Bioelectric potential and cardiovascular measurements: ECG recording system, Heart sound
+measurement - stethoscope, phonocardiograph (PCG), Foetal monitor-ECG-
+phonocardiography, vector cardiograph, cardiac arrhythmia’s monitoring system. EMG, EEG
+- Evoked potential response, ERG and EOG recording system. Measurement of blood
+pressure using sphygmomanometer instrument based on Korotkoff sound, indirect
+measurement of blood pressure, automated indirect measurement, and direct measurement
+techniques.
+Clinical Laboratory Equipment: Chemical tests in clinical laboratory, Spectrophotometry and
+its type of instrument, Automated Biochemical Analysis System, Flame photometer. Blood
+gas analyzer, Acid – base balance, Blood, pH measurement, blood pCO2, blood pO2, Intra –
+arterial blood gas analyzers, Blood cell counters- types of blood cells, - methods of cell
+counting -coulter counter- Automatic recognition and differential blood cell counting.
+Respiratory and pulmonary measurements: Physiology of respiratory system, respiratory rate
+measurement- artificial respirator- oximeter, pulmonary function measurements–spirometer–
+photo plethysmography and body plethysmography. Principal and techniques of impedance
+pneumography, Apnea monitor.
+Electrical safety: Sources of electrical hazards in medical environment and safety techniques
+for checking safety parameters of biomedical equipment.
+References
+1. John G. Webster, John W Clark, jr, Medical Instrumentation Application and Design,
+4th Edition, John Wiley and sons, New York, 2010.
+2. John G. Webster, John W Clark, jr, Medical Instrumentation Application and Design,
+5th Edition, Wiley, 2020. (e book).
+3. Arthur Guyton, John E. Hall, Text Book of Medical Physiology, 14th Edition, Elsevier
+Saunders, 2020.
+B.Tech. / Instrumentation and Control Engineering 91 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+4. Leslie Cromwell, Fred J. Weibell and Erich A. Pfeiffer, Biomedical Instrumentation and
+Measurements, Prentice Hall of India, New Delhi, 2nd Edition,1990.
+5. Jerry. L.Prince, Jonathan M. Links, Medical Imaging Signals and Systems, 2ndEdition,
+Pearson / Prentice Hall, 2014.
+6. Shakti Chatterjee and Aubert Miller, Biomedical Instrumentation Systems, CENGAGE
+Learning publishing, 2010.
+7. Onkar N. Pandey and Rakesh Kumar, Bio‐Medical Electronics and Instrumentation,
+Katson Books,3rd edition, 2007.
+8. Joseph J. Carr and John M. Brown, Introduction to Biomedical Equipment Technology
+,4thEdition, Pearson publishing, 2000.
+9. R.S. Khandpur, Hand Book of Biomedical Instrumentation, 3rd edition, McGraw Hill
+Education (India) Private Limited, 2014.
+10. Cromwell, Biomedical Instrumentation and Measurement, 2nd Edition, Pearson India
+2015.
+11. Andrew G. Webb, Principles of Biomedical Instrumentation, Cambridge University
+Press, 2018.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 To understand, design and evaluate systems and devices that can measure, test
+and/or acquire bio- signal information from the human body.
+CO2 Familiar with patient monitoring equipment used in hospitals.
+CO3 Ability to explain the medical diagnostic and therapeutic techniques
+CO4 Familiar with various clinical laboratory instruments used for diagnosis.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 2 3 3 3 3 2 1 2 2 3 3 3 1
+CO2 3 3 3 2 3 3 3 2 2 2 2 3 3 3 2
+CO3 3 2 3 - - - - - - - - 2 3 3 -
+CO4 3 2 3 2 3 2 2 1 1 2 2 3 3 3 1
+B.Tech. / Instrumentation and Control Engineering 92 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

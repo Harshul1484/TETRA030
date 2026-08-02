@@ -1,0 +1,42 @@
+Course Code : ECMI21
+Course Title : ANTENNAS AND PROPAGATION
+Number of Credits 3
+Prerequisites : ECMI12
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To impart knowledge on basics of antenna theory and to analyze and design a start of art
+antenna for wireless communications.
+Course Content
+Radiation fundamentals. Potential theory. Helmholtz integrals. Radiation from a current element.
+Basic antenna parameters. Radiation field of an arbitrary current distribution. Small loop antennas.
+Receiving antenna. Reciprocity relations. Receiving cross section, and its relation to gain. Reception
+of completely polarized waves. Linear antennas. Current distribution. Radiation field of a thin dipole.
+Folded dipole. Feeding methods. Baluns.
+Antenna arrays. Array factorization. Array parameters. Broad side and end fire arrays. Yagi-Uda
+arrays Log-periodic arrays.
+Aperture antennas. Fields as sources of radiation. Horn antennas. Babinet’s principle. Parabolic
+reflector antenna. Microstrip antennas.
+Wave Propagation: Propagation in free space. Propagation around the earth, surface wave propagation,
+structure of the ionosphere, propagation of plane waves in ionized medium, Determination of critical
+frequency, MUF. Fading, tropospheric propagation, Super refraction.
+Text Books
+1. R.E.Collin, “Antennas and Radio Wave Propagation”, McGraw – Hill, 1985.
+2. W.L.Stutzman & G.A.Thiele, “Antenna Theory and Design”, Wiley.
+Reference Books
+1. K.F.Lee, “Principles of Antenna Theory”, Wiley, 1984.
+2. F.E. Terman, “Electronic Radio Engineering (4/e)”, McGraw Hill.
+3. J.R. James, P. S. Hall, and C. Wood, “Microstrip Antenna Theory and Design”, IEE, 1981.
+4. C.A.Balanis, “Modern Antenna Handbook”, Wiley India Pvt. Limited, 2008.
+Course outcomes
+At the end of the course student will be able
+CO1: select the appropriate portion of electromagnetic theory and its application to antennas.
+CO2: distinguish the receiving antennas from transmitting antennas, analyze and justify their
+characteristics.
+CO3: assess the need for antenna arrays and mathematically analyze the types of antenna arrays.
+CO4: distinguish primary from secondary antennas and analyze their characteristics by applying
+optics and acoustics principles.
+CO5: outline the factors involved in the propagation of radio waves using practical antennas.
+113 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,43 @@
+CE205 Surveying - I 3 0 0 3
+CE205 SURVEYING - I
+Course objectives:
+To understand the importance of surveying in the field of civil engineering
+To study the basics of linear/angular measurement methods like chain surveying, compass
+surveying
+To study the significance of plane table surveying in plan making
+To know the basics of levelling and theodolite survey in elevation and angular measurements
+To understand tacheometric surveying in distance and height measurements
+Course Content
+Introduction and Principles of surveying – Classification – Brief introduction to chain surveying –
+Chaining and ranging - Compass surveying – Prismatic compass only – Instruments – Bearing of
+survey lines – systems and conversions – Local attraction – Latitude and departure – Traversing –
+Traverse adjustment of closing errors.
+6
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Plane Table surveying – instruments and accessories – advantages and disadvantages of plane table
+surveying – methods – radiation, intersection, traversing, resection – Two and three point problems –
+errors in plane table surveying.
+Levelling – Definitions – Levelling instruments – Temporary and permanent adjustments – Booking –
+Reduction to levels – Correction for Curvature and refraction – Classification of leveling – Profile
+Levelling – Differential levelling – Reciprocal levelling – longitudinal and cross sectioning - Contours –
+Contour interval – Methods of contouring – uses.
+Theodolite surveying – Vernier theodolite – Temporary and permanent adjustments – Measurement of
+horizontal and vertical angles – Methods of repetition and reiteration – errors in theodolite surveying –
+elimination of errors - Area and volume computation – area from latitude and departure – Simpson’s
+rule and Trapezoidal rule.
+Tacheometric surveying – Principles – Methods – Stadia system –Fixed and Movable hair methods –
+Methods with staff held vertical and normal – Analytic lens – Subtense bar – Tangential method.
+References
+1. Duggal, S.K. Surveying Vol. I and II, Tata McGraw Hill, 2004.
+2. Punmia, B.C. Surveying Vol.I and II, Standard Publishers, 1994.
+3. Arora, K. R. Surveying Vol. I and II, Standard Book House, 1996
+.
+Course outcomes:
+On completion of the course, the students will be able to:
+carry out preliminary surveying in the field of civil engineering applications such as structural,
+highway engineering and geotechnical engineering
+plan a survey, taking accurate measurements, field booking, plotting and adjustment of
+traverse
+use various conventional instruments involved in surveying with respect to utility and precision
+plan a survey for applications such as road alignment and height of the building
+undertake measurement and plotting in civil engineering

@@ -1,0 +1,41 @@
+Course Code : ECPE41
+Course Title : ELECTRONIC DESIGN AUTOMATION TOOLS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : HO
+Course learning Objective
+ To make the students exposed to Front end and Back end VLSI CAD tools.
+Course content
+OS Architecture: System settings and configuration. Introduction to UNIX commandsHandling
+directories, Filters and Piping, Wildcards and Regular expression, Power Filters and Files Redirection.
+Working on Vi editor, Basic Shell Programming, TCL Scripting language.
+Algorithms in VLSI: Partitioning methods: K-L, FM, and Simulated annealing algorithms. Placement
+and Routing algorithms, Interconnects and delay estimation.
+Synthesis and simulation using HDLs-Logic synthesis using Verilog. Memory and FSM synthesis.
+Performance driven synthesis, Simulation- Types of simulation. Static timing analysis. Formal
+verification. Switch level and transistor level simulation.
+System Verilog- Introduction, Design hierarchy, Data types, Operators and language constructs.
+Functional coverage, Assertions, Interfaces and test bench structures.
+Analog/Mixed Signal Modelling and Verification: Analog/ Mixed signal modelling using Verilog-A
+and Verilog-AMS. Event Driven Modelling: Real number modelling of Analog/Mixed blocks
+modelling using Verilog-RNM/System Verilog. Analog/Digital Boundary Issues: boundary issues
+coverage
+Text Books
+1. M.J.S.Smith, “Application Specific Integrated Circuits”, Pearson, 2008.
+2. S.Sutherland, S. Davidmann, P. Flake, “System Verilog for Design”, (2/e), Springer, 2006.
+Reference Books
+1. H.Gerez, “Algorithms for VLSI Design Automation”, John Wiley, 1999
+2. Z. Dr Mark, “Digital System Design with System Verilog “, Pearson, 2010.
+3. Recent literature in Electronic Design Automation Tools.
+Course outcomes
+At the end of the course student will be able
+CO1: execute the special features of VLSI back end and front end CAD tools and UNIX shell script
+CO2: explain the algorithms used for ASIC construction
+CO3: design synthesizable Verilog and VHDL code.
+CO4: explain the difference between Verilog and system Verilog and are able to write system Verilog
+code.
+CO5: Model Analog and Mixed signal blocks using Verilog A and Verilog AMS
+64 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

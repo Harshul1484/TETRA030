@@ -1,0 +1,45 @@
+Course Code : ECPC15
+Course Title : DIGITAL SIGNAL PROCESSING
+Number of Credits 4
+Prerequisites : ECPC10
+(Course code)
+Course Type : PC
+Course Learning Objective
+(i) To study about discrete-time Fourier transform (DTFT), the concepts of frequency response
+characteristics of a discrete-time systems, DFT and its fast computation.
+(ii) To make the students able to design digital filters (FIR and IIR) and implement in various
+forms.
+(iii) To study and understand the concept of multirate DSP systems and its applications
+Course Content
+Review of LSI system, DTFT, Frequency response of discrete time systems, all pass inverse, linear
+phase and minimum phase systems.
+DFT, Relationship of DFT to other transforms, FFT, DIT and DIF, FFT algorithm, Linear filtering
+using DFT and FFT.
+Characteristics of FIR Digital Filters, types and frequency response - Design of FIR digital filters using
+window techniques and frequency sampling technique - basic structures and lattice structure for FIR
+systems.
+Analog filter approximations – Butter worth and Chebyshev, Design of IIR Digital filters from analog
+filters, Analog and Digital frequency transformations - Basic structures of IIR systems, Transposed
+forms.
+Sampling rate conversion by an integer and rational factor, Poly phase FIR structures for sampling
+rate conversion.
+Text Books
+1. J.G.Proakis, D.G. Manolakis, “Digital Signal Processing”, (4/e) Pearson, 2007.
+2. A.V.Oppenheim & R.W.Schafer, “Discrete Time Signal processing", (2/e), Pearson
+Education, 2003.
+Reference Books
+1. S.K.Mitra, “Digital Signal Processing (3/e)”, Tata McGraw Hill, 2006.
+2. P.S.R.Diniz, E.A.B.da Silva and S.L.Netto, “Digital Signal Processing”, Cambridge, 2002.
+3. E.C.Ifeachor & B.W.Jervis, “Digital Signal Processing”, (2/e), Pearson Education, 2002.
+4. J.R.Jhonson, “Introduction to Digital Signal Processing”, Prentice-Hall, 1989.
+Course outcomes
+At the end of the course student will be able to
+CO1: analyze discrete-time systems in both time & transform domain and also through pole-zero
+placement.
+CO2: analyze discrete-time signals and systems using DFT and FFT.
+CO3: design and implement digital finite impulse response (FIR) filters.
+CO4: design and implement digital infinite impulse response (IIR) filters.
+CO5: understand and develop multirate digital signal processing systems.
+22 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

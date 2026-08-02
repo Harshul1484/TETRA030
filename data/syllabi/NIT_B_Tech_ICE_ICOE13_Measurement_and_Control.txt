@@ -1,0 +1,76 @@
+Course Code : ICOE13
+Course Title : Measurement and Control
+Type of Course : Open Elective (OE)
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessments, Assignments, Final
+Methods Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge in the basics of measurement system.
+CLO2 To expose the students to various measurement techniques used for the
+measurement of important process variables.
+CLO3 To expose the students to the basics of control systems.
+Course Content
+Fundamental and Importance of Instrumentation, types of instruments, selection of
+instruments, performance of instruments, error in measurement, calibration and standard,
+Calibration of instruments: Methods and analysis, Introduction to Transducer and types,
+Process Instrumentation, recording instruments, indicating and recording Instruments.
+Strain and Displacement Measurement:
+Factors affecting strain measurements, Types of strain gauges, theory of operation, strain
+gauge materials, gauging techniques and other factors, strain gauge circuits and applications
+of strain gauges. Resistive potentiometer (Linear, circular and helical), L.V.D.T., R.V.D.T. and
+their characteristics, variable inductance and capacitance transducers, Piezo electrical
+transducers, Hall Effect devices and Proximity sensors.
+Pressure and Temperature Measurement:
+Mechanical devices like Diaphragm, Bellows, and Bourdon tube for pressure measurement,
+Variable inductance and capacitance transducers, Piezo electric transducers, L.V.D.T. for
+measurement of pressure.
+Resistance type temperature sensors – RTD and Thermistor, Thermocouples and
+Thermopiles, Laws of thermocouple, Fabrication of industrial thermocouples, Radiation
+methods of temperature measurement.
+Flow and Level Measurement:
+Differential pressure meters like Orifice plate, Venturi tube, flow nozzle, Pitot tube,
+Rotameter, Turbine flow meter, Electromagnetic flow meter, Ultrasonic flowmeter.
+Resistive, inductive and capacitive techniques for level measurement, Ultrasonic
+methods, Air purge system (Bubbler method).
+Elements of control systems, concept of open loop and closed loop systems, Examples and
+application of open loop and closed loop systems, brief idea of multivariable control systems.
+Brief idea of proportional, derivative and integral controllers.
+B.Tech. / Instrumentation and Control Engineering 218 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. D Patranabis, Principles of Industrial Instrumentation, Mc Graw hill, 3rdedition. 2017
+2. A. K. Ghosh, Introduction to Instrumentation and Control, PHI publications, 4thedition.
+2012
+3. Nakra Chaudhari, Instrumentation measurement and analysis, Mc Graw hill,
+3rdedition.2017
+4. S. K. Bhattacharya, Control Systems Theory and Applications,Pearson.2013
+5. N. C. Jagan, Control Systems, BSPublications.2016
+6. S. K. Singh, Industrial Instrumentation andControl, TMH Publication.2010.
+7. Thomos G. Beckwith and Lewis Back N. Adison Wesely Longman, Mechanical
+Measurements, Harlow.1993
+8. E. D. Doeblin, Measurement Systems: Application and Design, McGraw – Hill
+Publication 2019.
+9. I. J. Nagrath and M. Gopal, Control Systems Engineering, New Age International
+(P) Limited, Publishers.2025
+10. N. K. Sinha, Control Systems, New Age International (P) LimitedPublishers.2013.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Familiar with the basics of measurement system, its characteristics and principles
+of few transducers.
+CO2 Familiar with the different temperature, pressure, flow and level measurement
+techniques used in process industries.
+CO3 Able to select and make measurements of temperature, flow, pressure and level in
+any process industry.
+CO4 Familiar with the concept of closed loop control system.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 3 2 2 - - - 3 3 3 -
+CO2 3 3 3 3 2 3 2 2 - - - 3 3 3 -
+CO3 3 3 3 3 2 3 2 2 - - - 3 3 3 -
+CO4 3 3 3 3 3 3 2 2 - - - 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 219 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

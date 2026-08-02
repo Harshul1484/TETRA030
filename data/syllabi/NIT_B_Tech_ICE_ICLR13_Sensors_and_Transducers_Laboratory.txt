@@ -1,0 +1,48 @@
+Course Code : ICLR13
+Course Title : Sensors and Transducers Laboratory
+Type of Course : LR
+Prerequisites : ICPC14
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To familiarize the students to the basic principles of various transducers.
+CLO2 To impart knowledge in static and dynamic characteristics of sensors.
+CLO3 To impart knowledge in the design of signal conditioning circuits for transducers.
+CLO4 To study the characteristics of micro sensing devices
+List of Experiments
+1. Characteristics of (Resistive and Thermo-emf) temperature sensor
+2. Characteristics of Piezoelectric measurement system
+3. Measurement of displacement using LVDT
+4. Characteristics of Hall effect sensor
+5. Measurement of strain using strain gauges
+6. Measurement of torque using Strain gauges
+7. Measurement using proximity sensors
+8. Characteristics of capacitive measurement systems
+9. Loading effects of Potentiometer
+10. Design of Opto-coupler using photoelectric transducers
+11. Characteristics of Micro pressure and Micro accelerometer sensing device
+12. Study of speed measuring devices and Gyroscope
+References
+1. John P. Bentley, Principles of Measurement Systems, Pearson Education, 4th Edition,
+2005.
+2. Ernest O. Doebelin and Dhanesh N. Manik, Measurement Systems, McGraw Hill
+Education, 7th Edition, 2019.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Analyze the static characteristics of different measurement systems
+CO2 Design the signal conditioning circuits for transducers
+CO3 Choose the appropriate measuring meter to avoid loading
+CO4 Formulate the design specification of transducer for a given application
+B.Tech. / Instrumentation and Control Engineering 79 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 2 1 2 - 1 1 2 2 3 2 -
+CO2 3 3 3 3 3 1 1 2 1 1 2 2 3 3 2
+CO3 3 2 3 3 2 1 2 - 1 1 2 2 3 2 -
+CO4 3 3 3 3 3 2 2 - 1 2 3 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 80 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

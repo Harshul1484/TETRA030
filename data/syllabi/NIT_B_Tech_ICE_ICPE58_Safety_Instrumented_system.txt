@@ -1,0 +1,78 @@
+Course Code : ICPE58
+Course Title : Safety Instrumented system
+Type of Course : PE
+Prerequisites : ICPC17
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To make the students aware of basic concepts of safety instrumented system,
+standards and risk analysis techniques.
+CLO2 To make the students understand different layers of protection.
+CLO3 To make student conscious about safety instrumentation applications.
+CLO4 To make the students aware of potential events and impact of failures.
+CLO5 To make students aware of design, installation and maintenance procedures.
+Course Content
+INTRODUCTION : Safety Instrumented System (SIS): need, features, components,
+difference between basic process control system and SIS - Risk: how to measure risk, risk
+tolerance, Safety integrity level, safety instrumented functions - Standards and Regulation –
+HSE-PES, AICHE-CCPS, IEC-61508, ANSI/ISA-84.00.01-2004 (IEC 61511 Mod) and
+ANSI/ISA – 84.01-1996, NFPA 85, API RP 556, API RP 14C, OSHA (29 CFR 1910.119 –
+Process Safety Management of Highly Hazardous Chemicals – SIS design cycle - Process
+Control vs. Safety Control.
+PROTECTION LAYERS AND SAFETY REQUIREMENT SPECIFICATIONS : Prevention
+Layers: Process Plant Design, Process Control System, Alarm Systems, Procedures,
+Shutdown/Interlock/Instrumented Systems (Safety Instrumented Systems – SIS), Physical
+Protection - Mitigation Layers: Containment Systems, Scrubbers and Flares, Fire and Gas
+(FandG) Systems, Evacuation Procedures - Safety specification requirements as per
+standards, causes for deviation from the standards.
+SAFETY INTEGRITY LEVEL (SIL) Evaluating Risk, Safety Integrity Levels, SIL
+Determination Method : As Low As Reasonably Practical ( ALARP ), Risk matrix, Risk Graph,
+Layers Of Protection Analysis ( LOPA ) – Issues related to system size and complexity –
+Issues related to field device safety – Functional Testing.
+SYSTEM EVALUATION :Failure Modes, Safe/Dangerous Failures, Detected/Undetected
+Failures, Metrics: Failure Rate, MTBF, and Life, Degree of Modeling Accuracy, Modeling
+Methods: Reliability Block Diagrams, Fault Trees, Markov Models - Consequence analysis:
+Characterization of potential events, dispersion, impacts, occupancy considerations,
+consequence analysis tools - Quantitative layer of protection analysis: multiple initiating
+events, estimating initiating event frequencies and IPL failure probabilities.
+CASE STUDY : SIS Design check list - Case Description: Furnace/Fired Heater Safety
+Shutdown System: Scope of Analysis, Define Target SILs, Develop Safety Requirement
+Specification (SRS), SIS Conceptual Design, Lifecycle Cost Analysis, Verify that the
+Conceptual Design Meets the SIL, Detailed Design, Installation, Commissioning and Pre-
+start-up Tests, Operation and Maintenance Procedures.
+B.Tech. / Instrumentation and Control Engineering 185 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Paul Gruhn and Harry L. Cheddie, Safety Instrumented systems: Design, Analysis and
+Justification, ISA, 2nd edition, 2018.
+2. Eric W. Scharpf, Heidi J. Hartmann, Harlod W. Thomas, Practical SIL target selection:
+Risk analysis per the IEC 61511 safety Lifecycle, exida2nd Edition 2016.
+3. William M. Goble and Harry Cheddie, Safety Instrumented Systems Verification:
+Practical Probabilistic Calculations ISA, 2005.
+4. Edward Marszal, Eric W. Scharpf, Safety Integrity Level Selection: Systematic Methods
+Including Layer of Protection Analysis, ISA, 2002.
+5. Standard - ANSI/ISA-84.00.01-2004 Part 1 (IEC 61511-1 Mod) Functional Safety:
+Safety Instrumented Systems for the Process Industry Sector - Part 1: Framework,
+Definitions, System, Hardware and Software Requirements, ISA, 2004.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Analyse the role of safety instrumented system in the industry and identify the
+hazards.
+CO2 Determine the safety integrity level for an application and characterize the safety
+environment in industry.
+CO3 Analyse the failure modes, failure rates and MTBF using various reliability
+engineering tools.
+CO4 Apply the design, installation and maintenance procedures for SIS applied to
+industrial processes.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO2 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 186 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

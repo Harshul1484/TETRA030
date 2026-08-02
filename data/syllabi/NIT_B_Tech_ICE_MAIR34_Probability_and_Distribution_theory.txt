@@ -1,0 +1,65 @@
+Course Code : MAIR34
+Course Title : Probability and Distribution theory
+Type of Course : IR
+Prerequisites : -
+Contact Hours : 56 (4 credits)
+Course Assessment Methods : Continuous Assessments, End Assessment
+Course Learning Objectives (CLO)
+To formally introduce the ideas of uncertainty and randomness that prevail in
+measurements and generation of controlled sequences in engineering
+applications.
+The course objectives are: to
+CLO1 Familiarize basic concepts of probability and random variables
+CLO2 Identifying and analyzing random variables in practical problems
+CLO3 Introduce important probability distributions for analyzing the data
+CLO4 Solve real-world problem using probability techniques
+Course Content
+Introduction to Basic Probability, Review of set theory and combinatorics, binomial probability
+law, computer simulations of real-world examples – communications and quality control,
+Conditional Probability, Joint events, statistically independent events, Bayes theorem,
+applications to cluster recognition
+Probability of discrete random variables, Important probability mass functions (PMFs),
+Approximation of the binomial PMF with Poisson PMF, Transformations, Cumulative
+distribution functions, expected values of discrete random variables, functions of discrete
+random variables, variance and moments, characteristic functions, estimating means and
+variances, applications to data compression
+Jointly distributed random variables, expectations, joint moments, prediction of outcomes, joint
+characteristic functions, Conditional PMFs.
+Continuous random variables, expectations, Conditional probability density functions,
+continuous N- dimensional random variables, applications to signal detection.
+Probability and moment approximations, Law of large numbers, central limit theorem,
+applications to cooperative control and opinion polling.
+References
+1. M.C. Douglas, and R.C. George, Applied Statistics and Probability for Engineers,7th
+Edition, Wiley,2018
+2. S. M. Kay, Intuitive Probability and Random Processes using MATLAB, Springer, 2017
+3. S. Ross, Introduction to Probability and Statistics for Engineers and Scientists, 5th
+Edition, Elsevier,2014
+4. Y. Viniotis, Probability and Stochastic Processes for Electrical Engineers, Tata McGraw
+Hill,1998
+5. M. Evans and J. Rosenthal, Probability and Statistics: The Science of Uncertainty, 2nd
+Edition, WH Freeman, 2010
+6. P. Olofson, Probabilities: The Little Numbers that Rule our Lives, Wiley, 2007
+B.Tech. / Instrumentation and Control Engineering 28 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On successful completion of the course students will be able to
+CO1 Identify an appropriate probability distribution for a given discrete or continuous
+random variable and use its properties to calculate probabilities
+CO2 Evaluate probabilities for joint distributions including marginal and conditional
+probabilities
+CO3 Derive the probability density function of random variables and use techniques to
+generate data from various distributions
+CO4 Translate real-world problems into probability models and apply probability and
+statistical techniques for solving them.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 29 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

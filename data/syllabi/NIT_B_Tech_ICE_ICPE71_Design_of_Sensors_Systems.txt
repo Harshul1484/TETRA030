@@ -1,0 +1,82 @@
+Course Code : ICPE71
+Course Title : Design of Sensors Systems
+Type of Course : PE
+Prerequisites : ICPC17
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To provide knowledge on the design of signal conditioning circuits for resistive,
+capacitive and thermal transducers to improve the sensor characteristics.
+CLO2 To provide knowledge on the design of transmitters with industrial standard.
+CLO3 To impart the knowledge of data acquisition system design, sensor networks
+and buses
+CLO4 To provide knowledge about the smart sensor design, direct sensor
+microcontroller interface and universal interfacing circuit.
+Course Content
+Design of signal conditioning circuits for resistive, capacitive, thermal transducers for
+improving linearity, sensitivity and other required specifications and performance through
+hardware and software methods through theory and practical approach. Linearization, A/D
+conversion, temperature compensation. Noise analysis of interface circuits. Current,
+frequency, period or pulse-width modulation conversion
+Review of transmitters – design of two wire and four wire transmitters using analog electronic
+circuits and IC’s. EMI and EMC design consideration for sensor interfacing circuit design.
+Introduction to data acquisition system, issues related to interfacing of static and dynamic
+sensors. Design of data acquisition for a given measurement application through theory and
+practical approach. Introduction to Sensor buses and sensor network protocols.
+Smart sensors and digital sensor system design: Technologies and design methodology,
+IEEE 1451 standard and frequency sensors.
+Direct sensor-microcontroller interface for resistive and capacitive transducers: design and
+practical implementation. Universal frequency to digital converter, universal sensors and
+transducer interface- features and performance, future trends in sensor circuit design.
+B.Tech. / Instrumentation and Control Engineering 211 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Ramon Pallas Areny, John G. Webster, Sensors and Signal Conditioning, 2nd Edition,
+John Wiley and Sons, 2000.
+2. Kirianaki N.V., Yurish S.Y., ShpakN.O., Deynega V.P., Data Acquisition and Signal
+Processing for Smart Sensors, John Wiley and Sons, Chichester, UK, 2002
+3. Ferran Reverter, Ramon Pallas Areny, Direct Sensor-to Microcontroller Interface
+Circuits: Design and Characterization, Marcombo S.A., 2005
+4. Smart Sensors and MEMS, ed. by S.Y. Yurish and M.T. Gomes, Springer Verlag,
+2005
+5. A. Custodio, R. Bragos, R. Pallas-Areny, A Novel Sensor-Bridge-to- Microcontroller
+Interface, in Proceedings of IEEE Instrumentation and Measurement Technology
+Conference, Budapest, Hungary, 21-23 May, 2001
+6. Thomas L. Floyd, David Buchla, Fundamentals of analog circuits, 2002- Prentice Hall.
+7. Ernest O. Doebelin; Measurement System Application and Design; Mc- Graw Hill;
+5thEdition, 2019.
+8. S. Y. Yurish, F. Reverter, R. Pallas-Areny, Measurement error analysis and uncertainty
+reduction for period-and time interval-to-digital converters based on microcontrollers,
+Measurement Science and Technology, Vol.16, No.8, 2005, pp.1660-1666.
+9. William C. Dunn, Introduction to Instrumentation, Sensors, and Process Control,
+Artech House, 2005.
+10. Jacob Fraden, Handbook of Modern Sensors: Physics, Designs, and Applications,
+Springer, 2014.
+11. H.R. Taylor, Data Acquisition for Sensor Systems, Springer, 2010.
+12. Manabendra Bhuyan, Intelligent Instrumentation: Principles and Applications, CRC
+Press Taylor and Francis Group, 2010.
+13. B.E. Noltingk, Instrumentation Reference Book, Butterworth- Heinemann, 2nd Edition
+1995.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design signal conditioning circuits for resistive, capacitive and thermal
+transducers
+CO2 Design transmitters for the required physical parameters using analog circuits and
+IC.
+CO3 Interface sensors signal with DAQ, Microcontroller and will be familiar with sensor
+buses and protocols.
+CO4 Design smart sensors systems with standard interfacing circuits.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 2 2 - 2 - - 3 3 2
+CO2 3 3 3 3 3 2 2 2 - 2 - - 3 3 2
+CO3 3 3 3 3 - - - - - 2 - - 3 3 -
+CO4 2 3 3 3 - 3 3 2 - 2 - - 3 3 2
+B.Tech. / Instrumentation and Control Engineering 212 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+OPEN ELECTIVES (OE)
+B.Tech. / Instrumentation and Control Engineering 213 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

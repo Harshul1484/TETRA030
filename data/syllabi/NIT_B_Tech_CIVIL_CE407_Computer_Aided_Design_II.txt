@@ -1,0 +1,32 @@
+CE407 Computer Aided Design - II 0 0 3 2
+CE407 COMPUTER AIDED DESIGN – II
+Course objectives:
+To learn the software developing skills for structural design
+To understand the computing techniques in the field of transportation
+To gain knowledge in networking and flowcharts in water resources
+To understand the computing skills in the field of geotechnical engineering
+To study the different software packages for analysis and design
+Course Content
+R.C.C: Slabs - Beams- Columns - Retaining walls.
+Steel: Trusses - Beams - Columns - Column Bases - Plate girders - Gantry girders - Connections.
+Transportation planning process- Trip generation and distribution- Network analysis - Shortest path
+algorithms.
+Water resources - Pipe networks - Canal design - Backwater profile - Synthetic derivation of stream
+flows using random numbers - Dam stability
+Analysis and design packages in Structural Engineering, Transportation Engineering, Water Resources
+Engineering and Geotechnical Engineering
+References
+1. Krishnamoorthy, C.S. and Rajeev, S., Computer Aided Design and Analytical Tools, Narosa, 1993.
+2. Papacostas, C.S., Fundamentals of Transportation Engineering Prentice-Hall of India, 2001.
+34
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+3. Loucks, D.P., Stedinger, J.R. and Haith, D.A., Water Resource Systems Planning and Analysis,
+Prentice-Hall INC, 1981.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the software skills in the design of infrastructure
+apply computing techniques to transportation engineering
+analyze water resource networks
+apply computing skills to geotechnical engineering
+run various software packages
+SEMESTER VIII

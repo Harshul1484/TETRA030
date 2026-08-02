@@ -1,0 +1,55 @@
+Course Code : ICPE55
+Course Title : Data structures and algorithms
+Type of Course : PE
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessment, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To introduce first level topics covering basics in Algorithms and Data Structures
+CLO2 To provide examples for various design paradigms
+CLO3 To identify the basic properties of graphs and trees and model simple applications
+Course Content
+Introduction to problem solving, Mathematical preliminaries, Growth of functions, time
+complexity and space complexity, worst-case and average-case analyses, use of order
+notations and related results, recurrence relations: substitution method, recurrence trees,
+Master’s theorem and its applications.
+Insertion-Sort, Divide and Conquer Strategy and Merge-Sort, Heap-sort, Quick-sort,
+Randomized versions of Quick-sort, sorting in linear time,
+Elementary data structures (Arrays, Stacks, Queues, Linked Lists), Hash tables, Binary
+search trees, Advanced data structures: B-Trees, Fibonacci heaps, Data structures for disjoint
+sets (for applications in control system design).
+Dynamic Programming, Greedy Algorithms, B-Trees, Elementary Graph Algorithms,
+Arithmetic Circuits, Matrix Operations, Linear Programming, Polynomials and FFT, Number
+Theoretic Algorithms
+Advanced Topics – NP-Completeness, Approximation Algorithms, Randomized Algorithms,
+Applications in Engineering – Control Systems, VLSI Design, etc.
+References
+1. Cormen TH, Leiserson CE, \and Rivest RL, Introduction to Algorithms, 3rd Edition,
+Prentice Hall of India. (This book is popularly called as C-L-R)
+2. Ellis Horowitz, Sartaj Sahni and Sanguthevar Rajasekaran, ―Fundamentals of
+Computer Algorithms‖, Second Edition, Universities Press, 2008.
+3. Kenneth A. Berman and Jerome L. Paul, Algorithms, Cengage Learning India, 2010.
+4. Alfred V Aho, John E Hopcroft and Jeffrey D Ullman, ―The Design and Analysis of
+Computer Algorithms‖, First Edition, Pearson Education, 2006.
+5. Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein,
+Introduction to Algorithms, 4th Edition, MIT Press, PHI, 2021.
+B.Tech. / Instrumentation and Control Engineering 179 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Use linear and nonlinear data structures to solve real-time problems
+CO2 Apply basic searching and sorting techniques in different application domains
+CO3 Apply basic soring techniques in different application domains
+CO4 Use design strategies to solve complex problems
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 180 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

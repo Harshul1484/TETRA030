@@ -1,0 +1,68 @@
+Course Code : ICPC14
+Course Title : Sensors and Transducers
+Type of Course : PC
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to various sensors and transducers for measuring
+mechanical quantities.
+CLO2 To make the students familiar with the specifications of sensors and transducers.
+CLO3 To teach the basic conditioning circuits for various sensors and transducers.
+CLO4 To introduce about advancements in sensor technology.
+Course Content
+General concepts and terminology of measurement systems, transducer classification,
+general input-output configuration, static and dynamic characteristics of a measurement
+system, Statistical analysis of measurement data.
+Resistive transducers: Potentiometers, metal and semiconductor strain gauges and signal
+conditioning circuits, strain gauge applications: Load and torque measurement.
+Self and mutual inductive transducers- capacitive transducers, eddy current transducers,
+proximity sensors.
+Piezoelectric transducers and their signal conditioning, Ultrasonic sensors, Seismic
+transducer and its dynamic response, seismic accelerometers, Force-Balance transducers:
+Theory-servo systems for measurement of non-electrical quantities.
+Photoelectric transducers, Digital displacement sensors: Position Encoders, Variable
+frequency sensors, Tacho-generators and stroboscope, Hall Effect sensors, Magnetostrictive
+transducers.
+Introduction to semiconductor sensor, materials, scaling issues and basics of micro
+fabrication. Smart sensors. Introduction to flexible sensors and sensor fusion.
+References
+1. John P. Bentley, Principles of Measurement Systems, Pearson Education, 4th Edition,
+2005.
+2. Doebelin E.0, Measurement Systems - Application and Design, McGraw-Hill, 4th
+Edition, 2004.
+3. S.M. Sze, Semiconductor sensors, John Wiley and Sons Inc., 3rd edition, 2006.
+4. James W. Dally, Instrumentation for Engineering Measurements, Wiley, 2nd
+Edition,1993
+5. John G. Webster, Sensors and Signal Conditioning, Wiley Inter Science, 2nd edition,
+2008
+6. Patranabis, Sensors and Transducers, Prentice Hall, 2nd edition, 2003.
+7. Alok Baura, Fundamentals of Industrial Instrumentation, Wiley India Pvt. Ltd, 2011.
+8. Murthy D. V. S, Transducers and Instrumentation, Prentice Hall, 2nd Edition, 2011
+9. Neubert H.K.P, Instrument Transducers - An Introduction to their Performance and
+Design, Oxford University Press, 2nd Edition, 1999.
+10. Waldemar Nawrocki, Measurement Systems and Sensors, Artech House, 2005
+11. B.E. Noltingk, Instrumentation Reference Book, Butterworth- Heinemann, 2nd Edition
+1995.
+B.Tech. / Instrumentation and Control Engineering 48 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+12. Kirianaki N.V., Yurish S.Y., Shpak N.O., Deynega V.P., Data Acquisition and Signal
+Processing for Smart Sensors, John Wiley and Sons, Chichester, UK, 2002.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the basics of measurement system- its input, output configuration and
+its static and dynamic characteristics.
+CO2 Explain the principle and working of various sensors and transducers.
+CO3 Design signal conditioning circuit for various transducers.
+CO4 Identify or choose a transducer for a specific measurement application.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 2 3 - 1 - 2 - - - 2 - -
+CO2 2 3 3 - - - - - 2 - - 2 2 3 -
+CO3 2 3 3 - - - - - 2 - - 2 2 3 -
+CO4 - 2 3 - - - - - 2 - - 2 2 3 -
+B.Tech. / Instrumentation and Control Engineering 49 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

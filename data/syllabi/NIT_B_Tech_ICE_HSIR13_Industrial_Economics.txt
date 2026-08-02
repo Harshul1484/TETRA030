@@ -1,0 +1,65 @@
+Course Code : HSIR13
+Course Title : Industrial Economics
+Type of Course : IR
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessments, End Assessment
+Methods
+Course Learning Objectives (CLO)
+The course intends
+CLO1 To provide knowledge on demand analysis and forecasting of consumer
+behaviour
+CLO2 To provide knowledge to the students on the basic issues such as
+productivity, efficiency, capacity utilization and debates involved in industrial
+development
+CLO3 To provide knowledge on inter-regional and international trade
+CLO4 To give thorough knowledge about the economics of industry in a cogent and
+analytical manner.
+Course Content
+Demand Analysis and Forecasting: Cardinal Ordinal Approaches. Demand and Supply,
+Elasticities, Forecasting techniques, Consumer behavior.
+Production, Cost, and Market structure: Variable proportions, Returns to Scale, Isoquants
+Analysis, Production Function, Cost Curves, Cost Function, Market Analysis and game theory.
+Types, Location, Efficiency and Finance: Mergers and Amalgamations, Location of Industries
+and Theories, Productivity and Capacity Utilization, Shares, Debentures, Bonds, Deposits,
+Loan etc. FDI, Foreign Institutional Investment, Euro Issues, GDR, ADR, External Commercial
+Borrowings.
+Introduction: Features of International Trade. Inter-regional and international Trade. Problems
+of International Trade. Theories
+Terms of Trade- Concept, Measurement, Types, Factors affecting Terms of Trade, Exchange
+rate.
+Free Trade, Protection and Tariffs, Balance of Payments: Free Trade, Protection-Quotas,
+Dumping, etc. Balance of Trade and Balance of Payments.
+Regional Economic Groupings and International Institutions: BRICS, EU, SAARC, OPEC,
+ASEAN. International Institutions: GATT, WTO, UNCTAD, IBRD, IMF.
+References
+1. Chauhan, S.P.S. Micro Economics, An Advanced Treaties, PHI, 2011
+2. Jhingan, M.L. International Economics. Vrinda Publications, 2016
+3. Francis Charunilam. International Economics-Graw Hill, 5thEdition, 2017
+4. Paul, Krugman. International Economics. Pearson, 10th Edition, 2017
+5. Kenneth D. George. Industrial Organization, Routledge, 2009
+B.Tech. / Instrumentation and Control Engineering 30 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to
+CO1 Define micro economics, demand analysis, supply analysis, consumption laws, in
+difference curve analysis and competitions.
+CO2 Get knowledge on macroeconomics; differentiate with micro economics,
+importance, Keynes theory, functions of central and commercial bank.
+CO3 Know the Contributions of Fayol, Taylor’ managerial functions, balance sheet, and
+sources of finance.
+CO4 Differentiate marketing and selling, marketing myopia, and product lifecycle.
+CO5 Describe recruitment and selection, job evaluation and performance appraisal
+methods, communication, motivation and leadership.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 1 1 1 2 2 3 3 1 3 1 3 3 1 2 2
+CO2 1 1 1 2 2 3 3 2 3 2 3 3 2 1 2
+CO3 1 1 1 1 2 3 3 2 3 2 3 3 2 1 3
+CO4 1 1 1 1 1 3 3 2 3 2 3 3 1 2 3
+CO5 1 1 1 1 1 3 2 3 3 3 3 3 1 1 3
+B.Tech. / Instrumentation and Control Engineering 31 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

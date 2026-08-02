@@ -1,0 +1,53 @@
+Course Code : ICIR18
+Course Title : Comprehensive Viva-Voce
+Type of Course : IR
+Prerequisites : --
+Contact Hours : (1 credit)
+Course Assessment : Examinations with objective type questions during and at
+Methods the end of the semester
+Course Learning Objectives (CLO)
+CLO1 To make the student recall fundamental concepts in Instrumentation and Control
+Engineering.
+CLO2 To enable a holistic integration of learnings from different courses in the programme
+relevant to problem solving in Instrumentation and Control Engineering.
+CLO3 To make the student apply numerical aptitude and logical reasoning skills to
+confidently face written examinations as part of job placements and higher degree
+admissions.
+CLO4 To render the student capable of handling technical interviews as part of job
+placements and higher degree admissions.
+Course Regulation
+The comprehensive viva voce examination is conducted in the final year of study, i.e. in the
+7th Semester for B.Tech students and in 6th Semester for students opting B.Sc.(Engineering)
+exit.
+It shall consist of two objective tests of 25 marks each. The final examination shall have 50
+marks. The examination will be of objective type similar to the GATE examination in the stream
+of Instrumentation (IN).
+A department committee comprising the Head of the Department or his/her nominee and two
+faculty members of the department shall conduct the examinations.
+Course Outcomes (CO)
+On completion of the course, the student will be able to
+CO1 Recall and apply fundamental concepts in science and engineering to model
+practical scenarios.
+CO2 Integrate learnings from different courses in Instrumentation and Control
+Engineering and apply them for technical problem solving.
+CO3 Develop and Apply skills related to communication and problem solving while
+attending technical interviews
+CO4 Develop and Apply Numerical aptitude and logical reasoning skills to handle
+placement tests and other competitive examinations for higher degree admissions
+B.Tech. / Instrumentation and Control Engineering 38 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1
+3 3 3 2 2 _ _ _ _ _ _ 3 3 3 1
+CO2
+3 3 3 3 2 3 2 _ _ 2 2 3 3 3 2
+CO3
+_ _ _ 2 2 2 2 2 3 3 3 2 _ 2 3
+CO4
+2 _ 2 3 3 2 _ 2 2 3 3 2 2 2 3
+B.Tech. / Instrumentation and Control Engineering 39 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

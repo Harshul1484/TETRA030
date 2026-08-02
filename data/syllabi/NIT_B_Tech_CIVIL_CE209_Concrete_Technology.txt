@@ -1,0 +1,36 @@
+CE209 Concrete Technology 3 0 0 3
+CE209 CONCRETE TECHNOLOGY
+Course objectives:
+To understand the properties of ingredients of concrete
+To study the behavior of concrete at its fresh and hardened state
+To study about the concrete design mix
+To know about the procedures in concreting
+To understand special concrete and their use
+Course Content
+Introduction - Concrete materials - Cement: Physical tests on cement - Concrete materials - Tests on
+aggregates - Quality of Water for mixing and curing - use of sea water for mixing concrete
+8
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Mix Design - factors influencing mix proportion - Mix design by ACI method and I.S. code method -
+Design of high strength concrete.
+Admixtures - accelerating admixtures - Retarding admixtures - water reducing admixtures - Air
+entraining admixtures - coloring agent - Plasticizers. Batching - Mixing -Transportation - Placing of
+concrete - curing of Concrete
+Strength of Concrete - Shrinkage and temperature effects - creep of concrete - permeability of concrete
+- durability of concrete - Corrosion - Causes and effects - remedial measures- Thermal properties of
+concrete - Micro cracking of concrete.
+Special Concrete - light weight concrete - Fibre reinforced concrete - Polymer-polymer modified
+concrete - Ferrocement - Mass concrete - Ready mix concrete- Self compacting concrete- Quality
+control - Sampling and testing-Acceptance criteria
+References
+1. Shetty, M.S., Concrete Technology, Theory & Practice, S.Chand and Co, 2004.
+2. Gambhir, M.L., Concrete Technology, Tata McGraw Hill, 2004.
+3. Nevile, Properties of Concrete, Longman Publishers, 2004.
+4. Santakumar A.R., Concrete Technology, Oxford University Press, New Delhi, 2007.
+Course outcomes:
+On completion of the course, the students will be able to:
+test all the concrete materials as per IS code
+design the concrete mix using ACI and IS code methods
+determine the properties of fresh and hardened of concrete
+design special concretes and their specific applications
+ensure quality control while testing/ sampling and acceptance criteria

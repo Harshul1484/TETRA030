@@ -1,0 +1,49 @@
+Course Code : ECPE26
+Course Title : COGNITIVE RADIO
+Number of Credits 3
+Prerequisites : ECPC15
+(Course code)
+Course Type : PE
+Course learning Objective
+ This subject introduces the fundamentals of multi rate signal processing and cognitive radio.
+Course content
+Filter banks-uniform filter bank. Direct and DFT approaches. Introduction to ADSL Modem. Discrete
+multi-tone modulation and its realization using DFT.QMF. STFT. Computation of DWT using filter
+banks.
+DDFS- ROM LUT approach. Spurious signals, jitter. Computation of special functions using
+CORDIC. Vector and rotation mode of CORDIC. CORDIC architectures.
+Block diagram of a software radio. Digital down converters and demodulators Universal modulator
+and demodulator using CORDIC. Incoherent demodulation - digital approach for I and Q generation,
+special sampling schemes. CIC filters. Residue number system and high speed filters using RNS.
+Down conversion using discrete Hilbert transform. Under sampling receivers, Coherent
+demodulation schemes.
+Concept of Cognitive Radio, Benefits of Using SDR, Problems Faced by SDR, Cognitive Networks,
+Cognitive Radio Architecture. Cognitive Radio Design, Cognitive Engine Design,
+A Basic OFDM System Model, OFDM based cognitive radio, Cognitive OFDM Systems, MIMO
+channel estimation, Multi-band OFDM, MIMO-OFDM synchronization and frequency offset
+estimation. Spectrum sensing to detect Specific Primary System, Spectrum Sensing for Cognitive
+OFDMA Systems.
+Text Books
+1. J. H. Reed, “Software Radio”, Pearson, 2002.
+2. U. Meyer – Baese, “Digital Signal Processing with FPGAs”, Springer, 2004.
+Reference Books
+1. H. Arslan “Cognitive Radio, Software Defined Radio and Adaptive Wireless Systems”,
+University of South Florida, USA, Springer, 2007.
+2. S. K. Mitra, “Digital Signal processing”, McGrawHill,1998
+3. K.C.Chen, R.Prasad, “Cognitive Radio Networks”, Wiley, 2009-06-15.
+4. T.W.Rondeau, C.W.Bostian, “Artificial Intelligence in Wireless Communications”,2009.
+5. Tusi, “Digital Techniques for Wideband receivers”, Artech House, 2001.
+6. T. DarcChiueh, P. Yun Tsai,” OFDM baseband receiver design for wireless
+communications”, Wiley,2007
+7. Recent literature in Cognitive Radio
+Course outcomes
+At the end of the course student will be able
+CO1: gain knowledge on multi-rate systems.
+CO2: develop the ability to analyze, design, and implement any application usingFPGA.
+CO3: be aware of how signal processing concepts can be used for efficient FPGA based
+system design.
+CO4: understand the rapid advances in Cognitive radio technologies.
+CO5: explore DDFS, CORDIC and its application.
+47 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

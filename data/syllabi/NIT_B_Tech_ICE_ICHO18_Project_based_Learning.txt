@@ -1,0 +1,62 @@
+Course Code : ICHO18
+Course Title : Project-based Learning
+Type of Course : HO
+Prerequisites : -
+Contact Hours : 56 (4 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To enable the student to design, develop and construct hands-on solution to a
+problem.
+CLO2 To build student’s creative capacity to work through problems that may or may not
+be well-defined.
+CLO3 To provide students opportunities to work across disciplines, on real-world
+problems of technical interest
+CLO4 To foster student independence, ownership of his/her work and the development of
+practical skills that are valued at the workplace.
+Course Content
+The course provides an opportunity to the students to carry out semester-long research and
+development project in an identified area of research, with the guidance of a faculty supervisor.
+The activities are designed in an engaging experience, in such a way that the academic skills,
+capabilities and logical thinking converge towards solving of open ended problems.
+The typical phases of the work done by the student could be:
+• Problem identification: Defining a problem in terms of given constraints or challenges
+• Devising solutions: Listing down possible multiple ideas to solve a problem, and
+choosing the potential solution path to the problem (i.e., how to achieve the solution)
+• Prototyping: Designing and developing a prototype of the solution
+• Testing the developed solution products or services, Refining the solution based on
+feedback from experts,instructors, and/or peers.
+The evaluation will be based on weekly productivity and punctuality of the student, who will be
+applying knowledge and skills towards solving the problem. The student would submit two
+intermediate progress reports through the semester and a final report at the end. The reports
+should be of high academic quality so that they can culminate in a research publication in a
+well-reputed journal or conference in the chosen field of study.
+The learning from the course would be student-centric, and could be tied to his/her readiness
+for a career in the industry or higher academic research.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Identify a problem of significance to the industry and the academic community, with
+the help of mentor
+CO2 Design the most effective solution to the problem, given the constraints and
+challenges
+CO3 Develop a prototype, that would be an embodiment of the proposed solution.
+CO4 Present a technical report on the overall project.
+B.Tech. / Instrumentation and Control Engineering 257 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1
+3 3 3 _ 2 2 _ _ 2 2 2 2 3 _ 1
+CO2
+3 2 3 2 2 2 3 2 2 2 3 2 3 3 2
+CO3
+3 3 3 3 3 2 2 3 2 2 3 2 3 3 2
+CO4
+2 2 _ 3 3 2 3 3 3 3 3 2 3 3 3
+B.Tech. / Instrumentation and Control Engineering 258 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+MINOR (MI) COURSES
+B.Tech. / Instrumentation and Control Engineering 259 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

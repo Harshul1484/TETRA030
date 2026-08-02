@@ -1,0 +1,85 @@
+Course Code : ICIR14
+Course Title : Professional Ethics
+Type of Course : IR
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessments, End Assessment
+Methods
+Course Learning Objectives (CLO)
+CLO1 To identify the core values that shape the ethical behavior of an engineer.
+CLO2 To relate the code of ethics to social experimentation and to appreciate the rights
+of others.
+CLO3 To understand the difference between moral standards and professional ethics.
+CLO4 To evaluate the need for computer ethics.
+Course Content
+Introduction to Ethics, Moral and Values
+Occupation – Profession – Professionalism - Concept of Ethics - need for Ethics in
+Engineering - impact of unethical conducts on society and professional - Importance of Moral
+and Value in profession – core values, Hollow values and its impact - Work Ethics – Styles of
+Ethics -Service Learning, components, reflections, evaluation and its assessment – Civic
+Virtue - Respect for Others in Engineering Work Place– Living Peacefully – Caring and
+Sharing in engineering –- General Etiquette for students
+Ethical Theories and Engineering
+Kohlberg’s theory – Gilligan’s theory- utilitarianism and Cost Benefit analysis – Duty Ethics
+and Right Ethics - Its Impact on Engineering Practices – Virtue Ethics and Personal vs.
+Corporate Morality - moral autonomy –– Consensus and Controversy - Moral issues in
+Engineering – types of inquiry – moral dilemmas – Ethical Problem-Solving Techniques -
+Types of Issues in Engineering and Ethical Problem Solving - line-drawing technique, flow
+charting method with examples and applications - conflict problem solving methods - Models
+of Professional Roles and Professionalism
+Engineering Projects and Expected Traits
+Engineering as experimentation – engineers as responsible experimenters – Codes of ethics
+- Research ethics– Industrial Standard – purpose, types and use - Balanced outlook on law –
+Collegiality and loyalty–respect for authority in industry–collective bargaining–Confidentiality–
+conflicts of interest and conflicting interest
+Safety, Responsibilities and Rights
+Safety and risk–definition-subjective nature and depending factors – types of risks – types of
+safety in industry- Risk benefit analysis and reducing risk – Govt. Regulator’s approach to risks
+- the challenger case study – the three mile island and Chernobyl case studies and Bhopal
+UCC accident – causes, ethical and safety issues – Accidents and Engineer’s role - Designing
+for Safety - Threat of Nuclear Power – depletion of ozone, greenery effects – occupational
+crime – professional rights – employees’ rights – whistle- blowing – condition and types of
+whistle blowing - Confidentiality and Proprietary Information - Intellectual Property Rights (IPR)
+B.Tech. / Instrumentation and Control Engineering 32 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Ethics in Present Scenario and Engineers Role
+Multinational corporations – Business ethics – Environmental ethics – computer ethics – Role
+in Technological Development – Ethics for Weapons development – engineers as managers
+– consulting engineers – engineers as expert witnesses and advisors – Leadership - sample
+code of conduct ethics like ASME, ASCE, IEEE, Institution of Engineers (India), Indian Institute
+of Materials Management, Institution of Electronics and Telecommunication Engineers (IETE),
+India, etc.,
+References
+1. Mika Martin and Roland Scinger, Ethics in Engineering, Pearson Education/Prentice
+Hall, 3rd Edition, 2017
+2. Govindarajan M., Natarajan S., Senthil Kumar V. S., Engineering Ethics, Prentice Hall
+of India, New Delhi, 2004
+3. Charles D. Fleddermann, Ethics in Engineering, Pearson Education/Prentice Hall, New
+Jersey, 2004 (Indian Reprint).
+4. Charles E. Harris, Michael S. Protchard and Michael J. Rabins, Engineering Ethics –
+Concept and Cases, Wadsworth Thompson Learning, United States, 2000 (Indian
+Reprint now available). Concepts and Cases, Thompson Learning, 2000
+5. John R. Boatright, Ethics and Conduct of Business, Pearson Education, New Delhi,
+2003
+6. Edmund G. Seebauer and Robert L. Barry, Fundamentals of Ethics for Scientists and
+Engineers, Oxford University Press, 2001
+Course Outcomes (CO)
+On completion of this course, the students will be able to
+CO1 Understand the basic perception of profession, professional ethics, and various
+moral and social issues.
+CO2 Demonstrate awareness of their rights and responsibility as engineers.
+CO3 Acquire knowledge about various roles of engineers in a variety of global issues.
+CO4 Thrive in competitive professional spaces with integrity and responsibility.
+CO5 Learn to be empathetic and assertive leaders in their respective profession.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 1 1 1 2 1 3 2 3 3 2 3 3 1 2 3
+CO2 1 1 1 1 1 3 2 3 3 2 2 3 1 2 3
+CO3 2 1 1 1 1 3 3 3 3 3 3 3 2 3 3
+CO4 1 1 2 2 2 3 3 3 3 3 3 3 1 3 3
+CO5 1 1 2 2 1 3 2 3 3 3 3 3 1 2 3
+B.Tech. / Instrumentation and Control Engineering 33 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

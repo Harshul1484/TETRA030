@@ -1,0 +1,54 @@
+Course Code : ECMI14
+Course Title : DIGITAL CIRCUITS AND SYSTEMS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : MI
+Course Learning Objective
+ To introduce the theoretical and circuit aspects of digital electronics, which is the back bone
+for the basics of the hardware aspect of digital computers
+Course Content
+Review of number systems-representation-conversions, error detection and error correction. Review
+of Boolean algebra- theorems, sum of product and product of sum simplification, canonical forms-
+minterm and maxterm, Simplification of Boolean expressions-Karnaugh map, completely and
+incompletely specified functions, Implementation of Boolean expressions using universal gates.
+Combinational logic circuits- adders, subtractors, BCD adder, ripple carry look ahead adders, parity
+generator, decoders, encoders, multiplexers, DE multiplexers, Realization of Boolean expressions-
+using decoders-using multiplexers. Memories – ROM- organization, expansion. PROMs. Types of
+RAMs – Basic structure, organization, Static and dynamic RAMs, PLDs, PLAs.
+Sequential circuits – latches, flip flops, edge triggering, asynchronous inputs. Shift registers, Universal
+shift register, applications. Binary counters – Synchronous and asynchronous up/down counters, mod-
+N counter, Counters for random sequence.
+Synchronous circuit analysis and design: structure and operation, analysis-transition equations, state
+tables and state diagrams, Modelling- Moore machine and Mealy machine- serial binary adder,
+sequence recogniser, state table reduction, state assignment. Hazard; Overview and comparison of
+logic families.
+Introduction to Verilog HDL, Structural, Dataflow and behavioural modelling of combinational and
+sequential logic circuits.
+Text Books
+1. Wakerly J F, “Digital Design: Principles and Practices, Prentice-Hall”, 2nd Ed., 2002.
+2. D. D. Givone, “Digital Principles and Design”, Tata Mc-Graw Hill, New Delhi, 2003.
+Reference Books
+1. S.Brown and Z.Vranesic, “Fundamentals of Digital Logic with Verilog Design”, Tata Mc-
+Graw Hill, 2008.
+2. D.P. Leach, A. P. Malvino, GoutamGuha, “Digital Principles and Applications”, Tata Mc-
+Graw Hill, New Delhi, 2011.
+3. M. M. Mano, “Digital Design”, 3rd ed., Pearson Education, Delhi, 2003.
+4. R.J.Tocci and N.S.Widner, “Digital Systems - Principles& Applications”, PHI, 10th Ed.,
+2007.
+5. Roth C.H., “Fundamentals of Logic Design”, Jaico Publishers. V Ed., 2009.
+6. T. L. Floyd and Jain,”Digital Fundamentals”, 8th ed., Pearson Education, 2003.
+Course outcomes
+At the end of the course student will be able
+CO1: Apply the knowledge of Boolean algebra and simplification of Boolean expressions to
+deduce optimal digital networks.
+CO2: Study and examine the SSI, MSI and Programmable combinational networks.
+CO3: Study and investigate the sequential networks suing counters and shift registers; summarize
+the performance of logic families with respect to their speed, power consumption, number of ICs
+and cost.
+CO4: Work out SSI and MSI digital networks given a state diagram based on Mealy and Moore
+configurations.
+CO5: Code combinational and sequential networks using Virology HDL.
+106 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

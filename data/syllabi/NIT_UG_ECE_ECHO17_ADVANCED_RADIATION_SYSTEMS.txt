@@ -1,0 +1,55 @@
+Course Code : ECHO17
+Course Title : ADVANCED RADIATION SYSTEMS
+Number of Credits 3
+Prerequisites : ECPC19
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To prepare the students understand the operating principles of various RF radiating systems.
+ To enable the students appreciate the diverse applications of radiating systems.
+ To design the suitable antenna systems to serve a defined application.
+Course content
+Antenna Fundamentals
+Antenna fundamental parameters, Radiation integrals, Radiation from surface and line current
+distributions – dipole, monopole, loop antenna; Broadband antennas and matching techniques,
+Balance to unbalance transformer, Introduction to numerical techniques.
+Apertures Antennas
+Field equivalence principle, Radiation from Rectangular and Circular apertures, Uniform aperture
+distribution on an infinite ground plane; Slot antenna; Horn antenna; Reflector antenna, aperture
+blockage, and design consideration.
+Arrays
+General structure of phased array, linear array theory, variation of gain as a function of pointing
+direction, frequency scanned arrays, digital beam forming, and MEMS technology in phased arrays-
+Retro directive and self-phased arrays.
+Micro Strip Antenna
+Radiation Mechanism from patch; Excitation techniques; Microstrip dipole; Rectangular patch,
+Circular patch, and Ring antenna – radiation analysis from transmission line model, cavity model;
+input impedance of rectangular and circular patch antenna; Application of microstrip array antenna.
+Terahertz Planar Antennas
+Electronics band gap materials - Photonic Band-gap Structures- Tera Hertz Patch antennas-Special
+antenna structures.
+Text Books
+rd.
+1. S. Haykins,” Communication Systems”, John Wiley, 3 Edition,1995.
+2. RR Gulathi, “Monochrome and Colour Television”, New Age International Publishers,
+nd
+2 edition, 2005.
+Reference Book
+1. J. G. Proakis& M .Salehi,” Communication Systems Engineering”, Prentice Hall,
+nd
+2 edition, 2002.
+th
+3. Kennedy & Davis,” Electronic Communication systems”, Tata McGraw Hill, 4 edition,
+1999.
+4. Recent literature in Advanced Radiation Systems.
+Course outcomes
+At the end of the course student will be able
+CO1: understand the various antenna parameters and different impedance matching
+techniques.
+CO2: understand the working principle of apertures antennas.
+CO3: analyze how the electronic beam formation is done using array of antennas.
+CO4: compare the merits and demerits of various microwave patch antenna structures.
+CO5: understand the photonic band gap structures and its application in tera hertz antennas.
+135 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,43 @@
+Course Code : ECPE40
+Course Title : Nano Electronics
+Number of Credits 3
+Prerequisites (Course : NONE
+code)
+Course Type : PE
+Course Objectives
+ To present the state of the art in the areas of semiconductor device physics and
+materials technology to enable nano-electronics
+ To provide and overview of nano materials and device fabrication
+ To discuss the extensive materials characterization techniques
+Course Content
+Overview: Nano devices, Nano materials, Nano characterization. Introduction to nano-electronics,
+CMOS technology scaling issues, Design techniques for nanoscale transistors
+MOS Electrical characterization, Non classical MOSFETs: overview and carrier transport in Nano-
+MOSFETs, Silicon on Insulator (SOI) MOSFET
+Metal-Semiconductor contacts and Metal-Source/Drain Junction MOSFETs, Germanium and
+compound semiconductor Nano MOSFETs
+Introduction to Nanomaterials, Quantum Mechanics and Quantum Statistics for considering
+Nanomaterials.
+Quantum mechanics and Quantum statistics for considering nanomaterials, synthesis/fabrication of
+nanomaterials, chemical vapour deposition (CVD) and atomic layer deposition (ALD).
+Characterization techniques for nanomaterials and nano structures – FTIR, XRD, AFM, SEM, TEM,
+EDAX
+NPTEL Link:
+https://nptel.ac.in/courses/117108047
+Text Books
+1. Y. Taur and T. Ning, “Fundamentals of Modern VLSI Devices”, Cambridge University Press,
+2nd Edition, 2013.
+Reference Books
+1. Plummer, Deal and Griffin, “Silicon VLSI Technology”, 1st edition, Pearson education, 2000.
+2. Brundle, C. R., Evans, Charles A. jr., Wilson and Shaun, “Encyclopaedia of Materials
+Characterization, 1992.
+Course Outcomes:
+At the end of the course, student will be able to
+CO1: get an insight of nano devices and nano materials
+CO2: learn the nano-micro fabrication
+CO3: get a foundation for the device fabrication
+CO4: study vast understanding to the device electronics for integrated circuits
+CO5: get an insight of nano materials and its characterization techniques.
+63 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

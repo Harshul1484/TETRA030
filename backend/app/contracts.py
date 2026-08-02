@@ -84,7 +84,11 @@ class GapReport(BaseModel):
 
     course_code: str
     course_title: str
-    health_score: float = Field(ge=0.0, le=100.0)
+    # None where the evidence is too thin to score. A course whose subject
+    # area holds two postings, both of which it covers, computes to a perfect
+    # 100, which is arithmetically correct and useless. Withholding the number
+    # is the same decision as withholding the findings.
+    health_score: float | None = Field(default=None, ge=0.0, le=100.0)
     scored_against: list[str] = Field(default_factory=list)
     domain_postings: int = 0
     evidence_thin: bool = False

@@ -1,0 +1,37 @@
+Course Code : ECLR13
+Course Title : MICROPROCESSOR AND MICROCONTROLLER
+LABORATORY
+Number of Credits 2
+Corequisites :
+(Course code)
+Course Type : ELR
+Course Objective
+ This course deals with several languages used for programming a Microprocessors
+and Microcontrollers through industry-standard compilers, Macro Assemblers,
+Debuggers, Real-time Kernels, and system-level simulators. Using the hardware kits
+to get the hands-on experience on 16-bit Microprocessor, 8-bit and 16-bit
+Microcontrollers and also interfacing the different peripherals.
+List of Experiments:
+Intel 8086 – 16bit µP- Emulator.
+1. Addressing modes of 8086 Microprocessor.
+2. Block move and simple arithmetic operations.
+3. Identification and displaying the activated key using DOS and BIOS function calls.
+Intel 8051 (8-bit Microcontroller) - Proteus VSM Simulator and Trainer Kit.
+4. Addressing modes of 8051 Microcontroller.
+5. Delay generation - i) Nested loop and ii) Timers.
+6. Toggling the ports and counting the pulses.
+7. LCD Interfacing.
+8. Generation of different waveforms using DAC (0808)
+9. ADC interfacing.
+Mixed-Signal Microcontroller – 16bit – MSP430 series
+10.PWM generation and speed control of Motors using MSP430.
+Course Outcomes:
+After successful completion of the course, the students are able to
+CO1: train their practical knowledge through laboratory experiments.
+CO2: understand and write the assembly language programs to control the systems.
+CO3: learn system-level simulator and design complete Microcontroller based modules.
+CO4: study Code Composer Studio to develop and debug embedded applications.
+CO5: do projects in IoT applications.
+124 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

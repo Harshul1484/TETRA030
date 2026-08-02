@@ -93,6 +93,31 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/courses/{course_code}/evidence": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Course Evidence
+         * @description The job postings a course's audit was measured against.
+         *
+         *     Every figure in the gap report reduces to a count of postings. Listing
+         *     them turns that count from an assertion into something the reader can
+         *     check, which matters most where the count is low enough to withhold the
+         *     findings entirely.
+         */
+        get: operations["course_evidence_api_courses__course_code__evidence_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/augment/{course_code}": {
         parameters: {
             query?: never;
@@ -464,7 +489,7 @@ export interface components {
             /** Course Title */
             course_title: string;
             /** Health Score */
-            health_score: number;
+            health_score?: number | null;
             /** Scored Against */
             scored_against?: string[];
             /**
@@ -642,6 +667,39 @@ export interface operations {
     course_roadmap_api_courses__course_code__roadmap_get: {
         parameters: {
             query?: never;
+            header?: never;
+            path: {
+                course_code: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    course_evidence_api_courses__course_code__evidence_get: {
+        parameters: {
+            query?: {
+                limit?: number;
+            };
             header?: never;
             path: {
                 course_code: string;

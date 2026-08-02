@@ -1,0 +1,54 @@
+Course Code : ICIR16
+Course Title : Internship / Industrial Training /
+Academic Attachment (Summer / Winter)
+Type of Course : IR
+Prerequisites : --
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Report and Oral examination
+Course Learning Objectives (CLO)
+CLO1 To provide the student an opportunity to engage in a short-term project at an
+industry, research organization or in an academic laboratory.
+CLO2 To make the student interact with industry personnel/ academic researchers and
+learn about relevant standards, advanced tools and techniques.
+CLO3 To inculcate in the student the values of professionalism, workplace ethics and
+socially and environmentally conscious behaviour.
+CLO4 To develop soft skills such as making reports and presentations, engaging in team
+discussions
+Course Regulation
+Each B.Tech. (ICE) student should undergo industrial training / internship / academic
+attachment for a minimum period of six weeks during the summer vacation between the 6th
+Semester and the 7th Semester. Registration of this course shall be along with the courses
+for 7th semester.
+A report is to be submitted to the Head of the Department and the evaluation (2 credit) will be
+based on the report and a viva-voce examination. The examiners for the viva voce
+examination shall be the Head of the Department and the Program Coordinator or their
+nominees.
+Students opting B.Sc. (Engineering) (ICE) exit should undergo the industrial training /
+internship / academic attachment during the winter vacation between the 5th Semester and
+the 6th Semester.
+Course Outcomes (CO)
+On completion of the internship, the students will be able to
+CO1 Interact with industrial personnel/ academic researchers, follow professional
+workplace behavior and build interpersonal and team skills.
+CO2 Learn about industry standards, socially and environmentally relevant practices
+followed in industries/ research labs.
+CO3 Describe the use of advanced tools and techniques encountered in industries and
+in academic laboratories during the internship
+CO4 Prepare professional work reports and make presentations.
+B.Tech. / Instrumentation and Control Engineering 34 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1
+_ _ _ _ _ 2 2 3 3 3 _ 2 2 2 3
+CO2
+3 3 3 3 3 3 3 2 2 2 3 3 3 3 2
+CO3
+3 3 3 3 3 2 2 _ _ _ _ 3 2 3 2
+CO4
+_ _ _ _ _ 2 2 3 2 3 2 2 2 2 2
+B.Tech. / Instrumentation and Control Engineering 35 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

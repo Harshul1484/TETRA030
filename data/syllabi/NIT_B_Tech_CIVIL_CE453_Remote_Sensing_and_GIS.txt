@@ -1,0 +1,41 @@
+CE453 Remote Sensing and GIS 3 0 0 3
+CE453 REMOTE SENSING AND GIS
+Course objectives:
+To know about the principles of remote sensing and spectral signatures
+To know about satellites, types of remote sensing and digital image processing
+To study about the history and components of GIS
+To study about data types and operations
+To know the applications of remote sensing and GIS
+Course Content
+Remote Sensing – Principle - Electro-magnetic energy, spectrum - EMR interaction with atmosphere –
+Atmospheric Windows and its Significance – EMR interaction with Earth Surface Materials – Spectral
+Signature and Spectral Signature curves for water, soil and Earth Surface.
+Satellites - Classification – Satellite Sensors – satellite and sensor parameters - Resolution – Types of
+Remote Sensing - Visual Interpretation of Satellite Images – Digital Image processing – Characteristics
+of different platforms: Landsat, SPOT, IRS series, IKONOS, QUICKBIRD – Radar, LIDAR, SAR,
+MODIS, AMSRE, Sonar remote sensing systems.
+39
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+GIS - History of Development - Components of GIS – Hardware, Software and Organizational Context –
+Data – Spatial and Non-Spatial – Data Input Sources–– DBMS – Data Output - Data models - Raster
+and Vector data structures – Data compression – Raster vs. vector comparison
+Analysis using Raster and Vector data – Operations – Overlaying - Buffering – Modelling in GIS - Digital
+Terrain Modelling, Analysis and application – Products of DEMs and their uses – Sources of errors in
+GIS and their elimination
+Applications of Remote Sensing and GIS – Advanced applications of GIS – Disaster management,
+Water resource, Landuse – Land cover – Urban planning - Intelligent Transport Systems - Development
+of Resources Information Systems.
+References
+1. Burrough P.A. and Rachel A. McDonell, Principles of Geographical Information Systems, Oxford
+Publication, 2004.
+2. C.P. Lo and Albert K. W. Yeung, Concepts and Techniques of Geographical Information Systems,
+Prentice- Hall India, 2006.
+3. Thomas. M. Lillesand and Ralph. W. Kiefer, Remote Sensing and Image Interpretation, John Wiley
+and Sons, 2003.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the concepts of Electro Magnetic energy, spectrum and spectral signature curves
+apply the concepts of satellite and sensor parameters and characteristics of different platforms
+apply the concepts of DBMS in GIS
+analyze raster and vector data and modelling in GIS
+apply GIS in land use, disaster management, ITS and resource information system

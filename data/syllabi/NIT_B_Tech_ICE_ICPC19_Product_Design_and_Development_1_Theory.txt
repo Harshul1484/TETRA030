@@ -1,0 +1,135 @@
+Course Code : ICPC19 – A
+Course Title : Product Design and Development - 1 (Theory)
+Type of Course : PC
+Prerequisites : --
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To inculcate into the student the spirit of innovation and entrepreneurship.
+CLO2 To make the students develop a marketable product on their own as a group by
+understanding the needs of the society and solving them using technical know-how.
+CLO3 To make students learn the general concepts needed for new product development
+and simultaneously learning how to interact with the society and learn its needs.
+CLO4 To expose students to the Entrepreneurship ecosystem in India and Intellectual
+Property rights
+Course Content
+The course consists of
+I. Conceptual topics covered by lectures (by the faculty instructor)
+II. Practical work outside the campus (under the guidance of assigned Mentor)
+CONCEPTUAL TOPICS COVERED BY LECTURES (Semester-IV)
+Introduction to product design – Product planning – Identifying customer needs – Project
+selection – Concept generation – Concept testing – Concept selection. Product specification
+– Product architecture – Industrial design – Robust design.
+Product development economics –Design for manufacturing – Supply chain design –
+Intellectual property – Design for environment.
+Understanding the Entrepreneurship ecosystem in India – Policies, Regulations, Opportunities
+for Entrepreneurial ventures
+Intellectual property rights
+PRACTICAL WORK (Semester-IV)
+Interaction with public outside the campus- identifying customer needs- product selection
+based on customer needs- concept generation- concept testing.
+Identifying fabrication requirements- Identifying fabricators for the project- costing- financial
+model for the product development- finding outside finance for product development if possible
+- patent search for the product.
+During the Semester-IV, a faculty member from the department would be assigned as a
+Mentor (preferably an expert from industry can be co-opted as an External Mentor) for the
+student group to carry out the Product Design and Development activities.
+SUMMER VACATION WORK (between Semester-IV and Semester-V)
+Students shall actively get information about fabrication of their product prototype, especially
+if it involves fabrication units outside the campus. If they have decided on the final design, they
+may start work on their alpha prototypes.
+B.Tech. / Instrumentation and Control Engineering 58 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Evaluation
+• The theoretical component will be evaluated during Semester-IV.
+• The practical component will be evaluated at the end of Semester-V. The students are
+expected to pursue practical work related to fabrication of prototypes during the
+summer vacation.
+References
+1. Karl T. Ulrich and Steven D. Eppinger, Product Design and Development, 3rd Edition,
+Tata McGraw Hill. 2020
+2. Robert D. Hisrich, Michael P Peters, and Dean A Shepherd, Entrepreneurship Sixth
+edition, Mc Graw Hill, 2002
+3. Michael Grieves, Product Life Cycle Management, Tata McGraw Hill, 2006
+4. G. B. Reddy, Intellectual Property Rights and the Law, Gogia Law Agency, 7th Edition,
+2009
+5. Baker, M. and Hart S. Product Strategy and Management. (2nd. Ed.)
+Edinburgh: Pearson Education, 2007
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Carry out market surveys for new product development.
+CO2 Understand and plan the entire cycle of new product design and development.
+CO3 Understand the economics of product design and development .
+CO4 Elaborate on various opportunities and funding sources for entrepreneurial ventures
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 2 3 2 3 3 3 3 3 3 3 3 3 2
+CO2 3 2 2 3 3 3 3 2 3 3 3 3 3 3 2
+CO3 1 2 2 2 3 3 3 2 3 3 3 3 3 3 2
+CO4 1 2 2 2 3 3 3 2 3 3 3 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 59 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Code : ICPC19 – B
+Course Title : Product Design and Development – 2
+(Practice)
+Type of Course : PC
+Prerequisites : ICPC19 – A
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To inculcate into the student the spirit of innovation and entrepreneurship.
+CLO2 To make the students develop a marketable product on their own as a group by
+understanding the needs of the society and solving them using technical know-how.
+CLO3 To make the students fabricate an alpha prototype and test it for its conformity to
+the design specifications.
+CLO4 To make the students fabricate a beta prototype, conforming to the design
+specifications, that is acceptable in the market-place.
+Course Content
+The course consists of
+(i) Design, Development and Testing of Alpha prototypes and Beta prototypes of the
+Product (under the guidance of assigned Mentor)
+(ii) Submission of Report for Design, Development and Testing of the prototypes
+The student group would work with the Mentor assigned during Semester-IV to carry out the
+Product Design and Development activities, in accordance with the product specifications
+described in Semester-IV.
+1. Alpha prototype fabrication and testing
+2. Beta prototype fabrication and customer acceptance survey
+The student groups shall be evaluated based on submitted reports on design, fabrication and
+testing of Alpha prototypes and Beta prototypes.
+Course Evaluation:
+• Demonstration of Alpha and Beta prototypes, and their conformance to the
+product specifications
+• Reports pertaining to fabrication and testing of prototypes
+References
+1. Karl T. Ulrich and Steven D. Eppinger, Product Design and Development, 3rd Edition,
+Tata McGraw Hill. 2020
+2. Clive L. Dym, Patrick Little, Engineering Design: A Project-based Introduction, 3rd
+Edition, John Wiley and Sons, 2009
+3. Effective Product Design and Development, Stephen Rosenthal, Business One Orwin,
+Homewood, 1992
+4. Michael Grieves, Product Life Cycle Management, Tata McGraw Hill, 2006
+5. Baker, M. and Hart S. Product Strategy and Management. (2nd. Ed.)
+Edinburgh: Pearson Education. 2007
+B.Tech. / Instrumentation and Control Engineering 60 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Carry out market surveys for new product development.
+CO2 Understand and plan the entire cycle of new product design and development.
+CO3 Fabricate and test prototypes of new products.
+CO4 Choose an appropriate agronomy for the product and adopt methods to minimize
+the cost
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 2 3 2 3 3 3 3 3 3 3 3 3 2
+CO2 3 2 3 3 2 3 3 2 3 3 3 3 2 3 2
+CO3 3 3 3 3 2 3 3 3 3 3 3 3 2 3 3
+CO4 3 3 3 3 2 3 3 3 3 3 3 3 3 3 3
+B.Tech. / Instrumentation and Control Engineering 61 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

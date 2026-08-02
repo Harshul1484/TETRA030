@@ -1,0 +1,44 @@
+Course Code : ECMI23
+Course Title : DIGITAL COMMUNICATION
+Number of Credits 3
+Prerequisites : ECMI20
+(Course code)
+Course Type : MI
+Course Learning Objectives
+ To understand the key modules of digital communication systems with emphasis on digital
+modulation techniques.
+ To get introduced to the basics of source and channel coding/decoding and Spread Spectrum
+Modulation.
+Course Content
+Base band transmission. Sampling theorem, Pulse code modulation (PCM), DM, Destination SNR in
+PCM systems with noise. Matched filter. Nyquist criterion for zero ISI. Optimum transmit and receive
+filters. Correlative Coding, M-ary PAM. Equalization- zero-forcing and basics of adaptive linear
+equalizers.
+BASK, BFSK, and BPSK- Transmitter, Receiver, Signal space diagram, Error probabilities.
+M-ary PSK, M-ary FSK, QAM, MSK and GMSK- Optimum detector, Signal constellation, error
+probability.
+Linear block codes-Encoding and decoding. Cyclic codes – Encoder, Syndrome Calculator.
+Convolutional codes – encoding, Viterbi decoding. TCM.
+Spread Spectrum (SS) Techniques- Direct Sequence Spread Spectrum modulation, Frequency-hop
+Spread Spectrum modulation - Processing gain and jamming margin.
+Text Books
+1. S.Haykin, “Communication Systems”, Wiley, (4/e), 2001.
+2. J.G.Proakis, “Digital Communication”, Tata McGraw – Hill, (4/e), 2001.
+Reference Books
+1. B.Sklar, “Digital Communications: Fundamentals & Applications”, Pearson Education,
+(2/e), 2001.
+2. A.B.Carlson, “ Communication Systems”, McGraw Hill, 3/e,2002
+3. R.E.Zimer & R.L.Peterson,” Introduction to Digital Communication”, PHI,3/e, 2001
+Course outcomes
+At the end of the course student will be able
+CO1: Apply the knowledge of signals and system and explain the conventional digital
+communication system.
+CO2: Apply the knowledge of statistical theory of communication and evaluate the performance
+of digital communication system in the presence of noise.
+CO3: Describe and analyze the performance of advance modulation techniques.
+CO4: Apply the knowledge of digital electronics and describe the error control codes like block
+code, cyclic code.
+CO5: Describe and analyze the digital communication system with spread spectrum modulation.
+115 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

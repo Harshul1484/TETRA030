@@ -1,0 +1,91 @@
+Course Code : ICPE62
+Course Title : Sensor Interface Design
+Type of Course : PE
+Prerequisites : ICPC11, ICPC12, ICPC17
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart expertise in designing analog signal conditioning circuits tailored for
+resistive, capacitive, inductive, and piezoelectric sensors with the aim of enhancing
+their performance characteristics.
+CLO2 To offer knowledge regarding the design of transmitters adhering to industrial
+standards.
+CLO3 To provide understanding of data acquisition system design and tackle associated
+challenges.
+CLO4 To provide knowledge about the modern digital interface, direct microcontroller
+interface and universal interface for sensors.
+Course Content
+Design of analog signal conditioning circuits for resistive, capacitive, inductive, and
+piezoelectric sensors to enhance linearity, sensitivity, resolution, and meet specific
+performance criteria using a practical hardware-based approach. Advanced electronic
+instrumentation for temperature compensation, power dissipation, addressing self-heating
+errors, managing current limits, evaluating circuit range and dynamic response. Noise
+analysis of interface circuits. Real-world case studies and hands-on experiences in analog
+interface design for temperature, pressure, and displacement sensors applied in industrial
+settings.
+Review of transmitter technologies: designing two-wire, three-wire, and four-wire transmitters
+with analog electronic circuits and integrated circuits (ICs). Developing interface circuits for
+lead resistance compensation and precise 4-terminal low-resistance measurements.
+Introduction to data acquisition system, A/D conversion, issues related to interfacing of static
+and dynamic sensors.
+Smart sensors and digital sensor system design, Basic of digital interfacing circuits for
+resistive, capacitive and inductive sensors. Digitizer design based on dual slope integrator
+for resistance to digital converter (RDC) and capacitance to digital converters (CDC).
+Addressing power dissipation, mitigating self-heating errors, managing current limits, and
+dynamic response of circuits. Case studies and hands-on for digital interface for sensors for
+industrial applications.
+Modern digital interfacing circuit based on switched capacitor (SC) and sigma-delta
+modulators. Case studies and hands-on for designing digital interface for gas sensors and
+meteorological parameters.
+Direct microcontroller interface (DMI) for resistive and capacitive transducers: design and
+practical implementation. Universal frequency to digital converter, universal sensors and
+transducer interface- features and performance, Using GPIO pins for digital interface for
+sensors, future trends in sensor circuit design, Case studies and hands-on for interfacing
+biomedical sensors with microcontrollers.
+B.Tech. / Instrumentation and Control Engineering 193 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Ramon Pallas-Areny, John G. Webster, Sensors and Signal Conditioning, 2/e, Wiley
+India, 2012.
+2. Daniel H. Sheingold, Transducer Interfacing Handbook, Analog Devices, 1980.
+3. Walt Kester, Practical Design Techniques for Sensor Signal Conditioning, Analog
+Devices, 1999.
+4. Walt Kester, Practical Analog Design Techniques, Analog Devices, 1995.
+5. Daniel H. Sheingold, Analog-Digital Conversion handbook, Analog Devices, 1986.
+6. Ferran Reverter, Ramon Pallas-Areny, Direct Sensor-to-Microcontroller
+Interface Circuits: Design and Characterization, Marcombo, 2005.
+7. Sergio Franco, Design with Operational Amplifiers and Analog Integrated Circuits, 4/e,
+TMH, 2016.
+8. William D. Stanley, Operational Amplifiers with Linear Integrated Circuits, 6/e, Pearson
+Education, 2004.
+9. Paul Horowitz and Winfield Hill, The art of electronics. 2/e. Cambridge University Press,
+2006.
+10. James W. Dally (Author), William F. Riley (Author), Kenneth G. Mcconnell,
+Instrumentation for Engineering Measurements, 2/e, Wiley India, 2010
+11. John P Bentley, Principles of Measurement Systems, 4/e Pearson Pentice Hall, 2005
+12. Ernest O. Doebelin (Author), Dhanesh N. Manik, Measurement Systems, 7/e, McGraw-
+Hill, 2019
+13. William C. Dunn, Introduction to Instrumentation, Sensors, and Process Control,
+Artech House, 2005.
+14. Jacob Fraden, Handbook of Modern Sensors: Physics, Designs, and Applications,
+Springer, 1993.
+15. H.R. Taylor, Data Acquisition for Sensor Systems, Springer, 2010.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design electronic interface circuits for resistive, capacitive, inductive, and
+piezoelectric sensors.
+CO2 Design analog electronic circuits and integrated circuits-based transmitters for
+specified physical parameters.
+CO3 Design digital interface circuits for resistive and capacitive sensors.
+CO4 Design direct microcontroller interface for resistive and capacitive transducers.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 1 2 2 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 2 2 3 -
+CO3 3 3 3 3 3 - - - 1 2 2 3 3 3 -
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 194 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

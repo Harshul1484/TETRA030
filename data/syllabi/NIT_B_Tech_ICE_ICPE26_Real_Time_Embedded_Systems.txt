@@ -1,0 +1,54 @@
+Course Code : ICPE26
+Course Title : Real-Time Embedded Systems
+Type of Course : PE
+Prerequisites : ICPC15, ICPC16
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the basic concepts of Embedded Systems
+CLO2 To expose to the design principles of advanced level ARM processors.
+CLO3 To provide basic understanding of the concepts of OS and RTOS.
+CLO4 To develop the embedded systems for real time system
+Course Content
+Embedded system architecture and classifications, challenges, choice and selection of
+microcontrollers for embedded systems design. ARM Processor – Evolution, Architecture
+versions, Processor Families, Instruction Set – ARM state and Thumb state instructions,
+Software development tools.
+ARM Cortex Architecture, Programming: Internal blocks – Processor core features, system
+peripherals, Memory map, bus system, debug support, User Peripherals, Serial Interfaces,
+Programming the peripherals using C – examples. Case studies of hardware design and
+software development.
+OS Concepts and types, tasks and task states, process, threads, inter process
+communication, task synchronization, semaphores, role of OS in real time systems,
+scheduling, resource allocation, interrupt handling, other issues of RTOS. Examples of RTOS.
+Working with RTOS with ARM Cortex embedded controllers
+References
+1. Johnathon M Valvano, Embedded Systems: Introduction to ARM Cortex M
+Microcontrollers, 5th Edition, 2017
+2. Johnathon M. Valvano, Real Time Operating Systems for ARM Cortex M
+Microcontrollers, 4th Edition, 2017
+3. Joseph Yiu, The Definitive Guide to ARM Cortex M3 and ARM Cortex M4 Processors,
+3rd Edition, 2019
+4. Cortex M4 Technical Reference Manual: ARM Rev r0p0 ,2010 https://documentation-
+service.arm.com/static/5f19da2a20b7cf4bc524d99a .
+5. ARMv7-M Architecture Reference Manual.2019
+https://developer.arm.com/documentation/ddi0403/latest/
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design an embedded system for simple applications.
+CO2 Develop applications using embedded ‘C’ language.
+CO3 Understand RTOS structure and types
+CO4 Develop the real time embedded systems
+B.Tech. / Instrumentation and Control Engineering 121 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 122 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

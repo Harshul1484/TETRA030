@@ -1,0 +1,44 @@
+Course Code : ECHO20
+Course Title : VLSI SYSTEM TESTING
+Number of Credits 3
+Prerequisites : ECPE31
+(Course code)
+Course Type : HO
+Course learning Objective
+ To expose the students, the basics of testing techniques for VLSI circuits and Test
+Economics.
+Course content
+Basics of Testing: Fault models, Combinational logic and fault simulation, Test generation for
+Combinational Circuits. Current sensing based testing. Classification of sequential ATPG methods.
+Fault collapsing and simulation
+Universal test sets: Pseudo-exhaustive and iterative logic array testing. Clocking schemes for delay
+fault testing. Testability classifications for path delay faults. Test generation and fault simulation for
+path and gate delay faults.
+CMOS testing: Testing of static and dynamic circuits. Fault diagnosis: Fault models for diagnosis,
+Cause- effect diagnosis, Effect-cause diagnosis.
+Design for testability: Scan design, Partial scan, use of scan chains, boundary scan, DFT for other
+test objectives, Memory Testing.
+Built-in self-test: Pattern Generators, Estimation of test length, Test points to improve testability,
+Analysis of aliasing in linear compression, BIST methodologies, BIST for delay fault testing.
+Text Books
+1. N. Jha& S.D. Gupta, “Testing of Digital Systems”, Cambridge,2003.
+2. W. W. Wen, “VLSI Test Principles and Architectures Design for Testability”, Morgan
+Kaufmann Publishers.2006
+Reference Books
+1. Michael L. Bushnell &Vishwani D. Agrawal,” Essentials of Electronic Testing for Digital,
+memory & Mixed signal VLSI Circuits”, Kluwar Academic Publishers.2000.
+2. P. K. Lala,” Digital circuit Testing and Testability”, Academic Press.1997.
+3. M. Abramovici, M. A. Breuer, and A.D. Friedman, “Digital System Testing and Testable
+Design”, Computer Science Press,1990.
+4. Recent literature in VLSI System Testing.
+Course outcomes
+At the end of the course student will be able
+CO1: apply the concepts in testing which can help them design a better yield in IC design.
+CO2: tackle the problems associated with testing of semiconductor circuits at earlier design
+levels so as to significantly reduce the testing costs.
+CO3: analyze the various test generation methods for static & dynamic CMOS circuits.
+CO4: identify the design for testability methods for combinational & sequential CMOS circuits.
+CO5: recognize the BIST techniques for improving testability.
+138 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

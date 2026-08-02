@@ -1,0 +1,54 @@
+Course Code : ICLR14
+Course Title : Microprocessors and Microcontrollers
+Laboratory
+Type of Course : LR
+Prerequisites : ICPC16
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To provide practical experience with 16bit/32bit microcontrollers / microprocessors
+CLO2 To provide hands-on experience on constructing signal conditioning circuit for the
+given peripheral devices
+CLO3 To enable the students to program, simulate and test various input output devices
+using a C language-based compiler.
+CLO4 To provide a platform for the students to do multidisciplinary projects.
+List of Experiments
+1. Familiarization with the given micro-controller board and its assembler.
+2. Basic I/O operations using switches, LEDs and LCD.
+3. Programming exercises using interrupts and timers
+4. ADC and DAC Interfacing.
+5. I/O interfaces- parallel, Serial, SPI, I2C data Transmission.
+6. Real time clock and memory interfacing with microcontroller
+7. Interfacing microcontroller with stepper motor
+8. Building microcontroller-based system for various applications
+References
+1. Kenneth J. Ayala, The 8051 Micro controller, Thomson Delmar Learning, 3rd Edition,
+2004.
+2. Andrew N. Sloss, Dominic Symes, and Chris Wright, ARM System Developer’s Guide:
+Designing and Optimizing System Software, Morgan Kaufmann Publishers, 2004.
+3. Joseph Yiu, The Definitive guide to ARM Cortex-M3 and Cortex-M4 Processors PB,
+Elsevier India Pvt Ltd, 3rd Edition, 2014
+4. John H. Davies, MSP430 microcontroller basics, Newnes, 1st Edition, 2008.
+5. C.P. Ravikumar, MSP430 Microcontroller in Embedded system projects, Elite
+publishing house Pvt. Ltd., 2012.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Program microprocessor/ micro-controller using a C language-based compiler.
+CO2 Understand the key concepts of embedded systems like IO, timers, interrupts, and
+interaction with peripheral devices
+CO3 Design appropriate signal conditioning circuit for peripheral devices to prepare the
+data to processor
+CO4 Design and develop embedded system for given applications
+B.Tech. / Instrumentation and Control Engineering 81 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 2 1 2 2 2 2 3 3 3 3 1
+CO2 3 3 3 2 2 1 2 2 2 2 2 3 3 3 1
+CO3 3 3 3 3 2 1 2 2 3 2 3 3 3 3 1
+CO4 3 3 3 3 2 1 2 2 3 2 3 3 3 3 1
+B.Tech. / Instrumentation and Control Engineering 82 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

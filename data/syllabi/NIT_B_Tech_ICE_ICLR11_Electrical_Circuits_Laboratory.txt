@@ -1,0 +1,52 @@
+Course Code : ICLR11
+Course Title : Electrical Circuits Laboratory
+Type of Course : LR
+Prerequisites : ICPC11
+Contact Hours : 28 (2 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To understand and analyze the basic theorems of Circuit theory
+CLO2 To analyze the transient and frequency response of the circuit
+CLO3 To realize and verify the AC circuits
+CLO4 To determine the parameters of one port and two port network.
+List of Experiments
+1. Verification of Kirchhoff’s Current and Voltage law
+2. Verification of Superposition Theorem
+3. Verification of Thevenin and Maximum Power Transfer Theorem
+4. Transient characteristics of RC, RL, and R-L-C circuit
+5. Frequency Response of RL, RC and RLC circuits and studying resonance condition.
+6. Realization and verification of AC circuits
+7. Verification of AC Network theorems
+8. Determination of Z, Y, and ABCD parameters of linear two port network
+9. Determination the driving point impedance of one port network by Frequency response
+method
+10. Experiment on three phase networks.
+References
+1. Charles K. Alexander and Matthew N. O. Sadiku, Fundamentals of Electric Circuits,
+Boston, MA, USA: McGraw-Hill Higher Education, 2007
+2. M.E. Van Valkenburg, Introduction to Modern Network Synthesis, Wiley, 1960
+3. Robert L. Boylestad, Electronic Devices and Circuit Theory, 11e, Pearson Education
+India, 1999
+4. M.E. Van Valkenburg, Network Analysis, Prentice Hall, 3rd Edition, 2006
+5. Richard C. Dorf and James A. Svoboda, Introduction to Electric Circuits, Wiley,6th
+Edition, 2006
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design and analyze electrical circuits based on circuit and network theorems.
+CO2 Analyze the time response and frequency response of RL, RC and RLC circuits.
+CO3 Determine the parameters of one port and two port network.
+CO4 Choose the appropriate instrument for measuring electrical quantities and verify the
+same for different circuits.
+B.Tech. / Instrumentation and Control Engineering 75 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 3 1 2 2 2 2 3 2 1
+CO2 3 3 3 3 3 2 3 1 2 2 2 2 3 2 1
+CO3 3 3 3 3 3 2 3 1 2 2 2 2 3 2 1
+CO4 3 2 3 3 3 2 3 1 2 2 2 2 3 2 1
+B.Tech. / Instrumentation and Control Engineering 76 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

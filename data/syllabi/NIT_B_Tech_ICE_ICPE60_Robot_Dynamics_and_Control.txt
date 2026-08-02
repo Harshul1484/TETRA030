@@ -1,0 +1,58 @@
+Course Code : ICPE60
+Course Title : Robot Dynamics and Control
+Type of Course : PE
+Prerequisites : ICPC18, ICPC21
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessments, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To understand the importance of Position and Orientation in specifying the
+complete description of Robots.
+CLO2 To study the Robot Dynamics and its properties.
+CLO3 To design various Controllers for the Trajectory Tracking Problem of the Robot.
+CLO4 To analyse the Stability of the Robot.
+Course Content
+Fundamentals of Robotics: Links and Joints, Types of Joints, Wrists Design, End Effectors,
+Actuators, Mathematical Representation of Robots, Position and Orientation, Homogeneous
+Transformation, Degrees-of-Freedom, Denavit-Hartenberg (D-H) Parameters, Forward
+Kinematics, Inverse Kinematics, Linear and Angular Velocities, Manipulator Jacobian, Wrist
+and Arm Singularity, Static Force Analysis.
+Robot Dynamics: Linear Acceleration, Angular Acceleration, Lagrange-Euler Method,
+Newton-Euler Method, Robotic Manipulator Dynamics in Cartesian Space, State-Space
+Model, Properties of Robot Dynamic Equations, Illustration on 2-DOF Robotic Manipulator.
+Robot Motion Control: Feedback Control System, Stabilization and Trajectory Tracking
+Problems, Control of Second-Order Systems, Modeling and Control of a single Joint,
+Manipulator Control Problem, Force Control of Robotic Manipulator, Design of Robust
+Controllers, Illustrative Examples.
+References
+1. A. Ghoshal, “Robotics: Fundamental Concepts and Analysis”, Oxford University Press,
+2010
+2. R. K. Mittal and I. J Nagrath, “Robotics and Control”, Tata McGraw Hill, 2003
+3. J. J. Craig, “Introduction to Robotics: Mechanics and Control”, Pearson Education,
+2022
+4. J.J. E. Slotine, “Applied Non-Linear Control”, Prentice Hall, 1991
+5. R. M. Murray, Z. Li, and S. S. Sastry, “A Mathematical Introduction to Robotic
+Manipulation”, CRC Press, 2017
+6. M. W. Spong and M. Vidyasagar, “Robot Dynamics and Control”, John Wiley & Sons,
+2008
+7. R. D. Klafter, T. A. Chmielewski and M. Negin, “Robotic Engineering: An Integrated
+Approach”, Prentice Hall, 1989
+8. H. K. Khalil, “Nonlinear Systems”, Prentice Hall, 1991
+B.Tech. / Instrumentation and Control Engineering 189 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 To explain the basic concepts of Mathematical Representation of Robot.
+CO2 Understand the Dynamic Model of the Robot and its properties.
+CO3 Design various Controllers for Trajectory Tracking Problem of Robot.
+CO4 Analyze the Stability of Robot Motion Control System.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 2 - - - - - - 3 3 3
+CO2 3 3 3 3 2 - - - - - - 3 3 3
+CO3 3 3 3 3 2 - - - - - - 3 3 3
+CO4 3 3 3 3 2 - - - - - - 3 3 3
+B.Tech. / Instrumentation and Control Engineering 190 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

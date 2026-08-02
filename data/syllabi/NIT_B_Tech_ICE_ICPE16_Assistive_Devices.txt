@@ -1,0 +1,79 @@
+Course Code : ICPE16
+Course Title : Assistive Devices
+Type of Course : PE
+Prerequisites : ICPE11
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To understand the concepts of various rehabilitation equipments for human
+movements and applications
+CLO2 To understand and gain knowledge about different hearing aids
+CLO3 To study various assist devices for visually and auditory impaired
+CLO4 Understand key terminology used by various aids within the disability community
+and its roles.
+Course Content
+Introduction to the Human body system, Principles of Assistive and Rehabilitation Technology,
+Design considerations, standards and key approaches to rehabilitation and Assistive
+Technology.
+Assistive Devices for Persons with Engineering Heart and Circulatory problem - Anatomy of
+Heart and circulatory system, Heart Assist Technology- Blood Pumps and Prosthetic Heart
+Valves.
+Assistive Devices for Persons with Visual Impairments - Anatomy of eye, Categories of visual
+impairment – Cortical and retinal implants, Blind mobility aids –reading writing - graphics
+access and Braille Reader, Tactile devices for visually challenged, Text to voice converter,
+Orientation and navigation Aids –Ultra sonic canes and laser canes.
+Assistive Devices for Persons with Hearing Impairments - Anatomy of ear -hearing functional
+assessment, Types of deafness, Hearing aids- Cochlear implants, Assistive technology for
+hearing Tactile -Information Display- Voice synthesizer and speech trainer.
+Anatomy of upper and lower extremities, Classification of amputation types, Prosthesis
+prescription - Components of upper and lower limb prosthesis, Different types of models for
+limb prosthetics- Body powered prosthetics- Myoelectric controlled prosthetics and Externally
+powered limb prosthetics. Functional Electrical Stimulation Systems-Restoration of hand
+function, restoration of standing and walking, Hybrid Assistive Systems (HAS).
+Concepts of Manipulation and mobility Aids, Grabbers, feeders, and page turners,
+Classification of manual and special purpose wheelchairs -Manual wheelchairs – Electric
+power wheel chairs - Power assisted wheel chairs -Wheel chair standards and tests, sports
+and racing wheel chairs.
+References
+1. M. Cook and Janice M. Polgar, Assistive Technologies Principles and Practice, 5th
+Edition, mosby,2020.
+2. Cooper Rory A, An Introduction to Rehabilitation, Taylor and Francis, London, 2012
+3. Joseph D. Bronzino, Handbook of Biomedical Engineering, 2nd Edition –Volume II, CRC
+press, 2000
+4. Muzumdar A, Powered Upper Limb Prostheses – Control, Implementation and Clinical
+Application, Springer, 2004.
+B.Tech. / Instrumentation and Control Engineering 101 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+5. Cook A.M. and Hussey S.M., Assistive Technologies: Principles and Practice, Mosby,
+USA, 1995.
+6. Teodorescu H.L.and Jain L.C., Intelligent systems and technologies in rehabilitation
+engineering, CRC Press, 2001.
+7. Warren E. Finn, Peter G. LoPresti, Handbook of Neuroprosthetic Methods, CRC; 1st
+edition 2002.
+8. Rory A Cooper, Hisaichi Ohnabe, Douglas A. Hobson, “An Introduction to
+Rehabilitation Engineering”, CRC Press, 2006.
+9. Marion A Hersh, Michael A, Johnson, Assistive Technology for Visually impaired and
+blind people”, Springer Publications, 1st Edition, 2008.
+10. Albert M. Cook, Janice Miller Polgar, Essentials of Assistive Technologies, Elsevier
+2012.
+11. Roberto Manduchi, Sri Kurniawan , Assistive Technology for Blindness and Low Vision,
+1st Edition, CRC Press, 2017.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Gain adequate fundamental knowledge about the needs of rehabilitations and
+its future development.
+CO2 Gain in-depth knowledge about various assistive technologies for vision and hearing
+CO3 Select the appropriate rehabilitation concept for various disabilities.
+CO4 Acquire basic design and analytical skills to model various types of Wheel Chairs for
+varied needs
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 2 - 3 3 3 1 1 1 - - - 3
+CO2 3 3 3 2 - 3 3 3 1 1 1 - - - 3
+CO3 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+CO4 2 2 2 2 2 1 1 1 3 3 3 2 2 2 1
+B.Tech. / Instrumentation and Control Engineering 102 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,29 @@
+Course Code : ECLR16
+Course Title : COMMUNICATION ENGINEERING LABORATORY
+Number of Credits 2
+Corequisites : ECPC18 & ECPC19
+(Course code)
+Course Type : ELR
+List of Experiments:
+1. AM Modulation and Demodulation
+2. DSB-SC Modulation
+3. Pulse Amplitude Modulation and Demodulation
+4. Pulse Width Modulation and Demodulation
+5. Pulse Position Modulation using PLL(IC 565)
+6. Amplitude Shift Keying (ASK) Modulation and Demodulation
+7. Frequency Shift Keying (FSK) Modulation and Demodulation
+8. Frequency Multiplier using PLL
+9. Analog and digital modulation using COMMSIM simulation tool
+10. Analog and digital modulation using MATLAB
+11. Sample and Hold Circuit
+12. Study of wireless communication system using Wi-Comm Kit
+Course Outcomes:
+At the end of the course student will be able
+CO1: To design and analyse the analog modulation and demodulation circuits
+CO2: To carry out analog pulse modulation and demodulation
+CO3: To design and perform digital modulation and demodulation
+CO4: To perform frequency multiplication using PLL
+CO5: To perform modulation using simulation tool and to get exposed to WiComm Kit.
+127 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

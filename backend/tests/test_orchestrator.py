@@ -40,6 +40,64 @@ def _build(rows):
             return pipeline.build_report("CS301", "Test Course")
 
 
+def _build_with_domain(rows, categories):
+    """Build a report where the course's own taught categories are known.
+
+    `_course_domain` reads these from the graph rather than from the gap
+    rows, because a discipline the corpus barely covers produces almost no
+    rows and was therefore invisible.
+    """
+    from app.pipeline.orchestrator import Pipeline
+
+    with patch.object(Pipeline, "__init__", lambda self: None):
+        pipeline = Pipeline()
+        with patch(
+            "app.pipeline.orchestrator.fetch_course_gaps", return_value=rows
+        ), patch(
+            "app.pipeline.orchestrator.fetch_courses", return_value=[]
+        ), patch(
+            "app.pipeline.orchestrator.fetch_course_categories",
+            return_value=categories,
+        ):
+            return pipeline.build_report("CE303", "Structural Analysis")
+
+
+def test_thin_evidence_withholds_findings_and_score():
+    """A subject area the corpus barely covers cannot be audited.
+
+    Ranking cannot manufacture evidence: with two civil postings against
+    hundreds of software ones, any sort surfaces Cloud Computing. Both the
+    findings and the score are withheld rather than presented as a verdict.
+    """
+    report = _build_with_domain(
+        [
+            _row("Cloud Computing", requiring=40, total=100, category="cloud"),
+            _row("Estimation and Costing", requiring=2, total=100, category="civil"),
+        ],
+        [{"category": "civil", "skills": 5, "weight": 4.2}],
+    )
+
+    assert report.evidence_thin is True
+    assert report.health_score is None
+    assert report.evidence_note is not None
+    assert all(gap.category == "civil" for gap in report.gaps)
+
+
+def test_sufficient_evidence_still_scores_and_ranks():
+    """The floor must not silence a subject area the corpus does cover."""
+    report = _build_with_domain(
+        [
+            _row("Kubernetes", requiring=40, total=100, category="cloud"),
+            _row("Terraform", requiring=25, total=100, category="cloud"),
+        ],
+        [{"category": "cloud", "skills": 4, "weight": 3.6}],
+    )
+
+    assert report.evidence_thin is False
+    assert report.health_score is not None
+    assert len(report.gaps) == 2
+
+
 def test_evidence_states_real_numbers():
     evidence = _build_evidence(47, 312, 0.0, 1)
     assert "47 of 312 postings require this" in evidence
@@ -121,9 +179,26 @@ def test_severity_is_assigned_from_the_score():
 
 def test_coverage_uses_the_strongest_signal():
     """A skill taught by several outcomes is covered to the degree of the
-    best one, not the average."""
-    report = _build([_row("SQL", coverage=[0.2, 0.9, 0.5])])
-    assert report.gaps[0].curriculum_coverage == 0.9
+    best one, not the average.
+
+    0.9 is above COVERED_THRESHOLD, so the skill is treated as taught and
+    withheld from the findings. It still has to reach the score, which is
+    what a perfect health score demonstrates here.
+    """
+    strongest = _build([_row("SQL", coverage=[0.2, 0.9, 0.5])])
+    weakest = _build([_row("SQL", coverage=[0.2])])
+
+    assert strongest.gaps == []
+    assert strongest.health_score > weakest.health_score
+
+
+def test_partial_coverage_is_still_reported_as_a_gap():
+    """Coverage below the threshold means the syllabus touches a skill
+    without teaching it to the depth the market asks for, which is a finding
+    rather than a pass."""
+    report = _build([_row("SQL", coverage=[0.2, 0.4])])
+    assert [gap.canonical_skill for gap in report.gaps] == ["SQL"]
+    assert report.gaps[0].curriculum_coverage == 0.4
 
 
 def test_course_code_derived_from_messy_filenames():
@@ -155,14 +230,22 @@ def test_long_tail_skills_are_filtered_out():
 
 def test_taught_skills_survive_the_demand_floor():
     """A skill the course teaches still counts toward coverage even if the
-    corpus barely mentions it."""
-    report = _build(
+    corpus barely mentions it.
+
+    It must not be listed as a gap, which told a structural analysis course
+    its gap was Hydrology, a subject it teaches. Its contribution shows in
+    the score being higher than the uncovered skill alone would give.
+    """
+    taught = _build(
         [
             _row("Widely Demanded", requiring=40, total=100),
             _row("Niche But Taught", requiring=1, total=100, coverage=[0.8]),
         ]
     )
-    assert "Niche But Taught" in {gap.canonical_skill for gap in report.gaps}
+    untaught = _build([_row("Widely Demanded", requiring=40, total=100)])
+
+    assert [gap.canonical_skill for gap in taught.gaps] == ["Widely Demanded"]
+    assert taught.health_score > untaught.health_score
 
 
 def test_report_names_what_it_scored_against():

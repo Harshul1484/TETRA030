@@ -1,0 +1,71 @@
+Course Code : ICPE52
+Course Title : Software Design Tools for Sensing and
+Control
+Type of Course : PE
+Prerequisites : ICPC18
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To expose the students to the software tools available for sensor and control system
+design.
+CLO2 To teach the analytical and numerical modelling of various sensors in macro, meso
+and micro scale and to study its characteristics through simulation.
+CLO3 To expose the students to modelling of physical systems, design and evaluation
+of various control methods.
+CLO4 To expose the students to real time control implementation platforms and to
+practice on implementation of simple controllers.
+Course Content
+Software tools for sensor design: Introduction to history of sensor design software tools,
+importance and need of software tools. Recent developments in sensor design and analysis
+software tools. Introduction to COMSOL Multiphysics. Structural Mechanics: Analysis of
+mechanical structures to static or dynamic loads. Stationary, transient, eigenmode/modal,
+parametric, quasi-static and frequency-response analysis. Electrical: AC/DC Module for
+simulating electric, magnetic, and electromagnetic fields in static and low- frequency
+applications. Design and simulation of sensors and actuators using COMSOL.
+Software tools for micro sensor design: Introduction to IntelliSuite, mechanism design,
+development of sensors and actuators. Introduction to Coventorware, Description of main
+modules, Architect, Designer, Analyzer and Integrator. System-level and physical-level
+design approaches. Introduction to meshing and result visualization. Design and simulation
+of sensors using Coventorware.
+Software tools for control design: Introduction to MATLAB, Simulink and Scilab. Introduction
+to toolboxes. Control design problems using classical control. Control design problems using
+state space approach.
+Implementation of controllers in real time: Introduction to various hardware platforms, control
+design and implementation for electrical/mechanical/electromechanical/chemical processes
+using dSPACE, LabVIEW and OPAL-RT.
+B.Tech. / Instrumentation and Control Engineering 173 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Roger W. Pryor, Multiphysics Modeling Using COMSOL®: A First Principles
+Approach, Jones and Bartlett Publishers, 1st Edition, 2011.
+2. Tamara Bechtold, Gabriela Schrag and Lihong Feng, System-level Modeling of
+MEMS, Wiley- VCH verlag GmbH and Co, 1st Edition, 2013.
+3. Holly Moore, MATLAB for Engineers, Pearson Education, 6th Edition, 2022.
+4. Brian Hahn and Daniel Valentine, Essential MATLAB for Engineers and Scientists,
+Elsevier, Academic press, 7th edition, 2019.
+5. Mehrzad Tabatabaian, COMSOL 5 for Engineers, Mercury Learning and Information,
+1st Edition,2015.
+6. S R Otto and J P Denier, An Introduction to Programming and Numerical Methods
+in MATLAB, Springer-verlag, 1st Edition,2005.
+7. Stephen J Chapman, MATLAB Programming for Engineers, Bookware Companion
+Series, 7th Edition, 2024.
+8. Amos Gilat, MATLAB – An Introduction with Applications, John Wiley and Sons, Inc.,
+6th Edition, 2017.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Select an appropriate software tools for sensor and actuator design.
+CO2 Design, model and simulate various sensing and actuating mechanisms.
+CO3 Design and evaluate the performance of cascade and state-pace controller
+CO4 Acquire knowledge in the selection and usage of hardware for real time
+implementation of controllers.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 1 1 1 1 1 1 1 1 3 3 3 2 2 2 1
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 174 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

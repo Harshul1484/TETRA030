@@ -1,0 +1,40 @@
+Course Code : ECPE17
+Course Title : STATISTICAL THEORY OF COMMUNICATION
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course Learning Objective
+ The subject aims to make the students to understand the statistical theory of
+telecommunication, which are the basics to learn analog and digital telecommunication.
+Course Content
+Information measure. Discrete entropy. Joint and conditional entropies. Uniquely decipherable and
+instantaneous codes. Kraft-McMillan inequality. Noiseless coding theorem. Construction of optimal
+codes.
+DMC. Mutual information and channel capacity. Shannon’s fundamental theorem. Entropy in the
+continuous case. Shannon-Hartley law.
+Binary hypothesis testing. Baye’s, mini max and Neyman-Pearson tests. Random parameter
+estimation-MMSE, MMAE and MAP estimates. Non-random parameters – ML estimation.
+Coherent signal detection in the presence of additive white and non-white Gaussian noise. Matched
+filter.
+Discrete optimum linear filtering. Orthogonality principle. Spectral factorization. FIR and IIR Wiener
+filters.
+Text Books
+1. R.B.Ash,” Information Theory”, Wiley, 1965.
+2. M.D.Srinath, P.K.Rajasekaran & R.Viswanathan, “Statistical Signal Processing with
+Applications”, PHI 1999.
+Reference Books
+1. H.V.Poor, “An Introduction to Signal Detection and Estimation, (2/e)”, Spring Verlag.1994.
+2. M.Mansuripur, “Introduction to Information Theory”, Prentice Hall.1987.
+3. J.G.Proakis, D G Manolakis, “Digital Signal Processing”, (4/e), Pearson Education, 2007.
+Course outcomes
+At the end of the course student will be able
+CO1: show how the information is measured and able to use it for effective coding.
+CO2: summarize how the channel capacity is computed for various channels.
+CO3: use various techniques involved in basic detection and estimation theory to solve the
+problem.
+CO4: summarize the applications of detection theory in telecommunication.
+CO5: summarize the application of estimation theory in telecommunication.
+39 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

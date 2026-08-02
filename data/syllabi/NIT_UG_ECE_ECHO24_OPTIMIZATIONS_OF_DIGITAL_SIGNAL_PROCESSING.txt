@@ -1,0 +1,56 @@
+Course Code : ECHO24
+Course Title : OPTIMIZATIONS OF DIGITAL SIGNAL PROCESSING
+STRUCTURES FOR VLSI
+Number of Credits (3-1-0 ) 4
+Prerequisites : ECPC20
+(Course code)
+Course Type : HO
+Course learning Objectives
+ To understand the various VLSI architectures for digital signal processing.
+ To know the techniques of critical path and algorithmic strength reduction in the filter
+structures.
+ To enable students to design VLSI system with high speed and low power.
+ To encourage students to develop a working knowledge of the central ideas of implementation
+of DSP algorithm with optimized hardware.
+Course content
+An overview of DSP concepts, Typical DSP Algorithms, DSP Applications Demands and Scaled
+CMOS Technologies, Pipelining of FIR filters. Parallel processing of FIR filters. Pipelining and
+parallel processing for low power, Combining Pipelining and Parallel Processing.
+Transformation Techniques: Iteration bound, Retiming, Unfolding, Folding and Folding of Multirate
+Systems.
+Pipeline interleaving in digital filters. Pipelining and parallel processing for IIR filters and Higher
+order IIR filters, Low power IIR filter design using pipelining and parallel processing and Low Power
+Higher order filters, Pipelined adaptive digital filters.
+Algorithms for fast convolution: Cook-Toom Algorithm, Winograd Algorithm, Iterative Convolution,
+Cyclic Convolution. Algorithmic strength reduction in filters and transforms: Parallel FIR Filters,
+DCT and inverse DCT, Parallel Architectures for Rank-Order Filters.
+Synchronous pipelining and clocking styles, clock skew and clock distribution in bit level pipelined
+VLSI designs. Wave pipelining, constraint space diagram and degree of wave pipelining,
+Implementation of wave-pipelined systems, Asynchronous pipelining, Implementation of
+computational units using Asynchronous pipelining.
+.
+Text Book
+1. K.K.Parhi, VLSI Digital Signal Processing Systems, John-Wiley, 2007.
+Reference Books
+1. U. Meyer -Baese, Digital Signal Processing with FPGAs, Springer, 2004
+2. Wayne Burleson, Konstantinos Konstantinides, Teresa H. Meng, VLSI Signal Processing,
+1996.
+3. Richard J. Higgins, Digital signal processing in VLSI, 1990.
+4. Sun Yuan Kung, Harper J. Whitehouse, VLSI and modern signal processing, 1985
+5. Magdy A. Bayoumi, VLSI Design Methodologies for Digital Signal Processing, 2012
+6. Earl E. Swartzlander, VLSI signal processing systems, 1986.
+142 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course outcomes
+At the end of the course student will be able
+CO1: understand the overview of DSP concepts and design architectures for DSP algorithms.
+CO2: improve the overall performance of DSP system through various transformation and
+optimization techniques.
+CO3: perform pipelining and parallel processing on FIR and IIR systems to achieve high speed
+and low power.
+CO4: optimize design in terms of computation complexity and speed.
+CO5: understand clock based issues and design asynchronous and wave pipelined systems.
+143 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

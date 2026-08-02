@@ -1,0 +1,54 @@
+Course Code : ECPE14
+Course Title : EMBEDDED SYSTEMS
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : PE
+Course Learning Objectives
+ To make the students to understand and program embedded systems using modern embedded
+processors.
+ This course describes example embedded platforms, interfaces, peripherals, processors and
+operating systems associated with embedded systems, a comprehensive view of the software
+frame work being developed around embedded SOCs.
+Course Content
+Introduction to Embedded Computing: Characteristics of Embedding Computing Applications,
+Concept of Real time Systems, Challenges in Embedded System Design, Design Process. Embedded
+System Architecture: Instruction Set Architecture, CISC and RISC instruction set architecture, Basic
+Embedded Processor/Microcontroller Architecture (ATOM processor, Introduction to Tiva family
+etc.)
+Designing Embedded Computing Platform: Bus Protocols, Bus Organization, Memory Devices and
+their Characteristics, Memory mapped I/O, I/O Devices, I/O mapped I/O, Timers and Counters,
+Watchdog Timers, Interrupt Controllers, Interrupt programming, GPIO control, Sensors, Actuators,
+A/D and D/A Converters, Need of low power for embedded systems, Mixed Signals Processing.
+Programming Embedded Systems: Basic Features of an Operating System, Kernel Features, Real-time
+Kernels, Processes and Threads, Context Switching, Scheduling, Shared Memory Communication,
+Message-Based Communication, Real-time Memory Management, Dynamic Allocation, Device
+Drivers, Real-time Transactions and Files, Real-time OS (VxWorks, RT-Linux, Psos).
+Network Based Embedded Applications: Embedded Networking Fundamentals, Layers and Protocols,
+Distributed Embedded Architectures, Internet-Enabled Systems, IoT overview and architecture,
+Interfacing Protocols (like UART, SPI, I2C, GPIB, FIREWIRE, USB,). Various wireless protocols
+and its applications: NFC, Zig Bee, Bluetooth, Bluetooth Low Energy, Wi-Fi. CAN. Overview of
+wireless sensor networks and design examples
+Case studies: Programming in Embedded C, Embedded system design using Arduino, ATOM
+processors, Galileo and Tiva based embedded system applications.
+Text Books
+1. Wayne Wolf, “Computers as Components- Principles of Embedded Computing System
+Design”, Morgan Kaufmann Publishers, Second edition, 2008.
+2. Barry Crowley, “Modern Embedded Computing”, Morgan Kaufmann Publishers, 2012.
+Reference Books
+1. Lyla B. Das, “Embedded Systems –An Integrated Approach”, Pearson, 2013.
+2. Marwedel Peter, “Embedded System Design, Kluwer Publications, 2004.
+3. C.M. Krishna, Kang G. Shin, “Real time systems”, Mc- Graw Hill, 2010
+4. Recent literature in Embedded Systems.
+Course outcomes
+At the end of the course student will be able to
+CO1: get an insight into the overall landscape and characteristics of embedded systems.
+CO2: facilitate a comprehensive understanding of the overall platform architecture of
+modern embedded computing systems.
+CO3: develop application software for embedded systems using the RTOS functions.
+CO4: enable network connectivity of the embedded systems via a combination of wired
+and wireless network interfaces.
+CO5: design and program embedded systems based on their applications.
+36 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

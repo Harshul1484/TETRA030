@@ -1,0 +1,51 @@
+Course Code : ECHO15
+Course Title : NUMERICAL TECHNIQUES FOR MIC
+Number of Credits 3
+Prerequisites : ECPC25
+(Course code)
+Course Type : HO
+Course learning Objective
+ This subject will prepare the student to face the challenging problem of the most important
+component of Research namely the numerical analysis.
+Course content
+Over view of Numerical Techniques for Microwave integrated Circuits: Introduction, Quasi Static
+and Full wave Analysis, Outline if Finite element method, Integral Equation Technique, Planar
+Circuit Analysis, Spectral Domain Approach, The Method of Lines, The Mode Matching Method,
+The Transverse Resonance Technique
+The Finite Element Method: Introduction, The Method of Weighted Residuals, The Variational
+Method Using a Variational Expression, The Finite Element Method, Integral Formulation of
+Problems, Antennas and Scattering from Conductors ,Waveguides-Hollow, Dielectric and Optical
+Finite Difference in space and Time Matrix Computations. A Finite Element Computer Program for
+Micro strips
+Planar Circuit Analysis: Introduction, Planar Circuit Analysis’ Function Approach Impedance
+Green’s Functions Contour Integral Approach Analysis of Planar Components of Composite
+Configurations Planar Circuits with Anisotropic Spacing Media Applications of the Planar Circuits
+Concept Summary
+Spectral Domain Approach: Introduction, General Approach for Shielded Microstrip Lines, the
+Admittance Approach Formulations for Slot lines, Fin lines, and Coplanar Waveguides Numerical
+Computation
+Transverse Resonance Technique: Introduction, Inhomogeneous Waveguides Uniform along a
+Traverse Coordinate, Conventional Traverse Resonance Technique for Transversely Discontinuous
+Waveguides, Generalized Transverse Resonance Technique for Transversely Discontinuous
+Inhomogeneous Analysis of Discontinuities and Junctions by the Generalized Transverse Resonance
+Technique, Examples of Computer Programs.
+Text Book
+1. T.Itoh, Numerical Techniques for Microwave Integrated Circuits., John Wiley and
+sons,1989.
+2. Cam Nguyen,Analysis Methods FOR RF,Microwave AND Millimeter_wave Planar
+Transmission Line Structures, John Wiley & Sons, INC.2000.
+Reference Books
+1. Bharathi Bhat, Shiban K.Koul, Analysis, Design and Applications of Fin lines. Artech
+House. 1987.
+2.Recent literature in numerical techniques for microwave integrated circuits.
+Course outcomes
+At the end of the course student will be able
+CO1: bring awareness of the need for numerical analysis of M.I.C. And prepare to formulate all
+popular numerical techniques of M.I.C.
+CO2: make one formulate and write coding for Finite Element Method
+CO3: prepare a person to be strong in the planar circuit Analysis
+CO4: bring awareness of the most popular quasi state analysis Spectral Domain Techniques
+CO5: prepare the student formulate and write coding for the Transverse Resonance Techniques
+133 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

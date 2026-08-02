@@ -1,0 +1,37 @@
+CE459 Models for Air and Water Quality 3 0 0 3
+CE459 MODELS FOR AIR AND WATER QUALITY
+Course objectives:
+To introduce the mathematical models and the modeling approach to water quality
+to present the mass balance basis for water quality models, simplified water quality models for
+streams and rivers, lakes and reservoirs for conservative and non-conservative materials
+to describe the various models for microbial growth and limitations
+to address the simple air quality models for point and line sources
+to review the simple models for estuaries
+Course Content
+Introduction to Mathematical Models: Modeling approaches to water quality - classification of models
+Mathematical models for water quality - model development, calibration and verification - cost: benefit
+analysis using models, Model requirements and limitations. D.O. Models for Streams: Dissolved oxygen
+model for streams - sources and sinks of dissolved oxygen
+44
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Estimation of system parameters - Streeter - Phelps model - oxygen 'sag' curve - determination of
+deoxygenation and reaeration coefficients - Benthal oxygen demand - mass transport mechanisms -
+Advective and diffusive mass transport
+Models by O'connor, Dobbins and Thomann. Models for Estuary and Lakes: Physical chemical and
+biological processes in estuaries - water quality distribution in estuaries - modeling estuaries and lakes
+for water quality - temperature models for lakes and rivers
+Models for microorganisms decay, nitrogen and phytoplankton. Air quality models: Micrometeorological
+processes, wind rose, dispersion, coefficients and stability classes, Gaussian and dispersion model,
+Regional air quality models,
+References
+1. Chapra, Steven C., "Surface water quality modeling", McGraw Hill Book Company, New York,
+1997.
+2. Gilbert M. Masters, "Introduction to Environmental Engineering and Science", 2nd Edition, Prentice
+Hall, 1998.
+Course outcomes:
+On completion of the course, the students will be able to:
+evaluate the physical, chemical and biological water quality which is essential for the abatement
+of water pollution
+predict the quality of water and air through modeling
+recognize the risks of disposal of treated wastewater into the river
+design sound and sustainable water and air models under specified conditions

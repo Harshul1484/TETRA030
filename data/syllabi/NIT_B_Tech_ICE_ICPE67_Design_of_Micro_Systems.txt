@@ -1,0 +1,50 @@
+Course Code : ICPE67
+Course Title : Design of Micro Systems
+Type of Course : PE
+Prerequisites : ICPC14
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To provide knowledge on MEMS design and various fabrication processes.
+CLO2 To impart knowledge on mechanics of membranes and beams in micro scale.
+CLO3 To convey the design principles of electrostatic actuation and sensing.
+CLO4 To impart design knowledge on micro pressure sensor and micro accelerometer.
+CLO5 To provide knowledge on MEMS sensor integration and packaging.
+Course Content
+Introduction, An approach to MEMS design, Basic introduction to fabrication, process
+integration.
+Energy conserving transducer, Mechanics of membranes and beams
+Electrostatic Actuation and Sensing, Effects of electrical excitation
+Design of Micro pressure sensor and Micro accelerometer Electronic Integration and
+Packaging
+References
+1. Stephen D. Senturia, Microsystem Design, Kluwer Academic Publishers, Boston,1st
+Edition, 2001.
+2. Minhang Bao., Analysis and Design Principles of MEMS Devices, Elsevier, 1st Edition,
+2005.
+3. M. Elwenspoek, R. Wiegerink, Mechanical Microsensors, Springer, Berlin, 1st Edition,
+2010.
+4. Tai-Ran Hsu, MEMS and Microsystems: Design and Manufacture, McGraw-Hill,
+Boston, 2017.
+5. G. K. Ananthasuresh, K. J. Vinoy, S. Gopalakrishnan, K. N. Bhat, and V. K. Aatre.,
+Micro and Smart Systems by, Wiley-India, 2019
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design and fabricate simple micro devices.
+CO2 Design and analyze simple mechanical structures used in sensor actuators.
+CO3 Design electrostatic based actuation and sensing devices, micro pressure sensor
+and micro accelerometer.
+CO4 Understand sensor integration and packaging techniques
+B.Tech. / Instrumentation and Control Engineering 203 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 2 2 - - - 3 3 3 2
+CO2 3 3 3 3 3 2 2 3 - - - 3 3 3 2
+CO3 2 3 3 - 3 3 2 3 - - - 3 3 3 2
+CO4 2 3 3 - 3 3 3 3 - - - 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 204 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

@@ -1,0 +1,61 @@
+Course Code : ICPE14
+Course Title : Medical Imaging Systems
+Type of Course : PE
+Prerequisites : ICPC13, ICPC24
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the methods of medical imaging.
+CLO2 To impart knowledge in the physics behind the various imaging techniques.
+CLO3 To teach the construction and working of various imaging techniques.
+CLO4 To study the methods of image reconstruction
+Course Content
+Introduction to image processing in medical applications, X-Ray tubes, cooling systems,
+removal of scatters, Fluoroscopy- construction of image Intensifier tubes, angiographic setup,
+mammography, digital radiology, DSA.
+Need for sectional images, Principles of sectional scanning, CT detectors, Methods of
+reconstruction, Iterative, Back projection, convolution and Back-Projection. Artifacts, Principle
+of 3D imaging
+Alpha, Beta and Gamma radiation, Radiation detectors, Radio isotopic imaging equipments,
+Radio nuclides for imaging, Gamma ray camera, scanners, Positron Emission tomography,
+SPECT, PET/CT.
+Wave propagation and interaction in Biological tissues, Acoustic radiation fields, continuous
+and pulsed excitation, Transducers and imaging systems, Scanning methods, Imaging Modes,
+Principles and theory of image generation.
+NMR, Principles of MRI, Relaxation processes and their measurements, Pulse sequencing
+and MR image acquisition, MRI Instrumentation, Functional MRI.
+References
+1. D.N. Chesney and M.O.Chesney, Radio graphic imaging, CBS Publications, New
+Delhi, 4th Edition, 2007.
+2. Dwight G. Nishimura, Lulu, Principles of Magnetic Resonance Imaging, Stanford
+Univ,2010
+3. Flower M.A., Webb’s Physics of Medical Imaging, CRC Press, New York, 2nd Edition,
+2012.
+4. Prince and Links, Medical Imaging Signals and Systems, 2nd Edition, Pearson,2022
+5. Rangaraj M. Rangayyan, Biomedical Image Analysis”, CRC Press, Boca Raton, FL,
+2005.
+6. Donald W. McRobbice, Elizabeth A. Moore, Martin J. Grave and Martin R. Prince, MRI
+from picture to proton, Cambridge University press, New York, 2nd Edition, 2007.
+7. Kavyan Najarian and Robert Splinter, Biomedical signals and Image processing, CRC
+press, New York, 2nd Edition, 2012.
+8. Jerry L. Prince and Jonathan M. Links, Medical Imaging Signals and Systems- Pearson
+Education Inc., 2nd Edition, 2014.
+B.Tech. / Instrumentation and Control Engineering 97 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Acquire basic domain knowledge about the various medical imaging techniques.
+CO2 Understand the construction and working of various medical imaging equipments.
+CO3 Provide a foundational understanding of algorithms used in medical imaging
+CO4 Analyze the medical images for diagnosis.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 98 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

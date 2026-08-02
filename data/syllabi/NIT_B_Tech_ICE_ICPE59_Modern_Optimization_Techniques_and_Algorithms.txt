@@ -1,0 +1,68 @@
+Course Code : ICPE59
+Course Title : Modern Optimization Techniques and Algorithms
+Type of Course : PE
+Prerequisites : MAIR courses
+Contact Hours : 42 (3 credits)
+Course Assessment : Continuous Assessments (3), End Assessment (1)
+Methods
+Course Learning Objectives (CLO)
+CLO1 To introduce and elaborate the field of optimization and applications in dynamical
+systems and engineering.
+CLO2 To gain understanding in the methods, both classical and modern, of obtaining
+optimal solutions under various conditions.
+CLO3 To estimate the size of search space in which solutions are sought and appreciate
+the fundamentals of complex systems.
+CLO4 To devise algorithmic optimal solutions via known methods such as Dynamic
+Programming, and explore modern paradigms such as reinforcement learning for
+solving a wider class of large-scale real-world problems
+Course Content
+Introduction – OR Models, Basic modelling with Linear Programming and its variants,
+Deterministic Dynamic Programming, Decision Analysis & Games, Markovian Decision
+Processes, Curse of Dimensionality, Heuristic Methods, e.g., GA, PSO etc.
+Online learning – Adaptive learning, spanning lookup tables, parametric and nonparametric
+models (including neural networks), The Reinforcement Learning Problem.
+Derivative-based stochastic optimization – stochastic gradient methods, Step-size policies
+and optimal policies; Derivative-free stochastic optimization – Multi-Armed Bandit Problem
+and classes of policies applied to this broad problem class.
+State-dependent problems – Modelling general dynamic problems, e.g., energy systems,
+transportation systems, healthcare systems, as sequential decision problems, Designing
+policies for a given problem.
+Approximate Dynamic Programming – Policy function approximations and policy search,
+Methods for performing search over tunable parameters: numerical derivatives,
+backpropagation, and the policy-gradient method.
+Cost function approximations – Parameterized optimization models widely used in industry
+on an ad-hoc basis, Applications and Case Studies.
+References
+1. Hamdy A Taha, Operations Research: An Introduction, 9/e, Pearson, 2012.
+2. Richard Bellman, Dynamic Programming, Dover Publications, 2003.
+3. Richard Sutton, A.G. Barto, Reinforcement Learning: An Introduction, 2/e, MIT Press,
+2018 (available as a free download).
+4. Warren B Powell, Reinforcement Learning & Stochastic Optimization, John Wiley &
+Sons, 2022.
+5. Resources webpage on sequential decision analytics: https://tinyurl. com/sdalinks/
+6. D. Bertsekas, Dynamic Programming and Optimal Control, vols. 1 & 2, Athena
+Scientific, 2012
+B.Tech. / Instrumentation and Control Engineering 187 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Warren B. Powell, Sequential Decision Analytics and Modelling, NOW Publishing,
+7. Boston, MA, 2022, https://tinyurl.com/ sdamodeling/ (available as a free download).
+8. Paul J Nahin, When Least is Best, Princeton Univ. Press, 2004.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Model engineering problems as computational optimization problems.
+CO2 Understand the curse of dimensionality and need for heuristics in optimization in
+terms of Genetic Algorithms and the like.
+CO3 Cast engineering design as solution to dynamic optimization problems modelled in
+learning paradigms.
+CO4 Make meaningful objective functions for algorithmically arriving at optimal solutions.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1
+CO2
+CO3
+CO4
+B.Tech. / Instrumentation and Control Engineering 188 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

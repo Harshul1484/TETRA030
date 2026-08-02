@@ -1,8 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-Course outcomes:
-On completion of the course, the students will be able to:
-apply the principles of planning and bylaws used for building planning
-draw plan, elevation and section for various structures
+CE213 Survey Lab I 0 0 3 2
 CE213 SURVEY LAB – I
 Course objective:
 The Lab sessions would include experiments on
@@ -29,10 +25,3 @@ take accurate measurements, field booking, plotting and adjustment of errors can
 understood
 plot traverses / sides of building and determine the location of points present on field on a piece
 of paper
-CE215 GEOTECHNICAL LAB
-Course objectives:
-To estimate index properties of soils (coarse and fine)
-To estimate consistency limit of fine grained soils
-To estimate shear strength of soils by direct shear test, triaxial shear test, vane shear test
-& unconfined compressive test
-10

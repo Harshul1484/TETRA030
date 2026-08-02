@@ -1,0 +1,72 @@
+Course Code : ICPE23
+Course Title : Internet of Things System Design
+Type of Course : PE
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To provide a good understanding of Internet of Things (IoT) and its envisioned
+deployment domains.
+CLO2 To provide an understanding of smart sensors/actuators with their internet
+connectivity for experimentation and designing systems.
+CLO3 To provide a overview about the various protocol standards deployed in the Internet
+of Things (IoT) domain and to make informed choices.
+CLO4 To impart knowledge in the design and development of IoT systems with
+enablement ensuring security and assimilated privacy
+Course Content
+Introduction to Internet of Things: Overview of Internet of Things- the Edge, Cloud and the
+Application Development, Anatomy of the Thing, Industrial Internet of Things (IIoT - Industry
+4.0), Quality Assurance, Predictive Maintenance, Real Time Diagnostics, Design and
+Development for IoT, Understanding System Design for IoT, Design Model for IoT.
+System Design of Connected Devices: Embedded Devices, Embedded Hardware, Connected
+Sensors and Actuators, Controllers, Battery Life Conservation and designing with Energy
+Efficient Devices, SoCs, CC3200, Architecture, CC3200 Launchpad for Rapid Internet
+Connectivity with Cloud Service Providers.
+Understanding Internet Protocols: Simplified OSI Model, Network Topologies, Standards,
+Types of Internet Networking – Ethernet, Wi-Fi, Local Networking, Bluetooth, Bluetooth Low
+Energy (BLE), Zigbee,6LoWPAN, Sub 1 GHz, RFID, NFC, Proprietary Protocols, SimpliciTI,
+Networking Design – Push, Pull and Polling, Network APIs.
+System Design Perspective for IoT – Products vs Services, Value Propositions for IoT,
+Services in IoT, Design views of Good Products, Understanding Context, IoT Specific
+Challenges and Opportunities.
+Advances Design Concepts for IoT – Software UX Design Considerations, Machine Learning
+and Predictive Analysis, Interactions, Interusability and Interoperability considerations,
+Understanding Security in IoT Design, Design requirements of IoT Security Issues and
+challenges, Privacy, Overview of Social Engineering.
+References
+1. Joe Biron andJonathan Follett, Foundational Elements of an IoT Solution – The Edge,
+The Cloud and Application Development, Oreilly,1st Edition, 2016.
+2. Designing Connected Products, Elizabeth Goodman, Alfred Lui, Martin Charlier, Ann
+Light, Claire Rowland,1st Edition.
+3. The Internet of Things (A Look at Real World Use Cases and Concerns), Kindle
+Edition, Lucas Darnell, 2016.
+4. The Internet of Things – Opportunities and Challenges
+http://www.ti.com/ww/en/internet_of_things/pdf/14-09-17-IoTforCap.pdf - -
+B.Tech. / Instrumentation and Control Engineering 115 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+5.
+Single Chip Controller and Wi-Fi SOC http://www.ti.com/lit/ds/symlink/cc3200.pdf
+6. Wireless Connectivity Solutions http://www.ti.com/lit/ml/swrb035/swrb035.pdf
+7. Wireless Connectivity for the Internet of Things – One size does not fit all
+http://www.ti.com/lit/wp/swry010/swry010.pdf
+8. Arshdeep Bahga, Vijay Madisetti, Internet of Things –A hands-on approach,
+Universities Press, 2015.
+9. Raj Kamal, Internet of Things, Architecture and Design Principles, McGraw-Hill, 2017,
+10. Marco Schwartz, Internet of Things with the Arduino Yun, Pack Publishing, 2014.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand the design architecture of IoT
+CO2 Make choice of protocols and deployment in solutions
+CO3 Comprehend the design perspective of IoT based products /services
+CO4 Understand the importance of security requirements for IoT design
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 2 3 3 3 1 2 1 2 2 1 3 3 3 1
+CO2 2 2 3 3 3 2 2 2 2 3 2 3 3 3 2
+CO3 3 3 3 3 3 2 3 1 2 3 2 3 3 3 2
+CO4 2 2 2 3 3 2 2 3 2 3 2 3 3 3 3
+B.Tech. / Instrumentation and Control Engineering 116 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

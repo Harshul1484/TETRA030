@@ -1,0 +1,41 @@
+Course Code : ECPE49
+Course Title : Foundations of Artificial Intelligence
+Number of Credits : 3
+Prerequisites : NONE
+(Course code)
+Course Type : Elective
+COURSE LEARNING OBJECTIVE
+ Approaches to produce "intelligent" systems, Knowledge representation (both symbolic and
+neural network), search and machine learning.
+ To learn the principles and fundamentals of designing AI programs.
+Introduction to AI-Problem Solving as State Space Search, Uniformed Search, Heuristic Search,
+Informed Search, Constraint Satisfaction Problems, Searching AND/OR Graphs.
+Knowledge representation and Reasoning-Introduction to Knowledge Representation,
+Propositional Logic, First Order Logic –I, First Order Logic –II, Inference in First Order Logic-I,
+Inference in First Order Logic – II, Answer Extraction, Procedural Control of Reasoning, Reasoning
+under Uncertainty, Bayesian Network, Decision Network.
+Planning and decision Making-Introduction to Planning, Plan Space Planning, Planning Graph and
+Graph Plan, Practical Planning and Acting, Sequential Decision Problems, Making Complex
+Decisions.
+Machine Learning-Introduction to Machine Learning, Learning Decision Trees, Linear Regression,
+Support Vector Machines, Unsupervised Learning, Reinforcement Learning,
+Introduction to deep learning, neural network learning
+Text Books
+1. Patrick Henry Winston, Artificial Intelligence, Third Edition, Addison-Wesley Publishing Company,
+2004.
+2. Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, 3rd Edition, PHI
+2009.
+References
+1. Nils J Nilsson, Principles of Artificial Intelligence, Illustrated Reprint Edition, Springer Heidelberg,
+2014.
+2. Nils J. Nilsson, Quest for Artificial Intelligence, First Edition, Cambridge University Press, 2010.
+COURSE OUTCOMES
+Students are able
+CO1: To learn the concepts of artificial intelligence
+CO2: To study problem solving techniques
+CO3: To understand the representation of knowledge and reasoning mechanism
+CO4: To learn to panning and decision making
+CO5: To study network models used for learning
+72 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

@@ -1,0 +1,39 @@
+Course Code : ECHO32
+Course Title : Error Control Coding
+Number of Credits : 3
+Course Type : HO
+Course Objective
+ To explain the importance of modern coding techniques in the design of digital
+communication systems.
+Course Content
+Review of modern algebra. Galois fields. Linear block codes; encoding and decoding. Cyclic codes.
+Non-binary codes.
+Convolutional codes. Generator sequences. Structural properties. ML decoding. Viterbi decoding.
+Sequential decoding.
+Modulation codes. Trellis coded modulation. Lattice type Trellis codes. Geometrically uniform trellis
+codes. Decoding of modulation codes.
+Turbo codes. Turbo decoder. Interleaver. Turbo decoder. MAP and log MAP decoders. Iterative turbo
+decoding. Optimum decoding of turbo codes.
+Space-time codes. MIMO systems. Space-time codes. MIMO systems. Space-time block codes
+(STBC) – decoding of STBC.
+Text Books
+1. S.Lin & D.J.Costello, “Error Control Coding (2/e)”, Pearson, 2005.
+2. B.Vucetic & J.Yuan, “Turbo codes”, Kluwer, 2000
+Reference Books
+1. C.B.Schlegel & L.C.Perez, “Trellis and Turbo Coding”, Wiley,2004.
+2. B.Vucetic & J.yuan, “Space-Time Coding”, Wiley, 2003.
+3. R.Johannaesson & K.S.Zigangirov, “Fundamentals of Convolutional Coding”, Universities
+Press, 2001.
+4. Recent literature in Error Control Coding.
+Course Outcome
+Students are able to
+CO1: understand the need for error correcting codes in data communication and storage systems.
+CO2: identify the major classes of error detecting and error correcting codes and how they are
+used in practice. Construct codes capable of correcting a specified number of errors.
+CO3: use the mathematical tools for designing error correcting codes, including finite fields.
+CO4: explain the operating principles of block codes, cyclic codes, convolution codes, modulation
+codes, Turbo codes etc.
+CO5: design an error correcting code for a given application.
+151 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

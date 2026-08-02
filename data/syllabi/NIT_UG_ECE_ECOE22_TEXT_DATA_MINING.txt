@@ -1,0 +1,47 @@
+Course Code : ECOE22
+Course Title : TEXT DATA MINING
+Number of Credits 3
+Prerequisites : NONE
+(Course code)
+Course Type : OE
+Course Learning Objective
+ To understand the role played by text mining in Information retrieval and extraction.
+Course content
+Data, information and knowledge, Models of knowledge representation information retrieval and data
+mining -relevance, association rules, and knowledge discovery. Conceptual models of an information
+retrieval and knowledge discovery system.
+Information extraction- prediction and evaluation-Textual information to numerical vectors - Types
+and tokens, Document similarity Vector space models, TF-IDF weighting Indexing, Boolean search
+Evaluation of IR systems Ranked retrieval Relevance feedback.
+Text Categorization – Definition – Document Representation –Feature Selection - Decision Tree
+Classifiers - Rule-based Classifiers - Probabilistic and Naive Bayes Classifiers - Linear Classifiers-
+Clustering –Definition- Distance-based Algorithms- Word and Phrase-based Clustering -Semi-
+Supervised Clustering - Transfer Learning. Naive Bayes - k Nearest Neigh bor (kNN) - Logistic
+Regression-Decision Trees. Connectivity-based clustering and centroid-based clustering.
+Probabilistic Models for Text Mining -Mixture Models - Stochastic Processes in Bayesian
+Nonparametric Models - Graphical Models - Relationship Between Clustering, Dimension Reduction
+and Topic Modelling - Latent Semantic Indexing - Probabilistic Latent Semantic Indexing -Latent
+Dirichlet Allocation- Probabilistic Document Clustering and Topic Models - Probabilistic Models for
+Information Extraction - Hidden Markov Models- Maximal Entropy Modelling - Maximal Entropy
+Markov Models -Conditional Random Fields.
+Visualization Approaches - Architectural Considerations - Visualization Techniques in Link Analysis
+- Example- Mining Text Streams - Text Mining in Multimedia - Text Analytics in Social Media -
+Opinion Mining and Sentiment Analysis - Document Sentiment Classification Aspect-Based
+Sentiment Analysis - Opinion Spam Detection – Text Mining Applications and Case studies.
+Text Books
+1. Sholom Weiss, Nitin Indurkhya, Tong Zhang, Fred Damerau “The Text Mining Handbook:
+Advanced Approaches in Analyzing Unstructured Data”, Springer, paperback 2010.
+2. Ronen Feldman, James Sanger -“ The Text Mining Handbook: Advanced Approaches in
+Analyzing Unstructured Data”-Cambridge University press, 2006.
+Reference Books
+1. Charu C. Aggarwal, Cheng Xiang Zhai, Mining Text Data, Springer; 2012.
+Course Outcomes
+Upon completion of the course, the students will be able to
+CO1: know about the basics of text mining.
+CO2: Identify the different features that can be mined from text and web documents.
+CO3: learn about text classification.
+CO4: learn to improve the efficiency of features and reduce the dimensionality.
+CO5: understand the basics of recent advances in text classification.
+91 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

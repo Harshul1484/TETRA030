@@ -1,0 +1,60 @@
+Course Code : ECPE32
+Course Title : DIGITAL SIGNAL PROCESSING FOR WIRELESS
+COMMUNICATION
+Number of Credits 3
+Prerequisites : ECPC15
+(Course code)
+Course Type : PE
+Course Learning Objectives
+ The subject aims to make the students to understand the usage of various signal processing
+techniques used for wireless communication
+Course Content
+Mathematical model of the Time-varying wireless channel: Multi-path model, Coherence time and
+Doppler spread, Coherence frequency and Delay spread. Relationship between the time-varying
+impulse response of the Base band and Bandpass Transmission. Discrete Complex Base band time
+varying channel model for wireless communication. Computation of probability of error for Flat
+fading Rayleigh channel, Flat fading Rician model and single tap channel with known filter co-
+efficient.
+Autocorrelation and the Spectral density computation of base band and the band pass signal. Sampling
+and reconstruction of W.S.S. random process. Spectral density computation for PSK, QPSK, FSK and
+MSK. Relationship between Base band and band pass random process using Hilbert transformation.
+Periodogram, Barlett method, Welch, Blackman and Tuckey methods of estimating spectrum of the
+modulated signal.
+Multiple input Multiple output (MIMO) System model, Zero forcing receiver, LMMSE receiver,
+Matched filter receiver. Optimal precoding and combining, Spatial multiplexing using Decoupling of
+MIMO system. Massive MIMO, Power scaling, Orthogonality, Multi-cell Multi user MIMO, Pilot
+contamination and Rate scaling.
+Orthogonal Frequency division Multiplexing (OFDM) Multicarrier modulation (MCM) , MCM
+transmission/Received signal, MCM-IFFT/FFT Processing, MCM-Cyclic prefix, Spectrum of OFDM
+transmission, MIMO-OFDM System model, BER of OFDM and MIMO-OFDM
+5G Technology: Non-orthgonal multiple access, Spatial Modulation, Filter bank multi-carrier
+systems (FBMC), FBMC-OQAM System model, MIMO-FBMC Signal processing, Full Duplex
+Radio, Self-interference, Hybrid cancellation, mm wave MIMO Channel Modeling and Estimation.
+Textbooks
+1. D. Tse and P.Viswanath, “Fundamentals of Wireless Communication”, Cambridge
+university press, 2005
+2. A. Goldsmith, “Wireless Communications”, Cambridge University Press,2005
+3. E.S.Gopi, “Digital signal processing for wireless communication using Matlab’’, Springer,
+2016
+ReferenceBooks
+1. T.S.Rappaport, “Wireless Communication Principles (2/e)”, Pearson,2002.
+2. E. Biglieri, R.Calderbank, A. Constantinides, A. Goldsmith, A.Paulraj, H.Vincent poor,
+“MIMO Wireless Communications”, Cambridge University Press,2007.
+3. Robert Gallager, Chapter 9: “Wireless communication”, course materials for 6.450
+Principles of Digital communication I,Fall 2006.MIT Open coursewarehttp://ocw.mit.edu/.
+4. Recent literature in the related topics
+53 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
+Course outcomes
+Students are able to
+CO1: summarize the importance of Coherence time, Coherence frequency, Doppler spread and
+Delay spread in time-varying wireless channel model
+CO2: derive the expression for BER for various wireless channel model.
+CO3: derive the expression for the computation of spectral density of various bandpass
+transmission and methodology to estimate from the received signal.
+CO4: summarize the mathematical models related to MIMO and OFDM technology
+CO5: summarize the signal processing aspects in various 5G Technology
+54 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

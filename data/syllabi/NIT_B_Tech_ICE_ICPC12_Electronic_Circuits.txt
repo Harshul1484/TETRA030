@@ -1,0 +1,81 @@
+Course Code : ICPC12
+Course Title : Electronic Circuits
+Type of Course : PC
+Prerequisites : ICPC11
+Contact Hours : 56 (4 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+To make the students understand the fundamentals of Electronic Circuits. The student should
+be made to
+CLO1 Understand the applications of diode and biasing techniques for BJTs and
+MOSFETs
+CLO2 Design different types of amplifiers using active loads.
+CLO3 Analyze the high-frequency response of various amplifier circuits.
+CLO4 Understand the concepts of feedback amplifiers and oscillators
+Course Content
+DIODE, TRANSISTORS AND THYRISTORS
+PN junction diode –structure, operation and V-I characteristics, diffusion and transition
+capacitance, Rectifier circuits, Filter circuits, Limiting and clamping circuits, Display devices-
+LED, Laser diodes, Zener diode characteristics- Zener Reverse characteristics – Zener as
+regulator
+BJT, JFET, MOSFET- structure, operation, characteristics and Biasing UJT, Thyristors and
+IGBT -Structure and characteristics.
+AMPLIFIERS
+BJT small signal model – Analysis of CE, CB, CC amplifiers- Gain and frequency response –
+MOSFET small signal model– Analysis of CS and Source follower – Gain and frequency
+response-High frequency analysis.
+MULTISTAGE AMPLIFIERS AND DIFFERENTIAL AMPLIFIER
+BIMOS cascade amplifier, Differential amplifier – Common mode and Difference mode
+analysis – FET input stages – Single tuned amplifiers – Gain and frequency response –
+Neutralization methods.
+Power amplifiers – Classification, Transformer coupled class A power amplifier, push pull class
+B and class AB power amplifiers, efficiency and distortion, Transformer-less class B and Class
+AB power amplifiers, Class C power amplifier
+FEEDBACK AMPLIFIERS AND OSCILLATORS
+Advantages of negative feedback – voltage / current, series, Shunt feedback –positive
+feedback – Condition for oscillations, phase shift – Wien bridge, Hartley, Colpitts and Crystal
+oscillators.
+ELECTRONIC CIRCUITS and APPLICATIONS
+Run virtual experiments on electronic circuits using EDA tools like Circuit Maker, Tina,
+Multisim, or Electronic Workbench. Design of Diode clippers and clampers circuits for signal
+shaping, Zener diode voltage regulators for stable power supplies, Transistor relay drivers for
+low-power control of high-power circuits, Tuned transistor amplifiers for frequency-specific
+amplification, Unijunction transistor timing circuits and oscillators.
+B.Tech. / Instrumentation and Control Engineering 44 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Donald. A. Neamen, Electronic Circuits Analysis and Design, 3rd Edition, Mc Graw Hill
+Education (India) Private Ltd., 2010
+2. Robert L. Boylestad and Louis Nasheresky, Electronic Devices and Circuit Theory,
+11th Edition, Pearson Education, 2013
+3. Sedra and Smith, Micro Electronic Circuits, Sixth Edition, Oxford University Press, 2011
+4. Jacob Millman and Arvin Grabel, Microelectronics, McGraw Hill, 2nd Edition, 2009
+5. R. Spencer and Mohammed S. Ghausi, Introduction to Electronic Circuit Design,
+Pearson, 2003
+6. Millman J, Halkias C. and Sathyabrada Jit, Electronic Devices and Circuits, 4th Edition,
+Mc Graw Hill Education (India) Private Ltd., 2015
+7. David A. Bell, Electronic Devices and Circuits, 5th Edition, Oxford University Press,
+2008
+8. Balbir Kumar, Shail. B. Jain, Electronic devices and circuits PHI learning private limited,
+2nd edition 2014
+9. Thomas L. Floyd, Electronic devices- Conventional current version, Pearson prentice
+hall, 10th Edition, 2017
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Apply knowledge of diodes, transistors (BJTs and FETs), and their biasing circuits
+to understand amplifier operation
+CO2 Analyze the performance of small signal BJT and FET amplifiers - single stage and
+multi stage amplifiers
+CO3 Design and analyze the characteristics of MOSFET and BJT amplifiers
+CO4 Design the feedback amplifiers and oscillators
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO2 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO3 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+CO4 3 3 3 3 3 - - - 2 2 2 3 3 3 -
+B.Tech. / Instrumentation and Control Engineering 45 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

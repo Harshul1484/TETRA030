@@ -1,12 +1,4 @@
-Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
-Course outcomes:
-On completion of the course, the students will be able to:
-apply the concepts of composite construction in engineering
-analyze the behaviour of shear connectors, degree of shear connection and their interaction
-design composite beams under propped and un-propped condition
-design different types of composite deck slabs
-analyze the effects of temperature, shrinkage and creep and cyclic loading on composite
-sections
+CE464 Geotechnical Earthquake Engineering 3 0 0 3
 CE464 GEOTECHNICAL EARTHQUAKE ENGINEERING
 Course objectives:
 To explain the mechanism of earthquake and its related causes to build structures and in-situ
@@ -38,3 +30,11 @@ Education (Singapore) Pvt. Ltd., 2004.
 3. Kameswara Rao, Vibration Analysis and Foundation Dynamics, Wheeler
 4. Robert W. Day, Geotechnical Earthquake Engineering Hand book, McGraw Hill, 2002
 49
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course outcomes:
+On completion of the course, the students will be able to:
+demonstrate the principles of earthquake loading
+quantify earthquake intensity and ground motion
+estimate seismic soil design parameters
+analyze and design seismic resistant foundation for buildings
+prepare soil risk and microzonation maps

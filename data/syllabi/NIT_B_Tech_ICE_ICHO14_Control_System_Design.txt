@@ -1,0 +1,68 @@
+Course Code : ICHO14
+Course Title : Control System Design
+Type of Course : HO
+Prerequisites : ICPC18, ICPC21
+Contact Hours : 56 (4 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge in the concepts and techniques of linear and nonlinear
+control system analysis and synthesis in the modern control (state space)
+framework.
+CLO2 To teach the control design using the classical design principles
+CLO3 To teach the controller and observer designs
+Course Content
+Design of Feedback Control Systems: Introduction; Approaches to System Design; Cascade
+Compensation Networks; Phase-Lead Design Using the Bode Diagram; Phase-Lead Design
+Using the Root Locus; System Design Using Integration Networks; Phase-Lag Design Using
+the Root Locus; Phase-Lag Design Using the Bode Diagram; Design on the Bode Diagram
+Using Analytical Methods; Systems with a Pre-filter; Design for Deadbeat Response; Design
+Examples.
+Design of State Variable Feedback Systems Introduction, State space representation of
+physical systems, State space models of some common systems like R-L-C networks, DC
+motor, inverted pendulum etc., Controllable Canonical Form, Observable Canonical Form,
+Diagonal Canonical Form, State transition matrix, Solution of state equations, Controllability
+and Observability, Full-State Feedback Control Design; Observer Design; Integrated Full-
+State Feedback and Observer; Tracking Reference Inputs; Internal Model Design; Design
+Examples.
+Lyapunov's stability and optimal control positive/negative definite, positive/negative semi-
+definite functions, Lyapunov stability criteria, introduction to optimal control, Riccatti Equation,
+Linear Quadratic Regulator, Design Examples.
+B.Tech. / Instrumentation and Control Engineering 249 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+References
+1. Bernard Friedland, Control System Design: An Introduction to State-Space Methods
+(Dover Books on Electrical Engineering), Dover Publications Inc., 2005.
+2. Gene F. Franklin, J. Da Powell, Abbas Emami-Naeini, Feedback Control of Dynamic
+Systems, Pearson Prentice Hall, 7th Edition, 2014.
+3. Richard C Dorf, Robert H Bishop, Modern Control Systems, Pearson Education India,
+13th Edition, 2013.
+4. Albertos, P., and Mareels, I., Feedback Control for Everyone, Springer Verlag, 2010.
+Available for free download.
+5. Brogan, W.L., Modern Control Theory, Prentice Hall, 1993. Cheaper Indian Edition is
+available. 3rd Edition.
+6. Strogatz, S.H., Nonlinear Dynamics and Chaos: with Applications to Physics, Biology,
+Chemistry, and Engineering, 2nd Edition, Westview Press (USA), Basic Books (India)
+2014
+7. Liu, Y-Y., and Barabási, A-L., Control Principles of Complex Systems, Reviews of
+Modern Physics, Vol. 88, pp. 1-58, 2016
+8. Corke, P., Robotics, Vision and Control, 2nd Edition, Springer International, 2017.
+9. Katsuhiko Ogata, Modern Control Engineering, Pearson, 5th Edition, 2010
+10. Madan Gopal, Modern Control System Theory, New Age International Private Limited,
+2014.
+Course Outcomes (CO)
+At the end of the course student will be able
+CO1 Develop mathematical models for various physical systems.
+CO2 Design state feedback controllers and observers.
+CO3 Design nonlinear controllers using Lyapunov theory.
+CO4 Analyze the stability of nonlinear system.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 3 2 2 2 - - - 3 3 3 2
+CO2 3 3 3 3 3 2 2 3 - - - 3 3 3 2
+CO3 2 3 3 - 3 3 2 3 - - - 3 3 3 2
+CO4 2 3 3 - 3 3 3 3 - - - 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 250 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

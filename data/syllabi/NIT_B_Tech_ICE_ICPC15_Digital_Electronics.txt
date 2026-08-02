@@ -1,0 +1,77 @@
+Course Code : ICPC15
+Course Title : Digital Electronics
+Type of Course : PC
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessments, End Assessment
+Course Learning Objectives (CLO)
+The subject aims to provide the student with
+CLO1 An understanding of number systems, codes and their conversions.
+CLO2 The capability to reduce Boolean expression using K-map and tabular methods.
+CLO3 The ability to design and analyze combinational and sequential logic circuits for
+a given problem statement.
+CLO4 An understanding of digital hardware, different types of logic families and their
+characteristics
+Course Content
+Review of number systems and logic gates, Algebraic reductions, Binary codes -Weighted
+and non- weighted, number complements, Binary arithmetic, Error detecting and error
+correcting codes, SOP, POS Canonical logic forms, Karnaugh maps and Quine-McClusky
+methods, Don’t care conditions, minimization of multiple output functions.
+Synthesis of combinational functions: Arithmetic Circuits-Adder/ Subtractor, carry look-ahead
+adder, signed number addition and subtraction, BCD adders. IC adders. Multiplexers,
+implementation of combinational functions using multiplexers, de-multiplexers, decoders,
+code converters, Digital ICs for combinational logic circuits.
+Sequential Logic: Basic latch circuit, Debouncing of a switch, Flip-Flops: truth table and
+excitation table, conversion of Flip-flops, integrated circuit flip-flops. Race in sequential
+circuits, Shift Registers, Counters - Synchronous, Asynchronous, Up-Down, Design of
+counters.
+Analysis of clocked sequential circuits, Design with state equations, Moore and Mealy graphs,
+State reduction and assignment, Sequence detection, Hazards. Complexity and propagation
+delay analysis of circuits. Programmable logic devices, Design using Programmable Logic
+Devices (PLA, PAL, CPLD and FPGA).
+Digital Hardware: Logic levels, Realization of logic gates, different logic families (TTL, ECL,
+CMOS, HC, HCT, ACT and HSCMOS), Logic levels, voltages and currents, fan-in, fan-out,
+speed, power dissipation. Comparison of logic families, interfacing between different families.
+References
+1. M. Morris Mano, Charles Kime, Tom Martin, Logic and Computer Design
+Fundamentals, Pearson, 5th Edition, 2016
+2. J.P. Uyemura, A First Course in Digital Systems Design: An Integrated Approach,
+Nelson Engineering, 1999
+3. W. H. Gothmann, Digital Electronics - An Introduction to Theory and Practice,
+Prentice Hall of India, 2nd Edition, 2000
+4. J.M. Rabaey, Digital Integrated Circuits: A Design Perspective, Prentice Hall of
+India, 2nd Edition, 2003
+5. N.H.E. Weste, and K. Eshraghian, Principles of CMOS VLSI Design: A Systems
+Perspective, Pearson Education Inc., (Asia), 3rd Edition, 2005
+B.Tech. / Instrumentation and Control Engineering 50 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+6. S. Brown and Z Vranesic, Fundamentals of Logic Design with VHDL Design, Tata
+McGraw- Hill, 2002
+7. V. P. Nelson, H.T. Nagle, E.D. Caroll and J.D. Irwin, Digital Logic Circuit Analysis
+and Design, Prentice Hall International, 1995
+8. Anil K Maini, Digital Electronics: Principles and Integrated Circuits , Wiley, 2019
+9. Thomas L. Floyd, Digital Fundamentals, 11th Edition, Pearson, 2015
+10. Ronald J. Tocci, Widmer Neal, Moss Greg, Digital Systems principles and
+Applications,12th Edition, Prentice Hall, 2010
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Understand various number systems, conversions and simplify the logical
+expressions using Boolean functions.
+CO2 Design and develop arithmetic and other special functions using combinational
+logic circuits and PLDs.
+CO3 Design and develop synchronous and asynchronous for the given problem
+statement.
+CO4 Understand how logic gates are built from the fundamental semiconductor
+electronics and be able to select logic ICs from different families based on
+requirement.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 2 3 2 3 2 2 - - - - - - 3 3 -
+CO2 2 3 2 2 2 3 - - - - - - 3 3 -
+CO3 3 3 3 3 2 2 - - - - - - 3 3 -
+CO4 2 3 2 3 3 2 - - - - - - 3 3 -
+B.Tech. / Instrumentation and Control Engineering 51 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

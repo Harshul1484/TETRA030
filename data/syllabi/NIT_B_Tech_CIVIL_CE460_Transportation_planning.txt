@@ -1,0 +1,34 @@
+CE460 Transportation planning 3 0 0 3
+CE460 TRANSPORTATION PLANNING
+Course objectives:
+To know about the process and concepts of transportation planning
+To study about trip generation
+To study about trip distribution
+To study about modal split analysis
+To study about trip assignment
+Course Content
+Transportation Planning Process and Concepts- Role of transportation - Transportation problems -
+Urban travel characteristics - Concept of travel demand - Demand function - demand estimation -
+Sequential, recursive and simultaneous processes
+Trip Generation Analysis - Zoning - Types and sources of data - Expansion factors - Accuracy checks -
+Trip generation models - Zonal models - Household models - Category analysis - Trip attractions of
+work centers.
+Trip Distribution Analysis - Trip distribution models - Growth factor models - Gravity models -
+Opportunity models.
+Mode Split Analysis - Mode split Models - Mode choice behavior, Competing modes, Mode split curves,
+Probabilistic models.
+45
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Traffic Assignment - Route split analysis: Elements of transportation networks, Nodes and links -
+minimum path trees - all-or-nothing assignment - Multipath assignment - Capacity restraint.
+References
+1. Hutchinson B.G., Principles of Urban Transportation System Planning, McGraw Hill, 2007.
+2. Bruton M.J., Introduction to Transportation Planning, Hutchinson, London, 1992.
+3. C. Jotin Khisty, B. Kent Lall, Transportation Engineering, Prentice Hall of India, 2002.
+Course outcomes:
+On completion of the course, the students will be able to:
+apply the principles of the transportation planning process and demand estimation
+analyse the trip production and trip attraction models
+analyse the growth factor, gravity and opportunity models
+apply the mode choice behaviour and mode split models
+apply the shortest path models for route assignment

@@ -1,0 +1,79 @@
+Course Code : ICPE66
+Course Title : Design of Instrumentation Systems
+Type of Course : PE
+Prerequisites : ICPC17, ICPC20
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart the design knowledge of flow measurement and temperature
+measurement devices.
+CLO2 To introduce about control valve sizing and section of pumps for practical
+applications.
+CLO3 To introduce the process of Electronic product design
+CLO4 To familiarize with the Control Panel design and Control room design details.
+Course Content
+Flow measurement: Design of Orifice meter, Rotameter, Electromagnetic flow meter,
+Ultrasonic flow meter, Coriolis flow meter. Temperature measurement: RTD measuring
+circuit, cold junction compensation circuit for thermocouple, linearization of thermistor
+characteristics and design of temperature transmitter.
+Review of flow equations. Valve selection and sizing for liquid service, gas or vapor service,
+flashing liquids, mixed phase flow. Control valve noise. Control valve cavitations. Actuator
+sizing. Design of safety relief valves and rupture discs.
+Valves: Control valves - design of actuators and positioners - types of valve bodies - valve
+characteristics- materials for body and trim - sizing of control valves - selection of body
+materials and characteristics of control valves for typical applications.
+Electronic product design: System Engineering, ergonomics, phases involved in electronic
+product design. Enclosure Design: Packing and enclosures design guidelines, Grounding
+and shielding, front panel and cabinet design of an electronic product
+Control Panel Design: Panel selection-size, type, construction and IP classification. GA
+Diagrams, Power wiring and distribution, Typical wiring diagrams for AI, DI, AO, DO, RTD,
+and T/C modules. Earthing scheme. Panel ventilation, cooling and illumination. Operating
+consoles- ergonomics. Wiring accessories- ferules, lugs, PVC ducts, spiral etc. Wire sizes
+and color coding. Packing, Pressurized panels- X, Y, and Z Purging for installation in
+hazardous areas. Ex-proof panels. Control Room Design: Layout and environment.
+References
+1. Bela G. Liptak, Instrument Engineer’s Hand Book – Process Control, Chilton Company,
+3rd Edition, 1995.
+2. Andrew Williams, Applied instrumentation in the process industries, 2nd Edition, Vol. 1
+and 3, Gulf publishing company (1993)
+3. Anderson N.A., Instrumentation for Process Measurement and Control, Routledge, 3rd
+Edition, 1997.
+4. Considine D.M., Process Instruments and Controls Handbook, McGraw-Hill., 5th
+Edition2009.
+5. Alok Baura, Fundamentals of Industrial Instrumentation, Wiley India Pvt. Ltd (2011)
+6. R. W. Zape, Valve selection handbook third edition, Jaico publishing house, Les
+Driskell, Control valve sizing, ISA.
+B.Tech. / Instrumentation and Control Engineering 201 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Curtis Johnson, Process Control Instrumentation Technology, PHI/Pearson Education
+7. 2002.
+8. Kim R Fowler, Electronic Instrument Design, Oxford University- 1996.
+9. Manual on product design: IISc C.E.D.T.
+10. Harshvardhan, Measurement Principles and Practices, Macmillan India Ltd-1993.
+11. Mourad Samiha and Zorian Yervant, Principles of Testing Electronic Systems, New
+York. John Wiley and Sons, 2000.
+12. Anand M S, Electronic Instruments and Instrumentation Technology, New Delhi.
+Prentice Hall of India, 2004.
+13. Ott H W, Noise Reduction Techniques in Electronic System., (2) John Wiley and Sons
+New York, 1988.
+14. Johnson C.D., Process Control Instrumentation Technology, Prentice Hall of India, 8th
+Edition, 2009.
+15. B.E. Noltingk, Instrumentation Reference Book, Butterworth- Heinemann, 2nd Edition
+1995.
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Design temperature and flow measurement system for process application.
+CO2 Design and Analyze CV Sizing
+CO3 Identify various Control panels and Control Room details
+CO4 Design an electronic product.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 3 2 3 2 2 - 2 - 3 3 3 2
+CO2 2 - 3 - 3 3 2 2 - 2 - 3 3 3 2
+CO3 2 3 3 3 3 3 3 3 - 3 - 3 3 3 2
+CO4 3 3 3 3 3 3 3 3 - 3 - 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 202 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

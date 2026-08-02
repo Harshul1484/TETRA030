@@ -1,0 +1,50 @@
+Course Code : ECPE29
+Course Title : BROADBAND ACCESS TECHNOLOGIES
+Number of Credits 3
+Prerequisites : ECPC18 & ECPC19
+(Course code)
+Course Type : PE
+Course learning Objective
+ To impart fundamentals and latest technologies related to the design of broadband last mile-
+Access technologies for multimedia communication
+Course content
+Wired access technologies using Phone line modem, ISDN modem. Comparison-Cable, DSL, fiber
+and wireless access technologies.
+Last mile copper access, Flavors of Digital subscriber lines, DSL deployment, Common local loop
+impairments, discrete multi-tone modulation, VDSL deployment and frequency plans. Standards for
+XDSL and comparison.
+Last mile HFC access, Cable modems. Modulation schemes, DOCSIS. Standards- comparison,
+physical and MAC layer protocols for HFC networks, ATM and IP-centric modem. Switched digital
+video.
+Fiber access technologies and architectures. ATM passive optical networks, Upstream and
+downstream transport, Frame format, Ethernet passive optical network, Gigabit passive optical
+networks.
+Survey on emerging broadband wireless access technologies. LMDS,MMDS,WIMAX and WIFI,
+Satellite technologies serving as last mile solutions, Wireless LAN, Wireless personal area
+networking, 3G and 4G wireless systems.
+Text Books
+1. N.Jayant, “Broadband last mile”-Taylor and Francisgroup,2005
+2. N.Ransom & A.A. Azzam, “Broadband Access Technologies”, McGraw Hill, 1999.
+Reference Books
+1. M.P. Clarke, “Wireless Access Network”, Wiley, 2000.
+2. T.Starr, M.Sorbara, J.M.Cioffi and P.J.Silverman,”DSLadvances”,PrenticeHall,2002
+3. S. Mervana & C.Le, “Design and Implementation of DSL-based Access Solutions”, Cisco
+Press, 2001.
+4. W. Vermillion, “End-to-End DSL Architecture”, Cisco Press, 2003.
+5. DOCSIS 2.0 “Radio frequency interface specification”www.cablemodem.com
+6. ITU-T Rec., G.983.1 “Broadband Optical Access systems based on Passive
+OpticalNetworks”,1998
+7. Recent literature in Broadband Access Technologies.
+Course outcomes
+At the end of the course student will be able
+CO1: recall and identify the basics of broadband technology systems and differentiate the
+differences between the various wired and wireless technology system
+CO2: illustrate the aspects of last mile data transport on copper wire networks and flavors of
+DSL
+CO3: summarize the versions of cable network standard and MAC protocols for HFC networks
+CO4: distinguish the cost effective broadband services for residential users and ATM based and
+Ethernet based passive optical networks
+CO5: outline the types of broadband wireless access technologies and their characteristics.
+50 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

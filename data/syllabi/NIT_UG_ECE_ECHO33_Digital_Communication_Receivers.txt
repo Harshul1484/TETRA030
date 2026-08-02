@@ -1,0 +1,40 @@
+Course Code : ECHO33
+Course Title : Digital Communication Receivers
+Number of Credits : 3
+Course Type : HO
+Course Objective
+ To expose the students to the latest trends in the design of digital communication receivers
+with particular emphasis on synchronization, channel estimation and signal processing
+aspects.
+Course Content
+Baseband PAM. Clock recovery circuits. Error tracking and spectral – line generating synchronizers.
+Squaring and Mueller and Muller synchronizers.
+Channel models. Receivers for PAM. Optimum ML receivers. Synchronized detection. Digital
+matched filter.
+ML synchronization algorithms – DD and NDA. Timing parameter and carrier phase estimation – DD
+and NDA.
+Performance analysis of carrier and symbol synchronizers. Feedback and feed forward synchronizers.
+Cycle slipping Acquisition of carrier phase and symbol timing.
+Fading channels. Statistical characterization. Flat and frequency selective fading channels. Optimal
+receivers for data detection and synchronization parameter estimation. Realizable receiver structures
+for synchronized detection.
+Text Books
+1. H.Meyer , M. Moeneclaey, and S. A. Fechtel, “Digital Communication Receivers”, Wiley,
+1998.
+2. U.Mengali & A.N.D.Andrea, “Synchronization Techniques for Digital Receivers”, Kluwer ,
+1997.
+Reference Books
+1. N.Benuveruto & G.Cherubini, “Algorithms for Communication Systems and their
+Applications”, Wiley, 2002.
+2. H.Meyer & G.Ascheid, “Synchronization in Digital Communications”, John Wiley, 1990.
+3. Recent literature in Digital Communication Receivers.
+Course Outcomes
+Students are able to
+CO1: summarize baseband PAM and Synchronizers.
+CO2: model and distinguish the channels.
+CO3: interpret optimum receivers and matched filter receivers.
+CO4: summarize phase and carrier estimation methods.
+CO5: compare carrier and symbol synchronizers.
+152 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

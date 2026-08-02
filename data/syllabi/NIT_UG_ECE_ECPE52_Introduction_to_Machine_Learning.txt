@@ -1,0 +1,35 @@
+Course Code : ECPE52
+Course Title : Introduction to Machine Learning
+Number of Credits : 3
+Course Type : Elective
+COURSE CONTENT:
+Statistical Decision Theory - Regression, Classification, Bias Variance, Linear Regression,
+Multivariate Regression, Subset Selection, Shrinkage Methods, Principal Component Regression,
+Partial Least squares
+Linear Classification, Logistic Regression, Linear Discriminant Analysis, Perceptron, Support Vector
+Machines, Neural Networks - Introduction, Early Models, Perceptron Learning, Backpropagation,
+Initialization, Training & Validation, Parameter Estimation - MLE, MAP, Bayesian Estimation
+Decision Trees, Regression Trees, Stopping Criterion & Pruning loss functions, Categorical
+Attributes, Multiway Splits, Missing Values, Decision Trees - Instability Evaluation Measures,
+Bootstrapping & Cross Validation, Class Evaluation Measures, ROC curve, MDL, Ensemble Methods
+- Bagging, Committee Machines and Stacking, Boosting
+Gradient Boosting, Random Forests, Multi-class Classification, Naive Bayes, Bayesian Networks,
+Undirected Graphical Models, HMM, Variable Elimination, Belief Propagation, Partitional
+Clustering, Hierarchical Clustering, Birch Algorithm, CURE Algorithm, Density-based Clustering,
+Gaussian Mixture Models, Expectation Maximization, Learning Theory, Introduction to
+Reinforcement Learning
+References
+1. The Elements of Statistical Learning, by Trevor Hastie, Robert Tibshirani, Jerome H.
+Friedman
+2. Pattern Recognition and Machine Learning, by Christopher Bishop
+3. Machine Learning: A Bayesian and Optimization Perspective by Sergios Theodoridis
+4. C229 Machine learning lecture notes, Stanford university by Andrew NG
+COURSE OUTCOMES
+1. Understand various regression and classification algorithms
+2. Develop machine learning algorithms for practical applications
+3. Basic Neural networks and back propagation.
+4. Develop an intuition about the bias variance trade-off
+5. Introduction to reinforcement learning and Unsupervised learning
+75 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

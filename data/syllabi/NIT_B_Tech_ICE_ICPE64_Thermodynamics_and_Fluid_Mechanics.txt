@@ -1,0 +1,72 @@
+Course Code : ICPE64
+Course Title : Thermodynamics and Fluid Mechanics
+Type of Course : PE
+Prerequisites : --
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To impart knowledge about the fundamentals of thermodynamic laws, concepts and
+principles.
+CLO2 To introduce the principles of various cycles and to apply the thermodynamic
+concepts in various applications.
+CLO3 To introduce the fundamental concepts of fluid mechanics, pressure distribution
+and dimensional analysis.
+CLO4 To comprehend the metering and transportation of fluids and fluid moving
+machinery performance.
+Course Content
+Basic concepts of thermodynamics: Thermodynamic equilibrium, quasi-static process, zeroth
+law, work and heat interactions, first law for a cycle and a process, steady flow processes,
+second law statements, reversibility, Carnot theorem, Clausius inequality, entropy principle.
+Available energy: Availability and irreversibility, properties of pure substances, phase
+equilibrium diagrams, Rankine cycle, reheat and regenerative cycle, properties of ideal gas,
+Stirling and Ericson cycles.
+Heat engines: Otto, diesel and dual cycles, Brayton cycle with regeneration, inter cooling and
+reheat, Joule- Thompson effect.
+Fundamentals of Fluid mechanics: Classification of fluids and their physical properties, Fluid
+statics, manometers, pressure on submerged bodies. Ideal fluid - velocity field - stream line,
+streak line and path line, continuity equation - Rotational and irrotational flow, stream function
+and potential function, Euler’s equations of motion, Bernoulli's equation and its application.
+Classification of open channel flows - measurement of discharge using rectangular and V-
+notches. Dimensional analysis – Rayleigh's method - Buckinghan Theorem and its
+applications. Laminar flow – Losses – Hagen-Poiseuille equation – Turbulent pipe flow –
+Friction.
+Darcy Weisbach equation – Moody's diagram, minor losses – Boundary layer and its basic
+concepts.
+Fluid machinery: Centrifugal pumps, Reciprocating pumps, Hydraulic ram, Impulse turbine,
+Reaction turbine.
+References
+1. Zemansky, Heat and Thermodynamics, McGraw Hill, New York, 7th Edition, 1997.
+2. Ojha C.S.P., Berndtsson R., Chandramouli P.N., Fluid Mechanics and Machinery,
+Oxford University Press, 2010.
+3. Streeter V.L. and Wylie E.B., Fluid Mechanics, McGraw Hill, New York, 9th Edition,
+1997.
+4. Van Wylen G.A., Fundamentals of classical Thermodynamics, John Wiley and Sons,
+4th Edition, 1994.
+5. Cengal Y.A., Bogles M.A., Micheal Boles, Thermodynamics, McGraw Hill Book
+Company, 2nd Edition, 1994.
+B.Tech. / Instrumentation and Control Engineering 197 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+6. Nag P.K., Engineering Thermodynamics, Tata McGraw Hill, 2nd Edition, 1995.
+7. Crowe C.T., Elger D.F., Williams B.C., Roberson J.A., Engineering Fluid Mechanics
+John Wiley and Sons, 9th Edition, 2009.
+8. S. K. Som, Gautam Biswas, Suman Chakraborty, Introduction to Fluid Mechanics and
+Fluid Machines, 3rd Edition. Tata McGraw-Hill Education. (2013)
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Apply the fundamentals of thermodynamics to various process.
+CO2 Understand various thermodynamic cycles and their applications to heat engines.
+CO3 Apply the knowledge of fundamental concepts in fluids mechanics and usage
+of dimensional analysis for scaling experimental results.
+CO4 Select the metering equipment and fluid moving machinery for an appropriate
+process engineering operation.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 2 1 1 1 3 1 - 1 2 2 3 2 1
+CO2 3 1 3 1 1 2 3 1 - 1 3 3 3 3 2
+CO3 3 - 3 2 2 1 2 1 1 1 2 2 3 2 1
+CO4 3 - 3 2 2 2 2 1 1 2 2 3 3 3 2
+B.Tech. / Instrumentation and Control Engineering 198 | P age
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

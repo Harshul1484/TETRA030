@@ -1,0 +1,40 @@
+CE309 Hydraulic Machinery 3 0 0 3
+CE309 HYDRAULIC MACHINERY
+Course objectives:
+To understand the application of momentum principle of impact of jets on plane and curved
+surfaces
+21
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+To study types of centrifugal Pumps, work done and efficiency of the different types centrifugal
+pumps and also study about performance of pumps & characteristic curves
+To study about specific speed and performance characteristics of different types of turbines
+To study about hydroelectric power plant and estimation of hydropower potential
+To explain the concept of positive displacement
+Course Content
+Principles of impingement of jets - Impact of jet on a stationary vertical plate, stationary inclined plate,
+stationary curved plate, hinged plate, moving vertical and inclined plates, moving curved plate and on
+series of moving flat and curved vanes fixed on the periphery of circular rim.
+Turbines - classification- impulse turbines - Pelton wheel - Reaction turbines - Francis and Kaplan
+Turbines - draft tubes - Governing of a Francis turbine - Performance of turbines - specific speed and
+their significance.
+Centrifugal pump - description and working - Head, discharge and efficiency of a centrifugal pump -
+pressure rise in the pump - minimum starting speed of a pump - cavitation - priming - multistage
+pumps - characteristic curves.
+Reciprocating pump - Description and working - types - discharge and slip - power required to
+drive the pump - Indicator diagram - Air vessel - work done against friction with and without air
+vessels.
+Working principle and use of the following hydraulic pumps and machines - Deep well pumps -
+submersible and jet pumps, special pumps - Gear pump - screw pump, sewage pump, miscellaneous
+machines - Hydraulic press - hydraulic accumulator - Hydraulic ram.
+References
+1. Bansal, R.K., A text book of Fluid Mechanics and Hydraulic Machines, Laxmi Publications (P) Ltd.,
+New Delhi, 2002.
+2. Nagaratnam, S., Fluid Machines and Systems, Tata McGraw Hill, 1989.
+3. Khurmi, R.S., Text Book of Hydraulics and Hydraulic Machine, S. Chand & Co, 2003.
+Course outcomes:
+On completion of the course, the students will be able to:
+calculate forces and work done by a jet on fixed or moving plate and curved plates
+apply the working principles of Impulse and Reaction turbines
+select the type of turbine required with reference to available head of water and discharge
+determine the characteristics of centrifugal pump
+apply the working principles of the Reciprocating pump

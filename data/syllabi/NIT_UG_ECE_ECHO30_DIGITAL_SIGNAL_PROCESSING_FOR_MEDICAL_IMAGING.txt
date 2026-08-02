@@ -1,0 +1,42 @@
+Course Code : ECHO30
+Course Title : DIGITAL SIGNAL PROCESSING FOR MEDICAL IMAGING
+Number of Credits 4
+Prerequisites : ECPC15
+(Course code)
+Course Type : HO
+Course content:
+Sources of Medical Images: Physics of X-ray, CT, PET, MRI, and ultrasound, advantages and
+disadvantages of each imaging modality.
+Image Enhancement: Contrast adjustment, denoising (convolution, FFT), deblurring (solving an ill-
+conditioned sparse linear system), edge detection (numerical approximation to a partial derivative),
+anisotropic diffusion (numerical solution of partial differential equations), super-resolution.
+Registration: Intensity-based methods, including a variety of cost functions (correlation, least
+squares, mutual information, robust estimators), and optimization techniques (fixed-point iteration,
+gradient descent, etc.). Implement registration for rigid and non-rigid transformations. MRI motion
+compensation.
+Segmentation & tissue classification: Thresholding, region growing and watershed. More depth on
+the method of snakes (adaptive mesh), level set method (numerical solution of partial differential
+equations), and clustering (classifiers).
+Reconstruction Methods: Reconstruction techniques for CT (filtered back projection) and MRI
+(using the FFT). Theory of the Radon transform, the Fourier transform, and how they relate to each
+other.
+Text Books
+1. Jerry L. Prince, Jonathan M. Links, Medical imaging signals and systems, Pearson education,
+second edition, 2014
+2. Mark. A. Haidekkar, Medical Imaging technology, Springer briefs in physics,2013.
+Reference Books
+1. Paul suetens, Fundamentals of medical imaging, second edition, Cambridge university press,
+2009.
+2. Recent literature in Digital Signal Processing for Medical Imaging.
+3. Geoff Dougherty, Digital image processing for medical applications, Cambridge
+press
+Course outcomes
+At the end of the course student will be able
+CO1: Describe about different medical imaging modalities and its advantages and disadvantages
+CO2: Describe the signal processing techniques involved in medical image enhancement techniques
+CO3: Describe the signal processing techniques involved in image registration
+CO4: Describe the signal processing techniques involved in segmentation and classification
+CO5: Describe the signal processing techniques involved in image reconstruction.
+149 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

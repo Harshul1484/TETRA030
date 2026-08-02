@@ -1,0 +1,66 @@
+Course Code : ICPC18
+Course Title : Control Systems - I
+Type of Course : PC
+Prerequisites : ICPC13
+Contact Hours : 42 (3 credits)
+Course Assessment Methods : Continuous Assessment, End Assessment
+Course Learning Objectives (CLO)
+CLO1 To introduce the concept of feedback control system.
+CLO2 To impart knowledge in mathematical modeling of physical systems.
+CLO3 To impart knowledge in characteristics and performance of feedback control
+system.
+CLO4 To teach a variety of classical methods and techniques for analysis and design of
+control systems.
+Course Content
+Review of Systems, Mathematical Models – Differential Equations, Linear Approximations and
+Transfer Functions, Block Diagrams and Signal Flow Graphs
+Feedback Control System Characteristics, and Performance Specifications on transients and
+steady-state, Stability of Linear Feedback Systems – Routh-Hurwitz criterion.
+The Root Locus Method, Feedback Control System Analysis and Performance Specifications
+in Time- Domain, Design of Lead, Lag, and PID Controller using Root Locus.
+Frequency Response Methods, Nyquist’s Stability Criterion, Bode Plots, Performance
+Specifications in Frequency-Domain, Stability Margins.
+Design of Lead, Lag and PID controller in Frequency Domain.
+References
+1. Dorf, R.C., Bishop, R.H., Modern Control Systems, Prentice Hall, 13th Edition, 2016
+2. Katsuhiko Ogata, Modern Control Engineering, PHI Learning Private Ltd, 5th Edition,
+2017
+3. Franklin, G.F., David Powell, J., Emami-Naeini, A., Feedback Control of Dynamic
+Systems, Prentice Hall, 8th Edition, 2018
+4. M. Gopal, Control Systems: Principles and Design, Mc Graw Hill Publication,4th
+Edition, 2012
+5. Nise, N.S., Control Systems Engineering, Wiley, 7th Edition, 2018
+6. Golnaraghi, B.C. Kuo, Automatic Control Systems, 10th Edition, McGraw-Hill
+Education, 2018
+7. Nagrath, M. Gopal, Control Systems Engineering, 6th Edition, New Age International
+Publishers, 2017
+8. Anish Deb, Srimanti Roy Choudhury., Control System Analysis and Identification with
+MATLAB, Block Pulse and Related Orthogonal Functions., CRC Press 1st Edition, 2018
+9. Graham C. Goodwin, Stefan F. Graebe, Mario E. Salgado., “Control System Design”,
+13th Edition, Prentice Hall Publication. 2000
+10. N Sivanandam and S N Deepa., Control Systems Engineering Using MATLAB, Vikas
+Publishing, 2nd Edition, 2018
+B.Tech. / Instrumentation and Control Engineering 56 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+Course Outcomes (CO)
+On completion of this course, the students will be able to,
+CO1 Generate mathematical models of dynamic control system by applying differential
+equations.
+CO2 Analyze and characterize the behavior of a control system in terms of different
+system, performance parameters and assess system stability.
+CO3 Evaluate and analyze system performance using frequency and transient response
+analysis.
+CO4 Design and simulate control systems (linear feedback control systems, PID
+controller, and multivariable control systems), using control software, to achieve
+required stability, performance and robustness.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 2 3 3 3 - - - - - - 2 3 3 -
+CO2 3 3 3 3 3 - - - 1 1 - 2 3 3 -
+CO3 2 2 2 3 3 - - - 1 1 - - 2 3 -
+CO4 3 2 3 3 3 - 2 1 1 1 - 2 3 3 -
+B.Tech. / Instrumentation and Control Engineering 57 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

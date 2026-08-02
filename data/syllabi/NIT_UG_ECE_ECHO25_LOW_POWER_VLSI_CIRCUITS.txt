@@ -1,0 +1,38 @@
+Course Code : ECHO25
+Course Title : LOW POWER VLSI CIRCUITS
+Number of 3
+Credits
+Prerequisites : ECPE31
+(Course code)
+Course Type : HO
+Course learning Objective
+ To expose the students to the low voltage device modelling, low voltage, low power VLSI
+CMOS circuit design.
+Course content
+CMOS fabrication process, Shallow trench isolation. Lightly-doped drain. Buried channel.
+Fabrication process of BiCMOS and SOI CMOS technologies.
+Modeling of CMOS devices parameters. Threshold voltage, Body effect, Short channel and Narrow
+channel effects, Electron temperature, MOS capacitance.
+CMOS inverters, static logic circuits of CMOS, pass transistor, BiCMOS, SOI CMOS and low
+power CMOS techniques.
+Basic concepts of dynamic logic circuits. Various problems associated with dynamic logic circuits.
+Differential, BiCMOS and low voltage dynamic logic circuits.
+CMOS memory circuits, Decoders, sense amplifiers, SRAM architecture. Low voltage SRAM
+techniques.
+Text Books
+1. Jan Rabaey,”Low Power Design Essentials (Integrated Circuits and Systems)”, Springer,2009
+2. J.B.Kuo&J.H.Lou,”Low-voltage CMOS VLSI Circuits”, Wiley, 1999.
+Reference Book
+3. A.Bellaowar&M.I.Elmasry,”Low power Digital VLSI Design, Circuits and Systems”,
+Kluwer, 1996.
+4. Recent literature in Low Power VLSI Circuits.
+Course outcomes
+At the end of the course student will be able
+CO1: acquire the knowledge about various CMOS fabrication process and its modeling.
+CO2: infer about the second order effects of MOS transistor characteristics.
+CO3: analyze and implement various CMOS static logic circuits.
+CO4: learn the design of various CMOS dynamic logic circuits.
+CO5: learn the different types of memory circuits and their design.
+144 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

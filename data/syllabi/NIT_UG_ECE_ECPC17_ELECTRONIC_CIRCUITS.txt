@@ -1,0 +1,39 @@
+Course Code : ECPC17
+Course Title : ELECTRONIC CIRCUITS
+Number of Credits 3
+Prerequisites : ECPC13
+(Course code)
+Course Type : PC
+Course Learning Objective
+ To make the students understand the fundamentals of electronic circuits.
+Course Content
+Load line, operating point, biasing methods for BJT and MOSFET. Low frequency and high models
+of BJT and MOSFET, Small signal Analysis of CE, CS, CD and Cascade amplifier
+MOSFET amplifiers: Current mirrors: Basic current mirror, Cascade current mirror, Single-ended
+amplifiers: CS amplifier – with resistive load, diode connected load, current source load, triode load,
+source degeneration. CG and CD amplifiers, Cascade amplifier,
+Frequency response of amplifiers, Differential Amplifiers, CMRR, Differential amplifiers with active
+load, two stage amplifiers
+Feedback concept, Properties, Feedback amplifiers, Stability analysis, Condition for oscillation,
+Sinusoidal oscillators.
+Power amplifiers- class A, class B, class AB, Biasing circuits, class C and class D
+Text Books
+1. A.S.Sedra & K.C.Smith, “Microelectronic Circuits (5/e)”, Oxford, 2004.
+2. D.L.Schilling & C.Belove, ”Electronic Circuits: Discrete and Integrated”, (3/e), McGraw
+Hill, 1989.
+Reference Books
+1. Behzad Razavi, “Design of Analog CMOS Integrated Circuits”, (2/e), McGraw Hill, 2017.
+2. J.Millman & Arvin Grabel, “Microelectronics”, McGraw Hill, 2007.
+3. K.V.Ramanan, “Functional Electronics”, Tata McGraw Hill, 1984.
+Course outcomes
+At the end of the course student will be able
+CO1: illustrate about rectifiers, transistor and FET amplifiers and its biasing. Also compare the
+performances of its low frequency models.
+CO 2: discuss about the frequency response of MOSFET and BJT amplifiers.
+CO 3: illustrate about MOS and BJT differential amplifiers and its characteristics.
+CO4: discuss about the feedback concepts and construct feedback amplifiers and oscillators. Also
+summarizes its performance parameters.
+CO 5: explain about power amplifiers and its types and also analyze its characteristics.
+24 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

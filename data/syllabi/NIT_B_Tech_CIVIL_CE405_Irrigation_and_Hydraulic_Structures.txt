@@ -1,0 +1,38 @@
+CE405 Irrigation and Hydraulic Structures 2 0 2 3
+CE405 IRRIGATION AND HYDRAULIC STRUCTURES
+Course Objectives:
+To understand the basic types of irrigation, irrigation standards and crop water assessment
+To study the different aspects of design of hydraulic structures
+To provide knowledge on various hydraulic structures such as energy dissipaters, head and
+cross regulators, canal falls and structures involved in cross drainage works
+To understand the analysis of seepage and hydraulic jump
+To design different types of dams
+32
+Department of Civil Engineering, National Institute of Technology, Tiruchirappalli – 620 015.
+Course Content
+Irrigation - necessity - Types of irrigation - Methods of supplying water - Assessment of irrigation water
+- Consumptive use and its determination - water requirement of various crops - Duty - Delta - Base
+period and crop period.
+Functions and components of a diversion head work - Function - selection of site - type of weirs on
+pervious foundations - cause of failure - Bligh's creep theory and Khosla's theory - complete
+design of a vertical drop weir.
+Gravity dams - Non overflow section - forces acting - stability rules - elementary profile - Low and High
+dams - drainage gallery - Construction joints - Earthen dams - stability of slopes by slip circle
+method - seepage analysis and its control
+Types of canals - canal alignment - Kennedy's silt theory - Lacey's silt theory - Design of canals
+using the above theories - economical depth of cutting - canal losses - canal maintenance - lined
+canals and their design - silt control measures.
+Canal falls - Necessity and location - Design of sand type fall - design of a cross regulator - cross
+drainage works - selection of suitable type of cross drainage work - canal outlets.
+Note: Assignments include the design and drawings of various irrigation structures.
+References
+1. Punmia, B.C., Irrigation and Water Power Engineering, Standard Publishers, 2001.
+2. Garg, S.K., Irrigation and Hydraulics Structures, Khanna Publishers, 1992.
+3. Sharma, S.K., Principles and Practice of Irrigation Engg, S.Chand & Co, 1984.
+Course outcomes:
+On completion of the course, the students will be able to:
+assess the irrigation needs of crops
+design weirs on pervious foundation
+design gravity dam and earthen dam
+design the canal systems
+select and design canal fall

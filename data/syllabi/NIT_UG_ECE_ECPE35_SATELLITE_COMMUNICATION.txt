@@ -1,0 +1,44 @@
+Course Code : ECPE35
+Course Title : SATELLITE COMMUNICATION
+Number of Credits 3
+Prerequisites : ECPC18
+(Course code)
+Course Type : PE
+Course learning Objectives
+ To introduce and to make understand the radio propagation channel for Earth station to
+satellite & satellite to Earth station.
+ To introduce various aspects in the design of communication & multiple access systems for
+satellite communication.
+ To introduce the concept of launchers and design of Earth station and satellite link.
+Course content
+Elements of orbital mechanics. Equations of motion. Tracking and orbit determination. Orbital
+correction/control. Satellite launch systems. Multistage rocket launchers and their performance.
+Elements of communication satellite design. Spacecraft subsystems. Reliability considerations.
+Spacecraft integration.
+Multiple access techniques. FDMA, TDMA, CDMA. Random access techniques. Satellite on-board
+processing.
+Satellite Link Design: Performance requirement and standards. Laser Satellite Communication: Link
+analysis, optical satellite link transmitter, optical satellite link receiver, satellite beam acquisition,
+tracking & positioning, deep space optical communication link.
+Earth station design. Configurations. Antenna and tracking systems. Satellite broadcasting. GPS.
+VSAT.
+Text Books
+1. D. Roddy, “Satellite Communication (4/e)”, McGraw-Hill, 2009.
+2. T. Pratt & C. W. Bostain, “Satellite Communication”, Wiley 2000.
+Reference Books
+1. Bruce R. Elbert, ‘The Satellite Communication Applications’ Hand Book, Artech House
+Bostan London, 1997.
+2. B. N. Agrawal, “Design of Geo synchronous Spacecraft”, Prentice-Hall, 1986.
+3. A.K. Maini, V. Agrawal, “Satellite Communications”, Wiley India Pvt Ltd, 1999.
+4. Recent literature in Satellite Communication.
+Course outcomes
+At the end of the course student will be able
+CO1: learn the dynamics of the satellite.
+CO2: learn the spacecraft and subsystems.
+CO3: understand how analog and digital technologies are used for satellite communication
+networks.
+CO4: understand the radio frequency channel from Earth station to Satellite.
+CO5: study the design of Earth station and tracking of the satellites.
+57 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015

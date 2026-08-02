@@ -3,6 +3,7 @@ import Link from "next/link";
 import { api, type GapReport } from "@/lib/api";
 import { AugmentPanel } from "@/components/augment-panel";
 import { RoadmapPanel } from "@/components/roadmap";
+import { EvidencePanel } from "@/components/evidence-panel";
 import { GapList } from "@/components/gap-list";
 import { Card, ErrorPanel, HealthScore, SectionTitle, Stat } from "@/components/ui";
 
@@ -67,9 +68,9 @@ export default async function CoursePage({
           <p className="mt-2.5 max-w-3xl text-[16px] leading-relaxed text-[var(--color-ink-soft)]">
             {report.evidence_note}
           </p>
-          <p className="caption mt-3 text-[var(--color-ink-mute)]">
-            {report.domain_postings} matching postings in the current corpus
-          </p>
+          <div className="mt-5 border-t border-[var(--color-ink)]/15 pt-4">
+            <EvidencePanel courseCode={report.course_code} />
+          </div>
         </div>
       ) : null}
 
@@ -79,14 +80,16 @@ export default async function CoursePage({
             Domain alignment
           </p>
           <div className="mt-2">
-            <HealthScore score={report.health_score} />
+            <HealthScore score={report.health_score ?? null} />
           </div>
           <p className="caption mt-3 leading-relaxed text-[var(--color-ink-mute)]">
-            share of market demand in{" "}
-            {report.scored_against?.length
-              ? report.scored_against.join(" and ")
-              : "this field"}{" "}
-            that this syllabus covers
+            {report.health_score === null
+              ? "not scored, too few postings in this subject area to measure against"
+              : `share of market demand in ${
+                  report.scored_against?.length
+                    ? report.scored_against.join(" and ")
+                    : "this field"
+                } that this syllabus covers`}
           </p>
         </div>
         <Stat label="Gaps identified" value={report.gaps.length} />
@@ -101,6 +104,15 @@ export default async function CoursePage({
             hint="within two prerequisite hops"
           />
       </div>
+
+      {!report.evidence_thin ? (
+        <section>
+          <SectionTitle hint={`The ${report.domain_postings} postings this course was measured against.`}>
+            Evidence
+          </SectionTitle>
+          <EvidencePanel courseCode={report.course_code} />
+        </section>
+      ) : null}
 
       <section>
         <SectionTitle hint={report.evidence_thin ? "Findings outside this course's subject area are withheld when the corpus lacks the evidence to rank them." : "Ranked by market demand weighted against current coverage. Every gap cites the postings behind it."}>

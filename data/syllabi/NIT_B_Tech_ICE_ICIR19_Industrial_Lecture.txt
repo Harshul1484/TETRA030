@@ -1,0 +1,48 @@
+Course Code : ICIR19
+Course Title : Industrial Lecture
+Type of Course : IR
+Prerequisites : --
+Contact Hours : (1 credit)
+Course Assessment Methods : Quizzes at the end of each of the industrial lectures
+Course Learning Objectives (CLO)
+CLO1 To make the student relate theoretical knowledge and concepts in Instrumentation
+and Control Engineering to practical relevance and applications in the industry.
+CLO2 To enable the student, learn about contemporary problems faced by the industry
+and systematic approaches in solving them.
+CLO3 To provide a platform for the student to interact with experts from industries and
+research and development organizations.
+CLO4 To make the student aware of different application areas in the industry and explore
+about different career paths relevant to Instrumentation and Control Engineering.
+Course Regulation
+A course based on industrial lectures shall be offered for 1 credit during the prefinal year of
+study in B.Tech.. A minimum of five lectures of two hours’ duration by industry experts will be
+arranged by the Department.
+The evaluation methodology, will in general, be based on quizzes at the end of each lecture.
+Due weightage shall be given to attendance also. The HoD or her/his nominee may devise a
+suitable methodology for evaluation and the same would be informed to the students before
+the commencement of the semester.
+Course Outcomes (CO)
+On completion of the Industrial lectures, the student will be able to
+CO1 Connect theoretical concepts in Instrumentation and Control Engineering to
+practical relevance and applications in the industry.
+CO2 Get exposure on various challenges faced by the modern industry and the
+systematic approaches to tackle them.
+CO3 Enhance comprehension and communication skills during interactions with experts
+from the industry.
+CO4 List various career paths and roles in the industry relevant to Instrumentation and
+Control Engineering.
+Course Outcome and Programme Outcome Mapping
+0 1 2 1 2 3
+1 2 3 4 5 6 7 8 9 1 1 1 O O O
+O O O O O O O O O O O O S S S
+P P P P P P P P P P P P P P P
+CO1 3 3 3 2 2 _- - - - - - 3 3 3 1
+CO2 3 3 3 3 2 3 2 3 2 2 2 3 3 3 2
+CO3
+_ _ _ _ _ 2 2 3 3 3 _ 2 _ 2 3
+CO4 2 _ 2 3 3 2 _ 2 2 3 3 2 2 2 3
+B.Tech. / Instrumentation and Control Engineering 40 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli
+PROGRAMME CORE (PC) COURSES
+B.Tech. / Instrumentation and Control Engineering 41 | Pa ge
+Department of Instrumentation and Control Engineering, National Institute of Technology, Tiruchirappalli

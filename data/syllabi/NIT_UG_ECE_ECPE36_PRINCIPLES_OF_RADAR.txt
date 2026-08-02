@@ -1,0 +1,37 @@
+Course Code : ECPE36
+Course Title : PRINCIPLES OF RADAR
+Number of Credits 3
+Prerequisites : ECPC20
+(Course code)
+Course Type : PE
+Course learning Objective
+ To expose the students to the working principles of a radar from a signal processing
+perspective.
+Course content
+Radar equation. Radar cross section. Cross section of small targets. Target scattering matrices. Area
+and volume targets.
+Radar signals. Ambiguity function and its properties. Uncertainty principle. Pulse compression.
+Linear FM pulse. Pulse compression by Costas FM and binary phase coding.
+Radar detection. Optimum Bayesian decision rules. Detection criteria for different target models.
+Range and Doppler measurements and tracking. Range and Doppler frequency resolutions. Optimum
+receivers. Optimum filters for Doppler measurements. Coherent and non-coherent implementations.
+Angle measurement and tracking. Angle measurement and tracking by conical scan and mono pulse.
+Optimum mono pulse systems.
+Text Books
+1. P.Z.Peebles, Radar Principles, Wiley, 1998.
+2. Merrill I. Skolink, Introduction to Radar Systems, (3/e), Tata MG Graw Hill,2001
+Reference Books
+1. N.Levanon, Radar Signals, Wiley, 2005.
+2. D.Wehnar: High Resolution Radar, Artech Hous, 1987.
+3. D.K.Barton: Radar systems Analysis, Prentice Hall, 1976.
+4. Recent literature in Principles of Radar.
+Course outcomes
+At the end of the course student will be able
+CO1: Understand the principle behind radar range equation and different types of targets available.
+CO2: Appreciate the different compression techniques of radar pulse signals.
+CO3: Distinguish between different detection methods of radar signals.
+CO4: Appreciate the building blocks for optimum receiver and Doppler measurements.
+CO5: Understand the tracking and scanning methods in the mono pulse systems.
+58 | P age
+Department of Electronics and Communication Engineering,
+National Institute of Technology, Tiruchirappalli – 620 015
