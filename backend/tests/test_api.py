@@ -164,3 +164,26 @@ def test_market_summary_states_the_evidence_base():
     summary = client.get("/api/market/summary").json()
     assert "postings" in summary
     assert "skills_demanded" in summary
+
+
+@NEEDS_GRAPH
+def test_accreditation_matrix_rejects_an_unknown_course():
+    """A compliance document describing a course that does not exist is
+    worse than an error, because somebody could file it."""
+    response = client.get("/api/accreditation/matrix?course=NOT-A-REAL-COURSE")
+    assert response.status_code == 404
+
+
+@NEEDS_GRAPH
+def test_accreditation_findings_state_their_own_limits():
+    """The tool derives mapping, not attainment. That distinction has to
+    survive into the payload, not just the docstring."""
+    data = client.get("/api/accreditation/findings").json()
+    assert data["pos_total"] == 12
+    assert 0 <= data["pos_covered"] <= 12
+
+
+@NEEDS_GRAPH
+def test_programme_endpoints_bound_their_limits():
+    for query in ("limit=-5", "limit=0", "limit=99999"):
+        assert client.get(f"/api/programme?{query}").status_code == 422

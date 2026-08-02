@@ -107,10 +107,27 @@ def test_coverage_counts_distinct_courses():
     assert matrix["po_coverage"]["PO1"]["outcome_count"] == 3
 
 
-def test_empty_programme_reports_every_outcome_as_uncovered():
+def test_no_data_is_not_reported_as_total_non_compliance():
+    """An empty result must not read as twelve uncovered outcomes.
+
+    That is the most alarming finding the system can produce, and for a
+    course with no mapped data it would be fabricated. The empty case says
+    it has nothing to assess.
+    """
     matrix = _matrix([])
-    assert len(matrix["uncovered"]) == 12
+
+    assert matrix["uncovered"] == []
+    assert matrix["outcome_count"] == 0
     assert matrix["outcomes"] == []
+    assert "nothing here to assess" in matrix["note"]
+
+
+def test_empty_matrix_still_carries_the_full_po_structure():
+    """Callers should not have to special-case the empty response."""
+    matrix = _matrix([])
+
+    assert set(matrix["po_coverage"]) == set(PROGRAMME_OUTCOMES)
+    assert all(v["course_count"] == 0 for v in matrix["po_coverage"].values())
 
 
 def test_an_uncovered_outcome_is_a_major_finding():
