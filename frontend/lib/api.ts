@@ -57,6 +57,60 @@ export interface MarketSummary {
 }
 
 
+
+export interface Placement {
+  skill: string;
+  course_code: string | null;
+  course_title?: string;
+  distance?: number;
+  via?: string[];
+  alternatives?: string[];
+  confident?: boolean;
+  reason: string;
+  effort: string;
+  semesters: number;
+  detail: string;
+}
+
+export interface ProgrammeGap {
+  skill: string;
+  category: string;
+  postings_requiring: number;
+  postings_total: number;
+  demand_share: number;
+  placement: Placement | null;
+}
+
+export interface StructuralDefect {
+  skill: string;
+  missing_prerequisites: string[];
+  taught_in: string[];
+}
+
+export interface ProgrammeReport {
+  gaps: ProgrammeGap[];
+  structural_defects: StructuralDefect[];
+  gap_count: number;
+  defect_count: number;
+}
+
+export interface ComplianceFinding {
+  po: string;
+  statement: string;
+  finding: string;
+  severity: string;
+}
+
+export interface ComplianceFindings {
+  findings: ComplianceFinding[];
+  major_count: number;
+  risk_count: number;
+  observation_count: number;
+  outcomes_mapped: number;
+  pos_covered: number;
+  pos_total: number;
+}
+
 export interface RoadmapSkill {
   skill: string;
   category: string;
@@ -152,6 +206,12 @@ export const api = {
 
   gaps: (courseCode: string) =>
     request<GapReport>(`/api/courses/${encodeURIComponent(courseCode)}/gaps`),
+
+  programme: (limit = 20) =>
+    request<ProgrammeReport>(`/api/programme?limit=${limit}`),
+
+  complianceFindings: () =>
+    request<ComplianceFindings>("/api/accreditation/findings"),
 
   roadmap: (courseCode: string) =>
     request<Roadmap>(
