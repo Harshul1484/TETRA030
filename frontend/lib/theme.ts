@@ -18,6 +18,10 @@ export const CATEGORY_BLOCKS: Record<string, { bg: string; dot: string; label: s
   foundations: { bg: "var(--color-block-stone)", dot: "#6d6c62", label: "Foundations" },
   mathematics: { bg: "var(--color-block-stone)", dot: "#6d6c62", label: "Mathematics" },
   professional: { bg: "var(--color-block-stone)", dot: "#7b7f86", label: "Professional" },
+  civil: { bg: "var(--color-block-rust)", dot: "#a5522f", label: "Civil" },
+  mechanical: { bg: "var(--color-block-slate)", dot: "#4a5f7d", label: "Mechanical" },
+  electrical: { bg: "var(--color-block-ochre)", dot: "#8f6a1f", label: "Electrical" },
+  process: { bg: "var(--color-block-fern)", dot: "#3d6b4a", label: "Process" },
 };
 
 const FALLBACK = {

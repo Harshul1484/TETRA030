@@ -123,11 +123,16 @@ export function SyllabusUpload() {
             if (!busy) inputRef.current?.click();
           }
         }}
-        className={`flex min-h-[260px] cursor-pointer flex-col items-center justify-center rounded-[var(--radius-lg)] border-2 border-dashed px-8 py-14 text-center transition-colors ${
+        className={`flex min-h-[300px] cursor-pointer flex-col items-center justify-center rounded-[var(--radius-lg)] border-2 border-dashed px-8 py-16 text-center transition-all ${
           dragging
-            ? "border-[var(--color-ink)] bg-[var(--color-surface-soft)]"
-            : "border-[var(--color-hairline)] bg-[var(--color-surface)] hover:border-[var(--color-ink-mute)]"
-        } ${busy ? "pointer-events-none opacity-70" : ""}`}
+            ? "border-[var(--color-ink)]"
+            : "border-[var(--color-hairline)] hover:border-[var(--color-ink-mute)]"
+        } ${busy ? "pointer-events-none" : ""}`}
+        style={{
+          backgroundColor: dragging
+            ? "var(--color-block-periwinkle)"
+            : "var(--color-surface)",
+        }}
       >
         <input
           ref={inputRef}
@@ -165,11 +170,30 @@ export function SyllabusUpload() {
           <>
             <span
               aria-hidden
-              className="mb-5 inline-block h-9 w-9 rounded-[9px]"
+              className={`mb-5 flex h-14 w-14 items-center justify-center rounded-full transition-transform ${
+                dragging ? "-translate-y-1 scale-110" : ""
+              }`}
               style={{ backgroundColor: "var(--color-block-periwinkle)" }}
-            />
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="var(--color-ink)"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M12 16V4" />
+                <path d="m7 9 5-5 5 5" />
+                <path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" />
+              </svg>
+            </span>
             <p className="card-title text-[var(--color-ink)]">
-              Drop a syllabus here, or select a file
+              {dragging
+                ? "Release to analyse"
+                : "Drop a syllabus here, or select a file"}
             </p>
             <p className="mt-3 max-w-md text-[16px] text-[var(--color-ink-soft)]">
               PDF, Word, Markdown or plain text, up to 10 MB. It runs through
